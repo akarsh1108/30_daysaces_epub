@@ -1,0 +1,412 @@
+{
+  "title": "Weekend Night Scape Makeover",
+  "units": "imperial",
+  "outputs": {
+    "cover": "build\\Weekend Night Scape Makeover\\cover.pdf",
+    "pdf": "build\\Weekend Night Scape Makeover\\weekend-night-scape-makeover.pdf",
+    "epub": "build\\Weekend Night Scape Makeover\\weekend-night-scape-makeover.epub",
+    "epub_preview": "build\\Weekend Night Scape Makeover\\epub-preview.html"
+  },
+  "ai_generated_images": 0,
+  "kdp_ai_disclosure_required": false,
+  "images": [
+    {
+      "query": "nighttime landscape lighting, warm inviting glow, front yard, pathway illumination, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Marius-Laurentiu Butan on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\000-pexels.jpg"
+    },
+    {
+      "query": "Pune apartment front yard, warm lighting, inviting pathway, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Yusuf Çelik on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\002-pexels.jpg"
+    },
+    {
+      "query": "Bengaluru apartment front yard, layered lighting, depth and dimension, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Aditya Oberai on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\003-pexels.jpg"
+    },
+    {
+      "query": "Mumbai flat outdoor lighting, contrast and comfort, inviting atmosphere, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Hasini Parsa on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\004-pexels.jpg"
+    },
+    {
+      "query": "Exterior of a modern Indian home at dusk, showcasing layered lighting effects, warm ambiance, and architectural features.",
+      "source": "pexels",
+      "credit": "Photo by Curtis Adams on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\005-pexels.jpg"
+    },
+    {
+      "query": "Pune apartment facade at dusk, showcasing warm lighting and architectural details, with a focus on textures and layers.",
+      "source": "pexels",
+      "credit": "Photo by Muhammad Rasyad Indra Putra on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\006-pexels.jpg"
+    },
+    {
+      "query": "Sketch of a Pune apartment garden layout with marked planes and hazards, emphasizing clarity and organization.",
+      "source": "pexels",
+      "credit": "Photo by Nowrin Sanjana on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\007-pexels.jpg"
+    },
+    {
+      "query": "small indian apartment interior minimalist daylight editorial",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\009-pexels.jpg"
+    },
+    {
+      "query": "path lighting, outdoor lighting, warm glow, evening ambiance, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Vladimir Srajber on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\011-pexels.jpg"
+    },
+    {
+      "query": "low voltage transformer, solar path lights, garden lighting, evening ambiance, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Alexander Popadin on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\012-pexels.jpg"
+    },
+    {
+      "query": "outdoor fixtures, garden lighting, evening ambiance, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by John Joshua Mejia Jose on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\013-pexels.jpg"
+    },
+    {
+      "query": "transformer sizing, outdoor lighting setup, evening ambiance, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Sóc Năng Động on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\014-pexels.jpg"
+    },
+    {
+      "query": "outdoor connectors, lighting controls, evening ambiance, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Gergő Køvács on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\015-pexels.jpg"
+    },
+    {
+      "query": "circuit planning for outdoor lighting, zone grouping, evening ambiance, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Rizky Sabriansyah on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\018-pexels.jpg"
+    },
+    {
+      "query": "cable routing for outdoor lighting, transformer placement, evening ambiance, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Connor Scott McManus on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\019-pexels.jpg"
+    },
+    {
+      "query": "materials staging for outdoor lighting, pre-install checklist, evening ambiance, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Bogdan Semenchuk on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\020-pexels.jpg"
+    },
+    {
+      "query": "A well-organized garage with a clean bench setup, tools and materials neatly arranged for a weekend project, soft evening light, no people, no text.",
+      "source": "pexels",
+      "credit": "Photo by studio sol on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\021-pexels.jpg"
+    },
+    {
+      "query": "A clean garage workspace with tools and materials organized for a weekend project, soft evening light, no people, no text.",
+      "source": "pexels",
+      "credit": "Photo by Ono  Kosuki on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\022-pexels.jpg"
+    },
+    {
+      "query": "A well-trenched yard with fixtures placed for Zone A, natural morning light, no people, no text.",
+      "source": "pexels",
+      "credit": "Photo by Dextar Studio ™ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\023-pexels.jpg"
+    },
+    {
+      "query": "A well-organized yard with fixtures placed for Zones B and C, afternoon light filtering through, no people, no text.",
+      "source": "pexels",
+      "credit": "Photo by Khanh  Dang on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\024-pexels.jpg"
+    },
+    {
+      "query": "garden lighting layout, evening glow, low voltage transformer, lush plants, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by suzukii xingfu on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\027-pexels.jpg"
+    },
+    {
+      "query": "cable installation, outdoor lighting fixtures, evening glow, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Fez Brook on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\029-pexels.jpg"
+    },
+    {
+      "query": "nighttime garden lighting, glare control hardware, warm glow, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Baran Robin on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\035-pexels.jpg"
+    },
+    {
+      "query": "landscape lighting maintenance, outdoor space, evening ambiance, soft lighting, clean fixtures, Indian residential front yard",
+      "source": "pexels",
+      "credit": "Photo by Matheus Bertelli on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\036-pexels.jpg"
+    },
+    {
+      "query": "landscape lighting maintenance, outdoor space, evening ambiance, clean fixtures, Indian residential front yard",
+      "source": "pexels",
+      "credit": "Photo by Sharath G. on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\037-pexels.jpg"
+    },
+    {
+      "query": "full-bleed shot of a beautifully lit front yard at dusk, showcasing layered lighting effects, soft shadows, and inviting ambiance",
+      "source": "pexels",
+      "credit": "Photo by Jared VanderMeer on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\041-pexels.jpg"
+    },
+    {
+      "query": "close-up of lighting fixtures and tools staged on a table, natural light, soft shadows, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Thomas Svensson on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\042-pexels.jpg"
+    },
+    {
+      "query": "image of a neatly organized workspace with tools and materials for outdoor lighting, natural light, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Chengxin Zhao on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\043-pexels.jpg"
+    },
+    {
+      "query": "image of a transformer mounted on a wall with connections visible, natural light, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Carsten Ruthemann on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\044-pexels.jpg"
+    },
+    {
+      "query": "image of a beautifully lit outdoor space at night, showcasing the final results of a well-executed lighting project, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Gorma Kuma on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\045-pexels.jpg"
+    },
+    {
+      "query": "front yard lighting design, dusk, various light fixtures, budget planning, outdoor ambiance",
+      "source": "pexels",
+      "credit": "Photo by Laura Lee Van Herck on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\046-pexels.jpg"
+    },
+    {
+      "query": "load calculation for outdoor lighting, wiring diagram, transformer setup",
+      "source": "pexels",
+      "credit": "Photo by Matthias Schleiden on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\049-pexels.jpg"
+    },
+    {
+      "query": "small indian apartment interior minimalist daylight editorial",
+      "source": "pexels",
+      "credit": "Photo by Anisha Deb on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\051-pexels.jpg"
+    },
+    {
+      "query": "stock photo of outdoor lighting setup, evening light, warm glow, textured surfaces, no people",
+      "source": "pexels",
+      "credit": "Photo by Alexander Popadin on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\052-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a multimeter measuring voltage, outdoor lighting setup, evening light, no people",
+      "source": "pexels",
+      "credit": "Photo by Sphinxx69 on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\053-pexels.jpg"
+    },
+    {
+      "query": "stock photo of outdoor lighting fixtures with flickering lights, evening light, warm glow, no people",
+      "source": "pexels",
+      "credit": "Photo by Ricardo Usher Malcolm on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\photos\\054-pexels.jpg"
+    }
+  ],
+  "figures": [
+    {
+      "spec_id": "D001",
+      "kind": "plan",
+      "title": "Lumen Range: For Most Front Walks, 100",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\figures\\D001.svg"
+    },
+    {
+      "spec_id": "D002",
+      "kind": "table",
+      "title": "Beam: Wide Flood Beams, Roughly 60 To",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\figures\\D002.svg"
+    },
+    {
+      "spec_id": "D003",
+      "kind": "table",
+      "title": "Beam: Narrow To Medium, Roughly 10 To",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\figures\\D003.svg"
+    },
+    {
+      "spec_id": "D004",
+      "kind": "table",
+      "title": "Placement: Aim From A Lower Position At",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\figures\\D004.svg"
+    },
+    {
+      "spec_id": "D005",
+      "kind": "plan",
+      "title": "Beam: Narrow, Around 10 To 25 Degrees",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\figures\\D005.svg"
+    },
+    {
+      "spec_id": "D006",
+      "kind": "table",
+      "title": "Beam: Medium To Wide, Roughly 30 To",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\figures\\D006.svg"
+    },
+    {
+      "spec_id": "D007",
+      "kind": "plan",
+      "title": "Build The Layers Foreground Path Glow: Select",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\figures\\D007.svg"
+    },
+    {
+      "spec_id": "D008",
+      "kind": "elevation",
+      "title": "Note 12 To 24 Inch Mounting Height",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\figures\\D008.svg"
+    },
+    {
+      "spec_id": "D034",
+      "kind": "table",
+      "title": "As A Practical Guide, Keep Voltage Drop",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\figures\\D034.svg"
+    },
+    {
+      "spec_id": "D035",
+      "kind": "table",
+      "title": "Enough For A 20 To 30 Foot",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\figures\\D035.svg"
+    },
+    {
+      "spec_id": "D036",
+      "kind": "plan",
+      "title": "The Homeowner Places Eight Solar Path Lights",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\figures\\D036.svg"
+    },
+    {
+      "spec_id": "D037",
+      "kind": "table",
+      "title": "Solve By Choosing 12 Or 14 Gauge",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\figures\\D037.svg"
+    },
+    {
+      "spec_id": "D034",
+      "kind": "table",
+      "title": "As A Practical Guide, Keep Voltage Drop",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\figures\\D034.svg"
+    },
+    {
+      "spec_id": "D037",
+      "kind": "table",
+      "title": "Solve By Choosing 12 Or 14 Gauge",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\figures\\D037.svg"
+    },
+    {
+      "spec_id": "D038",
+      "kind": "table",
+      "title": "Calculate Total Wattage And Pick A Transformer",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\figures\\D038.svg"
+    },
+    {
+      "spec_id": "D039",
+      "kind": "ratio_bar",
+      "title": "Loads Under 80 Percent Of Transformer Capacity",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\figures\\D039.svg"
+    },
+    {
+      "spec_id": "D039",
+      "kind": "ratio_bar",
+      "title": "Loads Under 80 Percent Of Transformer Capacity",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\figures\\D039.svg"
+    },
+    {
+      "spec_id": "D040",
+      "kind": "plan",
+      "title": "Examples Small Bungalow, Under 300, Four Path",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\figures\\D040.svg"
+    },
+    {
+      "spec_id": "D040",
+      "kind": "plan",
+      "title": "Examples Small Bungalow, Under 300, Four Path",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\figures\\D040.svg"
+    },
+    {
+      "spec_id": "D041",
+      "kind": "table",
+      "title": "Wall Wash 18 To 30 Inches From",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\figures\\D041.svg"
+    },
+    {
+      "spec_id": "D042",
+      "kind": "table",
+      "title": "Tall Columns Or Peaks, 15 To 25",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\figures\\D042.svg"
+    },
+    {
+      "spec_id": "D043",
+      "kind": "plan",
+      "title": "Placement Rules Path Lights Every 6 To",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\figures\\D043.svg"
+    },
+    {
+      "spec_id": "D044",
+      "kind": "table",
+      "title": "Wall Wash Along Front, One Per 6",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\figures\\D044.svg"
+    },
+    {
+      "spec_id": "D045",
+      "kind": "plan",
+      "title": "Examples: Real World Applications Small Ranch, 40",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Night Scape Makeover\\figures\\D045.svg"
+    }
+  ]
+}

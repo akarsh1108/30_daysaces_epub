@@ -1,0 +1,520 @@
+{
+  "title": "Stylish TV Area",
+  "units": "imperial",
+  "outputs": {
+    "pdf": "build\\Stylish Tv Area\\stylish-tv-area.pdf",
+    "cover": "build\\Stylish Tv Area\\cover.pdf",
+    "epub": "build\\Stylish Tv Area\\stylish-tv-area.epub",
+    "epub_preview": "build\\Stylish Tv Area\\epub-preview.html"
+  },
+  "ai_generated_images": 1,
+  "kdp_ai_disclosure_required": true,
+  "images": [
+    {
+      "query": "living room TV wall with media console, calm lighting, no people",
+      "source": "openai",
+      "credit": "Cover illustration generated for this edition.",
+      "ai": true,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\cover.jpg"
+    },
+    {
+      "query": "interior living room with a stylish TV area, child-safe design, soft lighting, minimal decor, no people",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\001-pexels.jpg"
+    },
+    {
+      "query": "stylish living room with TV area, child-safe design elements, soft lighting, minimal decor",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\002-pexels.jpg"
+    },
+    {
+      "query": "living room with a mounted TV and a stylish media stand, child-safe design, soft lighting",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\003-pexels.jpg"
+    },
+    {
+      "query": "TV mounted at optimal height in a stylish living room, child-safe design, soft lighting",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\004-pexels.jpg"
+    },
+    {
+      "query": "living room with a defined safety zone around the TV area, child-safe design, soft lighting",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\005-pexels.jpg"
+    },
+    {
+      "query": "A spacious living room in a Pune 1BHK with a 9-foot wall, featuring a large window and minimal furniture.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\006-pexels.jpg"
+    },
+    {
+      "query": "A cozy Pune living room with a marked wall for TV placement, natural light streaming through the window.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\007-pexels.jpg"
+    },
+    {
+      "query": "A Bengaluru living room with a stud finder in action, showcasing plaster walls and a cozy media unit.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\008-pexels.jpg"
+    },
+    {
+      "query": "A Mumbai living room with a drawn map of traffic flow, highlighting safety measures for toddlers.",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\009-pexels.jpg"
+    },
+    {
+      "query": "A family room with a TV mock-up at the ideal height, showcasing a cozy and safe environment.",
+      "source": "pexels",
+      "credit": "Photo by Annushka  Ahuja on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\010-pexels.jpg"
+    },
+    {
+      "query": "media unit in a modern Indian living room, low and wide design, clean lines, soft lighting, no people",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\011-pexels.jpg"
+    },
+    {
+      "query": "stable media unit design, low and wide, modern Indian decor, soft lighting",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\012-pexels.jpg"
+    },
+    {
+      "query": "media unit with integrated venting, clean design, modern Indian decor, soft lighting",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\013-pexels.jpg"
+    },
+    {
+      "query": "media unit with closed storage, modern Indian decor, organized and tidy, soft lighting",
+      "source": "pexels",
+      "credit": "Photo by Keegan Checks on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\014-pexels.jpg"
+    },
+    {
+      "query": "media unit with strong anchoring features, modern Indian decor, soft lighting",
+      "source": "pexels",
+      "credit": "Photo by Guto Castro on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\015-pexels.jpg"
+    },
+    {
+      "query": "media unit anchored to wall with invisible hardware, soft natural light, textured wall, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Jan van der Wolf on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\016-pexels.jpg"
+    },
+    {
+      "query": "media unit anchored with various hardware types, soft natural light, textured wall, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Ann H on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\018-pexels.jpg"
+    },
+    {
+      "query": "media unit installation process, soft natural light, textured wall, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\019-pexels.jpg"
+    },
+    {
+      "query": "media unit inspection process, soft natural light, textured wall, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Ruslan Alekso on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\020-pexels.jpg"
+    },
+    {
+      "query": "media wall with hidden cords, soft natural light, teak textures, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Engin Akyurt on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\021-pexels.jpg"
+    },
+    {
+      "query": "media wall with organized cords, soft natural light, teak textures, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Ann H on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\022-pexels.jpg"
+    },
+    {
+      "query": "gaming setup with organized cords, soft natural light, linen textures, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Josh Sorenson on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\023-pexels.jpg"
+    },
+    {
+      "query": "home office with organized cords, soft natural light, plaster textures, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Diana ✨ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\024-pexels.jpg"
+    },
+    {
+      "query": "cozy living room with organized cords, soft natural light, linen textures, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Oleg Melevych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\026-pexels.jpg"
+    },
+    {
+      "query": "small indian apartment interior minimalist daylight editorial",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\027-pexels.jpg"
+    },
+    {
+      "query": "freestanding TV stand in a chic rental living room, soft natural light, teak textures, magazine styling, no people",
+      "source": "pexels",
+      "credit": "Photo by Keegan Checks on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\029-pexels.jpg"
+    },
+    {
+      "query": "stylish living room with removable raceways and freestanding TV stand, natural light, teak textures, magazine styling, no people",
+      "source": "pexels",
+      "credit": "Photo by HONG SON on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\030-pexels.jpg"
+    },
+    {
+      "query": "living room with a freestanding TV stand and removable raceways, natural light, teak textures, magazine styling, no people",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\031-pexels.jpg"
+    },
+    {
+      "query": "step-by-step setup of a freestanding TV stand in a chic rental living room, natural light, teak textures, magazine styling, no people",
+      "source": "pexels",
+      "credit": "Photo by Han on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\033-pexels.jpg"
+    },
+    {
+      "query": "Compact Indian apartment with a stylish, child-safe TV area, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\034-pexels.jpg"
+    },
+    {
+      "query": "Compact Indian apartment with a stylish, child-safe TV area, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\037-pexels.jpg"
+    },
+    {
+      "query": "TV area with stylish decor, child-safe furniture, and hidden cords, soft lighting, warm textures, no people",
+      "source": "pexels",
+      "credit": "Photo by Ansar Muhammad on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\038-pexels.jpg"
+    },
+    {
+      "query": "Stylish media unit with hidden cables, warm lighting, no people",
+      "source": "pexels",
+      "credit": "Photo by Justin Rieta on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\039-pexels.jpg"
+    },
+    {
+      "query": "Clean media unit with microfiber cloth, soft lighting, no people",
+      "source": "pexels",
+      "credit": "Photo by Patrick on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\040-pexels.jpg"
+    },
+    {
+      "query": "Quarterly pull test on wall-mounted TV, warm lighting, no people",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\041-pexels.jpg"
+    },
+    {
+      "query": "Festive living room decor for Diwali, warm lighting, no people",
+      "source": "pexels",
+      "credit": "Photo by Naveen Sahu on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\042-pexels.jpg"
+    },
+    {
+      "query": "Annual audit of TV area with measurements, warm lighting, no people",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\043-pexels.jpg"
+    },
+    {
+      "query": "Stylish child-safe TV area in a modern Indian apartment, soft lighting, neutral tones, textured walls, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by S3T Koncepts on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\044-pexels.jpg"
+    },
+    {
+      "query": "Stylish child-safe TV area with a focus on safety features, soft lighting, neutral decor, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\045-pexels.jpg"
+    },
+    {
+      "query": "Detailed measurements being taken in a stylish living room, soft lighting, neutral decor, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\047-pexels.jpg"
+    },
+    {
+      "query": "Installation process of a child-safe TV area, soft lighting, neutral decor, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\048-pexels.jpg"
+    },
+    {
+      "query": "interior living room with a TV setup, natural light from one window, minimalist decor, soft textures, no people, no text",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\050-pexels.jpg"
+    },
+    {
+      "query": "interior living room with painter's tape marking TV location, natural light, soft textures, no people, no text",
+      "source": "pexels",
+      "credit": "Photo by Ron Lach on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\051-pexels.jpg"
+    },
+    {
+      "query": "child-safe TV area, no-drill methods, stylish decor, Indian apartment",
+      "source": "pexels",
+      "credit": "Photo by Liva  Kitchens And Interiors on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\054-pexels.jpg"
+    },
+    {
+      "query": "living room layout for child safety, no-drill TV setup",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\055-pexels.jpg"
+    },
+    {
+      "query": "TV mount bracing in a Mumbai flat, child safety",
+      "source": "pexels",
+      "credit": "Photo by yair elgazar on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\057-pexels.jpg"
+    },
+    {
+      "query": "cord management solutions in a Delhi studio, no-drill",
+      "source": "pexels",
+      "credit": "Photo by Andrey Matveev on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\058-pexels.jpg"
+    }
+  ],
+  "figures": [
+    {
+      "spec_id": "D001",
+      "kind": "table",
+      "title": "Four separate safety questions",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D001.svg"
+    },
+    {
+      "spec_id": "D002",
+      "kind": "table",
+      "title": "Height and ventilation checks",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D002.svg"
+    },
+    {
+      "spec_id": "D009",
+      "kind": "table",
+      "title": "Reach-and-climb snapshot",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D009.svg"
+    },
+    {
+      "spec_id": "D005",
+      "kind": "table",
+      "title": "Console geometry is a starting point",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D005.svg"
+    },
+    {
+      "spec_id": "D003",
+      "kind": "table",
+      "title": "What still tips a low, wide unit",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D003.svg"
+    },
+    {
+      "spec_id": "D006",
+      "kind": "table",
+      "title": "Example console, not a template",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D006.svg"
+    },
+    {
+      "spec_id": "D004",
+      "kind": "table",
+      "title": "Device inventory (no generic clearance numbers)",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D004.svg"
+    },
+    {
+      "spec_id": "D016",
+      "kind": "table",
+      "title": "Furniture anti-tip readiness",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D016.svg"
+    },
+    {
+      "spec_id": "D007",
+      "kind": "table",
+      "title": "Furniture anchoring vs object anchoring",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D007.svg"
+    },
+    {
+      "spec_id": "D008",
+      "kind": "table",
+      "title": "Wall conditions for any mount or shelf",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D008.svg"
+    },
+    {
+      "spec_id": "D010",
+      "kind": "table",
+      "title": "Fireplace and heat-source caution",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D010.svg"
+    },
+    {
+      "spec_id": "D011",
+      "kind": "table",
+      "title": "Adhesive pads are not a universal removable product",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D011.svg"
+    },
+    {
+      "spec_id": "D012",
+      "kind": "table",
+      "title": "Breakable and pullable decor",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D012.svg"
+    },
+    {
+      "spec_id": "D013",
+      "kind": "table",
+      "title": "VESA examples, not a shopping rule",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D013.svg"
+    },
+    {
+      "spec_id": "D014",
+      "kind": "table",
+      "title": "Post-event inspection triggers",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D014.svg"
+    },
+    {
+      "spec_id": "D015",
+      "kind": "table",
+      "title": "Safety spend vs styling spend",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D015.svg"
+    },
+    {
+      "spec_id": "D018",
+      "kind": "table",
+      "title": "Weekly visual scan",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D018.svg"
+    },
+    {
+      "spec_id": "D019",
+      "kind": "table",
+      "title": "Child-safety reassessment snapshot",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D019.svg"
+    },
+    {
+      "spec_id": "D017",
+      "kind": "table",
+      "title": "Annual child-safety reassessment",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D017.svg"
+    },
+    {
+      "spec_id": "D025",
+      "kind": "table",
+      "title": "Annual configuration check",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D025.svg"
+    },
+    {
+      "spec_id": "D020",
+      "kind": "table",
+      "title": "Measurement sheet fields",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D020.svg"
+    },
+    {
+      "spec_id": "D021",
+      "kind": "table",
+      "title": "More measurement fields",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D021.svg"
+    },
+    {
+      "spec_id": "D022",
+      "kind": "table",
+      "title": "Illustrative USD shopping example",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D022.svg"
+    },
+    {
+      "spec_id": "D023",
+      "kind": "table",
+      "title": "Safety-risk map checklist",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D023.svg"
+    },
+    {
+      "spec_id": "D024",
+      "kind": "table",
+      "title": "Example only — do not copy as a target",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D024.svg"
+    },
+    {
+      "spec_id": "D026",
+      "kind": "table",
+      "title": "Installation decision worksheet",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D026.svg"
+    },
+    {
+      "spec_id": "D027",
+      "kind": "table",
+      "title": "More decision questions",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D027.svg"
+    },
+    {
+      "spec_id": "D028",
+      "kind": "table",
+      "title": "Reach-and-climb worksheet",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D028.svg"
+    }
+  ]
+}

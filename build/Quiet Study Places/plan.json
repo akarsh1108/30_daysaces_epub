@@ -1,0 +1,2299 @@
+{
+  "slug": "quiet-study-places",
+  "title": "Quiet Study Places",
+  "subtitle": "A practical guide to calmer study corners — reducing echo where you can, and being honest about noise you cannot block",
+  "tagline": "Treat reflections. Do not promise silence.",
+  "author": "Akarsh Priyadarshan",
+  "series": "30 Day Spaces",
+  "closing_headline": "Your next room starts here",
+  "closing_blurb": "More room kits and measured layouts — same series language, same clear numbers. This book helps readers make a study area calmer for speech and concentration. It does not soundproof a home, replace a lease, or certify acoustics.",
+  "accent_hex": "#1E5F6B",
+  "units": "imperial",
+  "cover": {
+    "query": "quiet study desk with fabric panel and lamp, no people, no text",
+    "flux_prompt": "full-bleed designed cover of a calm rental study desk, fabric acoustic panel, task lamp, no people, no text",
+    "alt": "A small study desk with a fabric wall panel and a task lamp, no people or text.",
+    "source": "openai",
+    "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\cover.jpg",
+    "credit": "Cover illustration generated for this edition.",
+    "ai_generated": true,
+    "provider_id": "openai:quiet-study-places-cover"
+  },
+  "designed_cover": true,
+  "chapters": [
+    {
+      "slug": "the-design-forward-quiet-study-blueprint",
+      "title": "What a quiet study can and cannot be",
+      "intro": "This book helps a reader set up a study area that is easier to concentrate in. Acoustic panels, rugs, and soft furnishings can reduce reflections and reverberation inside the room. They can make speech clearer and the space feel calmer. They do not reliably block traffic, neighbors, construction, or sound passing through walls. Blocking noise usually means sealing gaps, improving doors or windows, adding mass, or making structural changes — often with landlord permission and sometimes with a professional. Some scenarios use apartments in Indian cities as compact-home illustrations. They do not define the market. Prices are USD. Measurements are inches. Example sizes are illustrations. Manufacturer instructions, the lease, and product safety data take precedence over this book. What acoustic panels can and cannot do. Acoustic panels primarily reduce reflections and reverberation inside a room. They can make speech clearer, reduce harshness, and make the space feel calmer. They do not reliably block traffic, neighbours, construction noise, or sound passing through walls. Decorative panels are not soundproofing. A higher percentage of covered wall does not automatically produce a better study room. Work in this order: identify whether the problem is echo, incoming noise, outgoing noise, or all three. Then change one variable and test. Do not buy a wall of panels first. This book is not a structural soundproofing manual. Prices are USD. Measurements are inches; 1 inch equals 25 mm if you need a conversion. Converted numbers are not a different specification.",
+      "opener": {
+        "query": "quiet study space, natural light, warm textures, elegant decor, minimal clutter",
+        "flux_prompt": "full-bleed image of a refined quiet study with a desk, elegant decor, and soft lighting",
+        "alt": "A small study desk near a window, with a rug and a fabric panel, no people.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\001-pexels.jpg",
+        "credit": "Photo by 开 心 on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:31737154"
+      },
+      "sections": [
+        {
+          "slug": "name-the-problem",
+          "title": "Name the problem before you buy panels",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "quiet study corner, elegant decor, warm lighting, minimal clutter",
+            "flux_prompt": "image of a quiet study corner with a desk, acoustic panels, and decorative elements",
+            "alt": "A desk by a window with a note listing echo versus street noise.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\002-pexels.jpg",
+            "credit": "Photo by Berna on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:31529532"
+          },
+          "scenario": "Situation: A renter's desk sits by a window. Traffic is loud, and clapping in the room also rings. Decision: separate incoming noise from in-room echo before shopping.",
+          "principle": "Panels treat reflections inside the room. They do not block the street.",
+          "body": [
+            "Today's output: a one-line diagnosis — echo, incoming noise, sound leaving the room, intermittent distraction, or a mix — plus what you will not promise this project.",
+            "What acoustic panels can and cannot do. Acoustic panels primarily reduce reflections and reverberation inside a room. They can make speech clearer, reduce harshness, and make the space feel calmer. They do not reliably block traffic, neighbours, construction noise, or sound passing through walls. Decorative panels are not soundproofing. A higher percentage of covered wall does not automatically produce a better study room.",
+            "Sit at the desk. Clap and speak. If the room rings or your voice sounds hard, reflections are part of the story. If a truck or a neighbor is still the main event with the window closed, that is incoming noise. Footsteps from above are usually impact noise; surface panels will not solve it. Do not permanently seal windows, block vents, or interfere with exits.",
+            "A phone SPL app can compare a quiet hour and a busy hour on the same device. It cannot certify a 40–45 dB study. Record the reading as a personal comparison only."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "What panels can and cannot do",
+              "caption": "Absorption is not isolation.",
+              "values": [
+                "Absorbers, rugs, curtains — not silence",
+                "First-reflection treatment — not total elimination",
+                "Seals, layout, masking — not panels alone",
+                "Sealing and construction — not decorative panels",
+                "Masking, headphones, schedule — not removing the source"
+              ],
+              "labels": [
+                "Echo in the room",
+                "Harsh voice reflections",
+                "Traffic or neighbour noise",
+                "Sound leaving the room",
+                "Intermittent distraction"
+              ],
+              "minimum": null,
+              "spec_id": "D001",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D001.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Write echo / incoming / leaving / mix.",
+              "minutes": null
+            },
+            {
+              "text": "Note window, door, shared wall, and fan sources.",
+              "minutes": null
+            },
+            {
+              "text": "Do not order panels yet.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Buying absorbers because the title of the book says quiet, while the actual problem is a gap under the door.",
+          "checklist": [
+            "Diagnosis written",
+            "Sources listed",
+            "No purchase yet"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "study-goals-not-scores",
+          "title": "Study goals that are not acoustic scores",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "workspace goals, measuring tools, quiet study area",
+            "flux_prompt": "image of a workspace with measuring tools and a clear goal chart",
+            "alt": "A laptop on a stable stand with an external keyboard at a rental desk.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\003-pexels.jpg",
+            "credit": "Photo by https://kaboompics.com/ on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5412238"
+          },
+          "scenario": "Situation: Video calls are tiring. The renter also cannot replace the desk.",
+          "principle": "Success is whether you can study, write, and talk — not an RT60 number.",
+          "body": [
+            "Today's output: a goal list (calls, reading, writing) plus a renter-safe desk setup note: chair, screen, light, and what you will not drill.",
+            "Rate perceived distraction, speech clarity, glare, and clutter from 1 to 10 before changing anything. A calmer-sounding room is not automatically more productive.",
+            "Ergonomics, flexible not universal: sit so elbows can rest near desk height, feet on the floor or a footrest, knees and chair can roll without hitting a panel or a wall. Screen so you are not looking down for long stretches. Elevate a laptop only with a stable stand and a separate keyboard. A monitor arm needs a desk and clamp the manufacturer allows. Do not improvise wall mounts on a rental desk. Change posture on a timer you can keep — there is no one break schedule for every body. Start with body, screen, light, and access. Place acoustic treatment around that working setup, not the other way around.",
+            "Task light for paper. Avoid a bright bulb in your eyes and a bright window in the screen. Warm light is not always best; some people want a more neutral lamp for detail work. Keep cables off the floor path."
+          ],
+          "figures": [
+            {
+              "kind": "plan",
+              "title": "Body first, panels around the desk",
+              "caption": "Start with the body position, screen, light, and access. Place acoustic treatment around the working setup—not the other way around.",
+              "values": [
+                "walk"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D038",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D038.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Score distraction, clarity, glare, clutter 1–10.",
+              "minutes": null
+            },
+            {
+              "text": "Set chair, screen, and lamp without drilling.",
+              "minutes": null
+            },
+            {
+              "text": "Photograph the starting desk.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Chasing a half-second RT60 while the chair and glare make 20-minute sessions fail.",
+          "checklist": [
+            "Before scores",
+            "Desk setup without damage",
+            "Starting photo"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "find-the-noise-path",
+          "title": "Find the noise path, then decide whether panels even belong",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "acoustic panel installation, elegant decor, clean lines",
+            "flux_prompt": "image of a well-installed acoustic panel in a stylish study",
+            "alt": "A door sweep and a desk pulled away from a window, no new panels yet.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\004-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6908566"
+          },
+          "scenario": "Situation: Shared wall, door gap, and a humming fridge in a studio.",
+          "principle": "Fix the source and the path you can change. Do not treat panels as the first response to every noise.",
+          "body": [
+            "Today's output: the source table filled, the diagnosis worksheet filled, and a next decision that is not automatically more panels.",
+            "Traffic through a window: test the desk away from the window and inspect window seals. Panels may reduce internal reflections; they do not stop traffic. Corridor or staircase: test a door-side position and inspect door gaps. Panels do not reliably block corridor noise. Shared wall: decide whether the noise is airborne or impact-related. Decorative panels are not a substitute for isolation. Footsteps above: identify impact noise and its timing. Wall panels generally will not solve impact transmission. Fan or appliance: identify and inspect the source. Treatment is not a replacement for fixing vibration or machinery. Intermittent neighbour noise: track timing and test masking or schedule changes. Panels will not remove the source. Echo inside the room: clap and speech-test from the desk. Absorption may improve the room's sound.",
+            "If the main problem remains after the desk is repositioned, do not automatically buy more acoustic panels. Decide whether the next step is sealing, masking, a layout change, landlord permission, or professional advice. Do not permanently seal windows, block vents, or interfere with exits.",
+            "Fill the noise-source diagnosis worksheet: room; date and time; study position; noise source; inside or outside the room; continuous or intermittent; change with window closed; change with door closed; change when the desk moves; whether the issue is volume, clarity, vibration, or distraction; possible intervention; permission required; test result; next decision. Final choice, circle one: absorption; desk repositioning; sealing investigation; sound masking; headphones; schedule adjustment; professional assessment; no treatment needed."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "First action by noise source",
+              "caption": "Do this before buying panels. Do not block vents or exits.",
+              "values": [
+                "Move desk; inspect seals",
+                "Test door side; check gaps",
+                "Airborne or impact",
+                "Note timing; expect impact",
+                "Inspect the source",
+                "Track timing; mask or schedule",
+                "Clap and speech from desk"
+              ],
+              "labels": [
+                "Traffic through window",
+                "Corridor or staircase",
+                "Shared wall",
+                "Footsteps above",
+                "Fan or appliance",
+                "Intermittent neighbour",
+                "Echo inside the room"
+              ],
+              "minimum": null,
+              "spec_id": "D025",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D025.svg"
+            },
+            {
+              "kind": "table",
+              "title": "What panels can do for that source",
+              "caption": "Absorption is not isolation and does not remove a source.",
+              "values": [
+                "Not traffic noise",
+                "Not corridor blocking",
+                "Not a substitute for isolation",
+                "Will not stop impact above",
+                "Not a machine repair",
+                "Will not remove the source",
+                "May improve the room sound"
+              ],
+              "labels": [
+                "Traffic through window",
+                "Corridor or staircase",
+                "Shared wall",
+                "Footsteps above",
+                "Fan or appliance",
+                "Intermittent neighbour",
+                "Echo inside the room"
+              ],
+              "minimum": null,
+              "spec_id": "D029",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D029.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Noise source diagnosis, page one",
+              "caption": "Write in the room. Date the sheet. One source per sheet if they differ.",
+              "values": [
+                "___",
+                "___",
+                "___",
+                "___",
+                "Inside / outside",
+                "Continuous / intermittent",
+                "Yes / no / mixed",
+                "Yes / no / mixed"
+              ],
+              "labels": [
+                "Room",
+                "Date and time",
+                "Study position",
+                "Noise source",
+                "Inside or outside",
+                "Continuous or intermittent",
+                "Changes, window closed",
+                "Changes, door closed"
+              ],
+              "minimum": null,
+              "spec_id": "D030",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D030.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Noise source diagnosis, page two",
+              "caption": "Circle one final choice. Do not auto-buy panels.",
+              "values": [
+                "Yes / no / mixed",
+                "Volume / clarity / vibration / distraction",
+                "___",
+                "Yes / no / NA",
+                "___",
+                "___",
+                "Circle one on the list"
+              ],
+              "labels": [
+                "Changes when desk moves",
+                "Main issue type",
+                "Possible intervention",
+                "Permission required",
+                "Test result",
+                "Next decision",
+                "Final choice"
+              ],
+              "minimum": null,
+              "spec_id": "D031",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D031.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Fill both source-table columns.",
+              "minutes": null
+            },
+            {
+              "text": "Fill the diagnosis worksheet, including window, door, and desk tests.",
+              "minutes": null
+            },
+            {
+              "text": "Circle a next decision. Do not default to more panels.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Centering a ceiling cloud over a desk that should have moved two feet from the window.",
+          "checklist": [
+            "Source table",
+            "Diagnosis worksheet",
+            "Next decision circled"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "acoustic-essentials-in-plain-language",
+      "title": "Echo, speech, and isolation — three different jobs",
+      "intro": "Absorption, diffusion, and isolation are not interchangeable. This chapter stays inside the room: reflections you can hear at the desk. This book is primarily about a more comfortable study through layout, reflection control, furniture, lighting, and renter-conscious acoustic treatment. It is not a structural soundproofing manual. Do not modify walls, ceilings, doors, or windows in ways that affect fire safety, ventilation, building performance, or the lease without appropriate approval and expertise.",
+      "opener": {
+        "query": "acoustic study space, compact Indian apartment, soft lighting, wood textures, magazine styling, photorealistic, no people, no text, no watermark",
+        "flux_prompt": "full-bleed shot of a stylish, acoustically treated study with decor grade panels and a calming atmosphere",
+        "alt": "Parallel walls in a small room, desk in the corner, no people.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\005-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:7167080"
+      },
+      "sections": [
+        {
+          "slug": "what-you-hear-at-the-desk",
+          "title": "What you hear at the desk",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "acoustic study space, compact Indian apartment, soft lighting, wood textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "shot of a compact study with sound panels, desk, and calming decor, showcasing effective acoustic treatment",
+            "alt": "A person-height clap test at a desk, not in the middle of an empty room.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\005-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7167080"
+          },
+          "scenario": "Situation: Clap rings between two walls. A hallway conversation still comes through the door.",
+          "principle": "Early reflections and flutter are in-room problems. Hallway speech is a door and isolation problem.",
+          "body": [
+            "Today's output: notes from a desk clap and a spoken sentence — ring, hardness, leftover hallway noise.",
+            "Sound hits hard surfaces and returns. Early reflections smear speech. Flutter is a ping between parallel walls. Reverberation is the leftover wash. Those are the jobs for absorbers, rugs, curtains, and sometimes diffusion.",
+            "Do not aim for a universal RT60 of 0.5 seconds. Reading, calls, music, and recording do not share one target. A room can be made dull and still leak hallway noise.",
+            "Isolation — gaps, doors, windows, mass, structure — is a different project. Door seals can affect door operation and emergency egress. Window changes can affect ventilation and fire safety. Added mass or wall construction may require professional design. A heavy curtain is not equivalent to a sound-isolation assembly. A bookshelf is not guaranteed to block neighbour noise. If isolation is the main complaint, this chapter only tells you not to fake it with fabric."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "What this book will not teach you to build",
+              "caption": "Ask for approval and expertise before changing the building.",
+              "values": [
+                "Can affect egress",
+                "Ventilation and fire",
+                "Needs professional design",
+                "Not an isolation assembly",
+                "Not guaranteed blocking"
+              ],
+              "labels": [
+                "Door seals",
+                "Window changes",
+                "Added mass or rebuild",
+                "A heavy curtain",
+                "A bookshelf"
+              ],
+              "minimum": null,
+              "spec_id": "D032",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D032.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Clap at the desk and in the room center.",
+              "minutes": null
+            },
+            {
+              "text": "Speak a sentence at call volume.",
+              "minutes": null
+            },
+            {
+              "text": "Mark hallway or street as isolation, not absorption.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Calling the room treated because panels look even, while the door still leaks speech.",
+          "checklist": [
+            "Desk clap notes",
+            "Speech notes",
+            "Isolation vs absorption labeled"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "three-stages-not-coverage",
+          "title": "Three stages, not a coverage percentage",
+          "day_label": "Day 5",
+          "hero": {
+            "query": "acoustic study space, compact Indian apartment, soft lighting, wood textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "image of a study with a mix of absorption and diffusion panels, showcasing a balanced acoustic treatment and aesthetic appeal",
+            "alt": "Painter tape marking two side-wall spots near a desk, most of the room untreated.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\005-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7167080"
+          },
+          "scenario": "Situation: A plan says cover 25 percent of the walls.",
+          "principle": "Coverage is a rough planning estimate. Thickness, air gap, furniture, volume, and placement matter more than a percentage.",
+          "body": [
+            "Today's output: Stage 1 list (first reflections and a rug if the floor is live), with a stop before buying a second batch.",
+            "Stage 1: first reflection points at the desk, plus a soft floor if it is bare. Test. Stage 2: flutter on opposing surfaces if the ping remains. Stage 3: re-test before buying more. Change one variable at a time.",
+            "Too much absorption, especially if it only hits a narrow band of frequencies, can make the room dull without touching external noise. Thin decorative panels often affect higher frequencies more than bass. An air gap can help some assemblies; product data beats a generic thickness claim. Corner furniture is not guaranteed bass control. Wood slats need a real absorptive backing to do acoustic work.",
+            "Percent bands such as 15–25 percent that appear in older notes are not specifications. Ignore them as targets."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Treat, then test, then maybe add",
+              "caption": "A higher covered percentage is not automatically better.",
+              "values": [
+                "First reflections and a rug",
+                "Opposing surfaces if flutter remains",
+                "Same seat, then buy more only if needed"
+              ],
+              "labels": [
+                "Stage 1",
+                "Stage 2",
+                "Stage 3"
+              ],
+              "minimum": null,
+              "spec_id": "D002",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D002.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Mark first-reflection walls.",
+              "minutes": null
+            },
+            {
+              "text": "Add or note a rug.",
+              "minutes": null
+            },
+            {
+              "text": "Write stop until after a test.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Ordering 35 percent coverage because recording was listed as a future hobby.",
+          "checklist": [
+            "Stage 1 list",
+            "Stop written",
+            "No percentage target"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "listen-at-the-chair",
+          "title": "Listen at the chair, not only at the room center",
+          "day_label": "Day 6",
+          "hero": {
+            "query": "acoustic study space, compact Indian apartment, soft lighting, wood textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "image of a study with clear acoustic treatment steps illustrated, showing panel placements and testing methods",
+            "alt": "A small mirror on a side wall as seen from the study chair.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\008-pexels.jpg",
+            "credit": "Photo by ready made on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:3847582"
+          },
+          "scenario": "Situation: A helper with a mirror finds reflection points.",
+          "principle": "The study position is the measurement position.",
+          "body": [
+            "Today's output: mirror or flashlight marks on left, right, and ceiling-line as seen from the working chair — or a note that you work alone and will use a tablet as a stand-in face.",
+            "A clap is subjective, position-dependent, and not a full-frequency test. Repeat from the desk. Add a spoken paragraph and ordinary keyboard noise. Record from the listener position with the same device and distance.",
+            "Safety hierarchy later chapters will repeat: mounting and structure first, then access to doors and switches, then chair movement, then acoustic placement, then styling.",
+            "Before the mounting chapter: you still need wall type, weight, and permission. Do not purchase a cloud."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Mark reflections from the chair.",
+              "minutes": null
+            },
+            {
+              "text": "Record one spoken paragraph.",
+              "minutes": null
+            },
+            {
+              "text": "List what still requires permission.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Treating the geometric room center as the listening position.",
+          "checklist": [
+            "Chair-based marks",
+            "Speech recording",
+            "Purchase hold if permission unknown"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "materials-and-finishes-that-belong-in-a-beautiful-room",
+      "title": "Cores, fabric, fire, and upkeep",
+      "intro": "Ask the supplier for the exact fire classification of the product you will install. Do not assume a fire-rated core makes the assembled panel — fabric, backing, adhesive, and frame — fire-rated. Keep panels away from hot fixtures. Do not cover outlets, switches, smoke detectors, or ventilation. Do not use unverified foam, fabric, or insulation scraps in an enclosed DIY panel. Follow the manufacturer's installation and clearance instructions. Cut mineral wool and fiberglass outside the study, following the product's indoor-use and SDS instructions. Use eye protection, gloves, and respiratory protection the material requires — a basic dust mask is not automatically enough. Keep children and pets away from cutting. Do not shake dusty fabric indoors. Enclose the core so loose fibers stay out of the room air; any fabric used for wrapping must suit both acoustic use and enclosure. It is not true that any breathable cloth prevents fiber release. Clean the work area as the manufacturer recommends. Do not install acoustic fabric, wood, or porous panels over damp or mould-affected surfaces. Fix the moisture source first. High humidity can swell wood, fail adhesive, and leave fabric musty. No core is universally best. The finished assembly matters.",
+      "opener": {
+        "query": "interior design, compact Indian apartment, study corner with natural light, warm wood textures, soft textiles, no people",
+        "flux_prompt": "full-bleed image of a stylish study corner in an Indian apartment, showcasing materials and finishes",
+        "alt": "Fabric-wrapped panel samples and a wood-slat sample on a table.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\009-pexels.jpg",
+        "credit": "Photo by 女子 正真 on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:36758433"
+      },
+      "sections": [
+        {
+          "slug": "materials-are-not-furniture",
+          "title": "Materials are not furniture until they are safe",
+          "day_label": "Day 7",
+          "hero": {
+            "query": "interior design, compact Indian apartment, study corner with natural light, warm wood textures, soft textiles, no people",
+            "flux_prompt": "image of a stylish study corner in an Indian apartment, showcasing materials and finishes",
+            "alt": "Panel fabric swatches on a dry painted wall, not over a stained patch.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\009-pexels.jpg",
+            "credit": "Photo by 女子 正真 on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:36758433"
+          },
+          "scenario": "Situation: Hard glass desk, bare walls, a wish for something that looks like art.",
+          "principle": "Looks come after fire documentation, enclosure, and a dry wall.",
+          "body": [
+            "Today's output: a shortlist of core + face that you can document, not a foam leftover.",
+            "Aligning a panel with a shelf is last in the hierarchy. If the pretty location covers a switch or sits over a damp patch, it is the wrong location.",
+            "Do not install on peeling paint or mould. Cleanability matters at a desk: dust, spills, and fabric that can be spot-cleaned per the maker."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Reject undocumented foam.",
+              "minutes": null
+            },
+            {
+              "text": "Check the wall for moisture.",
+              "minutes": null
+            },
+            {
+              "text": "Note cleaning instructions if samples exist.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Choosing a colorway before checking whether the wall is dry or the core is enclosed.",
+          "checklist": [
+            "Dry wall",
+            "Documented core",
+            "Cleaning note"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "compare-cores",
+          "title": "Compare cores without crowning a winner",
+          "day_label": "Day 8",
+          "hero": {
+            "query": "interior design, compact Indian apartment, study corner with natural light, warm wood textures, soft textiles, no people",
+            "flux_prompt": "image of a stylish study corner in an Indian apartment, showcasing materials and finishes",
+            "alt": "Three core samples labeled mineral wool, fiberglass, and PET felt.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\009-pexels.jpg",
+            "credit": "Photo by 女子 正真 on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:36758433"
+          },
+          "scenario": "Situation: Mineral wool, fiberglass, PET felt, and a wood-slat kit are all in the cart.",
+          "principle": "Each material has a job and a handling cost. The assembly, not the marketing name, absorbs sound.",
+          "body": [
+            "Today's output: one core choice with a written limitation.",
+            "Mineral wool: useful absorption, needs proper enclosure and careful handling. Fiberglass board: predictable frames, product-specific handling. PET felt: easier handling, performance depends on thickness and build. Wood slats: visual rhythm, not a full absorber unless backed. Fabric: appearance and enclosure, must suit fire and cleaning. Foam: only with documented suitability — fire and performance vary.",
+            "Thickness and air gap can change low-frequency behavior in some builds. Use the product's data. Do not claim a 2-inch panel controls bass."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Cores compared, none universally best",
+              "caption": "Performance is the finished assembly, not the marketing name.",
+              "values": [
+                "Absorption; enclose and handle with care",
+                "Framed boards; follow that product SDS",
+                "Easier handling; thickness and build matter",
+                "Visual only unless backed as specified",
+                "Wrap and look; fire and cleaning docs",
+                "Only with documented fire and use"
+              ],
+              "labels": [
+                "Mineral wool",
+                "Fiberglass board",
+                "PET felt",
+                "Wood slats",
+                "Fabric",
+                "Foam"
+              ],
+              "minimum": null,
+              "spec_id": "D026",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D026.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Pick one core.",
+              "minutes": null
+            },
+            {
+              "text": "Write its handling rule from the SDS or label.",
+              "minutes": null
+            },
+            {
+              "text": "Write what it will not do (block neighbors, bass, etc.).",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Calling PET felt or slats soundproofing because they look designed.",
+          "checklist": [
+            "Core chosen",
+            "Handling rule",
+            "Limitation written"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "handle-cores-as-sds-says",
+          "title": "Handle cores as the SDS says",
+          "day_label": "Day 9",
+          "hero": {
+            "query": "interior design, compact Indian apartment, study corner with natural light, warm wood textures, soft textiles, no people",
+            "flux_prompt": "image of a stylish study corner in an Indian apartment, showcasing materials and finishes",
+            "alt": "Cutting mineral wool outdoors with gloves and eye protection, not on a bedroom floor.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\012-pexels.jpg",
+            "credit": "Photo by Charlotte May on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5825564"
+          },
+          "scenario": "Situation: Cutting boards on the study carpet.",
+          "principle": "The study is not the cutting room.",
+          "body": [
+            "Today's output: a before-cutting checklist ticked from the product's own instructions, with a work area that is not the study.",
+            "Before cutting: read the product handling instructions. Prepare a separate, ventilated work area. Use the protective equipment recommended for that product — a basic dust mask is not automatically enough. Keep children and pets away. Prevent dust and fibres from spreading into the study. Avoid shaking or brushing dusty fabric indoors. Enclose the core appropriately. Clean the work area according to the product instructions. Store unused material in a suitable protected location. Do not install a panel if fibres are exposed during normal use.",
+            "Do not promise that a particular fabric or wrapping method will eliminate all fibre exposure. Use product-specific instructions. Wash exposed skin as the material instructs. Do not dry-sweep fibres into the HVAC."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Before cutting mineral wool or fiberglass",
+              "caption": "Product instructions take precedence over this list.",
+              "values": [
+                "From the product",
+                "Not the study room",
+                "As that SDS requires",
+                "Keep them out",
+                "Do not spread dust",
+                "Do not shake indoors",
+                "Follow the core maker",
+                "As the product directs"
+              ],
+              "labels": [
+                "Read handling instructions",
+                "Separate ventilated area",
+                "Product-specific PPE",
+                "Children and pets away",
+                "Keep fibres out of study",
+                "No dusty fabric indoors",
+                "Enclose the core",
+                "Clean the work area"
+              ],
+              "minimum": null,
+              "spec_id": "D035",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D035.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Read the product handling sheet.",
+              "minutes": null
+            },
+            {
+              "text": "Set a ventilated cutting area that is not the study.",
+              "minutes": null
+            },
+            {
+              "text": "Plan enclosure, cleanup, and storage before you cut.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Wrapping leftover insulation in a bedsheet and calling it breathable protection.",
+          "checklist": [
+            "Instructions read",
+            "Work area ready",
+            "Enclosure and cleanup planned"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "fabric-fire-cleaning",
+          "title": "Fabric, fire paperwork, and cleaning",
+          "day_label": "Day 10",
+          "hero": {
+            "query": "interior design, compact Indian apartment, study corner with natural light, warm wood textures, soft textiles, no people",
+            "flux_prompt": "image of a stylish study corner in an Indian apartment, showcasing materials and finishes",
+            "alt": "A fabric swatch next to a printed cleaning and fire note.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\012-pexels.jpg",
+            "credit": "Photo by Charlotte May on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5825564"
+          },
+          "scenario": "Situation: A pretty linen with no fire or cleaning sheet.",
+          "principle": "If you cannot document fire, cleaning, and indoor use, do not wrap a heater-adjacent panel in it.",
+          "body": [
+            "Today's output: a Hold or Proceed after the documentation sequence, plus a maintenance schedule copied with the fabric's own cleaning method.",
+            "Before ordering a panel core: identify the exact product and manufacturer. Request the product's technical documentation. Check the intended indoor-use conditions. Check the core's handling requirements. Confirm the fabric and backing are appropriate. Check the adhesive or fastening system. Verify fire documentation for the finished assembly where available. Record missing documents as Hold, not Proceed.",
+            "A material's fire classification applies only within the scope of the test or documentation. Do not assume that combining a rated core with an arbitrary fabric, adhesive, frame, or backing preserves the same classification. Keep panels away from hot fixtures. Do not cover outlets, switches, smoke detectors, or ventilation. Follow the manufacturer's installation and clearance instructions.",
+            "Manufacturer cleaning instructions take precedence over any schedule in this book. Do not soak a porous core. Musty smell after humidity is a stop."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Before ordering a panel core",
+              "caption": "Missing documents are Hold, not Proceed.",
+              "values": [
+                "Write the SKU",
+                "File the sheets",
+                "Listed indoor use",
+                "From the SDS",
+                "Compatible with the core",
+                "Listed system",
+                "Assembly docs if available",
+                "Do not proceed"
+              ],
+              "labels": [
+                "Exact product and maker",
+                "Technical documentation",
+                "Indoor-use conditions",
+                "Core handling requirements",
+                "Fabric and backing",
+                "Adhesive or fasteners",
+                "Fire docs for assembly",
+                "Any item missing"
+              ],
+              "minimum": null,
+              "spec_id": "D034",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D034.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Maintenance checks, not a rigid clean cycle",
+              "caption": "The fabric maker's cleaning instructions take precedence.",
+              "values": [
+                "Desk dust, dirt, cables, contact",
+                "Stability, sag, loose fabric, fibres",
+                "Dry; no soaked core",
+                "Swell, odour, mould, adhesive",
+                "Clearance and impact risk",
+                "Photo condition; review method"
+              ],
+              "labels": [
+                "Weekly or as needed",
+                "Monthly",
+                "After cleaning",
+                "After humidity or water",
+                "After furniture changes",
+                "Before removal"
+              ],
+              "minimum": null,
+              "spec_id": "D040",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D040.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Run the before-ordering sequence.",
+              "minutes": null
+            },
+            {
+              "text": "Mark Hold if assembly fire docs are missing.",
+              "minutes": null
+            },
+            {
+              "text": "Copy the maker's cleaning method onto the maintenance table.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Assuming the core's rating covers an arbitrary fabric and glue.",
+          "checklist": [
+            "Docs sequence",
+            "Hold or Proceed",
+            "Cleaning method recorded"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "placement-for-maximum-impact-without-visual-clutter",
+      "title": "Place treatment where the desk actually sits",
+      "intro": "Find the problem, the chair, first reflections, flutter, then decide if any ceiling treatment is even allowed. Style alignment is last. Not every reader needs panels.",
+      "opener": {
+        "query": "small indian apartment interior minimalist daylight editorial",
+        "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK apartment interior, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+        "alt": "A study chair facing a wall with two marked reflection spots.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\014-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:6890400"
+      },
+      "sections": [
+        {
+          "slug": "eight-checks-one-variable",
+          "title": "Eight checks, one variable at a time",
+          "day_label": "Day 11",
+          "hero": {
+            "query": "small indian apartment interior minimalist daylight editorial",
+            "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK apartment interior, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+            "alt": "Painter tape rectangles beside a desk, ceiling unmarked, walkway open.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\014-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6890400"
+          },
+          "scenario": "Situation: A long placement essay that keeps saying do not cover every wall.",
+          "principle": "Place for the chair. Test. Add only what the test still asks for.",
+          "body": [
+            "Today's output: a tape layout of Stage 1 positions, with ceiling marked no unless structure and permission exist.",
+            "1) Confirm the sound problem is still echo. 2) Sit in the study chair. 3) First reflections. 4) Flutter on opposing surfaces if needed. 5) Ceiling only with engineered support — renters default to no. 6) Integrate with furniture without blocking switches. 7) Test speech and clap from the chair. 8) Decide whether more treatment is needed.",
+            "Keep walking paths, outlets, and ventilation clear. Visual calm: hide clutter, reset the desk, keep busy slat patterns out of the main sightline if they distract, plan a video-call background if you need one.",
+            "Shared layouts: a living-room desk fights the TV; a bed-side desk fights sleep lighting; a kitchen-adjacent desk fights appliances; a shared bedroom needs a visual and storage boundary; a dining-table setup must reset nightly; a fold-away or alcove setup must keep walking and exit paths. Each needs storage, light, cables, and a noise-source note. Panels are optional. A passage desk is only a candidate if it does not block egress.",
+            "Do not buy a ceiling cloud in this chapter. The mounting chapter has the do-not-proceed rule. If support, clearance, or permission is unclear, plan wall-mounted or freestanding treatment instead.",
+            "Use the mounting worksheet before purchase. Do not buy yet if wall type, weight, or permission is unknown."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Placement order",
+              "caption": "Repeat the strongest rule once: test before adding more.",
+              "values": [
+                "Chair and problem type",
+                "First reflections",
+                "Flutter if needed",
+                "Ceiling only if engineered",
+                "Test, then maybe add"
+              ],
+              "labels": [
+                "First",
+                "Second",
+                "Third",
+                "Fourth",
+                "Last"
+              ],
+              "minimum": null,
+              "spec_id": "D022",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D022.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Do not treat coverage as a spec",
+              "caption": "Ignore 15/25/35 percent as purchase targets.",
+              "values": [
+                "Estimate only",
+                "Depends on thickness and placement",
+                "Can dull the room and miss street noise"
+              ],
+              "labels": [
+                "A coverage number",
+                "Why it misleads",
+                "Too much absorption"
+              ],
+              "minimum": null,
+              "spec_id": "D003",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D003.svg"
+            },
+            {
+              "kind": "plan",
+              "title": "Desk-centered, not wall-centered",
+              "caption": "Treat the seat. Leave most walls alone until a test asks.",
+              "values": [
+                "illustrative desk zone"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D005",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D005.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Living-room desk",
+              "caption": "Noise, storage, light, cables, reset — panels optional.",
+              "values": [
+                "TV and talk",
+                "Closed bin",
+                "Task lamp",
+                "Nightly clear"
+              ],
+              "labels": [
+                "Noise",
+                "Storage",
+                "Light",
+                "Reset"
+              ],
+              "minimum": null,
+              "spec_id": "D006",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D006.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Bed-side desk",
+              "caption": "Do not mount heavy panels over a sleeping head with adhesive.",
+              "values": [
+                "Partner / street",
+                "One closed drawer",
+                "Glare from window",
+                "Fold laptop away"
+              ],
+              "labels": [
+                "Noise",
+                "Storage",
+                "Light",
+                "Reset"
+              ],
+              "minimum": null,
+              "spec_id": "D007",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D007.svg"
+            },
+            {
+              "kind": "elevation",
+              "title": "First reflections from the chair",
+              "caption": "Height follows your seated ear, not a 36-to-48-inch rule.",
+              "values": [
+                "seated ear height"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D008",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D008.svg"
+            },
+            {
+              "kind": "elevation",
+              "title": "Keep lights and panels from fighting",
+              "caption": "A panel must not cover a fixture or trap heat.",
+              "values": [
+                "clearance from fixtures"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D009",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D009.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Dining-table study",
+              "caption": "If it must vanish each evening, skip wall treatment.",
+              "values": [
+                "Kitchen noise",
+                "Caddy that leaves",
+                "Existing overhead plus a lamp",
+                "Box the work"
+              ],
+              "labels": [
+                "Noise",
+                "Storage",
+                "Light",
+                "Reset"
+              ],
+              "minimum": null,
+              "spec_id": "D010",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D010.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Tape Stage 1 positions.",
+              "minutes": null
+            },
+            {
+              "text": "Mark ceiling as no unless qualified support exists.",
+              "minutes": null
+            },
+            {
+              "text": "Walk the chair path.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "A visually perfect grid that covers a thermostat and hangs over the chair with adhesive only.",
+          "checklist": [
+            "Tape layout",
+            "Ceiling decision",
+            "Access still clear"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "renter-friendly-and-non-destructive-installation-options",
+      "title": "Mounting that a lease and a wall can survive",
+      "intro": "A lower-risk, reversible method is not automatically allowed and is not guaranteed to leave the wall undamaged. Read the lease. Ask before drilling, ceiling attachments, or adhesives if the lease is unclear. Save written permission. Photograph the wall before and after. Do not call any method damage-free. Identify the wall. Respect weight. Never hang a heavy panel over a head on adhesive alone.",
+      "opener": {
+        "query": "interior of a stylish Indian apartment with acoustic panels installed, soft natural light from a single window, warm wood and fabric textures, no people, no text, no watermark",
+        "flux_prompt": "full-bleed shot of a modern living room with acoustic panels elegantly mounted",
+        "alt": "A fabric panel hung from a picture rail, not glued to crumbling paint.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\016-pexels.jpg",
+        "credit": "Photo by Mathias Reding on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:12040654"
+      },
+      "sections": [
+        {
+          "slug": "permission-photos-wall-type",
+          "title": "Permission, photos, wall type",
+          "day_label": "Day 12",
+          "hero": {
+            "query": "close-up of a wall with different paint finishes and textures, soft natural light, no people, no text, no watermark",
+            "flux_prompt": "detailed shot of wall materials and paint types in an Indian apartment",
+            "alt": "A renter photographing a blank wall before any hardware.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\017-pexels.jpg",
+            "credit": "Photo by Turgay Koca on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:14917284"
+          },
+          "scenario": "Situation: The lease is silent. The wall might be drywall or plaster.",
+          "principle": "Unknown wall plus unknown permission is a stop.",
+          "body": [
+            "Today's output: permission status, before photos, and a wall-type guess you will verify (drywall, plaster, masonry, wood, tile, unknown).",
+            "Ask: hollow or solid? Existing rail that is actually load-bearing? Finished panel weight? Method approved for this surface? Above a desk or in a walkway? Can it come down without unacceptable damage?",
+            "A load-bearing wall is not automatically safe for the anchor you like."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Mounting methods and their real risks",
+              "caption": "Load ratings come from the product and the wall, not a 50 percent rule.",
+              "values": [
+                "Paint damage; check load and surface",
+                "Fall risk; weight, climate, dwell time",
+                "Holes and utilities; permission",
+                "Anchors and wall type",
+                "Slip and pressure; protect contact",
+                "Confirm the rail is load-bearing"
+              ],
+              "labels": [
+                "Removable strips",
+                "Adhesive hooks",
+                "Screws",
+                "Cleats",
+                "Compression",
+                "Picture rail"
+              ],
+              "minimum": null,
+              "spec_id": "D012",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D012.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Photograph the wall.",
+              "minutes": null
+            },
+            {
+              "text": "Write permission: yes / ask / no.",
+              "minutes": null
+            },
+            {
+              "text": "Name the surface or unknown.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Trusting a marketplace 'damage-free' title.",
+          "checklist": [
+            "Photos",
+            "Permission field",
+            "Wall named or stop"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "hardware-from-the-product",
+          "title": "Choose hardware from the product, not a percentage",
+          "day_label": "Day 13",
+          "hero": {
+            "query": "interior of a Bengaluru apartment with a load-bearing wall, showcasing a compression system for acoustic panels, soft natural light, no people, no text, no watermark",
+            "flux_prompt": "angle of a room with a compression system holding acoustic panels against a load-bearing wall",
+            "alt": "A panel frame with two hanging points, not a single adhesive tab.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\018-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6487954"
+          },
+          "scenario": "Situation: An old note said stay below 50 percent.",
+          "principle": "If a percentage is not tied to a defined load and a named product, ignore it.",
+          "body": [
+            "Today's output: a completed mounting-load worksheet whose numbers come from the hardware listing and this wall, not from a percentage rule.",
+            "Do not use a generic percentage for how much weight a wall or adhesive can support. Capacity must come from the actual hardware, surface, installation, and the safety margin the manufacturer states.",
+            "Fill: finished panel weight; wall type; mounting hardware; hardware manufacturer's rating; orientation (wall / ceiling / freestanding); number of mounting points; permission confirmed (yes / no / NA); surface condition; second retention needed (yes / no); panel above a seated or sleeping position (yes / no); final stability check (pass / hold)."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Mounting-load worksheet",
+              "caption": "Leave a field blank and the decision is Hold.",
+              "values": [
+                "___",
+                "___",
+                "___",
+                "___",
+                "Wall / ceiling / freestanding",
+                "___",
+                "Yes / no / NA",
+                "___"
+              ],
+              "labels": [
+                "Finished panel weight",
+                "Wall type",
+                "Mounting hardware",
+                "Hardware maker rating",
+                "Installation orientation",
+                "Number of mounting points",
+                "Permission confirmed",
+                "Surface condition"
+              ],
+              "minimum": null,
+              "spec_id": "D036",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D036.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Overhead and second-retention checks",
+              "caption": "Adhesive alone is not a ceiling or over-chair method.",
+              "values": [
+                "Yes / no",
+                "Yes / no",
+                "Pass / hold",
+                "Ignore it"
+              ],
+              "labels": [
+                "Second retention needed",
+                "Above seated or sleeping",
+                "Final stability check",
+                "Any percentage load rule"
+              ],
+              "minimum": null,
+              "spec_id": "D037",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D037.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Enter finished weight and wall type.",
+              "minutes": null
+            },
+            {
+              "text": "Copy the hardware rating from the product, not a percentage.",
+              "minutes": null
+            },
+            {
+              "text": "Mark pass or hold after the overhead and second-retention lines.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Using a 50 percent rule that never said 50 percent of what.",
+          "checklist": [
+            "Load worksheet",
+            "Rating from the product",
+            "Pass or hold"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "hold-points-before-wall",
+          "title": "Hold points before anything goes on the wall",
+          "day_label": "Day 14",
+          "hero": {
+            "query": "stylish Mumbai apartment with acoustic panels securely mounted, showcasing load distribution techniques, soft natural light, no people, no text, no watermark",
+            "flux_prompt": "view of a well-styled room with acoustic panels demonstrating load distribution",
+            "alt": "One test strip on a hidden wall corner, the desk still empty of panels.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\019-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7031720"
+          },
+          "scenario": "Situation: Ready to stick four panels this afternoon.",
+          "principle": "Stop if wall, weight, adhesive test, ceiling, blockage, odor, moisture, lift ability, or permission fails.",
+          "body": [
+            "Today's output: a go/no-go after tape layout, adhesive or hardware test, and a chair-swing check.",
+            "Before bonding or drilling: permission, wall, weight, hardware, utilities, tape layout. Before the first panel: sample test, no blocked switches or windows, desk still usable. After: stability, photos, normal desk use. Before calling it done: sound test, glare, cleaning access.",
+            "Ceiling clouds require a suitable structural support system. Do not suspend a heavy acoustic panel from an uncertain ceiling, improvised hooks, or adhesive strips. Check the ceiling construction, fixture clearances, load path, hardware, and permission. Stay clear of fans, lights, detectors, sprinklers, and access panels. Do not obstruct maintenance access. Do not install above a bed or chair without a suitable engineered mounting system. Structural anchoring that is beyond your skill needs qualified installation. If the support system is not clearly suitable, use wall-mounted or freestanding treatment instead.",
+            "If a panel fell, would it hit the chair, a child, or a pet? Relocate rather than hope."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Stop before you hang",
+              "caption": "Any yes on this list is a hold.",
+              "values": [
+                "Unknown wall",
+                "Over the listed load",
+                "Adhesive damaged paint",
+                "Uncertain ceiling",
+                "Blocks exit or switch",
+                "Moisture or fiber release"
+              ],
+              "labels": [
+                "Stop",
+                "Stop",
+                "Stop",
+                "Stop",
+                "Stop",
+                "Stop"
+              ],
+              "minimum": null,
+              "spec_id": "D023",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D023.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Ceiling-cloud do-not-proceed",
+              "caption": "Uncertain support is a stop, not a maybe.",
+              "values": [
+                "Use wall or freestanding",
+                "Not adhesive or improvised hooks",
+                "Keep them clear",
+                "Do not block access",
+                "Needs engineered support",
+                "Use qualified installation"
+              ],
+              "labels": [
+                "Uncertain ceiling",
+                "Heavy panel overhead",
+                "Fans, lights, detectors",
+                "Maintenance access",
+                "Above bed or chair",
+                "Structural anchoring"
+              ],
+              "minimum": null,
+              "spec_id": "D033",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D033.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Run the stop list.",
+              "minutes": null
+            },
+            {
+              "text": "Test hardware on a scrap or low-risk spot.",
+              "minutes": null
+            },
+            {
+              "text": "Photograph after the first panel only if it passes.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "A full wall of untested strips over a study chair.",
+          "checklist": [
+            "Stop list passed",
+            "Sample test",
+            "Fall path considered"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "diy-fabric-wrapped-and-wood-slat-panels-step-by-step-builds",
+      "title": "Build only what you can carry, enclose, and hang",
+      "intro": "Cut mineral wool and fiberglass outside the study, following the product's indoor-use and SDS instructions. Use eye protection, gloves, and respiratory protection the material requires — a basic dust mask is not automatically enough. Keep children and pets away from cutting. Do not shake dusty fabric indoors. Enclose the core so loose fibers stay out of the room air; any fabric used for wrapping must suit both acoustic use and enclosure. It is not true that any breathable cloth prevents fiber release. Clean the work area as the manufacturer recommends. Cut lists assume you measure the actual timber. Nominal one-by-three is not a finished size.",
+      "opener": {
+        "query": "interior of a stylish study with fabric-wrapped acoustic panels and wood slat decor, natural light, warm tones, no people",
+        "flux_prompt": "full-bleed shot of a modern study with fabric-wrapped and wood slat panels, showcasing the acoustic treatment and decor integration",
+        "alt": "A square wooden frame on a work table, core still in its packaging.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\020-pexels.jpg",
+        "credit": "Photo by Walter Cunha on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:35563395"
+      },
+      "sections": [
+        {
+          "slug": "cut-list-assumptions",
+          "title": "Cut-list assumptions, written down",
+          "day_label": "Day 15",
+          "hero": {
+            "query": "close-up of fabric-wrapped acoustic panel with clean edges and hidden fasteners, natural light, textured fabric",
+            "flux_prompt": "detailed shot of a fabric-wrapped panel showcasing the corner details and fabric tension",
+            "alt": "A tape measure on actual lumber next to an uncut core board.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\021-pexels.jpg",
+            "credit": "Photo by https://kaboompics.com/ on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4863008"
+          },
+          "scenario": "Situation: A template says 24 by 36 inches without saying whether that is outside, inside, or including fabric.",
+          "principle": "Every dimension needs a name: outside, opening, core, frame thickness, fabric allowance, joint type.",
+          "body": [
+            "Today's output: a filled assumption block for one panel: outside size, core thickness, frame stock as measured, fabric extra, butt or miter, whether it fits the door and stairs.",
+            "Illustrative 24-by-36-inch panels are examples. Measure lumber; nominal sizes lie. Plan a second person for awkward panels. Yield and waste belong on the budget sheet before you cut.",
+            "Do not build this size if you cannot carry it, fit it through the door, brace a wide span, keep fabric from sagging, or mount it within the wall's listed method."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Name every dimension",
+              "caption": "Verify timber before cutting.",
+              "values": [
+                "Write it",
+                "Write it",
+                "Measure stock",
+                "Include wrap"
+              ],
+              "labels": [
+                "Outside size",
+                "Core size",
+                "Frame thickness",
+                "Fabric extra"
+              ],
+              "minimum": null,
+              "spec_id": "D016",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D016.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Fabric extra is not acoustic data",
+              "caption": "Order extra for wrap; it does not change the core.",
+              "values": [
+                "Plan waste",
+                "Pattern match needs more"
+              ],
+              "labels": [
+                "Plain fabric",
+                "Patterned fabric"
+              ],
+              "minimum": null,
+              "spec_id": "D013",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D013.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Joints change the cut",
+              "caption": "Miter and butt lists are not interchangeable.",
+              "values": [
+                "Measure twice",
+                "State the joint"
+              ],
+              "labels": [
+                "Rail lengths",
+                "Corner type"
+              ],
+              "minimum": null,
+              "spec_id": "D014",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D014.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Slat rhythm is visual, not a spec",
+              "caption": "Gaps do not replace an absorptive backer.",
+              "values": [
+                "Needs a rated backer",
+                "Example only"
+              ],
+              "labels": [
+                "Wood slats",
+                "Gap pattern"
+              ],
+              "minimum": null,
+              "spec_id": "D015",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D015.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Measure actual frame stock.",
+              "minutes": null
+            },
+            {
+              "text": "Write outside vs opening.",
+              "minutes": null
+            },
+            {
+              "text": "Check door width.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Cutting all four rails to the internet's 24 and 36 before measuring the board.",
+          "checklist": [
+            "Assumptions filled",
+            "Door fit",
+            "Carry plan"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "square-frame-enclosed-core",
+          "title": "A square frame, then the core stays enclosed",
+          "day_label": "Day 16",
+          "hero": {
+            "query": "interior view of a well-lit workspace with a partially assembled fabric-wrapped panel frame, natural light, wood textures",
+            "flux_prompt": "angled shot of the frame assembly process, showcasing tools and materials used",
+            "alt": "A clamped rectangular frame with the core still bagged.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\022-pexels.jpg",
+            "credit": "Photo by Thirdman on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6731909"
+          },
+          "scenario": "Situation: Assembling on the carpet.",
+          "principle": "Square, smooth, enclosed. Fibers stay inside.",
+          "body": [
+            "Today's output: one dry-fit frame that is square, with a plan for corner blocks and fabric staple zones that do not pierce the core into the room.",
+            "Work on a protected table. Keep blades sharp. Low-VOC finish is a preference, not a health certification — follow the can.",
+            "If the panel is too large after dry-fit, redesign now."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Dry-fit around the core.",
+              "minutes": null
+            },
+            {
+              "text": "Confirm square.",
+              "minutes": null
+            },
+            {
+              "text": "Stop if it will not hang or carry safely.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Stapling through a gap that leaves wool exposed on the back against a child's hand height.",
+          "checklist": [
+            "Square dry-fit",
+            "Enclosure plan",
+            "Size still acceptable"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "slats-are-a-face",
+          "title": "Slats are a face, not the absorber",
+          "day_label": "Day 17",
+          "hero": {
+            "query": "stylish home office with a wood slat panel under construction, natural light, warm wood tones",
+            "flux_prompt": "wide shot of the wood slat panel layout, highlighting the spacing and finish",
+            "alt": "Wood slats over a felt backer on a frame, not bare on a wall.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\020-pexels.jpg",
+            "credit": "Photo by Walter Cunha on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:35563395"
+          },
+          "scenario": "Situation: A slat kit with no backer specified.",
+          "principle": "Without a documented acoustic backer, slats are decoration.",
+          "body": [
+            "Today's output: backer type from the product, or a decision that the slat piece is visual only.",
+            "Finish slats off the felt. Example gap patterns are styling. They are not performance numbers.",
+            "Weight goes up with hardwood. Recheck the mount listing."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Slat panel decision",
+              "caption": "Decoration versus absorption.",
+              "values": [
+                "Needs specified backer",
+                "Call it visual"
+              ],
+              "labels": [
+                "If you want absorption",
+                "If you only want rhythm"
+              ],
+              "minimum": null,
+              "spec_id": "D024",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D024.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Name the backer.",
+              "minutes": null
+            },
+            {
+              "text": "Weigh the design.",
+              "minutes": null
+            },
+            {
+              "text": "Keep or drop slats.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Nailing slats to drywall and expecting neighbor noise to drop.",
+          "checklist": [
+            "Backer named or visual-only",
+            "Weight check",
+            "Mount still valid"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "workspace-ppe-lift",
+          "title": "Workspace, PPE, and who helps lift",
+          "day_label": "Day 18",
+          "hero": {
+            "query": "workspace set up for cutting acoustic materials, safety gear visible, natural light",
+            "flux_prompt": "detailed shot of safety equipment and clean workspace for acoustic panel construction",
+            "alt": "A protected work table, vacuum, and bagged offcuts — not a bedroom floor.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\024-pexels.jpg",
+            "credit": "Photo by Infinity lifespaces on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:30592259"
+          },
+          "scenario": "Situation: Circular saw in a hallway.",
+          "principle": "Inspect tools, manage cords, collect offcuts, and do not treat a paper mask as universal fiber protection.",
+          "body": [
+            "Today's output: a pre-build checklist ticked, including ventilation, floor protection, and a second person if the panel is awkward.",
+            "Use the before-cutting checklist from the cores chapter. Today is tools, lift help, cords, and offcuts. Do not treat a paper mask as universal fibre protection.",
+            "Store sharp tools. Plan disposal of offcuts per local rules."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Set a real work surface.",
+              "minutes": null
+            },
+            {
+              "text": "Put on the PPE the SDS names.",
+              "minutes": null
+            },
+            {
+              "text": "Arrange help for the lift.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Cutting wool on the study rug with a cloth mask.",
+          "checklist": [
+            "Workspace",
+            "PPE from SDS",
+            "Lift help"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "measure-and-validate-proving-the-quiet-with-free-tools",
+      "title": "Compare the same seat, same phone — not a lab report",
+      "intro": "Smartphone sound-level readings are useful for comparing repeated tests on the same device. They are not calibrated measurement instruments. Use them to observe changes, not to certify a room or prove a professional acoustic target. A decay timing exercise is not a professional RT60 measurement.",
+      "opener": {
+        "query": "acoustic measurement tools, smartphone apps, home study, quiet environment, natural light, wooden desk, sound panels, minimalist decor",
+        "flux_prompt": "A full-bleed shot of a modern home study featuring a wooden desk, acoustic panels on the walls, and a smartphone displaying an acoustic measurement app, illuminated by soft natural light from a nearby window.",
+        "alt": "A phone on a desk used as a comparison tool, not a certified meter.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\025-pexels.jpg",
+        "credit": "Photo by Mateusz Dach on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:2547555"
+      },
+      "sections": [
+        {
+          "slug": "decay-estimate-not-rt60",
+          "title": "A room-decay estimate, not RT60 certification",
+          "day_label": "Day 19",
+          "hero": {
+            "query": "acoustic measurement setup, smartphone, study desk, pink noise, sound level meter, natural light",
+            "flux_prompt": "A close-up shot of a smartphone on a desk displaying a sound level meter app, with a speaker playing pink noise nearby, all set in a well-lit study environment.",
+            "alt": "A notebook logging phone model and chair position, not an RT60 certificate.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\026-pexels.jpg",
+            "credit": "Photo by ThisIsEngineering on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:3861956"
+          },
+          "scenario": "Situation: A blog says play pink noise, drop 20 dB, multiply by three.",
+          "principle": "Same speaker, same phone, same seat, several trials. Stop if the decay vanishes into the noise floor.",
+          "body": [
+            "Today's output: a comparison log — device, seat, background note, and whether you even attempt a decay estimate.",
+            "Do not treat 0.3–0.5 seconds as a required study RT60. Different tasks need different rooms. Do not compare two phones as if they were calibrated.",
+            "If you try a decay estimate, keep it labeled as rough. Background noise, speaker response, and the noise floor will distort it. Multiple trials or skip the number and use speech recordings instead. If the app shows A-weighted or C-weighted, peak or average, write that down with the distance to the source. Do not mix those modes across tests.",
+            "Smartphone sound-level readings are useful for comparing repeated tests on the same device. They are not calibrated measurement instruments. Use them to observe changes, not to certify a room or prove a professional acoustic target."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Note device and seat.",
+              "minutes": null
+            },
+            {
+              "text": "Record background as noisy/quiet.",
+              "minutes": null
+            },
+            {
+              "text": "Skip decay math if the floor swallows the tail.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Publishing an RT60 to one decimal place from a stopwatch and a phone.",
+          "checklist": [
+            "Device logged",
+            "Seat logged",
+            "Estimate labeled rough or skipped"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "speech-and-clap-from-seat",
+          "title": "Speech and clap from the working seat",
+          "day_label": "Day 20",
+          "hero": {
+            "query": "clap test setup, smartphone recording, study environment, sound reflections, acoustic treatment",
+            "flux_prompt": "A focused shot of a smartphone recording a clap test in a study, with acoustic panels visible on the walls, illuminated by soft light from a window.",
+            "alt": "A phone recording a spoken paragraph at the study chair.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\027-pexels.jpg",
+            "credit": "Photo by ThisIsEngineering on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:3861968"
+          },
+          "scenario": "Situation: Only a center-room clap was recorded.",
+          "principle": "The useful test is the one you can repeat after a single change.",
+          "body": [
+            "Today's output: before recordings of a clap and a paragraph, from the chair, same distance.",
+            "Listen for harshness and whether street or neighbor noise is still the story. Panels will not erase that track.",
+            "Change one thing — a rug, a desk move, one panel — then repeat."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Record clap and speech.",
+              "minutes": null
+            },
+            {
+              "text": "Keep the setup.",
+              "minutes": null
+            },
+            {
+              "text": "Change one variable later.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Installing six panels between the before and after recordings.",
+          "checklist": [
+            "Before files saved",
+            "Setup notes",
+            "One-variable rule"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "score-the-study",
+          "title": "Score the study, not the decay",
+          "day_label": "Day 21",
+          "hero": {
+            "query": "acoustic treatment journal, measurement log, study desk, acoustic panels, natural light",
+            "flux_prompt": "An overhead shot of a neatly organized journal on a study desk, with notes and photos of acoustic panels, surrounded by a well-lit study environment.",
+            "alt": "A one-page before/after study scorecard on the desk.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\025-pexels.jpg",
+            "credit": "Photo by Mateusz Dach on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:2547555"
+          },
+          "scenario": "Situation: Echo dropped, glare and a wobbly panel remain.",
+          "principle": "A quieter-sounding room can still be a worse place to work.",
+          "body": [
+            "Today's output: after scores for distraction, call clarity, echo, 30-minute study, external-noise frequency, glare, clutter, and panel stability (pass/review).",
+            "Observe → compare → change one variable → test → record → keep or reverse.",
+            "Next: only buy more treatment if echo still fails and incoming noise is already handled as well as a renter can."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Before and after study scorecard",
+              "caption": "Score the work session, not an RT60. 1 is worst, 10 is best.",
+              "values": [
+                "1–10",
+                "1–10",
+                "1–10",
+                "1–10",
+                "Note frequency",
+                "1–10",
+                "Pass or review"
+              ],
+              "labels": [
+                "Perceived distraction",
+                "Speech clarity on calls",
+                "Echo or harshness",
+                "30-minute study ability",
+                "External noise",
+                "Desk glare and clutter",
+                "Panel stability"
+              ],
+              "minimum": null,
+              "spec_id": "D027",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D027.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Fill the after scorecard.",
+              "minutes": null
+            },
+            {
+              "text": "Mark stability pass/review.",
+              "minutes": null
+            },
+            {
+              "text": "Decide keep, adjust, or stop buying.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Adding more panels because the number looked scientific.",
+          "checklist": [
+            "After scores",
+            "Stability",
+            "Buy/stop decision"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "sourcing-across-budget-tiers-and-styling-integration",
+      "title": "Buy documentation, then materials",
+      "intro": "Cost the whole panel: core, fabric, frame, hardware, tools, delivery, possible pro install, waste, contingency. Marketplace copy is not a data sheet.",
+      "opener": {
+        "query": "acoustic decor materials, study room, warm lighting, modern textures, no people",
+        "flux_prompt": "full-bleed shot of a stylish study with acoustic decor elements, warm lighting, and a cohesive color palette",
+        "alt": "Product spec sheets beside fabric and a small core sample.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\025-pexels.jpg",
+        "credit": "Photo by Mateusz Dach on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:2547555"
+      },
+      "sections": [
+        {
+          "slug": "quantity-before-cutting",
+          "title": "Quantity before cutting",
+          "day_label": "Day 22",
+          "hero": {
+            "query": "acoustic paneling, modern study, warm tones, no people",
+            "flux_prompt": "angled view of a study featuring framed acoustic panels, warm lighting, and a clean desk setup",
+            "alt": "A shopping list with quantities and empty price cells to fill from quotes.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\030-pexels.jpg",
+            "credit": "Photo by Masood Aslami on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:27781607"
+          },
+          "scenario": "Situation: A matching set of eight panels for a look.",
+          "principle": "If two panels pass the chair test, do not buy eight for symmetry.",
+          "body": [
+            "Today's output: a quantity sheet with formulas filled from current USD quotes — not last year's prices, and not a matching set bought for looks.",
+            "Material subtotal = core + fabric + frame + backing + hardware + adhesive. Project subtotal = material subtotal + tools + delivery + cutting + installation. Estimated total = project subtotal + contingency. For each line record quantity, unit, unit price in USD, waste percentage or quantity, source, date checked, and whether the price is an estimate.",
+            "Prices in this book are USD. Measurements are inches; 1 inch equals 25 mm if you need a conversion. Example sizes are illustrations. If sealing or a better chair would help more, spend there first."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Budget formulas",
+              "caption": "Fill from current USD quotes. Leave a cell blank until you have a number.",
+              "values": [
+                "Core+fabric+frame+backing+hw+adhesive",
+                "Materials+tools+delivery+cutting+install",
+                "Project subtotal + contingency",
+                "Mark estimate if not a quote"
+              ],
+              "labels": [
+                "Material subtotal",
+                "Project subtotal",
+                "Estimated total",
+                "Each line"
+              ],
+              "minimum": null,
+              "spec_id": "D028",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D028.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Record for every budget line",
+              "caption": "A marketplace photo is not a quote.",
+              "values": [
+                "___",
+                "___",
+                "USD",
+                "___",
+                "___",
+                "___",
+                "Yes / no"
+              ],
+              "labels": [
+                "Quantity",
+                "Unit",
+                "Unit price",
+                "Waste percent or qty",
+                "Source",
+                "Date checked",
+                "Price is an estimate"
+              ],
+              "minimum": null,
+              "spec_id": "D041",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D041.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Enter quantity, unit, USD price, waste, source, and date.",
+              "minutes": null
+            },
+            {
+              "text": "Add material subtotal, then project subtotal.",
+              "minutes": null
+            },
+            {
+              "text": "Add contingency and mark estimates.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Ordering a visual set before a single-panel test.",
+          "checklist": [
+            "Count justified",
+            "Yield math",
+            "Contingency"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "refuse-undocumented-products",
+          "title": "Refuse undocumented products",
+          "day_label": "Day 23",
+          "hero": {
+            "query": "textured fabrics, modern office, warm lighting, no people",
+            "flux_prompt": "close-up of fabric swatches in a stylish office setting, warm light highlighting textures",
+            "alt": "A product page next to a handwritten spec checklist with weight filled in.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\031-pexels.jpg",
+            "credit": "Photo by Alexandra Irimia on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:30458072"
+          },
+          "scenario": "Situation: A listing shows a lifestyle photo and no weight.",
+          "principle": "Need size, thickness, weight, indoor use, mount rating, cleaning, fire docs where relevant, warranty limits.",
+          "body": [
+            "Today's output: a vendor row that is complete or a rejected SKU.",
+            "Replacement fabric and spare hardware matter if you rent and will remove the panel.",
+            "Air-gap frames and thickness claims need the maker's data, not a forum thickness myth."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Demand the spec.",
+              "minutes": null
+            },
+            {
+              "text": "Reject missing weight or mount data.",
+              "minutes": null
+            },
+            {
+              "text": "Keep packaging.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Treating a marketplace description as a test report.",
+          "checklist": [
+            "Spec complete or reject",
+            "Weight known",
+            "Mount listing known"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "light-the-work",
+          "title": "Light the work, then graze the cloth",
+          "day_label": "Day 24",
+          "hero": {
+            "query": "stylish lighting, modern study, warm ambiance, no people",
+            "flux_prompt": "angle of a study showcasing wall washers illuminating acoustic panels and wood slats, warm light creating a cozy atmosphere",
+            "alt": "A desk lamp lighting paper, screen dark of window glare, panel away from the bulb.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\002-pexels.jpg",
+            "credit": "Photo by Berna on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:31529532"
+          },
+          "scenario": "Situation: Wall washers were specified at 2700 K as always best.",
+          "principle": "Task light and glare control beat a fixed color temperature. Styling is last.",
+          "body": [
+            "Today's output: a lighting check that passes for paper and screen, with panel edges not covering the lamp or a switch.",
+            "Does the writing hand cast a shadow on the page? Is the lamp stable and safely positioned? Is the light source reflected in the monitor? Is the screen much brighter than the surrounding room? Can the user adjust the brightness? Does the lighting remain comfortable at night? Are cables clear of the chair and walking path? Does a wall panel obstruct the lamp's heat clearance?",
+            "Neutral light is allowed for detail; warmer light is allowed in the evening. Warm light is not universally better. Hierarchy: safe mount, access, chair movement, acoustics, lighting, then alignment with shelves."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Lighting checks beyond glare",
+              "caption": "Warm light is optional, not a rule.",
+              "values": [
+                "Move the lamp if yes",
+                "Follow the lamp instructions",
+                "Move lamp or screen",
+                "Raise room light if needed",
+                "Prefer adjustable",
+                "Recheck after dark",
+                "Reroute",
+                "Keep listed clearance"
+              ],
+              "labels": [
+                "Writing-hand shadow on page",
+                "Lamp stable and safe",
+                "Light reflected in monitor",
+                "Screen much brighter than room",
+                "Brightness adjustable",
+                "Comfortable at night",
+                "Cables off chair and walk",
+                "Panel vs lamp clearance"
+              ],
+              "minimum": null,
+              "spec_id": "D039",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D039.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Place a task lamp for paper without a writing-hand shadow.",
+              "minutes": null
+            },
+            {
+              "text": "Check monitor reflection, room contrast, and night comfort.",
+              "minutes": null
+            },
+            {
+              "text": "Confirm lamp clearance from any panel and cables off the path.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Grazing a panel with a hot fixture closer than the lamp instructions allow.",
+          "checklist": [
+            "Paper and screen light",
+            "Night check",
+            "Clearance and cables"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "decor-grade-acoustic-panel-selection-checklist",
+      "title": "Panel selection worksheet",
+      "intro": "Use after the diagnosis. If the problem is incoming noise, this sheet may stay mostly blank on purpose.",
+      "opener": {
+        "query": "small indian apartment interior minimalist daylight editorial",
+        "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK apartment interior, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+        "alt": "A printed selection worksheet with room name and date fields.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\014-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:6890400"
+      },
+      "sections": [
+        {
+          "slug": "fill-selection-fields",
+          "title": "Fill fields, not paragraphs",
+          "day_label": "Day 25",
+          "hero": {
+            "query": "small indian apartment interior minimalist daylight editorial",
+            "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK apartment interior, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+            "alt": "A worksheet with inches, weight, and permission filled, coverage percent empty.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\034-pexels.jpg",
+            "credit": "Photo by Anisha Deb on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:36195703"
+          },
+          "scenario": "Situation: A checklist that is actually an essay.",
+          "principle": "If you cannot complete a field without guessing, you are not ready to order.",
+          "body": [
+            "Today's output: room name, date, dimensions in inches, problem type, goal (speech/reading/calls), wall type, permission, panel size and weight, core, fabric, fire docs, cleaning, mount method, budget line, unresolved risks, final decision.",
+            "Assumptions belong on the page. Coverage percent is optional and labeled estimate only.",
+            "Complete the Day 3 diagnosis worksheet first. Use this sheet only after the noise path is named. Use the mounting-load worksheet before the mounting chapter. Do not purchase if permission, wall, or weight is blank."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Selection fields that must exist",
+              "caption": "Blank means do not order.",
+              "values": [
+                "Inches",
+                "Echo / incoming / mix",
+                "Yes-ask-no",
+                "Pounds"
+              ],
+              "labels": [
+                "Room size",
+                "Problem type",
+                "Permission",
+                "Panel weight"
+              ],
+              "minimum": null,
+              "spec_id": "D017",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D017.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Docs before SKU",
+              "caption": "Core choice without docs is incomplete.",
+              "values": [
+                "Listed indoor use",
+                "Assembly if available",
+                "Maker instructions"
+              ],
+              "labels": [
+                "Core",
+                "Fire note",
+                "Cleaning"
+              ],
+              "minimum": null,
+              "spec_id": "D018",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D018.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Fill every field or NA.",
+              "minutes": null
+            },
+            {
+              "text": "Sign the decision.",
+              "minutes": null
+            },
+            {
+              "text": "Attach photos of the wall.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Checking boxes for mineral wool because a sample chapter used it.",
+          "checklist": [
+            "Fields complete or NA",
+            "Decision signed",
+            "Risks listed"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "diy-fabric-wrapped-panel-cut-list-and-build-template",
+      "title": "Cut-list and build worksheet",
+      "intro": "Copy measured stock sizes. Label outside versus opening. State joint type. Confirm the panel fits the building.",
+      "opener": {
+        "query": "small indian apartment interior minimalist daylight editorial",
+        "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK apartment interior, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+        "alt": "A cut list with actual lumber measurements written in.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\034-pexels.jpg",
+        "credit": "Photo by Anisha Deb on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:36195703"
+      },
+      "sections": [
+        {
+          "slug": "write-cut-list-assumptions",
+          "title": "Write the assumptions on the cut list",
+          "day_label": "Day 26",
+          "hero": {
+            "query": "small indian apartment interior minimalist daylight editorial",
+            "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK apartment interior, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+            "alt": "A cut list with measured one-by dimensions, not nominal sizes.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\034-pexels.jpg",
+            "credit": "Photo by Anisha Deb on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:36195703"
+          },
+          "scenario": "Situation: A template still embeds 2-inch cores as if they were required.",
+          "principle": "Core thickness is a product choice. The list only works if every number is sourced.",
+          "body": [
+            "Today's output: cut list with outside dimensions, opening, core thickness, measured frame thickness, fabric allowance, staple clearance, backing included yes/no, tolerances, butt or miter, reversible yes/no, door and stair fit, two-person lift yes/no.",
+            "Illustrative 24-by-36 or 30-inch panels are not your panel until they match this sheet.",
+            "Stop if the finished piece needs professional mounting you will not hire."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Example A is an example",
+              "caption": "Replace with measured values.",
+              "values": [
+                "illustrative 24 x 36 in",
+                "measure lumber"
+              ],
+              "labels": [
+                "Outside example",
+                "Frame stock"
+              ],
+              "minimum": null,
+              "spec_id": "D019",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D019.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Thicker is not automatically better bass",
+              "caption": "Use product data, not a 3-inch myth.",
+              "values": [
+                "Product data required",
+                "Still not isolation"
+              ],
+              "labels": [
+                "If you change thickness",
+                "Neighbor noise"
+              ],
+              "minimum": null,
+              "spec_id": "D020",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D020.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Large panel hold",
+              "caption": "Redesign if carry, door, or mount fails.",
+              "values": [
+                "Two people?",
+                "Fits door?",
+                "Mount listing?"
+              ],
+              "labels": [
+                "Lift",
+                "Access",
+                "Wall"
+              ],
+              "minimum": null,
+              "spec_id": "D021",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D021.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Measure stock.",
+              "minutes": null
+            },
+            {
+              "text": "Fill every assumption.",
+              "minutes": null
+            },
+            {
+              "text": "Check carry and door.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Cutting to the example because the figure looked official.",
+          "checklist": [
+            "Measured stock",
+            "Assumptions complete",
+            "Fit and lift OK"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "renter-friendly-mounting-guide-and-damage-free-install-works",
+      "title": "Mounting worksheet and final study check",
+      "intro": "This is not a damage-free certificate. Complete the install fields, then the handover: function, acoustics honesty, safety, rental paper, maintenance.",
+      "opener": {
+        "query": "acoustic panels installation, modern Indian apartment, soft natural light, minimalist decor",
+        "flux_prompt": "full-bleed shot of a modern Indian apartment living room with acoustic panels mounted, showcasing a clean and stylish aesthetic",
+        "alt": "A finished study corner with a stable panel, clear switches, and a task lamp.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\037-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:8089161"
+      },
+      "sections": [
+        {
+          "slug": "install-fields-and-final-check",
+          "title": "Install fields and the final quiet-study check",
+          "day_label": "Day 27",
+          "hero": {
+            "query": "acoustic panel installation options, clean modern design, natural light, minimalist decor",
+            "flux_prompt": "image of various mounting options for acoustic panels in a stylish Indian apartment, showcasing removable adhesives, rail cleats, and compression poles",
+            "alt": "A calm desk after a real study session, panel still on the wall, switches visible.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\038-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6958141"
+          },
+          "scenario": "Situation: Panels are up. Nobody saved permission or a removal plan.",
+          "principle": "If you cannot study for a half hour, or a panel is unstable, the project is not done.",
+          "body": [
+            "Today's output: completed install fields — dimensions, wall and ceiling type, panel size and weight, count, method, hardware, permission, adhesive test, stability, switch/outlet/window/door clearance, child and pet access, removal plan, before/after photos, inspection date — plus the final check below.",
+            "Function: 30–60 minutes of real study, reading and writing without bad glare, chair and desk usable, storage reachable, desk resettable. Acoustics: less echo if that was the goal; speech clearer; external noise still named honestly; room not overly dead. Safety: stable panels, suitable mounts, no exposed fibers, clear exits and devices, lights separated from cloth, safe cables. Copy the mounting-load worksheet: weight, wall type, hardware, maker rating, orientation, mounting points, permission, surface, second retention, above seated or sleeping, stability pass/hold. Rental: permission saved, photos, removal plan, damage reporting. Maintenance: use the schedule in the materials chapter; the fabric maker's cleaning method wins.",
+            "Stop and reconsider remains in force after install: unknown wall, overweight, failed adhesive test, bad ceiling, blocked exit, odor or fibers, moisture, unsafe lift, unclear permission.",
+            "Next step is living in the room, not buying another matching pair.",
+            "Use the scorecard from the measurement chapter and the quantity sheet from sourcing. Do not purchase more panels if incoming noise is still the unsolved problem."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Fill install fields.",
+              "minutes": null
+            },
+            {
+              "text": "Run a 30-minute study.",
+              "minutes": null
+            },
+            {
+              "text": "File photos and permission.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Calling the book finished because the panels match the rug.",
+          "checklist": [
+            "Install fields",
+            "Study session passed",
+            "Paper trail"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    }
+  ]
+}

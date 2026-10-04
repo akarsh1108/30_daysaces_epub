@@ -1,0 +1,2218 @@
+{
+  "slug": "zero-waste-kitchen-cleaning-kit",
+  "title": "Zero Waste Kitchen Cleaning Kit",
+  "subtitle": "A compact kit, surface-appropriate methods, and refill routines for small kitchens — aimed at less packaging, not a promise of zero waste.",
+  "tagline": "Clean a small kitchen with a compact kit, surface-safe methods, and refill routines.",
+  "author": "Akarsh Priyadarshan",
+  "series": "30 Day Spaces",
+  "closing_headline": "Your next room starts here",
+  "closing_blurb": "More room kits, declutter sprints, and measured layouts for Indian apartments — same series language, same clear numbers.",
+  "accent_hex": "#1E5F6B",
+  "units": "imperial",
+  "cover": {
+    "query": "chatgpt designed cover zero waste kitchen cleaning kit",
+    "flux_prompt": "",
+    "alt": "Zero Waste Kitchen Cleaning Kit cover",
+    "source": "flux",
+    "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\cover.jpg",
+    "credit": "Cover illustration",
+    "ai_generated": true,
+    "provider_id": "chatgpt:zero-waste-cover"
+  },
+  "designed_cover": true,
+  "chapters": [
+    {
+      "slug": "foundation-first-assessing-your-tiny-kitchen-and-zero-waste-",
+      "title": "Foundation First: Assess the Kitchen and Set Realistic Goals",
+      "intro": "This book is for people who cook in a small kitchen — renters, shared flats, and compact apartments. Zero waste here means a direction: fewer disposable wipes, fewer duplicate bottles, and a refill habit you can keep. It is not an automatic result of buying refillable bottles. You will set up a compact kit, mix a few surface-appropriate cleaners, run a short daily reset, and track cost and packaging against a baseline. Do not treat this book as a professional food-safety, mould-remediation, or hazardous-materials manual. Follow manufacturer labels for any sanitizer or disinfectant.",
+      "opener": {
+        "query": "compact Indian kitchen with minimal clutter, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+        "flux_prompt": "full-bleed image of a tidy, organized tiny kitchen with clear zones and minimal waste",
+        "alt": "A compact kitchen with a clear counter and a small labelled cleaning caddy near the sink.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\001-pexels.jpg",
+        "credit": "Photo by Ty Nguyễn on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:32327373"
+      },
+      "sections": [
+        {
+          "slug": "before-you-begin",
+          "title": "Before You Begin",
+          "day_label": "Start here",
+          "hero": {
+            "query": "minimalist kitchen with clear surfaces, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "image of a clean kitchen counter with clear zones and organized tools",
+            "alt": "A compact kitchen with a clear counter and a small labelled cleaning caddy near the sink.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\002-pexels.jpg",
+            "credit": "Photo by Cup of  Couple on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7303999"
+          },
+          "scenario": "",
+          "principle": "Measure, list surfaces, and label bottles before you mix anything.",
+          "body": [
+            "Use this list once, then keep the rest of the book as reference. You do not need to finish every chapter before you clean the sink tonight.",
+            "Keep all mixtures away from children and pets. Never store a homemade cleaner in a food or beverage container. Label every bottle with contents and preparation date. Do not reuse a container if its previous contents could react with the new solution. Never mix cleaners or disinfectants unless the product instructions explicitly permit it."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Measure the cleaning-storage space you actually have, including no-under-sink options.",
+              "minutes": null
+            },
+            {
+              "text": "List kitchen surfaces and mark which ones touch food.",
+              "minutes": null
+            },
+            {
+              "text": "Record products you already own. Set unidentified or expired bottles aside for safe disposal.",
+              "minutes": null
+            },
+            {
+              "text": "Choose one mixing area that is not a food-prep board.",
+              "minutes": null
+            },
+            {
+              "text": "Select a small number of tools and make labels before the first refill.",
+              "minutes": null
+            },
+            {
+              "text": "Write a one-month baseline for cost and packaging, then test each method on a hidden spot.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Check",
+          "mistake": "",
+          "checklist": [
+            "Storage measured.",
+            "Food-contact surfaces identified.",
+            "Existing products listed.",
+            "Labels ready.",
+            "Baseline started.",
+            "Hidden-spot test done."
+          ],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "how-the-systems-work-together",
+          "title": "How the Systems Work Together",
+          "day_label": "Map",
+          "hero": {
+            "query": "minimalist kitchen with clear surfaces, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "image of a clean kitchen counter with clear zones and organized tools",
+            "alt": "Notebook list of assess, set up, clean, respond, and review.",
+            "source": "openai",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\003-openai.jpg",
+            "credit": "AI-generated image",
+            "ai_generated": true,
+            "provider_id": "openai:642af4839fbef6f5"
+          },
+          "scenario": "",
+          "principle": "Use one sequence: assess, set up, clean, respond, review. Named frameworks are tools inside that sequence, not separate programs to memorize.",
+          "body": [
+            "1. Assess. Measure space, list surfaces, note safety limits, and set a waste-and-cost baseline. The Constraints Compass and Reach Frequency Map belong here.",
+            "2. Set up. Choose the kit, a storage layout, and a refill system. CLEAR is the storage layout: Containers, Labels, Essentials, Access, Refill.",
+            "3. Clean. Use the daily routine and surface-specific methods. SWEEP is the daily order: Surfaces, Washware, Empty waste, Equipment, Put away. PREP is the occasional deep-clean cycle.",
+            "4. Respond. Handle spills with STOP: Secure, Triage, Operate, Purge. Use a labelled sanitizer only when the spill and the surface require it.",
+            "5. Review. Track waste, cost, tool condition, and what to change. The Waste and Cost Dashboard and the ninety-day sprint belong here.",
+            "If a name is not helping you decide what to do next, skip it and return to this five-step sequence."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "defining-clean-in-your-tiny-kitchen",
+          "title": "Defining Clean in Your Tiny Kitchen",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "minimalist kitchen with clear surfaces, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "image of a clean kitchen counter with clear zones and organized tools",
+            "alt": "image of a tidy kitchen with defined clean standards",
+            "source": "openai",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\004-openai.jpg",
+            "credit": "AI-generated image",
+            "ai_generated": true,
+            "provider_id": "openai:bfc5e09d62d1a864"
+          },
+          "scenario": "A 1BHK kitchen is clean enough for the next meal when the sink is empty, counters are crumb-free, and food-contact boards are washed. Weekly work is splash zones, the microwave, and floor corners — not a promise of a perfect kitchen.",
+          "principle": "A clear definition of cleanliness helps anchor your daily and weekly tasks.",
+          "body": [
+            "Decide what 'done' means in this room before you buy tools. Daily clean: sink empty, counters wiped, no standing food waste. Weekly reset: appliance faces, splash zone, and floor edges. That is a working standard, not a guarantee.",
+            "Cleaning is not the same as sanitizing or disinfecting. Cleaning removes dirt, food residue, and many germs. Sanitizing or disinfecting requires a product and procedure suitable for the specific surface and purpose. Always follow the product label, including contact time, dilution, ventilation, and rinsing requirements. Never mix cleaning products or disinfectants.",
+            "Zero waste in this book is a tracking goal. Reusable cloths still use water, detergent, and eventually need disposal. Count packaging and cost against a baseline instead of claiming the system is waste-free."
+          ],
+          "figures": [
+            {
+              "kind": "elevation",
+              "title": "If A Cabinet Is 22 Inches Wide",
+              "caption": "If a cabinet is 22 inches wide, 20 inches deep, and 14 inches high, you can model how a small caddy and refill jars fit.",
+              "values": [
+                "22 inch",
+                "20 inch",
+                "14 inch"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D002",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\figures\\D002.svg"
+            },
+            {
+              "kind": "elevation",
+              "title": "She Measured 18 Inches Of Under Sink",
+              "caption": "She measured 18 inches of under sink width and 12 inches of height, plus a narrow 4 inch shelf by the stove.",
+              "values": [
+                "18 inch",
+                "12 inch",
+                "4 inch"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D003",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\figures\\D003.svg"
+            },
+            {
+              "kind": "elevation",
+              "title": "She Replaced Paper Towels With Four Swedish",
+              "caption": "She replaced paper towels with four Swedish cloths stored on the 4 inch shelf in a small tray.",
+              "values": [
+                "4 inch"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D004",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\figures\\D004.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Mistake: treating every extra bottle as 'more prepared.' Consequence: the under-sink cabinet becomes unsearchable and you skip cleaning. Correction: keep one caddy of labelled essentials and store backups only if you have a second dry shelf.",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "measuring-your-kitchen-constraints",
+          "title": "Measuring Your Kitchen Constraints",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "compact kitchen storage solutions, one window light, plaster textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "image of under-sink storage with organized cleaning supplies and clear measurements",
+            "alt": "image of a well-measured cabinet with cleaning tools organized",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\005-pexels.jpg",
+            "credit": "Photo by Fabian Reck on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:18340384"
+          },
+          "scenario": "",
+          "principle": "Measuring your kitchen constraints is essential for effective organization and planning.",
+          "body": [
+            "Use a tape measure to quantify your storage inches, time in minutes, and waste in packages. For storage inches, measure the interior width, depth, and height of under-sink space, open shelves, and the clearance for your tallest bottle. For example, if a cabinet is 22 inches wide, 20 inches deep, and 14 inches high, you can model how a small caddy and refill jars fit.",
+            "Decide your daily and weekly effort in minutes. For instance, aim for 8 to 12 minutes daily and 25 to 35 minutes weekly. These caps keep routines sustainable and manageable, especially in a tiny kitchen.",
+            "Count how many bottles, sprayers, sponges, gloves, and paper towel rolls you toss per month. Write it down and note materials like plastic, cardboard, and mixed. This baseline will help you identify areas for improvement."
+          ],
+          "figures": [
+            {
+              "kind": "elevation",
+              "title": "She Measured 18 Inches Of Under Sink",
+              "caption": "She measured 18 inches of under sink width and 12 inches of height, plus a narrow 4-inch shelf by the stove.",
+              "values": [
+                "18 inch",
+                "12 inch",
+                "4 inch"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D003",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\figures\\D003.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "mapping-your-micro-zones",
+          "title": "Mapping Your Micro Zones",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "organized kitchen zones, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "image of a kitchen with clearly defined zones and organized tools",
+            "alt": "image of a mapped kitchen layout with labeled zones",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\006-pexels.jpg",
+            "credit": "Photo by Yunuen Zempoaltecatl on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:35657824"
+          },
+          "scenario": "",
+          "principle": "Mapping micro zones helps streamline your cleaning process and tool placement.",
+          "body": [
+            "Draw a simple plan of your kitchen on one sheet of paper. Label five zones: Wet Zone (sink, faucet, drainboard, dish rack), Prep Zone (counter space for chopping and mixing), Heat Zone (stove, oven, nearby backsplash), Mess Zone (areas that catch splatters), and Storage Zone (where your cleaning kit will live). This visual representation will guide your cleaning routine and tool organization.",
+            "For each zone, note the most common messes. For example, the wet zone often has food bits and soap scum, while the prep zone accumulates crumbs and sticky film. Identifying these messes allows you to place tools nearby for quick access and reduce the steps needed to clean up.",
+            "This mapping exercise will direct tool placement and routines, ensuring that you can clean efficiently and effectively."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "setting-safety-parameters",
+          "title": "Setting Safety Parameters",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "cleaning supplies for sensitive surfaces, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "image of cleaning supplies organized with clear labels and safety instructions",
+            "alt": "image of a cleaning kit with safety parameters displayed",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\007-pexels.jpg",
+            "credit": "Photo by 3D Render on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:34850987"
+          },
+          "scenario": "",
+          "principle": "Establishing safety parameters ensures that your cleaning methods are effective without damaging surfaces.",
+          "body": [
+            "Cleaning is not the same as sanitizing or disinfecting. Cleaning removes dirt, food residue, and many germs. Sanitizing or disinfecting requires a product and procedure suitable for the specific surface and purpose. Always follow the product label, including contact time, dilution, ventilation, and rinsing requirements. Never mix cleaning products or disinfectants.",
+            "List surfaces: laminate, wood, stone, stainless, glass, painted cabinets, appliance skins, and seams. Vinegar can etch natural stone. Abrasives can scratch acrylic and some stainless. Test a hidden spot and wait to inspect before wider use.",
+            "Keep all mixtures away from children and pets. Never store a homemade cleaner in a food or beverage container. Label every bottle with contents and preparation date. Do not reuse a container if its previous contents could react with the new solution. Never mix cleaners or disinfectants unless the product instructions explicitly permit it.",
+            "Homemade mixtures are cleaners unless a product you buy is labelled as a sanitizer or disinfectant for that surface. Do not call a peroxide mix a sanitizer because the bottle says 3 percent hydrogen peroxide."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Write the surface list and mark food-contact areas.",
+              "minutes": null
+            },
+            {
+              "text": "Read every label you already own. Set unknowns aside.",
+              "minutes": null
+            },
+            {
+              "text": "Choose one mixing area away from cutting boards.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Mistake: spraying a new mix on marble because it worked on laminate. Consequence: etching or a dull patch that a renter cannot easily reverse. Correction: check the surface list, then test a hidden spot.",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "aligning-tasks-to-energy-and-airflow",
+          "title": "Aligning Tasks to Energy and Airflow",
+          "day_label": "Day 5",
+          "hero": {
+            "query": "kitchen cleaning routine with airflow considerations, one window light, plaster textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "image of a kitchen with open windows and organized cleaning supplies",
+            "alt": "image of a well-ventilated kitchen during cleaning",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\008-pexels.jpg",
+            "credit": "Photo by Betül  Üstün on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:37936220"
+          },
+          "scenario": "",
+          "principle": "Aligning cleaning tasks with your energy levels and airflow can enhance efficiency and effectiveness.",
+          "body": [
+            "Note your schedule and kitchen ventilation. For example, if you cook late at night when your energy is low, it may be more effective to do quick clean-ups immediately after meals when you have more energy. Quick sink clears and counter wipes can happen right after eating, while grease cleaning on the stove can occur while it is warm and the window is open.",
+            "Schedule tasks when you have energy and when airflow helps. For instance, do floor corners when traffic is low, ensuring you can clean without interruptions. This alignment will make your cleaning routine feel less burdensome and more manageable.",
+            "By being mindful of your energy levels and the kitchen environment, you can create a cleaning routine that works with your lifestyle rather than against it."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "the-compact-essentials-building-your-multi-use-cleaning-kit",
+      "title": "The Compact Essentials: Building Your Multi-Use Cleaning Kit",
+      "intro": "Build one kit that fits the space you measured. The list below is the working set. Optional items come after. Do not share cloths or brushes between raw-meat cleanup and ordinary wiping.",
+      "opener": {
+        "query": "Compact cleaning kit in a small kitchen, under-sink cabinet, organized tools, natural light, minimalist styling.",
+        "flux_prompt": "Full-bleed shot of a neatly organized under-sink cabinet showcasing a compact cleaning kit with labeled bottles and tools.",
+        "alt": "A compact cleaning caddy with labelled refillable bottles, folded cloths, a soft brush, and a protected scraper.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\009-pexels.jpg",
+        "credit": "Photo by Andrea Davis on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:6486244"
+      },
+      "sections": [
+        {
+          "slug": "understanding-the-problem",
+          "title": "Understanding the Problem",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "Organized cleaning tools in a compact caddy, natural light, minimalist design.",
+            "flux_prompt": "A close-up of a compact cleaning caddy with neatly arranged tools and bottles, showcasing labels and organization.",
+            "alt": "A clean, organized under-sink cabinet with a focus on the compact cleaning kit.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\010-pexels.jpg",
+            "credit": "Photo by Alec Adriano on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:36273684"
+          },
+          "scenario": "Aditi lives in a 1BHK in Pune with a 9-foot living room and a tiny kitchen. Every time she opens her under-sink cabinet, she’s greeted by a chaotic mix of bottles and brushes, making it hard to find what she needs.",
+          "principle": "Clutter in small spaces can lead to inefficiency and frustration.",
+          "body": [
+            "Tiny kitchens multiply the friction of every extra object. Single-task tools take up valuable inches in drawers and on rails, while disposables like paper towels create a steady stream of trash. Mismatched bottles occupy awkward corners, and cheap sprayers often fail at critical moments. This chaos leads to decision fatigue, as you waste time searching for the right product for glass versus grease versus scale.",
+            "Ergonomics also suffer in cramped spaces. Hard-to-grip brushes, thin cloths that smear instead of absorb, and bulky caddies slow you down. Many small apartments have landlord restrictions that prevent drilling, leading to hooks that fall or magnets that slip, resulting in cluttered counters. To create an effective cleaning system, you must address use, storage, and sustainability together.",
+            "The Compact Essentials Framework offers a solution: Coverage, not clutter; the three chemistries; and one-grab portability. By focusing on multi-use tools, you can tackle the dominant soils in tiny kitchens without cluttering your space."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "selecting-your-tools",
+          "title": "Selecting Your Tools",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "Compact cleaning tools arranged in a small caddy, natural light, minimalist design.",
+            "flux_prompt": "A neatly organized caddy with essential cleaning tools, showcasing their compactness and functionality.",
+            "alt": "A close-up of essential cleaning tools, emphasizing their multi-use capabilities.",
+            "source": "openai",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\011-openai.jpg",
+            "credit": "AI-generated image",
+            "ai_generated": true,
+            "provider_id": "openai:c633f451e5b37b04"
+          },
+          "scenario": "A shared rental with a load-bearing wall has no spare drawer. The kit has to live in one caddy that fits an 18-inch under-sink bay, or on a tension shelf if that bay is full.",
+          "principle": "Choose multi-use tools that address multiple cleaning tasks without taking up excess space.",
+          "body": [
+            "Essential: four everyday cloths, two polish cloths, one soft brush, one squeegee, three labelled bottles, gloves, one protected scraper. Optional: bottle brush, extra gloves, a second caddy. Substitutes: a folded cotton towel for a missing polish cloth; a plastic card for a metal scraper on soft finishes.",
+            "If you have no under-sink storage, use a lidded caddy on a high shelf or a hanging over-door rack rated for the weight. If you cannot reach a refill shop, buy the smallest labelled concentrate you will actually empty, and log the packaging as part of the baseline.",
+            "Keep a separate cloth pair for raw-meat and poultry juices. Wash those apart from everyday cloths."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Your complete tiny-kitchen cleaning kit",
+              "caption": "What to notice: quantity is a starting kit, not a shopping contest. Replace by condition, not by a calendar.",
+              "values": [
+                "Counters, daily wipe; retire if odor or fray",
+                "Glass and stainless; lint-free",
+                "Seams and details; retire worn bristles",
+                "Glass and suitable splashbacks",
+                "One job per bottle, labelled",
+                "As needed; retire if torn",
+                "Stuck residue on compatible surfaces",
+                "Never mix with everyday cloths"
+              ],
+              "labels": [
+                "Microfiber cloths (4)",
+                "Glass/polish cloths (2)",
+                "Soft brush (1)",
+                "Squeegee (1)",
+                "Refillable bottles (3)",
+                "Gloves",
+                "Scraper (1)",
+                "Raw-meat cloth set"
+              ],
+              "minimum": null,
+              "spec_id": "D010",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\figures\\D010.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Mistake: using the breakfast-wipe cloth on a chicken drip, then putting it back in the caddy. Consequence: other supplies pick up soil. Correction: quarantine that cloth, wash it hot according to its care label, and dry it fully before it returns to the kit.",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "assembling-your-kit",
+          "title": "Assembling Your Kit",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "Organized cleaning kit in a small kitchen cabinet, natural light, minimalist design.",
+            "flux_prompt": "A full view of a compact cleaning kit assembled in a small under-sink cabinet, emphasizing organization and accessibility.",
+            "alt": "A close-up of the cleaning kit components, showcasing labels and arrangement.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\012-pexels.jpg",
+            "credit": "Photo by SHVETS production on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7512975"
+          },
+          "scenario": "",
+          "principle": "A well-assembled kit maximizes efficiency and minimizes clutter.",
+          "body": [
+            "Begin by measuring your storage slot—height, width, and depth. Aim for a caddy that leaves one finger of clearance for easy lift-out. Choose a caddy that prioritizes a waterproof base, smooth corners, and a low center of gravity. If your space is narrow, opt for a rectangular caddy and orient bottles with the short side in.",
+            "Select standardized containers for your cleaning solutions. Choose refillable bottles in one or two consistent sizes to ensure they nest or line up tightly. Opt for wide mouths for easy refilling with a collapsible funnel. Clearly label each bottle with the product name, dilution ratio, and date mixed, using waterproof labels to prevent smearing.",
+            "Stage your caddy by placing the fine mist bottle at the front, brushes handle up, and the squeegee along one side. Fold cloths by task types and tuck the razor scraper safely into a sleeve. If you use gloves, drape them over the edge to dry."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "maintaining-your-kit",
+          "title": "Maintaining Your Kit",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "Maintained cleaning kit in a small kitchen, natural light, minimalist design.",
+            "flux_prompt": "A well-maintained cleaning kit displayed in a small kitchen, highlighting organization and cleanliness.",
+            "alt": "A close-up of the cleaning kit in use, showcasing its functionality.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\013-pexels.jpg",
+            "credit": "Photo by Lisa Fotios on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4753249"
+          },
+          "scenario": "",
+          "principle": "Regular maintenance keeps your cleaning kit functional and ready for use.",
+          "body": [
+            "Create a wash loop by keeping a mesh laundry bag inside the caddy for used cloths. When the bag is full, it goes straight into the wash, preventing mildew and keeping cloths together. Set refill triggers by marking a line on the spray bottle at one third. When the liquid hits that line, add the recipe to your next shopping list or batch day to avoid last-minute scrambling.",
+            "Regularly vet each tool in your kit. Run your fingertip over the bristles of brushes; if they splay easily, they will likely deform. Check the trigger of the sprayer to ensure it produces a steady mist, and ensure the squeegee blade is supple. Replace any worn-out tools promptly to maintain efficiency.",
+            "Finally, avoid common pitfalls such as overbuying cloths, using cheap sprayers, and neglecting to label bottles. Proper labeling prevents confusion and ensures safety in your cleaning routine."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "refillable-cleaner-recipes-for-tiny-kitchens",
+      "title": "Refillable Cleaner Recipes for Tiny Kitchens",
+      "intro": "These are small-batch cleaners for selected surfaces. They are not sanitizers unless the product you use is labelled for that job. Do not mix vinegar into castile soap. Use acid and soap as separate approaches. Essential oils are optional fragrance only; they do not make a formula work.",
+      "opener": {
+        "query": "stock photo of a compact Indian kitchen with refillable cleaner bottles on the counter, natural light from a window, clean and organized",
+        "flux_prompt": "full-bleed shot of a tiny kitchen with a focus on a neatly arranged cleaning station",
+        "alt": "Three labelled refillable bottles on a small kitchen counter, away from food.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\014-pexels.jpg",
+        "credit": "Photo by Marc Pell on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:12304130"
+      },
+      "sections": [
+        {
+          "slug": "understanding-the-problem",
+          "title": "Understanding the Problem",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "stock photo of a cluttered kitchen counter with various cleaning products",
+            "flux_prompt": "a close-up of cleaning products on a kitchen counter",
+            "alt": "a disorganized kitchen counter filled with cleaning products",
+            "source": "openai",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\015-openai.jpg",
+            "credit": "AI-generated image",
+            "ai_generated": true,
+            "provider_id": "openai:72d67daa70638bad"
+          },
+          "scenario": "A small counter is already crowded with duplicate bottles that are mostly water. The job is fewer, labelled mixes — not a row of 'refillable' claims.",
+          "principle": "Tiny kitchens need efficient cleaning solutions that minimize clutter and maximize effectiveness.",
+          "body": [
+            "Store bottles waste space and often leave you guessing which one is for glass. A refillable kit shrinks packaging only if you actually empty and refill the same bottles and you stop buying duplicates.",
+            "These formulas are intended for selected surfaces only. Check compatibility and test an inconspicuous area before broader use.",
+            "Keep all mixtures away from children and pets. Never store a homemade cleaner in a food or beverage container. Label every bottle with contents and preparation date. Do not reuse a container if its previous contents could react with the new solution. Never mix cleaners or disinfectants unless the product instructions explicitly permit it."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Mistake: calling a homemade mix refillable and therefore safe on every surface. Consequence: etched stone or a residue on a cutting board. Correction: use the compatibility table and the label.",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "the-solution-framework",
+          "title": "The Solution Framework",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "stock photo of cleaning ingredients like vinegar, baking soda, and castile soap",
+            "flux_prompt": "a neatly organized shelf with cleaning ingredients",
+            "alt": "a shelf filled with cleaning supplies organized by type",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\016-pexels.jpg",
+            "credit": "Photo by Tara Winstead on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6690168"
+          },
+          "scenario": "",
+          "principle": "Understanding the three bases of cleaning can simplify your approach and help you create effective solutions.",
+          "body": [
+            "Cleaning is not the same as sanitizing or disinfecting. Cleaning removes dirt, food residue, and many germs. Sanitizing or disinfecting requires a product and procedure suitable for the specific surface and purpose. Always follow the product label, including contact time, dilution, ventilation, and rinsing requirements. Never mix cleaning products or disinfectants.",
+            "Think in three separate actions, not one magic bottle: surfactant (castile soap) lifts grease; mild alkali (baking soda) helps stuck film where the surface can take a paste; acid (vinegar or citric acid) is for mineral film on compatible surfaces only. Hydrogen peroxide and alcohol are optional labelled products, not part of the soap mix.",
+            "Keep ratio notes on a card in the caddy. Hard water may need a little more soap for grease; that is a test, not a universal recipe."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Compatibility and limitations",
+              "caption": "What to notice: each row is a separate approach. Do not combine rows in one bottle.",
+              "values": [
+                "Mineral film on compatible hard surfaces; never stone",
+                "Everyday grease and soil; rinse food-contact",
+                "Mild scrub where the finish can take it",
+                "Scale on compatible surfaces; not stone",
+                "Only uses printed on that bottle's label",
+                "Only manufacturer-approved hard surfaces",
+                "Optional scent only; skip for pets/sensitive users"
+              ],
+              "labels": [
+                "White vinegar",
+                "Castile soap",
+                "Baking soda",
+                "Citric acid",
+                "Hydrogen peroxide",
+                "Alcohol (70%)",
+                "Essential oils"
+              ],
+              "minimum": null,
+              "spec_id": "D005",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\figures\\D005.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "recipes-and-ratios-in-detail",
+          "title": "Recipe cards",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "stock photo of a small kitchen with cleaning supplies on the counter",
+            "flux_prompt": "a close-up of a bottle of all-purpose cleaner being mixed",
+            "alt": "a bottle of homemade cleaner with ingredients in the background",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\017-pexels.jpg",
+            "credit": "Photo by ready made on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:3847544"
+          },
+          "scenario": "",
+          "principle": "Creating effective cleaning solutions requires understanding the right ratios and methods for each recipe.",
+          "body": [
+            "All-purpose cleaner (soap, not a sanitizer). Purpose: everyday grease and crumbs on laminate, sealed wood, and stainless that the maker allows soap on.",
+            "Ingredients for about 440 ml: 15 oz (440 ml) warm water, 1 tablespoon (15 ml) liquid castile soap. Do not add vinegar to this bottle. Vinegar and castile soap work against each other in one mix; use vinegar as a separate mineral-film spray on compatible surfaces only.",
+            "Preparation: 1) Water first. 2) Add soap. 3) Swirl, do not shake into foam. 4) Label contents and date. Suitable: laminate, many sealed woods, stainless if the appliance booklet allows. Avoid: natural stone, unfinished wood, electronics. Contact time: not a sanitizer. Rinse food-contact surfaces with clean water. Storage: cool, dark, away from food jars. Discard and remix if the mix smells off, separates badly, or is older than two weeks in a warm kitchen. Safety: keep away from children and pets; do not store in a drink bottle.",
+            "Mineral-film spray (acid, separate from soap). Purpose: hard-water spots on glass and compatible laminate. Ingredients: equal parts white vinegar and water, or follow a labelled descaler. Avoid stone, grout you have not tested, and cast iron. Do not mix with peroxide, bleach, or soap in the same bottle. Rinse food-contact surfaces. Label as vinegar mix, not as a disinfectant.",
+            "Hydrogen peroxide 3 percent, as sold. Purpose: only the uses printed on that product's label. This book does not convert household peroxide into a food-contact sanitizer by adding a one-minute or five-minute wait.",
+            "Keep it in the original brown bottle. Do not decant into a clear drink bottle. Do not mix with vinegar or bleach. Suitable surfaces and wet contact time are whatever the label states. If the label does not cover kitchen food-contact sanitizing, use a product that does, after cleaning. Discard according to the labelled expiry. Ventilate. Gloves if the label asks for them.",
+            "Isopropyl alcohol 70 percent, optional. Purpose: quick wipe of manufacturer-approved handles, switches, or screens — not a general kitchen sanitizer and not a food-prep spray unless the label says so. Ingredients: use the product as sold. Avoid damaged finishes, many plastics, and any heat source. Fire risk: no flames, good airflow. Do not mix with other cleaners. Store original labelled bottle, away from children."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Mix the soap cleaner in a labelled bottle. Keep acid in a second labelled bottle.",
+              "minutes": null
+            },
+            {
+              "text": "Leave peroxide and alcohol in their original containers if you keep them at all.",
+              "minutes": null
+            },
+            {
+              "text": "Write the date on every refill. Remix soap mixes that smell off or look wrong.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Mistake: pouring vinegar into the castile bottle 'to make it stronger.' Consequence: a cloudy mix that cleans worse and is harder to rinse. Correction: use soap and acid as two jobs.",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "how-to-put-this-into-practice",
+          "title": "How to Put This Into Practice",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "stock photo of a well-organized cleaning station in a small kitchen",
+            "flux_prompt": "a neatly arranged cleaning caddy with labels and supplies",
+            "alt": "a mixing zone set up for creating cleaning solutions",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\018-pexels.jpg",
+            "credit": "Photo by Huy Phan on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:30387007"
+          },
+          "scenario": "In a shared kitchen, everyone needs to read the same label. Mystery bottles get emptied, not reused.",
+          "principle": "Establishing a clear mixing zone and labeling system can streamline your cleaning process.",
+          "body": [
+            "Clear a mixing towel on a non-food board. Funnel, bottles, labels first. Make soap cleaner and, if needed, a separate vinegar mix. Do not prepare a 'sanitizer' from peroxide unless you are using the product exactly as labelled.",
+            "If you have natural stone, skip vinegar near it. Keep a stone-safe soap dilution only.",
+            "Keep all mixtures away from children and pets. Never store a homemade cleaner in a food or beverage container. Label every bottle with contents and preparation date. Do not reuse a container if its previous contents could react with the new solution. Never mix cleaners or disinfectants unless the product instructions explicitly permit it."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "space-saving-storage-layouts-under-30-inches",
+      "title": "Space-Saving Storage Layouts Under 30 Inches",
+      "intro": "In compact Indian kitchens, every inch counts. This chapter focuses on how to maximize storage within a strict thirty-inch limit, ensuring your cleaning supplies are organized, accessible, and easy to refill. Whether you're in a bustling Mumbai flat or a cozy Pune apartment, these strategies will help you create a functional space without compromising on style.",
+      "opener": {
+        "query": "Compact kitchen with vertical storage solutions, natural light from one window, clean lines, minimalist design, no people, no text, no watermark.",
+        "flux_prompt": "A full-bleed shot of a compact kitchen featuring vertical storage solutions, showcasing a clean and organized space with natural light filtering through a single window.",
+        "alt": "Compact kitchen with vertical storage solutions, natural light from one window, clean lines, minimalist design, no people, no text, no watermark.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\019-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:8146317"
+      },
+      "sections": [
+        {
+          "slug": "understanding-your-space",
+          "title": "Understanding Your Space",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "Compact kitchen storage solutions with vertical organization, natural light, clean textures, no people, no text, no watermark.",
+            "flux_prompt": "A detailed shot of a compact kitchen focusing on vertical storage solutions, emphasizing organization and accessibility.",
+            "alt": "A close-up of neatly arranged cleaning supplies in a vertical storage setup.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\020-pexels.jpg",
+            "credit": "Photo by American  Cleaning Institute on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:33784616"
+          },
+          "scenario": "",
+          "principle": "Maximizing storage within a thirty-inch limit is essential for a functional kitchen.",
+          "body": [
+            "In a tiny kitchen, the challenge is not just the size but the need for a system that keeps everything organized. Anjali's kitchen has limited counter space, making it crucial to utilize vertical storage effectively. By focusing on a thirty-inch budget, she can create a cleaning station that is both functional and aesthetically pleasing.",
+            "The first step is to measure the available space. Anjali marks thirty inches on her countertop with masking tape to visualize her storage budget. This measurement will guide her in selecting containers and organizing her cleaning supplies without cluttering the space.",
+            "Next, Anjali identifies her essentials. Items like all-purpose cleaner, cloths, and brushes are used daily, while degreasers and glass cleaners are used weekly. By categorizing her items based on usage frequency, she can prioritize their placement in her storage layout."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "implementing-the-clear-framework",
+          "title": "Implementing the CLEAR Framework",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "Vertical storage solutions in a compact kitchen, emphasizing organization, natural light, clean lines, no people, no text, no watermark.",
+            "flux_prompt": "A shot of a compact kitchen showcasing the CLEAR framework in action, with labeled containers and organized supplies.",
+            "alt": "A close-up of labeled cleaning supplies in a vertical storage setup.",
+            "source": "openai",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\021-openai.jpg",
+            "credit": "AI-generated image",
+            "ai_generated": true,
+            "provider_id": "openai:82c8a28259b4e27c"
+          },
+          "scenario": "",
+          "principle": "The CLEAR framework transforms your cleaning kit into a visible and reachable station.",
+          "body": [
+            "The CLEAR framework consists of Containers, Labels, Essentials, Access, and Refill. Rajesh starts by selecting slim, vertical containers that group his cleaning supplies without adding bulk. He chooses bottles with a two to two and a half inch diameter, ensuring they fit neatly on his limited counter space.",
+            "Labels are crucial for quick identification. Rajesh places labels facing forward on each container, using consistent names that match his cleaning recipes. This prevents confusion and ensures he can quickly grab what he needs without searching through clutter.",
+            "Access is key to efficiency. Rajesh stages his essentials within one or two touches, using inside door mounting and shallow rails to keep his most-used items readily available. This setup minimizes the number of steps he takes to retrieve cleaning supplies, making his routine more efficient."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "creating-your-reach-frequency-map",
+          "title": "Creating Your Reach Frequency Map",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "Compact kitchen with a Reach Frequency Map, emphasizing organization, natural light, clean textures, no people, no text, no watermark.",
+            "flux_prompt": "A detailed shot of a compact kitchen with a visible Reach Frequency Map, showcasing organized cleaning supplies.",
+            "alt": "A close-up of a Reach Frequency Map displayed in a compact kitchen.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\022-pexels.jpg",
+            "credit": "Photo by Samuel Jerónimo on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:27582062"
+          },
+          "scenario": "",
+          "principle": "A Reach Frequency Map ensures everyday items are easily accessible.",
+          "body": [
+            "Neha begins by drafting her Reach Frequency Map, which categorizes her cleaning supplies based on how often she uses them. She divides her items into three zones: Zone A for everyday essentials, Zone B for weekly items, and Zone C for occasional tools. This mapping helps her visualize where each item should be stored for maximum efficiency.",
+            "Zone A includes items like her all-purpose cleaner and cloths, which she places at chest to eye height for easy access. Zone B contains her degreaser and glass cleaner, which she places slightly higher or deeper, while Zone C holds less frequently used items like specialty sponges.",
+            "By following the two-touch principle, Neha ensures that her daily kit is always easy to reach. This approach minimizes the time spent searching for items and streamlines her cleaning routine, making her small kitchen feel more functional."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "finalizing-your-storage-layout",
+          "title": "Finalizing Your Storage Layout",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "Compact kitchen with finalized storage layout, emphasizing organization, natural light, clean textures, no people, no text, no watermark.",
+            "flux_prompt": "A shot of a compact kitchen showcasing a finalized storage layout with organized cleaning supplies.",
+            "alt": "A close-up of a well-organized cleaning station in a compact kitchen.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\023-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6927198"
+          },
+          "scenario": "",
+          "principle": "A well-planned storage layout enhances efficiency and organization.",
+          "body": [
+            "Suresh measures his storage budget and lists his essentials, weekly, and occasional items. He selects slim containers and a narrow caddy that fit within his thirty-inch limit. By prioritizing vertical storage, he maximizes the available space without compromising on accessibility.",
+            "He plans vertical mounting for his cleaning supplies, using landlord-safe fixtures like removable adhesive and magnetic strips. This approach allows him to create a storage solution that is both functional and respectful of his rental agreement.",
+            "Finally, Suresh places labels forward on every container and bin, ensuring that he can quickly identify each item. He sets visible refill triggers to remind him when supplies are running low, keeping his cleaning station organized and efficient."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "the-10-minute-daily-micro-routine",
+      "title": "The 10-Minute Daily Micro-Routine",
+      "intro": "Times are planning aids, not guarantees. Stop at the limit without leaving raw-food soil or wet walking surfaces unfinished.",
+      "opener": {
+        "query": "Compact Indian kitchen, warm evening light, organized cleaning supplies, minimal clutter, photorealistic, no people, no text, no watermark.",
+        "flux_prompt": "Full-bleed shot of a small kitchen with a clear counter, neatly arranged cleaning supplies, and a warm ambiance.",
+        "alt": "Compact Indian kitchen, warm evening light, organized cleaning supplies, minimal clutter, photorealistic, no people, no text, no watermark.",
+        "source": "openai",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\024-openai.jpg",
+        "credit": "AI-generated image",
+        "ai_generated": true,
+        "provider_id": "openai:bcc5e9dd62b777a1"
+      },
+      "sections": [
+        {
+          "slug": "understanding-the-sweep-loop",
+          "title": "Understanding the SWEEP Loop",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "Compact Indian kitchen, organized cleaning supplies, warm light, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A close-up shot of a clean kitchen counter with neatly arranged cleaning supplies and a clear sink.",
+            "alt": "A side view of the kitchen showing the organized space with a focus on the cleaning caddy.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\025-pexels.jpg",
+            "credit": "Photo by Gustavo Galeano Maz on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:9889753"
+          },
+          "scenario": "",
+          "principle": "The SWEEP loop targets the five key areas that accumulate mess in small kitchens.",
+          "body": [
+            "SWEEP is order, not a slogan: Surfaces, Washware, Empty waste, Equipment, Put away. Start where food sits. Never skip: washing anything that touched raw meat, and drying a wet floor."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Identify the five areas of the SWEEP loop: Surfaces, Washware, Empty Waste, Equipment, and Put Away.",
+              "minutes": null
+            },
+            {
+              "text": "Establish a routine that follows these steps in order to maintain a clean kitchen.",
+              "minutes": null
+            },
+            {
+              "text": "Set a timer for each block to keep the process efficient.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "building-your-10-minute-ritual",
+          "title": "Three timed versions",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "Compact Indian kitchen, organized cleaning caddy, warm light, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A detailed shot of a cleaning caddy filled with supplies, set against a clean kitchen backdrop.",
+            "alt": "An overhead view of a kitchen counter with cleaning supplies and a clear workspace.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\026-pexels.jpg",
+            "credit": "Photo by Dương Nhân on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6000683"
+          },
+          "scenario": "",
+          "principle": "Establishing a consistent cleaning ritual can significantly reduce kitchen clutter and stress.",
+          "body": [
+            "3-minute reset (busy day): empty the sink of food, wipe the food-contact board, bin waste that will smell. Skip appliance faces. Never skip: raw-board wash and a dry pass on a wet floor.",
+            "10-minute daily: SWEEP once around the room. First: surfaces that touch food. Can skip: inside the fridge, oven glass. Unsafe to rush: raw-meat tools, broken glass, chemical spills.",
+            "20-minute recovery (neglected kitchen): same order, plus stove face and floor edges. If time ends mid-spill, finish food safety and slip hazards before you stop.",
+            "This can make routine cleaning easier and reduce missed tasks. It will not make the kitchen perfect."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Pick 3, 10, or 20 minutes before you start.",
+              "minutes": null
+            },
+            {
+              "text": "Food-contact and slip hazards first.",
+              "minutes": null
+            },
+            {
+              "text": "Stop when the timer ends unless raw soil or a wet floor remains.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "weekly-micro-rotations",
+          "title": "Weekly Micro Rotations",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "Compact Indian kitchen, organized cleaning supplies, warm light, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A clean kitchen with a list of weekly tasks displayed prominently, emphasizing organization and cleanliness.",
+            "alt": "A close-up of a clean kitchen appliance, highlighting the attention to detail in maintenance.",
+            "source": "openai",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\027-openai.jpg",
+            "credit": "AI-generated image",
+            "ai_generated": true,
+            "provider_id": "openai:ea35aba185acbb40"
+          },
+          "scenario": "",
+          "principle": "Incorporating weekly micro rotations helps prevent deeper grime from accumulating in your kitchen.",
+          "body": [
+            "Weekly micro rotations are essential for maintaining a clean kitchen over time. Choose three to five specific tasks to rotate throughout the week. Each task should take only two to four minutes, making them manageable even on busy days. For example, you might choose to clean the vent hood filter, wipe the fridge gasket, or detail the knobs and rails.",
+            "Assign each task to a day that aligns with your existing routine. If you brew coffee daily, consider cleaning the kettle or coffee maker parts midweek when you’re already in that zone. This approach ensures that maintenance feels less like a burden and more like a natural extension of your daily activities.",
+            "By incorporating these micro tasks into your weekly schedule, you prevent the buildup of grime and maintain a consistently clean kitchen. This proactive approach not only saves time in the long run but also keeps your kitchen looking and feeling fresh."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Choose three to five weekly tasks to rotate through your schedule.",
+              "minutes": null
+            },
+            {
+              "text": "Assign each task to a specific day to create a routine.",
+              "minutes": null
+            },
+            {
+              "text": "Keep the tasks short and manageable to encourage consistency.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "landlord-safe-surface-specific-cleaning-methods",
+      "title": "Landlord-Safe, Surface-Specific Cleaning Methods",
+      "intro": "Your tiny kitchen has big responsibilities. Every surface carries its own story, from glossy laminate to warm butcher block, metallic stainless steel, and delicate chrome fixtures. Clean them well and you enjoy a crisp, calming space that feels twice as big. Clean them poorly and you risk streaks, scratches, or a deposit deduction you did not expect.",
+      "opener": {
+        "query": "kitchen cleaning supplies, various surfaces, natural light, compact Indian apartment, minimalistic styling",
+        "flux_prompt": "full-bleed kitchen with laminate counters and stainless steel appliances, natural light streaming through a single window",
+        "alt": "kitchen cleaning supplies, various surfaces, natural light, compact Indian apartment, minimalistic styling",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\028-pexels.jpg",
+        "credit": "Photo by Andrea Davis on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:37720939"
+      },
+      "sections": [
+        {
+          "slug": "understanding-the-ph-pathway",
+          "title": "Understanding the pH Pathway",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "pH cleaning method diagram, visual representation, minimalistic design",
+            "flux_prompt": "illustration of the pH Pathway with clear labels for Acid, Alkali, and Neutral lanes",
+            "alt": "a visual guide showing the pH Pathway with examples of cleaning agents for each lane.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\029-pexels.jpg",
+            "credit": "Photo by Google DeepMind on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:25626449"
+          },
+          "scenario": "",
+          "principle": "Match the method to the soil and surface using the pH Pathway.",
+          "body": [
+            "The pH Pathway is your decision tree for cleaning. It connects the type of soil to the safest chemistry and helps you confirm that the surface can tolerate it. Think of it as three lanes: Acid Lane, Alkali Lane, and Neutral and Oxidizer Lane.",
+            "Acid Lane is best for mineral scale, hard water spots, and soap scum. Examples include diluted white vinegar or citric acid, but use with caution on grout, metals, and natural stone.",
+            "Alkali Lane is ideal for oils, baked-on grease, and general food residues. Diluted castile soap, sodium bicarbonate, and washing soda in low concentration are effective here, but use with caution on aluminum and sensitive coatings."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Using the wrong method for the material can lead to costly mistakes.",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "cleaning-laminate-counters",
+          "title": "Cleaning Laminate Counters",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "laminate kitchen counter, cleaning supplies, natural light, compact Indian apartment",
+            "flux_prompt": "close-up of a laminate counter being cleaned with a cloth, soft lighting, minimalistic styling",
+            "alt": "a clean laminate counter with a bottle of castile soap and a cloth.",
+            "source": "openai",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\030-openai.jpg",
+            "credit": "AI-generated image",
+            "ai_generated": true,
+            "provider_id": "openai:488a356817b0aa30"
+          },
+          "scenario": "",
+          "principle": "Laminate. Sensitive to standing water at seams, strong acid, and scouring powder.",
+          "body": [
+            "For each material: what it hates, everyday method, stuck-on method, what to avoid, rinse, dry, hidden-spot test, and what to do if damage already shows. When unsure, stop and check the maker or landlord guidance.",
+            "Everyday: wrung cloth, warm water, drop of castile soap. Stuck-on: baking-soda paste on a soft cloth, then rinse. Avoid: vinegar on unsealed seams, steel wool. Rinse food areas. Dry the seam. Test inside a cupboard overhang. If the film is lifting, stop wet-cleaning that edge and keep it dry."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Spraying cleaning solutions directly onto laminate can lead to damage at seams.",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "maintaining-butcher-block-surfaces",
+          "title": "Maintaining Butcher Block Surfaces",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "butcher block countertop, cleaning process, natural light, compact Indian kitchen",
+            "flux_prompt": "butcher block surface being cleaned with soap and a cloth, soft lighting, minimalistic styling",
+            "alt": "a well-maintained butcher block with mineral oil and cleaning supplies.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\031-pexels.jpg",
+            "credit": "Photo by Curtis Adams on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6835104"
+          },
+          "scenario": "",
+          "principle": "Sealed wood or butcher block. Sensitive to pools of water, bleach, and unsanctioned sanitizer claims.",
+          "body": [
+            "For each material: what it hates, everyday method, stuck-on method, what to avoid, rinse, dry, hidden-spot test, and what to do if damage already shows. When unsure, stop and check the maker or landlord guidance.",
+            "Everyday: barely damp cloth with a drop of soap, wipe with the grain, dry immediately. Stuck-on: gentle scrape with a plastic card, then soap. Avoid soaking, chlorine bleach, and strong acid. After raw meat: wash with detergent, rinse, then use a food-contact sanitizer that is labelled for wood or switch to a dedicated board. This book does not set a peroxide contact time for wood."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Mistake: spraying 3 percent peroxide on wood and calling it sanitized after one minute. Consequence: you have not followed a labelled food-contact method. Correction: wash, rinse, then use a sanitizer whose label covers that surface, including wet contact time and any rinse.",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "cleaning-stainless-steel-surfaces",
+          "title": "Cleaning Stainless Steel Surfaces",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "stainless steel appliances, cleaning process, compact Indian kitchen",
+            "flux_prompt": "stainless steel surface being cleaned with a cloth, natural light, minimalistic styling",
+            "alt": "a clean stainless steel appliance with a microfiber cloth.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\032-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7534298"
+          },
+          "scenario": "",
+          "principle": "Stainless. Sensitive to abrasive pads, chloride bleach left to dry, and circular scratching.",
+          "body": [
+            "For each material: what it hates, everyday method, stuck-on method, what to avoid, rinse, dry, hidden-spot test, and what to do if damage already shows. When unsure, stop and check the maker or landlord guidance.",
+            "Everyday: microfiber with diluted soap or a labelled stainless cleaner, wipe with the grain, dry. Stuck-on: baking-soda paste, then rinse. Avoid steel wool. Rinse if the product says to. Dry to limit spots. Test behind an appliance if you can reach. If rust spots appear, stop and use a product labelled for stainless; do not sand a rental appliance."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Using abrasive pads on stainless steel can lead to scratches and damage.",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "effective-glass-cleaning-techniques",
+          "title": "Effective Glass Cleaning Techniques",
+          "day_label": "Day 5",
+          "hero": {
+            "query": "cleaning glass surfaces, natural light, compact Indian kitchen",
+            "flux_prompt": "clean glass cabinet doors with a cloth, natural light, minimalistic styling",
+            "alt": "a sparkling clean glass surface with a microfiber cloth.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\033-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7533935"
+          },
+          "scenario": "",
+          "principle": "Glass. Sensitive to oily residue and dirty cloths that smear.",
+          "body": [
+            "For each material: what it hates, everyday method, stuck-on method, what to avoid, rinse, dry, hidden-spot test, and what to do if damage already shows. When unsure, stop and check the maker or landlord guidance.",
+            "Everyday: vinegar-water on compatible glass, or a labelled glass cleaner; squeegee; dry edges. Avoid vinegar on surrounding stone sills. Rinse if food-adjacent. Hidden-spot test on a corner. If the pane is filmed, wash the cloth; do not add more product."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Using heavy soap on glass can leave a residue that is difficult to remove.",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "quick-spill-response-and-sanitization-protocols",
+      "title": "Quick Spill Response and Sanitization Protocols",
+      "intro": "Match the procedure to the spill. This chapter is household first aid, not a complete professional hazardous-materials or food-safety protocol.",
+      "opener": {
+        "query": "kitchen spill response, compact Indian kitchen, natural light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+        "flux_prompt": "full-bleed image of a compact Indian kitchen with a small spill on the counter, showcasing a clean and organized space",
+        "alt": "A small labelled spill kit: gloves, cloths, and a scraper stored apart from food.",
+        "source": "openai",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\034-openai.jpg",
+        "credit": "AI-generated image",
+        "ai_generated": true,
+        "provider_id": "openai:ecb6a8944eda42e1"
+      },
+      "sections": [
+        {
+          "slug": "understanding-the-stop-framework",
+          "title": "Understanding the STOP Framework",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "kitchen spill response tools, compact Indian kitchen, natural light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "image of a neatly organized spill response kit in a compact Indian kitchen, showcasing the tools needed for the STOP framework",
+            "alt": "a close-up of the cleaning tools used in the STOP framework, arranged aesthetically on a kitchen counter",
+            "source": "openai",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\035-openai.jpg",
+            "credit": "AI-generated image",
+            "ai_generated": true,
+            "provider_id": "openai:c6db9d3ff5b552da"
+          },
+          "scenario": "A drink hits the only walkway in a galley kitchen. Stop feet first, then soil.",
+          "principle": "The STOP framework provides a structured response to spills, ensuring efficiency and cleanliness.",
+          "body": [
+            "STOP: Secure the area, triage what is food-contact, operate with one method, purge dirty cloths. Ordinary crumbs: dry sweep or cloth, then a soap wipe if needed. Low-risk water: absorb, soap if sticky, dry so nobody slips.",
+            "Broken glass: shoes, gloves, stiff card into a puncture-proof container; cloth last, then discard or wash that cloth apart. Grease or hot oil: cool first, never water on hot oil, then soap. Cleaning-product spill: ventilate, do not mix, read that label, absorb with disposable material if the product says so.",
+            "Stop and seek additional guidance when: the spill involves an unknown chemical, a large quantity of cleaning product, bodily fluids, persistent mould, electrical equipment, or a surface whose material is unknown. Unplug only if you can do so without standing in liquid."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Mistake: wiping a chemical spill with the castile cloth from the caddy. Consequence: the cloth and the caddy are now contaminated. Correction: ventilate, read the label, use dedicated absorbents.",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "responding-to-raw-meat-drips",
+          "title": "Responding to Raw Meat Drips",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "raw meat spill response, compact Indian kitchen, natural light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "image of a kitchen counter with a raw meat spill being cleaned using the STOP framework, highlighting the cleaning process",
+            "alt": "a close-up of the cleaning process for raw meat drips, showcasing the tools and techniques used",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\036-pexels.jpg",
+            "credit": "Photo by Boys in Bristol Photography on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:20187072"
+          },
+          "scenario": "Raw chicken juice on the only counter. Food comes off the board before any spray.",
+          "principle": "Raw meat spills require immediate attention and a structured cleaning approach to prevent contamination.",
+          "body": [
+            "This is not a homemade peroxide protocol. 1) Move food and utensils off the area. 2) Absorb without spreading. 3) Clean with a suitable detergent. 4) Rinse if that cleaner requires it. 5) Use a food-contact sanitizer according to its label. 6) Keep the surface wet for the labelled contact time. 7) Rinse afterward if the label requires rinsing. 8) Wash and dry reusable cloths apart from everyday kitchen cloths.",
+            "Do not claim a homemade solution is a sanitizer because it contains hydrogen peroxide. If you do not have a labelled food-contact sanitizer, clean thoroughly with detergent, rinse, keep raw work on a dedicated board, and replace the sanitizer before the next raw-meat session."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Clear food and utensils.",
+              "minutes": null
+            },
+            {
+              "text": "Absorb, then detergent-clean.",
+              "minutes": null
+            },
+            {
+              "text": "Apply only a labelled food-contact sanitizer and honour wet contact time.",
+              "minutes": null
+            },
+            {
+              "text": "Rinse if the label requires it. Isolate cloths.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Test and verify",
+          "mistake": "Mistake: vinegar on protein, or a one-minute peroxide wait copied from a blog. Consequence: set protein, or a sanitizing claim you cannot support. Correction: detergent first, labelled product second.",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "cleaning-dairy-and-sugary-liquids",
+          "title": "Cleaning Dairy and Sugary Liquids",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "dairy spill cleanup, compact Indian kitchen, natural light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "image of a kitchen counter with a spilled milk being cleaned, showcasing the tools and techniques used",
+            "alt": "a close-up of the cleaning process for dairy spills, highlighting the cleaning tools and methods",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\037-pexels.jpg",
+            "credit": "Photo by Beyzanur K. on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:28948743"
+          },
+          "scenario": "",
+          "principle": "Dairy and sugary spills require careful attention to prevent stickiness and odors.",
+          "body": [
+            "Absorb, wash with warm water and soap, rinse food-contact, dry so it is not tacky. Odour is not a reason to apply peroxide unless that product's label covers the surface. Do not call the dwell time sanitation."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "addressing-greasy-splatters",
+          "title": "Addressing Greasy Splatters",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "greasy spill response, compact Indian kitchen, natural light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "image of a stove with greasy splatters being cleaned, showcasing the cleaning process and tools used",
+            "alt": "a close-up of the cleaning process for greasy splatters, highlighting the cleaning tools and methods",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\038-pexels.jpg",
+            "credit": "Photo by Engin Akyurt on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:9996341"
+          },
+          "scenario": "",
+          "principle": "Greasy spills require careful cleaning to avoid spreading the oil further.",
+          "body": [
+            "If oil is hot, wait. Wipe with soap, not a flood of water on a hot pan. Dry the stove so it is safe to use. Skip this routine if grease is inside an electrical housing — that is escalation."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Over-saturating surfaces can lead to damage, especially on wood or laminate.",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "seasonal-deep-clean-playbooks-for-small-kitchens",
+      "title": "Seasonal Deep-Clean Playbooks for Small Kitchens",
+      "intro": "This chapter provides a structured approach to deep-cleaning small kitchens, ensuring efficiency and effectiveness without overwhelming the space or the cleaner. It emphasizes a seasonal reset to maintain cleanliness and functionality.",
+      "opener": {
+        "query": "Compact kitchen with organized cleaning supplies, natural light from a window, clean countertops, and a visually appealing layout.",
+        "flux_prompt": "A full-bleed shot of a small kitchen with a well-organized cleaning kit on the counter, sunlight streaming through a window, highlighting the cleanliness and order of the space.",
+        "alt": "Compact kitchen with organized cleaning supplies, natural light from a window, clean countertops, and a visually appealing layout.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\039-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:7546593"
+      },
+      "sections": [
+        {
+          "slug": "the-importance-of-a-seasonal-reset",
+          "title": "The Importance of a Seasonal Reset",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "Organized cleaning supplies in a small kitchen, natural light, clean surfaces, and an inviting atmosphere.",
+            "flux_prompt": "A well-lit kitchen corner showing organized cleaning supplies, emphasizing a clean and efficient space.",
+            "alt": "A close-up of cleaning supplies arranged neatly on a countertop.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\040-pexels.jpg",
+            "credit": "Photo by ommy on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:36894979"
+          },
+          "scenario": "",
+          "principle": "A seasonal deep clean helps maintain a functional and pleasant kitchen environment.",
+          "body": [
+            "Deep cleaning a small kitchen can be a daunting task, but with a clear plan, it becomes manageable. Ravi starts by blocking out a 90-minute session on his calendar, ensuring he has the time to focus on high-value zones like the stovetop and the fridge. He stages his compact cleaning kit, which includes an all-purpose concentrate, a scrub paste, and microfiber cloths, ready for action.",
+            "The PREP cycle is crucial. Ravi powers down his appliances and removes any items from the fridge, grouping them by zone for easy return. He protects his countertops with washable cloths and opens the window to allow fresh air in, setting the stage for a thorough clean.",
+            "By following the top down, inside out principle, Ravi begins with the range hood and upper cabinets. He wipes down the surfaces, ensuring that any drips fall onto areas he will clean later, preventing rework."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "executing-the-prep-cycle",
+          "title": "Executing the PREP Cycle",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "A compact kitchen with cleaning supplies staged for a deep clean, sunlight illuminating the space, and a sense of order.",
+            "flux_prompt": "A bright kitchen corner showcasing a staged cleaning kit, emphasizing readiness for a deep clean.",
+            "alt": "A close-up of Anjali's cleaning supplies arranged on the countertop.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\041-pexels.jpg",
+            "credit": "Photo by Alley Chien on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:35747333"
+          },
+          "scenario": "",
+          "principle": "The PREP cycle organizes the cleaning process into manageable phases.",
+          "body": [
+            "Anjali starts by planning her session, selecting the two-day reset option to ensure she has ample time to clean thoroughly. She lists her focus zones, prioritizing the stovetop, oven, and sink. With her kit staged, she feels ready to tackle the task ahead.",
+            "During the Reset phase, Anjali powers down her appliances and removes all items from the fridge, grouping them by type. She protects her countertops with a folded towel and opens the window to let in fresh air. This preparation sets her up for success as she begins to eliminate grime.",
+            "As she moves into the Eliminate phase, Anjali applies her all-purpose concentrate to the stovetop and lets it dwell while she cleans the oven. She uses a scrub paste for baked-on soils, ensuring she tackles each area with the right method for maximum effectiveness."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Cleaning lower areas first leads to rework when dust and debris fall from above.",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "maintaining-your-kitchen-post-clean",
+          "title": "Maintaining Your Kitchen Post-Clean",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "A well-maintained kitchen with organized cleaning supplies, a clean sink, and a fresh atmosphere.",
+            "flux_prompt": "A clean kitchen space showing organized supplies and a well-maintained sink area, emphasizing ongoing cleanliness.",
+            "alt": "A close-up of a clean sink with organized cleaning supplies nearby.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\042-pexels.jpg",
+            "credit": "Photo by RDNE Stock project on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5591906"
+          },
+          "scenario": "",
+          "principle": "Establishing maintenance intervals prevents grime buildup and keeps the kitchen in good condition.",
+          "body": [
+            "After completing his deep clean, Vikram knows that the work doesn't end there. He sets up a simple maintenance schedule for his kitchen, tracking intervals for cleaning the range hood filter, oven, and fridge gaskets. This proactive approach helps him avoid unpleasant surprises later on.",
+            "Vikram uses a dashboard to log maintenance dates, ensuring he never forgets to clean the drain or flush the sink. By keeping track of these intervals, he can maintain a clean and efficient kitchen without the chaos of a deep clean every few weeks.",
+            "He also adapts his cleaning methods to his small space, using a compact handheld vacuum to keep crumbs at bay and ensuring that he cleans the faucet aerator regularly to prevent clogs. This attention to detail helps him maintain the cleanliness achieved during his seasonal deep clean."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "tracking-waste-and-costs-and-adapting-for-renters-vanlife-rv",
+      "title": "Tracking Waste and Costs for Compact Living",
+      "intro": "Reusable tools have manufacturing, laundry, replacement, and transport impacts. Track a baseline before you change the routine, then compare. Zero waste is the direction, not a certificate.",
+      "opener": {
+        "query": "Compact kitchen with a Waste and Cost Dashboard visible on a cabinet door, natural light from a single window, minimalistic decor, and eco-friendly cleaning supplies.",
+        "flux_prompt": "A full-bleed shot of a compact kitchen featuring a visible Waste and Cost Dashboard taped inside a cabinet, with natural light illuminating the space and eco-friendly cleaning supplies arranged neatly on the countertop.",
+        "alt": "Compact kitchen with a Waste and Cost Dashboard visible on a cabinet door, natural light from a single window, minimalistic decor, and eco-friendly cleaning sup",
+        "source": "openai",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\043-openai.jpg",
+        "credit": "AI-generated image",
+        "ai_generated": true,
+        "provider_id": "openai:cfd0bedd9364a139"
+      },
+      "sections": [
+        {
+          "slug": "building-your-waste-and-cost-dashboard",
+          "title": "Building Your Waste and Cost Dashboard",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "Close-up of a Waste and Cost Dashboard with metrics clearly visible, natural light filtering through a window, and eco-friendly cleaning supplies in the background.",
+            "flux_prompt": "A detailed shot of the Waste and Cost Dashboard showing metrics like packaging count and monthly cost, with a soft focus on the kitchen environment.",
+            "alt": "A close-up of a dashboard with metrics written clearly, surrounded by eco-friendly cleaning supplies.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\044-pexels.jpg",
+            "credit": "Photo by Anna Shvets on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5217774"
+          },
+          "scenario": "Log one month of receipts before you change brands. Otherwise you cannot tell if refills helped.",
+          "principle": "A Waste and Cost Dashboard helps you measure and manage your waste effectively.",
+          "body": [
+            "Fields: disposable cloths or wipes avoided, packaging bought, cleaner volume used, refill trips, cost per month, estimated life of reusables, how you dispose of worn tools, and water use only when it changes the decision (for example, boiling cloths every day).",
+            "Blank log: date; item; qty; cost; packaging type; notes. Keep it on a cabinet card.",
+            "The table is a completed example. Copy the blank fields, not the rupee amounts."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Worked example, first 30 days",
+              "caption": "What to notice: this is one household's log, not a savings guarantee. Start with a baseline week.",
+              "values": [
+                "INR 900 mixed bottles",
+                "4 plastic sprays, wipes",
+                "INR 220 concentrate",
+                "INR 0 this month",
+                "Bus fare on grocery day",
+                "3 bottles not bought",
+                "INR 220 plus soap already owned",
+                "One cloth retired; spend still below baseline"
+              ],
+              "labels": [
+                "Before: monthly spend",
+                "Before: products",
+                "After: refills",
+                "After: tool replace",
+                "Transport",
+                "Packaging avoided",
+                "30-day total",
+                "90-day note"
+              ],
+              "minimum": null,
+              "spec_id": "D011",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\figures\\D011.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Draft your dashboard with four core metrics and two optional ones.",
+              "minutes": null
+            },
+            {
+              "text": "Keep it visible in your kitchen or on your phone.",
+              "minutes": null
+            },
+            {
+              "text": "Track your baseline for two weeks without changing your routine.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "mapping-your-refill-route",
+          "title": "Mapping Your Refill Route",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "A map showing a planned refill route with markers for different stores, natural light highlighting the area, and a clean, organized kitchen in the background.",
+            "flux_prompt": "An overhead shot of a map with a planned refill route marked, surrounded by eco-friendly cleaning supplies and a notebook for notes.",
+            "alt": "A close-up of a map with refill sources highlighted, with a clean kitchen backdrop.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\045-pexels.jpg",
+            "credit": "Photo by Keegan Checks on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:10117731"
+          },
+          "scenario": "",
+          "principle": "Mapping your refill route ensures you have easy access to bulk refills and reduces waste.",
+          "body": [
+            "Start by listing potential refill sources that you already pass during your errands. Consider bulk sections of grocery stores, community co-ops, refill shops, and pharmacies that may offer refill programs.",
+            "Call or check the websites of these stores to confirm their refill policies, hours, and container requirements. This preparation will save you time and ensure you have what you need when you go to refill.",
+            "Once you have identified your refill sources, plan your refill day to coincide with your regular errands. This will help you maintain a consistent refill schedule, ideally every five to six weeks for items like multipurpose concentrates."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "List potential refill sources you already pass during errands.",
+              "minutes": null
+            },
+            {
+              "text": "Confirm refill policies and hours with these stores.",
+              "minutes": null
+            },
+            {
+              "text": "Plan your refill day to coincide with your regular errands.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Relying on a single distant store for refills can lead to backsliding; identify multiple options.",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "applying-the-constraints-compass",
+          "title": "Applying the Constraints Compass",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "A kitchen with cleaning supplies organized according to the Constraints Compass principles, natural light illuminating the space, and a clean, minimalistic aesthetic.",
+            "flux_prompt": "A shot of a well-organized kitchen with cleaning supplies neatly arranged, demonstrating the application of the Constraints Compass.",
+            "alt": "A close-up of cleaning supplies organized based on the Constraints Compass principles.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\046-pexels.jpg",
+            "credit": "Photo by Cup of  Couple on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7303735"
+          },
+          "scenario": "",
+          "principle": "The Constraints Compass helps you evaluate your options based on water, power, space, and motion.",
+          "body": [
+            "Before purchasing or modifying any cleaning tools, evaluate them using the Constraints Compass. Ask yourself how much water the method requires, whether it needs electricity, how much space it occupies, and how it will stay put during travel or if the space is limited.",
+            "For example, if water is tight, opt for low-rinse methods and consider installing a basin to collect rinse water. If you need to charge a device, choose one that can be charged via USB to accommodate off-grid situations.",
+            "When it comes to space, standardize bottle sizes and use nesting containers. If you rent, consider using a tension rod under the sink to hang cloths and keep bottles upright."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Evaluate cleaning tools using the Constraints Compass: water, power, space, and motion.",
+              "minutes": null
+            },
+            {
+              "text": "Choose low-rinse methods and manual tools where possible.",
+              "minutes": null
+            },
+            {
+              "text": "Standardize bottle sizes and use nesting containers.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "running-the-ninety-day-sprint",
+          "title": "Running the Ninety Day Sprint",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "A family in their RV, organizing cleaning supplies and planning their ninety-day sprint, with natural light coming through the windows and a clean, organized space.",
+            "flux_prompt": "A shot of the RV interior with cleaning supplies organized and a family member planning their next steps, showcasing a well-maintained living space.",
+            "alt": "A close-up of cleaning supplies in an RV, organized for efficiency and ease of access.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\047-pexels.jpg",
+            "credit": "Photo by Thomas  balabaud on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:36303748"
+          },
+          "scenario": "A family of four living in a thirty-foot RV wants to streamline their cleaning routine while on the road. They decide to implement a ninety-day sprint to improve their waste and costs.",
+          "principle": "A ninety-day sprint focuses your efforts and locks in improvements over time.",
+          "body": [
+            "To begin your ninety-day sprint, focus on one area each month. In the first month, replace a single-use item with a refillable or reusable option. For instance, switch from disposable wipes to reusable cloths or a refillable spray bottle.",
+            "In the second month, refine your refill route and bundle errands to make refilling more efficient. Adjust dilution ratios for your cleaning solutions if you notice streaks or residue after cleaning.",
+            "By the third month, lock in your best practices. Update your labels, storage map, and dashboard targets to reflect your improved system. This will help you maintain your progress and continue to adapt as needed."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Focus on one area each month for the ninety-day sprint.",
+              "minutes": null
+            },
+            {
+              "text": "Replace single-use items with reusable options in the first month.",
+              "minutes": null
+            },
+            {
+              "text": "Refine your refill route and bundle errands in the second month.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "compact-zero-waste-cleaning-kit-checklist",
+      "title": "Compact Zero-Waste Cleaning Kit Checklist",
+      "intro": "This chapter provides a comprehensive guide to creating a compact, lower-packaging cleaning kit tailored for tiny kitchens. It emphasizes the importance of reducing clutter and waste while maintaining cleanliness in a limited space.",
+      "opener": {
+        "query": "Compact zero-waste cleaning kit in a small kitchen, natural lighting, wooden textures, organized caddy with cleaning supplies, photorealistic, no people, no text, no watermark.",
+        "flux_prompt": "Full-bleed image of a compact zero-waste cleaning kit arranged neatly in a small kitchen setting, showcasing the caddy and its contents against a backdrop of a tidy countertop.",
+        "alt": "Compact zero-waste cleaning kit in a small kitchen, natural lighting, wooden textures, organized caddy with cleaning supplies, photorealistic, no people, no tex",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\048-pexels.jpg",
+        "credit": "Photo by alleksana on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:4386864"
+      },
+      "sections": [
+        {
+          "slug": "purpose-and-benefits",
+          "title": "What this sheet is for",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "Compact zero-waste cleaning kit arranged in a small kitchen, natural light, organized caddy, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "Image of a compact caddy filled with essential cleaning supplies, placed on a countertop in a small kitchen.",
+            "alt": "Close-up of the caddy arrangement showing each item clearly.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\049-pexels.jpg",
+            "credit": "Photo by Amar  Preciado on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:38181069"
+          },
+          "scenario": "",
+          "principle": "A compact cleaning kit reduces clutter and simplifies maintenance.",
+          "body": [
+            "This checklist is designed to minimize clutter, chemicals, and waste while keeping a tiny kitchen in working order. By standardizing tools and simplifying refills, it protects sensitive surfaces and adapts to renters and mobile kitchens. You will save space, time, and money, while preventing overbuying.",
+            "The core list includes essential items that are versatile and effective. By focusing on multi-use products, you can streamline your cleaning process and ensure that you have everything you need without excess.",
+            "Implementing this kit not only enhances the cleanliness of your kitchen but also promotes a sustainable lifestyle. It encourages the use of eco-friendly materials and reduces the number of single-use products in your home."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "how-to-use-the-checklist",
+          "title": "How to Use the Checklist",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "Organized cleaning supplies in a compact caddy, natural lighting, wooden textures, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "Image of a well-organized caddy with cleaning supplies, showcasing the arrangement and labels.",
+            "alt": "Close-up of labeled containers and cleaning tools in the caddy.",
+            "source": "openai",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\050-openai.jpg",
+            "credit": "AI-generated image",
+            "ai_generated": true,
+            "provider_id": "openai:cf0a2111579aca04"
+          },
+          "scenario": "",
+          "principle": "Using the checklist helps in creating an efficient and tailored cleaning kit.",
+          "body": [
+            "Start with the core list provided in the checklist. This list includes all the essential items you need for a compact cleaning kit. Only add optional and seasonal items if they are necessary for your cleaning routine.",
+            "Choose materials that are suited to your water and surfaces. For instance, if you have hard water, consider using a squeegee after rinsing to prevent water spots. Label everything clearly to avoid confusion and ensure that you can quickly find what you need.",
+            "Arrange your caddy thoughtfully. Place the cloths rolled at the front for easy access, with the spray bottle and jar in the middle, and brushes upright on the side. This arrangement allows for efficient use of space and quick retrieval of items."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "core-kit-items",
+          "title": "Core Kit Items",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "Compact cleaning kit items displayed on a kitchen counter, natural light, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "Image of the core cleaning kit items laid out on a kitchen counter, showcasing their sizes and materials.",
+            "alt": "Close-up of the multipurpose cloths and cleaning tools.",
+            "source": "openai",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\051-openai.jpg",
+            "credit": "AI-generated image",
+            "ai_generated": true,
+            "provider_id": "openai:b7a446d001317526"
+          },
+          "scenario": "",
+          "principle": "Selecting the right items is crucial for an effective cleaning kit.",
+          "body": [
+            "The core kit includes four multipurpose cloths made of organic cotton or microfiber, measuring 25 to 30 centimeters. These cloths are essential for various cleaning tasks and should be washed regularly to maintain their effectiveness.",
+            "You will also need two glass and stainless polishing cloths, which are lint-free and perfect for shining surfaces. A medium bristle scrub brush with a plant fiber or wood handle is necessary for tougher cleaning jobs, along with a bottle brush for narrow vessels and a detail brush for crevices and seals.",
+            "Additionally, include a compact squeegee for your sink and splashback, a scraper (either plastic card style or safety blade with cover), and a refillable spray bottle of 500 milliliters, made of glass or stainless. These items will cover all your basic cleaning needs."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "replacement-schedule-and-maintenance",
+          "title": "Condition-based replacement",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "Replacement schedule for cleaning supplies, organized layout, natural lighting, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "Image depicting a replacement schedule for cleaning supplies, with items laid out in a neat and organized manner.",
+            "alt": "Close-up of worn-out cleaning supplies ready for replacement.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\052-pexels.jpg",
+            "credit": "Photo by Matheus Bertelli on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:29509476"
+          },
+          "scenario": "",
+          "principle": "Regular maintenance of cleaning supplies is essential for optimal performance.",
+          "body": [
+            "Replace or retire a cloth when it develops persistent odor, visible damage, poor absorbency, or cannot be cleaned effectively. Service life depends on material, use, washing, and drying. If a maker prints a replacement interval, follow that.",
+            "Retire a brush when bristles splay or trap soil. Retire a squeegee when the blade nicks and leaves lines. Retire gloves when they tear. A calendar date alone is not a rule."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Mistake: keeping a sour cloth because it is 'not yet 12 months old.' Consequence: the caddy smells and spreads soil. Correction: wash, dry fully, or retire it.",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "refill-label-and-batch-log-template",
+      "title": "Refill Label and Batch Log Template",
+      "intro": "Standardize your refill system for tiny kitchens with these print-ready templates that support concentrate and ready-to-use formats, color coding, and a four-week batch cycle tracker.",
+      "opener": {
+        "query": "kitchen organization, refill system, waterproof labels, compact storage, color coding, photorealistic",
+        "flux_prompt": "full-bleed shot of a well-organized tiny kitchen with labeled bottles and logs on display, natural light from a window, clean and modern aesthetic",
+        "alt": "kitchen organization, refill system, waterproof labels, compact storage, color coding, photorealistic",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\053-pexels.jpg",
+        "credit": "Photo by Andreas Näslund on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:34955373"
+      },
+      "sections": [
+        {
+          "slug": "purpose-and-benefits",
+          "title": "What this sheet is for",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "organized cleaning supplies, refill labels, color-coded bottles, compact kitchen, photorealistic",
+            "flux_prompt": "a close-up of neatly labeled bottles on a kitchen shelf, with a color-coded chart visible, natural light illuminating the scene",
+            "alt": "a view of a small kitchen counter showcasing a batch log and refill labels next to cleaning supplies",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\054-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7418503"
+          },
+          "scenario": "",
+          "principle": "A standardized refill system enhances organization and efficiency in small kitchens.",
+          "body": [
+            "This material ensures consistent safe use of refillable cleaners, clear dosing, and quick audits of consumption, cost, and waste reduction. By implementing a refill label and batch log system, you can save space, reduce confusion, and improve routine reliability, which is crucial for mobile or compact setups like Aditi's.",
+            "Using color coding for different cleaning categories allows for quick identification and minimizes the risk of using the wrong product. For instance, Aditi can assign green for all-purpose cleaners, blue for glass cleaners, and yellow for degreasers, making her cleaning routine more efficient.",
+            "The batch log tracker helps monitor usage and waste, ensuring that Aditi can adjust her cleaning supplies based on actual consumption, leading to cost savings and reduced clutter in her kitchen."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "how-to-use-the-templates",
+          "title": "How to Use the Templates",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "kitchen refill station, waterproof labels, color-coded cleaning supplies, compact organization, photorealistic",
+            "flux_prompt": "a neatly arranged refill station in a Bengaluru kitchen, showcasing waterproof labels and color-coded bottles, natural light from a window",
+            "alt": "a close-up of a color-coded cleaning supply setup with labels clearly visible",
+            "source": "openai",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\055-openai.jpg",
+            "credit": "AI-generated image",
+            "ai_generated": true,
+            "provider_id": "openai:1148ce5786d4fad1"
+          },
+          "scenario": "",
+          "principle": "Proper use of templates ensures clarity and efficiency in managing cleaning supplies.",
+          "body": [
+            "To begin, print the labels on waterproof paper to ensure durability. Cut them to fit your bottles and jars, allowing for easy application and readability. Priya can easily print these labels at home and cut them to the appropriate size for her small bottles.",
+            "Next, assign a color to each recipe category. For example, Priya can use green for all-purpose cleaners, blue for glass cleaners, and yellow for degreasers. This color coding not only helps in quick identification but also adds a visually appealing element to her kitchen.",
+            "Before mixing any cleaning solution, fill in the label fields with the recipe name, dilution ratio, and safety cautions. Once mixed, attach the label to the container. This step is crucial for maintaining clarity and safety in her cleaning routine."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "logging-and-tracking-usage",
+          "title": "Logging and Tracking Usage",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "cleaning supply log, batch tracking, organized kitchen, Mumbai apartment, photorealistic",
+            "flux_prompt": "a view of a kitchen counter in a Mumbai flat with a visible batch log and neatly organized cleaning supplies, natural light from a single window",
+            "alt": "a close-up of a batch log with notes and a color-coded chart in a compact kitchen",
+            "source": "openai",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\056-openai.jpg",
+            "credit": "AI-generated image",
+            "ai_generated": true,
+            "provider_id": "openai:bd2b5b2637b8b9c7"
+          },
+          "scenario": "",
+          "principle": "Regular logging and tracking of cleaning supplies prevent waste and ensure efficient use.",
+          "body": [
+            "After mixing your cleaning solutions, log each batch in the tracker immediately. Rohan should note the date mixed, batch number, and dilution ratio used. This practice helps him keep a clear record of what he has on hand and when it needs to be replenished.",
+            "Review the log weekly to adjust dilution, contact time, and quantities. For instance, Rohan can analyze his usage patterns and determine if he needs to mix smaller or larger batches based on his cleaning frequency.",
+            "The four-week batch cycle tracker is essential for planning. It allows Rohan to see planned versus actual batches and helps identify variances. This way, he can avoid overproduction and reduce waste, ensuring that he only makes what he needs."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "landlord-safe-surface-methods-quick-reference-guide",
+      "title": "Landlord-Safe Surface Methods Quick Reference Guide",
+      "intro": "This guide provides practical, landlord-safe cleaning methods tailored for compact kitchens, ensuring effective surface care while minimizing waste.",
+      "opener": {
+        "query": "tiny kitchen with various surfaces, one window light, clean textures, photorealistic",
+        "flux_prompt": "full-bleed shot of a compact kitchen with laminate counters, stainless steel appliances, and a small window",
+        "alt": "tiny kitchen with various surfaces, one window light, clean textures, photorealistic",
+        "source": "openai",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\057-openai.jpg",
+        "credit": "AI-generated image",
+        "ai_generated": true,
+        "provider_id": "openai:012d034d9d410144"
+      },
+      "sections": [
+        {
+          "slug": "purpose-and-benefits",
+          "title": "What this sheet is for",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "compact kitchen with cleaning supplies, one window light, clean textures, photorealistic",
+            "flux_prompt": "full-bleed shot of a compact kitchen cleaning kit on a countertop",
+            "alt": "cleaning supplies arranged neatly on a kitchen counter.",
+            "source": "openai",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\058-openai.jpg",
+            "credit": "AI-generated image",
+            "ai_generated": true,
+            "provider_id": "openai:0d8378504522ec25"
+          },
+          "scenario": "",
+          "principle": "A streamlined approach to cleaning protects both your property and your sanity.",
+          "body": [
+            "This guide speeds decisions during daily wipe downs and deep cleans. It protects landlord property, reduces product clutter, and uses a space-saving kit. By utilizing fewer ingredients, you achieve safer outcomes and consistent results.",
+            "With a compact cleaning kit, you can quickly address various surfaces without the need for multiple products. This not only saves space but also simplifies your cleaning routine, making it easier to maintain a tidy home.",
+            "In Ravi's case, having a clear understanding of the right products and methods for his laminate counters and stainless steel appliances allows him to clean effectively without the risk of damage."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "how-to-use",
+          "title": "How to Use",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "kitchen counter with cleaning tools, one window light, clean textures, photorealistic",
+            "flux_prompt": "full-bleed shot of a kitchen counter with cleaning supplies laid out for use",
+            "alt": "cleaning supplies ready for use on a kitchen counter.",
+            "source": "openai",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\059-openai.jpg",
+            "credit": "AI-generated image",
+            "ai_generated": true,
+            "provider_id": "openai:0c06d791cd36485b"
+          },
+          "scenario": "",
+          "principle": "The right tools and methods ensure effective cleaning without damage.",
+          "body": [
+            "Keep your cleaning kit ready, which should include a spray bottle, squeeze bottle, microfiber cloths, scrub brush, squeegee, soft sponge, and a small toothbrush. This ensures you have everything at hand when it's time to clean.",
+            "Start with the test spot workflow: Pick a hidden area on the surface you wish to clean. Apply your chosen solution lightly, and wait for the appropriate time—thirty seconds for liquids and two minutes for pastes. Wipe and dry, checking for any dulling or color change before proceeding.",
+            "By following this method, Priya can confidently clean her surfaces without worrying about damaging them, ensuring a thorough and safe clean."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "main-content-quick-reference-matrix",
+          "title": "Surface compatibility matrix",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "kitchen surfaces with cleaning solutions, one window light, clean textures, photorealistic",
+            "flux_prompt": "full-bleed shot of various kitchen surfaces with cleaning solutions nearby",
+            "alt": "different kitchen surfaces with appropriate cleaning solutions.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\060-pexels.jpg",
+            "credit": "Photo by Elizabeth Iris on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:10905905"
+          },
+          "scenario": "",
+          "principle": "Different surfaces require tailored cleaning approaches for optimal results.",
+          "body": [
+            "Laminate: soap, dry seams, no strong acid at edges. Wood: damp soap, dry, labelled sanitizer after raw meat only. Stainless: with the grain, no steel wool. Glass: clean cloth, acid only if the surround is not stone. Natural stone: no vinegar or citric acid; pH-neutral stone cleaner. Painted cabinets: wrung cloth, no abrasives. Appliance exteriors: follow the booklet; unplug if liquid reached vents. Seams and joints: less water, dry after.",
+            "Hidden-spot test before a new mix. If damage already shows, stop wet work and photograph for the landlord or maker rather than experimenting."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Compatibility and limitations",
+              "caption": "What to notice: each row is a separate approach. Do not combine rows in one bottle.",
+              "values": [
+                "Mineral film on compatible hard surfaces; never stone",
+                "Everyday grease and soil; rinse food-contact",
+                "Mild scrub where the finish can take it",
+                "Scale on compatible surfaces; not stone",
+                "Only uses printed on that bottle's label",
+                "Only manufacturer-approved hard surfaces",
+                "Optional scent only; skip for pets/sensitive users"
+              ],
+              "labels": [
+                "White vinegar",
+                "Castile soap",
+                "Baking soda",
+                "Citric acid",
+                "Hydrogen peroxide",
+                "Alcohol (70%)",
+                "Essential oils"
+              ],
+              "minimum": null,
+              "spec_id": "D005",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\figures\\D005.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "tips-for-success",
+          "title": "Tips for Success",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "cleaning supplies organized, one window light, clean textures, photorealistic",
+            "flux_prompt": "full-bleed shot of organized cleaning supplies in a compact kitchen",
+            "alt": "organized cleaning supplies in a compact kitchen.",
+            "source": "openai",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\061-openai.jpg",
+            "credit": "AI-generated image",
+            "ai_generated": true,
+            "provider_id": "openai:9d47903309ea3efb"
+          },
+          "scenario": "",
+          "principle": "Simple strategies can enhance your cleaning effectiveness and efficiency.",
+          "body": [
+            "Use minimal product and quick contact times to avoid waste and ensure surfaces are cleaned effectively. This also helps in maintaining the longevity of your surfaces.",
+            "Keep two microfiber cloths handy—one damp for cleaning and one dry for finishing. This ensures you have the right tools for both cleaning and drying, which is crucial for achieving streak-free finishes.",
+            "Label your cleaning bottles clearly to prevent mix-ups, especially between soap and vinegar. This small step can save you from potential cleaning mishaps."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "common-mistakes",
+          "title": "Common Mistakes",
+          "day_label": "Day 5",
+          "hero": {
+            "query": "cleaning mistakes in action, one window light, clean textures, photorealistic",
+            "flux_prompt": "full-bleed shot of cleaning mistakes in a kitchen setting",
+            "alt": "examples of cleaning mistakes in a kitchen.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\062-pexels.jpg",
+            "credit": "Photo by Liliana Drew on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:9462101"
+          },
+          "scenario": "",
+          "principle": "Awareness of common pitfalls can prevent mistakes and enhance cleaning outcomes.",
+          "body": [
+            "One common mistake is leaving acid on stainless steel surfaces, which can lead to dull spots. Always rinse thoroughly after using acidic solutions to maintain shine.",
+            "Another frequent error is skipping the rinse step, which can leave a film and streaks on surfaces. Always ensure to rinse with plain water after using acids or soaps.",
+            "Using abrasive pads on chrome or matte black surfaces can cause scratching. Opt for soft cloths or sponges to protect your surfaces."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "waste-and-cost-tracker-worksheet",
+      "title": "Waste And Cost Tracker Worksheet for Tiny Kitchens",
+      "intro": "This chapter provides a comprehensive guide to tracking waste and costs in small kitchens, helping you adopt a zero-waste lifestyle while maximizing your space.",
+      "opener": {
+        "query": "Tiny kitchen with a cluttered sink area, natural light, minimalist decor, focusing on cleaning supplies and storage solutions.",
+        "flux_prompt": "A full-bleed shot of a small kitchen with a sink, showcasing organized cleaning supplies and a visible waste tracker worksheet on the counter.",
+        "alt": "Tiny kitchen with a cluttered sink area, natural light, minimalist decor, focusing on cleaning supplies and storage solutions.",
+        "source": "openai",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\063-openai.jpg",
+        "credit": "AI-generated image",
+        "ai_generated": true,
+        "provider_id": "openai:06f56b8775dc0273"
+      },
+      "sections": [
+        {
+          "slug": "purpose-and-benefits",
+          "title": "What this sheet is for",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "Close-up of a waste tracker worksheet on a kitchen counter, with cleaning supplies in the background, natural light filtering through a window.",
+            "flux_prompt": "A well-organized kitchen counter featuring the Waste and Cost Tracker Worksheet, neatly arranged cleaning products, and a plant for a touch of greenery.",
+            "alt": "A vibrant kitchen scene with a focus on the waste tracker worksheet and eco-friendly cleaning supplies.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\064-pexels.jpg",
+            "credit": "Photo by SHVETS production on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7512777"
+          },
+          "scenario": "",
+          "principle": "Tracking waste and costs helps you identify areas for improvement.",
+          "body": [
+            "The Waste and Cost Tracker Worksheet allows you to quantify your progress in achieving a zero-waste, space-saving cleaning routine. By revealing waste hotspots and spending patterns, you can set clear targets and compare weekly and monthly tallies.",
+            "This worksheet is designed to help you plan efficient refill routes and prioritize product swaps. For instance, by switching to concentrated cleaners, you can reduce packaging and save space, making your kitchen more organized.",
+            "Over a 90-day period, you can track your results and make informed decisions about your cleaning products, ultimately leading to a more sustainable lifestyle."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "how-to-use-the-tracker",
+          "title": "How to Use the Tracker",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "A digital version of the Waste and Cost Tracker displayed on a tablet in a kitchen setting, with cleaning supplies in the background.",
+            "flux_prompt": "A modern kitchen scene featuring a tablet displaying the Waste and Cost Tracker, with organized cleaning supplies and a bright atmosphere.",
+            "alt": "A sleek kitchen with a focus on the digital waste tracker, showcasing eco-friendly cleaning products.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\065-pexels.jpg",
+            "credit": "Photo by Hanna Pad on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8533396"
+          },
+          "scenario": "",
+          "principle": "Consistent tracking leads to better management of resources.",
+          "body": [
+            "To effectively use the Waste and Cost Tracker, print one sheet per week or duplicate the digital copy. Spend five minutes on day one to set a baseline for your current products and costs.",
+            "Log daily actions and costs in brief notes, and tally your progress weekly on Sundays. This will help you stay accountable and focused on your goals.",
+            "At the end of each month, review your quick wins and update your targets. After 90 days, analyze your iteration notes to adjust your cleaning kit and improve efficiency."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "tips-for-success",
+          "title": "Tips for Success",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "A tidy kitchen with a visible waste tracker worksheet pinned on the wall, surrounded by eco-friendly cleaning supplies and natural light.",
+            "flux_prompt": "A bright kitchen scene showcasing the waste tracker worksheet prominently displayed, with organized cleaning supplies and a fresh, airy feel.",
+            "alt": "A clean kitchen environment focusing on the waste tracker worksheet and sustainable cleaning products.",
+            "source": "openai",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\066-openai.jpg",
+            "credit": "AI-generated image",
+            "ai_generated": true,
+            "provider_id": "openai:6ec4a1387d94a9dc"
+          },
+          "scenario": "",
+          "principle": "Implementing simple strategies can enhance your waste tracking efforts.",
+          "body": [
+            "To succeed with the Waste and Cost Tracker, keep the worksheet visible near your sink for quick logging. This will encourage you to track your waste and spending consistently.",
+            "Use consistent units such as dollars, pieces, and inches to compare your weekly progress. This clarity will help you identify trends and make informed decisions about your cleaning products.",
+            "Batch your refills with errands to reduce travel time and prioritize multipurpose products to save space. Regularly review your quick wins every 30 days and swap one product at a time to avoid overwhelming changes."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "common-mistakes",
+          "title": "Common Mistakes",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "A cluttered kitchen with a waste tracker worksheet showing crossed-out mistakes, emphasizing the need for accurate tracking.",
+            "flux_prompt": "A kitchen scene illustrating common mistakes in waste tracking, with a focus on a cluttered counter and an unorganized waste tracker worksheet.",
+            "alt": "A kitchen environment highlighting the pitfalls of waste tracking, with a visible waste tracker worksheet showing errors.",
+            "source": "openai",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\067-openai.jpg",
+            "credit": "AI-generated image",
+            "ai_generated": true,
+            "provider_id": "openai:213def52f40c5e42"
+          },
+          "scenario": "",
+          "principle": "Awareness of common mistakes can improve your tracking process.",
+          "body": [
+            "One common mistake is skipping baseline metrics, which can lead to a lack of direction in your tracking efforts. Always start by establishing your current situation before making changes.",
+            "Another mistake is recording costs without dates, which can make it difficult to analyze your spending patterns over time. Ensure you log both the date and cost for each entry.",
+            "Planning refills without considering travel time can also hinder your efficiency. Always factor in how long it will take to refill items when planning your week."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        },
+        {
+          "slug": "next-steps",
+          "title": "Next Steps",
+          "day_label": "Day 5",
+          "hero": {
+            "query": "A well-organized kitchen with a calendar and waste tracker worksheet side by side, showcasing an efficient cleaning routine.",
+            "flux_prompt": "A bright kitchen scene featuring a calendar and waste tracker worksheet, emphasizing organization and efficiency in cleaning routines.",
+            "alt": "A tidy kitchen environment highlighting the integration of waste tracking with daily cleaning schedules.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\068-pexels.jpg",
+            "credit": "Photo by RDNE Stock project on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8580755"
+          },
+          "scenario": "",
+          "principle": "Integrating your tracking with daily routines enhances effectiveness.",
+          "body": [
+            "To take your waste tracking to the next level, integrate your weekly tallies with your cleaning routine calendar. This will help you stay organized and ensure you are consistently working towards your goals.",
+            "Refine your storage layout based on the insights gained from your tracking. Identify which products take up the most space and consider consolidating or replacing them with more efficient options.",
+            "Plan your refill routes strategically to minimize travel time and maximize efficiency. By doing so, you will not only save time but also reduce your overall waste."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "sources-and-limits",
+      "title": "Sources and Limits",
+      "intro": "Use labels and local rules over any summary in this book.",
+      "opener": {
+        "query": "Tiny kitchen with a cluttered sink area, natural light, minimalist decor, focusing on cleaning supplies and storage solutions.",
+        "flux_prompt": "A full-bleed shot of a small kitchen with a sink, showcasing organized cleaning supplies and a visible waste tracker worksheet on the counter.",
+        "alt": "A notebook used to record product labels and limits.",
+        "source": "openai",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\069-openai.jpg",
+        "credit": "AI-generated image",
+        "ai_generated": true,
+        "provider_id": "openai:a17cf91a6902b3db"
+      },
+      "sections": [
+        {
+          "slug": "sources-and-limits",
+          "title": "Sources and limits",
+          "day_label": "Reference",
+          "hero": {
+            "query": "minimalist kitchen with clear surfaces, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "image of a clean kitchen counter with clear zones and organized tools",
+            "alt": "Printed product labels next to a notebook.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\070-pexels.jpg",
+            "credit": "Photo by Valeriia Miller on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:20801044"
+          },
+          "scenario": "",
+          "principle": "Every contact time and food-contact sanitizing step comes from a product label, not from this book.",
+          "body": [
+            "Cleaning versus sanitizing versus disinfecting: follow current public-health guidance that cleaning comes first, and that sanitizing or disinfecting requires a suitable product, wet contact time, and the labelled surface. The U.S. CDC distinguishes these jobs; use your local food-safety rules where they apply.",
+            "Hydrogen peroxide and isopropyl alcohol: use the concentration and PPE on the bottle you bought. Do not mix with vinegar, bleach, or soap. Store original containers away from children and heat.",
+            "Surface care: appliance and countertop manufacturers override any generic advice here. Stone, wood, and coated finishes fail in different ways.",
+            "Reusable textiles: wash and dry according to the cloth's care label. Laundry water and detergent are part of the waste picture.",
+            "Waste-reduction numbers in the worked example are illustrative for one household, not a certified life-cycle assessment."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Check",
+          "inline_photos": []
+        }
+      ]
+    }
+  ]
+}

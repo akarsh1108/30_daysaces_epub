@@ -1,0 +1,449 @@
+{
+  "title": "Balcony Zen in 10 Days",
+  "units": "imperial",
+  "outputs": {
+    "pdf": "build\\Balcony Zen in 10 Days\\balcony-zen-in-10-days.pdf",
+    "cover": "build\\Balcony Zen in 10 Days\\cover.pdf",
+    "epub": "build\\Balcony Zen in 10 Days\\balcony-zen-in-10-days.epub",
+    "epub_preview": "build\\Balcony Zen in 10 Days\\epub-preview.html"
+  },
+  "ai_generated_images": 1,
+  "kdp_ai_disclosure_required": true,
+  "images": [
+    {
+      "query": "balcony with plants and soft lighting, evening light, no people",
+      "source": "openai",
+      "credit": "Cover illustration",
+      "ai": true,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\cover.jpg"
+    },
+    {
+      "query": "balcony with plants and soft lighting, evening light, no people",
+      "source": "pexels",
+      "credit": "Photo by Yusuf Çelik on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\001-pexels.jpg"
+    },
+    {
+      "query": "balcony with sound-absorbing elements, evening light, no people",
+      "source": "pexels",
+      "credit": "Photo by Francesco Ungaro on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\003-pexels.jpg"
+    },
+    {
+      "query": "balcony with measuring tools and sketches, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by Ron Lach on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\004-pexels.jpg"
+    },
+    {
+      "query": "balcony with a meditation cushion and plants, soft lighting, no people",
+      "source": "pexels",
+      "credit": "Photo by Anastasia Sidorova on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\005-pexels.jpg"
+    },
+    {
+      "query": "urban balcony, soft textures, calming atmosphere, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Liuuu _61 on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\006-pexels.jpg"
+    },
+    {
+      "query": "urban balcony, sound identification, calming atmosphere, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Mariya Eskina on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\007-pexels.jpg"
+    },
+    {
+      "query": "urban balcony, noise barriers, calming atmosphere, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Enric Cruz López on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\009-pexels.jpg"
+    },
+    {
+      "query": "urban balcony, water feature, calming atmosphere, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by suzukii xingfu on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\010-pexels.jpg"
+    },
+    {
+      "query": "balcony privacy solutions, natural light, airy materials, urban setting, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Jan van der Wolf on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\011-pexels.jpg"
+    },
+    {
+      "query": "balcony sightline mapping, painter tape, urban balcony, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Jan van der Wolf on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\012-pexels.jpg"
+    },
+    {
+      "query": "airy privacy elements, perforated screens, bamboo lattice, urban balcony, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Iurii Bannov on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\013-pexels.jpg"
+    },
+    {
+      "query": "high balcony privacy solutions, gauzy curtains, urban setting, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Melike on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\014-pexels.jpg"
+    },
+    {
+      "query": "balcony light adjustment, urban setting, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Clam Lo on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\015-pexels.jpg"
+    },
+    {
+      "query": "Compact balcony layout with a low bench, side table, and tall planter, natural light, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by 虎 曼 on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\016-pexels.jpg"
+    },
+    {
+      "query": "Compact balcony layout with a low cushion, side table, and tall planter, natural light, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Ayşegül  Aytören on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\017-pexels.jpg"
+    },
+    {
+      "query": "Compact balcony with a diagonal cushion orientation, natural light, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Jan van der Wolf on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\018-pexels.jpg"
+    },
+    {
+      "query": "Compact balcony with a small folding table beside a cushion, natural light, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Engin Akyurt on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\019-pexels.jpg"
+    },
+    {
+      "query": "Compact balcony with tall planters and a sheer curtain, natural light, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Huy Phan on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\020-pexels.jpg"
+    },
+    {
+      "query": "Balcony with soft lighting, sheer curtains, warm lanterns, evening glow, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Siarhei Nester on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\021-pexels.jpg"
+    },
+    {
+      "query": "Pune balcony with sunlight patterns, soft curtains, serene atmosphere, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Diana ✨ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\022-pexels.jpg"
+    },
+    {
+      "query": "Mumbai balcony with warm lighting, cozy atmosphere, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Ali Durmuş on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\024-pexels.jpg"
+    },
+    {
+      "query": "Pune balcony with cohesive lighting fixtures, natural textiles, warm ambiance, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Valeria Drozdova on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\025-pexels.jpg"
+    },
+    {
+      "query": "A serene balcony with aromatic plants, soft lighting, and a calming atmosphere, showcasing a blend of greenery and natural textures.",
+      "source": "pexels",
+      "credit": "Photo by Zeynep Sude  Emek on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\026-pexels.jpg"
+    },
+    {
+      "query": "A balcony with aromatic herbs and a tall grass, showcasing a serene seating area with soft lighting and natural textures.",
+      "source": "pexels",
+      "credit": "Photo by liiChun film on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\027-pexels.jpg"
+    },
+    {
+      "query": "A shaded balcony with aromatic herbs in lightweight containers, showcasing a serene and inviting atmosphere.",
+      "source": "pexels",
+      "credit": "Photo by Gundula Vogel on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\028-pexels.jpg"
+    },
+    {
+      "query": "A balcony scene with aromatic plants and a calming scent ritual setup, showcasing natural textures and soft lighting.",
+      "source": "pexels",
+      "credit": "Photo by Mumtahina Tanni on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\029-pexels.jpg"
+    },
+    {
+      "query": "Balcony with comfortable seating, soft textiles, and greenery, natural light, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Beyzaa Yurtkuran on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\030-pexels.jpg"
+    },
+    {
+      "query": "Cozy balcony with a zafu and zabuton, soft textiles, and plants, natural light, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Aniket Suryawanshi on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\031-pexels.jpg"
+    },
+    {
+      "query": "Balcony with interlocking tiles and outdoor rug, natural light, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Jan van der Wolf on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\033-pexels.jpg"
+    },
+    {
+      "query": "balcony with seating, sound softening elements, privacy layers, natural light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Shivansh  Sharma on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\034-pexels.jpg"
+    },
+    {
+      "query": "Pune balcony with tension rods, sheer curtains, and sandbag weights, natural light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Zülfü Demir📸 on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\035-pexels.jpg"
+    },
+    {
+      "query": "Mumbai balcony with elevated rug, planters on trays, natural light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Janhavi Amin on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\036-pexels.jpg"
+    },
+    {
+      "query": "Bengaluru balcony with tall plants against a wall, tied back curtains, natural light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by 女子 正真 on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\037-pexels.jpg"
+    },
+    {
+      "query": "Chennai balcony with storage bin for cushions, natural light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Digital Buggu on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\038-pexels.jpg"
+    },
+    {
+      "query": "A close-up of a habit loop card with a warm cup of tea on a balcony table, soft evening light, teak textures, photorealistic styling.",
+      "source": "pexels",
+      "credit": "Photo by Arturo Añez. on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\040-pexels.jpg"
+    },
+    {
+      "query": "A balcony scene showing cushions, plants, and a lantern, beautifully arranged for relaxation, soft evening light, photorealistic styling.",
+      "source": "pexels",
+      "credit": "Photo by Boris Hamer on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\041-pexels.jpg"
+    },
+    {
+      "query": "A balcony safety checklist with plants and LED candles, soft evening light, photorealistic styling.",
+      "source": "pexels",
+      "credit": "Photo by Daniil Kondrashin on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\042-pexels.jpg"
+    },
+    {
+      "query": "A balcony maintenance checklist with plants and cushions, soft evening light, photorealistic styling.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\043-pexels.jpg"
+    },
+    {
+      "query": "balcony safety check, rug stability, natural light",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\045-pexels.jpg"
+    },
+    {
+      "query": "balcony lighting safety, warm ambiance, natural light",
+      "source": "pexels",
+      "credit": "Photo by Rahib Yaqubov on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\046-pexels.jpg"
+    },
+    {
+      "query": "balcony fire safety, LED candles, calming scents",
+      "source": "pexels",
+      "credit": "Photo by Yan Krukau on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\047-pexels.jpg"
+    },
+    {
+      "query": "balcony weather preparation, storm readiness, natural light",
+      "source": "pexels",
+      "credit": "Photo by Renan Almeida on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\048-pexels.jpg"
+    },
+    {
+      "query": "A balcony workspace with a planner open, tools laid out, and a calming atmosphere created by soft lighting and greenery.",
+      "source": "pexels",
+      "credit": "Photo by Teona Swift on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\052-pexels.jpg"
+    },
+    {
+      "query": "A detailed view of a daily page filled out with tasks, observations, and notes, set against a backdrop of a balcony in soft evening light.",
+      "source": "pexels",
+      "credit": "Photo by Walls.io on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\053-pexels.jpg"
+    },
+    {
+      "query": "A cozy balcony setup with a planner, a cup of tea, and soft lighting, creating an inviting atmosphere for reflection.",
+      "source": "pexels",
+      "credit": "Photo by Alina Vilchenko on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\054-pexels.jpg"
+    },
+    {
+      "query": "A balcony with various materials laid out, illustrating the common mistakes of planning and execution in a home project.",
+      "source": "pexels",
+      "credit": "Photo by Ivan S on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\055-pexels.jpg"
+    },
+    {
+      "query": "compact balcony with bamboo screen, warm lighting, serene atmosphere, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Beyzaa Yurtkuran on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\057-pexels.jpg"
+    },
+    {
+      "query": "Bengaluru balcony with bamboo screen, warm lanterns, serene atmosphere, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by rao qingwei on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\058-pexels.jpg"
+    }
+  ],
+  "figures": [
+    {
+      "spec_id": "D010",
+      "kind": "table",
+      "title": "The balcony cycle",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D010.svg"
+    },
+    {
+      "spec_id": "D015",
+      "kind": "table",
+      "title": "What this 10-day plan cannot do",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D015.svg"
+    },
+    {
+      "spec_id": "D011",
+      "kind": "table",
+      "title": "Know the balcony load — do not guess",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D011.svg"
+    },
+    {
+      "spec_id": "D008",
+      "kind": "table",
+      "title": "Precise Clearances, 18 To 24 Inches In",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D008.svg"
+    },
+    {
+      "spec_id": "D002",
+      "kind": "table",
+      "title": "Reserve 18 To 24 Inches In Front",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D002.svg"
+    },
+    {
+      "spec_id": "D003",
+      "kind": "table",
+      "title": "A Seat Depth Between 14 And 18",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D003.svg"
+    },
+    {
+      "spec_id": "D005",
+      "kind": "table",
+      "title": "It Should Be Within Easy Reach, Generally",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D005.svg"
+    },
+    {
+      "spec_id": "D007",
+      "kind": "table",
+      "title": "A Small Table Or Tray Within Easy",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D007.svg"
+    },
+    {
+      "spec_id": "D020",
+      "kind": "table",
+      "title": "Reserve 18 To 24 Inches In Front",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D020.svg"
+    },
+    {
+      "spec_id": "D021",
+      "kind": "table",
+      "title": "A Small Table Or Tray Within Easy",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D021.svg"
+    },
+    {
+      "spec_id": "D012",
+      "kind": "table",
+      "title": "Railing limits",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D012.svg"
+    },
+    {
+      "spec_id": "D014",
+      "kind": "table",
+      "title": "Wind-safe is not the same as heavy",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D014.svg"
+    },
+    {
+      "spec_id": "D013",
+      "kind": "table",
+      "title": "When to leave the balcony",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D013.svg"
+    },
+    {
+      "spec_id": "D022",
+      "kind": "table",
+      "title": "When to leave the balcony",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D022.svg"
+    },
+    {
+      "spec_id": "D016",
+      "kind": "table",
+      "title": "10-day balcony scorecard",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D016.svg"
+    }
+  ]
+}

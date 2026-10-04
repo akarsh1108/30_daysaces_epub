@@ -1,0 +1,1910 @@
+{
+  "slug": "pet-safe-garden-design",
+  "title": "Pet Safe Garden Design",
+  "subtitle": "A renter-aware guide to outdoor pet spaces — verify the plant, the product, and the balcony",
+  "tagline": "Pet-safe is a process. It is not a label.",
+  "author": "Akarsh Priyadarshan",
+  "series": "30 Day Spaces",
+  "closing_headline": "Your next room starts here",
+  "closing_blurb": "More room kits and measured layouts — same series language, same clear numbers. This book helps readers design a garden or balcony their pets can use more carefully. It does not certify plants, finishes, or structures as safe, replace a veterinarian, or authorize building work.",
+  "accent_hex": "#1E5F6B",
+  "units": "imperial",
+  "cover": {
+    "query": "calm rental balcony garden with planter and shade, no people, no text, no pets",
+    "flux_prompt": "full-bleed designed cover of a calm rental balcony garden, planter, shade cloth, no people, no text",
+    "alt": "A small balcony garden with planters and shade, no people, pets, or text.",
+    "source": "openai",
+    "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\cover.jpg",
+    "credit": "Cover illustration generated for this edition.",
+    "ai_generated": true,
+    "provider_id": "openai:pet-safe-garden-design-cover"
+  },
+  "designed_cover": true,
+  "chapters": [
+    {
+      "slug": "pet-safe-is-a-process",
+      "title": "Pet-safe is a process",
+      "intro": "Safety note: No garden material or plant should be treated as universally safe for every pet. Verify the exact species, ingredients, product instructions, and exposure risks before installation. Keep pets away from wet finishes, construction areas, fertilizers, and plants whose identity you have not checked. Consult a veterinarian or qualified professional when poisoning, structural safety, or unusual exposure is a concern. This book is a design process, not a veterinary, engineering, or pesticide manual. Some scenarios use apartments in Indian cities as compact-space illustrations. They do not define the market. Prices, when mentioned, are in US dollars. Measurements are in inches. Example sizes are illustrations, not load ratings. 1 inch equals 25 mm if you need a conversion; converted numbers are not a different specification. Manufacturer instructions, the lease, building rules, and a veterinarian take precedence over this book. Distinguish four claims and do not mix them: suitable for normal contact after the product's stated cure or re-entry; suitable for incidental contact; not evaluated for ingestion; suitable only for a named pet species. A low-VOC finish is not automatically safe to lick. An organic fertilizer is not automatically safe to eat. A non-toxic plant listing for dogs is not a rabbit grazing permit.",
+      "opener": {
+        "query": "A compact pet-friendly garden with defined paths, safe materials, and a clean water feature, designed for dogs.",
+        "flux_prompt": "A photorealistic image of a small garden with safe surfaces, clear paths, and a water feature, perfect for dogs.",
+        "alt": "A small balcony with one planter, a water bowl, and a closed door to the interior.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\001-pexels.jpg",
+        "credit": "Photo by adrian vieriu on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:11654744"
+      },
+      "sections": [
+        {
+          "slug": "not-risk-free",
+          "title": "Pet-safe does not mean risk-free",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "A vibrant balcony garden with safe plants, a shaded resting area, and a clean water feature, all designed for pet safety.",
+            "flux_prompt": "A photorealistic image of a balcony garden with lush greenery, a cool stone pad, and a small water feature, showcasing a safe environment for pets.",
+            "alt": "A product can and a plant tag on a table, neither treated as a guarantee.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\002-pexels.jpg",
+            "credit": "Photo by Beyzaa Yurtkuran on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:13609741"
+          },
+          "scenario": "Situation: A renter in a Pune 1BHK balcony — used here as a compact-rental illustration — buys a 'pet-safe' stain and a 'non-toxic' herb kit for a dog and a rabbit.",
+          "principle": "Labels name a marketing category. They do not replace species, ingredients, and exposure checks.",
+          "body": [
+            "Today's output: a written safety note for this project, plus which of the four exposure claims you will actually try to meet.",
+            "Keep pets off wet finishes, open bags of soil amendment, and plants you have not identified. If a pet chews, vomits, seizes, or shows sudden distress, that is a veterinary problem, not a design tweak.",
+            "Do not use pet-safe, non-toxic, certified, organic, or low-VOC as synonyms. Write the product name, the pet species, and the exposure you expect (paw, fur, chew, graze)."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Four claims that are not interchangeable",
+              "caption": "A product can pass one row and fail the others.",
+              "values": [
+                "After stated cure or re-entry",
+                "Brush or paw, not a meal",
+                "Requires a vet-backed source",
+                "Named species only"
+              ],
+              "labels": [
+                "Contact after proper curing",
+                "Incidental contact",
+                "If ingested",
+                "This pet species"
+              ],
+              "minimum": null,
+              "spec_id": "D001",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D001.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Write the four exposure claims",
+              "minutes": null
+            },
+            {
+              "text": "Name species on the project",
+              "minutes": null
+            },
+            {
+              "text": "File the safety note",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Calling the balcony finished because the can said pet-safe.",
+          "checklist": [
+            "Write the four exposure claims",
+            "Name species on the project",
+            "File the safety note"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "species-changes-the-garden",
+          "title": "The same garden is not one design for every pet",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "A garden with safe plant alternatives, smooth edges, and a protective barrier, ensuring a safe space for cats.",
+            "flux_prompt": "A photorealistic image of a garden with cat-safe plants and smooth pathways, designed for feline safety.",
+            "alt": "A dog bowl, a cat perch, and a rabbit hay rack kept as separate problems.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\003-pexels.jpg",
+            "credit": "Photo by Maximilian Müller on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:14168639"
+          },
+          "scenario": "In this suburban side yard, a household has a jumping dog, an indoor-outdoor cat, and a rabbit. One fence detail cannot serve all three.",
+          "principle": "Design for the smallest escape artist and the actual behaviors, not an average pet.",
+          "body": [
+            "Today's output: the four-feature sheet filled for each pet you keep — boundary, plant selection, surfaces, enrichment — with blanks if you do not have that species.",
+            "Boundary: dogs need escape resistance, jumping, and digging checks; cats need climbing and mesh-escape checks; rabbits need chewing and gap protection. Plant selection: dogs — ingestion and chewing; cats — toxicity plus plants they can jump to; rabbits — grazing suitability, which is not the same as a dog or cat listing. Surfaces: dogs — traction, heat, abrasion; cats — grip, jump, and fall; rabbits — traction and chewing exposure. Enrichment: dogs — digging, scent, running; cats — climbing, hiding, perching; rabbits — foraging and verified grazing.",
+            "This is not one garden formula. Copy the rows that match your household. Later chapters on zones, barriers, soil, digging boxes, and catios send you back here instead of inventing a new average pet."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Boundary and plants by species",
+              "caption": "Fill only the animals you keep. A dog row is not a rabbit row.",
+              "values": [
+                "Escape, jump, dig",
+                "Climb and mesh escape",
+                "Chew and gap protection",
+                "Ingestion and chewing",
+                "Toxicity and climb access",
+                "Grazing suitability"
+              ],
+              "labels": [
+                "Dog — boundary",
+                "Cat — boundary",
+                "Rabbit — boundary",
+                "Dog — plants",
+                "Cat — plants",
+                "Rabbit — plants"
+              ],
+              "minimum": null,
+              "spec_id": "D002",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D002.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Surfaces and enrichment by species",
+              "caption": "Use with the boundary table. Do not mix rows into one universal design.",
+              "values": [
+                "Traction, heat, abrasion",
+                "Grip, jump, and fall",
+                "Traction and chewing",
+                "Dig, scent, running",
+                "Climb, hide, perch",
+                "Forage and verified graze"
+              ],
+              "labels": [
+                "Dog — surfaces",
+                "Cat — surfaces",
+                "Rabbit — surfaces",
+                "Dog — enrichment",
+                "Cat — enrichment",
+                "Rabbit — enrichment"
+              ],
+              "minimum": null,
+              "spec_id": "D017",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D017.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "List each pet",
+              "minutes": null
+            },
+            {
+              "text": "Fill the four design rows",
+              "minutes": null
+            },
+            {
+              "text": "Mark unknown plants as Hold",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Using a cat catio mesh as if it also contains a rabbit, or a dog run as if a cat cannot climb it.",
+          "checklist": [
+            "List each pet",
+            "Fill the four design rows",
+            "Mark unknown plants as Hold"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "before-you-install",
+          "title": "Before you install anything",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "A beautifully designed garden with safe grazing areas, defined paths, and a harmonious plant palette, all tailored for a rabbit.",
+            "flux_prompt": "A photorealistic image of a garden featuring safe plants, raised beds, and clear pathways, designed for a rabbit's enjoyment.",
+            "alt": "A lease page and a tape measure on a balcony, no holes in the railing yet.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\004-pexels.jpg",
+            "credit": "Photo by Siegfried Poepperl on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:17980169"
+          },
+          "scenario": "In this rental courtyard, the tenant wants pavers, a catio, and anchored scent posts. The lease is silent until someone asks.",
+          "principle": "Reversible is not the same as permitted, and freestanding is not automatically stable.",
+          "body": [
+            "Today's output: the Before you install anything sheet, with every line yes, no, or ask.",
+            "Is the space rented or owned? Is drilling permitted? Can the floor support the proposed load? Are waterproofing or drainage changes allowed? Is the balcony enclosed? Can the structure be removed without damage? Does the landlord or housing association require approval? Save written permission. Photograph the space before work.",
+            "If the answer is rental or unknown, prefer freestanding lightweight planters, removable barriers, portable enrichment, non-permanent furniture, and surface protection that does not block drains. Freestanding is not automatically safe — still check tip-over, wind, and escape resistance. Concrete-set scent posts, anchored furniture, pavers on a slab, and catios stay on Hold until permission and load are known."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Before you install anything",
+              "caption": "A blank is a Hold. Freestanding still needs a stability check.",
+              "values": [
+                "Rented / owned",
+                "Yes / no / ask",
+                "Unknown until verified",
+                "Yes / no / ask",
+                "Yes / no / NA",
+                "Yes / no / ask",
+                "Yes / no / ask",
+                "Still check tip-over and escape"
+              ],
+              "labels": [
+                "Rented or owned",
+                "Drilling permitted",
+                "Floor can take the load",
+                "Waterproofing or drainage",
+                "Balcony enclosed",
+                "Removed without damage",
+                "Landlord or HOA approval",
+                "Freestanding option"
+              ],
+              "minimum": null,
+              "spec_id": "D003",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D003.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Complete the permission sheet",
+              "minutes": null
+            },
+            {
+              "text": "Choose reversible options where needed",
+              "minutes": null
+            },
+            {
+              "text": "Photograph the starting space",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Ordering concrete-set posts for a balcony you do not own.",
+          "checklist": [
+            "Complete the permission sheet",
+            "Choose reversible options where needed",
+            "Photograph the starting space"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "hazards-load-and-the-balcony",
+      "title": "Hazards, load, and the balcony",
+      "intro": "A balcony garden is not automatically suitable for heavy landscaping materials. Verify structural capacity, waterproofing, drainage, and landlord or building restrictions before adding significant weight or fixing structures to the building. Combined weight includes dry soil, saturated soil, water, planters, pavers, furniture, pets, and people. Do not pile heavy planters in one corner without verification. Keep drainage outlets clear.",
+      "opener": {
+        "query": "outdoor furniture application, pet-safe finishes, sunlight, preparation",
+        "flux_prompt": "a well-organized outdoor workspace with tools and materials for applying non-toxic finishes, illuminated by natural light",
+        "alt": "A balcony with two lightweight planters spread apart, drain visible, railing unmodified.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\005-pexels.jpg",
+        "credit": "Photo by Quang Nguyen Vinh on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:14024945"
+      },
+      "sections": [
+        {
+          "slug": "name-hazards-without-labels",
+          "title": "Name hazards without trusting the label",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "outdoor decor finishes, non-toxic materials, pet-safe garden, sunlight, textures",
+            "flux_prompt": "full-bleed shot of a garden with various non-toxic materials and finishes, showcasing a serene outdoor space with natural light, soft shadows, and a variety of textures like wood, stone, and plants",
+            "alt": "A gap under a railing, a cocoa-mulch bag, and a water bowl placed away from both.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\006-pexels.jpg",
+            "credit": "Photo by NipananLifestyle.com on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:1424464"
+          },
+          "scenario": "In this apartment garden, the hazard is not only a plant list. There is a railing gap, standing water, and a bag of soil amendment on the floor.",
+          "principle": "Walk the space as the pet would: chew, squeeze, jump, drink, lie down.",
+          "body": [
+            "Today's output: a hazard list grouped as plant, chemical, heat, escape, structure, water, and electrical — each with a next action that is not 'it looks fine.'",
+            "Cocoa hulls, bone meal, blood meal, and fish meal are often attractive and may be harmful if ingested; do not use them as a default mulch or fertilizer where pets can eat them. That is not a complete banned-substance list. Read the product.",
+            "Cross-check plants with a current veterinary poison resource for that scientific name and your species. This book does not certify any plant as safe."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Walk the pet path",
+              "minutes": null
+            },
+            {
+              "text": "List hazards by type",
+              "minutes": null
+            },
+            {
+              "text": "Mark structure vs. plant vs. chemical",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Removing one toxic shrub and leaving a climbable railing gap.",
+          "checklist": [
+            "Walk the pet path",
+            "List hazards by type",
+            "Mark structure vs. plant vs. chemical"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "balcony-structural-check",
+          "title": "Balcony, load, and structural safety",
+          "day_label": "Day 5",
+          "hero": {
+            "query": "balcony finishes, pet-safe materials, sunlight, outdoor decor",
+            "flux_prompt": "a well-styled balcony with various non-toxic finishes, showcasing wood, stone, and plants, with soft natural light",
+            "alt": "Empty balcony with drain outlet visible, no stacked stone, no drilled railing.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\007-pexels.jpg",
+            "credit": "Photo by 🇻🇳🇻🇳 Việt Anh Nguyễn 🇻🇳🇻🇳 on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:31707917"
+          },
+          "scenario": "In this balcony garden, the plan called for stone pads, saturated planters, and a catio frame on one side of a mid-rise slab.",
+          "principle": "Weight, water, and anchors are building problems. They are not décor.",
+          "body": [
+            "Today's output: a balcony structural safety check filled, or a Hold if load, waterproofing, or permission is unknown.",
+            "Confirm permitted load and restrictions with the building owner or a qualified professional. Account for saturated soil, not just dry bags. Avoid concentrating heavy planters or hardscape. Do not drill railings or slabs without approval. Keep drains clear. A catio must not create an escape or fall path.",
+            "A balcony garden is not automatically suitable for heavy landscaping materials. Verify structural capacity, waterproofing, drainage, and landlord or building restrictions before adding significant weight or fixing structures to the building."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Balcony structural safety check",
+              "caption": "Unknown load is a Hold.",
+              "values": [
+                "Ask owner or professional",
+                "Include saturated soil and people",
+                "Do not pile in one corner",
+                "Need permission and method",
+                "Keep outlets clear",
+                "No new fall or escape path"
+              ],
+              "labels": [
+                "Permitted load",
+                "Combined weight listed",
+                "Point loads",
+                "Anchors and railings",
+                "Drainage outlets",
+                "Catio or enclosure"
+              ],
+              "minimum": null,
+              "spec_id": "D004",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D004.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Ask about load and waterproofing",
+              "minutes": null
+            },
+            {
+              "text": "List every heavy item",
+              "minutes": null
+            },
+            {
+              "text": "Hold if unverified",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Setting pavers and wet soil on a slab because a ground-level yard book showed the same look.",
+          "checklist": [
+            "Ask about load and waterproofing",
+            "List every heavy item",
+            "Hold if unverified"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "vision-that-can-leave",
+          "title": "A vision that can actually be removed",
+          "day_label": "Day 6",
+          "hero": {
+            "query": "garden materials, pet-safe options, sunlight, outdoor styling",
+            "flux_prompt": "a garden area with various durable materials like wood and metal, styled with plants and decor, illuminated by natural light",
+            "alt": "Lightweight planters on feet, shade sail on approved hardware or not used.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\008-pexels.jpg",
+            "credit": "Photo by Matthew Jesús on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:34862050"
+          },
+          "scenario": "In this home renovation context, the indoor-outdoor threshold is being tiled. The pet still needs a temporary outdoor zone that can come out when the lease ends.",
+          "principle": "Style is last. Load, permission, and species checks are first.",
+          "body": [
+            "Today's output: a one-page vision that names species, sun, wind, access, and what will stay freestanding.",
+            "Do not pick rosemary and thyme as a Mediterranean look for a rabbit until a rabbit-appropriate source confirms grazing use, quantity, and growing conditions. Do not assume a cat-safe herb is rabbit forage.",
+            "If the balcony cannot take the look you sketched, reduce weight and skip the built-in catio."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Sketch zones on paper",
+              "minutes": null
+            },
+            {
+              "text": "Mark what is removable",
+              "minutes": null
+            },
+            {
+              "text": "Drop anything over unknown load",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Choosing a style palette before the load and species sheet exists.",
+          "checklist": [
+            "Sketch zones on paper",
+            "Mark what is removable",
+            "Drop anything over unknown load"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "finishes-and-coatings",
+      "title": "Finishes, curing, and what low VOC does not prove",
+      "intro": "Select products from full ingredient information, intended application, curing requirements, and exposure risks. Low VOC levels alone do not establish that a product is safe to ingest or suitable for every pet. Keep pets away until the product's instructions specify re-entry. A sealed garage is not automatically a safe curing room. Food-contact ratings apply to intended food contact, not to every garden surface a pet might lick.",
+      "opener": {
+        "query": "layered garden structure with various plant heights, sunlight illuminating the scene, no people",
+        "flux_prompt": "detailed view of a garden with distinct plant layers, showcasing height variation and safety",
+        "alt": "Cans with SDS sheets, pets kept indoors, wet furniture isolated.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\009-pexels.jpg",
+        "credit": "Photo by Emiliano Herrera on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:39067631"
+      },
+      "sections": [
+        {
+          "slug": "low-voc-is-not-ingest-safe",
+          "title": "Low VOC is not ingest-safe",
+          "day_label": "Day 7",
+          "hero": {
+            "query": "lush garden with safe plants, bright sunlight, vibrant colors, no people",
+            "flux_prompt": "full-bleed establishing shot of a pet-friendly garden with diverse plants and textures",
+            "alt": "A finish can next to an SDS, not next to a water bowl.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\010-pexels.jpg",
+            "credit": "Photo by Adrien Olichon on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:28900031"
+          },
+          "scenario": "In this apartment garden, the listing said Greenguard Gold. The dog still chews chair legs.",
+          "principle": "Certifications cover stated criteria and product categories. They are not a blanket pet-ingestion guarantee.",
+          "body": [
+            "Today's output: a product row with name, maker, intended use, SDS or TDS on file, and which exposure claim you are not making.",
+            "GREENGUARD Gold, EU Ecolabel, and similar marks are limited to their program rules. Record the certificate name and scope. Do not write 'certified pet-safe.'",
+            "A test patch checks color and adhesion. No odor is not a safety proof. Keep the patch; drop it as a toxicity test."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "File SDS or TDS",
+              "minutes": null
+            },
+            {
+              "text": "Write the exposure you will not claim",
+              "minutes": null
+            },
+            {
+              "text": "Test patch for look only",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Using a lack of smell as permission for the rabbit to sit on the wet bench.",
+          "checklist": [
+            "File SDS or TDS",
+            "Write the exposure you will not claim",
+            "Test patch for look only"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "cure-from-the-label",
+          "title": "Curing and re-entry from the product, not from hope",
+          "day_label": "Day 8",
+          "hero": {
+            "query": "vibrant garden with pet-safe plants, sunlight filtering through leaves, no people",
+            "flux_prompt": "photorealistic shot of a garden with a variety of safe plants, emphasizing texture and color",
+            "alt": "Furniture curing behind a closed door, pet bed inside the home.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\011-pexels.jpg",
+            "credit": "Photo by Alexey Demidov on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:12349130"
+          },
+          "scenario": "In this rental courtyard, overnight cure in a closed garage was the plan because the can said waterborne.",
+          "principle": "Pets stay away until the instructions' re-entry conditions are met, including ventilation time.",
+          "body": [
+            "Today's output: a cure log — product, start time, ventilation, stated re-entry, and who keeps the pet out.",
+            "Some products need longer than a night. Follow that product. Do not use a sealed garage as a default safe room.",
+            "If you cannot isolate pets for the required period, delay the finish or choose a furniture piece that is already finished and documented."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Copy re-entry from the label",
+              "minutes": null
+            },
+            {
+              "text": "Plan pet exclusion",
+              "minutes": null
+            },
+            {
+              "text": "Do not shorten the wait",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Letting pets out when the surface feels dry to a human hand.",
+          "checklist": [
+            "Copy re-entry from the label",
+            "Plan pet exclusion",
+            "Do not shorten the wait"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "food-contact-is-not-pet-proof",
+          "title": "Food-contact is not a pet-proof rating",
+          "day_label": "Day 9",
+          "hero": {
+            "query": "modern garden design with layered plants, sunlight casting shadows, no people",
+            "flux_prompt": "stylized shot of a layered garden with various heights and textures, highlighting plant safety",
+            "alt": "A bowl stand separate from oiled wood furniture.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\012-pexels.jpg",
+            "credit": "Photo by Sergej  ***** on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:38220910"
+          },
+          "scenario": "In this suburban yard, plant-based oil was chosen because it was food-contact safe after cure.",
+          "principle": "Food-contact suitability matters when the object is meant for food or water. It is not a universal pet-safety guarantee.",
+          "body": [
+            "Today's output: a note on each wood or metal finish that says food-contact, outdoor furniture, or not claimed — never 'therefore lick-safe.'",
+            "Use food-contact products where you actually store food or drinking water. For fences and planters, use the outdoor product's own instructions and keep chewing pets off until you have a reason to trust that use.",
+            "Powder-coated metal still has edges, chips, and fasteners to inspect. Coating type does not remove pinch or rust risks."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Separate food gear from furniture",
+              "minutes": null
+            },
+            {
+              "text": "Name the finish's intended use",
+              "minutes": null
+            },
+            {
+              "text": "Inspect edges",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Oiling every surface with salad oil and calling it food-safe.",
+          "checklist": [
+            "Separate food gear from furniture",
+            "Name the finish's intended use",
+            "Inspect edges"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "plants-by-species",
+      "title": "Plants by species, not by look",
+      "intro": "Plant safety databases may differ by species, cultivar, and source. A veterinarian or a poison-control resource should be consulted for uncertain plants. This book will not call hornbeam, beech, rosemary, thyme, lavender, or any other plant universally safe. Record common name, scientific name, pet species, toxicity status from a named source, toxic parts, ingestion concerns, and a substitution only after that check. Rabbits need rabbit sources. Do not graze a rabbit on a 'dog-safe' herb bed.",
+      "opener": {
+        "query": "pet-friendly circulation paths, outdoor pathways, dog-friendly design, no people, no text, no watermark",
+        "flux_prompt": "a beautifully designed outdoor path for pets, featuring gentle curves and engaging focal points, photorealistic, one window light, teak and plaster textures",
+        "alt": "A notebook with scientific names, not a mood board of unnamed greenery.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\013-pexels.jpg",
+        "credit": "Photo by @coldbeer on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:28795606"
+      },
+      "sections": [
+        {
+          "slug": "verify-plants-by-species",
+          "title": "How to verify a plant before it comes home",
+          "day_label": "Day 10",
+          "hero": {
+            "query": "garden maintenance with fallen fruit cleanup, sunlight filtering through leaves, no people",
+            "flux_prompt": "realistic shot of a garden being maintained, focusing on plant health",
+            "alt": "A nursery tag photographed next to a written scientific name.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\014-pexels.jpg",
+            "credit": "Photo by Tobi &Chris on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:28774763"
+          },
+          "scenario": "In this balcony garden, the shop label said 'safe mix' with no scientific names.",
+          "principle": "If you cannot name the plant, you cannot check it.",
+          "body": [
+            "Today's output: a verification table started with every plant you already own or intend to buy.",
+            "Common toxic lists often include yew, azalea, and true lilies for some species — still verify the exact plant and your pet. Do not treat a list in this book as complete or current.",
+            "Cultivars differ. Do not write that some lavenders are safe and others are not unless you have a current, species-specific source for that scientific name. If the source disagrees or is unclear, Hold the plant."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Plant verification fields",
+              "caption": "A blank scientific name is a Hold.",
+              "values": [
+                "___",
+                "___",
+                "Dog / cat / rabbit / other",
+                "From a named source",
+                "Leaves, berries, sap",
+                "___",
+                "___",
+                "Only after the check"
+              ],
+              "labels": [
+                "Common name",
+                "Scientific name",
+                "Pet species covered",
+                "Toxicity status",
+                "Toxic plant parts",
+                "Ingestion concerns",
+                "Source checked",
+                "Substitution"
+              ],
+              "minimum": null,
+              "spec_id": "D005",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D005.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Write scientific names",
+              "minutes": null
+            },
+            {
+              "text": "Check a current vet source",
+              "minutes": null
+            },
+            {
+              "text": "Hold unnamed plants",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Substituting hornbeam for yew and writing 'safe hedge' without a source or a species.",
+          "checklist": [
+            "Write scientific names",
+            "Check a current vet source",
+            "Hold unnamed plants"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "substitution-is-not-a-certificate",
+          "title": "A look-alike is not a safety certificate",
+          "day_label": "Day 11",
+          "hero": {
+            "query": "garden layout, pet-friendly design, outdoor space, stylish garden, pet safety features, no people, no text, no watermark",
+            "flux_prompt": "full-bleed establishing shot of a pet-friendly garden with defined zones and clear boundaries, showcasing a harmonious blend of plants and pathways",
+            "alt": "Two unlabeled shrubs, one crossed out until identified.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\015-pexels.jpg",
+            "credit": "Photo by Lin. on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:30558492"
+          },
+          "scenario": "In this rental courtyard, yew was rejected and a 'similar hedge' was ordered by photo.",
+          "principle": "Match the scientific name, then the source, then the pet. Looks are last.",
+          "body": [
+            "Today's output: either a verified substitute with source and species, or a decision to use a barrier and skip the plant.",
+            "Serviceberry, crabapple, ornamental fruit, and berries can still drop material pets eat. Identity and parts matter more than the layer in a planting diagram.",
+            "For rabbits, verify grazing plants for rabbits, feeding quantity, and how the plant is grown. Rosemary and thyme stay on Hold until that check is done."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Refuse unnamed substitutes",
+              "minutes": null
+            },
+            {
+              "text": "Record the source",
+              "minutes": null
+            },
+            {
+              "text": "Skip the plant if Hold",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Planting a beech hedge because a chapter once called it safe.",
+          "checklist": [
+            "Refuse unnamed substitutes",
+            "Record the source",
+            "Skip the plant if Hold"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "purchase-record-not-quarantine-myth",
+          "title": "A purchase record, not a 24-hour pesticide guarantee",
+          "day_label": "Day 12",
+          "hero": {
+            "query": "pet-friendly balcony garden, cat-safe plants, outdoor seating, no people, no text, no watermark",
+            "flux_prompt": "a cozy balcony garden designed for a cat, featuring a shaded rest area, a run corridor, and protected planting beds, photorealistic, one window light, teak and linen textures",
+            "alt": "A plant in isolation away from pets, with a written supplier note.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\016-pexels.jpg",
+            "credit": "Photo by Birkant  Cakar on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:15549153"
+          },
+          "scenario": "In this apartment garden, the old note said quarantine 24 to 48 hours to clear pesticide residue.",
+          "principle": "Time on a balcony does not prove residue is gone. Visual checks find pests, not chemistry.",
+          "body": [
+            "Today's output: a purchase record — supplier, date, scientific name, treatment history if available, any waiting or re-entry instructions, pest inspection notes.",
+            "Keep newly purchased plants separated from pets while you verify identity, pesticide and fertilizer treatment history, and any required waiting instructions. Inspect for pests and disease. Do not allow pets to chew or graze unless suitability for that species is verified.",
+            "Do not wash or treat plants with improvised mixes to 'remove' pesticide. Follow the supplier or product instructions, or do not use the plant."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "What plant isolation can and cannot do",
+              "caption": "Isolation is observation, not a residue test.",
+              "values": [
+                "Helps you watch pests",
+                "Does not prove residue is gone",
+                "Needed before chew or graze",
+                "Do not invent a wash"
+              ],
+              "labels": [
+                "Separated from pets",
+                "A two-day wait",
+                "Identity and history",
+                "Improvised rinses"
+              ],
+              "minimum": null,
+              "spec_id": "D006",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D006.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Fill the purchase record",
+              "minutes": null
+            },
+            {
+              "text": "Separate from pets",
+              "minutes": null
+            },
+            {
+              "text": "Do not improvise residue removal",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Letting the rabbit graze after two quiet days on the balcony.",
+          "checklist": [
+            "Fill the purchase record",
+            "Separate from pets",
+            "Do not improvise residue removal"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "layout-paths-and-barriers",
+      "title": "Layout, paths, and barriers",
+      "intro": "Widths depend on the job: a person walking with a pet, a dog running, or a shared path with furniture. Gates and planters steal usable width. Do not treat 36 inches, 2–3 feet, or 3–5 feet as a universal clearance. Barrier gaps are measured against the smallest head, body, and escape behavior. A three-inch slat gap is not a universal safety threshold. Climbing over and digging under still count.",
+      "opener": {
+        "query": "drainage solutions in a small garden, natural light, no people, no text, no watermark",
+        "flux_prompt": "a detailed view of a garden drainage system with swales and permeable pavers",
+        "alt": "Painter tape marking a path beside planters, a gate leaning closed.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\017-pexels.jpg",
+        "credit": "Photo by Ulrick Trappschuh on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:17200682"
+      },
+      "sections": [
+        {
+          "slug": "zones-by-pet-and-space",
+          "title": "Choosing zones by pet and space",
+          "day_label": "Day 13",
+          "hero": {
+            "query": "stylish pet boundaries, decorative trellis, indoor plants, no people, no text, no watermark",
+            "flux_prompt": "a stylish boundary design featuring a decorative trellis and raised planters, photorealistic, one window light, linen and plaster textures",
+            "alt": "Tape on a balcony dividing rest, water, and a closed plant corner.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\018-pexels.jpg",
+            "credit": "Photo by The Hung on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:29511982"
+          },
+          "scenario": "In this balcony garden, one zone tried to be a dog run, a cat climb, and a herb bed.",
+          "principle": "Give each pet a job in the space you actually have. Do not stack incompatible jobs.",
+          "body": [
+            "Today's output: a zone map — rest and water, human sitting, planting that pets cannot graze, enrichment, and a no-go if needed.",
+            "Open the Day 2 species sheet before you draw zones. A dog run, a cat climb, and a rabbit graze are different jobs. On a small balcony, a chase corridor may be impossible. Choose rest, water, and shade over a fake run. On a ground yard, separate digging from planting if you use a digging box.",
+            "Raised planters are not automatically rabbit-proof or cat-proof. Check height against jump and chew."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Map zones on paper",
+              "minutes": null
+            },
+            {
+              "text": "Drop zones the space cannot hold",
+              "minutes": null
+            },
+            {
+              "text": "Mark no-go planting",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Drawing four activity zones on a six-foot balcony and calling it complete.",
+          "checklist": [
+            "Map zones on paper",
+            "Drop zones the space cannot hold",
+            "Mark no-go planting"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "widths-depend-on-the-job",
+          "title": "Path width depends on the job, not a single number",
+          "day_label": "Day 14",
+          "hero": {
+            "query": "pet-friendly garden, soil and surface textures, drainage solutions, natural light, no people, no text, no watermark",
+            "flux_prompt": "full-bleed shot of a pet-friendly garden with varied surfaces and clear drainage paths",
+            "alt": "A tape measure on a path with a planter stealing six inches.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\019-pexels.jpg",
+            "credit": "Photo by Mike Bird on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4167967"
+          },
+          "scenario": "In this suburban yard, three different chapters had offered three different widths for 'the path.'",
+          "principle": "Name the movement: walk, run, or shared. Then measure what is left after furniture and gates.",
+          "body": [
+            "Today's output: for each route, write the job (walk, run, or shared), who uses it, pet size, leftover width after furniture and gates, and whether the route is even possible.",
+            "Older notes of 2–3 feet, 3–4 feet, 36 inches, and 3–5 feet were not three competing rules. They were illustrations for different jobs and different dog sizes. A walk path is leftover width for a person plus the pet without a squeeze past a gate. A run or chase path is wider than a walk path and still needs a way to stop. A shared path subtracts benches, planters, and gate swing. None of those numbers is a specification for every animal or every balcony.",
+            "If you want a planning illustration: leftover walk width is often sketched near 36 inches, and a chase is sketched wider than a walk. Measure your leftover width. If it cannot handle this pet's size and speed, change the activity. On a small balcony a chase may be impossible — go back to the Day 2 sheet and choose rest, water, and shade."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Circulation is a job, not a universal width",
+              "caption": "Measure the leftover width after gates and furniture.",
+              "values": [
+                "Pet plus person, no squeeze",
+                "Wider than a walk; size the dog",
+                "Furniture and gates steal width",
+                "May be impossible; choose rest"
+              ],
+              "labels": [
+                "Walk path",
+                "Run or chase",
+                "Shared human-pet path",
+                "Small balcony"
+              ],
+              "minimum": null,
+              "spec_id": "D007",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D007.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Why the old width numbers differed",
+              "caption": "Illustrations for different jobs. Measure leftover width. Not a spec.",
+              "values": [
+                "Narrow-run illustration",
+                "Shared-walk or chase illustration",
+                "About the same leftover-walk idea",
+                "Larger or faster illustration"
+              ],
+              "labels": [
+                "Two to three feet",
+                "Three to four feet",
+                "About 36 inches",
+                "Three to five feet"
+              ],
+              "minimum": null,
+              "spec_id": "D021",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D021.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Name each route's job",
+              "minutes": null
+            },
+            {
+              "text": "Measure usable width",
+              "minutes": null
+            },
+            {
+              "text": "Cancel routes that do not fit",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Installing a '3 to 5 foot chase' on a balcony that is 4 feet deep.",
+          "checklist": [
+            "Name each route's job",
+            "Measure usable width",
+            "Cancel routes that do not fit"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "gaps-by-the-smallest-animal",
+          "title": "Barrier gaps follow the smallest animal",
+          "day_label": "Day 15",
+          "hero": {
+            "query": "play area with various surfaces, textures, natural light, no people, no text, no watermark",
+            "flux_prompt": "an overview of a pet play area with rounded gravel, decomposed granite, and rubber pavers",
+            "alt": "A railing with a temporary mesh panel, gap checked against a closed fist only as a reminder to measure the pet.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\020-pexels.jpg",
+            "credit": "Photo by Jan van der Wolf on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:34042843"
+          },
+          "scenario": "In this rental courtyard, the fence used slats 'under 3 inches' while a rabbit lived there.",
+          "principle": "Measure head, body, paws, and jaws. Climb and dig are part of the barrier.",
+          "body": [
+            "Today's output: a barrier note for the smallest pet — measured against head, body, and escape behavior; climb; dig; trap risk for paws, jaws, or limbs; latch; and whether the barrier is for a dog, cat, or rabbit. Use the Day 2 boundary row.",
+            "Dogs: jump and dig under. Cats: climb and squeeze mesh. Rabbits: chew and use very small gaps. Do not treat slat spacing less than 3 inches as a universal safety threshold. That number is not a certificate for every small pet.",
+            "A gap that traps a paw or jaw fails even if it stops an escape. Climb-over and dig-under still count. Change the barrier rather than keeping the look."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Barriers by the smallest escape artist",
+              "caption": "A number from a catalog is not your pet.",
+              "values": [
+                "Jump and dig",
+                "Climb and mesh",
+                "Chew and small gaps",
+                "Paws, jaws, limbs"
+              ],
+              "labels": [
+                "Dog",
+                "Cat",
+                "Rabbit",
+                "Trap risk on all"
+              ],
+              "minimum": null,
+              "spec_id": "D008",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D008.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Measure the smallest pet",
+              "minutes": null
+            },
+            {
+              "text": "Check climb and dig",
+              "minutes": null
+            },
+            {
+              "text": "Fix trap gaps",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Using one slat spacing for a dog and a rabbit.",
+          "checklist": [
+            "Measure the smallest pet",
+            "Check climb and dig",
+            "Fix trap gaps"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "soil-drainage-irrigation",
+      "title": "Soil, drainage, and irrigation",
+      "intro": "Organic or plant-based does not mean safe to ingest. Biochar is not inherently safe or unattractive. 'Certified free of contaminants' is meaningless without the actual test or standard name. Ground-level grading is not a balcony skill. Irrigation water is not drinking water. Drip tubing is not automatically safe if a pet can chew it.",
+      "opener": {
+        "query": "scent posts in a garden, natural materials, soft lighting, no people, no text, no watermark",
+        "flux_prompt": "shot of a garden with clearly marked scent posts, surrounded by plants and gravel, showcasing the designated areas for scent marking",
+        "alt": "A drain outlet kept clear, a hose off the floor, a water bowl on a stand.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\021-pexels.jpg",
+        "credit": "Photo by đình ưu nguyễn on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:36314953"
+      },
+      "sections": [
+        {
+          "slug": "soil-and-fertilizer-records",
+          "title": "Fertilizer, compost, and ingestion risk",
+          "day_label": "Day 16",
+          "hero": {
+            "query": "irrigation system in a garden, natural light, no people, no text, no watermark",
+            "flux_prompt": "a close-up of a subsurface drip irrigation system in a pet-friendly garden",
+            "alt": "Closed bags of amendment stored off the floor, away from a pet bed.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\022-pexels.jpg",
+            "credit": "Photo by 🇻🇳🇻🇳 Việt Anh Nguyễn 🇻🇳🇻🇳 on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:31231190"
+          },
+          "scenario": "In this balcony garden, 'plant-based compost' and charged biochar were treated as automatically gentle.",
+          "principle": "Read ingredients, dose, storage, and the pet-exclusion period on that product.",
+          "body": [
+            "Today's output: one verification sheet per soil or fertilizer product. Soil that holds plants is not the same problem as a fertilizer a pet might eat.",
+            "Record ingredients and concentration, intended application, manufacturer instructions, storage, ingestion risks, pet exclusion period if specified, batch or product identification, and the actual testing or certification document if you claim one. Do not write certified free of contaminants without naming the standard.",
+            "Avoid bone meal, blood meal, fish meal, and cocoa hulls where pets can eat them. Organic or plant-based compost is not automatically safe to ingest. Biochar is not inherently safe or unattractive; use only that product's rate and keep bags closed. Use the Day 2 plant and surface rows if a pet will lie on or chew the mulch."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Soil and fertilizer product sheet",
+              "caption": "Fertilizer ingestion is a separate check from soil structure.",
+              "values": [
+                "___",
+                "___",
+                "Copy from the label",
+                "___",
+                "___",
+                "If the label states one",
+                "___",
+                "Name it or omit the claim"
+              ],
+              "labels": [
+                "Ingredients and concentration",
+                "Intended application",
+                "Manufacturer instructions",
+                "Storage requirements",
+                "Ingestion risks",
+                "Pet exclusion period",
+                "Batch or product ID",
+                "Testing or certification"
+              ],
+              "minimum": null,
+              "spec_id": "D009",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D009.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "File every soil product",
+              "minutes": null
+            },
+            {
+              "text": "Store sealed and off the floor",
+              "minutes": null
+            },
+            {
+              "text": "Hold undocumented bags",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Spreading unnamed compost because it was labeled organic.",
+          "checklist": [
+            "File every soil product",
+            "Store sealed and off the floor",
+            "Hold undocumented bags"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "balcony-versus-ground-drainage",
+          "title": "Balcony drainage versus ground-level drainage",
+          "day_label": "Day 17",
+          "hero": {
+            "query": "pet digging box, natural materials, soft lighting, no people, no text, no watermark",
+            "flux_prompt": "angle shot of a digging box in a garden, surrounded by dappled shade, showcasing the texture of sand and soil, with buried toys partially visible",
+            "alt": "A balcony drain grate clear of mats, saucers that do not block flow.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\023-pexels.jpg",
+            "credit": "Photo by Chris F on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:10045895"
+          },
+          "scenario": "In this Chennai balcony — a humid-climate illustration — the plan imported a French drain from a yard book.",
+          "principle": "Do not regrade a slab or bury a drain on a balcony you do not own.",
+          "body": [
+            "Today's output: circle balcony or ground-level, then only the checks that match. Balcony examples in Pune, Mumbai, Bengaluru, or Chennai are compact-space illustrations. They do not make a French drain legal on a slab.",
+            "Ground-level garden: grading and discharge must not send water toward buildings or neighboring properties. French drains need an appropriate outlet and maintenance. Assess local soil and drainage. A bubble level is not a drainage design. Permeable pavers still need a legal place for water to go.",
+            "Balcony garden: do not assume you can regrade or fit a French drain. Do not block drainage outlets. Confirm waterproofing and permitted arrangements. Avoid runoff that damages walls, lower balconies, or shared spaces. Use containers and drainage systems appropriate to the space. Permeable-paver looks from a yard book are not automatic on a rental slab."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Two drainage worlds",
+              "caption": "A level checks slope. It does not prove the outlet works.",
+              "values": [
+                "Need outlet, upkeep, permission",
+                "Not toward buildings or neighbors",
+                "Assess soil; a level is not a design",
+                "Do not regrade or bury drains",
+                "Do not block outlets",
+                "Confirm before any water change",
+                "No damage to walls or below",
+                "Containers if the space allows"
+              ],
+              "labels": [
+                "Ground — French drain",
+                "Ground — discharge",
+                "Ground — local conditions",
+                "Balcony — excavation",
+                "Balcony — outlets",
+                "Balcony — waterproofing",
+                "Balcony — runoff",
+                "Balcony — containers"
+              ],
+              "minimum": null,
+              "spec_id": "D010",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D010.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Choose balcony or ground",
+              "minutes": null
+            },
+            {
+              "text": "Keep outlets clear",
+              "minutes": null
+            },
+            {
+              "text": "Stop if waterproofing is involved",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Cutting a channel drain into a rental balcony slab.",
+          "checklist": [
+            "Choose balcony or ground",
+            "Keep outlets clear",
+            "Stop if waterproofing is involved"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "irrigation-is-not-drinking-water",
+          "title": "Irrigation is not a water bowl",
+          "day_label": "Day 18",
+          "hero": {
+            "query": "chase corridor in a garden, curved path, natural materials, soft lighting, no people, no text, no watermark",
+            "flux_prompt": "wide shot of a curved chase corridor in a garden, showcasing the textured surface and surrounding plants, with a focus on the path's design",
+            "alt": "Drip line clipped out of chew range, a separate filled water bowl.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\024-pexels.jpg",
+            "credit": "Photo by Abhishek  Navlakha on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:33689325"
+          },
+          "scenario": "In this suburban yard, drip irrigation was called safe because it hid the tubing under mulch the dog later dug.",
+          "principle": "Chew, leak, standing water, and electrical controls are separate checks.",
+          "body": [
+            "Today's output: an irrigation safety pass covering chew and entanglement, leaks, hose and tubing condition, standing water and mosquitoes, backflow where relevant, electrical separation, and a drinking bowl that is not irrigation water.",
+            "Drip irrigation is not automatically safe if the pet can reach or chew the tubing. Do not hide a chewable line under mulch and call it solved. Inspect hose and tubing on a schedule. Place components where pets cannot chew or tangle.",
+            "Follow local rules for backflow on hose bibs where they apply. Keep irrigation timers and lighting electrically separated from standing water. You plan placement; a qualified person does new electrical work. Provide drinking water in a bowl you can clean, separate from irrigation water."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Irrigation safety pass",
+              "caption": "Drip is not automatically safe. Drinking water is a separate bowl.",
+              "values": [
+                "If relevant to the bib",
+                "Look and fix",
+                "On a schedule",
+                "Qualified install if new circuits",
+                "No mosquito puddles",
+                "Move the line",
+                "A bowl you can clean",
+                "Not solved by hiding it"
+              ],
+              "labels": [
+                "Backflow prevention",
+                "Leak detection",
+                "Hose and tubing inspection",
+                "Electrical separation",
+                "Standing water",
+                "Chew or tangle points",
+                "Drinking water",
+                "Drip under mulch"
+              ],
+              "minimum": null,
+              "spec_id": "D022",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D022.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Separate drinking water",
+              "minutes": null
+            },
+            {
+              "text": "Inspect tubing",
+              "minutes": null
+            },
+            {
+              "text": "Check puddles and chew points",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Calling emitters pet-safe because they are small.",
+          "checklist": [
+            "Separate drinking water",
+            "Inspect tubing",
+            "Check puddles and chew points"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "behavior-without-guarantees",
+      "title": "Behavior without guaranteed outcomes",
+      "intro": "A garden can support training. It does not replace a veterinarian or a qualified behavior professional. Sudden behavior change, excessive marking, repetitive destruction, fear, aggression, escape, pain, or ongoing stress is a reason to get help. Enrichment features are options to test and adjust.",
+      "opener": {
+        "query": "A cozy fall garden in Mumbai, showcasing pruned plants and a well-maintained boundary, with warm autumn light filtering through a window.",
+        "flux_prompt": "A shot of a fall garden with pruned plants and a secure boundary, illuminated by warm autumn light.",
+        "alt": "A digging box to one side, a closed gate, no claim that the rest of the yard is solved.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\025-pexels.jpg",
+        "credit": "Photo by Yaroslav Shuraev on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:5604253"
+      },
+      "sections": [
+        {
+          "slug": "digging-box-without-promises",
+          "title": "A digging box to try, not a guarantee",
+          "day_label": "Day 19",
+          "hero": {
+            "query": "cat climbing spaces in a garden, natural materials, soft lighting, no people, no text, no watermark",
+            "flux_prompt": "angle shot of a catio with multiple levels and scratching posts, showcasing the safe climbing options for cats",
+            "alt": "A shallow box with clean fill, no buried plastic toys, waste scooped.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\026-pexels.jpg",
+            "credit": "Photo by Nikolett Emmert on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:14543014"
+          },
+          "scenario": "In this suburban yard, a digging box was placed and the dog was expected to switch in a few days.",
+          "principle": "A designated digging area may help when it is placed well and paired with reinforcement. Watch whether your pet uses it. Change it if digging continues elsewhere.",
+          "body": [
+            "Today's output: a digging-box spec — location, fill you can document as appropriate for this pet, no swallowable buried items, treat rules, waste and sharp-object checks, drainage so it does not become a pest pit.",
+            "Use clean, non-contaminated fill. Do not leave food in the soil. The box is a dog-enrichment option from the Day 2 sheet, not a universal fix for anxiety, escape, or hunting, and not a cat or rabbit requirement.",
+            "If digging is new, frantic, or paired with other distress, ask a veterinarian before you build a bigger box."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Choose documented fill",
+              "minutes": null
+            },
+            {
+              "text": "Set a clean-out routine",
+              "minutes": null
+            },
+            {
+              "text": "Watch where digging actually happens",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Burying treats and toys and leaving them for days.",
+          "checklist": [
+            "Choose documented fill",
+            "Set a clean-out routine",
+            "Watch where digging actually happens"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "scent-posts-and-the-vet",
+          "title": "Scent posts are optional. Sudden marking is not a décor problem",
+          "day_label": "Day 20",
+          "hero": {
+            "query": "A well-maintained pet-safe garden in an Indian apartment setting, showcasing seasonal changes, vibrant plants, and safe surfaces, with natural light filtering through a single window.",
+            "flux_prompt": "A full-bleed shot of a pet-safe garden in an Indian apartment, featuring lush greenery, pet-friendly pathways, and seasonal decorations.",
+            "alt": "A stable post with no sharp concrete burrs, cleaner labeled for that use.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\027-pexels.jpg",
+            "credit": "Photo by Aniket Suryawanshi on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:32397386"
+          },
+          "scenario": "In this apartment garden, concrete-set posts and bedding scent were specified on a balcony slab.",
+          "principle": "Marking design is enrichment or management. It is not guaranteed control, and it is not a diagnosis.",
+          "body": [
+            "Today's output: either a Hold on concrete-set posts (permission, load, edges) or a removable post with a cleaner you can document for pet areas, mixed as the label says.",
+            "Seek veterinary evaluation for sudden or abnormal marking. Adding scent can increase marking for some animals. Rounded gravel can be swallowed or get into paws; check the size against the pet.",
+            "Do not promise that a post will stop indoor marking."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Skip concrete-set if rental or unknown load",
+              "minutes": null
+            },
+            {
+              "text": "File the cleaner",
+              "minutes": null
+            },
+            {
+              "text": "Call the vet for sudden marking",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Sprinkling used bedding to 'set the smell' next to a toxic shrub.",
+          "checklist": [
+            "Skip concrete-set if rental or unknown load",
+            "File the cleaner",
+            "Call the vet for sudden marking"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "catio-escape-and-fall",
+          "title": "Catio, climb, fall, and attachment safety",
+          "day_label": "Day 21",
+          "hero": {
+            "query": "A close-up of a balcony garden in Pune, showcasing soil testing tools, pet-safe plants, and a vibrant spring atmosphere.",
+            "flux_prompt": "A shot of a balcony garden with pet-safe plants and tools for soil testing, illuminated by natural light.",
+            "alt": "A ground-level enclosure sketch with mesh, latch, and no balcony drop.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\028-pexels.jpg",
+            "credit": "Photo by https://kaboompics.com/ on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4750395"
+          },
+          "scenario": "In this balcony garden, shelves eight inches deep and outdoor carpet were treated as a finished catio.",
+          "principle": "Shelf depth is not a fall rating. Carpet is not automatically safe when wet.",
+          "body": [
+            "Today's output: a catio hold-point sheet. If any line fails, cats stay off the structure.",
+            "Need escape-resistant doors and latches, mesh openings for the smallest pet in the enclosure, weather-resistant attachments, no sharp wire ends or exposed fasteners, grip that still works wet, and an inspection schedule for mesh, corrosion, and movement. Distinguish a balcony catio (fall and load) from a ground enclosure.",
+            "Go back to the Day 2 cat rows: climb, mesh, grip, jump, and fall. Cats should not climb structures that have not been checked for load and fall. Outdoor carpet can hold moisture, grow mold, snag claws, and wear out — inspect and replace. Do not imply a shelf is safe because it is eight inches deep."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Catio do-not-proceed",
+              "caption": "Unverified climb structures stay unused.",
+              "values": [
+                "Use wall or skip",
+                "Size to the smallest pet",
+                "Engineered, permitted, inspected",
+                "Inspect and replace",
+                "Not a safety rating"
+              ],
+              "labels": [
+                "Uncertain balcony load",
+                "Mesh too open",
+                "Attachments and latches",
+                "Wet carpet or mold",
+                "Shelf depth alone"
+              ],
+              "minimum": null,
+              "spec_id": "D013",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D013.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Choose balcony or ground enclosure",
+              "minutes": null
+            },
+            {
+              "text": "Check mesh, latch, attachments",
+              "minutes": null
+            },
+            {
+              "text": "Hold if load or fall is unclear",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Mounting carpeted shelves to an unknown railing.",
+          "checklist": [
+            "Choose balcony or ground enclosure",
+            "Check mesh, latch, attachments",
+            "Hold if load or fall is unclear"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "climate-heat-and-seasons",
+      "title": "Climate, heat, and seasons",
+      "intro": "Indian city names in examples are climate illustrations, not the product market. Snow advice does not apply to every reader. Heat, humidity, monsoon drainage, and freeze–thaw are different jobs. Surface heat is monitored with a suitable thermometer, not the back of a hand and a seven-second count.",
+      "opener": {
+        "query": "A clean, organized balcony with temporary fencing and a clear site map, sunlight streaming in, showcasing a safe environment for pets.",
+        "flux_prompt": "A well-lit balcony with clear exclusion zones and organized staging for construction materials, emphasizing safety and preparation.",
+        "alt": "Shade, a water bowl, and a closed door at midday.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\029-pexels.jpg",
+        "credit": "Photo by Eduardo Avila Carbajal on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:34555459"
+      },
+      "sections": [
+        {
+          "slug": "heat-without-the-hand-test",
+          "title": "Heat, shade, water — not a seven-second hand test",
+          "day_label": "Day 22",
+          "hero": {
+            "query": "A winter garden in Pune, featuring snow-covered paths, pet-safe traction materials, and cozy decorations, with soft winter light.",
+            "flux_prompt": "A shot of a winter garden with snow-covered paths and pet-safe traction materials, illuminated by soft winter light.",
+            "alt": "An infrared thermometer aimed at dark pavers in sun, a shaded mat nearby.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\030-pexels.jpg",
+            "credit": "Photo by lin lin on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:31357364"
+          },
+          "scenario": "In this Bengaluru terrace — a hot-climate illustration — dark stone was checked with the back of a hand.",
+          "principle": "Human skin is not a paw instrument. If contact is not safe, restrict access and wait.",
+          "body": [
+            "Today's output: a heat log — time of day the pet would be out, hottest surfaces measured with a suitable infrared thermometer, shade, cooler alternate surface, drinking water, and a stop rule.",
+            "Measure the hottest areas, not only the pretty shade. Account for time on the surface, species, and the individual pet. Metal and artificial turf can be worse than they look. Humid shade can still be a poor rest spot.",
+            "Learn heat-stress signs for your species from a veterinary source. Avoid peak-heat outings. If you suspect burns or heat illness, seek veterinary care. This book does not give treatment steps."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Surface heat monitoring",
+              "caption": "No fixed temperature in this book is a universal paw limit.",
+              "values": [
+                "Use a suitable IR thermometer",
+                "When the pet would be there",
+                "Shade plus a cooler option",
+                "Restrict and wait",
+                "See a veterinarian"
+              ],
+              "labels": [
+                "Hottest surfaces",
+                "Time of use",
+                "Alternatives",
+                "If too hot for contact",
+                "Suspected burns"
+              ],
+              "minimum": null,
+              "spec_id": "D015",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D015.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Measure the hot surfaces",
+              "minutes": null
+            },
+            {
+              "text": "Provide shade and water",
+              "minutes": null
+            },
+            {
+              "text": "Restrict access if too hot",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Using a seven-second hand test as the summer protocol.",
+          "checklist": [
+            "Measure the hot surfaces",
+            "Provide shade and water",
+            "Restrict access if too hot"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "climate-conditions-not-one-winter",
+          "title": "Use the climate you actually have",
+          "day_label": "Day 23",
+          "hero": {
+            "query": "A well-organized construction site for a pet-friendly garden, showcasing clear exclusion zones and staging areas, natural light filtering through a single window, with textures of wood and stone in a compact Indian apartment setting.",
+            "flux_prompt": "A full-bleed shot of a pet-friendly garden construction site, highlighting exclusion zones and staging areas, with natural light illuminating the space.",
+            "alt": "A drain checked before rain, not a snow shovel on a tropical balcony.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\031-pexels.jpg",
+            "credit": "Photo by 虎 曼 on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:31449912"
+          },
+          "scenario": "In this Pune balcony illustration, the printed winter chapter showed snow and de-icers.",
+          "principle": "Keep winter methods only if you have ice. Everyone still has a weather job.",
+          "body": [
+            "Today's output: circle the conditions that apply — warm humid; dry hot; cold freeze; high rainfall — and copy only those checks.",
+            "Warm humid: mold, algae, pests, monsoon drainage. Dry hot: surface temperature, water, irrigation. Cold: freeze–thaw, ice, snow, de-icing products used only per their pet and surface instructions; keep pets off treated paths. High rainfall: standing water, slip, plant disease.",
+            "Mechanical snow removal first if you have snow. Do not pick a de-icer because a book called it generally gentler."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Seasonal jobs by climate",
+              "caption": "Skip the rows that are not your weather.",
+              "values": [
+                "Heat, mold, pests, monsoon drains",
+                "Surface heat, water, irrigation",
+                "Ice, freeze-thaw, de-icer rules",
+                "Standing water, slip, disease"
+              ],
+              "labels": [
+                "Warm and humid",
+                "Dry and hot",
+                "Cold",
+                "High rainfall"
+              ],
+              "minimum": null,
+              "spec_id": "D014",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D014.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Circle your climate jobs",
+              "minutes": null
+            },
+            {
+              "text": "Skip snow if you have none",
+              "minutes": null
+            },
+            {
+              "text": "Recheck drains before heavy rain",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Buying de-icer for a balcony that never freezes.",
+          "checklist": [
+            "Circle your climate jobs",
+            "Skip snow if you have none",
+            "Recheck drains before heavy rain"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "build-phases-and-hold-points",
+      "title": "Build phases and hold points",
+      "intro": "Work in phases only after permission and load are known. Pets stay out of the work area. Electrical and waterproofing are professional boundaries. A plate compactor is not a balcony tool. Joint sand needs documented product information, not a vague nontoxic certificate.",
+      "opener": {
+        "query": "A vibrant balcony garden with newly planted herbs and grasses, sunlight illuminating the safe and colorful environment for pets.",
+        "flux_prompt": "A close-up of the newly planted pet-safe herbs and ornamental grasses, showcasing the vibrant colors and textures.",
+        "alt": "Temporary barrier across a balcony door, tools on a mat, pets indoors.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\032-pexels.jpg",
+        "credit": "Photo by Doğan Alpaslan  Demir on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:37554726"
+      },
+      "sections": [
+        {
+          "slug": "phase-risks-and-renter-holds",
+          "title": "Phase risks, renter holds, and when to stop",
+          "day_label": "Day 24",
+          "hero": {
+            "query": "A balcony with newly installed drainage and irrigation systems, sunlight highlighting the careful layout, showcasing a safe environment for pets.",
+            "flux_prompt": "A detailed view of the irrigation setup on the balcony, emphasizing safety and functionality, with natural textures.",
+            "alt": "A printed phase list on a fridge, a closed balcony door.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\033-pexels.jpg",
+            "credit": "Photo by Khoa Võ on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:15747239"
+          },
+          "scenario": "In this rental courtyard, infrastructure week assumed French drains and new outdoor outlets.",
+          "principle": "Each phase has a main risk and a verification. Fail the check and do not proceed.",
+          "body": [
+            "Today's output: a construction matrix with pass/hold and a corrective note. Prep: toxic plants, debris, pet exclusion. Infrastructure: leaks, pooling, electrical. Hardscape: loose units, edges, load. Planting: identity and product records. Finishes: wet coatings and re-entry. Turnover: unnoticed hazards.",
+            "Excavation and permanent drainage may be forbidden in a rental. Waterproofing and structural fixes need a qualified person. You may plan; you do not improvise building systems."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Construction verification before the next phase",
+              "caption": "Record pass or hold. This is not an engineering stamp.",
+              "values": [
+                "Pets out; waste gone",
+                "No leaks; no live electrical DIY",
+                "Stable, suitable load",
+                "Identity and records",
+                "Re-entry from the product",
+                "Boundaries and traction tested"
+              ],
+              "labels": [
+                "Prep and removal",
+                "Infrastructure",
+                "Hardscape",
+                "Planting",
+                "Finishes",
+                "Testing and turnover"
+              ],
+              "minimum": null,
+              "spec_id": "D011",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D011.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Fill the phase matrix",
+              "minutes": null
+            },
+            {
+              "text": "Keep pets out",
+              "minutes": null
+            },
+            {
+              "text": "Stop on any Hold",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Starting finishes while the drainage outlet is still blocked.",
+          "checklist": [
+            "Fill the phase matrix",
+            "Keep pets out",
+            "Stop on any Hold"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "hardscape-and-turnover",
+          "title": "Hardscape checks and a turnover sign-off",
+          "day_label": "Day 25",
+          "hero": {
+            "query": "A newly laid hardscape on the balcony, showcasing smooth porcelain pavers and safe edges, with sunlight enhancing the textures.",
+            "flux_prompt": "A close-up of the hardscape installation, highlighting the smooth edges and secure locking of the pavers, emphasizing safety and aesthetics.",
+            "alt": "A paver that rocks marked with tape, a hose test toward a legal drain.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\034-pexels.jpg",
+            "credit": "Photo by Jan van der Wolf on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:11978834"
+          },
+          "scenario": "In this suburban yard, a plate compactor and a step test were the whole quality plan.",
+          "principle": "Follow the surface system's instructions. Rocking, trip edges, and pooling fail the phase.",
+          "body": [
+            "Today's output: a hardscape and turnover sheet — installation system named, rocking units, uneven transitions, drainage, balcony load if relevant, professional review if structure or waterproofing is involved.",
+            "A step test does not define acceptable deflection. If it rocks or trips, it fails. Do not write 'nontoxic joint sand' unless you have the product's documents.",
+            "Turnover: drainage, traction, boundaries, access, heat at use time, plant records, finish re-entry, and pets only after the sign-off."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Check rocking and edges",
+              "minutes": null
+            },
+            {
+              "text": "Hose-test drainage legally",
+              "minutes": null
+            },
+            {
+              "text": "Sign turnover or Hold",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Declaring turnover because the furniture matched the cushions.",
+          "checklist": [
+            "Check rocking and edges",
+            "Hose-test drainage legally",
+            "Sign turnover or Hold"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "checklists-and-risk-scoring",
+      "title": "Checklists that force a decision",
+      "intro": "A checklist is for decisions. Rate likelihood and consequence to prioritize. The matrix is not a veterinary or engineering certification. A loose balcony railing, an unidentified plant, or an unstable planter is high consequence even if it has not failed yet.",
+      "opener": {
+        "query": "pet-friendly garden design, Indian apartment balcony, natural light, lush greenery, no people, no text, no watermark.",
+        "flux_prompt": "full-bleed establishing shot of a pet-friendly garden on an Indian apartment balcony with vibrant plants and safe materials.",
+        "alt": "A one-page checklist with species, tenure, and a Hold column.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\035-pexels.jpg",
+        "credit": "Photo by Enric Cruz López on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:9989544"
+      },
+      "sections": [
+        {
+          "slug": "profiles-and-risk-matrix",
+          "title": "Pet, site, material profiles and a real risk matrix",
+          "day_label": "Day 26",
+          "hero": {
+            "query": "Anjali testing her new balcony garden, ensuring safety and comfort for her cats, with sunlight highlighting the vibrant plants and finishes.",
+            "flux_prompt": "A close-up of Anjali conducting a slip test on the balcony, emphasizing safety and thoroughness in the testing phase.",
+            "alt": "A form with species, rented-or-owned, and product names filled.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\036-pexels.jpg",
+            "credit": "Photo by Akshay Sawardekar on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:11001156"
+          },
+          "scenario": "In this apartment garden, the old checklist asked for observations and mentioned a scoring framework that was never shown.",
+          "principle": "If a high-consequence item is likely or even possible, restrict access and fix it before style work.",
+          "body": [
+            "Today's output: pet profile (species, age, size, mobility, chew/dig/jump/escape, heat/cold sensitivity, known medical limits if relevant); site profile (owned or rented, balcony/courtyard/terrace/ground, drains, load limits, sun, wind, access, existing hazards); material profile (name, maker, composition, intended use, cure/re-entry, maintenance, safety document source).",
+            "Risk matrix: low likelihood and low consequence — monitor. Low likelihood and high consequence — mitigate before pet access. High likelihood and low consequence — correct where practical. High likelihood and high consequence — restrict access and address immediately.",
+            "Example: a loose balcony railing is high consequence. An unidentified plant in a rabbit run is high consequence. An unstable tall planter is high consequence."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Prioritization aid, not a safety certificate",
+              "caption": "High consequence still gets action even when it has not happened.",
+              "values": [
+                "Monitor and document",
+                "Mitigate before pet access",
+                "Correct where practical",
+                "Restrict access now"
+              ],
+              "labels": [
+                "Low likelihood, low consequence",
+                "Low likelihood, high consequence",
+                "High likelihood, low consequence",
+                "High likelihood, high consequence"
+              ],
+              "minimum": null,
+              "spec_id": "D012",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D012.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Fill three profiles",
+              "minutes": null
+            },
+            {
+              "text": "Score each open hazard",
+              "minutes": null
+            },
+            {
+              "text": "Restrict high-consequence items",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Scoring a toxic plant as low because the pet has not eaten it yet.",
+          "checklist": [
+            "Fill three profiles",
+            "Score each open hazard",
+            "Restrict high-consequence items"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "buy-documentation-then-stop",
+      "title": "Buy documentation, then stop",
+      "intro": "Shop with a comparison sheet. A certificate is scoped. Quantity, waste, storage, batch, shelf life, substitution rules, returns, and pet exclusion belong on the sheet. After install, live in the space and inspect. Do not buy a matching second set because the first looks styled.",
+      "opener": {
+        "query": "cozy balcony design for pets, cat-friendly space, outdoor lounge area, raised planters, pet-safe plants",
+        "flux_prompt": "image of a cozy balcony with a lounge area, raised planters, and a catio, natural light, textured surfaces",
+        "alt": "SDS pages and samples on a table, empty price cells in USD.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\037-pexels.jpg",
+        "credit": "Photo by Helena Jankovičová Kováčová on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:20340999"
+      },
+      "sections": [
+        {
+          "slug": "certifications-and-final-check",
+          "title": "Certifications, a buying sheet, and the final outdoor check",
+          "day_label": "Day 27",
+          "hero": {
+            "query": "pet-friendly garden layout, modular templates, outdoor space design, non-toxic finishes, pet-safe plants, sunlight and shade considerations",
+            "flux_prompt": "full-bleed image of a pet-friendly garden layout with modular templates, showcasing various zones for pets and plants, natural light, textured surfaces",
+            "alt": "A signed turnover page: water bowl in shade, drain clear, pets still inside until checks pass.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\038-pexels.jpg",
+            "credit": "Photo by Lisa Fotios on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:1303829"
+          },
+          "scenario": "In this home renovation, leftover paint and an extra shrub were purchased for visual completion.",
+          "principle": "If incoming hazards remain, more décor is the wrong next buy.",
+          "body": [
+            "Today's output: a buying sheet — product, maker, quantity, unit, USD price, waste, source, date, estimate yes/no, batch, shelf life if any, substitution rule, return notes, curing/exclusion. Then the final check below.",
+            "GREENGUARD Gold and EU Ecolabel (and any other mark) cover specific criteria. Write the mark and the product category. Do not write that the animal is therefore safe.",
+            "Final check: species sheet current; plants identified or removed; balcony load still honest; finishes past re-entry; heat plan for the next hot day; mesh and latches inspected; drains clear; drinking water separate from irrigation; high-consequence items restricted. Next step is living with the setup and watching the pet, not ordering a matching pair."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "What a certification does not mean",
+              "caption": "Copy the program name. Do not upgrade it into pet-proof.",
+              "values": [
+                "Scoped to that program",
+                "Not an ingestion test",
+                "Not a load rating",
+                "Still need the SDS"
+              ],
+              "labels": [
+                "Named ecolabel or VOC mark",
+                "Lick or graze",
+                "Balcony structure",
+                "Your actual SKU"
+              ],
+              "minimum": null,
+              "spec_id": "D016",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D016.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Complete the buying sheet",
+              "minutes": null
+            },
+            {
+              "text": "Run the final check",
+              "minutes": null
+            },
+            {
+              "text": "Watch the pet for a real session",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Closing the book because the photos look like a garden magazine.",
+          "checklist": [
+            "Complete the buying sheet",
+            "Run the final check",
+            "Watch the pet for a real session"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    }
+  ]
+}

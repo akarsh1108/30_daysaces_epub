@@ -1,0 +1,2733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Weekend Laundry Alcove</title>
+<style>@font-face{font-family:&#34;Source Serif 4&#34;;font-weight:400;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/SourceSerif4-400.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;Source Serif 4&#34;;font-weight:700;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/SourceSerif4-700.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;Fraunces&#34;;font-weight:600;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/Fraunces-600.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;Fraunces&#34;;font-weight:700;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/Fraunces-700.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;DM Sans&#34;;font-weight:400;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/DMSans-400.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;DM Sans&#34;;font-weight:700;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/DMSans-700.woff&#34;) format(&#34;woff&#34;);}
+/* 6x9 KDP magazine interior — WeasyPrint-safe (no absolute overlays / bleed pages).
+   Cover + chapter openers + heroes are STACKED blocks so text never overlaps images.
+   Shared across every book in the series: change this file once, all titles update. */
+
+@page {
+  size: 6in 9in;
+  margin: 0.7in 0.6in 0.7in 0.65in;
+  @top-left {
+    content: string(series-name);
+    font: 7.5pt &#34;DM Sans&#34;, sans-serif;
+    color: #9AA0A2;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  @bottom-center {
+    content: counter(page);
+    font: 8.5pt &#34;DM Sans&#34;, sans-serif;
+    color: #9AA0A2;
+  }
+}
+@page cover {
+  margin: 0;
+  @top-left { content: none; }
+  @bottom-center { content: none; }
+}
+@page front {
+  @top-left { content: none; }
+  @bottom-center { content: none; }
+}
+@page closing {
+  @top-left { content: none; }
+  @bottom-center { content: none; }
+}
+
+:root {
+  --ink: #141816;
+  --paper: #FFFFFF;
+  --accent: #1E5F6B;
+  --accent-deep: #0F3D45;
+  --mist: #F3F6F6;
+  --muted: #7A8285;
+  --red: #C8442B;
+  --serif: &#34;Source Serif 4&#34;, &#34;DejaVu Serif&#34;, Georgia, serif;
+  --display: &#34;Fraunces&#34;, &#34;Source Serif 4&#34;, Georgia, serif;
+  --sans: &#34;DM Sans&#34;, &#34;DejaVu Sans&#34;, sans-serif;
+}
+
+html {
+  font-family: var(--serif);
+  font-size: 10.5pt;
+  line-height: 1.48;
+  color: var(--ink);
+  background: var(--paper);
+}
+body { margin: 0; }
+p { margin: 0 0 0.65em; orphans: 3; widows: 3; }
+img { max-width: 100%; display: block; }
+a { color: inherit; text-decoration: none; }
+
+.series-mark { string-set: series-name content(); display: none; }
+
+/* ========== COVER (shared series template) ========== */
+.cover {
+  page: cover;
+  page-break-after: always;
+  page-break-inside: avoid;
+  width: 6in;
+  height: 9in;
+  overflow: hidden;
+  background: var(--accent-deep);
+}
+.cover-photo {
+  width: 6in;
+  height: 5.35in;
+  object-fit: cover;
+  display: block;
+}
+.cover.cover-designed {
+  background: #111;
+}
+.cover.cover-designed .cover-photo {
+  width: 6in;
+  height: 9in;
+  object-fit: cover;
+}
+.cover-panel {
+  width: 6in;
+  height: 3.65in;
+  box-sizing: border-box;
+  background: var(--accent-deep);
+  color: #fff;
+  padding: 0.38in 0.5in 0.35in;
+}
+.cover-panel .series {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #B7D4D8;
+  margin: 0 0 0.16in;
+}
+.cover-panel .rule {
+  width: 0.9in;
+  height: 2.5pt;
+  background: #fff;
+  margin: 0 0 0.18in;
+}
+.cover-panel h1 {
+  font-family: var(--display);
+  font-size: 26pt;
+  line-height: 1.05;
+  font-weight: 700;
+  margin: 0 0 0.14in;
+  color: #fff;
+}
+.cover-panel .tagline {
+  font-size: 10.5pt;
+  line-height: 1.35;
+  color: #D7E6E8;
+  margin: 0 0 0.4in;
+  max-width: 4.6in;
+}
+.cover-panel .author {
+  font-family: var(--sans);
+  font-size: 10pt;
+  color: #fff;
+  margin: 0;
+  border-top: 0.5pt solid rgba(255,255,255,0.28);
+  padding-top: 0.16in;
+}
+
+/* ========== FRONT MATTER ========== */
+.title-page {
+  page: front;
+  page-break-after: always;
+  padding-top: 1.6in;
+}
+.title-page .mast {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.35in;
+}
+.title-page .rule {
+  width: 1in;
+  height: 2.5pt;
+  background: var(--accent);
+  margin: 0 0 0.3in;
+}
+.title-page h1 {
+  font-family: var(--display);
+  font-size: 28pt;
+  line-height: 1.08;
+  margin: 0 0 0.25in;
+  font-weight: 700;
+}
+.title-page .subtitle {
+  font-size: 12pt;
+  color: #3A4244;
+  margin: 0 0 1.2in;
+  max-width: 4.4in;
+}
+.title-page .author {
+  font-family: var(--sans);
+  font-size: 10pt;
+  color: var(--muted);
+}
+
+.copyright {
+  page: front;
+  page-break-after: always;
+  font-family: var(--sans);
+  font-size: 8pt;
+  line-height: 1.45;
+  color: #555;
+  padding-top: 4.8in;
+}
+.copyright .credits { color: var(--muted); margin-top: 0.4em; }
+
+.toc {
+  page: front;
+  page-break-after: always;
+}
+.toc .kicker {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.12in;
+}
+.toc h2 {
+  font-family: var(--display);
+  font-size: 24pt;
+  margin: 0 0 0.35in;
+  font-weight: 700;
+}
+.toc ol { list-style: none; padding: 0; margin: 0; }
+.toc &gt; ol &gt; li {
+  margin: 0 0 0.45em;
+  font-size: 10.5pt;
+  padding-bottom: 0.28em;
+  border-bottom: 0.4pt solid #E4E8E9;
+}
+.toc &gt; ol &gt; li &gt; a { font-family: var(--display); font-weight: 600; }
+.toc a::after {
+  content: leader(&#34; . &#34;) target-counter(attr(href url), page);
+  font-family: var(--sans);
+  font-size: 8pt;
+  color: var(--muted);
+  font-weight: 400;
+}
+.toc ol ol {
+  margin: 0.15em 0 0;
+  font-size: 9pt;
+  color: #4A5254;
+}
+.toc ol ol li { margin: 0 0 0.12em; border: none; padding: 0; }
+.toc ol ol a { font-family: var(--serif); font-weight: 400; }
+
+/* ========== CHAPTER ========== */
+.chapter { page-break-before: always; }
+
+.chapter-opener {
+  page-break-before: always;
+  page-break-after: always;
+  page-break-inside: avoid;
+  margin: 0;
+  background: var(--accent-deep);
+}
+.chapter-opener img {
+  width: 100%;
+  height: 4.6in;
+  object-fit: cover;
+  display: block;
+}
+.chapter-opener .opener-text {
+  background: var(--accent-deep);
+  color: #fff;
+  padding: 0.32in 0.05in 0.35in;
+}
+.chapter-opener .chap-kicker {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #B7D4D8;
+  margin: 0 0 0.12in;
+}
+.chapter-opener h2 {
+  font-family: var(--display);
+  font-size: 20pt;
+  line-height: 1.12;
+  margin: 0 0 0.12in;
+  font-weight: 700;
+  color: #ffffff;
+}
+.chapter-opener p {
+  font-size: 9.5pt;
+  line-height: 1.4;
+  color: #D7E6E8;
+  margin: 0;
+}
+
+.chapter-title {
+  font-family: var(--display);
+  font-size: 24pt;
+  line-height: 1.1;
+  margin: 0.6in 0 0.22in;
+  font-weight: 700;
+}
+.intro {
+  font-size: 11pt;
+  color: #333;
+  margin-bottom: 0.4in;
+  border-left: 3pt solid var(--accent);
+  padding-left: 0.16in;
+}
+
+/* ========== UNIT ========== */
+.unit { page-break-before: always; }
+.chapter &gt; .unit:first-of-type { page-break-before: auto; }
+
+.unit-head { margin: 0 0 0.25in; }
+.day {
+  display: block;
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 5pt;
+}
+.unit h3, .hero h3 {
+  font-family: var(--display);
+  font-size: 17pt;
+  line-height: 1.15;
+  margin: 0;
+  font-weight: 700;
+}
+
+/* Hero: image then caption strip UNDER it — never overlays */
+.hero {
+  margin: 0 0 0.28in;
+  page-break-inside: avoid;
+  background: var(--mist);
+}
+.hero img {
+  width: 100%;
+  height: 3.15in;
+  object-fit: cover;
+  display: block;
+}
+.hero .hero-label {
+  padding: 0.16in 0.18in 0.18in;
+}
+.hero .day { color: var(--accent); }
+.hero h3 { color: var(--ink); font-size: 16pt; }
+
+.scenario {
+  background: var(--mist);
+  border-top: 2.5pt solid var(--accent);
+  padding: 0.16in 0.18in 0.18in;
+  margin: 0 0 0.25in;
+}
+.scenario .label {
+  font-family: var(--sans);
+  font-size: 7.5pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.08in;
+}
+.scenario p {
+  font-size: 10pt;
+  font-style: italic;
+  color: #2A3234;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.principle {
+  font-family: var(--display);
+  font-size: 13.5pt;
+  line-height: 1.28;
+  font-weight: 600;
+  margin: 0.05in 0 0.28in;
+  color: var(--accent-deep);
+  padding: 0.08in 0 0.08in 0.18in;
+  border-left: 3pt solid var(--accent);
+}
+
+.body-copy p { font-size: 10.5pt; }
+
+figure.diagram {
+  margin: 0.18in 0 0.28in;
+  page-break-inside: avoid;
+  background: var(--mist);
+  padding: 0.1in;
+}
+figure.diagram img {
+  width: 100%;
+  display: block;
+  background: #fff;
+}
+figure.diagram figcaption {
+  font-family: var(--sans);
+  font-size: 8pt;
+  color: var(--muted);
+  line-height: 1.35;
+  margin-top: 5pt;
+}
+
+.steps, .checklist, .mistake {
+  page-break-inside: avoid;
+  margin: 0.25in 0;
+}
+.steps h4, .checklist h4, .mistake h4 {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0 0 7pt;
+  font-weight: 700;
+}
+.steps {
+  background: var(--mist);
+  padding: 0.16in 0.18in;
+}
+.steps ol {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  counter-reset: step;
+}
+.steps li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 1.4em;
+  margin: 0 0 6pt;
+  font-size: 10pt;
+}
+.steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: var(--sans);
+  font-size: 8.5pt;
+  font-weight: 700;
+  color: var(--accent);
+}
+.steps em {
+  color: var(--muted);
+  font-style: normal;
+  font-family: var(--sans);
+  font-size: 8pt;
+}
+
+.mistake {
+  background: #F8EEEB;
+  padding: 0.16in 0.18in;
+  border-left: 3pt solid var(--red);
+}
+.mistake h4 { color: var(--red); }
+.mistake p { margin: 0; font-size: 9.8pt; }
+
+.checklist ul { list-style: none; padding: 0; margin: 0; }
+.checklist li {
+  padding-left: 1.4em;
+  position: relative;
+  margin: 0 0 5pt;
+  font-size: 10pt;
+}
+.checklist li::before {
+  content: &#34;&#34;;
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  width: 0.7em;
+  height: 0.7em;
+  border: 1.2pt solid var(--accent);
+}
+
+/* ========== LAST PAGE (shared series closer) ========== */
+.closing {
+  page: closing;
+  page-break-before: always;
+  padding-top: 0;
+}
+.closing-photo {
+  width: 100%;
+  height: 3.2in;
+  object-fit: cover;
+  display: block;
+  margin: 0 0 0.45in;
+}
+.closing .kicker {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.16in;
+}
+.closing .rule {
+  width: 1in;
+  height: 2.5pt;
+  background: var(--accent);
+  margin: 0 0 0.25in;
+}
+.closing h2 {
+  font-family: var(--display);
+  font-size: 24pt;
+  line-height: 1.1;
+  margin: 0 0 0.2in;
+}
+.closing .blurb {
+  font-size: 11.5pt;
+  line-height: 1.4;
+  color: #333;
+  max-width: 4.5in;
+  margin: 0 0 0.7in;
+}
+.closing .author {
+  margin-top: 0.9in;
+  font-family: var(--sans);
+  font-size: 9.5pt;
+  color: var(--muted);
+}
+</style>
+</head>
+<body>
+<span class="series-mark">30 Day Spaces</span>
+
+<section class="cover cover-designed">
+  <img class="cover-photo" src="cover.jpg" alt="Compact laundry alcove with a folding counter, labeled shelves, and a washer, no people or text.">
+</section>
+
+<section class="title-page">
+  <p class="mast">30 Day Spaces</p>
+  <div class="rule"></div>
+  <h1>Weekend Laundry Alcove</h1>
+<p class="subtitle">The Under-$200 Weekend Alcove Makeover Blueprint</p><p class="author">Akarsh Priyadarshan</p></section>
+
+<section class="copyright">
+  <p>© 2026 Akarsh Priyadarshan. All rights reserved.</p>
+  <p>Interior designed for Amazon KDP print (6 × 9 in) and Kindle.</p>
+  <p>1 interior image in this book
+     was generated with AI tools and reviewed by the author.
+     All diagrams were drawn from the measurements in the text.</p>
+<p class="credits">Photographs: Photo by Max Vakhtbovych on Pexels; Photo by Engin Akyurt on Pexels; Photo by American  Cleaning Institute on Pexels; Photo by Leonid Altman on Pexels; Photo by Los Muertos Crew on Pexels; Photo by Nothing Ahead on Pexels; Photo by Deane Bayas on Pexels; Photo by Ivett M on Pexels; Photo by hi room on Pexels; Photo by Francesco Ungaro on Pexels; Photo by Rodrigo Simoes on Pexels; Photo by Thirdman on Pexels; Photo by Sandra Filipe on Pexels; Photo by Stephan Yorchenko on Pexels; Photo by Chengxin Zhao on Pexels; Photo by Ono  Kosuki on Pexels; Photo by Karina Badura on Pexels; Photo by Anete Lusina on Pexels; Photo by Mark Stebnicki on Pexels; Photo by RDNE Stock project on Pexels; Photo by Tahir Xəlfəquliyev on Pexels; Photo by Tiger Lily on Pexels; Photo by Freek Wolsink on Pexels; Photo by Tima Miroshnichenko on Pexels; Photo by Anisha Deb on Pexels; Photo by Ty Nguyễn on Pexels; Photo by Alec Adriano on Pexels; Photo by Mathias Reding on Pexels; Photo by Jan van der Wolf on Pexels; Photo by panumas nikhomkhai on Pexels; Photo by SHVETS production on Pexels; Photo by Cup of  Couple on Pexels; Photo by Vlad Deep on Pexels; Photo by Đỗ Huy Hoàng on Pexels; Photo by Ivan S on Pexels; Photo by Hoài  Nam on Pexels; Photo by https://kaboompics.com/ on Pexels; Photo by Aditya Oberai on Pexels; Photo by Keegan Checks on Pexels; Photo by Adrien Olichon on Pexels.</p></section>
+
+<section class="toc">
+  <p class="kicker">Inside this book</p>
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#the-under-200-weekend-alcove-makeover-blueprint">The Under-$200 Weekend Alcove Makeover Blueprint</a>
+      <ol><li><a href="#planning-your-alcove-makeover">Scope, Audience, And Budget</a></li><li><a href="#shopping-for-your-makeover">Choose The Appliance Setup First</a></li><li><a href="#building-your-custom-shelves-and-countertop">Manufacturer Manuals Before Any Cut</a></li></ol>
+    </li>
+    <li><a href="#the-solution-framework">Space, Machines, And Materials</a>
+      <ol><li><a href="#understanding-your-space">Read The Alcove You Have</a></li><li><a href="#choosing-the-right-materials">Moisture Suitability By Material</a></li><li><a href="#planning-your-layout">Layout After The Machines Are Chosen</a></li></ol>
+    </li>
+    <li><a href="#deep-dive">Building A Sturdy Laundry Countertop</a>
+      <ol><li><a href="#cut-list-matrix">What The Counter Is For</a></li><li><a href="#aisle-by-aisle-shopping-map">A Store-Agnostic Shopping Order</a></li><li><a href="#moisture-safe-finishing-stack">Moisture-Safe Finishing Stack</a></li><li><a href="#countertop-span-and-stiffness">Span, Stiffness, And Load — Illustrative Only</a></li></ol>
+    </li>
+    <li><a href="#implementation-strategy">From Measurements To A Working Sketch</a>
+      <ol><li><a href="#understanding-your-space">Worked Measurement: 59 inch Alcove</a></li><li><a href="#fastening-and-support">Fasteners Follow The Substrate</a></li><li><a href="#final-assembly-and-organization">Dry-Fit, Then Finish</a></li></ol>
+    </li>
+    <li><a href="#real-world-application-common-pitfalls">Stacked And Side-By-Side Setups</a>
+      <ol><li><a href="#small-rental-alcove-with-stacked-machines">Stacked Pair In A Narrow Rental</a></li><li><a href="#wide-owner-alcove-with-side-by-side-machines">Side-By-Side On A Private Plot</a></li></ol>
+    </li>
+    <li><a href="#key-takeaways-action-items">Common Mistakes In The Laundry Alcove</a>
+      <ol><li><a href="#ignoring-moisture">Ignoring Moisture And Leaks</a></li><li><a href="#missing-studs">Fastening Into The Wrong Wall</a></li><li><a href="#rushing-finish-coats">Rushing Finish And Cure</a></li><li><a href="#forgetting-service-access">Blocking Service Access</a></li><li><a href="#moving-machines-roughly">Moving Machines Safely</a></li></ol>
+    </li>
+    <li><a href="#chapter-conclusion">Preparing For The Alcove Project</a>
+      <ol><li><a href="#measuring-your-alcove">Measuring The Empty Alcove</a></li><li><a href="#choosing-materials-and-hardware">Materials And Hardware</a></li><li><a href="#gathering-tools-and-supplies">Tools, Electrics, And A Stop Line</a></li></ol>
+    </li>
+    <li><a href="#assess-measure-and-plan-your-alcove">Assess, Measure, And Plan Your Alcove</a>
+    </li>
+    <li><a href="#budgeting-and-bill-of-materials">Budgeting And Bill Of Materials Under $200</a>
+      <ol><li><a href="#understanding-your-budget">The $200 Millwork Envelope</a></li><li><a href="#material-selection">Material Selection Inside The Envelope</a></li><li><a href="#calculating-yields">Yields From Standard Sheets</a></li><li><a href="#finalizing-your-bill-of-materials">Bill Of Materials And Contingency</a></li></ol>
+    </li>
+    <li><a href="#aisle-by-aisle-shopping-maps-and-tool-prep">Aisle-By-Aisle Shopping Maps And Tool Prep</a>
+      <ol><li><a href="#the-aisle-map-and-prep-system">The Home-Center Loop</a></li><li><a href="#requesting-store-cuts-safely">Shop Cuts And Transport</a></li><li><a href="#the-minimum-tool-kit-that-will-not-fail-you">Minimum Tool Kit</a></li></ol>
+    </li>
+    <li><a href="#cut-lists-and-modular-components">Cut Lists And Modular Components</a>
+    </li>
+    <li><a href="#renter-friendly-build-and-smart-storage">Renter-Friendly Build And Smart Storage</a>
+      <ol><li><a href="#base-first-building-the-floor-platform">No-Drill Base And Floor</a></li><li><a href="#press-fit-uprights-creating-a-non-invasive-skeleton">Press-Fit Frames Have Limits</a></li><li><a href="#selective-fasteners-using-french-cleats">Limited Fasteners And French Cleats</a></li><li><a href="#smart-storage-sizing-and-organization">Storage Zones</a></li><li><a href="#cable-and-hose-management">Cables, Hoses, And Leaks</a></li><li><a href="#finishing-touches-and-removal-plan">Removal Plan</a></li></ol>
+    </li>
+    <li><a href="#owner-upgrade-path-trim-and-moisture-protection">Owner Upgrades, Moisture, And Building Services</a>
+      <ol><li><a href="#fastening-into-studs">Permanent Fastening Into Structure</a></li><li><a href="#trim-that-hides-edges">Trim, Scribe, And Edges</a></li><li><a href="#moisture-safe-finish-stack">Finish Stack In A Wet Room</a></li><li><a href="#water-and-lint-protection">Water, Lint, Vent, And Power</a></li></ol>
+    </li>
+    <li><a href="#the-48-hour-weekend-schedule">The Weekend Schedule — With Dependencies</a>
+      <ol><li><a href="#friday-evening-confirm-and-prep">Friday: Confirm, Manuals, And Stops</a></li><li><a href="#saturday-morning-acquire-and-stage">Saturday Morning: Buy And Stage</a></li><li><a href="#saturday-midday-build-the-core">Saturday: Build Only What Is Safe Today</a></li><li><a href="#sunday-finish-and-hardware">Sunday: Finish, Or Stop At Cure</a></li></ol>
+    </li>
+    <li><a href="#troubleshooting-old-houses-and-tight-clearances">Troubleshooting Tight Alcoves And Vibration</a>
+      <ol><li><a href="#understanding-fit-problems">Bow, Out Of Square, And Scribe</a></li><li><a href="#managing-clearance-conflicts">Doors, Lids, And Clearances</a></li><li><a href="#leveling-appliances-and-controlling-vibration">Leveling And Vibration</a></li><li><a href="#moisture-management-solutions">Moisture Without Fake Plumbing</a></li></ol>
+    </li>
+    <li><a href="#printable-measurement-templates-and-label-set">Measurement Templates And Labels</a>
+    </li>
+    <li><a href="#aisle-by-aisle-shopping-maps-for-major-home-centers">Aisle-By-Aisle Shopping Maps For Major Home Centers</a>
+      <ol><li><a href="#navigating-home-depot">Navigating Home Depot</a></li><li><a href="#shopping-at-lowes">Shopping At Lowe&#39;s</a></li><li><a href="#finding-items-at-menards">Finding Items At Menards</a></li></ol>
+    </li>
+    <li><a href="#48-hour-weekend-build-checklist">Weekend Checklist And Final Inspection</a>
+      <ol><li><a href="#purpose-and-benefits">Purpose And The $200 Envelope</a></li><li><a href="#how-to-use">How To Use The Checkpoints</a></li><li><a href="#friday-evening-prep-and-plan">Friday Prep</a></li><li><a href="#saturday-morning-shopping">Saturday Shopping And The Final Inspection</a></li></ol>
+    </li>
+  </ol>
+</section>
+
+<section class="chapter" id="the-under-200-weekend-alcove-makeover-blueprint">
+  <div class="chapter-opener">
+    <img src="photos/001-pexels.jpg" alt="Laundry alcove with clean countertop, organized shelves, and modern appliances, soft natural light, minimalist design, no people, no text, n">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>The Under-$200 Weekend Alcove Makeover Blueprint</h2>
+<p>By the end of this chapter, you will have a written scope: the space you control, the appliance setup you will build around, and a millwork budget in US dollars. This is a US-focused book. All prices are USD. Example dimensions are inches. The millwork envelope is $200 unless you raise it on purpose.</p>    </div>
+  </div>
+
+  <article class="unit" id="planning-your-alcove-makeover">
+
+    <figure class="hero">
+      <img src="photos/002-pexels.jpg" alt="View of the laundry alcove focusing on the countertop and storage solutions.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Scope, Audience, And Budget</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Riya rents a one-bedroom in Austin. Her laundry sits in a 60 in wide alcove. She can add shelves and a folding counter if they stay removable, but she cannot move plumbing, add a dryer vent through an exterior wall, or drill a load-bearing concrete wall without written permission.</p>
+    </div>
+
+    <p class="principle">Write the space, the machines, and the money before you buy a board.</p>
+
+    <div class="body-copy">
+      <p>This book is millwork around machines that already exist: a folding counter, shelves, and labeled storage. It is not a license to install a washer, dryer, gas line, new drain, or new dedicated circuit. Hire a licensed plumber or electrician for those. A renter usually may use freestanding or limited-fastener millwork if the lease and HOA or landlord rules allow it. An owner may fasten into suitable structure after checking services in the wall.</p>
+      <p>All prices in this book are US dollars (USD). The worked millwork envelope is $200 for sheet goods, lumber, fasteners, primer, paint, caulk, and consumables for one compact alcove. It does not include the washer or dryer, plumber or electrician fees, appliance delivery, stacking kits, or tools you already own. If you use the worksheet outside the United States, convert the $200 envelope and check local product names and sheet sizes.</p>
+      <p>Pick one construction level before you shop. No-drill: freestanding frames, tension poles only where the maker rates them, and nothing that depends on wall screws. Limited-fastener: a few screws into identified structure, with landlord permission, a removal plan, and a load you can actually support. Permanent: owner approval, and professional help if the wall, vent, or electrics are uncertain. Removable is not the same as renter-safe. A frame that can tip, overload hollow plaster, or block hose shutoffs is not a weekend win.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Write one sentence: balcony utility, internal wet area, or dedicated laundry closet — and whether you rent or own.</li><li>Write the millwork envelope in USD and list what it excludes (machines, trades, tools).</li><li>Circle no-drill, limited-fastener, or permanent before you sketch shelves.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Starting with a Pinterest shelf height, then discovering the lid on a top-load washer cannot open.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Space and tenure written down</li><li>$200 millwork envelope defined, exclusions listed</li><li>Construction level chosen</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="shopping-for-your-makeover">
+
+    <figure class="hero">
+      <img src="photos/003-pexels.jpg" alt="Close-up of plywood and brackets ready for purchase.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Choose The Appliance Setup First</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Shelf heights and counter spans follow the machines, not the other way around.</p>
+
+    <div class="body-copy">
+      <p>Select the appliance arrangement before you choose shelf heights, countertop dimensions, or support locations. Front-load washer: door swing, loading access, service clearance, and vibration. Top-load washer: lid opening height, overhead clearance, and access to controls. Stacked washer and dryer: only an approved stacking kit for those exact models, vertical load path, and service access to both units. Side-by-side machines: width, side clearance, shared folding surface, and both door swings. Washer only: leave a future dryer path if you might add one, plus hose and drain access.</p>
+      <p>A stacked pair is not a side-by-side pair with the dryer lifted. Stacking changes the load on the floor, the reach to the dryer door, and the service path. Do not invent a homemade shelf to carry a dryer unless that arrangement is specifically designed and approved for that purpose. Do not put a washer or dryer on an improvised countertop.</p>
+      <p>A French cleat is two interlocking strips, usually wood, cut at about 45 degrees: one on the wall, one on the furniture. A cleat (without “French”) is simply a strip the shelf sits on. You will use those words later. First, write which of the five setups you have.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Circle one: front-load, top-load, stacked, side-by-side, or washer only.</li><li>If stacked, confirm a maker-approved stacking kit exists for both model numbers.</li><li>If top-load, measure lid arc before any overhead shelf height.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Drawing a 36 inch counter over a top-load washer whose lid needs more than that to open.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Appliance setup selected</li><li>Stacking kit confirmed or stacking rejected</li><li>No appliance sitting on improvised millwork</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="building-your-custom-shelves-and-countertop">
+
+    <figure class="hero">
+      <img src="photos/002-pexels.jpg" alt="Focus on the finishing details of the countertop and shelves.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>Manufacturer Manuals Before Any Cut</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Generic alcove numbers are planning starts. The installation manual is the rule.</p>
+
+    <div class="body-copy">
+      <p>Record washer and dryer make and model. Obtain the installation manuals. Record required rear, side, top, and front clearances. Confirm ventilation and exhaust requirements where a dryer is present. Confirm water inlet, drain, and electrical connection locations. Confirm the service and removal path. Check whether a stacking kit is approved for those exact models.</p>
+      <p>A shelf, countertop, or enclosure must not reduce required ventilation, access, or manufacturer-specified clearances. If the manual and this book disagree, follow the manual. If you cannot find the manual, stop millwork that sits within 4 inch of the machine until you have it.</p>
+      <p>Electrical modifications, new outlets, and uncertain wiring belong to a qualified electrician. Never run a washer or dryer on an unsuitable extension cord. Keep water connections and electrical components arranged to the applicable electrical safety rules — this book does not publish a generic outlet-clearance number for every jurisdiction.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Photograph the model stickers and save the PDFs of both installation manuals.</li><li>Copy the maker&#39;s clearance table into your measurement sheet — do not invent substitutes.</li><li>Mark shutoff valves, drain, vent termination, and the plug so millwork cannot bury them.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Building a pretty box that covers the shutoff, the lint path, or the plug.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Make, model, and manuals on the clipboard</li><li>Clearances copied from the maker, not from memory</li><li>Service path still open on the sketch</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="the-solution-framework">
+  <div class="chapter-opener">
+    <img src="photos/001-pexels.jpg" alt="Laundry alcove with a wall-to-wall countertop, adjustable shelves, and labeled storage zones, natural light from one window, clean and organ">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Space, Machines, And Materials</h2>
+<p>By the end of this chapter, you will have a verified appliance layout and a material direction that matches moisture, not a single “best” board. Cross-reference Chapter 1’s setup choice instead of re-deciding it.</p>    </div>
+  </div>
+
+  <article class="unit" id="understanding-your-space">
+
+    <figure class="hero">
+      <img src="photos/002-pexels.jpg" alt="Interior shot of a laundry alcove showcasing shelves and labeled bins.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Read The Alcove You Have</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Ravi’s Austin alcove is 48 in wide and 24 in deep to the plaster, but a drain box steals 3/4 in on the left. The walls are not square.</p>
+    </div>
+
+    <p class="principle">The smallest width, the shallowest depth, and the maker’s rear clearance govern the build.</p>
+
+    <div class="body-copy">
+      <p>Measure width at the floor, at mid-height, and near the top. Measure depth at left, center, and right. Measure height at the back and the front. Use the smallest width and the shallowest depth for cuts. Baseboards, tile lips, and hose boxes shrink the usable opening.</p>
+      <p>Hoses bulge. Walls bow. Doors swing. If you guess, you will cut shelves that jam at the baseboard and a counter that blocks the drain. Keep plumbing and electrical where they are unless a licensed trade is moving them.</p>
+      <p>Immediate function for most US apartment laundry closets is a folding surface you do not sit appliances on, two or three shelves, and labeled bins. That is the millwork envelope. It is not a full laundry-room renovation.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Measuring only at chest height, then discovering the baseboard is 5/8 in thicker than the wall above.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Width, depth, and height recorded at multiple points</li><li>Smallest width and shallowest depth circled for cuts</li><li>No plumbing or electrical moves on the DIY list</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="choosing-the-right-materials">
+
+    <figure class="hero">
+      <img src="photos/007-pexels.jpg" alt="Interior view of a laundry alcove with shelves and storage solutions.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>Moisture Suitability By Material</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">No sheet good is universally right for a damp laundry alcove.</p>
+
+    <div class="body-copy">
+      <p>Plywood (typically 3/4 in for a folding counter, 1/2 in or 3/4 in for shelves): better moisture behavior than raw MDF if edges are sealed; still needs edge protection and a washable finish. Medium-density fibreboard (MDF): smooth for paint, cheaper, swells fast if edges stay raw — poor as an unsealed counter in a wet alcove. Melamine-faced board: wipeable face, vulnerable at every cut edge unless banded. Finish: bonding primer on every cut, then satin or semi-gloss enamel; add a water-based polyurethane on a folding counter if the product allows it over paint.</p>
+      <p>Shelves hold bottles and baskets. A folding counter is a work surface for laundry, not a stand for a washer or dryer unless the whole assembly is designed and approved for that load. Concentrated loads — a person leaning, a wet basket — matter more than a uniformly distributed textbook load.</p>
+      <p>Choose by moisture exposure, ventilation, the load, and how well you will seal edges. Skip exotic boards for a weekend envelope. Skip untreated particle board in the splash zone.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Using raw MDF as a splash-zone counter because it was cheaper per sheet.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Counter material and thickness written</li><li>Shelf material written, with edge-seal method</li><li>No appliance load assigned to an improvised top</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="planning-your-layout">
+
+    <figure class="hero">
+      <img src="photos/008-pexels.jpg" alt="Detailed view of a layout plan for a laundry alcove.">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Layout After The Machines Are Chosen</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Aditi’s Brooklyn wet area has a window on one side. She already chose a front-load washer with a ventless dryer stacked on a factory kit. Overhead shelves sit beside the stack, not over the dryer exhaust path — there is no exhaust duct, but the kit still needs the maker’s top clearance.</p>
+    </div>
+
+    <p class="principle">Zones follow doors, lids, vents, and shutoffs.</p>
+
+    <div class="body-copy">
+      <p>Put detergent within a short reach of the washer door or lid. Keep tall bottles where they cannot fall onto controls. Draw the door or lid arc on the sketch. Leave the shutoff valves, drain hose, and plug reachable without unscrewing millwork.</p>
+      <p>Vented dryers need a clear exhaust path; ventless dryers do not use that duct, but they still have maker clearances and lint access. Do not assume every US home has the same dryer type. A shelf near an exhaust route is allowed only if the installation instructions still work.</p>
+      <p>Bring the sketch to the home center. Do not cut to an example width from later chapters until this sketch matches your smallest measurements and the manuals.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>A beautiful overhead box that the stacked dryer cannot be removed through.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Door or lid arc drawn</li><li>Shutoffs, drain, plug, and lint access marked reachable</li><li>Dryer type (vented, ventless, or none) written</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="deep-dive">
+  <div class="chapter-opener">
+    <img src="photos/009-pexels.jpg" alt="Compact Indian apartment laundry room with a sturdy plywood countertop, natural light from a single window, clean lines, and organized stora">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Building A Sturdy Laundry Countertop</h2>
+<p>By the end of this chapter, you will know what the counter is for, which material and thickness you will use, and that any span example is illustrative — not a universal design rule. Output: a counter decision, not a cut yet.</p>    </div>
+  </div>
+
+  <article class="unit" id="cut-list-matrix">
+
+    <figure class="hero">
+      <img src="photos/010-pexels.jpg" alt="A detailed view of the cut list matrix on a wooden table.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>What The Counter Is For</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Name the job of the top before you name the span.</p>
+
+    <div class="body-copy">
+      <p>Most readers in this book need a folding and sorting surface over or beside machines, supported on wall cleats or a freestanding frame. That is not the same as a structural shelf carrying a dryer. Do not support appliances on an improvised shelf or countertop unless the arrangement is specifically designed and approved for that purpose.</p>
+      <figure class="diagram">
+        <img src="figures/D001.svg" alt="Example Span Is Not A Design Code">
+<figcaption>65 inch is Karan’s measured opening. Recalculate for your alcove, material, and wall.</figcaption>      </figure>
+      <p>Identify the material, thickness, support spacing, and attachment method. A common US-available starting stack for a folding top is 3/4 in plywood, sealed edges, with cleats on the back and both sides where the walls and construction level allow. That stack is a starting description, not an engineered rating for every width.</p>
+      <p>The cut-list matrix later in the book is illustrative. Do not cut materials using example dimensions without measuring your own alcove and confirming the appliance-specific requirements.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Treating a 65 inch Pinterest span as a safe rule for 1/2 in MDF on two drywall anchors.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Counter job named: folding surface, not appliance stand</li><li>Material, thickness, and support method written</li><li>Example cut lists flagged as not final</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="aisle-by-aisle-shopping-map">
+
+    <figure class="hero">
+      <img src="photos/011-pexels.jpg" alt="A view of various materials in a hardware store aisle.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>A Store-Agnostic Shopping Order</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Sneha shops a Seattle home center, then a hardware aisle, then a paint aisle — using the lumber-hardware-paint loop.</p>
+    </div>
+
+    <p class="principle">One loop: sheet goods, lumber, fasteners, then finish.</p>
+
+    <div class="body-copy">
+      <p>Walk once. Sheet goods and any shop cutting first. Then battens for cleats. Then screws, wall anchors matched to the substrate you identified, and sandpaper. Then primer, enamel, and mildew-resistant caulk. Home-center aisle maps and SKUs vary by store and region. Ask what the merchant will rip, what minimum strip width they will cut, and how you will get a 4 × 8 ft sheet into the elevator or up the stairs.</p>
+      <p>Carry the bill of materials and the smallest alcove width. Reject warped boards by sighting down the edge. If the shop cannot cut below a stated width, plan those rips at home with a guide, or change the design.</p>
+      <p>The later shopping chapters repeat this workflow with local store categories. Skip any US store name you still see in an old figure caption — the rule is the workflow, not the brand.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Buying decorative brackets first and discovering you still have no sheet for the top.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Shop order written: sheets, lumber, fasteners, finish</li><li>Cutting limits asked before you pay</li><li>Transport into the building checked</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="moisture-safe-finishing-stack">
+
+    <figure class="hero">
+      <img src="photos/012-pexels.jpg" alt="A close-up of finishing products on a countertop.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>Moisture-Safe Finishing Stack</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Seal every cut. Thin coats. Respect cure time — it can spill past Sunday.</p>
+
+    <div class="body-copy">
+      <p>Prime every raw edge and cut face. End grain on plywood drinks primer; give it a second coat. Then a satin or semi-gloss enamel that the label allows in a humid room. Caulk wall joints with a flexible, mildew-resistant product after primer and before or after the last paint coat as the caulk label directs.</p>
+      <p>Water-based products often recoat the same day; they still need the labeled dry time before you load wet laundry on the top. If the weekend ends before cure, that is a successful minimum-viable weekend: parts cut and sealed, installation postponed. Do not promise every finish stack in 48 hours.</p>
+      <p>Caulk and a drip pan protect surfaces. They are not a substitute for sound inlet hoses, reachable shutoffs, and a correctly placed drain hose.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>One thick enamel coat Saturday night, then stacking detergent bottles on a tacky film Sunday morning.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Edge-seal method chosen</li><li>Labelled dry and cure times copied onto the schedule</li><li>MVP option written if cure overruns the weekend</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="countertop-span-and-stiffness">
+
+    <figure class="hero">
+      <img src="photos/013-pexels.jpg" alt="A close-up of the underside of a countertop showing support cleats.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>Span, Stiffness, And Load — Illustrative Only</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Karan’s Austin alcove is 65 inch between plasters. That number is his measurement, not a national standard.</p>
+    </div>
+
+    <p class="principle">Do not treat one span example as a universal design rule.</p>
+
+    <div class="body-copy">
+      <p>This book does not certify a maximum safe span for every plywood grade, every fastener, and every wall. State a span only as an example tied to a described stack. Example, not a rule: an 3/4 in plywood folding top, cleated on three sides into identified structure, with a front edge band, is a common way readers stiffen a roughly 1500–65 inch opening. If your opening is wider, your substrate is hollow plaster, or you only have two fasteners, this example does not apply.</p>
+      <figure class="diagram">
+        <img src="figures/D001.svg" alt="Example Span Is Not A Design Code">
+<figcaption>Do not copy this span onto a thinner board, a hollow-wall-only fixing, or an appliance stand.</figcaption>      </figure>
+      <p>Account for concentrated loads: a person leaning to fold, a full wet basket, someone sitting on the edge. If the top might be used as a seat or a step, stop — that is a different structure.</p>
+      <p>Add a center support or a shallow divider only when you have a wall, floor, or frame that can take that load without blocking hoses, vents, or machine removal. Recalculate after you measure. When in doubt, shorten the span or hire a carpenter who will stamp the method they use.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Copying “over 62 inches add a center cleat” onto a 1/2 in MDF top on plastic anchors.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Example span labeled illustrative</li><li>Concentrated loads considered</li><li>Centre support only if it does not block service</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="implementation-strategy">
+  <div class="chapter-opener">
+    <img src="photos/014-pexels.jpg" alt="Laundry alcove with stacked machines, one window light, teak textures, magazine styling, photorealistic.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>From Measurements To A Working Sketch</h2>
+<p>By the end of this chapter, you will have a completed measurement sheet and a fastening plan matched to the wall you actually have. Output: numbers that feed the cut list, not the cut list itself.</p>    </div>
+  </div>
+
+  <article class="unit" id="understanding-your-space">
+
+    <figure class="hero">
+      <img src="photos/015-pexels.jpg" alt="Close-up of measuring tape against a wall.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Worked Measurement: 59 inch Alcove</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Priya’s Austin rental alcove, side-by-side compact machines, limited-fastener permission for two studs only if they exist — she will verify the substrate before drilling.</p>
+    </div>
+
+    <p class="principle">The governing width is the smallest of three; the governing depth is the shallowest of three.</p>
+
+    <div class="body-copy">
+      <p>Worked example (illustrative, then you replace every number). Width: 59 inch at the floor, 60 inch at mid-height, 59 inch at the top because of a trim lip. Governing width: 59 inch. Depth: 32 inch at center, 30 inch at the right because of trim. Governing depth: 30 inch. Height: 216 inch clear under the soffit. Washer: 27 inch wide, 82 in high, 27 inch deep cabinet, plus the hose bulge the manual names. Dryer beside it: same cabinet size. Door swing: 90 degrees, needs 2 in extra at the left casing.</p>
+      <figure class="diagram">
+        <img src="figures/D002.svg" alt="Stud Spacing Is A Clue, Not A Map">
+<figcaption>16 inch centers appear in some framed walls. Verify every fastener location. Masonry walls have no studs.</figcaption>      </figure>
+      <p>Plumbing: shutoffs 16 inch left of center, 14 inch AFF (above finished floor). Drain standpipe behind the washer. Outlet on the right wall, keep a panel off it. No dryer duct — ventless dryer. Service path: both machines pull straight out 32 in. Those figures belong to this example. Yours come from your tape and your manuals.</p>
+      <p>How this turns into millwork: a folding top cannot be 59 inch if you need a scribe gap and you must not pinch the right-hand door. A rear cleat cannot cover the standpipe. Shelf depth starts from governing depth minus the maker’s rear clearance, not from a catalogue “24 inch” top. The cut-list chapter will show example parts for a similar width and will tell you to recalc.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Using the mid-height 60 inch as the cut width, then jamming the top on the trim lip.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Three widths, three depths, two heights written</li><li>Governing (smallest/shallowest) values circled</li><li>Shutoffs, drain, outlet, and pull-out path on the sketch</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="fastening-and-support">
+
+    <figure class="hero">
+      <img src="photos/016-pexels.jpg" alt="Detailed view of a stud finder in use.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Fasteners Follow The Substrate</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">A load-bearing wall is not automatically the right place for the fastener you have in the drawer.</p>
+
+    <div class="body-copy">
+      <p>Identify the wall before you drill. Concrete: masonry bits, suitable anchors, check for embedded services, respect landlord, HOA, or building drilling rules. Brick: do not explode a face brick for a heavy counter; use a method rated for that masonry and that load. Stud framing: fasten into suitable structural members you have located, not into the plaster skin. Drywall or hollow plaster only: hollow-wall anchors have low, orientation-dependent capacity — they are the wrong primary support for a loaded counter. Tile or wet finish: drilling can crack tile and admit water; stop if you cannot keep the hole sealed. Unknown substrate: stop and identify it.</p>
+      <p>Scribing means tracing the wall contour onto the panel and cutting to match. Shims are thin wedges that fill a gap so a cleat sits level. Service access means you can still reach hoses, vents, valves, and plugs after the millwork is in.</p>
+      <p>French cleats still need a substrate that can take the load. Two screws into hollow plaster are not a French-cleat system. If you cannot name the wall, you do not have a fastening plan.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Hearing “load-bearing” and driving long screws without knowing whether the finish is 3/4 in plaster on brick or a hollow partition.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Substrate named or drilling halted</li><li>Fastener type matched to that substrate</li><li>Services in the wall considered</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="final-assembly-and-organization">
+
+    <figure class="hero">
+      <img src="photos/007-pexels.jpg" alt="Close-up of labeled bins on a shelf.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>Dry-Fit, Then Finish</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">A dry fit is cheaper than a second sheet.</p>
+
+    <div class="body-copy">
+      <p>Dry-fit the counter blank. Sand edges so they cannot cut skin or hoses. Pre-drill cleats. If walls bow, scribe, then reinstall. Screws into millwork should not replace the maker’s machine feet or shipping restraints.</p>
+      <p>Do not trap inlet hoses, drain hoses, or cords behind a fixed top you cannot lift without unscrewing a kitchen’s worth of hardware. A removable top or an access hatch next to the shutoffs is part of leak protection, not a luxury.</p>
+      <p>Organisation happens after the structure is stable and the machines can still come out. Bins do not fix a rocking cleat.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Gluing a top down over the only shutoff access in the apartment.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Dry fit done on the governing width</li><li>Hoses and shutoffs reachable after the top is on</li><li>No sharp unsanded edges in the splash zone</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="real-world-application-common-pitfalls">
+  <div class="chapter-opener">
+    <img src="photos/007-pexels.jpg" alt="Laundry alcove with stacked machines, plywood shelves, and storage bins, one window light, clean lines, photorealistic, no people, no text, ">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Stacked And Side-By-Side Setups</h2>
+<p>By the end of this chapter, you will have one verified appliance layout. Keep front-load, top-load, stacked, side-by-side, and washer-only as separate problems. Output: a layout choice locked to manuals and tenure.</p>    </div>
+  </div>
+
+  <article class="unit" id="small-rental-alcove-with-stacked-machines">
+
+    <figure class="hero">
+      <img src="photos/019-pexels.jpg" alt="A side view of the alcove highlighting the bowed wall and shelving arrangement.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Stacked Pair In A Narrow Rental</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Ravi’s alcove is 34 inch wide with a bowed wall. He has a maker-approved stack kit for his exact washer and dryer models. Lease and HOA: no new exterior vent.</p>
+    </div>
+
+    <p class="principle">Stack only with an approved kit, and never on homemade millwork.</p>
+
+    <div class="body-copy">
+      <p>Typical combined stack height often lands near 1880–78 inch, but you must use the kit and both manuals. Confirm overhead clearance, service access to both units, and the removal path. A gas dryer, where one exists, adds fuel and combustion requirements — that is not a DIY vent-and-shelf problem.</p>
+      <figure class="diagram">
+        <img src="figures/D004.svg" alt="Example Narrow Stack Opening">
+<figcaption>34 inch is this rental’s governing width, not a stacking standard.</figcaption>      </figure>
+      <p>In a rental, prefer no-drill or limited-fastener millwork beside the stack, not a platform the machines stand on unless that platform is designed for the load. Vibration pads belong only if the appliance maker allows them on that floor. Soft foam pads are the wrong answer for most washers.</p>
+      <figure class="diagram">
+        <img src="figures/D003.svg" alt="Example Wide Side-By-Side Opening">
+<figcaption>62 inch is a different alcove. Do not mix the two cut lists.</figcaption>      </figure>
+      <p>Shelves beside a stack must not block lint access, controls, or the path to pull the pair. If the dryer is vented, the duct stays short, smooth, and cleanable — millwork does not pinch it.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Confirm the stacking kit part number against both model numbers.</li><li>Measure combined height and top clearance from the manuals.</li><li>Sketch shelves that come off without moving the stack, or that leave a pull-out path.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Resting a dryer on a plywood shelf because the alcove was too narrow for side-by-side.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Approved kit confirmed</li><li>Gas dryer, if any, handed to a qualified person</li><li>Lint and service access open</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="wide-owner-alcove-with-side-by-side-machines">
+
+    <figure class="hero">
+      <img src="photos/020-pexels.jpg" alt="A detailed shot of the rounded countertop edge and center divider.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>Side-By-Side On A Private Plot</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Anjali owns a 62 inch alcove in Seattle. Front-load washer and vented dryer, side by side. An electrician already confirmed the existing sockets.</p>
+    </div>
+
+    <p class="principle">Width, two door swings, and a folding top that does not carry the machines.</p>
+
+    <div class="body-copy">
+      <p>Full-size cabinets are often near 27–28 in wide each, but your two stickers win. Leave the side and rear clearances the manuals name. A folding top sits above the higher of the two tops plus the maker’s top clearance — not 1 inch because a blog said so.</p>
+      <figure class="diagram">
+        <img src="figures/D003.svg" alt="Example Wide Side-By-Side Opening">
+<figcaption>Recalculate from your smallest width and both door swings.</figcaption>      </figure>
+      <p>A center divider under a folding top can make hamper lanes only if it does not block hoses or prevent pulling a machine. Fasten into identified structure. This is the permanent level: owner approval, and a carpenter or electrician if the wall or circuit is unclear.</p>
+      <p>Do not copy the 62 inch width onto someone else’s cut list. It is Anjali’s opening.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Write both cabinet widths plus both door swings.</li><li>Set counter height from the manuals, not from a generic 38-inch washer.</li><li>Draw hamper lanes that still allow a 32 in straight pull-out if that is your service path.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>A 27 inch-deep top that crushes the vent elbow behind the dryer.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Both manuals’ side and rear clearances on the sketch</li><li>Counter not used as an appliance stand</li><li>Owner-level fastening matched to substrate</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="key-takeaways-action-items">
+  <div class="chapter-opener">
+    <img src="photos/021-pexels.jpg" alt="stock photo of a modern Indian apartment renovation in progress, natural light from one window, showcasing tools and materials on a wooden f">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Common Mistakes In The Laundry Alcove</h2>
+<p>By the end of this chapter, you will have a short list of stops that save the build. Each mistake is laundry-specific. Output: the stops written on the measurement sheet.</p>    </div>
+  </div>
+
+  <article class="unit" id="ignoring-moisture">
+
+    <figure class="hero">
+      <img src="photos/022-pexels.jpg" alt="detailed view of a primed surface ready for painting in a well-lit kitchen.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Ignoring Moisture And Leaks</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Sealed edges and a drip pan do not replace plumbing that can be shut off.</p>
+
+    <div class="body-copy">
+      <p>Prime every cut. Use materials from the moisture table. A drip pan is appropriate only where the appliance and floor allow it, and where you can still level the machine and reach a drain if the pan has one. Caulk is for splash. It is not a hidden-leak strategy behind a fixed panel.</p>
+      <p>Inlet hoses: inspect and replace on the interval the hose or machine maker names. Shutoff valves must stay reachable. Drain hoses must sit at the height the manual names, without kinks, unapproved extensions, or hanging unsecured.</p>
+      <p>After any move or reconnection, run a controlled short fill and watch joints before you leave the room. If you cannot see the connections because millwork hides them, the millwork is wrong.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Calling the job waterproof because the counter got two coats of enamel.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Hose condition and shutoffs on the inspection list</li><li>Drip pan decided yes/no from the appliance and floor, not from habit</li><li>Leak check planned after reconnection</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="missing-studs">
+
+    <figure class="hero">
+      <img src="photos/023-pexels.jpg" alt="close-up of a shelf installation with visible studs and anchors.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>Fastening Into The Wrong Wall</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Hollow-wall anchors are not a counter foundation.</p>
+
+    <div class="body-copy">
+      <p>Heavy folding tops and loaded shelves need structure you have identified. Drywall-only or loose plaster is a stop, not a challenge to buy bigger plastic plugs.</p>
+      <p>If the wall is concrete or brick, the drill, the anchor, and the load all change. If you do not own the wall, limited-fastener work still needs permission and a patch plan.</p>
+      <p>Missing a stud in a framed wall is a reason to move the cleat or add a spreader that hits two members — not a reason to hang the same load from gypsum.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>A row of hollow-wall anchors behind a 3/4 in top full of wet laundry.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Substrate identified</li><li>Permission recorded if you do not own the wall</li><li>Primary load on structure, not on finish skin</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="rushing-finish-coats">
+
+    <figure class="hero">
+      <img src="photos/024-pexels.jpg" alt="close-up of paint cans and brushes with a focus on a well-finished wall.">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Rushing Finish And Cure</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">The weekend can end at “sealed parts,” not at “in service.”</p>
+
+    <div class="body-copy">
+      <p>Thin coats. Labelled dry times. Do not load the top until the finish can take water and abrasion as the can describes.</p>
+      <p>If Sunday night arrives and the enamel is still soft, use the machines as they sat before, with millwork staged beside the alcove. That is still a completed planning-and-prep weekend.</p>
+      <p>High-build coats stay tacky in monsoon humidity. Plan for it instead of blasting a fan into wet solvent you have not read the label for.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Declaring the alcove done while paint transfers onto dark clothes.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Coat count and dry times on the schedule</li><li>MVP stop defined if cure overruns</li><li>No wet laundry on an uncured top</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="forgetting-service-access">
+
+    <figure class="hero">
+      <img src="photos/025-pexels.jpg" alt="detailed view of a well-installed air conditioning unit with unobstructed access.">
+      <div class="hero-label">
+<span class="day">Day 4</span>        <h3>Blocking Service Access</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">If you cannot pull the machine or open the lid, the millwork failed.</p>
+
+    <div class="body-copy">
+      <p>Leave reach to filters, lint paths, valves, the plug, and the drain. Removable panels beat fixed boxes in tight US laundry closets.</p>
+      <p>Review the installation guidelines for access points before you cut uprights. Future you will service this without demolishing the weekend’s work.</p>
+      <p>A stacked pair needs a path that does not require unscrewing a built-in wardrobe’s worth of sides.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>A face frame that looks like a kitchen, covering the only lint door.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Lint, valves, plug, and drain reachable</li><li>Removal path drawn</li><li>Fixed vs removable panels decided</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="moving-machines-roughly">
+
+    <figure class="hero">
+      <img src="photos/026-pexels.jpg" alt="close-up of a washing machine being moved with sliders.">
+      <div class="hero-label">
+<span class="day">Day 5</span>        <h3>Moving Machines Safely</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Do not move a washer or dryer alone with a towel and hope.</p>
+
+    <div class="body-copy">
+      <p>Read the appliance’s moving and transport instructions. Disconnect utilities using the proper procedure — water off, hoses drained, plug out, gas only by a qualified person. Secure drums and components as the maker requires (shipping bolts or transit bars on many washers). Use appropriate equipment and enough people for the mass of the machine. Protect flooring. Do not pinch hoses or cords. Reinstall, level, and reconnect per the manuals. Check for leaks and abnormal operation before normal use.</p>
+      <p>Cardboard is not a substitute for appliances sliders or a proper trolley when the machine is heavy or the floor is fragile. If you cannot recruit help or hire movers, postpone the pull-out and work around the machines.</p>
+      <p>Relevelling is not a coin trick. Follow the maker’s feet procedure. Then do a short controlled cycle.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Read the moving section of the manual; refit shipping bolts if the maker requires them to tilt or transport.</li><li>Shut water, drain hoses, unplug; leave gas to a qualified person.</li><li>Move with enough people or equipment; never walk a full machine on its own feet across tile for sport.</li><li>Reinstall, level per the maker, then leak-check before a full load.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Walking a loaded washer on its feet across ceramic, then calling the new rattle “just vibration.”</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Moving steps taken from the manual</li><li>Help or equipment arranged</li><li>Leak and noise check after reconnection</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="chapter-conclusion">
+  <div class="chapter-opener">
+    <img src="photos/027-pexels.jpg" alt="A well-organized alcove with neatly arranged tools and materials, natural light streaming in from a nearby window, showcasing a clean worksp">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Preparing For The Alcove Project</h2>
+<p>By the end of this chapter, you will have a staged tool list, a material decision, and empty alcove measurements. Output: a go/no-go for Saturday shopping.</p>    </div>
+  </div>
+
+  <article class="unit" id="measuring-your-alcove">
+
+    <figure class="hero">
+      <img src="photos/028-pexels.jpg" alt="An image showing a measuring tape extended along the alcove, with clear markings visible.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Measuring The Empty Alcove</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Empty means you can see baseboard, valves, and the true back wall.</p>
+
+    <div class="body-copy">
+      <p>Clear the alcove. Record width, depth, and height at the positions in the template chapter. Note every protrusion. Do not round measurements before you have allowed for saw kerf, scribe, and the maker’s clearances.</p>
+      <p>Inch-first: write inches (and fractions) on the cut list. If a tape is metric, convert once on paper and keep inches. Do not switch units mid-sheet.</p>
+      <p>Decide shelf count only after lid/door arcs and stacked height are known.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Measuring around a machine you plan to move, then cutting to the squeezed number.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Alcove empty or machines pulled with a safe procedure</li><li>Millimetres on the sheet, one unit system</li><li>Protrusions listed</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="choosing-materials-and-hardware">
+
+    <figure class="hero">
+      <img src="photos/029-pexels.jpg" alt="A close-up of a plywood sheet next to an MDF sheet, highlighting their differences.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Materials And Hardware</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Match board and fastener to moisture and wall, then to budget.</p>
+
+    <div class="body-copy">
+      <p>Re-use the moisture table. In a splashy US laundry closet, sealed plywood usually beats raw MDF for a counter. MDF can still be a painted shelf if edges are banded or heavily primed and the shelf is not a drip zone.</p>
+      <p>Cleats for load; decorative metal brackets only as a secondary look if they are rated and hit structure. Hardware for no-drill setups is different: rubber pads, furniture levelers, straps the maker allows — not a hidden screw “just one.”</p>
+      <p>Price in dollars at your home center. The $200 envelope is millwork, not appliances.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Buying MDF because a US aisle map priced it in dollars.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Board choice tied to moisture table</li><li>Hardware tied to construction level</li><li>USD prices, millwork only</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="gathering-tools-and-supplies">
+
+    <figure class="hero">
+      <img src="photos/030-pexels.jpg" alt="An image of a toolbox open with various tools displayed, highlighting the importance of preparation.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Tools, Electrics, And A Stop Line</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">A compact kit is enough; a mystery circuit is not a DIY extra.</p>
+
+    <div class="body-copy">
+      <p>Minimum kit: tape, square, straightedge, stud or metal detector as appropriate, level, drill, suitable bits, clamps, sandpaper, dust mask, eye protection. A circular saw and guide if the merchant will not finish the rips.</p>
+      <p>Identify the appliance electrical requirements from the rating plate before you finalise layout. Keep the plug accessible. Do not cover junctions. Do not overload a socket or use an unsuitable extension for a washer or dryer. Uncertain wiring: electrician.</p>
+      <p>If Friday night you still cannot name the wall or find the manuals, do not shop for permanent fasteners on Saturday.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>A four-way adaptor behind the dryer “because the socket was awkward.”</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Tool kit packed, safety gear included</li><li>Electrical stop-line written</li><li>Manuals still on the clipboard</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="assess-measure-and-plan-your-alcove">
+  <div class="chapter-opener">
+    <img src="photos/031-pexels.jpg" alt="A calm apartment interior">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Assess, Measure, And Plan Your Alcove</h2>
+<p>By the end of this chapter, you will have a completed measurement sheet, a locked appliance layout, and a zone sketch. This is the planning deliverable the cut list must follow. The weekend clock is real, but the $200 envelope and the appliance manuals still govern.</p>    </div>
+  </div>
+
+  <article class="unit" id="assess-measure-and-plan-your-alcove">
+
+    <figure class="hero">
+      <img src="photos/031-pexels.jpg" alt="A calm apartment interior">
+      <div class="hero-label">
+<span class="day">Planning</span>        <h3>Measure, Verify, Decide, Sketch</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Four steps, in order. Skipping Verify is how shelves get built to the wrong wall.</p>
+
+    <div class="body-copy">
+      <p>Measure. Width at floor, mid, top. Depth at left, center, right. Height at back and front. Map outlet, hose box, standpipe, gas valve if any, and dryer vent or ventless clearance. Write inches. Do not round before tolerances.</p>
+      <figure class="diagram">
+        <img src="figures/D005.svg" alt="Side Gap Is A Manual Number">
+<figcaption>Any inch gap here is a placeholder. Copy the side clearance from your installation manual.</figcaption>      </figure>
+      <p>Verify. Square the corners. Straightedge the bow. Copy service clearances from the manuals — including vent routing and whether a drip pan is appropriate. Confirm shipping bolts are out for use, and available if you must transport. Electrical: plug reachable, no extension-cord plan.</p>
+      <figure class="diagram">
+        <img src="figures/D006.svg" alt="Stacked Height Is Model-Specific">
+<figcaption>1880–78 inch is a typical combined range, not your permission to stack without a kit.</figcaption>      </figure>
+      <p>Decide. Use the appliance table from the opening chapter. Score access, storage, and stability only after front-load vs top-load vs stacked vs side-by-side vs washer-only is chosen. Stacked needs an approved kit. Side-by-side needs both door swings. Top-load needs lid height.</p>
+      <figure class="diagram">
+        <img src="figures/D007.svg" alt="Cabinet Width Is Not A Pair">
+<figcaption>About 27–28 in per full-size cabinet is a planning start. Measure both machines.</figcaption>      </figure>
+      <p>Sketch. Detergent reach, tall-bottle zone, folding surface that does not carry machines, hamper path, and a pull-out path. Mark cleats that must not cross a vent. Scribe notes where the wall bows.</p>
+      <figure class="diagram">
+        <img src="figures/D008.svg" alt="Rear Clearance Is A Manual Number">
+<figcaption>4 inch behind is a common planning reminder, not a universal vent or hose rule.</figcaption>      </figure>
+      <p>Worked numbers (replace with yours): floor width 59 inch, mid 60 inch, top 59 inch — governing 59 inch. Depth 32 inch center, 30 inch right — governing 30 inch. Two compact 27 inch cabinets will not fit side-by-side in 59 inch once you add the maker’s side clearances and a door casing; this example therefore stacks with a factory kit and puts a 250–12 inch detergent shelf to the side, not over the exhaust path.</p>
+      <figure class="diagram">
+        <img src="figures/D009.svg" alt="Side And Rear Are Separate Checks">
+<figcaption>Do not invent 1 inch sides and 4 inch rear if the manual lists different figures.</figcaption>      </figure>
+      <p>Dryer safety, dedicated: vented dryers need the maker’s duct, termination, and clearance; the path must not be blocked or casually flexible-hosed around a cleat; lint access stays cleanable. Ventless dryers still have clearances and lint. Gas dryers add fuel and combustion rules — qualified person. Do not assume the house has “a standard 4-inch vent.”</p>
+      <figure class="diagram">
+        <img src="figures/D010.svg" alt="Copy The Maker Table, Then Build">
+<figcaption>Some manuals list side, rear, and top clearances that do not match blog numbers.</figcaption>      </figure>
+      <p>Plumbing as a system: inlet hose condition and replacement interval; shutoffs reachable; drain hose height and securing; no kinks or unapproved extensions; do not hide leaks behind a fixed top; drip pan only if it fits the appliance and floor; controlled leak check after reconnection. A pan plus caulk is not a plumbing install.</p>
+      <figure class="diagram">
+        <img src="figures/D011.svg" alt="Worked Widths: Trim Lip">
+<figcaption>Illustrative: 59 inch floor, 60 inch mid, 59 inch top. Governing width 59 inch.</figcaption>      </figure>
+      <p>Anti-vibration: follow the maker’s leveling. Shipping bolts removed for operation, refitted for transport if required. Excess movement can be unbalanced load, uneven floor, bad leveling, or a machine fault — stop and investigate; do not keep stacking towels under feet. Rubber pads only if the maker and floor allow them. A coin on the lid is an informal observation, not proof of a correct install.</p>
+      <figure class="diagram">
+        <img src="figures/D012.svg" alt="Detergent Shelf Depth Is A Start">
+<figcaption>250–12 inch is a starting shelf depth beside a stack, after you subtract clearances.</figcaption>      </figure>
+      <p>Pick the later cut-list variant only as a pattern: stacked-narrow, side-by-side, or compact side-by-side. Every dimension in those lists is illustrative.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Measuring once at the midpoint, ignoring the vent, and cutting a 24-inch-deep top from a US example.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Decision checkpoint</h4>
+      <ul><li>Measurement sheet complete in inches</li><li>Layout locked to manuals</li><li>Zone sketch includes service path</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="budgeting-and-bill-of-materials">
+  <div class="chapter-opener">
+    <img src="photos/027-pexels.jpg" alt="A well-organized workshop with neatly arranged materials, soft natural light filtering through a window, showcasing a variety of plywood and">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Budgeting And Bill Of Materials Under $200</h2>
+<p>By the end of this chapter, you will have a staged shopping list in US dollars. Output: a bill of materials inside the millwork envelope, with a contingency line.</p>    </div>
+  </div>
+
+  <article class="unit" id="understanding-your-budget">
+
+    <figure class="hero">
+      <img src="photos/029-pexels.jpg" alt="A detailed view of a shopping list with materials and prices, set against a backdrop of plywood and tools.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>The $200 Millwork Envelope</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Priya’s Austin alcove millwork target is $200. The washer is already in the apartment.</p>
+    </div>
+
+    <p class="principle">Name what the envelope includes, then price locally.</p>
+
+    <div class="body-copy">
+      <p>Includes: plywood or other sheet goods, cleat lumber, screws and rated anchors, sandpaper, primer, paint, caulk, labels, and a small drip pan if you use one. Excludes: washer, dryer, stacking kit, plumber, electrician, appliance delivery, and tools you own. Prices move by city; treat the envelope as a shopping cap, not a quote.</p>
+      <p>If a merchant’s 3/4 in plywood sheet alone blows half the envelope, reduce shelf count, skip decorative trim, or postpone the project. Do not “save” money with untreated particle board in the splash zone.</p>
+      <p>Standard US sheet goods are 4 × 8 ft. If you shop outside the United States, convert the $200 envelope and check local sheet sizes.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Copy the include/exclude list onto the BOM.</li><li>Get today’s sheet-good prices from your merchant.</li><li>If the sheet plus finish already exceeds the envelope, cut scope, not safety.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Calling the millwork done at $200 while still needing a plumber for a new drain you cannot DIY.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Includes and excludes written</li><li>Local sheet price recorded</li><li>USD only on the sheet</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="material-selection">
+
+    <figure class="hero">
+      <img src="photos/035-pexels.jpg" alt="A close-up of plywood and MDF sheets, emphasizing their textures and colors.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>Material Selection Inside The Envelope</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Spend on thickness and sealing where water sits; save on decorative hardware.</p>
+
+    <div class="body-copy">
+      <p>Folding counter: 3/4 in plywood is the usual starting thickness in this book’s examples. Shelves: 1/2 in or 3/4 in plywood, or well-sealed MDF away from splash. Cleats: 1x2 or 1x3 battens, or plywood strips. Confirm actual dressed sizes at the shop — Confirm dressed 1×3 size at the rack — it is not a full 1 inch by 3 inches.</p>
+      <p>Fasteners: buy what the substrate table named. Do not buy a random metal bracket set that only hits plaster.</p>
+      <p>Finish: bonding primer, washable enamel, mildew-resistant flexible caulk. Edge band is optional; paint is not optional on raw edges.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Decorative brackets and thin MDF, then no money left for primer.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Counter thickness written</li><li>Anchor type written</li><li>Finish system written</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="calculating-yields">
+
+    <figure class="hero">
+      <img src="photos/036-pexels.jpg" alt="A close-up of a cut map with dimensions and calculations, highlighting the planning process.">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Yields From Standard Sheets</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Nest parts on a 4 × 8 ft sheet, then recalc from your governing width.</p>
+
+    <div class="body-copy">
+      <p>A 4 × 8 ft sheet is 32 sq ft. Example only: a 1480 × 27 inch folding top plus two 1480 × 12 inch shelves can come from one 3/4 in sheet if the merchant’s kerf and your scribe gaps fit — check on paper, then at the saw. Do not cut that example if your governing width is not 59 inch.</p>
+      <p>Cleat linear metres: add every rear and side run, then buy a spare batten. Waste is cheaper than a second auto fare.</p>
+      <p>Kerf (the saw cut width) shortens parts. Confirm the shop kerf before you nest parts to the inch.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Nesting to 59 inch on paper and cutting 59 inch parts that cannot enter a 59 inch opening past baseboard.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Parts nested on the actual sheet size</li><li>Kerf asked at the saw</li><li>Governing width used, not the pretty mid-height width</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="finalizing-your-bill-of-materials">
+
+    <figure class="hero">
+      <img src="photos/037-pexels.jpg" alt="A close-up of a bill of materials with prices and items clearly listed, set against a backdrop of tools and materials.">
+      <div class="hero-label">
+<span class="day">Day 4</span>        <h3>Bill Of Materials And Contingency</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">A BOM with a contingency is a shopping document. A vibe is not.</p>
+
+    <div class="body-copy">
+      <p>List each part, size, quantity, unit USD, line total. Add 8–12 percent contingency for extra battens, a second caulk tube, or a sheet with a crushed corner.</p>
+      <p>Skip edge-band if the envelope is tight; do not skip sealing edges. Skip a fourth shelf before you skip rated anchors.</p>
+      <p>Hold the BOM next to the appliance layout. If a line item exists only to box in the dryer vent, delete that line.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>No contingency, then skipping the drip pan and the rated anchors when the sheet runs over.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Line-item BOM in USD</li><li>Contingency line present</li><li>No millwork that blocks service</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="aisle-by-aisle-shopping-maps-and-tool-prep">
+  <div class="chapter-opener">
+    <img src="photos/038-pexels.jpg" alt="Aisle map of a large home center with clear signage and organized sections, natural light filtering through windows, showcasing various buil">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Aisle-By-Aisle Shopping Maps And Tool Prep</h2>
+<p>By the end of this chapter, you will have a US home-center route and a packed kit. Output: a cut list marked for the store saw.</p>    </div>
+  </div>
+
+  <article class="unit" id="the-aisle-map-and-prep-system">
+
+    <figure class="hero">
+      <img src="photos/039-pexels.jpg" alt="An image of a shopper inspecting plywood sheets in a bright home center.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>The Home-Center Loop</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Ravi starts at a home center in Austin, not a specialty mill.</p>
+    </div>
+
+    <p class="principle">Categories beat brand-name aisle maps.</p>
+
+    <div class="body-copy">
+      <p>Sheet goods and store cuts first. Then 1×3 or 1×4 for cleats. Then screws and wall anchors matched to the substrate you identified. Then primer, enamel, and mildew-resistant caulk. Ask what the store will rip, the minimum strip width, and how you will get a 4 × 8 ft sheet up the stairs or into the elevator.</p>
+      <p>This workflow is the international version too. Follow categories even if your store’s aisle numbers differ from this map.</p>
+      <p>Carry the governing inches and the manuals’ clearance notes. Reject boards with crushed corners that will sit in the splash zone.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Walking in without a substrate plan, then buying the wrong anchor family.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Three stops listed: sheets, hardware, paint</li><li>Lift and kerf constraints written</li><li>Anchor family matched to substrate</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="requesting-store-cuts-safely">
+
+    <figure class="hero">
+      <img src="photos/010-pexels.jpg" alt="An image of a customer discussing cuts with a store employee at a home center.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Shop Cuts And Transport</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">The shop saw is a tool. It is not obligated to cut your 1-1/2 in strips.</p>
+
+    <div class="body-copy">
+      <p>Policies vary. Many merchants will not rip very narrow strips. Mark rips with painter’s tape. Watch the kerf. Re-measure and label every piece before you leave the yard: CT, SH1, RC.</p>
+      <p>Transport: protect edges, strap sheets, know the stair turn. Two people for a 96 inch sheet in a wind. Do not balance a sheet on a two-wheeler as a personality test.</p>
+      <p>If the shop cannot cut, your weekend may end at “sheets in the room, rips on a later dry morning.” That is an allowed MVP.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Unlabeled rips in a shared auto, then assembling the counter from a shelf blank.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Pieces labeled at the saw</li><li>Transport method realistic</li><li>MVP if the shop cannot cut</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="the-minimum-tool-kit-that-will-not-fail-you">
+
+    <figure class="hero">
+      <img src="photos/041-pexels.jpg" alt="An image of a workbench with a compact tool kit, highlighting essential tools for a DIY project.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Minimum Tool Kit</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Borrow what you will not use again; do not skip eye protection.</p>
+
+    <div class="body-copy">
+      <p>Drill/driver, circular saw with a fine plywood blade if you will rip, tape, square, level, detector appropriate to the wall, two clamps, straightedge, 120/180 sandpaper, painter’s tape, dust mask, glasses, gloves, first-aid.</p>
+      <p>MDF dust is unpleasant; cut outdoors or with extraction if you use MDF at all.</p>
+      <p>No tool in this kit is for opening a distribution board or a gas valve.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Cutting MDF in a closed apartment with no mask because the weekend was short.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Cutting and layout tools packed</li><li>PPE packed</li><li>No electrical or gas tools on the DIY list</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="cut-lists-and-modular-components">
+  <div class="chapter-opener">
+    <img src="photos/031-pexels.jpg" alt="A calm apartment interior">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Cut Lists And Modular Components</h2>
+<p>By the end of this chapter, you will have a checked cut list labeled illustrative until your inches replace the examples. Do not cut materials using example dimensions without measuring your own alcove and confirming the appliance-specific requirements.</p>    </div>
+  </div>
+
+  <article class="unit" id="cut-lists-and-modular-components">
+
+    <figure class="hero">
+      <img src="photos/043-pexels.jpg" alt="A calm apartment interior">
+      <div class="hero-label">
+<span class="day">Cutting</span>        <h3>Illustrative Cut Lists Only</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Every length below is a pattern. Recalculate after you measure.</p>
+
+    <div class="body-copy">
+      <p>Do not cut materials using example dimensions without measuring your own alcove and confirming the appliance-specific requirements. Example lists assume inches, a folding top that does not carry machines, and clearances still matching the manuals after the parts go in. They do not automatically include your wall bow, your baseboard, or your sheet thickness.</p>
+      <figure class="diagram">
+        <img src="figures/D019.svg" alt="Counter Height Follows The Manual">
+<figcaption>38–40 in is a common front-load cabinet range. Add the maker’s top clearance; never bury a top-load lid.</figcaption>      </figure>
+      <p>Three patterns. Side-by-side: a full folding top, rear and side cleats, optional short uprights — only if width after clearances allows both doors. Stacked-narrow: a cleat ladder beside the stack, shelves, a small side ledge — only with an approved stack kit. Compact side-by-side: a shorter top and a center support if, and only if, that support has somewhere honest to land and does not block hoses.</p>
+      <figure class="diagram">
+        <img src="figures/D020.svg" alt="Pattern: Side-By-Side Openings">
+<figcaption>Illustrative band 1470–72 inch. Recalculate; this is not a product size.</figcaption>      </figure>
+      <p>Starting sizes to adjust, not to copy: folding top depth often 24–25 in so hoses behind the machines still breathe — verify against cabinet depth plus rear clearance. Shelf depth 250–12 inch for bottles. Vertical gaps 350–16 inch for tall bottles, 250–12 inch for baskets. Cleats long enough to hit two structural points when you are on the limited-fastener or permanent level.</p>
+      <figure class="diagram">
+        <img src="figures/D021.svg" alt="Pattern: Stacked-Narrow Openings">
+<figcaption>Illustrative band 710–36 inch. Stack only with an approved kit.</figcaption>      </figure>
+      <p>Example A, illustrative, side-by-side pattern, 161 inch opening, 3/4 in plywood: top 1600 × 27 inch (scribe gap left). Shelves 1600 × 12 inch. Rear cleats 59 inch. This is not your cut list if your governing width is 59 inch or your manual forbids that depth.</p>
+      <figure class="diagram">
+        <img src="figures/D022.svg" alt="Pattern: Compact Side-By-Side">
+<figcaption>Illustrative band 1120–58 inch. Centre supports need real structure.</figcaption>      </figure>
+      <p>Example B, illustrative, stacked pattern, 32 inch opening: three shelves 780 × 12 inch and a 500 × 27 inch side ledge. Recalc if the stack kit needs different side clearance.</p>
+      <figure class="diagram">
+        <img src="figures/D023.svg" alt="Machine Depth Is Not Counter Depth">
+<figcaption>Cabinets often run 790–34 inch deep including some hose bulge. The folding top is usually shallower.</figcaption>      </figure>
+      <p>Example C, illustrative, compact side-by-side, 52 in opening: top 51 × 24 in plus a center support only on identified structure.</p>
+      <figure class="diagram">
+        <img src="figures/D024.svg" alt="Tall-Bottle Shelf Gap">
+<figcaption>350–16 inch vertical is a starting point for tall bottles. Measure the bottles you own.</figcaption>      </figure>
+      <p>Edges: paint, iron-on band, or a timber lip. Jig: straightedge plus a spacer block. Labels on the hidden face: CT, SH1, RC. Pre-drill. Leave a scribe gap. Span at least two honest structure points for a loaded cleat. Sparse drywall screws are not a system.</p>
+      <figure class="diagram">
+        <img src="figures/D025.svg" alt="Basket Shelf Gap">
+<figcaption>250–12 inch vertical is a starting point for baskets.</figcaption>      </figure>
+      <p>Counter height: above the higher machine plus the maker’s top clearance. Many front-load cabinets are near 38–40 in high; your sticker wins. Never drop a top onto a top-load lid arc.</p>
+      <figure class="diagram">
+        <img src="figures/D026.svg" alt="Two Shelf Heights, Then Adjust">
+<figcaption>Example starting elevations only. Lock them after lid/door arcs and stacked height.</figcaption>      </figure>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Cutting Example A on Saturday because the chapter printed 127 inch and your alcove “looks about that.”</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Decision checkpoint</h4>
+      <ul><li>Example list copied, then every number replaced with yours</li><li>Configuration named (stack / side-by-side / compact)</li><li>Thickness, scribe, and clearance allowances included</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="renter-friendly-build-and-smart-storage">
+  <div class="chapter-opener">
+    <img src="photos/044-pexels.jpg" alt="Laundry alcove in an Indian apartment, natural light from one window, clean and organized storage solutions, minimalist design, no people, n">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Renter-Friendly Build And Smart Storage</h2>
+<p>By the end of this chapter, you will have chosen no-drill, limited-fastener, or you will have stopped because the job is permanent work. Removable is not automatically renter-safe. Output: a stability plan, a permission note, and a removal plan.</p>    </div>
+  </div>
+
+  <article class="unit" id="base-first-building-the-floor-platform">
+
+    <figure class="hero">
+      <img src="photos/003-pexels.jpg" alt="Detailed view of the platform construction with visible vibration pads.">
+      <div class="hero-label">
+<span class="day">Day 1 morning</span>        <h3>No-Drill Base And Floor</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Mia’s Austin alcove is 30 inch. Lease: no wall drilling.</p>
+    </div>
+
+    <p class="principle">If the wall cannot be used, the floor and a designed frame must do the work — or you scale down.</p>
+
+    <div class="body-copy">
+      <p>No-drill means freestanding or fully removable parts that do not rely on wall attachment. A homemade 2×4 platform under stacked machines is not automatically safe: it changes height, drain geometry, and load. Do not build a machine plinth unless it is designed for that mass and the maker still allows the installation.</p>
+      <p>Vibration pads only if the maker allows them. A drip pan only if it fits and you can still level. Do not block hose paths.</p>
+      <p>If no-drill cannot hold your shelves without tipping, drop to bins on the machines (where the maker allows) or negotiate limited fasteners. Do not tension a post into a concrete ceiling until you know the finish can take it.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Write “no-drill” on the sheet only if zero wall screws are required.</li><li>Reject homemade machine plinths unless designed for the load.</li><li>Keep hose and drain geometry identical to the manuals.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>A press-fit frame that marks the ceiling and still rocks when the washer spins.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>No-drill meaning satisfied or abandoned</li><li>Machines still on the floor the maker expects</li><li>Hose paths open</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="press-fit-uprights-creating-a-non-invasive-skeleton">
+
+    <figure class="hero">
+      <img src="photos/046-pexels.jpg" alt="Close-up of the rubber foot pads and connection points of the uprights.">
+      <div class="hero-label">
+<span class="day">Day 1 afternoon</span>        <h3>Press-Fit Frames Have Limits</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Friction against paint is not a verified load rating.</p>
+
+    <div class="body-copy">
+      <p>A press-fit upright is a post cut slightly long and compressed between floor and ceiling with pads. Damage: crushed plaster, cracked POP, marked paint. Load: treat as light shelves only unless an engineer or carpenter rates it. Permission: still ask; ceiling damage counts. Removal: relieve pressure slowly so the finish does not pop. Stability during removal: brace before you knock the post out.</p>
+      <p>Over-tensioning can damage the ceiling. Stop when the post is firm, not when the slab sings. Do not use this to carry a dryer.</p>
+      <p>If the washer walks, the frame must not become a lever on the ceiling. Stop and investigate the machine first.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Calling a compressed 2×4 renter-friendly because it “comes out,” after it spider-cracks the POP.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Light-load only unless professionally rated</li><li>Ceiling finish assessed</li><li>Removal sequence written</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="selective-fasteners-using-french-cleats">
+
+    <figure class="hero">
+      <img src="photos/047-pexels.jpg" alt="Detailed view of the cleat and its attachment to the wall.">
+      <div class="hero-label">
+<span class="day">Day 1 evening</span>        <h3>Limited Fasteners And French Cleats</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">A French cleat is only as honest as the wall behind it.</p>
+
+    <div class="body-copy">
+      <p>Limited-fastener: landlord permission, substrate identified, load matched, patch plan. A French cleat (two 45-degree interlocking strips) can hang a shallow shelf if the wall piece hits real structure. Two screws in hollow plaster are not enough for a loaded detergent shelf.</p>
+      <p>Test with a known light load first. Keep the shelf shallow. Do not hang it over a spinning washer unless the wall and cleat are rated for vibration plus mass.</p>
+      <p>Photograph hole locations for move-out. Permission in writing beats a verbal “it’s fine.”</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>A full-width heavy shelf on a 16 inch French cleat into gypsum.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Written permission</li><li>Structure located</li><li>Patch kit packed</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="smart-storage-sizing-and-organization">
+
+    <figure class="hero">
+      <img src="photos/048-pexels.jpg" alt="Close-up of labeled bins and baskets in the alcove.">
+      <div class="hero-label">
+<span class="day">Day 2 morning</span>        <h3>Storage Zones</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Labels are cheaper than a fourth shelf that blocks the lid.</p>
+
+    <div class="body-copy">
+      <p>Sort, wash, dry, fold. Bins named for the task. Slim baskets for bottles. Nothing stored on a vent path or in the door arc.</p>
+      <p>Skip slide-out hardware that needs extra fasteners if you are no-drill.</p>
+      <p>If a bin only fits by blocking the shutoff, the bin loses.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Unlabeled tubs that migrate onto the folding top and then onto the dryer intake.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Zones named</li><li>Door/lid arcs still clear</li><li>Shutoffs not used as shelf supports</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="cable-and-hose-management">
+
+    <figure class="hero">
+      <img src="photos/049-pexels.jpg" alt="Close-up of adhesive clips and Velcro wraps in use.">
+      <div class="hero-label">
+<span class="day">Day 2 afternoon</span>        <h3>Cables, Hoses, And Leaks</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">If you cannot see the hose, you cannot inspect the hose.</p>
+
+    <div class="body-copy">
+      <p>Route cords with clips on the millwork, not stapled into unknown walls. No kinks. No unapproved hose extensions. Shutoffs remain in reach. After reconnection, controlled leak check.</p>
+      <p>Drip pan lip cannot lift the machine past what the drain hose and the maker allow.</p>
+      <p>If the frame shakes with the spin, stop. Do not add a diagonal that ties a walking machine to a weak ceiling.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Pinching the drain hose behind a “tidy” upright.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Hoses visible or on an access hatch</li><li>Leak check done</li><li>No millwork used to restrain a walking machine</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="finishing-touches-and-removal-plan">
+
+    <figure class="hero">
+      <img src="photos/050-pexels.jpg" alt="Close-up of the move-out kit with spackle and paint.">
+      <div class="hero-label">
+<span class="day">Day 2 evening</span>        <h3>Removal Plan</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">The last renter-friendly test is leaving without a fight.</p>
+
+    <div class="body-copy">
+      <p>Rehearse the laundry workflow. Pack spackle, sandpaper, and touch-up paint if you used limited fasteners. Photograph fastener locations. Keep the cut list and permission note.</p>
+      <p>The structure must stay stable while you uninstall: unload shelves, relieve press-fit posts, then patch. Do not yank a loaded French cleat off the wall.</p>
+      <p>If removal would collapse the only support, the design was never renter-friendly.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>A “removable” unit that requires destroying the counter to reach the screws.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Unload sequence written</li><li>Patch kit ready if you drilled</li><li>Machines usable without the millwork if you must strip it</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="owner-upgrade-path-trim-and-moisture-protection">
+  <div class="chapter-opener">
+    <img src="photos/051-pexels.jpg" alt="Laundry alcove with built-in cabinetry, natural light, moisture-resistant finishes, and clean lines.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Owner Upgrades, Moisture, And Building Services</h2>
+<p>By the end of this chapter, you will know what permanent fastening involves, and you will have plumbing, dryer, and electrical boundaries on one page. Output: an owner checklist, or a referral to a trade.</p>    </div>
+  </div>
+
+  <article class="unit" id="fastening-into-studs">
+
+    <figure class="hero">
+      <img src="photos/052-pexels.jpg" alt="Detailed view of the pocket hole jig in use, emphasizing the precision of the assembly.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Permanent Fastening Into Structure</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Permanent means owner approval and identified structure — still not a guess into a wet wall.</p>
+
+    <div class="body-copy">
+      <p>Locate structure. Confirm it is not a pipe or cable chase. Fasteners and lengths follow the substrate table. Construction adhesive is extra, not a substitute for hitting structure.</p>
+      <p>Pocket screws belong in millwork joints, not as a way to grab empty plaster.</p>
+      <p>If you cannot find structure, hire a carpenter. Vibration from a washer will announce a bad anchor at 2 a.m.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Long lag screws into an unknown masonry thickness next to a concealed pipe.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Structure located and services considered</li><li>Fastener matched to substrate</li><li>Trade called if the wall is a mystery</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="trim-that-hides-edges">
+
+    <figure class="hero">
+      <img src="photos/053-pexels.jpg" alt="Image of the side filler panel scribed to fit an uneven wall, demonstrating the precision of the installation.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>Trim, Scribe, And Edges</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Scribe to the wall; do not caulk a 5/8 in cave and call it trim.</p>
+
+    <div class="body-copy">
+      <p>Scribe fillers to wavy walls. Narrow reveals look intentional; fat caulk lines look like a leak waiting to happen.</p>
+      <p>Nail small mouldings to the millwork, not only to crumbling plaster, so they move as one.</p>
+      <p>Trim must not become a lip that traps water against raw board.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Cove moulding glued over a dripping hose joint so you would not have to look at it.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Scribe where the gap is structural</li><li>Water cannot sit on raw core</li><li>Trim removable enough for service if it blocks a joint</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="moisture-safe-finish-stack">
+
+    <figure class="hero">
+      <img src="photos/019-pexels.jpg" alt="Close-up of the bonding primer being applied to raw edges, highlighting the preparation for painting.">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Finish Stack In A Wet Room</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Primer on every cut, then a washable topcoat, then labeled cure.</p>
+
+    <div class="body-copy">
+      <p>Bonding primer on raw edges. Satin or semi-gloss enamel. Mildew-resistant flexible caulk as the label directs. Optional extra clear coat on the folding top if compatible.</p>
+      <p>Humidity in monsoon months extends dry time. The schedule chapter expects that.</p>
+      <p>Finish does not waterproof a hidden leak.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Skipping primer on end grain because the enamel “looked thick.”</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Every cut primed</li><li>Cure on the calendar</li><li>Caulk not used as plumbing</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="water-and-lint-protection">
+
+    <figure class="hero">
+      <img src="photos/055-pexels.jpg" alt="Close-up of the smooth aluminum duct connected to the dryer, highlighting the importance of proper venting.">
+      <div class="hero-label">
+<span class="day">Day 4</span>        <h3>Water, Lint, Vent, And Power</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Millwork sits around services. It does not replace them.</p>
+
+    <div class="body-copy">
+      <p>Plumbing system: inlet hose age and maker replacement interval; shutoffs reachable with the top in place; drain hose height, securing, no kinks, no casual extra length; leak inspection after moving; drip pan only if appropriate. Do not hide the hose box behind a fixed panel.</p>
+      <p>Dryer: vented vs ventless. Vented — follow the maker’s duct, termination, and clearance; keep lint cleanable; do not crush or endlessly flex-duct around shelves. Gas dryer — qualified person for fuel and combustion. Ventless — still respect clearances and lint.</p>
+      <p>Electrical: requirements from the rating plate; keep the plug inspectable; no unsuitable extension cords; no overloaded adaptors; electrician for modifications. This book does not give a generic inch clearance to an outlet for every code. If water and electricity share the alcove, the arrangement must satisfy applicable electrical safety rules — when unsure, stop.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>A smooth painted box covering the shutoff, the lint path, and a dangling adaptor.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Shutoffs and drain inspectable</li><li>Dryer type handled correctly</li><li>Electrical stop-line still in force</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="the-48-hour-weekend-schedule">
+  <div class="chapter-opener">
+    <img src="photos/056-pexels.jpg" alt="a well-organized small laundry alcove with shelves and a countertop, natural light from one window, clean lines, minimalist design, no peopl">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>The Weekend Schedule — With Dependencies</h2>
+<p>By the end of this chapter, you will have a 48-hour plan that can stop cleanly. Not every alcove finishes in 48 hours. Output: a Friday–Sunday map plus a minimum-viable stop.</p>    </div>
+  </div>
+
+  <article class="unit" id="friday-evening-confirm-and-prep">
+
+    <figure class="hero">
+      <img src="photos/057-pexels.jpg" alt="a clean workspace with tools and materials laid out for a weekend project">
+      <div class="hero-label">
+<span class="day">Friday evening</span>        <h3>Friday: Confirm, Manuals, And Stops</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">If manuals, substrate, or permission are missing, Saturday is a shopping-and-prep day only.</p>
+
+    <div class="body-copy">
+      <p>Re-measure. Confirm the construction level. Confirm the appliance setup. Charge tools. Print the BOM. If the preferred 15 inch shelf depth is fantasy stock, note the 12 inch fallback on the sketch.</p>
+      <figure class="diagram">
+        <img src="figures/D043.svg" alt="Fallback Shelf Depth">
+<figcaption>If 15 inch stock is unavailable, 12 inch is a common fallback — only if bottles still fit and clearances remain.</figcaption>      </figure>
+      <p>Dependencies that blow Sunday: merchant closed, shop-saw queue, lift too small, primer not dry, caulk not cured, wall not the substrate you assumed, machines not movable without help.</p>
+      <p>Minimum viable weekend: measurements locked, materials bought and labeled, parts cut and edges sealed, machines still usable. Final install waits for cure or for a trade.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Re-measure governing width and depth.</li><li>Tick manuals, permission, and help for any machine move.</li><li>Write the MVP stop in one sentence.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Promising a finished alcove by Sunday dinner regardless of monsoon dry time.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Numbers re-checked</li><li>Dependencies listed</li><li>MVP stop written</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="saturday-morning-acquire-and-stage">
+
+    <figure class="hero">
+      <img src="photos/020-pexels.jpg" alt="a close-up of labeled materials ready for assembly">
+      <div class="hero-label">
+<span class="day">Saturday morning</span>        <h3>Saturday Morning: Buy And Stage</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">If the sheet is wrong, do not build around it.</p>
+
+    <div class="body-copy">
+      <p>Run the local-store loop. Ask kerf and lift limits. Label parts. Stage flat. Substitutions change the sketch before they change the saw.</p>
+      <figure class="diagram">
+        <img src="figures/D043.svg" alt="Fallback Shelf Depth">
+<figcaption>Change the sketch before you cut. Do not mix depths on one run without re-labeling.</figcaption>      </figure>
+      <p>Transport is part of the schedule. A second trip is cheaper than a cracked sheet.</p>
+      <p>If stock fails, the MVP is “materials on order,” not “thin MDF because it was there.”</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Buy to the BOM, not to aisle inspiration.</li><li>Label at the yard.</li><li>Adjust the sketch before any home cut.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Force-fitting a warped 1/2 in board because the 3/4 in stack was out.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>BOM ticked</li><li>Parts labeled</li><li>Sketch updated for substitutions</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="saturday-midday-build-the-core">
+
+    <figure class="hero">
+      <img src="photos/059-pexels.jpg" alt="a close-up of the countertop being secured in a laundry alcove">
+      <div class="hero-label">
+<span class="day">Saturday midday</span>        <h3>Saturday: Build Only What Is Safe Today</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Core millwork after machines are safe to work around — or after they are moved correctly.</p>
+
+    <div class="body-copy">
+      <p>If machines must move, use the moving checklist first. Then cut, install cleats into identified structure or assemble the no-drill frame, dry-fit the top, and stop if a hose would be trapped.</p>
+      <p>Decision checkpoint: if a fastener would go into an unknown wall, switch to no-drill or call a carpenter. Do not “just try a longer screw.”</p>
+      <p>Leave time. Fatigue makes extra holes.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Move machines only with the safe procedure.</li><li>Install structure that matches the construction level.</li><li>Dry-fit; do not trap services.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Rushing uprights in while the washer is still on shipping bolts you forgot to remove for operation — or removed for a move and never bagged.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Moving procedure done or machines left in place</li><li>Structure matches permission</li><li>Services still reachable</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="sunday-finish-and-hardware">
+
+    <figure class="hero">
+      <img src="photos/020-pexels.jpg" alt="a close-up of organized storage in a laundry alcove with baskets and hooks">
+      <div class="hero-label">
+<span class="day">Sunday</span>        <h3>Sunday: Finish, Or Stop At Cure</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Hardware after finish can take it — or next weekend.</p>
+
+    <div class="body-copy">
+      <p>Caulk where the label wants a clean joint. Prime and paint in thin coats. Install hooks only on millwork or on rated fasteners.</p>
+      <p>If coats will not cure, do not load the top. Run the final inspection only on what is actually in service.</p>
+      <p>A half-finished alcove with a working, leak-checked washer is better than a glossy box over a hidden kinked hose.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Apply finish per labels.</li><li>Install only hardware the structure can hold.</li><li>If uncured, declare MVP and schedule the inspection after cure.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Loading wet towels on enamel that still films.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Cure respected</li><li>MVP declared if needed</li><li>Machines safe to use either way</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="troubleshooting-old-houses-and-tight-clearances">
+  <div class="chapter-opener">
+    <img src="photos/061-pexels.jpg" alt="A cozy laundry alcove in a vintage Austin bungalow, showcasing the charm of old architecture with a focus on tight clearances and clever stora">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Troubleshooting Tight Alcoves And Vibration</h2>
+<p>By the end of this chapter, you will have fixes for bow, door clashes, vibration, and moisture that do not fight the manuals. Output: a stop-and-investigate rule for a walking machine.</p>    </div>
+  </div>
+
+  <article class="unit" id="understanding-fit-problems">
+
+    <figure class="hero">
+      <img src="photos/062-pexels.jpg" alt="A view showing the tools used for scribing and shimming, with a focus on the pencil block and composite shims.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Bow, Out Of Square, And Scribe</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Neha’s shelf showed a wedge of light at the plaster. The wall, not the saw, was crooked.</p>
+    </div>
+
+    <p class="principle">Scribe small. Refit often.</p>
+
+    <div class="body-copy">
+      <p>Dry-fit, trace, cut toward the line, refit. Shims behind cleats can level a low spot; a thick shim stack is a spongy shelf. If the alcove is badly out of square, reduce depth so the part floats clear, then trim.</p>
+      <p>Cutting off too much cannot be undone with caulk in a wet zone.</p>
+      <p>A bowed wall is why the governing width is the smallest of three measurements.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>One heroic jigsaw cut that leaves a 3/8 in cave you then fill with kitchen silicone.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Scribe in small passes</li><li>Shim stacks kept thin</li><li>Governing width still in charge</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="managing-clearance-conflicts">
+
+    <figure class="hero">
+      <img src="photos/063-pexels.jpg" alt="A close-up of the low-profile pull on the bifold door, emphasizing its sleek design.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>Doors, Lids, And Clearances</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Millwork loses to a door that must open.</p>
+
+    <div class="body-copy">
+      <p>If a bifold kisses a shelf, reduce shelf depth or shift it. Low-profile pulls help. Bumpers save paint.</p>
+      <p>Lid on a top-load washer is a hard stop for any overhead. Stacked dryer doors need standing room.</p>
+      <p>Do not solve a clearance fight by skipping the maker’s side gap.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Planing the machine’s door instead of the shelf.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Every door and lid opened through a full arc</li><li>Maker clearances still present</li><li>Pulls and bumpers used before redesigning the room</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="leveling-appliances-and-controlling-vibration">
+
+    <figure class="hero">
+      <img src="photos/064-pexels.jpg" alt="An angle showing the level placed on the washing machine, highlighting the adjustment process.">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Leveling And Vibration</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">The maker’s feet procedure first. A coin is not a certificate.</p>
+
+    <div class="body-copy">
+      <p>Follow the appliance manufacturer’s leveling instructions. Confirm shipping bolts or transit bars are removed for operation. Excessive vibration can be an unbalanced load, an uneven floor, incorrect leveling, or a mechanical fault. Stop and investigate if the appliance walks or keeps making new noises.</p>
+      <p>A coin on the lid during spin is an informal observation. If it walks, something is wrong — it does not prove that a still coin means a correct install.</p>
+      <p>Rubber pads only if the maker and the flooring allow them. Avoid soft foam. Do not wedge millwork against a walking machine to hold it.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Treating a still coin as proof, while the drain hose beats the wall.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Maker leveling done</li><li>Shipping bolts in the correct state</li><li>Stop rule written for walking or new noise</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="moisture-management-solutions">
+
+    <figure class="hero">
+      <img src="photos/009-pexels.jpg" alt="An angle showing the drip pan under the washing machine, illustrating the preventive measures taken.">
+      <div class="hero-label">
+<span class="day">Day 4</span>        <h3>Moisture Without Fake Plumbing</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Catch splash. Do not hide supply faults.</p>
+
+    <div class="body-copy">
+      <p>Drip pan if appropriate. Flexible caulk at the counter-to-wall joint after you can still service hoses. A splash strip behind hose connections.</p>
+      <p>Re-check inlet hoses and shutoffs. Caulk cure time is on the tube — another reason the weekend may stop at MVP.</p>
+      <p>If the floor is wet and you cannot see why, pull millwork that blocks the view. Do not add a second layer of cove base over a leak.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>A prettier splashboard over a weeping inlet.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Splash vs leak distinguished</li><li>Hoses still inspectable</li><li>Caulk cure respected</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="printable-measurement-templates-and-label-set">
+  <div class="chapter-opener">
+    <img src="photos/043-pexels.jpg" alt="A calm apartment interior">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Measurement Templates And Labels</h2>
+<p>By the end of this chapter, you will have filled one complete measurement example and know which number governs each part. Output: a template you can photograph before you pull it down. Units are inches.</p>    </div>
+  </div>
+
+  <article class="unit" id="printable-measurement-templates-and-label-set">
+
+    <figure class="hero">
+      <img src="photos/043-pexels.jpg" alt="A calm apartment interior">
+      <div class="hero-label">
+<span class="day">Templates</span>        <h3>One Complete Worked Template</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Every millwork part points at one governing measurement.</p>
+
+    <div class="body-copy">
+      <p>Copy this worked example, then replace it. Alcove plan: 59 inch governing width, 30 inch governing depth, 216 inch height. Widths: 1500 / 1525 / 59 inch (floor, mid, top). Depths: 32 inch left, 32 inch center, 30 inch right (trim). Appliance: stacked front-load pair on a factory kit; cabinet 27 inch wide; follow the kit’s height. Door: front-load swing 90 degrees, keep 2 in to the left casing. Plumbing: shutoffs 16 inch left of center at 14 inch AFF; standpipe behind. Outlet: right wall, keep a 12 in keep-out so a panel cannot cover the plug — that keep-out is a layout habit, not a code number. Vent: none (ventless). Labels: Cleat A at 36 inch AFF for a side ledge if the kit allows; Cleat B at 56 inch AFF for detergent — both heights are examples and must clear the dryer door and lint path.</p>
+      <figure class="diagram">
+        <img src="figures/D044.svg" alt="Example Cleat Heights">
+<figcaption>Illustrative: side ledge 36 inch AFF, detergent 56 inch AFF. Recheck door, lint, and kit clearances.</figcaption>      </figure>
+      <p>Which number governs what. Uprights and top length: 59 inch minus scribe minus any required side clearance. Shelf depth: 30 inch minus rear clearance minus any door clash. Side ledge depth: bottle height and elbow room, not the full cabinet depth. Cleat lengths: structure spacing, not the full plaster width if that would cover the standpipe.</p>
+      <figure class="diagram">
+        <img src="figures/D045.svg" alt="Example Depths With Trim">
+<figcaption>Illustrative: 32 inch center, 30 inch right. Governing depth is 30 inch.</figcaption>      </figure>
+      <p>Conversion: 25 mm is about 1 inch. Use inches on the cut list. Do not mix millimetres into an inch sheet. Photograph the labeled alcove.</p>
+      <p>Incomplete sentences belong in the bin. If a template line has no number, it is not measured.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Using the 60 inch mid width for the top because it was the largest number on the page.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Worked example copied, then overwritten with your inches</li><li>Governing values circled and mapped to parts</li><li>Photo of the labeled alcove stored</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="aisle-by-aisle-shopping-maps-for-major-home-centers">
+  <div class="chapter-opener">
+    <img src="photos/068-pexels.jpg" alt="Aisle maps for home improvement stores, organized shopping zones, clear signage, bright lighting, no people, no text, no watermark.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Aisle-By-Aisle Shopping Maps For Major Home Centers</h2>
+<p>By the end of this chapter, you will have a three-stop US home-center map: lumber and sheet goods, fasteners, then paint and sealant. Home Depot, Lowe’s, and Menards are examples. Aisle numbers and SKUs change — still walk those three zones in order, and still match anchors to the wall you identified.</p>    </div>
+  </div>
+
+  <article class="unit" id="navigating-home-depot">
+
+    <figure class="hero">
+      <img src="photos/069-pexels.jpg" alt="Detailed view of the hardware bay with fasteners organized in bins.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Navigating Home Depot</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Ravi shops a Home Depot near Austin for a compact apartment laundry closet.</p>
+    </div>
+
+    <p class="principle">Start at lumber and the panel saw, then hardware, then paint.</p>
+
+    <div class="body-copy">
+      <p>At Home Depot, start at lumber and sheet goods — usually the back wall near the panel saw. Find 3/4 in sanded plywood for a folding top and 1/2 in plywood or MDF for shelves. Sight each sheet for bow and crushed corners. Ask kerf, minimum rip, and how many cuts they will make.</p>
+      <p>Next, the hardware bays for screws and the anchors that match your substrate — not a random toggle pack. Record the SKU from the shelf tag if you may need a second box.</p>
+      <p>Finish at adhesives and caulk: construction adhesive if your method uses it, plus mildew-resistant flexible caulk. Do not treat this store’s aisle numbers as universal.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Print the BOM and walk lumber, hardware, paint in that order.</li><li>Confirm panel-saw kerf and minimum rip before they cut.</li><li>Record SKUs for fasteners and caulk.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Skipping the kerf question and taking home parts that are short by a saw blade.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Thickness verified</li><li>Cutting limits known</li><li>Carry path known</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="shopping-at-lowes">
+
+    <figure class="hero">
+      <img src="photos/070-pexels.jpg" alt="Detailed view of the central hardware aisles with fasteners organized in bins.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>Shopping At Lowe&#39;s</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Anjali matches masonry anchors at Lowe’s for a Seattle concrete wall she has already identified.</p>
+    </div>
+
+    <p class="principle">The wall chooses the anchor, not the endcap.</p>
+
+    <div class="body-copy">
+      <p>At Lowe’s, begin at the rear panel saw for lumber and sheet goods if you did not already buy them. Then the central hardware aisles for screws, nails, and rated anchors.</p>
+      <p>Show the clerk a photo of the wall if you can. Buy the bit that matches the anchor. Skip decorative brackets that only hit drywall.</p>
+      <p>Paint corridor last for primer, enamel, and caulk. Copy recoat times onto Friday’s schedule.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Name the substrate at the fastener counter.</li><li>Buy matching bits with the anchors.</li><li>Copy finish dry times before checkout.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Buying screws without checking length, then blowing through a 3/4 in top into a hose.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Anchor family matches wall</li><li>Bits match anchors</li><li>No mystery plugs</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="finding-items-at-menards">
+
+    <figure class="hero">
+      <img src="photos/069-pexels.jpg" alt="Detailed view of the paint aisle with primers and paint organized.">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Finding Items At Menards</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Deepak uses the Menards yard and paint counter for a Brooklyn humidity-prone closet.</p>
+    </div>
+
+    <p class="principle">Yard for panels, hardware run for fasteners, paint counter for primer.</p>
+
+    <div class="body-copy">
+      <p>At Menards, start in the yard or rear saw for panels and studs. Measure and record the sizes you need. Protect edges for the ride home.</p>
+      <p>Use the long hardware run for screws and anchors. Check length against your actual thickness.</p>
+      <p>Paint counter for bonding primer and washable enamel. If the label needs overnight between coats, Sunday install may wait.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Stage panels with edge protection before you leave the yard.</li><li>Match screw length to board thickness plus cleat.</li><li>Put recoat time on the weekend schedule.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Loading panels without padding and crushing the splash-zone edge.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Wet-room-capable finish chosen</li><li>Cure times on the schedule</li><li>Caulk role is joints, not structure</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="48-hour-weekend-build-checklist">
+  <div class="chapter-opener">
+    <img src="photos/072-pexels.jpg" alt="a well-organized laundry alcove with shelves and a countertop, natural light, clean lines, minimalist styling">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Weekend Checklist And Final Inspection</h2>
+<p>By the end of this chapter, you will have a usable weekend checklist and a final inspection you must pass before treating the alcove as finished. Output: a signed inspection, or a list of stops.</p>    </div>
+  </div>
+
+  <article class="unit" id="purpose-and-benefits">
+
+    <figure class="hero">
+      <img src="photos/073-pexels.jpg" alt="a detailed view of the alcove showing the arrangement of tools and materials">
+      <div class="hero-label">
+<span class="day">Friday evening</span>        <h3>Purpose And The $200 Envelope</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Ravi and Priya cap millwork at $200 in their Austin one-bedroom. Machines are already paid for.</p>
+    </div>
+
+    <p class="principle">The checklist keeps millwork inside the envelope and inside the manuals.</p>
+
+    <div class="body-copy">
+      <p>Use this list to reduce decision fatigue, not to force a 48-hour miracle. Core success is machines that still open, drain, and sit still, plus millwork that does not fight them.</p>
+      <p>Budget line: millwork ≤ $200 unless you consciously raise it. Still excludes trades and appliances.</p>
+      <p>If you fall behind, keep path lighting for the wet floor, reachable shutoffs, and a working washer. Drop the fourth shelf.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Finishing the paint and skipping the leak check because guests were coming.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Envelope restated in USD with exclusions</li><li>Manuals on the clipboard</li><li>MVP stop still valid</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="how-to-use">
+
+    <figure class="hero">
+      <img src="photos/074-pexels.jpg" alt="a view of the alcove with tools and materials organized for the project">
+      <div class="hero-label">
+<span class="day">Friday evening</span>        <h3>How To Use The Checkpoints</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">A checkpoint is permission to continue — or to stop.</p>
+
+    <div class="body-copy">
+      <p>Print the list. Mark boxes. At each checkpoint ask: is it safe and appropriate to continue? If the wall is unknown, if the stack kit is missing, if the enamel is wet, the answer is no.</p>
+      <p>Cross-reference earlier chapters instead of rewriting them on the wall.</p>
+      <p>Keep one marker color for inches and another for notes so units do not mix.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Ticking boxes you did not perform because the section title looked familiar.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>List printed</li><li>Stop answers allowed</li><li>Units not mixed</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="friday-evening-prep-and-plan">
+
+    <figure class="hero">
+      <img src="photos/075-pexels.jpg" alt="a close-up of measuring tape against the alcove walls">
+      <div class="hero-label">
+<span class="day">Friday evening</span>        <h3>Friday Prep</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Empty, measure, photograph, decide.</p>
+
+    <div class="body-copy">
+      <p>Clear the alcove or pull machines with the safe procedure. Measure. Note outlets and hoses. Review the cut-list pattern you will recalc. If walls are glossy, primer time belongs on Saturday’s clock.</p>
+      <p>Confirm help for any lift. Confirm landlord permission if you are not at the no-drill level.</p>
+      <p>If you cannot finish Friday prep, do not buy irreversible sheets on Saturday morning.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Shopping first, measuring in the car park.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Output</h4>
+      <ul><li>Measurements complete</li><li>Permission and help confirmed</li><li>Cut-list pattern chosen, numbers not yet cut</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="saturday-morning-shopping">
+
+    <figure class="hero">
+      <img src="photos/076-pexels.jpg" alt="a view of the shopping list with checked items">
+      <div class="hero-label">
+<span class="day">Saturday to done</span>        <h3>Saturday Shopping And The Final Inspection</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Do not use the finished alcove until the inspection passes.</p>
+
+    <div class="body-copy">
+      <p>Shop the local loop. Verify boards against the recalc cut list. Straight stock only. If a size is missing, change the list, not the safety margins.</p>
+      <p>Final inspection, before normal use: appliance clearances and full door or lid operation; counter and shelves stable under a realistic lean and a full basket (not a person standing on them); fasteners and supports tight on the structure you named; water shutoffs and drain reachable; electrical plug accessible, no unsuitable cords; no blocked vents, lint paths, or service access; no sharp exposed edges; finishes and sealants cured as labeled; controlled leak check after reconnection; a clear removal or service path for the machines.</p>
+      <p>If any line fails, the alcove is not finished. Use the machines in their safe prior state until it passes. That is the last practical step of this book.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Buy only after the cut list uses your inches.</li><li>Install only at the construction level you chose.</li><li>Run the full final inspection; fail any blocked service or leak.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>A photo of pretty shelves posted before the first fill cycle is watched.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Final inspection</h4>
+      <ul><li>Clearances and doors pass</li><li>Leak check pass</li><li>Service path pass</li></ul>
+    </div>
+
+  </article>
+</section>
+
+<section class="closing">
+  <img class="closing-photo" src="photos/001-pexels.jpg" alt="Laundry alcove with clean countertop, organized shelves, and modern appliances, soft natural light, minimalist design, no people, no text, n">
+  <p class="kicker">30 Day Spaces</p>
+  <div class="rule"></div>
+  <h2>Your next room starts here</h2>
+  <p class="blurb">More room kits, declutter sprints, and measured layouts — same series language, same clear numbers.</p>
+<p class="author">Akarsh Priyadarshan</p></section>
+
+</body>
+</html>

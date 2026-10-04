@@ -1,0 +1,581 @@
+{
+  "title": "30-Day 1 BHK Aesthetic Transformation",
+  "units": "metric",
+  "outputs": {
+    "pdf": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\30-day-1-bhk-aesthetic-transformation.pdf",
+    "cover": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\cover.pdf",
+    "epub": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\30-day-1-bhk-aesthetic-transformation.epub",
+    "epub_preview": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\epub-preview.html"
+  },
+  "ai_generated_images": 1,
+  "kdp_ai_disclosure_required": true,
+  "images": [
+    {
+      "query": "30 day 1 bhk aesthetic transformation designed cover",
+      "source": "openai",
+      "credit": "",
+      "ai": true,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\cover.jpg"
+    },
+    {
+      "query": "1 BHK apartment living room with clear surfaces, natural light from one window, minimalist decor, and a cohesive color palette.",
+      "source": "pexels",
+      "credit": "Photo by Edmond Elshani on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\001-pexels.jpg"
+    },
+    {
+      "query": "1 BHK apartment bedroom with clear bedside tables, natural light from one window, and minimalist decor.",
+      "source": "pexels",
+      "credit": "Photo by Mateusz Dach on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\002-pexels.jpg"
+    },
+    {
+      "query": "1 BHK apartment kitchen with organized counters, natural light from one window, and minimal decor.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\003-pexels.jpg"
+    },
+    {
+      "query": "1 BHK apartment living room with minimal visual noise, natural light from one window, and a cohesive color palette.",
+      "source": "pexels",
+      "credit": "Photo by Edmond Elshani on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\004-pexels.jpg"
+    },
+    {
+      "query": "1 BHK apartment workspace with organized zones, natural light from one window, and minimal decor.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\005-pexels.jpg"
+    },
+    {
+      "query": "1 BHK apartment with a clear calendar and organized spaces, natural light from one window, and minimal decor.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\006-pexels.jpg"
+    },
+    {
+      "query": "A well-designed 1 BHK apartment with a unified color palette, showcasing soft greige walls, sage accents, and natural light filtering through a window.",
+      "source": "pexels",
+      "credit": "Photo by Liva  Kitchens And Interiors on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\007-pexels.jpg"
+    },
+    {
+      "query": "A close-up of beige floor tiles next to white printer paper, highlighting the warm undertone.",
+      "source": "pexels",
+      "credit": "Photo by Edward Jenner on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\008-pexels.jpg"
+    },
+    {
+      "query": "A swatch of soft greige paint next to beige tiles and wooden accents, illustrating the harmonious color selection.",
+      "source": "pexels",
+      "credit": "Photo by Ron Lach on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\009-pexels.jpg"
+    },
+    {
+      "query": "A visual representation of the 60-30-10 color ratio applied in a living room setting, with soft greige, sage, and terracotta accents.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\010-pexels.jpg"
+    },
+    {
+      "query": "A grid layout showing the Light Ladder for a 1 BHK apartment, with notes on light sources and color observations.",
+      "source": "pexels",
+      "credit": "Photo by Tim Mossholder on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\011-pexels.jpg"
+    },
+    {
+      "query": "small indian living room minimalist daylight editorial",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\012-pexels.jpg"
+    },
+    {
+      "query": "Compact Indian apartment living room with clear surfaces, neutral colors, and minimal decor, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\014-pexels.jpg"
+    },
+    {
+      "query": "Living room entry view with cluttered surfaces, one window light, neutral colors, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Sami  Abdullah on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\015-pexels.jpg"
+    },
+    {
+      "query": "Surface Parking Zone setup with light cloth and labeled boxes, one window light, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Blue Bird on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\016-pexels.jpg"
+    },
+    {
+      "query": "Living room side table clutter before decluttering, one window light, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Tomás Asurmendi on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\017-pexels.jpg"
+    },
+    {
+      "query": "Living room with a balanced display of decor items, one window light, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Martín Rivera on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\018-pexels.jpg"
+    },
+    {
+      "query": "Styled coffee table with odd-numbered decor arrangements, one window light, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Wolf  Art on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\019-pexels.jpg"
+    },
+    {
+      "query": "Open shelves styled with Anchor, Accent, Balance triangle, one window light, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Keegan Checks on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\020-pexels.jpg"
+    },
+    {
+      "query": "small indian bedroom minimalist daylight editorial",
+      "source": "pexels",
+      "credit": "Photo by Anisha Deb on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\021-pexels.jpg"
+    },
+    {
+      "query": "compact Indian apartment bedroom, soft lighting, neutral color palette, organized wardrobe, serene atmosphere",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\023-pexels.jpg"
+    },
+    {
+      "query": "compact Indian apartment wardrobe, soft lighting, organized clothing, neutral color palette",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\024-pexels.jpg"
+    },
+    {
+      "query": "compact Indian apartment bedroom, soft lighting, organized wardrobe, neutral color palette",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\025-pexels.jpg"
+    },
+    {
+      "query": "compact Indian apartment laundry area, soft lighting, organized space, neutral color palette",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\027-pexels.jpg"
+    },
+    {
+      "query": "small indian kitchen minimalist daylight editorial",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\028-pexels.jpg"
+    },
+    {
+      "query": "Compact Indian kitchen with minimal clutter, natural light from one window, soft white and charcoal color palette, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\030-pexels.jpg"
+    },
+    {
+      "query": "Compact Indian kitchen with organized utensils and clear counters, natural light from one window, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Dương Nhân on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\031-pexels.jpg"
+    },
+    {
+      "query": "Compact Indian kitchen with par levels clearly labeled inside cabinets, natural light from one window, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\032-pexels.jpg"
+    },
+    {
+      "query": "Compact Indian kitchen with styled open shelves, natural light from one window, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Fabian Reck on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\033-pexels.jpg"
+    },
+    {
+      "query": "Compact Indian kitchen with a clean and organized countertop, natural light from one window, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Cup of  Couple on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\034-pexels.jpg"
+    },
+    {
+      "query": "Indian apartment kitchen with clear counters, organized pantry, and labeled zones, warm lighting, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\035-pexels.jpg"
+    },
+    {
+      "query": "Compact Indian living room with clear surfaces, organized decor, and a cohesive color palette, warm lighting, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Liva  Kitchens And Interiors on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\036-pexels.jpg"
+    },
+    {
+      "query": "Stylish bedroom with organized wardrobe, clear surfaces, and cohesive textiles, warm lighting, linen textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Ron Lach on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\037-pexels.jpg"
+    },
+    {
+      "query": "Compact kitchen with organized counters, clear surfaces, and labeled pantry zones, warm lighting, plaster textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\038-pexels.jpg"
+    },
+    {
+      "query": "A cozy 1 BHK in Pune, showcasing a unified color palette with 80 percent clutter-free surfaces in the living room, bedroom, and kitchen.",
+      "source": "pexels",
+      "credit": "Photo by Anisha Deb on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\039-pexels.jpg"
+    },
+    {
+      "query": "A well-lit living room in a Pune apartment, showcasing clear surfaces and a unified color palette, with natural textures.",
+      "source": "pexels",
+      "credit": "Photo by Engin Akyurt on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\040-pexels.jpg"
+    },
+    {
+      "query": "A vibrant display of color swatches on a table in a Pune apartment, with natural light enhancing the hues.",
+      "source": "pexels",
+      "credit": "Photo by Леся Терехова on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\041-pexels.jpg"
+    },
+    {
+      "query": "A neatly organized media console in a Pune living room, demonstrating the results of a successful declutter sprint.",
+      "source": "pexels",
+      "credit": "Photo by Eskoala A on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\042-pexels.jpg"
+    },
+    {
+      "query": "indian apartment painted living room wall with colour samples daylight editorial interior",
+      "source": "pexels",
+      "credit": "Photo by Sami  Abdullah on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\044-pexels.jpg"
+    },
+    {
+      "query": "interior of a modern 1BHK apartment in Pune, natural light from one window, minimalist decor, clean lines, uncluttered surfaces",
+      "source": "pexels",
+      "credit": "Photo by Anisha Deb on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\046-pexels.jpg"
+    },
+    {
+      "query": "interior of a modern living room with a well-placed rug and furniture arrangement, natural light from a window, minimalist decor",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\047-pexels.jpg"
+    },
+    {
+      "query": "a serene bedroom setup with a neatly made bed, aligned nightstands, and organized wardrobe, natural light filtering through curtains",
+      "source": "pexels",
+      "credit": "Photo by Алан Албегов on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\048-pexels.jpg"
+    },
+    {
+      "query": "a well-organized kitchen with clear countertops, neatly arranged shelves, and effective task lighting, natural light from a window",
+      "source": "mock",
+      "credit": "",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\049-mock.jpg"
+    },
+    {
+      "query": "1 BHK apartment in Pune, bright natural light, organized living space, minimalist decor, no people, no text, no watermark.",
+      "source": "mock",
+      "credit": "",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\050-mock.jpg"
+    },
+    {
+      "query": "1 BHK apartment in Pune, organized kitchen with clear surfaces, natural light, no people, no text, no watermark.",
+      "source": "mock",
+      "credit": "",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\051-mock.jpg"
+    },
+    {
+      "query": "1 BHK apartment in Bengaluru, cozy bedroom with organized nightstand, natural light, no people, no text, no watermark.",
+      "source": "mock",
+      "credit": "",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\052-mock.jpg"
+    },
+    {
+      "query": "1 BHK apartment in Mumbai, organized living room with clear surfaces, natural light, no people, no text, no watermark.",
+      "source": "mock",
+      "credit": "",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\053-mock.jpg"
+    },
+    {
+      "query": "1 BHK apartment in Pune, organized entryway with cleaning supplies, natural light, no people, no text, no watermark.",
+      "source": "mock",
+      "credit": "",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\054-mock.jpg"
+    }
+  ],
+  "figures": [
+    {
+      "spec_id": "D061",
+      "kind": "table",
+      "title": "Visual-noise scale is subjective",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D061.svg"
+    },
+    {
+      "spec_id": "D001",
+      "kind": "table",
+      "title": "Tight-space walkway is a planning bound",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D001.svg"
+    },
+    {
+      "spec_id": "D002",
+      "kind": "comparison",
+      "title": "If Your Room Can Hold A Larger",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D002.svg"
+    },
+    {
+      "spec_id": "D004",
+      "kind": "table",
+      "title": "For Small Rooms, Common Sizes Are 5",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D004.svg"
+    },
+    {
+      "spec_id": "D005",
+      "kind": "table",
+      "title": "6 By 9 When You Have A",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D005.svg"
+    },
+    {
+      "spec_id": "D006",
+      "kind": "elevation",
+      "title": "If You Center Your Tv Above A",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D006.svg"
+    },
+    {
+      "spec_id": "D008",
+      "kind": "table",
+      "title": "TV distance is a starting range",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D008.svg"
+    },
+    {
+      "spec_id": "D009",
+      "kind": "table",
+      "title": "If Your Sofa Is 72 Inches, Aim",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D009.svg"
+    },
+    {
+      "spec_id": "D010",
+      "kind": "table",
+      "title": "16 To 18 Inches Of Space Between",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D010.svg"
+    },
+    {
+      "spec_id": "D031",
+      "kind": "ratio_bar",
+      "title": "Plants And Textiles Finish The Room With",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D031.svg"
+    },
+    {
+      "spec_id": "D032",
+      "kind": "elevation",
+      "title": "Above The Sofa, Choose Art That Is",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D032.svg"
+    },
+    {
+      "spec_id": "D003",
+      "kind": "ratio_bar",
+      "title": "Plants And Textiles Finish The Room With",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D003.svg"
+    },
+    {
+      "spec_id": "D007",
+      "kind": "elevation",
+      "title": "Above The Sofa, Choose Art That Is",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D007.svg"
+    },
+    {
+      "spec_id": "D033",
+      "kind": "table",
+      "title": "Side clearance is a compact planning target",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D033.svg"
+    },
+    {
+      "spec_id": "D034",
+      "kind": "plan",
+      "title": "In Tight Rooms, A Single Side Clearance",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D034.svg"
+    },
+    {
+      "spec_id": "D035",
+      "kind": "plan",
+      "title": "The Prime Zone",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D035.svg"
+    },
+    {
+      "spec_id": "D036",
+      "kind": "plan",
+      "title": "The Deep Storage Zone",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D036.svg"
+    },
+    {
+      "spec_id": "D038",
+      "kind": "table",
+      "title": "The Nightstand Top To Sit Level With",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D038.svg"
+    },
+    {
+      "spec_id": "D039",
+      "kind": "elevation",
+      "title": "If You Use Pendants, Drop Them So",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D039.svg"
+    },
+    {
+      "spec_id": "D040",
+      "kind": "table",
+      "title": "Bedside clearance is a compact target",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D040.svg"
+    },
+    {
+      "spec_id": "D041",
+      "kind": "table",
+      "title": "Foot-of-bed clearance is a planning target",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D041.svg"
+    },
+    {
+      "spec_id": "D047",
+      "kind": "elevation",
+      "title": "If Your Counter Is One Continuous Run",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D047.svg"
+    },
+    {
+      "spec_id": "D049",
+      "kind": "table",
+      "title": "A 60 Centimeter Clear Prep Span On",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D049.svg"
+    },
+    {
+      "spec_id": "D050",
+      "kind": "table",
+      "title": "At Least 30 Centimeters Of Landing Space",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D050.svg"
+    },
+    {
+      "spec_id": "D051",
+      "kind": "table",
+      "title": "Electrical Appliances At Least 20 Centimeters Away",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D051.svg"
+    },
+    {
+      "spec_id": "D052",
+      "kind": "elevation",
+      "title": "If Your Total Counter Length Is Short",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D052.svg"
+    },
+    {
+      "spec_id": "D053",
+      "kind": "table",
+      "title": "• Subtract The Minimum Prep Span You",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D053.svg"
+    },
+    {
+      "spec_id": "D054",
+      "kind": "elevation",
+      "title": "Your Counter Length Is 180 Centimeters, With",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D054.svg"
+    },
+    {
+      "spec_id": "D055",
+      "kind": "elevation",
+      "title": "Maintain 25 To 30 Centimeters Of Gap",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D055.svg"
+    },
+    {
+      "spec_id": "D056",
+      "kind": "ratio_bar",
+      "title": "• Open Shelves Styling, You Use The",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D056.svg"
+    },
+    {
+      "spec_id": "D011",
+      "kind": "ratio_bar",
+      "title": "• Open Shelves Styling, You Use The",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D011.svg"
+    },
+    {
+      "spec_id": "D057",
+      "kind": "chart",
+      "title": "As A Starting Point, Storage 30 To",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D057.svg"
+    },
+    {
+      "spec_id": "D058",
+      "kind": "table",
+      "title": "Their Scorecard Showed Living Room Surfaces At",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D058.svg"
+    },
+    {
+      "spec_id": "D012",
+      "kind": "table",
+      "title": "Their Scorecard Showed Living Room Surfaces At",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D012.svg"
+    },
+    {
+      "spec_id": "D062",
+      "kind": "table",
+      "title": "Separate measure from unobstructed area",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D062.svg"
+    },
+    {
+      "spec_id": "D063",
+      "kind": "table",
+      "title": "60/30/10 after what you cannot change",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D063.svg"
+    },
+    {
+      "spec_id": "D064",
+      "kind": "table",
+      "title": "What happens after Day 30",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D064.svg"
+    }
+  ]
+}

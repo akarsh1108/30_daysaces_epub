@@ -1,0 +1,618 @@
+<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'/>
+<meta name='viewport' content='width=device-width, initial-scale=1'/>
+<title>EPUB preview — Quiet Study Places</title>
+<style>
+@namespace epub "http://www.idpf.org/2007/ops";
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.55;
+  color: #141816;
+  background: #ffffff;
+}
+h1, h2, h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.2;
+  page-break-after: avoid;
+}
+h1 { font-size: 1.6em; margin: 0.4em 0 0.35em; }
+h2 { font-size: 1.35em; margin: 0.2em 0 0.45em; }
+h3 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.78em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 1.1em 0 0.45em;
+}
+p { margin: 0 0 0.85em; }
+img.full, .hero img, .opener img, figure img {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 0;
+  border: 0;
+}
+.hero, .opener {
+  margin: 0 0 1em;
+}
+.hero-cap {
+  padding: 0.55em 0 0.2em;
+}
+.day, .kicker, .scenario .label {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.72em;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #1E5F6B;
+  margin: 0 0 0.35em;
+}
+.intro { font-size: 0.95em; color: #333; }
+.scenario {
+  margin: 0.8em 0 1em;
+  padding: 0.7em 0.8em;
+  background: #f3f6f6;
+  border-top: 3px solid #1E5F6B;
+}
+.scenario p { margin: 0; font-style: italic; }
+.scenario .label { font-style: normal; margin-bottom: 0.4em; }
+.principle {
+  font-size: 1.12em;
+  font-weight: bold;
+  color: #0f3d45;
+  border-left: 3px solid #1E5F6B;
+  padding: 0.15em 0 0.15em 0.7em;
+  margin: 0.4em 0 1em;
+}
+figure.diagram {
+  margin: 1em 0;
+  padding: 0.5em;
+  background: #f3f6f6;
+}
+figcaption {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.78em;
+  color: #7a8285;
+  margin-top: 0.4em;
+}
+.steps {
+  background: #f3f6f6;
+  padding: 0.7em 0.9em;
+  margin: 1em 0;
+}
+.steps ol { margin: 0; padding-left: 1.2em; }
+.steps li { margin: 0 0 0.4em; }
+.mistake {
+  background: #f8eeeb;
+  border-left: 3px solid #c8442b;
+  padding: 0.7em 0.9em;
+  margin: 1em 0;
+}
+.mistake h3 { color: #c8442b; }
+.checklist ul { list-style: none; padding: 0; margin: 0; }
+.checklist li {
+  padding-left: 1.3em;
+  position: relative;
+  margin: 0 0 0.4em;
+}
+.checklist li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.25em;
+  width: 0.7em;
+  height: 0.7em;
+  border: 1.5px solid #1E5F6B;
+}
+
+html { background: #eceff0; }
+body.preview-shell { margin: 0; padding: 24px 12px 48px; }
+.device {
+  max-width: 420px;
+  margin: 0 auto 28px;
+  background: #fff;
+  border: 1px solid #cfd5d7;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 0 0 20px;
+}
+.device .label {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #7a8285;
+  padding: 10px 16px;
+  border-bottom: 1px solid #e8ecec;
+  background: #f7f9f9;
+}
+.device .page { padding: 0 16px 8px; }
+.preview-top {
+  max-width: 420px;
+  margin: 0 auto 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #333;
+}
+.preview-top h1 { font-size: 20px; margin: 0 0 6px; }
+.preview-top p { margin: 0; font-size: 13px; color: #666; }
+</style></head>
+<body class='preview-shell'>
+<div class='preview-top'>
+<h1>Quiet Study Places</h1>
+<p>Kindle-style preview of the EPUB. Scroll through each section below.</p>
+</div>
+<div class='device'><div class='label'>Cover</div><div class='page'>
+<img class='full' src='cover.jpg' alt='A small study desk with a fabric wall panel and a task lamp, no people or text.'/>
+</div></div>
+<div class='device'><div class='label'>Chapter opener</div><div class='page'>
+<div class='opener'>
+<img class='full' src='photos/001-pexels.jpg' alt='A small study desk near a window, with a rug and a fabric panel, no people.'/>
+<p class='kicker'>Chapter</p><h1>What a quiet study can and cannot be</h1>
+<p class='intro'>This book helps a reader set up a study area that is easier to concentrate in. Acoustic panels, rugs, and soft furnishings can reduce reflections and reverberation inside the room. They can make speech clearer and the space feel calmer. They do not reliably block traffic, neighbors, construction, or sound passing through walls. Blocking noise usually means sealing gaps, improving doors or windows, adding mass, or making structural changes — often with landlord permission and sometimes with a professional. Some scenarios use apartments in Indian cities as compact-home illustrations. They do not define the market. Prices are USD. Measurements are inches. Example sizes are illustrations. Manufacturer instructions, the lease, and product safety data take precedence over this book. What acoustic panels can and cannot do. Acoustic panels primarily reduce reflections and reverberation inside a room. They can make speech clearer, reduce harshness, and make the space feel calmer. They do not reliably block traffic, neighbours, construction noise, or sound passing through walls. Decorative panels are not soundproofing. A higher percentage of covered wall does not automatically produce a better study room. Work in this order: identify whether the problem is echo, incoming noise, outgoing noise, or all three. Then change one variable and test. Do not buy a wall of panels first. This book is not a structural soundproofing manual. Prices are USD. Measurements are inches; 1 inch equals 25 mm if you need a conversion. Converted numbers are not a different specification.</p>
+</div></div></div>
+<div class='device'><div class='label'>Day 1 · Name the problem before you buy panels</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/002-pexels.jpg' alt='A desk by a window with a note listing echo versus street noise.'/>
+<div class='hero-cap'><p class='day'>Day 1</p><h2>Name the problem before you buy panels</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Situation: A renter's desk sits by a window. Traffic is loud, and clapping in the room also rings. Decision: separate incoming noise from in-room echo before shopping.</p></blockquote>
+<p class='principle'>Panels treat reflections inside the room. They do not block the street.</p>
+<p>Today's output: a one-line diagnosis — echo, incoming noise, sound leaving the room, intermittent distraction, or a mix — plus what you will not promise this project.</p>
+<figure class='diagram'><img class='full' src='figures/D001.svg' alt='What panels can and cannot do'/><figcaption>Absorption is not isolation.</figcaption></figure>
+<p>What acoustic panels can and cannot do. Acoustic panels primarily reduce reflections and reverberation inside a room. They can make speech clearer, reduce harshness, and make the space feel calmer. They do not reliably block traffic, neighbours, construction noise, or sound passing through walls. Decorative panels are not soundproofing. A higher percentage of covered wall does not automatically produce a better study room.</p>
+<p>Sit at the desk. Clap and speak. If the room rings or your voice sounds hard, reflections are part of the story. If a truck or a neighbor is still the main event with the window closed, that is incoming noise. Footsteps from above are usually impact noise; surface panels will not solve it. Do not permanently seal windows, block vents, or interfere with exits.</p>
+<p>A phone SPL app can compare a quiet hour and a busy hour on the same device. It cannot certify a 40–45 dB study. Record the reading as a personal comparison only.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Write echo / incoming / leaving / mix.</li><li>Note window, door, shared wall, and fan sources.</li><li>Do not order panels yet.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Buying absorbers because the title of the book says quiet, while the actual problem is a gap under the door.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Diagnosis written</li><li>Sources listed</li><li>No purchase yet</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Day 2 · Study goals that are not acoustic scores</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/003-pexels.jpg' alt='A laptop on a stable stand with an external keyboard at a rental desk.'/>
+<div class='hero-cap'><p class='day'>Day 2</p><h2>Study goals that are not acoustic scores</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Situation: Video calls are tiring. The renter also cannot replace the desk.</p></blockquote>
+<p class='principle'>Success is whether you can study, write, and talk — not an RT60 number.</p>
+<p>Today's output: a goal list (calls, reading, writing) plus a renter-safe desk setup note: chair, screen, light, and what you will not drill.</p>
+<figure class='diagram'><img class='full' src='figures/D038.svg' alt='Body first, panels around the desk'/><figcaption>Start with the body position, screen, light, and access. Place acoustic treatment around the working setup—not the other way around.</figcaption></figure>
+<p>Rate perceived distraction, speech clarity, glare, and clutter from 1 to 10 before changing anything. A calmer-sounding room is not automatically more productive.</p>
+<p>Ergonomics, flexible not universal: sit so elbows can rest near desk height, feet on the floor or a footrest, knees and chair can roll without hitting a panel or a wall. Screen so you are not looking down for long stretches. Elevate a laptop only with a stable stand and a separate keyboard. A monitor arm needs a desk and clamp the manufacturer allows. Do not improvise wall mounts on a rental desk. Change posture on a timer you can keep — there is no one break schedule for every body. Start with body, screen, light, and access. Place acoustic treatment around that working setup, not the other way around.</p>
+<p>Task light for paper. Avoid a bright bulb in your eyes and a bright window in the screen. Warm light is not always best; some people want a more neutral lamp for detail work. Keep cables off the floor path.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Score distraction, clarity, glare, clutter 1–10.</li><li>Set chair, screen, and lamp without drilling.</li><li>Photograph the starting desk.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Chasing a half-second RT60 while the chair and glare make 20-minute sessions fail.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Before scores</li><li>Desk setup without damage</li><li>Starting photo</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Day 3 · Find the noise path, then decide whether panels even belong</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/004-pexels.jpg' alt='A door sweep and a desk pulled away from a window, no new panels yet.'/>
+<div class='hero-cap'><p class='day'>Day 3</p><h2>Find the noise path, then decide whether panels even belong</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Situation: Shared wall, door gap, and a humming fridge in a studio.</p></blockquote>
+<p class='principle'>Fix the source and the path you can change. Do not treat panels as the first response to every noise.</p>
+<p>Today's output: the source table filled, the diagnosis worksheet filled, and a next decision that is not automatically more panels.</p>
+<figure class='diagram'><img class='full' src='figures/D025.svg' alt='First action by noise source'/><figcaption>Do this before buying panels. Do not block vents or exits.</figcaption></figure>
+<p>Traffic through a window: test the desk away from the window and inspect window seals. Panels may reduce internal reflections; they do not stop traffic. Corridor or staircase: test a door-side position and inspect door gaps. Panels do not reliably block corridor noise. Shared wall: decide whether the noise is airborne or impact-related. Decorative panels are not a substitute for isolation. Footsteps above: identify impact noise and its timing. Wall panels generally will not solve impact transmission. Fan or appliance: identify and inspect the source. Treatment is not a replacement for fixing vibration or machinery. Intermittent neighbour noise: track timing and test masking or schedule changes. Panels will not remove the source. Echo inside the room: clap and speech-test from the desk. Absorption may improve the room's sound.</p>
+<figure class='diagram'><img class='full' src='figures/D029.svg' alt='What panels can do for that source'/><figcaption>Absorption is not isolation and does not remove a source.</figcaption></figure>
+<p>If the main problem remains after the desk is repositioned, do not automatically buy more acoustic panels. Decide whether the next step is sealing, masking, a layout change, landlord permission, or professional advice. Do not permanently seal windows, block vents, or interfere with exits.</p>
+<figure class='diagram'><img class='full' src='figures/D030.svg' alt='Noise source diagnosis, page one'/><figcaption>Write in the room. Date the sheet. One source per sheet if they differ.</figcaption></figure>
+<p>Fill the noise-source diagnosis worksheet: room; date and time; study position; noise source; inside or outside the room; continuous or intermittent; change with window closed; change with door closed; change when the desk moves; whether the issue is volume, clarity, vibration, or distraction; possible intervention; permission required; test result; next decision. Final choice, circle one: absorption; desk repositioning; sealing investigation; sound masking; headphones; schedule adjustment; professional assessment; no treatment needed.</p>
+<figure class='diagram'><img class='full' src='figures/D031.svg' alt='Noise source diagnosis, page two'/><figcaption>Circle one final choice. Do not auto-buy panels.</figcaption></figure>
+<div class='steps'><h3>Do this</h3><ol><li>Fill both source-table columns.</li><li>Fill the diagnosis worksheet, including window, door, and desk tests.</li><li>Circle a next decision. Do not default to more panels.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Centering a ceiling cloud over a desk that should have moved two feet from the window.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Source table</li><li>Diagnosis worksheet</li><li>Next decision circled</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Chapter opener</div><div class='page'>
+<div class='opener'>
+<img class='full' src='photos/005-pexels.jpg' alt='Parallel walls in a small room, desk in the corner, no people.'/>
+<p class='kicker'>Chapter</p><h1>Echo, speech, and isolation — three different jobs</h1>
+<p class='intro'>Absorption, diffusion, and isolation are not interchangeable. This chapter stays inside the room: reflections you can hear at the desk. This book is primarily about a more comfortable study through layout, reflection control, furniture, lighting, and renter-conscious acoustic treatment. It is not a structural soundproofing manual. Do not modify walls, ceilings, doors, or windows in ways that affect fire safety, ventilation, building performance, or the lease without appropriate approval and expertise.</p>
+</div></div></div>
+<div class='device'><div class='label'>Day 4 · What you hear at the desk</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/005-pexels.jpg' alt='A person-height clap test at a desk, not in the middle of an empty room.'/>
+<div class='hero-cap'><p class='day'>Day 4</p><h2>What you hear at the desk</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Situation: Clap rings between two walls. A hallway conversation still comes through the door.</p></blockquote>
+<p class='principle'>Early reflections and flutter are in-room problems. Hallway speech is a door and isolation problem.</p>
+<p>Today's output: notes from a desk clap and a spoken sentence — ring, hardness, leftover hallway noise.</p>
+<figure class='diagram'><img class='full' src='figures/D032.svg' alt='What this book will not teach you to build'/><figcaption>Ask for approval and expertise before changing the building.</figcaption></figure>
+<p>Sound hits hard surfaces and returns. Early reflections smear speech. Flutter is a ping between parallel walls. Reverberation is the leftover wash. Those are the jobs for absorbers, rugs, curtains, and sometimes diffusion.</p>
+<p>Do not aim for a universal RT60 of 0.5 seconds. Reading, calls, music, and recording do not share one target. A room can be made dull and still leak hallway noise.</p>
+<p>Isolation — gaps, doors, windows, mass, structure — is a different project. Door seals can affect door operation and emergency egress. Window changes can affect ventilation and fire safety. Added mass or wall construction may require professional design. A heavy curtain is not equivalent to a sound-isolation assembly. A bookshelf is not guaranteed to block neighbour noise. If isolation is the main complaint, this chapter only tells you not to fake it with fabric.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Clap at the desk and in the room center.</li><li>Speak a sentence at call volume.</li><li>Mark hallway or street as isolation, not absorption.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Calling the room treated because panels look even, while the door still leaks speech.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Desk clap notes</li><li>Speech notes</li><li>Isolation vs absorption labeled</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Day 5 · Three stages, not a coverage percentage</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/005-pexels.jpg' alt='Painter tape marking two side-wall spots near a desk, most of the room untreated.'/>
+<div class='hero-cap'><p class='day'>Day 5</p><h2>Three stages, not a coverage percentage</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Situation: A plan says cover 25 percent of the walls.</p></blockquote>
+<p class='principle'>Coverage is a rough planning estimate. Thickness, air gap, furniture, volume, and placement matter more than a percentage.</p>
+<p>Today's output: Stage 1 list (first reflections and a rug if the floor is live), with a stop before buying a second batch.</p>
+<figure class='diagram'><img class='full' src='figures/D002.svg' alt='Treat, then test, then maybe add'/><figcaption>A higher covered percentage is not automatically better.</figcaption></figure>
+<p>Stage 1: first reflection points at the desk, plus a soft floor if it is bare. Test. Stage 2: flutter on opposing surfaces if the ping remains. Stage 3: re-test before buying more. Change one variable at a time.</p>
+<p>Too much absorption, especially if it only hits a narrow band of frequencies, can make the room dull without touching external noise. Thin decorative panels often affect higher frequencies more than bass. An air gap can help some assemblies; product data beats a generic thickness claim. Corner furniture is not guaranteed bass control. Wood slats need a real absorptive backing to do acoustic work.</p>
+<p>Percent bands such as 15–25 percent that appear in older notes are not specifications. Ignore them as targets.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Mark first-reflection walls.</li><li>Add or note a rug.</li><li>Write stop until after a test.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Ordering 35 percent coverage because recording was listed as a future hobby.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Stage 1 list</li><li>Stop written</li><li>No percentage target</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Day 6 · Listen at the chair, not only at the room center</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/008-pexels.jpg' alt='A small mirror on a side wall as seen from the study chair.'/>
+<div class='hero-cap'><p class='day'>Day 6</p><h2>Listen at the chair, not only at the room center</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Situation: A helper with a mirror finds reflection points.</p></blockquote>
+<p class='principle'>The study position is the measurement position.</p>
+<p>Today's output: mirror or flashlight marks on left, right, and ceiling-line as seen from the working chair — or a note that you work alone and will use a tablet as a stand-in face.</p>
+<p>A clap is subjective, position-dependent, and not a full-frequency test. Repeat from the desk. Add a spoken paragraph and ordinary keyboard noise. Record from the listener position with the same device and distance.</p>
+<p>Safety hierarchy later chapters will repeat: mounting and structure first, then access to doors and switches, then chair movement, then acoustic placement, then styling.</p>
+<p>Before the mounting chapter: you still need wall type, weight, and permission. Do not purchase a cloud.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Mark reflections from the chair.</li><li>Record one spoken paragraph.</li><li>List what still requires permission.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Treating the geometric room center as the listening position.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Chair-based marks</li><li>Speech recording</li><li>Purchase hold if permission unknown</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Chapter opener</div><div class='page'>
+<div class='opener'>
+<img class='full' src='photos/009-pexels.jpg' alt='Fabric-wrapped panel samples and a wood-slat sample on a table.'/>
+<p class='kicker'>Chapter</p><h1>Cores, fabric, fire, and upkeep</h1>
+<p class='intro'>Ask the supplier for the exact fire classification of the product you will install. Do not assume a fire-rated core makes the assembled panel — fabric, backing, adhesive, and frame — fire-rated. Keep panels away from hot fixtures. Do not cover outlets, switches, smoke detectors, or ventilation. Do not use unverified foam, fabric, or insulation scraps in an enclosed DIY panel. Follow the manufacturer's installation and clearance instructions. Cut mineral wool and fiberglass outside the study, following the product's indoor-use and SDS instructions. Use eye protection, gloves, and respiratory protection the material requires — a basic dust mask is not automatically enough. Keep children and pets away from cutting. Do not shake dusty fabric indoors. Enclose the core so loose fibers stay out of the room air; any fabric used for wrapping must suit both acoustic use and enclosure. It is not true that any breathable cloth prevents fiber release. Clean the work area as the manufacturer recommends. Do not install acoustic fabric, wood, or porous panels over damp or mould-affected surfaces. Fix the moisture source first. High humidity can swell wood, fail adhesive, and leave fabric musty. No core is universally best. The finished assembly matters.</p>
+</div></div></div>
+<div class='device'><div class='label'>Day 7 · Materials are not furniture until they are safe</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/009-pexels.jpg' alt='Panel fabric swatches on a dry painted wall, not over a stained patch.'/>
+<div class='hero-cap'><p class='day'>Day 7</p><h2>Materials are not furniture until they are safe</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Situation: Hard glass desk, bare walls, a wish for something that looks like art.</p></blockquote>
+<p class='principle'>Looks come after fire documentation, enclosure, and a dry wall.</p>
+<p>Today's output: a shortlist of core + face that you can document, not a foam leftover.</p>
+<p>Aligning a panel with a shelf is last in the hierarchy. If the pretty location covers a switch or sits over a damp patch, it is the wrong location.</p>
+<p>Do not install on peeling paint or mould. Cleanability matters at a desk: dust, spills, and fabric that can be spot-cleaned per the maker.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Reject undocumented foam.</li><li>Check the wall for moisture.</li><li>Note cleaning instructions if samples exist.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Choosing a colorway before checking whether the wall is dry or the core is enclosed.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Dry wall</li><li>Documented core</li><li>Cleaning note</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Day 8 · Compare cores without crowning a winner</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/009-pexels.jpg' alt='Three core samples labeled mineral wool, fiberglass, and PET felt.'/>
+<div class='hero-cap'><p class='day'>Day 8</p><h2>Compare cores without crowning a winner</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Situation: Mineral wool, fiberglass, PET felt, and a wood-slat kit are all in the cart.</p></blockquote>
+<p class='principle'>Each material has a job and a handling cost. The assembly, not the marketing name, absorbs sound.</p>
+<p>Today's output: one core choice with a written limitation.</p>
+<figure class='diagram'><img class='full' src='figures/D026.svg' alt='Cores compared, none universally best'/><figcaption>Performance is the finished assembly, not the marketing name.</figcaption></figure>
+<p>Mineral wool: useful absorption, needs proper enclosure and careful handling. Fiberglass board: predictable frames, product-specific handling. PET felt: easier handling, performance depends on thickness and build. Wood slats: visual rhythm, not a full absorber unless backed. Fabric: appearance and enclosure, must suit fire and cleaning. Foam: only with documented suitability — fire and performance vary.</p>
+<p>Thickness and air gap can change low-frequency behavior in some builds. Use the product's data. Do not claim a 2-inch panel controls bass.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Pick one core.</li><li>Write its handling rule from the SDS or label.</li><li>Write what it will not do (block neighbors, bass, etc.).</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Calling PET felt or slats soundproofing because they look designed.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Core chosen</li><li>Handling rule</li><li>Limitation written</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Day 9 · Handle cores as the SDS says</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/012-pexels.jpg' alt='Cutting mineral wool outdoors with gloves and eye protection, not on a bedroom floor.'/>
+<div class='hero-cap'><p class='day'>Day 9</p><h2>Handle cores as the SDS says</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Situation: Cutting boards on the study carpet.</p></blockquote>
+<p class='principle'>The study is not the cutting room.</p>
+<p>Today's output: a before-cutting checklist ticked from the product's own instructions, with a work area that is not the study.</p>
+<figure class='diagram'><img class='full' src='figures/D035.svg' alt='Before cutting mineral wool or fiberglass'/><figcaption>Product instructions take precedence over this list.</figcaption></figure>
+<p>Before cutting: read the product handling instructions. Prepare a separate, ventilated work area. Use the protective equipment recommended for that product — a basic dust mask is not automatically enough. Keep children and pets away. Prevent dust and fibres from spreading into the study. Avoid shaking or brushing dusty fabric indoors. Enclose the core appropriately. Clean the work area according to the product instructions. Store unused material in a suitable protected location. Do not install a panel if fibres are exposed during normal use.</p>
+<p>Do not promise that a particular fabric or wrapping method will eliminate all fibre exposure. Use product-specific instructions. Wash exposed skin as the material instructs. Do not dry-sweep fibres into the HVAC.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Read the product handling sheet.</li><li>Set a ventilated cutting area that is not the study.</li><li>Plan enclosure, cleanup, and storage before you cut.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Wrapping leftover insulation in a bedsheet and calling it breathable protection.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Instructions read</li><li>Work area ready</li><li>Enclosure and cleanup planned</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Day 10 · Fabric, fire paperwork, and cleaning</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/012-pexels.jpg' alt='A fabric swatch next to a printed cleaning and fire note.'/>
+<div class='hero-cap'><p class='day'>Day 10</p><h2>Fabric, fire paperwork, and cleaning</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Situation: A pretty linen with no fire or cleaning sheet.</p></blockquote>
+<p class='principle'>If you cannot document fire, cleaning, and indoor use, do not wrap a heater-adjacent panel in it.</p>
+<p>Today's output: a Hold or Proceed after the documentation sequence, plus a maintenance schedule copied with the fabric's own cleaning method.</p>
+<figure class='diagram'><img class='full' src='figures/D034.svg' alt='Before ordering a panel core'/><figcaption>Missing documents are Hold, not Proceed.</figcaption></figure>
+<p>Before ordering a panel core: identify the exact product and manufacturer. Request the product's technical documentation. Check the intended indoor-use conditions. Check the core's handling requirements. Confirm the fabric and backing are appropriate. Check the adhesive or fastening system. Verify fire documentation for the finished assembly where available. Record missing documents as Hold, not Proceed.</p>
+<figure class='diagram'><img class='full' src='figures/D040.svg' alt='Maintenance checks, not a rigid clean cycle'/><figcaption>The fabric maker's cleaning instructions take precedence.</figcaption></figure>
+<p>A material's fire classification applies only within the scope of the test or documentation. Do not assume that combining a rated core with an arbitrary fabric, adhesive, frame, or backing preserves the same classification. Keep panels away from hot fixtures. Do not cover outlets, switches, smoke detectors, or ventilation. Follow the manufacturer's installation and clearance instructions.</p>
+<p>Manufacturer cleaning instructions take precedence over any schedule in this book. Do not soak a porous core. Musty smell after humidity is a stop.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Run the before-ordering sequence.</li><li>Mark Hold if assembly fire docs are missing.</li><li>Copy the maker's cleaning method onto the maintenance table.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Assuming the core's rating covers an arbitrary fabric and glue.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Docs sequence</li><li>Hold or Proceed</li><li>Cleaning method recorded</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Chapter opener</div><div class='page'>
+<div class='opener'>
+<img class='full' src='photos/014-pexels.jpg' alt='A study chair facing a wall with two marked reflection spots.'/>
+<p class='kicker'>Chapter</p><h1>Place treatment where the desk actually sits</h1>
+<p class='intro'>Find the problem, the chair, first reflections, flutter, then decide if any ceiling treatment is even allowed. Style alignment is last. Not every reader needs panels.</p>
+</div></div></div>
+<div class='device'><div class='label'>Day 11 · Eight checks, one variable at a time</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/014-pexels.jpg' alt='Painter tape rectangles beside a desk, ceiling unmarked, walkway open.'/>
+<div class='hero-cap'><p class='day'>Day 11</p><h2>Eight checks, one variable at a time</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Situation: A long placement essay that keeps saying do not cover every wall.</p></blockquote>
+<p class='principle'>Place for the chair. Test. Add only what the test still asks for.</p>
+<p>Today's output: a tape layout of Stage 1 positions, with ceiling marked no unless structure and permission exist.</p>
+<figure class='diagram'><img class='full' src='figures/D022.svg' alt='Placement order'/><figcaption>Repeat the strongest rule once: test before adding more.</figcaption></figure>
+<p>1) Confirm the sound problem is still echo. 2) Sit in the study chair. 3) First reflections. 4) Flutter on opposing surfaces if needed. 5) Ceiling only with engineered support — renters default to no. 6) Integrate with furniture without blocking switches. 7) Test speech and clap from the chair. 8) Decide whether more treatment is needed.</p>
+<figure class='diagram'><img class='full' src='figures/D003.svg' alt='Do not treat coverage as a spec'/><figcaption>Ignore 15/25/35 percent as purchase targets.</figcaption></figure>
+<p>Keep walking paths, outlets, and ventilation clear. Visual calm: hide clutter, reset the desk, keep busy slat patterns out of the main sightline if they distract, plan a video-call background if you need one.</p>
+<figure class='diagram'><img class='full' src='figures/D005.svg' alt='Desk-centered, not wall-centered'/><figcaption>Treat the seat. Leave most walls alone until a test asks.</figcaption></figure>
+<p>Shared layouts: a living-room desk fights the TV; a bed-side desk fights sleep lighting; a kitchen-adjacent desk fights appliances; a shared bedroom needs a visual and storage boundary; a dining-table setup must reset nightly; a fold-away or alcove setup must keep walking and exit paths. Each needs storage, light, cables, and a noise-source note. Panels are optional. A passage desk is only a candidate if it does not block egress.</p>
+<figure class='diagram'><img class='full' src='figures/D006.svg' alt='Living-room desk'/><figcaption>Noise, storage, light, cables, reset — panels optional.</figcaption></figure>
+<p>Do not buy a ceiling cloud in this chapter. The mounting chapter has the do-not-proceed rule. If support, clearance, or permission is unclear, plan wall-mounted or freestanding treatment instead.</p>
+<figure class='diagram'><img class='full' src='figures/D007.svg' alt='Bed-side desk'/><figcaption>Do not mount heavy panels over a sleeping head with adhesive.</figcaption></figure>
+<p>Use the mounting worksheet before purchase. Do not buy yet if wall type, weight, or permission is unknown.</p>
+<figure class='diagram'><img class='full' src='figures/D008.svg' alt='First reflections from the chair'/><figcaption>Height follows your seated ear, not a 36-to-48-inch rule.</figcaption></figure>
+<figure class='diagram'><img class='full' src='figures/D009.svg' alt='Keep lights and panels from fighting'/><figcaption>A panel must not cover a fixture or trap heat.</figcaption></figure>
+<figure class='diagram'><img class='full' src='figures/D010.svg' alt='Dining-table study'/><figcaption>If it must vanish each evening, skip wall treatment.</figcaption></figure>
+<div class='steps'><h3>Do this</h3><ol><li>Tape Stage 1 positions.</li><li>Mark ceiling as no unless qualified support exists.</li><li>Walk the chair path.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>A visually perfect grid that covers a thermostat and hangs over the chair with adhesive only.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Tape layout</li><li>Ceiling decision</li><li>Access still clear</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Chapter opener</div><div class='page'>
+<div class='opener'>
+<img class='full' src='photos/016-pexels.jpg' alt='A fabric panel hung from a picture rail, not glued to crumbling paint.'/>
+<p class='kicker'>Chapter</p><h1>Mounting that a lease and a wall can survive</h1>
+<p class='intro'>A lower-risk, reversible method is not automatically allowed and is not guaranteed to leave the wall undamaged. Read the lease. Ask before drilling, ceiling attachments, or adhesives if the lease is unclear. Save written permission. Photograph the wall before and after. Do not call any method damage-free. Identify the wall. Respect weight. Never hang a heavy panel over a head on adhesive alone.</p>
+</div></div></div>
+<div class='device'><div class='label'>Day 12 · Permission, photos, wall type</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/017-pexels.jpg' alt='A renter photographing a blank wall before any hardware.'/>
+<div class='hero-cap'><p class='day'>Day 12</p><h2>Permission, photos, wall type</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Situation: The lease is silent. The wall might be drywall or plaster.</p></blockquote>
+<p class='principle'>Unknown wall plus unknown permission is a stop.</p>
+<p>Today's output: permission status, before photos, and a wall-type guess you will verify (drywall, plaster, masonry, wood, tile, unknown).</p>
+<figure class='diagram'><img class='full' src='figures/D012.svg' alt='Mounting methods and their real risks'/><figcaption>Load ratings come from the product and the wall, not a 50 percent rule.</figcaption></figure>
+<p>Ask: hollow or solid? Existing rail that is actually load-bearing? Finished panel weight? Method approved for this surface? Above a desk or in a walkway? Can it come down without unacceptable damage?</p>
+<p>A load-bearing wall is not automatically safe for the anchor you like.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Photograph the wall.</li><li>Write permission: yes / ask / no.</li><li>Name the surface or unknown.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Trusting a marketplace 'damage-free' title.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Photos</li><li>Permission field</li><li>Wall named or stop</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Day 13 · Choose hardware from the product, not a percentage</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/018-pexels.jpg' alt='A panel frame with two hanging points, not a single adhesive tab.'/>
+<div class='hero-cap'><p class='day'>Day 13</p><h2>Choose hardware from the product, not a percentage</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Situation: An old note said stay below 50 percent.</p></blockquote>
+<p class='principle'>If a percentage is not tied to a defined load and a named product, ignore it.</p>
+<p>Today's output: a completed mounting-load worksheet whose numbers come from the hardware listing and this wall, not from a percentage rule.</p>
+<figure class='diagram'><img class='full' src='figures/D036.svg' alt='Mounting-load worksheet'/><figcaption>Leave a field blank and the decision is Hold.</figcaption></figure>
+<p>Do not use a generic percentage for how much weight a wall or adhesive can support. Capacity must come from the actual hardware, surface, installation, and the safety margin the manufacturer states.</p>
+<figure class='diagram'><img class='full' src='figures/D037.svg' alt='Overhead and second-retention checks'/><figcaption>Adhesive alone is not a ceiling or over-chair method.</figcaption></figure>
+<p>Fill: finished panel weight; wall type; mounting hardware; hardware manufacturer's rating; orientation (wall / ceiling / freestanding); number of mounting points; permission confirmed (yes / no / NA); surface condition; second retention needed (yes / no); panel above a seated or sleeping position (yes / no); final stability check (pass / hold).</p>
+<div class='steps'><h3>Do this</h3><ol><li>Enter finished weight and wall type.</li><li>Copy the hardware rating from the product, not a percentage.</li><li>Mark pass or hold after the overhead and second-retention lines.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Using a 50 percent rule that never said 50 percent of what.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Load worksheet</li><li>Rating from the product</li><li>Pass or hold</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Day 14 · Hold points before anything goes on the wall</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/019-pexels.jpg' alt='One test strip on a hidden wall corner, the desk still empty of panels.'/>
+<div class='hero-cap'><p class='day'>Day 14</p><h2>Hold points before anything goes on the wall</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Situation: Ready to stick four panels this afternoon.</p></blockquote>
+<p class='principle'>Stop if wall, weight, adhesive test, ceiling, blockage, odor, moisture, lift ability, or permission fails.</p>
+<p>Today's output: a go/no-go after tape layout, adhesive or hardware test, and a chair-swing check.</p>
+<figure class='diagram'><img class='full' src='figures/D023.svg' alt='Stop before you hang'/><figcaption>Any yes on this list is a hold.</figcaption></figure>
+<p>Before bonding or drilling: permission, wall, weight, hardware, utilities, tape layout. Before the first panel: sample test, no blocked switches or windows, desk still usable. After: stability, photos, normal desk use. Before calling it done: sound test, glare, cleaning access.</p>
+<figure class='diagram'><img class='full' src='figures/D033.svg' alt='Ceiling-cloud do-not-proceed'/><figcaption>Uncertain support is a stop, not a maybe.</figcaption></figure>
+<p>Ceiling clouds require a suitable structural support system. Do not suspend a heavy acoustic panel from an uncertain ceiling, improvised hooks, or adhesive strips. Check the ceiling construction, fixture clearances, load path, hardware, and permission. Stay clear of fans, lights, detectors, sprinklers, and access panels. Do not obstruct maintenance access. Do not install above a bed or chair without a suitable engineered mounting system. Structural anchoring that is beyond your skill needs qualified installation. If the support system is not clearly suitable, use wall-mounted or freestanding treatment instead.</p>
+<p>If a panel fell, would it hit the chair, a child, or a pet? Relocate rather than hope.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Run the stop list.</li><li>Test hardware on a scrap or low-risk spot.</li><li>Photograph after the first panel only if it passes.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>A full wall of untested strips over a study chair.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Stop list passed</li><li>Sample test</li><li>Fall path considered</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Chapter opener</div><div class='page'>
+<div class='opener'>
+<img class='full' src='photos/020-pexels.jpg' alt='A square wooden frame on a work table, core still in its packaging.'/>
+<p class='kicker'>Chapter</p><h1>Build only what you can carry, enclose, and hang</h1>
+<p class='intro'>Cut mineral wool and fiberglass outside the study, following the product's indoor-use and SDS instructions. Use eye protection, gloves, and respiratory protection the material requires — a basic dust mask is not automatically enough. Keep children and pets away from cutting. Do not shake dusty fabric indoors. Enclose the core so loose fibers stay out of the room air; any fabric used for wrapping must suit both acoustic use and enclosure. It is not true that any breathable cloth prevents fiber release. Clean the work area as the manufacturer recommends. Cut lists assume you measure the actual timber. Nominal one-by-three is not a finished size.</p>
+</div></div></div>
+<div class='device'><div class='label'>Day 15 · Cut-list assumptions, written down</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/021-pexels.jpg' alt='A tape measure on actual lumber next to an uncut core board.'/>
+<div class='hero-cap'><p class='day'>Day 15</p><h2>Cut-list assumptions, written down</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Situation: A template says 24 by 36 inches without saying whether that is outside, inside, or including fabric.</p></blockquote>
+<p class='principle'>Every dimension needs a name: outside, opening, core, frame thickness, fabric allowance, joint type.</p>
+<p>Today's output: a filled assumption block for one panel: outside size, core thickness, frame stock as measured, fabric extra, butt or miter, whether it fits the door and stairs.</p>
+<figure class='diagram'><img class='full' src='figures/D016.svg' alt='Name every dimension'/><figcaption>Verify timber before cutting.</figcaption></figure>
+<p>Illustrative 24-by-36-inch panels are examples. Measure lumber; nominal sizes lie. Plan a second person for awkward panels. Yield and waste belong on the budget sheet before you cut.</p>
+<figure class='diagram'><img class='full' src='figures/D013.svg' alt='Fabric extra is not acoustic data'/><figcaption>Order extra for wrap; it does not change the core.</figcaption></figure>
+<p>Do not build this size if you cannot carry it, fit it through the door, brace a wide span, keep fabric from sagging, or mount it within the wall's listed method.</p>
+<figure class='diagram'><img class='full' src='figures/D014.svg' alt='Joints change the cut'/><figcaption>Miter and butt lists are not interchangeable.</figcaption></figure>
+<figure class='diagram'><img class='full' src='figures/D015.svg' alt='Slat rhythm is visual, not a spec'/><figcaption>Gaps do not replace an absorptive backer.</figcaption></figure>
+<div class='steps'><h3>Do this</h3><ol><li>Measure actual frame stock.</li><li>Write outside vs opening.</li><li>Check door width.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Cutting all four rails to the internet's 24 and 36 before measuring the board.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Assumptions filled</li><li>Door fit</li><li>Carry plan</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Day 16 · A square frame, then the core stays enclosed</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/022-pexels.jpg' alt='A clamped rectangular frame with the core still bagged.'/>
+<div class='hero-cap'><p class='day'>Day 16</p><h2>A square frame, then the core stays enclosed</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Situation: Assembling on the carpet.</p></blockquote>
+<p class='principle'>Square, smooth, enclosed. Fibers stay inside.</p>
+<p>Today's output: one dry-fit frame that is square, with a plan for corner blocks and fabric staple zones that do not pierce the core into the room.</p>
+<p>Work on a protected table. Keep blades sharp. Low-VOC finish is a preference, not a health certification — follow the can.</p>
+<p>If the panel is too large after dry-fit, redesign now.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Dry-fit around the core.</li><li>Confirm square.</li><li>Stop if it will not hang or carry safely.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Stapling through a gap that leaves wool exposed on the back against a child's hand height.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Square dry-fit</li><li>Enclosure plan</li><li>Size still acceptable</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Day 17 · Slats are a face, not the absorber</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/020-pexels.jpg' alt='Wood slats over a felt backer on a frame, not bare on a wall.'/>
+<div class='hero-cap'><p class='day'>Day 17</p><h2>Slats are a face, not the absorber</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Situation: A slat kit with no backer specified.</p></blockquote>
+<p class='principle'>Without a documented acoustic backer, slats are decoration.</p>
+<p>Today's output: backer type from the product, or a decision that the slat piece is visual only.</p>
+<figure class='diagram'><img class='full' src='figures/D024.svg' alt='Slat panel decision'/><figcaption>Decoration versus absorption.</figcaption></figure>
+<p>Finish slats off the felt. Example gap patterns are styling. They are not performance numbers.</p>
+<p>Weight goes up with hardwood. Recheck the mount listing.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Name the backer.</li><li>Weigh the design.</li><li>Keep or drop slats.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Nailing slats to drywall and expecting neighbor noise to drop.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Backer named or visual-only</li><li>Weight check</li><li>Mount still valid</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Day 18 · Workspace, PPE, and who helps lift</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/024-pexels.jpg' alt='A protected work table, vacuum, and bagged offcuts — not a bedroom floor.'/>
+<div class='hero-cap'><p class='day'>Day 18</p><h2>Workspace, PPE, and who helps lift</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Situation: Circular saw in a hallway.</p></blockquote>
+<p class='principle'>Inspect tools, manage cords, collect offcuts, and do not treat a paper mask as universal fiber protection.</p>
+<p>Today's output: a pre-build checklist ticked, including ventilation, floor protection, and a second person if the panel is awkward.</p>
+<p>Use the before-cutting checklist from the cores chapter. Today is tools, lift help, cords, and offcuts. Do not treat a paper mask as universal fibre protection.</p>
+<p>Store sharp tools. Plan disposal of offcuts per local rules.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Set a real work surface.</li><li>Put on the PPE the SDS names.</li><li>Arrange help for the lift.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Cutting wool on the study rug with a cloth mask.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Workspace</li><li>PPE from SDS</li><li>Lift help</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Chapter opener</div><div class='page'>
+<div class='opener'>
+<img class='full' src='photos/025-pexels.jpg' alt='A phone on a desk used as a comparison tool, not a certified meter.'/>
+<p class='kicker'>Chapter</p><h1>Compare the same seat, same phone — not a lab report</h1>
+<p class='intro'>Smartphone sound-level readings are useful for comparing repeated tests on the same device. They are not calibrated measurement instruments. Use them to observe changes, not to certify a room or prove a professional acoustic target. A decay timing exercise is not a professional RT60 measurement.</p>
+</div></div></div>
+<div class='device'><div class='label'>Day 19 · A room-decay estimate, not RT60 certification</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/026-pexels.jpg' alt='A notebook logging phone model and chair position, not an RT60 certificate.'/>
+<div class='hero-cap'><p class='day'>Day 19</p><h2>A room-decay estimate, not RT60 certification</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Situation: A blog says play pink noise, drop 20 dB, multiply by three.</p></blockquote>
+<p class='principle'>Same speaker, same phone, same seat, several trials. Stop if the decay vanishes into the noise floor.</p>
+<p>Today's output: a comparison log — device, seat, background note, and whether you even attempt a decay estimate.</p>
+<p>Do not treat 0.3–0.5 seconds as a required study RT60. Different tasks need different rooms. Do not compare two phones as if they were calibrated.</p>
+<p>If you try a decay estimate, keep it labeled as rough. Background noise, speaker response, and the noise floor will distort it. Multiple trials or skip the number and use speech recordings instead. If the app shows A-weighted or C-weighted, peak or average, write that down with the distance to the source. Do not mix those modes across tests.</p>
+<p>Smartphone sound-level readings are useful for comparing repeated tests on the same device. They are not calibrated measurement instruments. Use them to observe changes, not to certify a room or prove a professional acoustic target.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Note device and seat.</li><li>Record background as noisy/quiet.</li><li>Skip decay math if the floor swallows the tail.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Publishing an RT60 to one decimal place from a stopwatch and a phone.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Device logged</li><li>Seat logged</li><li>Estimate labeled rough or skipped</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Day 20 · Speech and clap from the working seat</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/027-pexels.jpg' alt='A phone recording a spoken paragraph at the study chair.'/>
+<div class='hero-cap'><p class='day'>Day 20</p><h2>Speech and clap from the working seat</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Situation: Only a center-room clap was recorded.</p></blockquote>
+<p class='principle'>The useful test is the one you can repeat after a single change.</p>
+<p>Today's output: before recordings of a clap and a paragraph, from the chair, same distance.</p>
+<p>Listen for harshness and whether street or neighbor noise is still the story. Panels will not erase that track.</p>
+<p>Change one thing — a rug, a desk move, one panel — then repeat.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Record clap and speech.</li><li>Keep the setup.</li><li>Change one variable later.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Installing six panels between the before and after recordings.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Before files saved</li><li>Setup notes</li><li>One-variable rule</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Day 21 · Score the study, not the decay</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/025-pexels.jpg' alt='A one-page before/after study scorecard on the desk.'/>
+<div class='hero-cap'><p class='day'>Day 21</p><h2>Score the study, not the decay</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Situation: Echo dropped, glare and a wobbly panel remain.</p></blockquote>
+<p class='principle'>A quieter-sounding room can still be a worse place to work.</p>
+<p>Today's output: after scores for distraction, call clarity, echo, 30-minute study, external-noise frequency, glare, clutter, and panel stability (pass/review).</p>
+<figure class='diagram'><img class='full' src='figures/D027.svg' alt='Before and after study scorecard'/><figcaption>Score the work session, not an RT60. 1 is worst, 10 is best.</figcaption></figure>
+<p>Observe → compare → change one variable → test → record → keep or reverse.</p>
+<p>Next: only buy more treatment if echo still fails and incoming noise is already handled as well as a renter can.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Fill the after scorecard.</li><li>Mark stability pass/review.</li><li>Decide keep, adjust, or stop buying.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Adding more panels because the number looked scientific.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>After scores</li><li>Stability</li><li>Buy/stop decision</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Chapter opener</div><div class='page'>
+<div class='opener'>
+<img class='full' src='photos/025-pexels.jpg' alt='Product spec sheets beside fabric and a small core sample.'/>
+<p class='kicker'>Chapter</p><h1>Buy documentation, then materials</h1>
+<p class='intro'>Cost the whole panel: core, fabric, frame, hardware, tools, delivery, possible pro install, waste, contingency. Marketplace copy is not a data sheet.</p>
+</div></div></div>
+<div class='device'><div class='label'>Day 22 · Quantity before cutting</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/030-pexels.jpg' alt='A shopping list with quantities and empty price cells to fill from quotes.'/>
+<div class='hero-cap'><p class='day'>Day 22</p><h2>Quantity before cutting</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Situation: A matching set of eight panels for a look.</p></blockquote>
+<p class='principle'>If two panels pass the chair test, do not buy eight for symmetry.</p>
+<p>Today's output: a quantity sheet with formulas filled from current USD quotes — not last year's prices, and not a matching set bought for looks.</p>
+<figure class='diagram'><img class='full' src='figures/D028.svg' alt='Budget formulas'/><figcaption>Fill from current USD quotes. Leave a cell blank until you have a number.</figcaption></figure>
+<p>Material subtotal = core + fabric + frame + backing + hardware + adhesive. Project subtotal = material subtotal + tools + delivery + cutting + installation. Estimated total = project subtotal + contingency. For each line record quantity, unit, unit price in USD, waste percentage or quantity, source, date checked, and whether the price is an estimate.</p>
+<figure class='diagram'><img class='full' src='figures/D041.svg' alt='Record for every budget line'/><figcaption>A marketplace photo is not a quote.</figcaption></figure>
+<p>Prices in this book are USD. Measurements are inches; 1 inch equals 25 mm if you need a conversion. Example sizes are illustrations. If sealing or a better chair would help more, spend there first.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Enter quantity, unit, USD price, waste, source, and date.</li><li>Add material subtotal, then project subtotal.</li><li>Add contingency and mark estimates.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Ordering a visual set before a single-panel test.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Count justified</li><li>Yield math</li><li>Contingency</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Day 23 · Refuse undocumented products</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/031-pexels.jpg' alt='A product page next to a handwritten spec checklist with weight filled in.'/>
+<div class='hero-cap'><p class='day'>Day 23</p><h2>Refuse undocumented products</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Situation: A listing shows a lifestyle photo and no weight.</p></blockquote>
+<p class='principle'>Need size, thickness, weight, indoor use, mount rating, cleaning, fire docs where relevant, warranty limits.</p>
+<p>Today's output: a vendor row that is complete or a rejected SKU.</p>
+<p>Replacement fabric and spare hardware matter if you rent and will remove the panel.</p>
+<p>Air-gap frames and thickness claims need the maker's data, not a forum thickness myth.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Demand the spec.</li><li>Reject missing weight or mount data.</li><li>Keep packaging.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Treating a marketplace description as a test report.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Spec complete or reject</li><li>Weight known</li><li>Mount listing known</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Day 24 · Light the work, then graze the cloth</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/002-pexels.jpg' alt='A desk lamp lighting paper, screen dark of window glare, panel away from the bulb.'/>
+<div class='hero-cap'><p class='day'>Day 24</p><h2>Light the work, then graze the cloth</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Situation: Wall washers were specified at 2700 K as always best.</p></blockquote>
+<p class='principle'>Task light and glare control beat a fixed color temperature. Styling is last.</p>
+<p>Today's output: a lighting check that passes for paper and screen, with panel edges not covering the lamp or a switch.</p>
+<figure class='diagram'><img class='full' src='figures/D039.svg' alt='Lighting checks beyond glare'/><figcaption>Warm light is optional, not a rule.</figcaption></figure>
+<p>Does the writing hand cast a shadow on the page? Is the lamp stable and safely positioned? Is the light source reflected in the monitor? Is the screen much brighter than the surrounding room? Can the user adjust the brightness? Does the lighting remain comfortable at night? Are cables clear of the chair and walking path? Does a wall panel obstruct the lamp's heat clearance?</p>
+<p>Neutral light is allowed for detail; warmer light is allowed in the evening. Warm light is not universally better. Hierarchy: safe mount, access, chair movement, acoustics, lighting, then alignment with shelves.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Place a task lamp for paper without a writing-hand shadow.</li><li>Check monitor reflection, room contrast, and night comfort.</li><li>Confirm lamp clearance from any panel and cables off the path.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Grazing a panel with a hot fixture closer than the lamp instructions allow.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Paper and screen light</li><li>Night check</li><li>Clearance and cables</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Chapter opener</div><div class='page'>
+<div class='opener'>
+<img class='full' src='photos/014-pexels.jpg' alt='A printed selection worksheet with room name and date fields.'/>
+<p class='kicker'>Chapter</p><h1>Panel selection worksheet</h1>
+<p class='intro'>Use after the diagnosis. If the problem is incoming noise, this sheet may stay mostly blank on purpose.</p>
+</div></div></div>
+<div class='device'><div class='label'>Day 25 · Fill fields, not paragraphs</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/034-pexels.jpg' alt='A worksheet with inches, weight, and permission filled, coverage percent empty.'/>
+<div class='hero-cap'><p class='day'>Day 25</p><h2>Fill fields, not paragraphs</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Situation: A checklist that is actually an essay.</p></blockquote>
+<p class='principle'>If you cannot complete a field without guessing, you are not ready to order.</p>
+<p>Today's output: room name, date, dimensions in inches, problem type, goal (speech/reading/calls), wall type, permission, panel size and weight, core, fabric, fire docs, cleaning, mount method, budget line, unresolved risks, final decision.</p>
+<figure class='diagram'><img class='full' src='figures/D017.svg' alt='Selection fields that must exist'/><figcaption>Blank means do not order.</figcaption></figure>
+<p>Assumptions belong on the page. Coverage percent is optional and labeled estimate only.</p>
+<figure class='diagram'><img class='full' src='figures/D018.svg' alt='Docs before SKU'/><figcaption>Core choice without docs is incomplete.</figcaption></figure>
+<p>Complete the Day 3 diagnosis worksheet first. Use this sheet only after the noise path is named. Use the mounting-load worksheet before the mounting chapter. Do not purchase if permission, wall, or weight is blank.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Fill every field or NA.</li><li>Sign the decision.</li><li>Attach photos of the wall.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Checking boxes for mineral wool because a sample chapter used it.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Fields complete or NA</li><li>Decision signed</li><li>Risks listed</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Chapter opener</div><div class='page'>
+<div class='opener'>
+<img class='full' src='photos/034-pexels.jpg' alt='A cut list with actual lumber measurements written in.'/>
+<p class='kicker'>Chapter</p><h1>Cut-list and build worksheet</h1>
+<p class='intro'>Copy measured stock sizes. Label outside versus opening. State joint type. Confirm the panel fits the building.</p>
+</div></div></div>
+<div class='device'><div class='label'>Day 26 · Write the assumptions on the cut list</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/034-pexels.jpg' alt='A cut list with measured one-by dimensions, not nominal sizes.'/>
+<div class='hero-cap'><p class='day'>Day 26</p><h2>Write the assumptions on the cut list</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Situation: A template still embeds 2-inch cores as if they were required.</p></blockquote>
+<p class='principle'>Core thickness is a product choice. The list only works if every number is sourced.</p>
+<p>Today's output: cut list with outside dimensions, opening, core thickness, measured frame thickness, fabric allowance, staple clearance, backing included yes/no, tolerances, butt or miter, reversible yes/no, door and stair fit, two-person lift yes/no.</p>
+<figure class='diagram'><img class='full' src='figures/D019.svg' alt='Example A is an example'/><figcaption>Replace with measured values.</figcaption></figure>
+<p>Illustrative 24-by-36 or 30-inch panels are not your panel until they match this sheet.</p>
+<figure class='diagram'><img class='full' src='figures/D020.svg' alt='Thicker is not automatically better bass'/><figcaption>Use product data, not a 3-inch myth.</figcaption></figure>
+<p>Stop if the finished piece needs professional mounting you will not hire.</p>
+<figure class='diagram'><img class='full' src='figures/D021.svg' alt='Large panel hold'/><figcaption>Redesign if carry, door, or mount fails.</figcaption></figure>
+<div class='steps'><h3>Do this</h3><ol><li>Measure stock.</li><li>Fill every assumption.</li><li>Check carry and door.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Cutting to the example because the figure looked official.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Measured stock</li><li>Assumptions complete</li><li>Fit and lift OK</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Chapter opener</div><div class='page'>
+<div class='opener'>
+<img class='full' src='photos/037-pexels.jpg' alt='A finished study corner with a stable panel, clear switches, and a task lamp.'/>
+<p class='kicker'>Chapter</p><h1>Mounting worksheet and final study check</h1>
+<p class='intro'>This is not a damage-free certificate. Complete the install fields, then the handover: function, acoustics honesty, safety, rental paper, maintenance.</p>
+</div></div></div>
+<div class='device'><div class='label'>Day 27 · Install fields and the final quiet-study check</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/038-pexels.jpg' alt='A calm desk after a real study session, panel still on the wall, switches visible.'/>
+<div class='hero-cap'><p class='day'>Day 27</p><h2>Install fields and the final quiet-study check</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Situation: Panels are up. Nobody saved permission or a removal plan.</p></blockquote>
+<p class='principle'>If you cannot study for a half hour, or a panel is unstable, the project is not done.</p>
+<p>Today's output: completed install fields — dimensions, wall and ceiling type, panel size and weight, count, method, hardware, permission, adhesive test, stability, switch/outlet/window/door clearance, child and pet access, removal plan, before/after photos, inspection date — plus the final check below.</p>
+<p>Function: 30–60 minutes of real study, reading and writing without bad glare, chair and desk usable, storage reachable, desk resettable. Acoustics: less echo if that was the goal; speech clearer; external noise still named honestly; room not overly dead. Safety: stable panels, suitable mounts, no exposed fibers, clear exits and devices, lights separated from cloth, safe cables. Copy the mounting-load worksheet: weight, wall type, hardware, maker rating, orientation, mounting points, permission, surface, second retention, above seated or sleeping, stability pass/hold. Rental: permission saved, photos, removal plan, damage reporting. Maintenance: use the schedule in the materials chapter; the fabric maker's cleaning method wins.</p>
+<p>Stop and reconsider remains in force after install: unknown wall, overweight, failed adhesive test, bad ceiling, blocked exit, odor or fibers, moisture, unsafe lift, unclear permission.</p>
+<p>Next step is living in the room, not buying another matching pair.</p>
+<p>Use the scorecard from the measurement chapter and the quantity sheet from sourcing. Do not purchase more panels if incoming noise is still the unsolved problem.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Fill install fields.</li><li>Run a 30-minute study.</li><li>File photos and permission.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Calling the book finished because the panels match the rug.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Install fields</li><li>Study session passed</li><li>Paper trail</li></ul></div>
+</article></div></div>
+</body></html>

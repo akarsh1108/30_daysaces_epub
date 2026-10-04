@@ -1,0 +1,2126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Zero Waste Kitchen Cleaning Kit</title>
+<style>@font-face{font-family:&#34;Source Serif 4&#34;;font-weight:400;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/SourceSerif4-400.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;Source Serif 4&#34;;font-weight:700;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/SourceSerif4-700.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;Fraunces&#34;;font-weight:600;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/Fraunces-600.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;Fraunces&#34;;font-weight:700;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/Fraunces-700.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;DM Sans&#34;;font-weight:400;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/DMSans-400.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;DM Sans&#34;;font-weight:700;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/DMSans-700.woff&#34;) format(&#34;woff&#34;);}
+/* 6x9 KDP magazine interior — WeasyPrint-safe (no absolute overlays / bleed pages).
+   Cover + chapter openers + heroes are STACKED blocks so text never overlaps images.
+   Shared across every book in the series: change this file once, all titles update. */
+
+@page {
+  size: 6in 9in;
+  margin: 0.7in 0.6in 0.7in 0.65in;
+  @top-left {
+    content: string(series-name);
+    font: 7.5pt &#34;DM Sans&#34;, sans-serif;
+    color: #9AA0A2;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  @bottom-center {
+    content: counter(page);
+    font: 8.5pt &#34;DM Sans&#34;, sans-serif;
+    color: #9AA0A2;
+  }
+}
+@page cover {
+  margin: 0;
+  @top-left { content: none; }
+  @bottom-center { content: none; }
+}
+@page front {
+  @top-left { content: none; }
+  @bottom-center { content: none; }
+}
+@page closing {
+  @top-left { content: none; }
+  @bottom-center { content: none; }
+}
+
+:root {
+  --ink: #141816;
+  --paper: #FFFFFF;
+  --accent: #1E5F6B;
+  --accent-deep: #0F3D45;
+  --mist: #F3F6F6;
+  --muted: #7A8285;
+  --red: #C8442B;
+  --serif: &#34;Source Serif 4&#34;, &#34;DejaVu Serif&#34;, Georgia, serif;
+  --display: &#34;Fraunces&#34;, &#34;Source Serif 4&#34;, Georgia, serif;
+  --sans: &#34;DM Sans&#34;, &#34;DejaVu Sans&#34;, sans-serif;
+}
+
+html {
+  font-family: var(--serif);
+  font-size: 10.5pt;
+  line-height: 1.48;
+  color: var(--ink);
+  background: var(--paper);
+}
+body { margin: 0; }
+p { margin: 0 0 0.65em; orphans: 3; widows: 3; }
+img { max-width: 100%; display: block; }
+a { color: inherit; text-decoration: none; }
+
+.series-mark { string-set: series-name content(); display: none; }
+
+/* ========== COVER (shared series template) ========== */
+.cover {
+  page: cover;
+  page-break-after: always;
+  page-break-inside: avoid;
+  width: 6in;
+  height: 9in;
+  overflow: hidden;
+  background: var(--accent-deep);
+}
+.cover-photo {
+  width: 6in;
+  height: 5.35in;
+  object-fit: cover;
+  display: block;
+}
+.cover.cover-designed {
+  background: #111;
+}
+.cover.cover-designed .cover-photo {
+  width: 6in;
+  height: 9in;
+  object-fit: cover;
+}
+.cover-panel {
+  width: 6in;
+  height: 3.65in;
+  box-sizing: border-box;
+  background: var(--accent-deep);
+  color: #fff;
+  padding: 0.38in 0.5in 0.35in;
+}
+.cover-panel .series {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #B7D4D8;
+  margin: 0 0 0.16in;
+}
+.cover-panel .rule {
+  width: 0.9in;
+  height: 2.5pt;
+  background: #fff;
+  margin: 0 0 0.18in;
+}
+.cover-panel h1 {
+  font-family: var(--display);
+  font-size: 26pt;
+  line-height: 1.05;
+  font-weight: 700;
+  margin: 0 0 0.14in;
+  color: #fff;
+}
+.cover-panel .tagline {
+  font-size: 10.5pt;
+  line-height: 1.35;
+  color: #D7E6E8;
+  margin: 0 0 0.4in;
+  max-width: 4.6in;
+}
+.cover-panel .author {
+  font-family: var(--sans);
+  font-size: 10pt;
+  color: #fff;
+  margin: 0;
+  border-top: 0.5pt solid rgba(255,255,255,0.28);
+  padding-top: 0.16in;
+}
+
+/* ========== FRONT MATTER ========== */
+.title-page {
+  page: front;
+  page-break-after: always;
+  padding-top: 1.6in;
+}
+.title-page .mast {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.35in;
+}
+.title-page .rule {
+  width: 1in;
+  height: 2.5pt;
+  background: var(--accent);
+  margin: 0 0 0.3in;
+}
+.title-page h1 {
+  font-family: var(--display);
+  font-size: 28pt;
+  line-height: 1.08;
+  margin: 0 0 0.25in;
+  font-weight: 700;
+}
+.title-page .subtitle {
+  font-size: 12pt;
+  color: #3A4244;
+  margin: 0 0 1.2in;
+  max-width: 4.4in;
+}
+.title-page .author {
+  font-family: var(--sans);
+  font-size: 10pt;
+  color: var(--muted);
+}
+
+.copyright {
+  page: front;
+  page-break-after: always;
+  font-family: var(--sans);
+  font-size: 8pt;
+  line-height: 1.45;
+  color: #555;
+  padding-top: 4.8in;
+}
+.copyright .credits { color: var(--muted); margin-top: 0.4em; }
+
+.toc {
+  page: front;
+  page-break-after: always;
+}
+.toc .kicker {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.12in;
+}
+.toc h2 {
+  font-family: var(--display);
+  font-size: 24pt;
+  margin: 0 0 0.35in;
+  font-weight: 700;
+}
+.toc ol { list-style: none; padding: 0; margin: 0; }
+.toc &gt; ol &gt; li {
+  margin: 0 0 0.45em;
+  font-size: 10.5pt;
+  padding-bottom: 0.28em;
+  border-bottom: 0.4pt solid #E4E8E9;
+}
+.toc &gt; ol &gt; li &gt; a { font-family: var(--display); font-weight: 600; }
+.toc a::after {
+  content: leader(&#34; . &#34;) target-counter(attr(href url), page);
+  font-family: var(--sans);
+  font-size: 8pt;
+  color: var(--muted);
+  font-weight: 400;
+}
+.toc ol ol {
+  margin: 0.15em 0 0;
+  font-size: 9pt;
+  color: #4A5254;
+}
+.toc ol ol li { margin: 0 0 0.12em; border: none; padding: 0; }
+.toc ol ol a { font-family: var(--serif); font-weight: 400; }
+
+/* ========== CHAPTER ========== */
+.chapter { page-break-before: always; }
+
+.chapter-opener {
+  page-break-before: always;
+  page-break-after: always;
+  page-break-inside: avoid;
+  margin: 0;
+  background: var(--accent-deep);
+}
+.chapter-opener img {
+  width: 100%;
+  height: 4.6in;
+  object-fit: cover;
+  display: block;
+}
+.chapter-opener .opener-text {
+  background: var(--accent-deep);
+  color: #fff;
+  padding: 0.32in 0.05in 0.35in;
+}
+.chapter-opener .chap-kicker {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #B7D4D8;
+  margin: 0 0 0.12in;
+}
+.chapter-opener h2 {
+  font-family: var(--display);
+  font-size: 20pt;
+  line-height: 1.12;
+  margin: 0 0 0.12in;
+  font-weight: 700;
+  color: #ffffff;
+}
+.chapter-opener p {
+  font-size: 9.5pt;
+  line-height: 1.4;
+  color: #D7E6E8;
+  margin: 0;
+}
+
+.chapter-title {
+  font-family: var(--display);
+  font-size: 24pt;
+  line-height: 1.1;
+  margin: 0.6in 0 0.22in;
+  font-weight: 700;
+}
+.intro {
+  font-size: 11pt;
+  color: #333;
+  margin-bottom: 0.4in;
+  border-left: 3pt solid var(--accent);
+  padding-left: 0.16in;
+}
+
+/* ========== UNIT ========== */
+.unit { page-break-before: always; }
+.chapter &gt; .unit:first-of-type { page-break-before: auto; }
+
+.unit-head { margin: 0 0 0.25in; }
+.day {
+  display: block;
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 5pt;
+}
+.unit h3, .hero h3 {
+  font-family: var(--display);
+  font-size: 17pt;
+  line-height: 1.15;
+  margin: 0;
+  font-weight: 700;
+}
+
+/* Hero: image then caption strip UNDER it — never overlays */
+.hero {
+  margin: 0 0 0.28in;
+  page-break-inside: avoid;
+  background: var(--mist);
+}
+.hero img {
+  width: 100%;
+  height: 3.15in;
+  object-fit: cover;
+  display: block;
+}
+.hero .hero-label {
+  padding: 0.16in 0.18in 0.18in;
+}
+.hero .day { color: var(--accent); }
+.hero h3 { color: var(--ink); font-size: 16pt; }
+
+.scenario {
+  background: var(--mist);
+  border-top: 2.5pt solid var(--accent);
+  padding: 0.16in 0.18in 0.18in;
+  margin: 0 0 0.25in;
+}
+.scenario .label {
+  font-family: var(--sans);
+  font-size: 7.5pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.08in;
+}
+.scenario p {
+  font-size: 10pt;
+  font-style: italic;
+  color: #2A3234;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.principle {
+  font-family: var(--display);
+  font-size: 13.5pt;
+  line-height: 1.28;
+  font-weight: 600;
+  margin: 0.05in 0 0.28in;
+  color: var(--accent-deep);
+  padding: 0.08in 0 0.08in 0.18in;
+  border-left: 3pt solid var(--accent);
+}
+
+.body-copy p { font-size: 10.5pt; }
+
+figure.diagram {
+  margin: 0.18in 0 0.28in;
+  page-break-inside: avoid;
+  background: var(--mist);
+  padding: 0.1in;
+}
+figure.diagram img {
+  width: 100%;
+  display: block;
+  background: #fff;
+}
+figure.diagram figcaption {
+  font-family: var(--sans);
+  font-size: 8pt;
+  color: var(--muted);
+  line-height: 1.35;
+  margin-top: 5pt;
+}
+
+.steps, .checklist, .mistake {
+  page-break-inside: avoid;
+  margin: 0.25in 0;
+}
+.steps h4, .checklist h4, .mistake h4 {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0 0 7pt;
+  font-weight: 700;
+}
+.steps {
+  background: var(--mist);
+  padding: 0.16in 0.18in;
+}
+.steps ol {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  counter-reset: step;
+}
+.steps li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 1.4em;
+  margin: 0 0 6pt;
+  font-size: 10pt;
+}
+.steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: var(--sans);
+  font-size: 8.5pt;
+  font-weight: 700;
+  color: var(--accent);
+}
+.steps em {
+  color: var(--muted);
+  font-style: normal;
+  font-family: var(--sans);
+  font-size: 8pt;
+}
+
+.mistake {
+  background: #F8EEEB;
+  padding: 0.16in 0.18in;
+  border-left: 3pt solid var(--red);
+}
+.mistake h4 { color: var(--red); }
+.mistake p { margin: 0; font-size: 9.8pt; }
+
+.checklist ul { list-style: none; padding: 0; margin: 0; }
+.checklist li {
+  padding-left: 1.4em;
+  position: relative;
+  margin: 0 0 5pt;
+  font-size: 10pt;
+}
+.checklist li::before {
+  content: &#34;&#34;;
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  width: 0.7em;
+  height: 0.7em;
+  border: 1.2pt solid var(--accent);
+}
+
+/* ========== LAST PAGE (shared series closer) ========== */
+.closing {
+  page: closing;
+  page-break-before: always;
+  padding-top: 0;
+}
+.closing-photo {
+  width: 100%;
+  height: 3.2in;
+  object-fit: cover;
+  display: block;
+  margin: 0 0 0.45in;
+}
+.closing .kicker {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.16in;
+}
+.closing .rule {
+  width: 1in;
+  height: 2.5pt;
+  background: var(--accent);
+  margin: 0 0 0.25in;
+}
+.closing h2 {
+  font-family: var(--display);
+  font-size: 24pt;
+  line-height: 1.1;
+  margin: 0 0 0.2in;
+}
+.closing .blurb {
+  font-size: 11.5pt;
+  line-height: 1.4;
+  color: #333;
+  max-width: 4.5in;
+  margin: 0 0 0.7in;
+}
+.closing .author {
+  margin-top: 0.9in;
+  font-family: var(--sans);
+  font-size: 9.5pt;
+  color: var(--muted);
+}
+</style>
+</head>
+<body>
+<span class="series-mark">30 Day Spaces</span>
+
+<section class="cover cover-designed">
+  <img class="cover-photo" src="cover.jpg" alt="Zero Waste Kitchen Cleaning Kit cover">
+</section>
+
+<section class="title-page">
+  <p class="mast">30 Day Spaces</p>
+  <div class="rule"></div>
+  <h1>Zero Waste Kitchen Cleaning Kit</h1>
+<p class="subtitle">A compact kit, surface-appropriate methods, and refill routines for small kitchens — aimed at less packaging, not a promise of zero waste.</p><p class="author">Akarsh Priyadarshan</p></section>
+
+<section class="copyright">
+  <p>© 2026 Akarsh Priyadarshan. All rights reserved.</p>
+  <p>Interior designed for Amazon KDP print (6 × 9 in) and Kindle.</p>
+  <p>24 interior images in this book
+     were generated with AI tools and reviewed by the author.
+     All diagrams were drawn from the measurements in the text.</p>
+<p class="credits">Photographs: Photo by Ty Nguyễn on Pexels; Photo by Cup of  Couple on Pexels; Photo by Fabian Reck on Pexels; Photo by Yunuen Zempoaltecatl on Pexels; Photo by 3D Render on Pexels; Photo by Betül  Üstün on Pexels; Photo by Andrea Davis on Pexels; Photo by Alec Adriano on Pexels; Photo by SHVETS production on Pexels; Photo by Lisa Fotios on Pexels; Photo by Marc Pell on Pexels; Photo by Tara Winstead on Pexels; Photo by ready made on Pexels; Photo by Huy Phan on Pexels; Photo by Max Vakhtbovych on Pexels; Photo by American  Cleaning Institute on Pexels; Photo by Samuel Jerónimo on Pexels; Photo by cottonbro studio on Pexels; Photo by Gustavo Galeano Maz on Pexels; Photo by Dương Nhân on Pexels; Photo by Google DeepMind on Pexels; Photo by Curtis Adams on Pexels; Photo by Boys in Bristol Photography on Pexels; Photo by Beyzanur K. on Pexels; Photo by Engin Akyurt on Pexels; Photo by ommy on Pexels; Photo by Alley Chien on Pexels; Photo by RDNE Stock project on Pexels; Photo by Anna Shvets on Pexels; Photo by Keegan Checks on Pexels; Photo by Thomas  balabaud on Pexels; Photo by alleksana on Pexels; Photo by Amar  Preciado on Pexels; Photo by Matheus Bertelli on Pexels; Photo by Andreas Näslund on Pexels; Photo by Elizabeth Iris on Pexels; Photo by Liliana Drew on Pexels; Photo by Hanna Pad on Pexels; Photo by Valeriia Miller on Pexels.</p></section>
+
+<section class="toc">
+  <p class="kicker">Inside this book</p>
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#foundation-first-assessing-your-tiny-kitchen-and-zero-waste-">Foundation First: Assess the Kitchen and Set Realistic Goals</a>
+      <ol><li><a href="#before-you-begin">Before You Begin</a></li><li><a href="#how-the-systems-work-together">How the Systems Work Together</a></li><li><a href="#defining-clean-in-your-tiny-kitchen">Defining Clean in Your Tiny Kitchen</a></li><li><a href="#measuring-your-kitchen-constraints">Measuring Your Kitchen Constraints</a></li><li><a href="#mapping-your-micro-zones">Mapping Your Micro Zones</a></li><li><a href="#setting-safety-parameters">Setting Safety Parameters</a></li><li><a href="#aligning-tasks-to-energy-and-airflow">Aligning Tasks to Energy and Airflow</a></li></ol>
+    </li>
+    <li><a href="#the-compact-essentials-building-your-multi-use-cleaning-kit">The Compact Essentials: Building Your Multi-Use Cleaning Kit</a>
+      <ol><li><a href="#understanding-the-problem">Understanding the Problem</a></li><li><a href="#selecting-your-tools">Selecting Your Tools</a></li><li><a href="#assembling-your-kit">Assembling Your Kit</a></li><li><a href="#maintaining-your-kit">Maintaining Your Kit</a></li></ol>
+    </li>
+    <li><a href="#refillable-cleaner-recipes-for-tiny-kitchens">Refillable Cleaner Recipes for Tiny Kitchens</a>
+      <ol><li><a href="#understanding-the-problem">Understanding the Problem</a></li><li><a href="#the-solution-framework">The Solution Framework</a></li><li><a href="#recipes-and-ratios-in-detail">Recipe cards</a></li><li><a href="#how-to-put-this-into-practice">How to Put This Into Practice</a></li></ol>
+    </li>
+    <li><a href="#space-saving-storage-layouts-under-30-inches">Space-Saving Storage Layouts Under 30 Inches</a>
+      <ol><li><a href="#understanding-your-space">Understanding Your Space</a></li><li><a href="#implementing-the-clear-framework">Implementing the CLEAR Framework</a></li><li><a href="#creating-your-reach-frequency-map">Creating Your Reach Frequency Map</a></li><li><a href="#finalizing-your-storage-layout">Finalizing Your Storage Layout</a></li></ol>
+    </li>
+    <li><a href="#the-10-minute-daily-micro-routine">The 10-Minute Daily Micro-Routine</a>
+      <ol><li><a href="#understanding-the-sweep-loop">Understanding the SWEEP Loop</a></li><li><a href="#building-your-10-minute-ritual">Three timed versions</a></li><li><a href="#weekly-micro-rotations">Weekly Micro Rotations</a></li></ol>
+    </li>
+    <li><a href="#landlord-safe-surface-specific-cleaning-methods">Landlord-Safe, Surface-Specific Cleaning Methods</a>
+      <ol><li><a href="#understanding-the-ph-pathway">Understanding the pH Pathway</a></li><li><a href="#cleaning-laminate-counters">Cleaning Laminate Counters</a></li><li><a href="#maintaining-butcher-block-surfaces">Maintaining Butcher Block Surfaces</a></li><li><a href="#cleaning-stainless-steel-surfaces">Cleaning Stainless Steel Surfaces</a></li><li><a href="#effective-glass-cleaning-techniques">Effective Glass Cleaning Techniques</a></li></ol>
+    </li>
+    <li><a href="#quick-spill-response-and-sanitization-protocols">Quick Spill Response and Sanitization Protocols</a>
+      <ol><li><a href="#understanding-the-stop-framework">Understanding the STOP Framework</a></li><li><a href="#responding-to-raw-meat-drips">Responding to Raw Meat Drips</a></li><li><a href="#cleaning-dairy-and-sugary-liquids">Cleaning Dairy and Sugary Liquids</a></li><li><a href="#addressing-greasy-splatters">Addressing Greasy Splatters</a></li></ol>
+    </li>
+    <li><a href="#seasonal-deep-clean-playbooks-for-small-kitchens">Seasonal Deep-Clean Playbooks for Small Kitchens</a>
+      <ol><li><a href="#the-importance-of-a-seasonal-reset">The Importance of a Seasonal Reset</a></li><li><a href="#executing-the-prep-cycle">Executing the PREP Cycle</a></li><li><a href="#maintaining-your-kitchen-post-clean">Maintaining Your Kitchen Post-Clean</a></li></ol>
+    </li>
+    <li><a href="#tracking-waste-and-costs-and-adapting-for-renters-vanlife-rv">Tracking Waste and Costs for Compact Living</a>
+      <ol><li><a href="#building-your-waste-and-cost-dashboard">Building Your Waste and Cost Dashboard</a></li><li><a href="#mapping-your-refill-route">Mapping Your Refill Route</a></li><li><a href="#applying-the-constraints-compass">Applying the Constraints Compass</a></li><li><a href="#running-the-ninety-day-sprint">Running the Ninety Day Sprint</a></li></ol>
+    </li>
+    <li><a href="#compact-zero-waste-cleaning-kit-checklist">Compact Zero-Waste Cleaning Kit Checklist</a>
+      <ol><li><a href="#purpose-and-benefits">What this sheet is for</a></li><li><a href="#how-to-use-the-checklist">How to Use the Checklist</a></li><li><a href="#core-kit-items">Core Kit Items</a></li><li><a href="#replacement-schedule-and-maintenance">Condition-based replacement</a></li></ol>
+    </li>
+    <li><a href="#refill-label-and-batch-log-template">Refill Label and Batch Log Template</a>
+      <ol><li><a href="#purpose-and-benefits">What this sheet is for</a></li><li><a href="#how-to-use-the-templates">How to Use the Templates</a></li><li><a href="#logging-and-tracking-usage">Logging and Tracking Usage</a></li></ol>
+    </li>
+    <li><a href="#landlord-safe-surface-methods-quick-reference-guide">Landlord-Safe Surface Methods Quick Reference Guide</a>
+      <ol><li><a href="#purpose-and-benefits">What this sheet is for</a></li><li><a href="#how-to-use">How to Use</a></li><li><a href="#main-content-quick-reference-matrix">Surface compatibility matrix</a></li><li><a href="#tips-for-success">Tips for Success</a></li><li><a href="#common-mistakes">Common Mistakes</a></li></ol>
+    </li>
+    <li><a href="#waste-and-cost-tracker-worksheet">Waste And Cost Tracker Worksheet for Tiny Kitchens</a>
+      <ol><li><a href="#purpose-and-benefits">What this sheet is for</a></li><li><a href="#how-to-use-the-tracker">How to Use the Tracker</a></li><li><a href="#tips-for-success">Tips for Success</a></li><li><a href="#common-mistakes">Common Mistakes</a></li><li><a href="#next-steps">Next Steps</a></li></ol>
+    </li>
+    <li><a href="#sources-and-limits">Sources and Limits</a>
+    </li>
+  </ol>
+</section>
+
+<section class="chapter" id="foundation-first-assessing-your-tiny-kitchen-and-zero-waste-">
+  <div class="chapter-opener">
+    <img src="photos/001-pexels.jpg" alt="A compact kitchen with a clear counter and a small labelled cleaning caddy near the sink.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Foundation First: Assess the Kitchen and Set Realistic Goals</h2>
+<p>This book is for people who cook in a small kitchen — renters, shared flats, and compact apartments. Zero waste here means a direction: fewer disposable wipes, fewer duplicate bottles, and a refill habit you can keep. It is not an automatic result of buying refillable bottles. You will set up a compact kit, mix a few surface-appropriate cleaners, run a short daily reset, and track cost and packaging against a baseline. Do not treat this book as a professional food-safety, mould-remediation, or hazardous-materials manual. Follow manufacturer labels for any sanitizer or disinfectant.</p>    </div>
+  </div>
+
+  <article class="unit" id="before-you-begin">
+
+    <figure class="hero">
+      <img src="photos/002-pexels.jpg" alt="A compact kitchen with a clear counter and a small labelled cleaning caddy near the sink.">
+      <div class="hero-label">
+<span class="day">Start here</span>        <h3>Before You Begin</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Measure, list surfaces, and label bottles before you mix anything.</p>
+
+    <div class="body-copy">
+      <p>Use this list once, then keep the rest of the book as reference. You do not need to finish every chapter before you clean the sink tonight.</p>
+      <p>Keep all mixtures away from children and pets. Never store a homemade cleaner in a food or beverage container. Label every bottle with contents and preparation date. Do not reuse a container if its previous contents could react with the new solution. Never mix cleaners or disinfectants unless the product instructions explicitly permit it.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Check</h4>
+      <ol><li>Measure the cleaning-storage space you actually have, including no-under-sink options.</li><li>List kitchen surfaces and mark which ones touch food.</li><li>Record products you already own. Set unidentified or expired bottles aside for safe disposal.</li><li>Choose one mixing area that is not a food-prep board.</li><li>Select a small number of tools and make labels before the first refill.</li><li>Write a one-month baseline for cost and packaging, then test each method on a hidden spot.</li></ol>
+    </div>
+
+
+    <div class="checklist">
+      <h4>Check</h4>
+      <ul><li>Storage measured.</li><li>Food-contact surfaces identified.</li><li>Existing products listed.</li><li>Labels ready.</li><li>Baseline started.</li><li>Hidden-spot test done.</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="how-the-systems-work-together">
+
+    <figure class="hero">
+      <img src="photos/003-openai.jpg" alt="Notebook list of assess, set up, clean, respond, and review.">
+      <div class="hero-label">
+<span class="day">Map</span>        <h3>How the Systems Work Together</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Use one sequence: assess, set up, clean, respond, review. Named frameworks are tools inside that sequence, not separate programs to memorize.</p>
+
+    <div class="body-copy">
+      <p>1. Assess. Measure space, list surfaces, note safety limits, and set a waste-and-cost baseline. The Constraints Compass and Reach Frequency Map belong here.</p>
+      <p>2. Set up. Choose the kit, a storage layout, and a refill system. CLEAR is the storage layout: Containers, Labels, Essentials, Access, Refill.</p>
+      <p>3. Clean. Use the daily routine and surface-specific methods. SWEEP is the daily order: Surfaces, Washware, Empty waste, Equipment, Put away. PREP is the occasional deep-clean cycle.</p>
+      <p>4. Respond. Handle spills with STOP: Secure, Triage, Operate, Purge. Use a labelled sanitizer only when the spill and the surface require it.</p>
+      <p>5. Review. Track waste, cost, tool condition, and what to change. The Waste and Cost Dashboard and the ninety-day sprint belong here.</p>
+      <p>If a name is not helping you decide what to do next, skip it and return to this five-step sequence.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="defining-clean-in-your-tiny-kitchen">
+
+    <figure class="hero">
+      <img src="photos/004-openai.jpg" alt="image of a tidy kitchen with defined clean standards">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Defining Clean in Your Tiny Kitchen</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>A 1BHK kitchen is clean enough for the next meal when the sink is empty, counters are crumb-free, and food-contact boards are washed. Weekly work is splash zones, the microwave, and floor corners — not a promise of a perfect kitchen.</p>
+    </div>
+
+    <p class="principle">A clear definition of cleanliness helps anchor your daily and weekly tasks.</p>
+
+    <div class="body-copy">
+      <p>Decide what &#39;done&#39; means in this room before you buy tools. Daily clean: sink empty, counters wiped, no standing food waste. Weekly reset: appliance faces, splash zone, and floor edges. That is a working standard, not a guarantee.</p>
+      <figure class="diagram">
+        <img src="figures/D002.svg" alt="If A Cabinet Is 22 Inches Wide">
+<figcaption>If a cabinet is 22 inches wide, 20 inches deep, and 14 inches high, you can model how a small caddy and refill jars fit.</figcaption>      </figure>
+      <p>Cleaning is not the same as sanitizing or disinfecting. Cleaning removes dirt, food residue, and many germs. Sanitizing or disinfecting requires a product and procedure suitable for the specific surface and purpose. Always follow the product label, including contact time, dilution, ventilation, and rinsing requirements. Never mix cleaning products or disinfectants.</p>
+      <figure class="diagram">
+        <img src="figures/D003.svg" alt="She Measured 18 Inches Of Under Sink">
+<figcaption>She measured 18 inches of under sink width and 12 inches of height, plus a narrow 4 inch shelf by the stove.</figcaption>      </figure>
+      <p>Zero waste in this book is a tracking goal. Reusable cloths still use water, detergent, and eventually need disposal. Count packaging and cost against a baseline instead of claiming the system is waste-free.</p>
+      <figure class="diagram">
+        <img src="figures/D004.svg" alt="She Replaced Paper Towels With Four Swedish">
+<figcaption>She replaced paper towels with four Swedish cloths stored on the 4 inch shelf in a small tray.</figcaption>      </figure>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Mistake: treating every extra bottle as &#39;more prepared.&#39; Consequence: the under-sink cabinet becomes unsearchable and you skip cleaning. Correction: keep one caddy of labelled essentials and store backups only if you have a second dry shelf.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="measuring-your-kitchen-constraints">
+
+    <figure class="hero">
+      <img src="photos/005-pexels.jpg" alt="image of a well-measured cabinet with cleaning tools organized">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>Measuring Your Kitchen Constraints</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Measuring your kitchen constraints is essential for effective organization and planning.</p>
+
+    <div class="body-copy">
+      <p>Use a tape measure to quantify your storage inches, time in minutes, and waste in packages. For storage inches, measure the interior width, depth, and height of under-sink space, open shelves, and the clearance for your tallest bottle. For example, if a cabinet is 22 inches wide, 20 inches deep, and 14 inches high, you can model how a small caddy and refill jars fit.</p>
+      <figure class="diagram">
+        <img src="figures/D003.svg" alt="She Measured 18 Inches Of Under Sink">
+<figcaption>She measured 18 inches of under sink width and 12 inches of height, plus a narrow 4-inch shelf by the stove.</figcaption>      </figure>
+      <p>Decide your daily and weekly effort in minutes. For instance, aim for 8 to 12 minutes daily and 25 to 35 minutes weekly. These caps keep routines sustainable and manageable, especially in a tiny kitchen.</p>
+      <p>Count how many bottles, sprayers, sponges, gloves, and paper towel rolls you toss per month. Write it down and note materials like plastic, cardboard, and mixed. This baseline will help you identify areas for improvement.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="mapping-your-micro-zones">
+
+    <figure class="hero">
+      <img src="photos/006-pexels.jpg" alt="image of a mapped kitchen layout with labeled zones">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Mapping Your Micro Zones</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Mapping micro zones helps streamline your cleaning process and tool placement.</p>
+
+    <div class="body-copy">
+      <p>Draw a simple plan of your kitchen on one sheet of paper. Label five zones: Wet Zone (sink, faucet, drainboard, dish rack), Prep Zone (counter space for chopping and mixing), Heat Zone (stove, oven, nearby backsplash), Mess Zone (areas that catch splatters), and Storage Zone (where your cleaning kit will live). This visual representation will guide your cleaning routine and tool organization.</p>
+      <p>For each zone, note the most common messes. For example, the wet zone often has food bits and soap scum, while the prep zone accumulates crumbs and sticky film. Identifying these messes allows you to place tools nearby for quick access and reduce the steps needed to clean up.</p>
+      <p>This mapping exercise will direct tool placement and routines, ensuring that you can clean efficiently and effectively.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="setting-safety-parameters">
+
+    <figure class="hero">
+      <img src="photos/007-pexels.jpg" alt="image of a cleaning kit with safety parameters displayed">
+      <div class="hero-label">
+<span class="day">Day 4</span>        <h3>Setting Safety Parameters</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Establishing safety parameters ensures that your cleaning methods are effective without damaging surfaces.</p>
+
+    <div class="body-copy">
+      <p>Cleaning is not the same as sanitizing or disinfecting. Cleaning removes dirt, food residue, and many germs. Sanitizing or disinfecting requires a product and procedure suitable for the specific surface and purpose. Always follow the product label, including contact time, dilution, ventilation, and rinsing requirements. Never mix cleaning products or disinfectants.</p>
+      <p>List surfaces: laminate, wood, stone, stainless, glass, painted cabinets, appliance skins, and seams. Vinegar can etch natural stone. Abrasives can scratch acrylic and some stainless. Test a hidden spot and wait to inspect before wider use.</p>
+      <p>Keep all mixtures away from children and pets. Never store a homemade cleaner in a food or beverage container. Label every bottle with contents and preparation date. Do not reuse a container if its previous contents could react with the new solution. Never mix cleaners or disinfectants unless the product instructions explicitly permit it.</p>
+      <p>Homemade mixtures are cleaners unless a product you buy is labelled as a sanitizer or disinfectant for that surface. Do not call a peroxide mix a sanitizer because the bottle says 3 percent hydrogen peroxide.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Write the surface list and mark food-contact areas.</li><li>Read every label you already own. Set unknowns aside.</li><li>Choose one mixing area away from cutting boards.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Mistake: spraying a new mix on marble because it worked on laminate. Consequence: etching or a dull patch that a renter cannot easily reverse. Correction: check the surface list, then test a hidden spot.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="aligning-tasks-to-energy-and-airflow">
+
+    <figure class="hero">
+      <img src="photos/008-pexels.jpg" alt="image of a well-ventilated kitchen during cleaning">
+      <div class="hero-label">
+<span class="day">Day 5</span>        <h3>Aligning Tasks to Energy and Airflow</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Aligning cleaning tasks with your energy levels and airflow can enhance efficiency and effectiveness.</p>
+
+    <div class="body-copy">
+      <p>Note your schedule and kitchen ventilation. For example, if you cook late at night when your energy is low, it may be more effective to do quick clean-ups immediately after meals when you have more energy. Quick sink clears and counter wipes can happen right after eating, while grease cleaning on the stove can occur while it is warm and the window is open.</p>
+      <p>Schedule tasks when you have energy and when airflow helps. For instance, do floor corners when traffic is low, ensuring you can clean without interruptions. This alignment will make your cleaning routine feel less burdensome and more manageable.</p>
+      <p>By being mindful of your energy levels and the kitchen environment, you can create a cleaning routine that works with your lifestyle rather than against it.</p>
+    </div>
+
+
+
+
+  </article>
+</section>
+<section class="chapter" id="the-compact-essentials-building-your-multi-use-cleaning-kit">
+  <div class="chapter-opener">
+    <img src="photos/009-pexels.jpg" alt="A compact cleaning caddy with labelled refillable bottles, folded cloths, a soft brush, and a protected scraper.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>The Compact Essentials: Building Your Multi-Use Cleaning Kit</h2>
+<p>Build one kit that fits the space you measured. The list below is the working set. Optional items come after. Do not share cloths or brushes between raw-meat cleanup and ordinary wiping.</p>    </div>
+  </div>
+
+  <article class="unit" id="understanding-the-problem">
+
+    <figure class="hero">
+      <img src="photos/010-pexels.jpg" alt="A clean, organized under-sink cabinet with a focus on the compact cleaning kit.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Understanding the Problem</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Aditi lives in a 1BHK in Pune with a 9-foot living room and a tiny kitchen. Every time she opens her under-sink cabinet, she’s greeted by a chaotic mix of bottles and brushes, making it hard to find what she needs.</p>
+    </div>
+
+    <p class="principle">Clutter in small spaces can lead to inefficiency and frustration.</p>
+
+    <div class="body-copy">
+      <p>Tiny kitchens multiply the friction of every extra object. Single-task tools take up valuable inches in drawers and on rails, while disposables like paper towels create a steady stream of trash. Mismatched bottles occupy awkward corners, and cheap sprayers often fail at critical moments. This chaos leads to decision fatigue, as you waste time searching for the right product for glass versus grease versus scale.</p>
+      <p>Ergonomics also suffer in cramped spaces. Hard-to-grip brushes, thin cloths that smear instead of absorb, and bulky caddies slow you down. Many small apartments have landlord restrictions that prevent drilling, leading to hooks that fall or magnets that slip, resulting in cluttered counters. To create an effective cleaning system, you must address use, storage, and sustainability together.</p>
+      <p>The Compact Essentials Framework offers a solution: Coverage, not clutter; the three chemistries; and one-grab portability. By focusing on multi-use tools, you can tackle the dominant soils in tiny kitchens without cluttering your space.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="selecting-your-tools">
+
+    <figure class="hero">
+      <img src="photos/011-openai.jpg" alt="A close-up of essential cleaning tools, emphasizing their multi-use capabilities.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>Selecting Your Tools</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>A shared rental with a load-bearing wall has no spare drawer. The kit has to live in one caddy that fits an 18-inch under-sink bay, or on a tension shelf if that bay is full.</p>
+    </div>
+
+    <p class="principle">Choose multi-use tools that address multiple cleaning tasks without taking up excess space.</p>
+
+    <div class="body-copy">
+      <p>Essential: four everyday cloths, two polish cloths, one soft brush, one squeegee, three labelled bottles, gloves, one protected scraper. Optional: bottle brush, extra gloves, a second caddy. Substitutes: a folded cotton towel for a missing polish cloth; a plastic card for a metal scraper on soft finishes.</p>
+      <figure class="diagram">
+        <img src="figures/D010.svg" alt="Your complete tiny-kitchen cleaning kit">
+<figcaption>What to notice: quantity is a starting kit, not a shopping contest. Replace by condition, not by a calendar.</figcaption>      </figure>
+      <p>If you have no under-sink storage, use a lidded caddy on a high shelf or a hanging over-door rack rated for the weight. If you cannot reach a refill shop, buy the smallest labelled concentrate you will actually empty, and log the packaging as part of the baseline.</p>
+      <p>Keep a separate cloth pair for raw-meat and poultry juices. Wash those apart from everyday cloths.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Mistake: using the breakfast-wipe cloth on a chicken drip, then putting it back in the caddy. Consequence: other supplies pick up soil. Correction: quarantine that cloth, wash it hot according to its care label, and dry it fully before it returns to the kit.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="assembling-your-kit">
+
+    <figure class="hero">
+      <img src="photos/012-pexels.jpg" alt="A close-up of the cleaning kit components, showcasing labels and arrangement.">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Assembling Your Kit</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">A well-assembled kit maximizes efficiency and minimizes clutter.</p>
+
+    <div class="body-copy">
+      <p>Begin by measuring your storage slot—height, width, and depth. Aim for a caddy that leaves one finger of clearance for easy lift-out. Choose a caddy that prioritizes a waterproof base, smooth corners, and a low center of gravity. If your space is narrow, opt for a rectangular caddy and orient bottles with the short side in.</p>
+      <p>Select standardized containers for your cleaning solutions. Choose refillable bottles in one or two consistent sizes to ensure they nest or line up tightly. Opt for wide mouths for easy refilling with a collapsible funnel. Clearly label each bottle with the product name, dilution ratio, and date mixed, using waterproof labels to prevent smearing.</p>
+      <p>Stage your caddy by placing the fine mist bottle at the front, brushes handle up, and the squeegee along one side. Fold cloths by task types and tuck the razor scraper safely into a sleeve. If you use gloves, drape them over the edge to dry.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="maintaining-your-kit">
+
+    <figure class="hero">
+      <img src="photos/013-pexels.jpg" alt="A close-up of the cleaning kit in use, showcasing its functionality.">
+      <div class="hero-label">
+<span class="day">Day 4</span>        <h3>Maintaining Your Kit</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Regular maintenance keeps your cleaning kit functional and ready for use.</p>
+
+    <div class="body-copy">
+      <p>Create a wash loop by keeping a mesh laundry bag inside the caddy for used cloths. When the bag is full, it goes straight into the wash, preventing mildew and keeping cloths together. Set refill triggers by marking a line on the spray bottle at one third. When the liquid hits that line, add the recipe to your next shopping list or batch day to avoid last-minute scrambling.</p>
+      <p>Regularly vet each tool in your kit. Run your fingertip over the bristles of brushes; if they splay easily, they will likely deform. Check the trigger of the sprayer to ensure it produces a steady mist, and ensure the squeegee blade is supple. Replace any worn-out tools promptly to maintain efficiency.</p>
+      <p>Finally, avoid common pitfalls such as overbuying cloths, using cheap sprayers, and neglecting to label bottles. Proper labeling prevents confusion and ensures safety in your cleaning routine.</p>
+    </div>
+
+
+
+
+  </article>
+</section>
+<section class="chapter" id="refillable-cleaner-recipes-for-tiny-kitchens">
+  <div class="chapter-opener">
+    <img src="photos/014-pexels.jpg" alt="Three labelled refillable bottles on a small kitchen counter, away from food.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Refillable Cleaner Recipes for Tiny Kitchens</h2>
+<p>These are small-batch cleaners for selected surfaces. They are not sanitizers unless the product you use is labelled for that job. Do not mix vinegar into castile soap. Use acid and soap as separate approaches. Essential oils are optional fragrance only; they do not make a formula work.</p>    </div>
+  </div>
+
+  <article class="unit" id="understanding-the-problem">
+
+    <figure class="hero">
+      <img src="photos/015-openai.jpg" alt="a disorganized kitchen counter filled with cleaning products">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Understanding the Problem</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>A small counter is already crowded with duplicate bottles that are mostly water. The job is fewer, labelled mixes — not a row of &#39;refillable&#39; claims.</p>
+    </div>
+
+    <p class="principle">Tiny kitchens need efficient cleaning solutions that minimize clutter and maximize effectiveness.</p>
+
+    <div class="body-copy">
+      <p>Store bottles waste space and often leave you guessing which one is for glass. A refillable kit shrinks packaging only if you actually empty and refill the same bottles and you stop buying duplicates.</p>
+      <p>These formulas are intended for selected surfaces only. Check compatibility and test an inconspicuous area before broader use.</p>
+      <p>Keep all mixtures away from children and pets. Never store a homemade cleaner in a food or beverage container. Label every bottle with contents and preparation date. Do not reuse a container if its previous contents could react with the new solution. Never mix cleaners or disinfectants unless the product instructions explicitly permit it.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Mistake: calling a homemade mix refillable and therefore safe on every surface. Consequence: etched stone or a residue on a cutting board. Correction: use the compatibility table and the label.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="the-solution-framework">
+
+    <figure class="hero">
+      <img src="photos/016-pexels.jpg" alt="a shelf filled with cleaning supplies organized by type">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>The Solution Framework</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Understanding the three bases of cleaning can simplify your approach and help you create effective solutions.</p>
+
+    <div class="body-copy">
+      <p>Cleaning is not the same as sanitizing or disinfecting. Cleaning removes dirt, food residue, and many germs. Sanitizing or disinfecting requires a product and procedure suitable for the specific surface and purpose. Always follow the product label, including contact time, dilution, ventilation, and rinsing requirements. Never mix cleaning products or disinfectants.</p>
+      <figure class="diagram">
+        <img src="figures/D005.svg" alt="Compatibility and limitations">
+<figcaption>What to notice: each row is a separate approach. Do not combine rows in one bottle.</figcaption>      </figure>
+      <p>Think in three separate actions, not one magic bottle: surfactant (castile soap) lifts grease; mild alkali (baking soda) helps stuck film where the surface can take a paste; acid (vinegar or citric acid) is for mineral film on compatible surfaces only. Hydrogen peroxide and alcohol are optional labelled products, not part of the soap mix.</p>
+      <p>Keep ratio notes on a card in the caddy. Hard water may need a little more soap for grease; that is a test, not a universal recipe.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="recipes-and-ratios-in-detail">
+
+    <figure class="hero">
+      <img src="photos/017-pexels.jpg" alt="a bottle of homemade cleaner with ingredients in the background">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Recipe cards</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Creating effective cleaning solutions requires understanding the right ratios and methods for each recipe.</p>
+
+    <div class="body-copy">
+      <p>All-purpose cleaner (soap, not a sanitizer). Purpose: everyday grease and crumbs on laminate, sealed wood, and stainless that the maker allows soap on.</p>
+      <p>Ingredients for about 440 ml: 15 oz (440 ml) warm water, 1 tablespoon (15 ml) liquid castile soap. Do not add vinegar to this bottle. Vinegar and castile soap work against each other in one mix; use vinegar as a separate mineral-film spray on compatible surfaces only.</p>
+      <p>Preparation: 1) Water first. 2) Add soap. 3) Swirl, do not shake into foam. 4) Label contents and date. Suitable: laminate, many sealed woods, stainless if the appliance booklet allows. Avoid: natural stone, unfinished wood, electronics. Contact time: not a sanitizer. Rinse food-contact surfaces with clean water. Storage: cool, dark, away from food jars. Discard and remix if the mix smells off, separates badly, or is older than two weeks in a warm kitchen. Safety: keep away from children and pets; do not store in a drink bottle.</p>
+      <p>Mineral-film spray (acid, separate from soap). Purpose: hard-water spots on glass and compatible laminate. Ingredients: equal parts white vinegar and water, or follow a labelled descaler. Avoid stone, grout you have not tested, and cast iron. Do not mix with peroxide, bleach, or soap in the same bottle. Rinse food-contact surfaces. Label as vinegar mix, not as a disinfectant.</p>
+      <p>Hydrogen peroxide 3 percent, as sold. Purpose: only the uses printed on that product&#39;s label. This book does not convert household peroxide into a food-contact sanitizer by adding a one-minute or five-minute wait.</p>
+      <p>Keep it in the original brown bottle. Do not decant into a clear drink bottle. Do not mix with vinegar or bleach. Suitable surfaces and wet contact time are whatever the label states. If the label does not cover kitchen food-contact sanitizing, use a product that does, after cleaning. Discard according to the labelled expiry. Ventilate. Gloves if the label asks for them.</p>
+      <p>Isopropyl alcohol 70 percent, optional. Purpose: quick wipe of manufacturer-approved handles, switches, or screens — not a general kitchen sanitizer and not a food-prep spray unless the label says so. Ingredients: use the product as sold. Avoid damaged finishes, many plastics, and any heat source. Fire risk: no flames, good airflow. Do not mix with other cleaners. Store original labelled bottle, away from children.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Mix the soap cleaner in a labelled bottle. Keep acid in a second labelled bottle.</li><li>Leave peroxide and alcohol in their original containers if you keep them at all.</li><li>Write the date on every refill. Remix soap mixes that smell off or look wrong.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Mistake: pouring vinegar into the castile bottle &#39;to make it stronger.&#39; Consequence: a cloudy mix that cleans worse and is harder to rinse. Correction: use soap and acid as two jobs.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="how-to-put-this-into-practice">
+
+    <figure class="hero">
+      <img src="photos/018-pexels.jpg" alt="a mixing zone set up for creating cleaning solutions">
+      <div class="hero-label">
+<span class="day">Day 4</span>        <h3>How to Put This Into Practice</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a shared kitchen, everyone needs to read the same label. Mystery bottles get emptied, not reused.</p>
+    </div>
+
+    <p class="principle">Establishing a clear mixing zone and labeling system can streamline your cleaning process.</p>
+
+    <div class="body-copy">
+      <p>Clear a mixing towel on a non-food board. Funnel, bottles, labels first. Make soap cleaner and, if needed, a separate vinegar mix. Do not prepare a &#39;sanitizer&#39; from peroxide unless you are using the product exactly as labelled.</p>
+      <p>If you have natural stone, skip vinegar near it. Keep a stone-safe soap dilution only.</p>
+      <p>Keep all mixtures away from children and pets. Never store a homemade cleaner in a food or beverage container. Label every bottle with contents and preparation date. Do not reuse a container if its previous contents could react with the new solution. Never mix cleaners or disinfectants unless the product instructions explicitly permit it.</p>
+    </div>
+
+
+
+
+  </article>
+</section>
+<section class="chapter" id="space-saving-storage-layouts-under-30-inches">
+  <div class="chapter-opener">
+    <img src="photos/019-pexels.jpg" alt="Compact kitchen with vertical storage solutions, natural light from one window, clean lines, minimalist design, no people, no text, no watermark.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Space-Saving Storage Layouts Under 30 Inches</h2>
+<p>In compact Indian kitchens, every inch counts. This chapter focuses on how to maximize storage within a strict thirty-inch limit, ensuring your cleaning supplies are organized, accessible, and easy to refill. Whether you&#39;re in a bustling Mumbai flat or a cozy Pune apartment, these strategies will help you create a functional space without compromising on style.</p>    </div>
+  </div>
+
+  <article class="unit" id="understanding-your-space">
+
+    <figure class="hero">
+      <img src="photos/020-pexels.jpg" alt="A close-up of neatly arranged cleaning supplies in a vertical storage setup.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Understanding Your Space</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Maximizing storage within a thirty-inch limit is essential for a functional kitchen.</p>
+
+    <div class="body-copy">
+      <p>In a tiny kitchen, the challenge is not just the size but the need for a system that keeps everything organized. Anjali&#39;s kitchen has limited counter space, making it crucial to utilize vertical storage effectively. By focusing on a thirty-inch budget, she can create a cleaning station that is both functional and aesthetically pleasing.</p>
+      <p>The first step is to measure the available space. Anjali marks thirty inches on her countertop with masking tape to visualize her storage budget. This measurement will guide her in selecting containers and organizing her cleaning supplies without cluttering the space.</p>
+      <p>Next, Anjali identifies her essentials. Items like all-purpose cleaner, cloths, and brushes are used daily, while degreasers and glass cleaners are used weekly. By categorizing her items based on usage frequency, she can prioritize their placement in her storage layout.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="implementing-the-clear-framework">
+
+    <figure class="hero">
+      <img src="photos/021-openai.jpg" alt="A close-up of labeled cleaning supplies in a vertical storage setup.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>Implementing the CLEAR Framework</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">The CLEAR framework transforms your cleaning kit into a visible and reachable station.</p>
+
+    <div class="body-copy">
+      <p>The CLEAR framework consists of Containers, Labels, Essentials, Access, and Refill. Rajesh starts by selecting slim, vertical containers that group his cleaning supplies without adding bulk. He chooses bottles with a two to two and a half inch diameter, ensuring they fit neatly on his limited counter space.</p>
+      <p>Labels are crucial for quick identification. Rajesh places labels facing forward on each container, using consistent names that match his cleaning recipes. This prevents confusion and ensures he can quickly grab what he needs without searching through clutter.</p>
+      <p>Access is key to efficiency. Rajesh stages his essentials within one or two touches, using inside door mounting and shallow rails to keep his most-used items readily available. This setup minimizes the number of steps he takes to retrieve cleaning supplies, making his routine more efficient.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="creating-your-reach-frequency-map">
+
+    <figure class="hero">
+      <img src="photos/022-pexels.jpg" alt="A close-up of a Reach Frequency Map displayed in a compact kitchen.">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Creating Your Reach Frequency Map</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">A Reach Frequency Map ensures everyday items are easily accessible.</p>
+
+    <div class="body-copy">
+      <p>Neha begins by drafting her Reach Frequency Map, which categorizes her cleaning supplies based on how often she uses them. She divides her items into three zones: Zone A for everyday essentials, Zone B for weekly items, and Zone C for occasional tools. This mapping helps her visualize where each item should be stored for maximum efficiency.</p>
+      <p>Zone A includes items like her all-purpose cleaner and cloths, which she places at chest to eye height for easy access. Zone B contains her degreaser and glass cleaner, which she places slightly higher or deeper, while Zone C holds less frequently used items like specialty sponges.</p>
+      <p>By following the two-touch principle, Neha ensures that her daily kit is always easy to reach. This approach minimizes the time spent searching for items and streamlines her cleaning routine, making her small kitchen feel more functional.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="finalizing-your-storage-layout">
+
+    <figure class="hero">
+      <img src="photos/023-pexels.jpg" alt="A close-up of a well-organized cleaning station in a compact kitchen.">
+      <div class="hero-label">
+<span class="day">Day 4</span>        <h3>Finalizing Your Storage Layout</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">A well-planned storage layout enhances efficiency and organization.</p>
+
+    <div class="body-copy">
+      <p>Suresh measures his storage budget and lists his essentials, weekly, and occasional items. He selects slim containers and a narrow caddy that fit within his thirty-inch limit. By prioritizing vertical storage, he maximizes the available space without compromising on accessibility.</p>
+      <p>He plans vertical mounting for his cleaning supplies, using landlord-safe fixtures like removable adhesive and magnetic strips. This approach allows him to create a storage solution that is both functional and respectful of his rental agreement.</p>
+      <p>Finally, Suresh places labels forward on every container and bin, ensuring that he can quickly identify each item. He sets visible refill triggers to remind him when supplies are running low, keeping his cleaning station organized and efficient.</p>
+    </div>
+
+
+
+
+  </article>
+</section>
+<section class="chapter" id="the-10-minute-daily-micro-routine">
+  <div class="chapter-opener">
+    <img src="photos/024-openai.jpg" alt="Compact Indian kitchen, warm evening light, organized cleaning supplies, minimal clutter, photorealistic, no people, no text, no watermark.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>The 10-Minute Daily Micro-Routine</h2>
+<p>Times are planning aids, not guarantees. Stop at the limit without leaving raw-food soil or wet walking surfaces unfinished.</p>    </div>
+  </div>
+
+  <article class="unit" id="understanding-the-sweep-loop">
+
+    <figure class="hero">
+      <img src="photos/025-pexels.jpg" alt="A side view of the kitchen showing the organized space with a focus on the cleaning caddy.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Understanding the SWEEP Loop</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">The SWEEP loop targets the five key areas that accumulate mess in small kitchens.</p>
+
+    <div class="body-copy">
+      <p>SWEEP is order, not a slogan: Surfaces, Washware, Empty waste, Equipment, Put away. Start where food sits. Never skip: washing anything that touched raw meat, and drying a wet floor.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Identify the five areas of the SWEEP loop: Surfaces, Washware, Empty Waste, Equipment, and Put Away.</li><li>Establish a routine that follows these steps in order to maintain a clean kitchen.</li><li>Set a timer for each block to keep the process efficient.</li></ol>
+    </div>
+
+
+
+  </article>
+  <article class="unit" id="building-your-10-minute-ritual">
+
+    <figure class="hero">
+      <img src="photos/026-pexels.jpg" alt="An overhead view of a kitchen counter with cleaning supplies and a clear workspace.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>Three timed versions</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Establishing a consistent cleaning ritual can significantly reduce kitchen clutter and stress.</p>
+
+    <div class="body-copy">
+      <p>3-minute reset (busy day): empty the sink of food, wipe the food-contact board, bin waste that will smell. Skip appliance faces. Never skip: raw-board wash and a dry pass on a wet floor.</p>
+      <p>10-minute daily: SWEEP once around the room. First: surfaces that touch food. Can skip: inside the fridge, oven glass. Unsafe to rush: raw-meat tools, broken glass, chemical spills.</p>
+      <p>20-minute recovery (neglected kitchen): same order, plus stove face and floor edges. If time ends mid-spill, finish food safety and slip hazards before you stop.</p>
+      <p>This can make routine cleaning easier and reduce missed tasks. It will not make the kitchen perfect.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Pick 3, 10, or 20 minutes before you start.</li><li>Food-contact and slip hazards first.</li><li>Stop when the timer ends unless raw soil or a wet floor remains.</li></ol>
+    </div>
+
+
+
+  </article>
+  <article class="unit" id="weekly-micro-rotations">
+
+    <figure class="hero">
+      <img src="photos/027-openai.jpg" alt="A close-up of a clean kitchen appliance, highlighting the attention to detail in maintenance.">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Weekly Micro Rotations</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Incorporating weekly micro rotations helps prevent deeper grime from accumulating in your kitchen.</p>
+
+    <div class="body-copy">
+      <p>Weekly micro rotations are essential for maintaining a clean kitchen over time. Choose three to five specific tasks to rotate throughout the week. Each task should take only two to four minutes, making them manageable even on busy days. For example, you might choose to clean the vent hood filter, wipe the fridge gasket, or detail the knobs and rails.</p>
+      <p>Assign each task to a day that aligns with your existing routine. If you brew coffee daily, consider cleaning the kettle or coffee maker parts midweek when you’re already in that zone. This approach ensures that maintenance feels less like a burden and more like a natural extension of your daily activities.</p>
+      <p>By incorporating these micro tasks into your weekly schedule, you prevent the buildup of grime and maintain a consistently clean kitchen. This proactive approach not only saves time in the long run but also keeps your kitchen looking and feeling fresh.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Choose three to five weekly tasks to rotate through your schedule.</li><li>Assign each task to a specific day to create a routine.</li><li>Keep the tasks short and manageable to encourage consistency.</li></ol>
+    </div>
+
+
+
+  </article>
+</section>
+<section class="chapter" id="landlord-safe-surface-specific-cleaning-methods">
+  <div class="chapter-opener">
+    <img src="photos/028-pexels.jpg" alt="kitchen cleaning supplies, various surfaces, natural light, compact Indian apartment, minimalistic styling">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Landlord-Safe, Surface-Specific Cleaning Methods</h2>
+<p>Your tiny kitchen has big responsibilities. Every surface carries its own story, from glossy laminate to warm butcher block, metallic stainless steel, and delicate chrome fixtures. Clean them well and you enjoy a crisp, calming space that feels twice as big. Clean them poorly and you risk streaks, scratches, or a deposit deduction you did not expect.</p>    </div>
+  </div>
+
+  <article class="unit" id="understanding-the-ph-pathway">
+
+    <figure class="hero">
+      <img src="photos/029-pexels.jpg" alt="a visual guide showing the pH Pathway with examples of cleaning agents for each lane.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Understanding the pH Pathway</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Match the method to the soil and surface using the pH Pathway.</p>
+
+    <div class="body-copy">
+      <p>The pH Pathway is your decision tree for cleaning. It connects the type of soil to the safest chemistry and helps you confirm that the surface can tolerate it. Think of it as three lanes: Acid Lane, Alkali Lane, and Neutral and Oxidizer Lane.</p>
+      <p>Acid Lane is best for mineral scale, hard water spots, and soap scum. Examples include diluted white vinegar or citric acid, but use with caution on grout, metals, and natural stone.</p>
+      <p>Alkali Lane is ideal for oils, baked-on grease, and general food residues. Diluted castile soap, sodium bicarbonate, and washing soda in low concentration are effective here, but use with caution on aluminum and sensitive coatings.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Using the wrong method for the material can lead to costly mistakes.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="cleaning-laminate-counters">
+
+    <figure class="hero">
+      <img src="photos/030-openai.jpg" alt="a clean laminate counter with a bottle of castile soap and a cloth.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>Cleaning Laminate Counters</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Laminate. Sensitive to standing water at seams, strong acid, and scouring powder.</p>
+
+    <div class="body-copy">
+      <p>For each material: what it hates, everyday method, stuck-on method, what to avoid, rinse, dry, hidden-spot test, and what to do if damage already shows. When unsure, stop and check the maker or landlord guidance.</p>
+      <p>Everyday: wrung cloth, warm water, drop of castile soap. Stuck-on: baking-soda paste on a soft cloth, then rinse. Avoid: vinegar on unsealed seams, steel wool. Rinse food areas. Dry the seam. Test inside a cupboard overhang. If the film is lifting, stop wet-cleaning that edge and keep it dry.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Spraying cleaning solutions directly onto laminate can lead to damage at seams.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="maintaining-butcher-block-surfaces">
+
+    <figure class="hero">
+      <img src="photos/031-pexels.jpg" alt="a well-maintained butcher block with mineral oil and cleaning supplies.">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Maintaining Butcher Block Surfaces</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Sealed wood or butcher block. Sensitive to pools of water, bleach, and unsanctioned sanitizer claims.</p>
+
+    <div class="body-copy">
+      <p>For each material: what it hates, everyday method, stuck-on method, what to avoid, rinse, dry, hidden-spot test, and what to do if damage already shows. When unsure, stop and check the maker or landlord guidance.</p>
+      <p>Everyday: barely damp cloth with a drop of soap, wipe with the grain, dry immediately. Stuck-on: gentle scrape with a plastic card, then soap. Avoid soaking, chlorine bleach, and strong acid. After raw meat: wash with detergent, rinse, then use a food-contact sanitizer that is labelled for wood or switch to a dedicated board. This book does not set a peroxide contact time for wood.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Mistake: spraying 3 percent peroxide on wood and calling it sanitized after one minute. Consequence: you have not followed a labelled food-contact method. Correction: wash, rinse, then use a sanitizer whose label covers that surface, including wet contact time and any rinse.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="cleaning-stainless-steel-surfaces">
+
+    <figure class="hero">
+      <img src="photos/032-pexels.jpg" alt="a clean stainless steel appliance with a microfiber cloth.">
+      <div class="hero-label">
+<span class="day">Day 4</span>        <h3>Cleaning Stainless Steel Surfaces</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Stainless. Sensitive to abrasive pads, chloride bleach left to dry, and circular scratching.</p>
+
+    <div class="body-copy">
+      <p>For each material: what it hates, everyday method, stuck-on method, what to avoid, rinse, dry, hidden-spot test, and what to do if damage already shows. When unsure, stop and check the maker or landlord guidance.</p>
+      <p>Everyday: microfiber with diluted soap or a labelled stainless cleaner, wipe with the grain, dry. Stuck-on: baking-soda paste, then rinse. Avoid steel wool. Rinse if the product says to. Dry to limit spots. Test behind an appliance if you can reach. If rust spots appear, stop and use a product labelled for stainless; do not sand a rental appliance.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Using abrasive pads on stainless steel can lead to scratches and damage.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="effective-glass-cleaning-techniques">
+
+    <figure class="hero">
+      <img src="photos/033-pexels.jpg" alt="a sparkling clean glass surface with a microfiber cloth.">
+      <div class="hero-label">
+<span class="day">Day 5</span>        <h3>Effective Glass Cleaning Techniques</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Glass. Sensitive to oily residue and dirty cloths that smear.</p>
+
+    <div class="body-copy">
+      <p>For each material: what it hates, everyday method, stuck-on method, what to avoid, rinse, dry, hidden-spot test, and what to do if damage already shows. When unsure, stop and check the maker or landlord guidance.</p>
+      <p>Everyday: vinegar-water on compatible glass, or a labelled glass cleaner; squeegee; dry edges. Avoid vinegar on surrounding stone sills. Rinse if food-adjacent. Hidden-spot test on a corner. If the pane is filmed, wash the cloth; do not add more product.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Using heavy soap on glass can leave a residue that is difficult to remove.</p>
+    </aside>
+
+
+  </article>
+</section>
+<section class="chapter" id="quick-spill-response-and-sanitization-protocols">
+  <div class="chapter-opener">
+    <img src="photos/034-openai.jpg" alt="A small labelled spill kit: gloves, cloths, and a scraper stored apart from food.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Quick Spill Response and Sanitization Protocols</h2>
+<p>Match the procedure to the spill. This chapter is household first aid, not a complete professional hazardous-materials or food-safety protocol.</p>    </div>
+  </div>
+
+  <article class="unit" id="understanding-the-stop-framework">
+
+    <figure class="hero">
+      <img src="photos/035-openai.jpg" alt="a close-up of the cleaning tools used in the STOP framework, arranged aesthetically on a kitchen counter">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Understanding the STOP Framework</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>A drink hits the only walkway in a galley kitchen. Stop feet first, then soil.</p>
+    </div>
+
+    <p class="principle">The STOP framework provides a structured response to spills, ensuring efficiency and cleanliness.</p>
+
+    <div class="body-copy">
+      <p>STOP: Secure the area, triage what is food-contact, operate with one method, purge dirty cloths. Ordinary crumbs: dry sweep or cloth, then a soap wipe if needed. Low-risk water: absorb, soap if sticky, dry so nobody slips.</p>
+      <p>Broken glass: shoes, gloves, stiff card into a puncture-proof container; cloth last, then discard or wash that cloth apart. Grease or hot oil: cool first, never water on hot oil, then soap. Cleaning-product spill: ventilate, do not mix, read that label, absorb with disposable material if the product says so.</p>
+      <p>Stop and seek additional guidance when: the spill involves an unknown chemical, a large quantity of cleaning product, bodily fluids, persistent mould, electrical equipment, or a surface whose material is unknown. Unplug only if you can do so without standing in liquid.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Mistake: wiping a chemical spill with the castile cloth from the caddy. Consequence: the cloth and the caddy are now contaminated. Correction: ventilate, read the label, use dedicated absorbents.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="responding-to-raw-meat-drips">
+
+    <figure class="hero">
+      <img src="photos/036-pexels.jpg" alt="a close-up of the cleaning process for raw meat drips, showcasing the tools and techniques used">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>Responding to Raw Meat Drips</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Raw chicken juice on the only counter. Food comes off the board before any spray.</p>
+    </div>
+
+    <p class="principle">Raw meat spills require immediate attention and a structured cleaning approach to prevent contamination.</p>
+
+    <div class="body-copy">
+      <p>This is not a homemade peroxide protocol. 1) Move food and utensils off the area. 2) Absorb without spreading. 3) Clean with a suitable detergent. 4) Rinse if that cleaner requires it. 5) Use a food-contact sanitizer according to its label. 6) Keep the surface wet for the labelled contact time. 7) Rinse afterward if the label requires rinsing. 8) Wash and dry reusable cloths apart from everyday kitchen cloths.</p>
+      <p>Do not claim a homemade solution is a sanitizer because it contains hydrogen peroxide. If you do not have a labelled food-contact sanitizer, clean thoroughly with detergent, rinse, keep raw work on a dedicated board, and replace the sanitizer before the next raw-meat session.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Test and verify</h4>
+      <ol><li>Clear food and utensils.</li><li>Absorb, then detergent-clean.</li><li>Apply only a labelled food-contact sanitizer and honour wet contact time.</li><li>Rinse if the label requires it. Isolate cloths.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Mistake: vinegar on protein, or a one-minute peroxide wait copied from a blog. Consequence: set protein, or a sanitizing claim you cannot support. Correction: detergent first, labelled product second.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="cleaning-dairy-and-sugary-liquids">
+
+    <figure class="hero">
+      <img src="photos/037-pexels.jpg" alt="a close-up of the cleaning process for dairy spills, highlighting the cleaning tools and methods">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Cleaning Dairy and Sugary Liquids</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Dairy and sugary spills require careful attention to prevent stickiness and odors.</p>
+
+    <div class="body-copy">
+      <p>Absorb, wash with warm water and soap, rinse food-contact, dry so it is not tacky. Odour is not a reason to apply peroxide unless that product&#39;s label covers the surface. Do not call the dwell time sanitation.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="addressing-greasy-splatters">
+
+    <figure class="hero">
+      <img src="photos/038-pexels.jpg" alt="a close-up of the cleaning process for greasy splatters, highlighting the cleaning tools and methods">
+      <div class="hero-label">
+<span class="day">Day 4</span>        <h3>Addressing Greasy Splatters</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Greasy spills require careful cleaning to avoid spreading the oil further.</p>
+
+    <div class="body-copy">
+      <p>If oil is hot, wait. Wipe with soap, not a flood of water on a hot pan. Dry the stove so it is safe to use. Skip this routine if grease is inside an electrical housing — that is escalation.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Over-saturating surfaces can lead to damage, especially on wood or laminate.</p>
+    </aside>
+
+
+  </article>
+</section>
+<section class="chapter" id="seasonal-deep-clean-playbooks-for-small-kitchens">
+  <div class="chapter-opener">
+    <img src="photos/039-pexels.jpg" alt="Compact kitchen with organized cleaning supplies, natural light from a window, clean countertops, and a visually appealing layout.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Seasonal Deep-Clean Playbooks for Small Kitchens</h2>
+<p>This chapter provides a structured approach to deep-cleaning small kitchens, ensuring efficiency and effectiveness without overwhelming the space or the cleaner. It emphasizes a seasonal reset to maintain cleanliness and functionality.</p>    </div>
+  </div>
+
+  <article class="unit" id="the-importance-of-a-seasonal-reset">
+
+    <figure class="hero">
+      <img src="photos/040-pexels.jpg" alt="A close-up of cleaning supplies arranged neatly on a countertop.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>The Importance of a Seasonal Reset</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">A seasonal deep clean helps maintain a functional and pleasant kitchen environment.</p>
+
+    <div class="body-copy">
+      <p>Deep cleaning a small kitchen can be a daunting task, but with a clear plan, it becomes manageable. Ravi starts by blocking out a 90-minute session on his calendar, ensuring he has the time to focus on high-value zones like the stovetop and the fridge. He stages his compact cleaning kit, which includes an all-purpose concentrate, a scrub paste, and microfiber cloths, ready for action.</p>
+      <p>The PREP cycle is crucial. Ravi powers down his appliances and removes any items from the fridge, grouping them by zone for easy return. He protects his countertops with washable cloths and opens the window to allow fresh air in, setting the stage for a thorough clean.</p>
+      <p>By following the top down, inside out principle, Ravi begins with the range hood and upper cabinets. He wipes down the surfaces, ensuring that any drips fall onto areas he will clean later, preventing rework.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="executing-the-prep-cycle">
+
+    <figure class="hero">
+      <img src="photos/041-pexels.jpg" alt="A close-up of Anjali&#39;s cleaning supplies arranged on the countertop.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>Executing the PREP Cycle</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">The PREP cycle organizes the cleaning process into manageable phases.</p>
+
+    <div class="body-copy">
+      <p>Anjali starts by planning her session, selecting the two-day reset option to ensure she has ample time to clean thoroughly. She lists her focus zones, prioritizing the stovetop, oven, and sink. With her kit staged, she feels ready to tackle the task ahead.</p>
+      <p>During the Reset phase, Anjali powers down her appliances and removes all items from the fridge, grouping them by type. She protects her countertops with a folded towel and opens the window to let in fresh air. This preparation sets her up for success as she begins to eliminate grime.</p>
+      <p>As she moves into the Eliminate phase, Anjali applies her all-purpose concentrate to the stovetop and lets it dwell while she cleans the oven. She uses a scrub paste for baked-on soils, ensuring she tackles each area with the right method for maximum effectiveness.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Cleaning lower areas first leads to rework when dust and debris fall from above.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="maintaining-your-kitchen-post-clean">
+
+    <figure class="hero">
+      <img src="photos/042-pexels.jpg" alt="A close-up of a clean sink with organized cleaning supplies nearby.">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Maintaining Your Kitchen Post-Clean</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Establishing maintenance intervals prevents grime buildup and keeps the kitchen in good condition.</p>
+
+    <div class="body-copy">
+      <p>After completing his deep clean, Vikram knows that the work doesn&#39;t end there. He sets up a simple maintenance schedule for his kitchen, tracking intervals for cleaning the range hood filter, oven, and fridge gaskets. This proactive approach helps him avoid unpleasant surprises later on.</p>
+      <p>Vikram uses a dashboard to log maintenance dates, ensuring he never forgets to clean the drain or flush the sink. By keeping track of these intervals, he can maintain a clean and efficient kitchen without the chaos of a deep clean every few weeks.</p>
+      <p>He also adapts his cleaning methods to his small space, using a compact handheld vacuum to keep crumbs at bay and ensuring that he cleans the faucet aerator regularly to prevent clogs. This attention to detail helps him maintain the cleanliness achieved during his seasonal deep clean.</p>
+    </div>
+
+
+
+
+  </article>
+</section>
+<section class="chapter" id="tracking-waste-and-costs-and-adapting-for-renters-vanlife-rv">
+  <div class="chapter-opener">
+    <img src="photos/043-openai.jpg" alt="Compact kitchen with a Waste and Cost Dashboard visible on a cabinet door, natural light from a single window, minimalistic decor, and eco-friendly cleaning sup">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Tracking Waste and Costs for Compact Living</h2>
+<p>Reusable tools have manufacturing, laundry, replacement, and transport impacts. Track a baseline before you change the routine, then compare. Zero waste is the direction, not a certificate.</p>    </div>
+  </div>
+
+  <article class="unit" id="building-your-waste-and-cost-dashboard">
+
+    <figure class="hero">
+      <img src="photos/044-pexels.jpg" alt="A close-up of a dashboard with metrics written clearly, surrounded by eco-friendly cleaning supplies.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Building Your Waste and Cost Dashboard</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Log one month of receipts before you change brands. Otherwise you cannot tell if refills helped.</p>
+    </div>
+
+    <p class="principle">A Waste and Cost Dashboard helps you measure and manage your waste effectively.</p>
+
+    <div class="body-copy">
+      <p>Fields: disposable cloths or wipes avoided, packaging bought, cleaner volume used, refill trips, cost per month, estimated life of reusables, how you dispose of worn tools, and water use only when it changes the decision (for example, boiling cloths every day).</p>
+      <figure class="diagram">
+        <img src="figures/D011.svg" alt="Worked example, first 30 days">
+<figcaption>What to notice: this is one household&#39;s log, not a savings guarantee. Start with a baseline week.</figcaption>      </figure>
+      <p>Blank log: date; item; qty; cost; packaging type; notes. Keep it on a cabinet card.</p>
+      <p>The table is a completed example. Copy the blank fields, not the rupee amounts.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Draft your dashboard with four core metrics and two optional ones.</li><li>Keep it visible in your kitchen or on your phone.</li><li>Track your baseline for two weeks without changing your routine.</li></ol>
+    </div>
+
+
+
+  </article>
+  <article class="unit" id="mapping-your-refill-route">
+
+    <figure class="hero">
+      <img src="photos/045-pexels.jpg" alt="A close-up of a map with refill sources highlighted, with a clean kitchen backdrop.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>Mapping Your Refill Route</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Mapping your refill route ensures you have easy access to bulk refills and reduces waste.</p>
+
+    <div class="body-copy">
+      <p>Start by listing potential refill sources that you already pass during your errands. Consider bulk sections of grocery stores, community co-ops, refill shops, and pharmacies that may offer refill programs.</p>
+      <p>Call or check the websites of these stores to confirm their refill policies, hours, and container requirements. This preparation will save you time and ensure you have what you need when you go to refill.</p>
+      <p>Once you have identified your refill sources, plan your refill day to coincide with your regular errands. This will help you maintain a consistent refill schedule, ideally every five to six weeks for items like multipurpose concentrates.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>List potential refill sources you already pass during errands.</li><li>Confirm refill policies and hours with these stores.</li><li>Plan your refill day to coincide with your regular errands.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Relying on a single distant store for refills can lead to backsliding; identify multiple options.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="applying-the-constraints-compass">
+
+    <figure class="hero">
+      <img src="photos/046-pexels.jpg" alt="A close-up of cleaning supplies organized based on the Constraints Compass principles.">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Applying the Constraints Compass</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">The Constraints Compass helps you evaluate your options based on water, power, space, and motion.</p>
+
+    <div class="body-copy">
+      <p>Before purchasing or modifying any cleaning tools, evaluate them using the Constraints Compass. Ask yourself how much water the method requires, whether it needs electricity, how much space it occupies, and how it will stay put during travel or if the space is limited.</p>
+      <p>For example, if water is tight, opt for low-rinse methods and consider installing a basin to collect rinse water. If you need to charge a device, choose one that can be charged via USB to accommodate off-grid situations.</p>
+      <p>When it comes to space, standardize bottle sizes and use nesting containers. If you rent, consider using a tension rod under the sink to hang cloths and keep bottles upright.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Evaluate cleaning tools using the Constraints Compass: water, power, space, and motion.</li><li>Choose low-rinse methods and manual tools where possible.</li><li>Standardize bottle sizes and use nesting containers.</li></ol>
+    </div>
+
+
+
+  </article>
+  <article class="unit" id="running-the-ninety-day-sprint">
+
+    <figure class="hero">
+      <img src="photos/047-pexels.jpg" alt="A close-up of cleaning supplies in an RV, organized for efficiency and ease of access.">
+      <div class="hero-label">
+<span class="day">Day 4</span>        <h3>Running the Ninety Day Sprint</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>A family of four living in a thirty-foot RV wants to streamline their cleaning routine while on the road. They decide to implement a ninety-day sprint to improve their waste and costs.</p>
+    </div>
+
+    <p class="principle">A ninety-day sprint focuses your efforts and locks in improvements over time.</p>
+
+    <div class="body-copy">
+      <p>To begin your ninety-day sprint, focus on one area each month. In the first month, replace a single-use item with a refillable or reusable option. For instance, switch from disposable wipes to reusable cloths or a refillable spray bottle.</p>
+      <p>In the second month, refine your refill route and bundle errands to make refilling more efficient. Adjust dilution ratios for your cleaning solutions if you notice streaks or residue after cleaning.</p>
+      <p>By the third month, lock in your best practices. Update your labels, storage map, and dashboard targets to reflect your improved system. This will help you maintain your progress and continue to adapt as needed.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Focus on one area each month for the ninety-day sprint.</li><li>Replace single-use items with reusable options in the first month.</li><li>Refine your refill route and bundle errands in the second month.</li></ol>
+    </div>
+
+
+
+  </article>
+</section>
+<section class="chapter" id="compact-zero-waste-cleaning-kit-checklist">
+  <div class="chapter-opener">
+    <img src="photos/048-pexels.jpg" alt="Compact zero-waste cleaning kit in a small kitchen, natural lighting, wooden textures, organized caddy with cleaning supplies, photorealistic, no people, no tex">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Compact Zero-Waste Cleaning Kit Checklist</h2>
+<p>This chapter provides a comprehensive guide to creating a compact, lower-packaging cleaning kit tailored for tiny kitchens. It emphasizes the importance of reducing clutter and waste while maintaining cleanliness in a limited space.</p>    </div>
+  </div>
+
+  <article class="unit" id="purpose-and-benefits">
+
+    <figure class="hero">
+      <img src="photos/049-pexels.jpg" alt="Close-up of the caddy arrangement showing each item clearly.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>What this sheet is for</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">A compact cleaning kit reduces clutter and simplifies maintenance.</p>
+
+    <div class="body-copy">
+      <p>This checklist is designed to minimize clutter, chemicals, and waste while keeping a tiny kitchen in working order. By standardizing tools and simplifying refills, it protects sensitive surfaces and adapts to renters and mobile kitchens. You will save space, time, and money, while preventing overbuying.</p>
+      <p>The core list includes essential items that are versatile and effective. By focusing on multi-use products, you can streamline your cleaning process and ensure that you have everything you need without excess.</p>
+      <p>Implementing this kit not only enhances the cleanliness of your kitchen but also promotes a sustainable lifestyle. It encourages the use of eco-friendly materials and reduces the number of single-use products in your home.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="how-to-use-the-checklist">
+
+    <figure class="hero">
+      <img src="photos/050-openai.jpg" alt="Close-up of labeled containers and cleaning tools in the caddy.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>How to Use the Checklist</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Using the checklist helps in creating an efficient and tailored cleaning kit.</p>
+
+    <div class="body-copy">
+      <p>Start with the core list provided in the checklist. This list includes all the essential items you need for a compact cleaning kit. Only add optional and seasonal items if they are necessary for your cleaning routine.</p>
+      <p>Choose materials that are suited to your water and surfaces. For instance, if you have hard water, consider using a squeegee after rinsing to prevent water spots. Label everything clearly to avoid confusion and ensure that you can quickly find what you need.</p>
+      <p>Arrange your caddy thoughtfully. Place the cloths rolled at the front for easy access, with the spray bottle and jar in the middle, and brushes upright on the side. This arrangement allows for efficient use of space and quick retrieval of items.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="core-kit-items">
+
+    <figure class="hero">
+      <img src="photos/051-openai.jpg" alt="Close-up of the multipurpose cloths and cleaning tools.">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Core Kit Items</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Selecting the right items is crucial for an effective cleaning kit.</p>
+
+    <div class="body-copy">
+      <p>The core kit includes four multipurpose cloths made of organic cotton or microfiber, measuring 25 to 30 centimeters. These cloths are essential for various cleaning tasks and should be washed regularly to maintain their effectiveness.</p>
+      <p>You will also need two glass and stainless polishing cloths, which are lint-free and perfect for shining surfaces. A medium bristle scrub brush with a plant fiber or wood handle is necessary for tougher cleaning jobs, along with a bottle brush for narrow vessels and a detail brush for crevices and seals.</p>
+      <p>Additionally, include a compact squeegee for your sink and splashback, a scraper (either plastic card style or safety blade with cover), and a refillable spray bottle of 500 milliliters, made of glass or stainless. These items will cover all your basic cleaning needs.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="replacement-schedule-and-maintenance">
+
+    <figure class="hero">
+      <img src="photos/052-pexels.jpg" alt="Close-up of worn-out cleaning supplies ready for replacement.">
+      <div class="hero-label">
+<span class="day">Day 4</span>        <h3>Condition-based replacement</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Regular maintenance of cleaning supplies is essential for optimal performance.</p>
+
+    <div class="body-copy">
+      <p>Replace or retire a cloth when it develops persistent odor, visible damage, poor absorbency, or cannot be cleaned effectively. Service life depends on material, use, washing, and drying. If a maker prints a replacement interval, follow that.</p>
+      <p>Retire a brush when bristles splay or trap soil. Retire a squeegee when the blade nicks and leaves lines. Retire gloves when they tear. A calendar date alone is not a rule.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Mistake: keeping a sour cloth because it is &#39;not yet 12 months old.&#39; Consequence: the caddy smells and spreads soil. Correction: wash, dry fully, or retire it.</p>
+    </aside>
+
+
+  </article>
+</section>
+<section class="chapter" id="refill-label-and-batch-log-template">
+  <div class="chapter-opener">
+    <img src="photos/053-pexels.jpg" alt="kitchen organization, refill system, waterproof labels, compact storage, color coding, photorealistic">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Refill Label and Batch Log Template</h2>
+<p>Standardize your refill system for tiny kitchens with these print-ready templates that support concentrate and ready-to-use formats, color coding, and a four-week batch cycle tracker.</p>    </div>
+  </div>
+
+  <article class="unit" id="purpose-and-benefits">
+
+    <figure class="hero">
+      <img src="photos/054-pexels.jpg" alt="a view of a small kitchen counter showcasing a batch log and refill labels next to cleaning supplies">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>What this sheet is for</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">A standardized refill system enhances organization and efficiency in small kitchens.</p>
+
+    <div class="body-copy">
+      <p>This material ensures consistent safe use of refillable cleaners, clear dosing, and quick audits of consumption, cost, and waste reduction. By implementing a refill label and batch log system, you can save space, reduce confusion, and improve routine reliability, which is crucial for mobile or compact setups like Aditi&#39;s.</p>
+      <p>Using color coding for different cleaning categories allows for quick identification and minimizes the risk of using the wrong product. For instance, Aditi can assign green for all-purpose cleaners, blue for glass cleaners, and yellow for degreasers, making her cleaning routine more efficient.</p>
+      <p>The batch log tracker helps monitor usage and waste, ensuring that Aditi can adjust her cleaning supplies based on actual consumption, leading to cost savings and reduced clutter in her kitchen.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="how-to-use-the-templates">
+
+    <figure class="hero">
+      <img src="photos/055-openai.jpg" alt="a close-up of a color-coded cleaning supply setup with labels clearly visible">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>How to Use the Templates</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Proper use of templates ensures clarity and efficiency in managing cleaning supplies.</p>
+
+    <div class="body-copy">
+      <p>To begin, print the labels on waterproof paper to ensure durability. Cut them to fit your bottles and jars, allowing for easy application and readability. Priya can easily print these labels at home and cut them to the appropriate size for her small bottles.</p>
+      <p>Next, assign a color to each recipe category. For example, Priya can use green for all-purpose cleaners, blue for glass cleaners, and yellow for degreasers. This color coding not only helps in quick identification but also adds a visually appealing element to her kitchen.</p>
+      <p>Before mixing any cleaning solution, fill in the label fields with the recipe name, dilution ratio, and safety cautions. Once mixed, attach the label to the container. This step is crucial for maintaining clarity and safety in her cleaning routine.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="logging-and-tracking-usage">
+
+    <figure class="hero">
+      <img src="photos/056-openai.jpg" alt="a close-up of a batch log with notes and a color-coded chart in a compact kitchen">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Logging and Tracking Usage</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Regular logging and tracking of cleaning supplies prevent waste and ensure efficient use.</p>
+
+    <div class="body-copy">
+      <p>After mixing your cleaning solutions, log each batch in the tracker immediately. Rohan should note the date mixed, batch number, and dilution ratio used. This practice helps him keep a clear record of what he has on hand and when it needs to be replenished.</p>
+      <p>Review the log weekly to adjust dilution, contact time, and quantities. For instance, Rohan can analyze his usage patterns and determine if he needs to mix smaller or larger batches based on his cleaning frequency.</p>
+      <p>The four-week batch cycle tracker is essential for planning. It allows Rohan to see planned versus actual batches and helps identify variances. This way, he can avoid overproduction and reduce waste, ensuring that he only makes what he needs.</p>
+    </div>
+
+
+
+
+  </article>
+</section>
+<section class="chapter" id="landlord-safe-surface-methods-quick-reference-guide">
+  <div class="chapter-opener">
+    <img src="photos/057-openai.jpg" alt="tiny kitchen with various surfaces, one window light, clean textures, photorealistic">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Landlord-Safe Surface Methods Quick Reference Guide</h2>
+<p>This guide provides practical, landlord-safe cleaning methods tailored for compact kitchens, ensuring effective surface care while minimizing waste.</p>    </div>
+  </div>
+
+  <article class="unit" id="purpose-and-benefits">
+
+    <figure class="hero">
+      <img src="photos/058-openai.jpg" alt="cleaning supplies arranged neatly on a kitchen counter.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>What this sheet is for</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">A streamlined approach to cleaning protects both your property and your sanity.</p>
+
+    <div class="body-copy">
+      <p>This guide speeds decisions during daily wipe downs and deep cleans. It protects landlord property, reduces product clutter, and uses a space-saving kit. By utilizing fewer ingredients, you achieve safer outcomes and consistent results.</p>
+      <p>With a compact cleaning kit, you can quickly address various surfaces without the need for multiple products. This not only saves space but also simplifies your cleaning routine, making it easier to maintain a tidy home.</p>
+      <p>In Ravi&#39;s case, having a clear understanding of the right products and methods for his laminate counters and stainless steel appliances allows him to clean effectively without the risk of damage.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="how-to-use">
+
+    <figure class="hero">
+      <img src="photos/059-openai.jpg" alt="cleaning supplies ready for use on a kitchen counter.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>How to Use</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">The right tools and methods ensure effective cleaning without damage.</p>
+
+    <div class="body-copy">
+      <p>Keep your cleaning kit ready, which should include a spray bottle, squeeze bottle, microfiber cloths, scrub brush, squeegee, soft sponge, and a small toothbrush. This ensures you have everything at hand when it&#39;s time to clean.</p>
+      <p>Start with the test spot workflow: Pick a hidden area on the surface you wish to clean. Apply your chosen solution lightly, and wait for the appropriate time—thirty seconds for liquids and two minutes for pastes. Wipe and dry, checking for any dulling or color change before proceeding.</p>
+      <p>By following this method, Priya can confidently clean her surfaces without worrying about damaging them, ensuring a thorough and safe clean.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="main-content-quick-reference-matrix">
+
+    <figure class="hero">
+      <img src="photos/060-pexels.jpg" alt="different kitchen surfaces with appropriate cleaning solutions.">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Surface compatibility matrix</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Different surfaces require tailored cleaning approaches for optimal results.</p>
+
+    <div class="body-copy">
+      <p>Laminate: soap, dry seams, no strong acid at edges. Wood: damp soap, dry, labelled sanitizer after raw meat only. Stainless: with the grain, no steel wool. Glass: clean cloth, acid only if the surround is not stone. Natural stone: no vinegar or citric acid; pH-neutral stone cleaner. Painted cabinets: wrung cloth, no abrasives. Appliance exteriors: follow the booklet; unplug if liquid reached vents. Seams and joints: less water, dry after.</p>
+      <figure class="diagram">
+        <img src="figures/D005.svg" alt="Compatibility and limitations">
+<figcaption>What to notice: each row is a separate approach. Do not combine rows in one bottle.</figcaption>      </figure>
+      <p>Hidden-spot test before a new mix. If damage already shows, stop wet work and photograph for the landlord or maker rather than experimenting.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="tips-for-success">
+
+    <figure class="hero">
+      <img src="photos/061-openai.jpg" alt="organized cleaning supplies in a compact kitchen.">
+      <div class="hero-label">
+<span class="day">Day 4</span>        <h3>Tips for Success</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Simple strategies can enhance your cleaning effectiveness and efficiency.</p>
+
+    <div class="body-copy">
+      <p>Use minimal product and quick contact times to avoid waste and ensure surfaces are cleaned effectively. This also helps in maintaining the longevity of your surfaces.</p>
+      <p>Keep two microfiber cloths handy—one damp for cleaning and one dry for finishing. This ensures you have the right tools for both cleaning and drying, which is crucial for achieving streak-free finishes.</p>
+      <p>Label your cleaning bottles clearly to prevent mix-ups, especially between soap and vinegar. This small step can save you from potential cleaning mishaps.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="common-mistakes">
+
+    <figure class="hero">
+      <img src="photos/062-pexels.jpg" alt="examples of cleaning mistakes in a kitchen.">
+      <div class="hero-label">
+<span class="day">Day 5</span>        <h3>Common Mistakes</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Awareness of common pitfalls can prevent mistakes and enhance cleaning outcomes.</p>
+
+    <div class="body-copy">
+      <p>One common mistake is leaving acid on stainless steel surfaces, which can lead to dull spots. Always rinse thoroughly after using acidic solutions to maintain shine.</p>
+      <p>Another frequent error is skipping the rinse step, which can leave a film and streaks on surfaces. Always ensure to rinse with plain water after using acids or soaps.</p>
+      <p>Using abrasive pads on chrome or matte black surfaces can cause scratching. Opt for soft cloths or sponges to protect your surfaces.</p>
+    </div>
+
+
+
+
+  </article>
+</section>
+<section class="chapter" id="waste-and-cost-tracker-worksheet">
+  <div class="chapter-opener">
+    <img src="photos/063-openai.jpg" alt="Tiny kitchen with a cluttered sink area, natural light, minimalist decor, focusing on cleaning supplies and storage solutions.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Waste And Cost Tracker Worksheet for Tiny Kitchens</h2>
+<p>This chapter provides a comprehensive guide to tracking waste and costs in small kitchens, helping you adopt a zero-waste lifestyle while maximizing your space.</p>    </div>
+  </div>
+
+  <article class="unit" id="purpose-and-benefits">
+
+    <figure class="hero">
+      <img src="photos/064-pexels.jpg" alt="A vibrant kitchen scene with a focus on the waste tracker worksheet and eco-friendly cleaning supplies.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>What this sheet is for</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Tracking waste and costs helps you identify areas for improvement.</p>
+
+    <div class="body-copy">
+      <p>The Waste and Cost Tracker Worksheet allows you to quantify your progress in achieving a zero-waste, space-saving cleaning routine. By revealing waste hotspots and spending patterns, you can set clear targets and compare weekly and monthly tallies.</p>
+      <p>This worksheet is designed to help you plan efficient refill routes and prioritize product swaps. For instance, by switching to concentrated cleaners, you can reduce packaging and save space, making your kitchen more organized.</p>
+      <p>Over a 90-day period, you can track your results and make informed decisions about your cleaning products, ultimately leading to a more sustainable lifestyle.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="how-to-use-the-tracker">
+
+    <figure class="hero">
+      <img src="photos/065-pexels.jpg" alt="A sleek kitchen with a focus on the digital waste tracker, showcasing eco-friendly cleaning products.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>How to Use the Tracker</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Consistent tracking leads to better management of resources.</p>
+
+    <div class="body-copy">
+      <p>To effectively use the Waste and Cost Tracker, print one sheet per week or duplicate the digital copy. Spend five minutes on day one to set a baseline for your current products and costs.</p>
+      <p>Log daily actions and costs in brief notes, and tally your progress weekly on Sundays. This will help you stay accountable and focused on your goals.</p>
+      <p>At the end of each month, review your quick wins and update your targets. After 90 days, analyze your iteration notes to adjust your cleaning kit and improve efficiency.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="tips-for-success">
+
+    <figure class="hero">
+      <img src="photos/066-openai.jpg" alt="A clean kitchen environment focusing on the waste tracker worksheet and sustainable cleaning products.">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Tips for Success</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Implementing simple strategies can enhance your waste tracking efforts.</p>
+
+    <div class="body-copy">
+      <p>To succeed with the Waste and Cost Tracker, keep the worksheet visible near your sink for quick logging. This will encourage you to track your waste and spending consistently.</p>
+      <p>Use consistent units such as dollars, pieces, and inches to compare your weekly progress. This clarity will help you identify trends and make informed decisions about your cleaning products.</p>
+      <p>Batch your refills with errands to reduce travel time and prioritize multipurpose products to save space. Regularly review your quick wins every 30 days and swap one product at a time to avoid overwhelming changes.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="common-mistakes">
+
+    <figure class="hero">
+      <img src="photos/067-openai.jpg" alt="A kitchen environment highlighting the pitfalls of waste tracking, with a visible waste tracker worksheet showing errors.">
+      <div class="hero-label">
+<span class="day">Day 4</span>        <h3>Common Mistakes</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Awareness of common mistakes can improve your tracking process.</p>
+
+    <div class="body-copy">
+      <p>One common mistake is skipping baseline metrics, which can lead to a lack of direction in your tracking efforts. Always start by establishing your current situation before making changes.</p>
+      <p>Another mistake is recording costs without dates, which can make it difficult to analyze your spending patterns over time. Ensure you log both the date and cost for each entry.</p>
+      <p>Planning refills without considering travel time can also hinder your efficiency. Always factor in how long it will take to refill items when planning your week.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="next-steps">
+
+    <figure class="hero">
+      <img src="photos/068-pexels.jpg" alt="A tidy kitchen environment highlighting the integration of waste tracking with daily cleaning schedules.">
+      <div class="hero-label">
+<span class="day">Day 5</span>        <h3>Next Steps</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Integrating your tracking with daily routines enhances effectiveness.</p>
+
+    <div class="body-copy">
+      <p>To take your waste tracking to the next level, integrate your weekly tallies with your cleaning routine calendar. This will help you stay organized and ensure you are consistently working towards your goals.</p>
+      <p>Refine your storage layout based on the insights gained from your tracking. Identify which products take up the most space and consider consolidating or replacing them with more efficient options.</p>
+      <p>Plan your refill routes strategically to minimize travel time and maximize efficiency. By doing so, you will not only save time but also reduce your overall waste.</p>
+    </div>
+
+
+
+
+  </article>
+</section>
+<section class="chapter" id="sources-and-limits">
+  <div class="chapter-opener">
+    <img src="photos/069-openai.jpg" alt="A notebook used to record product labels and limits.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Sources and Limits</h2>
+<p>Use labels and local rules over any summary in this book.</p>    </div>
+  </div>
+
+  <article class="unit" id="sources-and-limits">
+
+    <figure class="hero">
+      <img src="photos/070-pexels.jpg" alt="Printed product labels next to a notebook.">
+      <div class="hero-label">
+<span class="day">Reference</span>        <h3>Sources and limits</h3>
+      </div>
+    </figure>
+
+
+    <p class="principle">Every contact time and food-contact sanitizing step comes from a product label, not from this book.</p>
+
+    <div class="body-copy">
+      <p>Cleaning versus sanitizing versus disinfecting: follow current public-health guidance that cleaning comes first, and that sanitizing or disinfecting requires a suitable product, wet contact time, and the labelled surface. The U.S. CDC distinguishes these jobs; use your local food-safety rules where they apply.</p>
+      <p>Hydrogen peroxide and isopropyl alcohol: use the concentration and PPE on the bottle you bought. Do not mix with vinegar, bleach, or soap. Store original containers away from children and heat.</p>
+      <p>Surface care: appliance and countertop manufacturers override any generic advice here. Stone, wood, and coated finishes fail in different ways.</p>
+      <p>Reusable textiles: wash and dry according to the cloth&#39;s care label. Laundry water and detergent are part of the waste picture.</p>
+      <p>Waste-reduction numbers in the worked example are illustrative for one household, not a certified life-cycle assessment.</p>
+    </div>
+
+
+
+
+  </article>
+</section>
+
+<section class="closing">
+  <img class="closing-photo" src="photos/001-pexels.jpg" alt="A compact kitchen with a clear counter and a small labelled cleaning caddy near the sink.">
+  <p class="kicker">30 Day Spaces</p>
+  <div class="rule"></div>
+  <h2>Your next room starts here</h2>
+  <p class="blurb">More room kits, declutter sprints, and measured layouts for Indian apartments — same series language, same clear numbers.</p>
+<p class="author">Akarsh Priyadarshan</p></section>
+
+</body>
+</html>

@@ -1,0 +1,1807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Curated Clarity Closet</title>
+<style>@font-face{font-family:&#34;Source Serif 4&#34;;font-weight:400;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/SourceSerif4-400.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;Source Serif 4&#34;;font-weight:700;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/SourceSerif4-700.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;Fraunces&#34;;font-weight:600;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/Fraunces-600.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;Fraunces&#34;;font-weight:700;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/Fraunces-700.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;DM Sans&#34;;font-weight:400;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/DMSans-400.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;DM Sans&#34;;font-weight:700;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/DMSans-700.woff&#34;) format(&#34;woff&#34;);}
+/* 6x9 KDP magazine interior — WeasyPrint-safe (no absolute overlays / bleed pages).
+   Cover + chapter openers + heroes are STACKED blocks so text never overlaps images.
+   Shared across every book in the series: change this file once, all titles update. */
+
+@page {
+  size: 6in 9in;
+  margin: 0.7in 0.6in 0.7in 0.65in;
+  @top-left {
+    content: string(series-name);
+    font: 7.5pt &#34;DM Sans&#34;, sans-serif;
+    color: #9AA0A2;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  @bottom-center {
+    content: counter(page);
+    font: 8.5pt &#34;DM Sans&#34;, sans-serif;
+    color: #9AA0A2;
+  }
+}
+@page cover {
+  margin: 0;
+  @top-left { content: none; }
+  @bottom-center { content: none; }
+}
+@page front {
+  @top-left { content: none; }
+  @bottom-center { content: none; }
+}
+@page closing {
+  @top-left { content: none; }
+  @bottom-center { content: none; }
+}
+
+:root {
+  --ink: #141816;
+  --paper: #FFFFFF;
+  --accent: #1E5F6B;
+  --accent-deep: #0F3D45;
+  --mist: #F3F6F6;
+  --muted: #7A8285;
+  --red: #C8442B;
+  --serif: &#34;Source Serif 4&#34;, &#34;DejaVu Serif&#34;, Georgia, serif;
+  --display: &#34;Fraunces&#34;, &#34;Source Serif 4&#34;, Georgia, serif;
+  --sans: &#34;DM Sans&#34;, &#34;DejaVu Sans&#34;, sans-serif;
+}
+
+html {
+  font-family: var(--serif);
+  font-size: 10.5pt;
+  line-height: 1.48;
+  color: var(--ink);
+  background: var(--paper);
+}
+body { margin: 0; }
+p { margin: 0 0 0.65em; orphans: 3; widows: 3; }
+img { max-width: 100%; display: block; }
+a { color: inherit; text-decoration: none; }
+
+.series-mark { string-set: series-name content(); display: none; }
+
+/* ========== COVER (shared series template) ========== */
+.cover {
+  page: cover;
+  page-break-after: always;
+  page-break-inside: avoid;
+  width: 6in;
+  height: 9in;
+  overflow: hidden;
+  background: var(--accent-deep);
+}
+.cover-photo {
+  width: 6in;
+  height: 5.35in;
+  object-fit: cover;
+  display: block;
+}
+.cover.cover-designed {
+  background: #111;
+}
+.cover.cover-designed .cover-photo {
+  width: 6in;
+  height: 9in;
+  object-fit: cover;
+}
+.cover-panel {
+  width: 6in;
+  height: 3.65in;
+  box-sizing: border-box;
+  background: var(--accent-deep);
+  color: #fff;
+  padding: 0.38in 0.5in 0.35in;
+}
+.cover-panel .series {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #B7D4D8;
+  margin: 0 0 0.16in;
+}
+.cover-panel .rule {
+  width: 0.9in;
+  height: 2.5pt;
+  background: #fff;
+  margin: 0 0 0.18in;
+}
+.cover-panel h1 {
+  font-family: var(--display);
+  font-size: 26pt;
+  line-height: 1.05;
+  font-weight: 700;
+  margin: 0 0 0.14in;
+  color: #fff;
+}
+.cover-panel .tagline {
+  font-size: 10.5pt;
+  line-height: 1.35;
+  color: #D7E6E8;
+  margin: 0 0 0.4in;
+  max-width: 4.6in;
+}
+.cover-panel .author {
+  font-family: var(--sans);
+  font-size: 10pt;
+  color: #fff;
+  margin: 0;
+  border-top: 0.5pt solid rgba(255,255,255,0.28);
+  padding-top: 0.16in;
+}
+
+/* ========== FRONT MATTER ========== */
+.title-page {
+  page: front;
+  page-break-after: always;
+  padding-top: 1.6in;
+}
+.title-page .mast {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.35in;
+}
+.title-page .rule {
+  width: 1in;
+  height: 2.5pt;
+  background: var(--accent);
+  margin: 0 0 0.3in;
+}
+.title-page h1 {
+  font-family: var(--display);
+  font-size: 28pt;
+  line-height: 1.08;
+  margin: 0 0 0.25in;
+  font-weight: 700;
+}
+.title-page .subtitle {
+  font-size: 12pt;
+  color: #3A4244;
+  margin: 0 0 1.2in;
+  max-width: 4.4in;
+}
+.title-page .author {
+  font-family: var(--sans);
+  font-size: 10pt;
+  color: var(--muted);
+}
+
+.copyright {
+  page: front;
+  page-break-after: always;
+  font-family: var(--sans);
+  font-size: 8pt;
+  line-height: 1.45;
+  color: #555;
+  padding-top: 4.8in;
+}
+.copyright .credits { color: var(--muted); margin-top: 0.4em; }
+
+.toc {
+  page: front;
+  page-break-after: always;
+}
+.toc .kicker {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.12in;
+}
+.toc h2 {
+  font-family: var(--display);
+  font-size: 24pt;
+  margin: 0 0 0.35in;
+  font-weight: 700;
+}
+.toc ol { list-style: none; padding: 0; margin: 0; }
+.toc &gt; ol &gt; li {
+  margin: 0 0 0.45em;
+  font-size: 10.5pt;
+  padding-bottom: 0.28em;
+  border-bottom: 0.4pt solid #E4E8E9;
+}
+.toc &gt; ol &gt; li &gt; a { font-family: var(--display); font-weight: 600; }
+.toc a::after {
+  content: leader(&#34; . &#34;) target-counter(attr(href url), page);
+  font-family: var(--sans);
+  font-size: 8pt;
+  color: var(--muted);
+  font-weight: 400;
+}
+.toc ol ol {
+  margin: 0.15em 0 0;
+  font-size: 9pt;
+  color: #4A5254;
+}
+.toc ol ol li { margin: 0 0 0.12em; border: none; padding: 0; }
+.toc ol ol a { font-family: var(--serif); font-weight: 400; }
+
+/* ========== CHAPTER ========== */
+.chapter { page-break-before: always; }
+
+.chapter-opener {
+  page-break-before: always;
+  page-break-after: always;
+  page-break-inside: avoid;
+  margin: 0;
+  background: var(--accent-deep);
+}
+.chapter-opener img {
+  width: 100%;
+  height: 4.6in;
+  object-fit: cover;
+  display: block;
+}
+.chapter-opener .opener-text {
+  background: var(--accent-deep);
+  color: #fff;
+  padding: 0.32in 0.05in 0.35in;
+}
+.chapter-opener .chap-kicker {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #B7D4D8;
+  margin: 0 0 0.12in;
+}
+.chapter-opener h2 {
+  font-family: var(--display);
+  font-size: 20pt;
+  line-height: 1.12;
+  margin: 0 0 0.12in;
+  font-weight: 700;
+  color: #ffffff;
+}
+.chapter-opener p {
+  font-size: 9.5pt;
+  line-height: 1.4;
+  color: #D7E6E8;
+  margin: 0;
+}
+
+.chapter-title {
+  font-family: var(--display);
+  font-size: 24pt;
+  line-height: 1.1;
+  margin: 0.6in 0 0.22in;
+  font-weight: 700;
+}
+.intro {
+  font-size: 11pt;
+  color: #333;
+  margin-bottom: 0.4in;
+  border-left: 3pt solid var(--accent);
+  padding-left: 0.16in;
+}
+
+/* ========== UNIT ========== */
+.unit { page-break-before: always; }
+.chapter &gt; .unit:first-of-type { page-break-before: auto; }
+
+.unit-head { margin: 0 0 0.25in; }
+.day {
+  display: block;
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 5pt;
+}
+.unit h3, .hero h3 {
+  font-family: var(--display);
+  font-size: 17pt;
+  line-height: 1.15;
+  margin: 0;
+  font-weight: 700;
+}
+
+/* Hero: image then caption strip UNDER it — never overlays */
+.hero {
+  margin: 0 0 0.28in;
+  page-break-inside: avoid;
+  background: var(--mist);
+}
+.hero img {
+  width: 100%;
+  height: 3.15in;
+  object-fit: cover;
+  display: block;
+}
+.hero .hero-label {
+  padding: 0.16in 0.18in 0.18in;
+}
+.hero .day { color: var(--accent); }
+.hero h3 { color: var(--ink); font-size: 16pt; }
+
+.scenario {
+  background: var(--mist);
+  border-top: 2.5pt solid var(--accent);
+  padding: 0.16in 0.18in 0.18in;
+  margin: 0 0 0.25in;
+}
+.scenario .label {
+  font-family: var(--sans);
+  font-size: 7.5pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.08in;
+}
+.scenario p {
+  font-size: 10pt;
+  font-style: italic;
+  color: #2A3234;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.principle {
+  font-family: var(--display);
+  font-size: 13.5pt;
+  line-height: 1.28;
+  font-weight: 600;
+  margin: 0.05in 0 0.28in;
+  color: var(--accent-deep);
+  padding: 0.08in 0 0.08in 0.18in;
+  border-left: 3pt solid var(--accent);
+}
+
+.body-copy p { font-size: 10.5pt; }
+
+figure.diagram {
+  margin: 0.18in 0 0.28in;
+  page-break-inside: avoid;
+  background: var(--mist);
+  padding: 0.1in;
+}
+figure.diagram img {
+  width: 100%;
+  display: block;
+  background: #fff;
+}
+figure.diagram figcaption {
+  font-family: var(--sans);
+  font-size: 8pt;
+  color: var(--muted);
+  line-height: 1.35;
+  margin-top: 5pt;
+}
+
+.steps, .checklist, .mistake {
+  page-break-inside: avoid;
+  margin: 0.25in 0;
+}
+.steps h4, .checklist h4, .mistake h4 {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0 0 7pt;
+  font-weight: 700;
+}
+.steps {
+  background: var(--mist);
+  padding: 0.16in 0.18in;
+}
+.steps ol {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  counter-reset: step;
+}
+.steps li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 1.4em;
+  margin: 0 0 6pt;
+  font-size: 10pt;
+}
+.steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: var(--sans);
+  font-size: 8.5pt;
+  font-weight: 700;
+  color: var(--accent);
+}
+.steps em {
+  color: var(--muted);
+  font-style: normal;
+  font-family: var(--sans);
+  font-size: 8pt;
+}
+
+.mistake {
+  background: #F8EEEB;
+  padding: 0.16in 0.18in;
+  border-left: 3pt solid var(--red);
+}
+.mistake h4 { color: var(--red); }
+.mistake p { margin: 0; font-size: 9.8pt; }
+
+.checklist ul { list-style: none; padding: 0; margin: 0; }
+.checklist li {
+  padding-left: 1.4em;
+  position: relative;
+  margin: 0 0 5pt;
+  font-size: 10pt;
+}
+.checklist li::before {
+  content: &#34;&#34;;
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  width: 0.7em;
+  height: 0.7em;
+  border: 1.2pt solid var(--accent);
+}
+
+/* ========== LAST PAGE (shared series closer) ========== */
+.closing {
+  page: closing;
+  page-break-before: always;
+  padding-top: 0;
+}
+.closing-photo {
+  width: 100%;
+  height: 3.2in;
+  object-fit: cover;
+  display: block;
+  margin: 0 0 0.45in;
+}
+.closing .kicker {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.16in;
+}
+.closing .rule {
+  width: 1in;
+  height: 2.5pt;
+  background: var(--accent);
+  margin: 0 0 0.25in;
+}
+.closing h2 {
+  font-family: var(--display);
+  font-size: 24pt;
+  line-height: 1.1;
+  margin: 0 0 0.2in;
+}
+.closing .blurb {
+  font-size: 11.5pt;
+  line-height: 1.4;
+  color: #333;
+  max-width: 4.5in;
+  margin: 0 0 0.7in;
+}
+.closing .author {
+  margin-top: 0.9in;
+  font-family: var(--sans);
+  font-size: 9.5pt;
+  color: var(--muted);
+}
+</style>
+</head>
+<body>
+<span class="series-mark">30 Day Spaces</span>
+
+<section class="cover cover-designed">
+  <img class="cover-photo" src="cover.jpg" alt="A compact closet with hanging clothes and clear space on the floor, no people or text.">
+</section>
+
+<section class="title-page">
+  <p class="mast">30 Day Spaces</p>
+  <div class="rule"></div>
+  <h1>Curated Clarity Closet</h1>
+<p class="subtitle">A 30-day plan to wear, care for, and replace clothes in a compact home — without a magic body type</p><p class="author">Akarsh Priyadarshan</p></section>
+
+<section class="copyright">
+  <p>© 2026 Akarsh Priyadarshan. All rights reserved.</p>
+  <p>Interior designed for Amazon KDP print (6 × 9 in) and Kindle.</p>
+  <p>1 interior image in this book
+     was generated with AI tools and reviewed by the author.
+     All diagrams were drawn from the measurements in the text.</p>
+<p class="credits">Photographs: Photo by Pavel Danilyuk on Pexels; Photo by Plastic Lines on Pexels; Photo by https://kaboompics.com/ on Pexels; Photo by Ali Babajahdi on Pexels; Photo by Yuliya Duzhaya on Pexels; Photo by Connor Scott McManus on Pexels; Photo by DS stories on Pexels; Photo by Ron Lach on Pexels; Photo by cottonbro studio on Pexels; Photo by George Milton on Pexels; Photo by Anna Shvets on Pexels; Photo by Max Vakhtbovych on Pexels; Photo by Anisha Deb on Pexels; Photo by Shannon Deans on Pexels; Photo by Sheldon Li on Pexels; Photo by Jan van der Wolf on Pexels; Photo by Andrea Piacquadio on Pexels; Photo by Saad Bin  Hasan on Pexels; Photo by RDNE Stock project on Pexels; Photo by Erik Mclean on Pexels; Photo by Huy Quang Nguyễn on Pexels; Photo by Sora Shimazaki on Pexels; Photo by Leeloo The First on Pexels; Photo by Jakub Zerdzicki on Pexels; Photo by Vie Studio on Pexels; Photo by Andreas Näslund on Pexels; Photo by Valeria Boltneva on Pexels; Photo by Hanna Pad on Pexels.</p></section>
+
+<section class="toc">
+  <p class="kicker">Inside this book</p>
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#how-to-use-and-clarify">Days 1–3: Clarify how you live</a>
+      <ol><li><a href="#thirty-day-map">This is a 30-day plan</a></li><li><a href="#map-the-real-week">Map the week you actually dress for</a></li><li><a href="#north-star-not-a-count">A North Star is a sentence, not a 30-piece law</a></li></ol>
+    </li>
+    <li><a href="#audit-the-closet">Days 4–7: Audit without a universal purge</a>
+      <ol><li><a href="#set-the-stage">Empty only what you can finish today</a></li><li><a href="#four-piles">Keep, tailor, test, exit</a></li><li><a href="#fff-score-is-an-aid">Fit Fabric Function is a 1–5 aid, not a verdict</a></li><li><a href="#exit-and-memory">Exit with a tree. Memory with a date</a></li></ol>
+    </li>
+    <li><a href="#define-without-a-body-law">Days 8–11: Define what you like, without a vein test as law</a>
+      <ol><li><a href="#moodboard-from-worn-clothes">Build a board from clothes you already wear</a></li><li><a href="#undertone-is-optional">Undertone is a test you can skip</a></li><li><a href="#palette-from-use">A palette is what you already combine</a></li><li><a href="#fit-is-function">Fit is movement and comfort, not a flattering law</a></li></ol>
+    </li>
+    <li><a href="#build-formulas">Days 12–16: Formulas you can dress in, not a magic count</a>
+      <ol><li><a href="#outfit-equations">Write equations for the week you mapped</a></li><li><a href="#micro-capsules-not-counts">A micro capsule is a subset, not a quota</a></li><li><a href="#rotation-is-a-test">A 30-day rotation is a test of the equations</a></li><li><a href="#master-dashboard">Master wardrobe dashboard template</a></li><li><a href="#memory-category">Sentimental clothes get a process, not a scolding</a></li></ol>
+    </li>
+    <li><a href="#shop-with-brakes">Days 17–20: Shop the gap, not the feed</a>
+      <ol><li><a href="#gap-list-only">A gap is a missing function, not a mood</a></li><li><a href="#budget-in-usd">Budget bands and cost per wear in USD</a></li><li><a href="#purchase-risk-and-wait">Purchase risk and a wait, unless it is a necessity</a></li><li><a href="#one-in-conditional">One In, One Out is a capacity tool, not a morality rule</a></li></ol>
+    </li>
+    <li><a href="#organize-the-closet">Days 21–24: Put frequent clothes where you can reach them</a>
+      <ol><li><a href="#zones-by-frequency">Zone by how often you dress, not by rainbow theory alone</a></li><li><a href="#shared-and-access">Shared rails and dressing aids</a></li><li><a href="#small-items">Small items where you can see them</a></li><li><a href="#weekly-reset">A short weekly reset</a></li></ol>
+    </li>
+    <li><a href="#care-and-climate">Days 25–27: Care labels, laundry flow, climate, shoes</a>
+      <ol><li><a href="#care-label-first">The care label wins</a></li><li><a href="#laundry-flow">Five homes for clothes, not one chair</a></li><li><a href="#climate-shoes-storage">Climate, a footwear-care checklist, and storage</a></li></ol>
+    </li>
+    <li><a href="#review-and-follow-up">Days 28–30: See if the system works</a>
+      <ol><li><a href="#friction-review">Ask where the system rubs</a></li><li><a href="#adjust-dont-restart">Adjust the formula, keep the care rule</a></li><li><a href="#follow-up-day">Schedule the next 30-day check</a></li></ol>
+    </li>
+  </ol>
+</section>
+
+<section class="chapter" id="how-to-use-and-clarify">
+  <div class="chapter-opener">
+    <img src="photos/001-pexels.jpg" alt="A one-page 30-day closet schedule on a table, no unused furniture.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Days 1–3: Clarify how you live</h2>
+<p>How to use this book: it is a 30-day guided closet plan, not a set of modules that each restart at Day 1. Follow Days 1–30 in order, or pause a phase if life interrupts — then resume at the next unfinished day. This book is for people building practical wardrobes in compact homes and everyday urban environments. Examples use different cities and lifestyles for illustration; adapt quantities, fabrics, care, and budgets to your climate, culture, work, and storage. Some scenarios use Indian cities as compact-home illustrations. They do not define the market. Prices are USD. Measurements, when given, are inches and are illustrations. Manufacturer care labels, the lease, and a qualified cleaner or cobbler take precedence. A capsule is a working group of clothes you actually wear, not a fixed number and not a ban on uniforms, sportswear, sleepwear, occasionwear, cultural clothing, or sentimental pieces. First-use meanings: Style North Star — a short description of how you want clothes to work for your real week. Outfit equation — a repeatable formula such as bottom plus top plus layer. Micro capsule — a small working subset for one context, not a mandatory item count. Archetype — a pattern you already wear, optional, not a personality test. Acquisition ratio — a planning mix of core versus accent buys, not a law. Cost per wear — purchase price divided by wears so far, a comparison aid. Fit Fabric Function Score — a 1–5 decision aid, not a lab measurement. Wear log — a record of what you actually put on. Silhouette grid — notes on shapes that move with your day, not an ideal body. Do not use load-bearing walls or other apartment structure notes unless they change hanging or storage. Use hanging space, shared wardrobes, laundry access, commute, and time instead.</p>    </div>
+  </div>
+
+  <article class="unit" id="thirty-day-map">
+
+    <figure class="hero">
+      <img src="photos/002-pexels.jpg" alt="A calendar with closet phases marked, not a restarting Day 1 stamp.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>This is a 30-day plan</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Limited hanging space: a reader opened four chapters that each said Day 1 and did not know what to do on Day 12.</p>
+    </div>
+
+    <p class="principle">One path. Eight phases. Resume where you stopped.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: the 30-day map copied or photographed, with today&#39;s date on Day 1.</p>
+      <figure class="diagram">
+        <img src="figures/D001.svg" alt="30-day closet schedule">
+<figcaption>Pause if needed. Resume at the next unfinished day.</figcaption>      </figure>
+      <p>Clarify 1–3 lifestyle and guardrails. Audit 4–7 sort and document. Define 8–11 moodboard, optional color tests, fit. Build 12–16 formulas, capsules, dashboard. Shop 17–20 gaps, budget, waits. Organize 21–24 zones and access. Maintain 25–27 care, laundry, climate, shoes. Review 28–30 test, adjust, follow-up.</p>
+      <p>Later chapters do not restart the day count. Template-style repeats from older notes are replaced by the dashboard on Day 15.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Copy the phase table</li><li>Mark today as Day 1</li><li>Do not skip the care chapter</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Treating each chapter as a new five-day challenge.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Copy the phase table</li><li>Mark today as Day 1</li><li>Do not skip the care chapter</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="map-the-real-week">
+
+    <figure class="hero">
+      <img src="photos/003-pexels.jpg" alt="A list: commute, desk, errands, heat, no laundry room.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>Map the week you actually dress for</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Long commute: work clothes need walkable shoes and a bag, not a load-bearing-wall story.</p>
+    </div>
+
+    <p class="principle">Context that changes clothes: work, home, weather, laundry access, time, footwear.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a week grid — days, main contexts, time to get dressed, whether you have a dryer, shared closet, or outdoor exposure.</p>
+      <p>Skip body-shape homework. Skip apartment structure trivia. Religious, cultural, workplace, and modesty needs belong on this page if they affect what you can wear.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>List weekly contexts</li><li>Note laundry and storage limits</li><li>Note footwear needs</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Writing &#39;1BHK with a load-bearing wall&#39; on a lifestyle map.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>List weekly contexts</li><li>Note laundry and storage limits</li><li>Note footwear needs</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="north-star-not-a-count">
+
+    <figure class="hero">
+      <img src="photos/004-pexels.jpg" alt="A sticky note: clothes I can sit, walk, and wash.">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>A North Star is a sentence, not a 30-piece law</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Shared wardrobe: two people sharing a rail cannot both run a numbered capsule.</p>
+    </div>
+
+    <p class="principle">A capsule is a working group. It is not a complete wardrobe and not a required item count.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: one Style North Star sentence plus guardrails — budget in USD, time, care you will actually do, and categories that stay outside the working group (uniforms, sports, sleep, occasion, cultural, memory).</p>
+      <p>Do not force a quantity cap on every category. Occasionwear and work uniforms have different jobs than everyday tops.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Write the North Star</li><li>List categories that stay outside it</li><li>Set a USD monthly ceiling if you shop</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Throwing out sleepwear to hit a capsule number.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Write the North Star</li><li>List categories that stay outside it</li><li>Set a USD monthly ceiling if you shop</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="audit-the-closet">
+  <div class="chapter-opener">
+    <img src="photos/005-pexels.jpg" alt="Four labeled piles on a bed: keep, repair, test, exit.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Days 4–7: Audit without a universal purge</h2>
+<p>Keep, tailor, test, exit, and memory are different piles. A high style score does not override pain, damage, or care you cannot do.</p>    </div>
+  </div>
+
+  <article class="unit" id="set-the-stage">
+
+    <figure class="hero">
+      <img src="photos/006-pexels.jpg" alt="One rail emptied onto a bed, the rest still hanging.">
+      <div class="hero-label">
+<span class="day">Day 4</span>        <h3>Empty only what you can finish today</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Limited time: a full-closet dump at 10 p.m. left clothes on the floor overnight.</p>
+    </div>
+
+    <p class="principle">Work in sections. Do not create a laundry-and-mold problem.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: one zone emptied, photographed, and sorted far enough that nothing damp sits in a pile.</p>
+      <p>Have bags for exit, a repair box, and a memory box. Do not wash a whole closet in one night if you cannot dry it.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Pick one zone</li><li>Photograph before</li><li>Stop before damp piles</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Pulling everything and closing the door on damp heaps.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Pick one zone</li><li>Photograph before</li><li>Stop before damp piles</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="four-piles">
+
+    <figure class="hero">
+      <img src="photos/007-pexels.jpg" alt="A shirt in Test with a note: wear twice this week.">
+      <div class="hero-label">
+<span class="day">Day 5</span>        <h3>Keep, tailor, test, exit</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Size fluctuation: a useful trouser is tight this month and still worth a Test pile, not an instant Exit.</p>
+    </div>
+
+    <p class="principle">Test is allowed. Immediate perfection is not required.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: each handled item — garments and footwear — in Keep, Tailor, Test, Exit, or Memory. Memory is not a failure.</p>
+      <figure class="diagram">
+        <img src="figures/D020.svg" alt="Footwear fields in the same audit">
+<figcaption>Shoes are not a side category. Same Keep / Tailor / Test / Exit / Memory piles.</figcaption>      </figure>
+      <p>Use the Fit Fabric Function Score on Day 6 for borderline pieces. Do not keep items that hurt, smell of mold, or cannot be cleaned by any method you can access.</p>
+      <p>For every pair of shoes, record: primary use; comfort walking or standing; weather suitability; sole and fastener condition; drying and cleaning needs; whether it can be repaired; whether it actually works with outfits you wear. Footwear uses the same piles as clothes.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Sort one zone fully, including shoes</li><li>Date the Test pile</li><li>Isolate anything damp or moldy</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Calling every maybe a Keep because it was expensive.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Sort one zone fully, including shoes</li><li>Date the Test pile</li><li>Isolate anything damp or moldy</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="fff-score-is-an-aid">
+
+    <figure class="hero">
+      <img src="photos/008-pexels.jpg" alt="A score card with five rows, discomfort circled as a veto.">
+      <div class="hero-label">
+<span class="day">Day 6</span>        <h3>Fit Fabric Function is a 1–5 aid, not a verdict</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Sensory sensitivity: a &#39;perfect&#39; silhouette scored high and still itched all day.</p>
+    </div>
+
+    <p class="principle">Equal weight 1–5. A veto beats a high total.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: score only borderline items. Five criteria, equal weight, each 1 to 5. 1 means unusable for that criterion. 5 means it works for your real week without extra effort. There is no minimum total that forces Keep. Add the five numbers if you want a snapshot. The snapshot is a personal decision aid, not an objective measure of quality or attractiveness.</p>
+      <figure class="diagram">
+        <img src="figures/D003.svg" alt="How to score 1 versus 5">
+<figcaption>Equal weight. No threshold overrides a veto. Not a lab grade.</figcaption>      </figure>
+      <p>If an item scores well overall but causes discomfort, pain, instability, or a care method you cannot do, that is a veto. Put it in Tailor, Test, or Exit. A serious comfort, safety, or care problem remains a veto even when the overall score is high.</p>
+      <p>Suggested use, not a law: totals that still have a veto never Keep; mixed scores with no veto go to Test; high totals with no veto may Keep if you will actually wear them.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Write the five criteria</li><li>Mark vetoes</li><li>Place items by total plus veto</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Keeping a shoe that blisters because versatility was a five.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Write the five criteria</li><li>Mark vetoes</li><li>Place items by total plus veto</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="exit-and-memory">
+
+    <figure class="hero">
+      <img src="photos/009-pexels.jpg" alt="A clean donation bag, a sealed isolate bag, a small memory box.">
+      <div class="hero-label">
+<span class="day">Day 7</span>        <h3>Exit with a tree. Memory with a date</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Emotionally significant: a parent&#39;s jacket is not a clutter failure.</p>
+    </div>
+
+    <p class="principle">Recycling is not available everywhere. Check local options.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: each Exit item routed. Good condition and clean: donate, resell, or gift. Needs minor repair: repair before release. Damaged but usable as textile: local recycling or repurpose if those exist. Wet, moldy, contaminated, or pest-affected: isolate; clean or dispose using appropriate local guidance — do not donate. Memory: photograph, limited physical keep, review date.</p>
+      <figure class="diagram">
+        <img src="figures/D004.svg" alt="Exit decision tree">
+<figcaption>Confirm the drop-off accepts this material. Recycling is not everywhere.</figcaption>      </figure>
+      <p>Do not dump contaminated textiles on a charity. Do not force a same-day decision on every sentimental piece. If you use a textile collection or recycling drop-off, verify that service actually accepts this material — fiber mix, shoes, and wet or moldy items are often refused. A city without that service is normal; then dispose of unusable items using ordinary household rules, not a pretend recycle.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Route the Exit pile</li><li>Isolate unsafe items</li><li>Date the memory box</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Bagging moldy clothes for a donation drive.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Route the Exit pile</li><li>Isolate unsafe items</li><li>Date the memory box</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="define-without-a-body-law">
+  <div class="chapter-opener">
+    <img src="photos/010-pexels.jpg" alt="Clothes held near a window, not a wrist-vein diagram.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Days 8–11: Define what you like, without a vein test as law</h2>
+<p>Undertone checks are optional experiments. Fit is sit, walk, reach, and your actual day. You may skip body-shape labels.</p>    </div>
+  </div>
+
+  <article class="unit" id="moodboard-from-worn-clothes">
+
+    <figure class="hero">
+      <img src="photos/011-pexels.jpg" alt="Three favorite outfits photographed, not a celebrity collage only.">
+      <div class="hero-label">
+<span class="day">Day 8</span>        <h3>Build a board from clothes you already wear</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Workplace dress code: the board includes modest layers that already work at work.</p>
+    </div>
+
+    <p class="principle">Patterns you use beat archetypes you were assigned.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a filtered moodboard from real outfits plus a few references. Archetype names are optional. Skip them if they feel like a costume.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Photo three real outfits</li><li>Add only useful references</li><li>Skip archetype if it does not help</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Building a board that ignores the commute and the dress code.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Photo three real outfits</li><li>Add only useful references</li><li>Skip archetype if it does not help</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="undertone-is-optional">
+
+    <figure class="hero">
+      <img src="photos/012-pexels.jpg" alt="The same navy top photographed in window light and lamp light.">
+      <div class="hero-label">
+<span class="day">Day 9</span>        <h3>Undertone is a test you can skip</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Personal preference: a &#39;cool&#39; test disagreed with the colors already worn weekly.</p>
+    </div>
+
+    <p class="principle">Vein and white-sheet tests are not objective facts.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: either skip undertone, or run it as an experiment — then still test colors near your face in natural and indoor light and write what you like.</p>
+      <figure class="diagram">
+        <img src="figures/D005.svg" alt="Color without a mandatory undertone">
+<figcaption>Preference and use beat a wrist test.</figcaption>      </figure>
+      <p>Undertone tests are only starting points. They do not determine what you should wear. Contrast, lighting, fabric, context, and culture matter. Choosing colors that you like and already wear is a valid route: start with frequent colors, compare warmer and cooler versions of the same color, test against the existing closet, prioritize comfort and context.</p>
+      <p>Do not use &#39;clash with your identified undertone&#39; as a rule.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Choose skip or experiment</li><li>Test in two lightings</li><li>Record liked combinations</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Throwing out a favorite color because a vein looked green.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Choose skip or experiment</li><li>Test in two lightings</li><li>Record liked combinations</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="palette-from-use">
+
+    <figure class="hero">
+      <img src="photos/013-pexels.jpg" alt="A small board of neutrals pulled from the Keep pile.">
+      <div class="hero-label">
+<span class="day">Day 10</span>        <h3>A palette is what you already combine</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Dusty commute: mid navy shows less dust than a pale cream you never keep clean.</p>
+    </div>
+
+    <p class="principle">Core colors come from use and cleaning reality, not a seasonal trend pack.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: three to six colors you already wear, plus one accent you will actually maintain. No universal mix for every climate.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>List colors you already wear</li><li>Note which show dirt or fade</li><li>Add one accent at most</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Buying a full new palette before wearing the Keep pile.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>List colors you already wear</li><li>Note which show dirt or fade</li><li>Add one accent at most</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="fit-is-function">
+
+    <figure class="hero">
+      <img src="photos/014-pexels.jpg" alt="Sitting, reaching, and walking in the same outfit, notes on pressure points.">
+      <div class="hero-label">
+<span class="day">Day 11</span>        <h3>Fit is movement and comfort, not a flattering law</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Seated workday: a waistband that looks &#39;sharp&#39; and cuts in after an hour.</p>
+    </div>
+
+    <p class="principle">No silhouette is universally more flattering.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a fit checklist used on Keep and Test items — sit, walk, reach, bend; works for the actual day; pressure, irritation, restriction; care you can do; works with your shoes and underlayers. Note mobility needs, sensory issues, size changes, adaptive dressing, cultural or modest dress, medical footwear.</p>
+      <figure class="diagram">
+        <img src="figures/D009.svg" alt="Function-and-comfort fit checks">
+<figcaption>Skip body-shape labels if they do not help.</figcaption>      </figure>
+      <p>You do not have to name a body shape. Footwear for standing, commuting, or medical comfort is part of fit.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Run the movement checklist</li><li>Note shoe pairing</li><li>Move painful items to Exit or Tailor</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Calling a cut universally flattering.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Run the movement checklist</li><li>Note shoe pairing</li><li>Move painful items to Exit or Tailor</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="build-formulas">
+  <div class="chapter-opener">
+    <img src="photos/015-pexels.jpg" alt="Index cards: trousers plus knit plus jacket plus walkable shoe.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Days 12–16: Formulas you can dress in, not a magic count</h2>
+<p>Outfit equations are shortcuts. They must include shoes and a care path. A dashboard connects inventory, wears, and next actions.</p>    </div>
+  </div>
+
+  <article class="unit" id="outfit-equations">
+
+    <figure class="hero">
+      <img src="photos/016-pexels.jpg" alt="Three formula cards pinned inside the closet door.">
+      <div class="hero-label">
+<span class="day">Day 12</span>        <h3>Write equations for the week you mapped</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Frequent outdoor exposure: a formula that dies in light rain is incomplete.</p>
+    </div>
+
+    <p class="principle">Each formula needs a shoe and a weather note.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: three outfit equations for your main contexts. Example shape only: bottom + top + layer + shoe. Fill with real Keep items.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Write three equations</li><li>Name the shoe</li><li>Name the weather limit</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Writing formulas with no shoes and no commute.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Write three equations</li><li>Name the shoe</li><li>Name the weather limit</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="micro-capsules-not-counts">
+
+    <figure class="hero">
+      <img src="photos/017-pexels.jpg" alt="A small stack for &#39;office days&#39; beside a larger Keep rail.">
+      <div class="hero-label">
+<span class="day">Day 13</span>        <h3>A micro capsule is a subset, not a quota</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Shared bedroom: the office subset lives on the reachable rail.</p>
+    </div>
+
+    <p class="principle">Do not apply one number to sportswear, uniforms, and everyday clothes.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: one micro capsule for your busiest context, pulled from Keep. Remaining Keep stays in the complete wardrobe.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Pull one context subset</li><li>Leave other categories intact</li><li>Check you can make five real outfits</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Culling the complete wardrobe to match a blog count.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Pull one context subset</li><li>Leave other categories intact</li><li>Check you can make five real outfits</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="rotation-is-a-test">
+
+    <figure class="hero">
+      <img src="photos/018-pexels.jpg" alt="A simple calendar with outfit letters, not a rigid uniform.">
+      <div class="hero-label">
+<span class="day">Day 14</span>        <h3>A 30-day rotation is a test of the equations</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Limited time: repeating two equations is allowed.</p>
+    </div>
+
+    <p class="principle">If a day fails, fix the formula, not your body.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a 30-day test calendar using the equations. Swap when laundry or weather requires it. This is not a moral streak.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Draft the 30-day test</li><li>Leave swap room for laundry</li><li>Note failures without self-blame</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Throwing out a formula because one humid day felt bad.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Draft the 30-day test</li><li>Leave swap room for laundry</li><li>Note failures without self-blame</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="master-dashboard">
+
+    <figure class="hero">
+      <img src="photos/019-pexels.jpg" alt="A named dashboard template with Item, Decision, Care, and Next action columns.">
+      <div class="hero-label">
+<span class="day">Day 15</span>        <h3>Master wardrobe dashboard template</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Wear logging: a Bengaluru example used to mention a load-bearing wall — the useful fact is no dryer and a shared rail.</p>
+    </div>
+
+    <p class="principle">One template connects the audit, equations, gap list, care, and the Day 28 review.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a filled Master wardrobe dashboard template. Copy the fields below into a notebook or sheet. One row per garment or pair of shoes. Bring forward Day 5 decisions, Day 12 equations, Day 17 gaps, Day 25–27 care, and take the sheet to Day 28.</p>
+      <figure class="diagram">
+        <img src="figures/D011.svg" alt="Master wardrobe dashboard template">
+<figcaption>One row per garment or pair of shoes. Fill every field.</figcaption>      </figure>
+      <p>Completed example: Item — navy walking shoe. Category — footwear. Decision — Keep. Main use — commute. Care — wipe and dry per the maker; not a leather cream. Wear frequency — frequently. Repair required — No. Outfit combinations — chino equation and rain-layer equation. Next action — air after the commute, then wear.</p>
+      <figure class="diagram">
+        <img src="figures/D016.svg" alt="Dashboard next action and example">
+<figcaption>Next action is required. The example is a shoe so footwear stays in the same system.</figcaption>      </figure>
+      <p>Do not start a second list. If an item has no next action, it is not on the dashboard yet.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Copy the dashboard fields</li><li>Enter clothes and shoes from the audit</li><li>Fill next action on every row</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Starting a new notebook for every chapter.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Copy the dashboard fields</li><li>Enter clothes and shoes from the audit</li><li>Fill next action on every row</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="memory-category">
+
+    <figure class="hero">
+      <img src="photos/020-pexels.jpg" alt="A small labeled box with a review date, not a hidden guilt pile.">
+      <div class="hero-label">
+<span class="day">Day 16</span>        <h3>Sentimental clothes get a process, not a scolding</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Emotionally significant: one jacket photographed and kept, extras released later.</p>
+    </div>
+
+    <p class="principle">A kept memory item is not an organizing failure.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: memory process — separate category, photograph, decide if it must stay physical, set a review date, limit the count if space is tight.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Photograph memory pieces</li><li>Set a review date</li><li>Limit the physical stack if needed</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Calling every keep of a gift a failure.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Photograph memory pieces</li><li>Set a review date</li><li>Limit the physical stack if needed</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="shop-with-brakes">
+  <div class="chapter-opener">
+    <img src="photos/021-pexels.jpg" alt="A gap list with three lines, a wait date in the margin.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Days 17–20: Shop the gap, not the feed</h2>
+<p>Buy to a list. Wait unless it is a true replacement. One In, One Out is conditional. Returns and care cost are part of the price.</p>    </div>
+  </div>
+
+  <article class="unit" id="gap-list-only">
+
+    <figure class="hero">
+      <img src="photos/022-pexels.jpg" alt="A list: walkable work shoe, not &#39;new aesthetic.&#39;">
+      <div class="hero-label">
+<span class="day">Day 17</span>        <h3>A gap is a missing function, not a mood</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Genuine replacement: the only rain shoe failed. That is a gap.</p>
+    </div>
+
+    <p class="principle">If two existing outfits cannot use it, it is probably not a gap.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a gap list tied to equations. Each line names the function, the climate, and the care you can do.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Write function-based gaps</li><li>Check against equations</li><li>Delete duplicates</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Listing a fourth black sweater as a gap.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Write function-based gaps</li><li>Check against equations</li><li>Delete duplicates</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="budget-in-usd">
+
+    <figure class="hero">
+      <img src="photos/023-pexels.jpg" alt="A simple band: replacement, useful upgrade, skip.">
+      <div class="hero-label">
+<span class="day">Day 18</span>        <h3>Budget bands and cost per wear in USD</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Limited budget: cost per wear is a comparison, not a duty to wear a painful shoe more often.</p>
+    </div>
+
+    <p class="principle">Prices in this book are USD illustrations. Local prices vary.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a monthly USD ceiling and a cost-per-wear note on any planned buy. Include alteration, shipping, and care products if you will need them.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Set a USD ceiling</li><li>Add hidden costs</li><li>Skip CPW on veto items</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Ignoring alteration cost because the tag looked cheap.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Set a USD ceiling</li><li>Add hidden costs</li><li>Skip CPW on veto items</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="purchase-risk-and-wait">
+
+    <figure class="hero">
+      <img src="photos/024-pexels.jpg" alt="A product page with return window highlighted, two sizes not in the cart yet.">
+      <div class="hero-label">
+<span class="day">Day 19</span>        <h3>Purchase risk and a wait, unless it is a necessity</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Final-sale online buy: no returns, wrong size.</p>
+    </div>
+
+    <p class="principle">Ordering two sizes is only reasonable if returns are allowed and you can handle cost and extra shipping.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a purchase checklist — return and exchange deadlines; final sale; alteration cost and whether altered items can be returned; shipping and duties; fabric vs photos; measurement charts vs size labels; works with two or three existing outfits; you can care for it.</p>
+      <figure class="diagram">
+        <img src="figures/D010.svg" alt="Do not buy yet — checks">
+<figcaption>Necessities can skip the wait. Final sale cannot skip the tape measure.</figcaption>      </figure>
+      <p>Wait: about 24 hours for low-cost nonessentials; about 7 days for expensive items; longer if it is trend-led, hard to care for, or a duplicate. Do not apply the wait rigidly to time-sensitive necessities or true replacements.</p>
+      <figure class="diagram">
+        <img src="figures/D012.svg" alt="Waiting periods">
+<figcaption>Not for genuine replacements or urgent necessities.</figcaption>      </figure>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Run the risk checklist</li><li>Set a wait if it is not a necessity</li><li>Skip two-size orders if returns are blocked</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Overnight checkout on a no-returns dress.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Run the risk checklist</li><li>Set a wait if it is not a necessity</li><li>Skip two-size orders if returns are blocked</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="one-in-conditional">
+
+    <figure class="hero">
+      <img src="photos/025-pexels.jpg" alt="A rail with a category limit marked, not a forced swap of unlike items.">
+      <div class="hero-label">
+<span class="day">Day 20</span>        <h3>One In, One Out is a capacity tool, not a morality rule</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Building from almost nothing: a new commute coat does not require discarding the only sweater.</p>
+    </div>
+
+    <p class="principle">Replace, release, or retain by function, condition, space, and use.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: pick a rule that fits — One In, One Out only when capacity or a category limit requires it; or one in, one reviewed; or category capacity; or replacement-only; or seasonal rotation limit.</p>
+      <figure class="diagram">
+        <img src="figures/D008.svg" alt="Capacity rules, not one law">
+<figcaption>Space and function decide. A count does not.</figcaption>      </figure>
+      <p>Do not remove a useful item merely to satisfy a numerical rule. Do not swap a winter coat for a party shoe to &#39;keep the count.&#39;</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Choose a capacity rule</li><li>Write exceptions for gaps and replacements</li><li>Update the dashboard</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Discarding a working raincoat to &#39;let in&#39; a similar color in a different season.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Choose a capacity rule</li><li>Write exceptions for gaps and replacements</li><li>Update the dashboard</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="organize-the-closet">
+  <div class="chapter-opener">
+    <img src="photos/026-pexels.jpg" alt="A reachable rail of weekly clothes, off-season boxed and labeled.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Days 21–24: Put frequent clothes where you can reach them</h2>
+<p>Merchandising is access. Frequent items at easy reach. Shared closets need agreed zones. Apartment structure only matters if it blocks a rail or a door.</p>    </div>
+  </div>
+
+  <article class="unit" id="zones-by-frequency">
+
+    <figure class="hero">
+      <img src="photos/027-pexels.jpg" alt="Everyday rail at hand height, rare pieces higher or boxed.">
+      <div class="hero-label">
+<span class="day">Day 21</span>        <h3>Zone by how often you dress, not by rainbow theory alone</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Limited hanging space: color-order looked pretty and hid the work shirts.</p>
+    </div>
+
+    <p class="principle">Reach beats display.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: zones — daily, weekly, rare, memory, exit-to-leave. Daily at the easiest reach. Do not cover vents or block the door.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Map daily vs rare</li><li>Move daily to easy reach</li><li>Keep the door and vents clear</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Filing by color so the commute outfit takes ten minutes to find.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Map daily vs rare</li><li>Move daily to easy reach</li><li>Keep the door and vents clear</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="shared-and-access">
+
+    <figure class="hero">
+      <img src="photos/028-pexels.jpg" alt="Two labeled sections on one rail, a stool that is stable if needed.">
+      <div class="hero-label">
+<span class="day">Day 22</span>        <h3>Shared rails and dressing aids</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Shared wardrobe: one person cannot use every hanger.</p>
+    </div>
+
+    <p class="principle">Accessibility is part of merchandising.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: if two people share storage, mark whose zone is whose. If reaching is hard, lower the daily rail or use a stable step only if it is safe on that floor. Adaptive hooks or dressing aids belong here if you use them.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Label shared zones</li><li>Fix reach for daily clothes</li><li>Remove trip stacks</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Stacking boxes in the only reach path.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Label shared zones</li><li>Fix reach for daily clothes</li><li>Remove trip stacks</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="small-items">
+
+    <figure class="hero">
+      <img src="photos/029-pexels.jpg" alt="A shallow tray of socks and a hook for bags, not a junk bowl.">
+      <div class="hero-label">
+<span class="day">Day 23</span>        <h3>Small items where you can see them</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>No dedicated laundry area: clean socks cannot live in the worn-chair pile.</p>
+    </div>
+
+    <p class="principle">If you cannot see it, you will buy it again.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: one visible home for socks, underwear, belts, and bags. Keep them out of laundry-required piles.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Give small items a tray or hook</li><li>Separate clean from worn</li><li>Drop duplicates into Exit</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>A chair as the only accessory system.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Give small items a tray or hook</li><li>Separate clean from worn</li><li>Drop duplicates into Exit</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="weekly-reset">
+
+    <figure class="hero">
+      <img src="photos/030-pexels.jpg" alt="A ten-minute reset: hang, dashboard ticks, laundry bag out.">
+      <div class="hero-label">
+<span class="day">Day 24</span>        <h3>A short weekly reset</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Limited time: a two-hour Sunday reset never happens.</p>
+    </div>
+
+    <p class="principle">Reset is hang, log, and move laundry — not a new personality.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a weekly reset list that fits your real minutes. Include returning worn-once items to air, not to a closed damp closet.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Write a short reset list</li><li>Put it on a day you keep</li><li>Include the airing step</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Skipping resets until the rail collapses.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Write a short reset list</li><li>Put it on a day you keep</li><li>Include the airing step</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="care-and-climate">
+  <div class="chapter-opener">
+    <img src="photos/031-pexels.jpg" alt="A care label photographed next to a mesh bag, steamer unplugged.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Days 25–27: Care labels, laundry flow, climate, shoes</h2>
+<p>Care-label-first. Heat and steam are not automatically safe. Cedar is not the same as a pesticide moth product. Store only what is fully dry.</p>    </div>
+  </div>
+
+  <article class="unit" id="care-label-first">
+
+    <figure class="hero">
+      <img src="photos/032-pexels.jpg" alt="A dry-clean-only jacket left on the hangar, not in a home wash experiment.">
+      <div class="hero-label">
+<span class="day">Day 25</span>        <h3>The care label wins</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Unknown finish: a coated jacket and a steamer.</p>
+    </div>
+
+    <p class="principle">If the label is missing or fights this book, go gentler or ask a cleaner.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: the care-label-first rule written where you do laundry. Follow the label when it is clear. Dry clean only: do not experiment at home. Unknown fabric or finish: test cautiously or get professional advice. Mold, persistent odor, or pests: isolate and choose an appropriate method. Heat-sensitive: do not assume steam or ironing is safe. Heat can harm coatings, prints, elastics, and glued details. Test an unfamiliar detergent on a hidden seam. Cedar blocks are not the same as moth-repellent pesticides — read those product labels and keep chemicals away from children and pets as directed.</p>
+      <figure class="diagram">
+        <img src="figures/D002.svg" alt="Care-label-first decisions">
+<figcaption>This book never outranks the sewn-in label.</figcaption>      </figure>
+      <p>Never store a garment until it is fully dry. Closed closets plus damp clothes are a mold problem.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Post the label-first rule</li><li>Sort dry-clean vs wash</li><li>Unplug heat tools until the label allows them</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Steaming a glued appliqué because a chapter listed a steamer as a tool.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Post the label-first rule</li><li>Sort dry-clean vs wash</li><li>Unplug heat tools until the label allows them</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="laundry-flow">
+
+    <figure class="hero">
+      <img src="photos/033-pexels.jpg" alt="Hooks: airing, laundry bag, repair tin — closet only for dry clean clothes.">
+      <div class="hero-label">
+<span class="day">Day 26</span>        <h3>Five homes for clothes, not one chair</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>No dryer and humid weather: a closed closet of damp T-shirts.</p>
+    </div>
+
+    <p class="principle">Wash frequency is not a universal number of wears.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a Laundry Flow — 1 clean and ready; 2 worn once and OK to air and re-wear; 3 laundry required; 4 repair or stain treatment; 5 seasonal storage. Frequency depends on garment, body contact, activity, climate, odor, and the care label.</p>
+      <figure class="diagram">
+        <img src="figures/D006.svg" alt="Laundry flow">
+<figcaption>No universal wear-count. The label still wins.</figcaption>      </figure>
+      <p>Odor, sweat, or a stain: do not return to the ready rail. Limited drying space: wash smaller loads; use ventilation the lease allows; do not trap damp items. Humid or monsoon conditions: extra dry time before hanging in the closet.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Create the five homes</li><li>Move today&#39;s clothes into them</li><li>Keep damp items out of the closet</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Hanging a damp commute shirt to &#39;save a wash.&#39;</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Create the five homes</li><li>Move today&#39;s clothes into them</li><li>Keep damp items out of the closet</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="climate-shoes-storage">
+
+    <figure class="hero">
+      <img src="photos/034-pexels.jpg" alt="Shoes drying away from the rail, a labeled breathable bin.">
+      <div class="hero-label">
+<span class="day">Day 27</span>        <h3>Climate, a footwear-care checklist, and storage</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Rainy-season commute: wet sneakers in a closed wardrobe.</p>
+    </div>
+
+    <p class="principle">No single capsule mix fits every climate.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: climate notes plus a completed footwear-care checklist. Do not use one cleaning method for leather, suede, fabric, and synthetics. Follow the manufacturer for that pair.</p>
+      <figure class="diagram">
+        <img src="figures/D007.svg" alt="Climate jobs — pick yours">
+<figcaption>Skip rows that are not your weather.</figcaption>      </figure>
+      <p>Footwear-care checklist: dry wet shoes before storage; rotate frequently worn pairs so they can air; clean leather, suede, fabric, and synthetic materials each according to that product&#39;s instructions; check sole wear, grip, and structural damage; separate pairs that need repair from pairs ready to wear; do not use damaged footwear when it creates a safety or comfort issue.</p>
+      <figure class="diagram">
+        <img src="figures/D013.svg" alt="Seasonal storage checklist">
+<figcaption>If you have no seasons, store by unused months instead.</figcaption>      </figure>
+      <p>Accessories and shoes schedule, adapted to use and the maker: after use — air and remove visible dirt where appropriate; weekly or as needed — inspect frequently used footwear and accessories; monthly — check damage, loose hardware, sole wear, and repair needs; seasonally — review what was stored or exposed to rain, humidity, or dust. Seasonal garment storage remains: clean and fully dry, repair first, breathable storage if appropriate, do not overpack, label, inspect before re-entry.</p>
+      <figure class="diagram">
+        <img src="figures/D014.svg" alt="Footwear-care checklist">
+<figcaption>Material methods are not interchangeable. The maker&#39;s instructions win.</figcaption>      </figure>
+      <figure class="diagram">
+        <img src="figures/D018.svg" alt="Footwear and accessories schedule">
+<figcaption>Change the frequency to match use. The maker still wins.</figcaption>      </figure>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Dry and rotate shoes</li><li>Clean only by that material&#39;s instructions</li><li>Split repair vs ready pairs</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>One wipe method for suede and patent, then boxing damp shoes.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Dry and rotate shoes</li><li>Clean only by that material&#39;s instructions</li><li>Split repair vs ready pairs</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="review-and-follow-up">
+  <div class="chapter-opener">
+    <img src="photos/035-pexels.jpg" alt="A used dashboard after a real week of dressing.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Days 28–30: See if the system works</h2>
+<p>The plan is working if you can dress for the week, care is doable, and buying slowed. Friction is data. A 30-day follow-up happens after Day 30, not instead of it.</p>    </div>
+  </div>
+
+  <article class="unit" id="friction-review">
+
+    <figure class="hero">
+      <img src="photos/036-pexels.jpg" alt="A list of failed mornings and the missing piece named.">
+      <div class="hero-label">
+<span class="day">Day 28</span>        <h3>Ask where the system rubs</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Getting-dressed time still high: daily clothes were pretty but not at hand.</p>
+    </div>
+
+    <p class="principle">Fix the bottleneck. Do not restart Day 1 for fun.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: the review questions plus a before-and-after line so you can see whether daily life improved, not only whether exercises were ticked.</p>
+      <figure class="diagram">
+        <img src="figures/D015.svg" alt="Implementation review">
+<figcaption>A no on dress time is a zone or formula problem, not a new shopping list.</figcaption>      </figure>
+      <p>Fill dressing time, items regularly worn, items awaiting repair, unnecessary purchases, and unresolved care problems — before this 30-day pass and after. Use the dashboard as the evidence, not memory alone.</p>
+      <figure class="diagram">
+        <img src="figures/D021.svg" alt="Before and after this 30-day pass">
+<figcaption>Empty cells mean you have not measured yet. Guessing is optional; the dashboard is better.</figcaption>      </figure>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Answer the review questions</li><li>Fill before and after</li><li>Name one friction</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Buying more organizers instead of moving daily clothes forward.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Answer the review questions</li><li>Fill before and after</li><li>Name one friction</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="adjust-dont-restart">
+
+    <figure class="hero">
+      <img src="photos/037-pexels.jpg" alt="One equation rewritten, care-label note unchanged.">
+      <div class="hero-label">
+<span class="day">Day 29</span>        <h3>Adjust the formula, keep the care rule</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Seasonal change: mild winter arrived; the rain formula still matters.</p>
+    </div>
+
+    <p class="principle">Do not throw out the label-first rule to chase a new aesthetic.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: at most two adjustments — an equation, a zone, a gap, or a capacity rule. Re-run vetoes on anything new.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Pick two adjustments</li><li>Update the dashboard</li><li>Leave care-label-first in place</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>A full closet dump because one week felt messy.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Pick two adjustments</li><li>Update the dashboard</li><li>Leave care-label-first in place</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="follow-up-day">
+
+    <figure class="hero">
+      <img src="photos/038-pexels.jpg" alt="A calendar date a month out, dashboard printed or saved.">
+      <div class="hero-label">
+<span class="day">Day 30</span>        <h3>Schedule the next 30-day check</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>After implementation: the follow-up is a short review, not a new book.</p>
+    </div>
+
+    <p class="principle">The program has a Day 30 and a later check. Both matter.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a follow-up date about 30 days from now. Bring the same review questions and the before-and-after table. Live in the closet until then. Do not start a second 30-day purge unless the follow-up says the system failed.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Put the follow-up on a calendar</li><li>File the dashboard</li><li>Dress from Keep tomorrow</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Starting a new capsule count on Day 31.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Put the follow-up on a calendar</li><li>File the dashboard</li><li>Dress from Keep tomorrow</li></ul>
+    </div>
+
+  </article>
+</section>
+
+<section class="closing">
+  <img class="closing-photo" src="photos/001-pexels.jpg" alt="A one-page 30-day closet schedule on a table, no unused furniture.">
+  <p class="kicker">30 Day Spaces</p>
+  <div class="rule"></div>
+  <h2>Your next room starts here</h2>
+  <p class="blurb">More room kits and measured layouts — same series language, same clear numbers. This book helps readers run a 30-day closet plan they can actually maintain. It does not diagnose undertone, replace a care label, or guarantee a capsule size.</p>
+<p class="author">Akarsh Priyadarshan</p></section>
+
+</body>
+</html>

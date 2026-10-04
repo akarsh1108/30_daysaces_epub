@@ -1,0 +1,2967 @@
+{
+  "slug": "the-quiet-living-room",
+  "title": "The Quiet Living Room",
+  "subtitle": "A decor-led guide to a calmer, less echoey living room",
+  "tagline": "Calmer rooms for US apartments and houses — honest about what rugs and curtains cannot do.",
+  "author": "Akarsh Priyadarshan",
+  "series": "30 Day Spaces",
+  "closing_headline": "Your next room starts here",
+  "closing_blurb": "More room kits and measured layouts — same series language, same clear numbers. Decor can soften a room; it cannot soundproof a building.",
+  "accent_hex": "#1E5F6B",
+  "units": "imperial",
+  "cover": {
+    "query": "stock photo of a modern living room with soft furnishings, natural light from one window, textured walls, and a cozy atmosphere",
+    "flux_prompt": "full-bleed image of a stylish living room with a mix of textures and soft colors, showcasing sound-absorbing elements like rugs and curtains",
+    "alt": "A softly furnished living room with a rug, curtains, and upholstered seating, no people or text.",
+    "source": "openai",
+    "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\cover.jpg",
+    "credit": "Cover illustration generated for this edition.",
+    "ai_generated": true,
+    "provider_id": "pexels:3987481"
+  },
+  "designed_cover": true,
+  "chapters": [
+    {
+      "slug": "quiet-starts-here-how-sound-behaves-in-a-living-room-quiet-s",
+      "title": "Quiet Starts Here: How Sound Behaves In A Living Room",
+      "intro": "By the end of this chapter you will know the difference between absorption, diffusion, isolation, and soundproofing, and you will have named the noise problem you actually have. About the examples: this book is written for renters and homeowners in the United States. Some scenarios use apartments in Indian cities as illustrations of planning decisions. They do not define the book’s market, building codes, product availability, or budget. Prices are USD. Measurements are inches first.",
+      "opener": {
+        "query": "stock photo of a modern living room with soft furnishings, natural light from one window, textured walls, and a cozy atmosphere",
+        "flux_prompt": "full-bleed image of a stylish living room with a mix of textures and soft colors, showcasing sound-absorbing elements like rugs and curtains",
+        "alt": "stock photo of a modern living room with soft furnishings, natural light from one window, textured walls, and a cozy atmosphere",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\001-pexels.jpg",
+        "credit": "Photo by Lucian Petrean on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:3987481"
+      },
+      "sections": [
+        {
+          "slug": "understanding-reverberation",
+          "title": "Understanding Reverberation",
+          "day_label": "Days 1–5 · Understand",
+          "hero": {
+            "query": "stock photo of a living room with sound-absorbing decor elements like a large rug and thick curtains, one window light",
+            "flux_prompt": "image of a cozy living room corner with a plush sofa, layered textiles, and a warm atmosphere",
+            "alt": "alternative angle of the living room focusing on rugs, curtains, and seating.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\002-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7534559"
+          },
+          "scenario": "In a 1BHK in Pune, Anjali’s 12 × 14 ft living room has hard floors and a large window. Conversation feels harsh. Traffic is still audible with the window closed. Those are two different problems.",
+          "principle": "Reducing reverberation does not reduce traffic or neighbor noise.",
+          "body": [
+            "Sound energy travels through the room and interacts with surfaces. Depending on frequency, geometry, and material, it can reflect, scatter, diffract, be absorbed, or pass through a boundary. It does not only travel in straight lines.",
+            "Reverberation is sound that persists after a source stops because energy keeps reflecting. Flutter echo is a distinct rapid repeat between parallel hard surfaces. A voice that sounds harsh often means strong early reflections and little absorption. A room that sounds boomy is more about low-frequency room modes than about a missing throw pillow. Traffic you can still hear with furnishings in place is transmission through the building, not echo.",
+            "Rugs, curtains, and upholstery can reduce some interior reflections. They generally cannot stop significant traffic, neighbor, or building noise. Success in this chapter means you can name which of those you have — not that the street got quieter."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Walk the room and write: echo, harsh speech, boom, traffic, neighbor voices, HVAC, or door-gap hiss.",
+              "minutes": null
+            },
+            {
+              "text": "Note floor, walls, windows, and whether you rent.",
+              "minutes": null
+            },
+            {
+              "text": "Do not buy treatments until the problem is named.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Treating traffic through a window with a thicker rug, then deciding the book failed.",
+          "checklist": [
+            "Noise type named",
+            "Renter or owner noted",
+            "No purchase yet"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "choosing-the-right-materials",
+          "title": "Choosing Materials By Function",
+          "day_label": "Days 1–5 · Understand",
+          "hero": {
+            "query": "stock photo of a living room with a mix of soft and hard materials, natural light from one window",
+            "flux_prompt": "image of a modern living room showcasing a balance of textures, including a fabric sofa and wooden accents",
+            "alt": "alternative view of the living room highlighting soft furnishings.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\003-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5998138"
+          },
+          "scenario": "",
+          "principle": "Dense and heavy are not shortcuts for every acoustic job.",
+          "body": [
+            "Absorption: porous, fibrous, or fabric-wrapped products that convert some sound energy to heat, reducing reflections inside the room. Isolation: reducing sound passing between rooms — usually mass, airtightness, and structure. Soundproofing is a construction-oriented system, not a shopping-bag of decor. Diffusion, in the engineered sense, is designed geometry; in this book, informal scattering from bookshelves and objects is a weaker, untested cousin.",
+            "A rug and pad can reduce hard-floor reflections and soften footfall sounds. Choose size and construction from the room, furniture, maintenance, and floor type — not solely from thickness. Full, lined curtains can reduce some high-frequency reflections and may modestly soften sound entering through a window. Their acoustic effect is usually much smaller than their light-control and privacy benefits. They are not a sound-isolation solution. Thermal or blackout lining does not automatically make curtains effective soundproofing.",
+            "Decorative felt, PET felt, upholstery fabric, acoustic fabric, open-cell foam, closed-cell foam, and mineral-wool or fiberglass panels are not interchangeable. Check intended use, thickness, mounting, cleaning, and any fire-performance information the maker publishes. Do not claim a product is safe unless its documentation supports that."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Buying the heaviest curtain on the rack because a blog equated mass with soundproofing.",
+          "checklist": [
+            "Function named: absorb, scatter, seal, or isolate",
+            "Product category matched to that function",
+            "Fire and cleaning notes copied from the label"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "strategic-layout-for-sound-control",
+          "title": "Layout Priorities Before Decor",
+          "day_label": "Days 1–5 · Understand",
+          "hero": {
+            "query": "stock photo of a living room with strategic furniture layout, one window light, plants, and soft furnishings",
+            "flux_prompt": "image of a thoughtfully arranged living room that promotes sound absorption and comfort",
+            "alt": "alternative angle of the living room focusing on the furniture arrangement.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\004-pexels.jpg",
+            "credit": "Photo by Quang Nguyen Vinh on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:33326581"
+          },
+          "scenario": "Ravi’s Bengaluru rental has a load-bearing wall. Angling the sofa 5 degrees will not isolate the neighbor’s TV.",
+          "principle": "Safe circulation first. Acoustic tweaks second.",
+          "body": [
+            "Layout order: keep walkways clear for the people using the room; keep doors and windows usable; avoid parking the main listening seat tight against a bare wall when you have a choice; then consider speaker and listener placement; then treat major reflection surfaces; then use furniture and soft goods as secondary adjustments. Angling furniture to “break sound paths” is too weak to be a primary strategy.",
+            "Keep walkways clear and sized for the people using the room. Check door swings, furniture stability, and access before finalizing the layout. Eighteen inches is a visual starting point, not a universal safety or accessibility standard.",
+            "Thirty-day map used in this book: Days 1–5 understand; 6–10 audit; 11–15 plan and budget; 16–22 implement what is safe and permitted; 23–26 compare under similar conditions; 27–30 maintain. Later day labels that say Saturday or Day 0 sit inside that map — they are not a second calendar."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Blocking a door swing with a plant cluster placed at a supposed first-reflection point.",
+          "checklist": [
+            "Walkways and exits still work",
+            "Problem still named",
+            "30-day phase identified"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "the-solution-framework",
+      "title": "Sound Control In Urban Apartments",
+      "intro": "By the end of this chapter you will classify the noise (airborne, impact, structure-borne, mechanical, or interior reverberation) and know which decor can help. Building construction in the US varies: drywall vs plaster, wood-frame vs concrete, shared walls, HVAC, window type, and lease rules. One treatment does not travel equally.",
+      "opener": {
+        "query": "urban apartment, sound control, soft furnishings, warm lighting, no people, no text, no watermark",
+        "flux_prompt": "full-bleed shot of a cozy urban living room with plush rugs and curtains, soft lighting",
+        "alt": "urban apartment, sound control, soft furnishings, warm lighting, no people, no text, no watermark",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\005-pexels.jpg",
+        "credit": "Photo by AJ  Ahamad on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:30554297"
+      },
+      "sections": [
+        {
+          "slug": "understanding-noise-types",
+          "title": "Understanding Noise Types",
+          "day_label": "Days 6–10 · Audit",
+          "hero": {
+            "query": "urban apartment, sound management, soft furnishings, warm lighting, no people, no text, no watermark",
+            "flux_prompt": "a well-decorated living room with sound-absorbing elements like thick rugs and upholstered furniture",
+            "alt": "a cozy corner with plants and bookshelves and mixed objects",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\005-pexels.jpg",
+            "credit": "Photo by AJ  Ahamad on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:30554297"
+          },
+          "scenario": "Karan in Mumbai hears traffic, a neighbor’s bass, and his own room echo. Decor might help the third. It will not solve the second.",
+          "principle": "Name the path before you name the product.",
+          "body": [
+            "Airborne: voices, television, traffic. Impact: footsteps, dropped objects, furniture scrapes. Structure-borne: vibration through framing or slab. Mechanical: HVAC, plumbing, appliances. Reverberant interior sound: energy that persists because the room is reflective. Neighbor bass through a shared wall is usually isolation and building fabric — very limited decor effect.",
+            "Decision snapshot. Echo in a bare room: decor may help. Harsh speech reflections: decor may help. Footfall in the room: partly, with rug, pad, and furniture. Traffic through a window: limited; window, sealing, or construction do the real work. Neighbor voices through a wall: very limited. Bass from another apartment: very limited. Door-gap noise: limited; door seals and correct installation, with fire-egress kept clear.",
+            "Record source, time, windows and doors, HVAC on or off, and where you sat. A free decibel app is an uncalibrated observation tool, not a lab instrument."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Averaging a phone dB number and calling neighbor bass “fixed” after hanging two foam tiles.",
+          "checklist": [
+            "Noise class written",
+            "Decor vs building path marked",
+            "Lease limits noted"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "absorption-techniques",
+          "title": "When Ordinary Decor Is Enough — And When It Is Not",
+          "day_label": "Days 6–10 · Audit",
+          "hero": {
+            "query": "urban apartment, sound absorption, plush rugs, warm lighting, no people, no text, no watermark",
+            "flux_prompt": "a living room with a thick rug and upholstered furniture, soft lighting highlighting the textures",
+            "alt": "a close-up of heavy curtains and a plush sofa",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\007-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8142820"
+          },
+          "scenario": "",
+          "principle": "Soft furnishings reduce some reflections. They are not purpose-built absorbers.",
+          "body": [
+            "Ordinary decor can improve comfort and reduce some high-frequency reflections. Targeted acoustic treatment — tested absorbers with appropriate thickness, area, and mounting — may be needed for more demanding interior goals. Cushions and throws are not substitutes for designed products when the goal is measurable absorption.",
+            "For porous absorbers, thickness and, where the product is designed for it, an air gap can improve absorption at some frequencies. An air gap behind a curtain or cellular shade does not automatically create sound isolation. A decorative panel with an air gap should not be described as blocking outside noise without performance data.",
+            "If the main complaint is external noise, stop adding pillows. Identify the transmission path: window, door undercut, shared wall, floor, ceiling, flanking around the partition."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Layering throws until the sofa disappears, while the open window still carries the street.",
+          "checklist": [
+            "Interior vs external decided",
+            "Air gap not treated as isolation",
+            "Next buy matches the problem"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "diffusion-strategies",
+          "title": "Informal Scattering, Not Engineered Diffusion",
+          "day_label": "Days 6–10 · Audit",
+          "hero": {
+            "query": "urban apartment, sound diffusion, varied bookshelves, warm lighting, no people, no text, no watermark",
+            "flux_prompt": "a stylish living room with a gallery wall and plants, showcasing sound-diffusing elements",
+            "alt": "a close-up of a bookshelf with books and decorative items arranged thoughtfully",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\008-pexels.jpg",
+            "credit": "Photo by Filip Szyller on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:13883386"
+          },
+          "scenario": "",
+          "principle": "Random clutter is not a diffuser.",
+          "body": [
+            "In this book, “diffusion” means informal scattering from irregular surfaces and objects. A tested acoustic diffuser is designed for geometry, depth, frequency range, and placement. Bookshelves can scatter reflections; the effect depends on contents, depths, spacing, and wall position.",
+            "Staggered books and objects may break up a blank wall visually. They are not a guaranteed acoustic solution and they can create clutter and tip hazards if overloaded.",
+            "Low-frequency sound can form uneven pressure patterns (room modes) that depend on room dimensions and listening position. Small decorative changes usually have limited effect on low-frequency problems. Do not put a plant in a corner to “collect bass.”"
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Calling a crowded shelf a diffuser and then blocking an exit with it.",
+          "checklist": [
+            "Scattering vs tested diffuser distinguished",
+            "Shelf stable and not in a path",
+            "Bass not assigned to a cushion"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "isolation-methods",
+          "title": "Isolation Methods Renters Can Attempt — Honestly",
+          "day_label": "Days 6–10 · Audit",
+          "hero": {
+            "query": "urban apartment, sound isolation, heavy curtains, warm lighting, no people, no text, no watermark",
+            "flux_prompt": "a cozy room with heavy curtains and a bookshelf against a wall, creating a sound-isolated environment",
+            "alt": "a close-up of weatherstripping on a door and thick curtains",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\009-pexels.jpg",
+            "credit": "Photo by Egor Komarov on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:12568022"
+          },
+          "scenario": "",
+          "principle": "Meaningful isolation is a system. One decorative item is not a system.",
+          "body": [
+            "Separate air sealing, door-gap reduction, window sealing, mass, decoupling, structural transmission, and flanking paths. Weatherstripping and a door sweep can reduce some leakage through an undercut; they are not guaranteed isolation and must not interfere with fire egress or required door operation. Follow the hardware maker and the building’s rules.",
+            "Rugs and curtains are not isolation measures. Do not categorize them as such. Heavy curtains are not equivalent to a sound-isolating window assembly.",
+            "If you need building-level work — extra drywall, resilient channel, window replacement — that is owner or professional territory. This book stays on the decor-and-sealing side of that line."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A draft stopper that holds a fire door off its latch.",
+          "checklist": [
+            "Egress still clear",
+            "Rugs not listed as isolation",
+            "Professional work not promised as DIY"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "deep-dive",
+      "title": "Sound Absorption, Diffusion, And Informal Measurement",
+      "intro": "By the end of this chapter you will treat phone apps and clap tests as informal comparisons, not laboratory RT60.",
+      "opener": {
+        "query": "interior of a modern Indian living room, soft furnishings, varied textures, natural light from one window",
+        "flux_prompt": "full-bleed image of a stylish living room with a mix of soft and hard surfaces, showcasing sound-absorbing materials like curtains and rugs",
+        "alt": "interior of a modern Indian living room, soft furnishings, varied textures, natural light from one window",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\010-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:7546217"
+      },
+      "sections": [
+        {
+          "slug": "understanding-sound-dynamics",
+          "title": "How The Room Responds",
+          "day_label": "Days 6–10 · Audit",
+          "hero": {
+            "query": "modern Indian living room with sound-absorbing decor, natural light, rich textures",
+            "flux_prompt": "photorealistic image of a cozy living room with a mix of textures, showcasing sound-absorbing elements like curtains and cushions",
+            "alt": "stylish living room with a blend of soft and hard surfaces, emphasizing sound dynamics",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\011-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8135492"
+          },
+          "scenario": "",
+          "principle": "Room size, furnishings, background noise, frequency, and position all change what you hear.",
+          "body": [
+            "A clap that “rings” suggests reflective surfaces. A clap that dies quickly suggests more absorption or a smaller, softer room — or a noisy background that masks the tail. That is not a complete assessment.",
+            "Use the same seat, same source, same time of day if you compare before and after. Record HVAC state and whether windows are open.",
+            "Do not treat a lower phone-app reading as proof that the room is quieter. Background noise, microphone limits, device processing, and a different clap can move the number."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Changing the TV volume and the furniture, then crediting the app number to the rug alone.",
+          "checklist": [
+            "Same position noted",
+            "Conditions written",
+            "App number labeled informal"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "measuring-acoustics-with-rt60",
+          "title": "Measuring Acoustics With RT60 — Limits",
+          "day_label": "Days 6–10 · Audit",
+          "hero": {
+            "query": "Bengaluru living room with sound-absorbing decor, warm lighting, rich textures",
+            "flux_prompt": "photorealistic image of a stylish living room with soft furnishings and diffusing elements, showcasing a cozy atmosphere",
+            "alt": "inviting living room with a mix of textures, with mixed textures",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\012-pexels.jpg",
+            "credit": "Photo by Aabouden Yassir on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:39388296"
+          },
+          "scenario": "Arjun in a Bengaluru rental wants a number. A clap into a phone is not a certified RT60.",
+          "principle": "RT60 is the approximate time for sound energy to decay by 60 dB. Getting it reliably is not a living-room clap.",
+          "body": [
+            "Reliable RT60 generally needs suitable equipment, a controlled source, and repeated measurements. Phone apps may give rough estimates or inconsistent results. A single clap in a living room does not yield a validated RT60.",
+            "A phone-based app and clap test can help you compare changes informally, but they should not be treated as a laboratory-grade RT60 measurement. For a repeatable home comparison, use the same room setup, listening position, sound source, and method each time. Record the result as an informal comparison rather than a certified acoustic measurement.",
+            "Do not aim at “0.5 seconds” as a promised outcome of adding a sofa. Room volume and materials dominate. Soft furnishings may shorten some mid- and high-frequency decay; they usually will not fix boom."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Publishing a phone RT60 as proof the apartment is now quiet.",
+          "checklist": [
+            "RT60 labeled informal if used",
+            "Clap test labeled subjective",
+            "No target time sold as a guarantee"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "improving-apartment-acoustics",
+      "title": "Improving Apartment Acoustics And Reducing Perceived Noise",
+      "intro": "By the end of this chapter you will have a surface priority list and a first-reflection method that does not pretend a plant is an absorber. This is not soundproofing your apartment using decor.",
+      "opener": {
+        "query": "interior of a modern Indian apartment with soft furnishings, one window light, textured walls, photorealistic",
+        "flux_prompt": "full-bleed image of a cozy living room with soft furnishings and decor that absorbs sound",
+        "alt": "interior of a modern Indian apartment with soft furnishings, one window light, textured walls, photorealistic",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\013-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:8089161"
+      },
+      "sections": [
+        {
+          "slug": "assessing-your-space",
+          "title": "Assessing Your Space",
+          "day_label": "Days 6–10 · Audit",
+          "hero": {
+            "query": "acoustic treatment in a modern Indian living room, one window light, textured walls, photorealistic",
+            "flux_prompt": "image of a living room with sound-absorbing decor and furnishings, showcasing various textures",
+            "alt": "alternative angle of the living room focusing on soft furnishings",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\014-pexels.jpg",
+            "credit": "Photo by Sheldon Li on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:18150686"
+          },
+          "scenario": "",
+          "principle": "Map surfaces and sources before shopping.",
+          "body": [
+            "List floor, walls, ceiling, windows, doors, TV/speaker location, and primary seat. Note the worst hour. Note permissions: drill, rods, adhesive, ceiling hooks, window treatments, restoration rules, and anything near sprinklers, HVAC, or exits.",
+            "You cannot silence the street from the sofa. You can sometimes make the room less harsh. Do not block building vents.",
+            "Fill a room profile: length, width, ceiling height, floor and wall type, window and door sizes, furniture, listening position, main noise source, tenure, budget in USD."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Shopping during the audit.",
+          "checklist": [
+            "Room profile started",
+            "Permissions listed",
+            "Main source named"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "prioritizing-surfaces",
+          "title": "Prioritizing Surfaces",
+          "day_label": "Days 11–15 · Plan",
+          "hero": {
+            "query": "textured rugs and curtains in a Bengaluru apartment, one window light, photorealistic",
+            "flux_prompt": "image of a living room with a large rug and heavy curtains, highlighting sound absorption features",
+            "alt": "alternative view of the room showcasing textile art and shelving",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\015-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7546553"
+          },
+          "scenario": "",
+          "principle": "Largest hard areas first for interior echo — if echo is the problem.",
+          "body": [
+            "If the problem is interior reflection, floor (rug + compatible pad) and windows (light and privacy first, acoustic claims qualified) usually beat a scatter of small objects. If the problem is a shared wall, those buys will disappoint.",
+            "Coverage matters more than a single thick object in the wrong place. A rug that sits fully under the seating group is a visual and footfall starting point, not a traffic barrier.",
+            "Use the rug-sizing rule (sofa width plus about 12 in on each side) as a visual starting point. Confirm against room dimensions, doors, and seating. It is not an acoustic requirement."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A 3 × 5 ft rug in front of an 84 in sofa, sold as sound control.",
+          "checklist": [
+            "Problem still interior echo",
+            "Largest surfaces listed",
+            "Formulas marked as starting points"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "choosing-high-impact-decor",
+          "title": "High-Impact Decor — Qualified",
+          "day_label": "Days 11–15 · Plan",
+          "hero": {
+            "query": "stylish living room decor in a Mumbai flat, one window light, photorealistic",
+            "flux_prompt": "image of a chic living room with upholstered furniture and layered curtains, emphasizing sound absorption",
+            "alt": "alternative angle showing shelves and objects",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\016-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6947272"
+          },
+          "scenario": "",
+          "principle": "High impact means the right surface, not the loudest marketing.",
+          "body": [
+            "A rug and pad for hard-floor reflections and in-room footfall. Lined curtains for glare, privacy, and modest high-frequency change at the window — not isolation. Upholstered seating adds a large soft area if you were replacing a hard bench.",
+            "Optional tested absorbers at first-reflection areas if lease and mounting allow. Plants stay visual.",
+            "Prices and availability vary by retailer, region, season, size, and material. Treat shopping figures as planning estimates and verify current prices before purchasing. IKEA, West Elm, and similar names are examples, not stock or performance guarantees."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "“Soundproofing curtains” as the cart title.",
+          "checklist": [
+            "Each item has an expected result written",
+            "USD estimate includes rod, pad, tax, shipping",
+            "Return policy checked"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "addressing-first-reflection-points",
+          "title": "First-Reflection Areas",
+          "day_label": "Days 11–15 · Plan",
+          "hero": {
+            "query": "home theater setup in a Pune apartment, one window light, photorealistic",
+            "flux_prompt": "image of a living room with a home theater setup, highlighting sound treatment elements",
+            "alt": "alternative view focusing on first reflection points and treatments",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\017-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7031762"
+          },
+          "scenario": "Suresh in Pune wants clearer TV speech. A floor lamp at the mirror point will not do an absorber’s job.",
+          "principle": "The mirror method finds a path from one source to one seat. It is not a full room survey.",
+          "body": [
+            "Use the mirror method on side walls: sit in the main seat, have a helper slide a small mirror at ear height. When you see the speaker or TV, mark that zone. For a meaningful acoustic intervention, use a properly sized, tested acoustic absorber or another suitable porous treatment. Plants and decorative objects can be added for visual layering; their acoustic contribution is limited.",
+            "A first-reflection treatment should be large enough for the area, made of an appropriate material, thick enough for the intended band, and installed safely without blocking ventilation, walkways, or equipment.",
+            "Do not use unstable ladders or awkward overhead mirrors for the ceiling. Identify ceiling paths conceptually. Use ceiling treatment only when safe, permitted, and correctly supported — not adhesive hooks on paint."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A phone camera on a wobbly chair aimed at the ceiling rose.",
+          "checklist": [
+            "Side-wall points marked from one seat",
+            "Ceiling not DIY-mirrored",
+            "Plant not listed as the absorber"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "balancing-absorption-and-diffusion",
+          "title": "Balancing Absorption And Scattering",
+          "day_label": "Days 11–15 · Plan",
+          "hero": {
+            "query": "acoustic balance in a Bengaluru living room, one window light, photorealistic",
+            "flux_prompt": "image of a living room with a mix of soft and hard surfaces, showcasing acoustic balance",
+            "alt": "alternative view highlighting plants and objects",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\018-pexels.jpg",
+            "credit": "Photo by Atlantic Ambience on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:12626478"
+          },
+          "scenario": "",
+          "principle": "Do not deaden every surface and do not rely on clutter.",
+          "body": [
+            "If speech already sounds dull, adding more thin foam may not help. If it sounds brittle, a few large soft areas usually beat many tiny ones.",
+            "Closed storage can improve visual organization. Hiding cables is not a meaningful sound-control measure. Acoustic effect of a cabinet depends on size, construction, and placement.",
+            "Choose textured or acoustically designed surfaces when construction supports the goal. Treat decorative fluting as visual and possibly scattering, not as a tested diffuser."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Boxing every glossy object and calling reflectivity solved.",
+          "checklist": [
+            "One primary treatment chosen",
+            "Fluting not oversold",
+            "Cables not on the acoustic list"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "implementing-small-isolation-wins",
+          "title": "Small Sealing Wins",
+          "day_label": "Days 16–22 · Implement",
+          "hero": {
+            "query": "sound isolation solutions in a Mumbai apartment, one window light, photorealistic",
+            "flux_prompt": "image of a living room with soundproofing elements, emphasizing isolation techniques",
+            "alt": "alternative view showcasing weatherstripping and door sweeps",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\019-pexels.jpg",
+            "credit": "Photo by Drew Abala on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:30915198"
+          },
+          "scenario": "",
+          "principle": "Seal air gaps that you are allowed to seal. Do not call it soundproofing.",
+          "body": [
+            "Door sweeps and weatherstripping may reduce some gap noise. Confirm the door still closes and latches. Keep fabric off heaters and vents. Follow US-friendly terms: window trim and casing, curtain rod or track, inside vs outside mount, door sweep, weatherstripping, draft seal — defined here so you can shop them.",
+            "Inside mount sits inside the frame; outside mount sits on the wall or trim and can cover more glass. Neither equals a new window.",
+            "Stop if the surface is unknown, the door is fire-rated in a way you cannot alter, or the landlord forbids it."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Caulking a window shut in a rental.",
+          "checklist": [
+            "Terms named",
+            "Egress and heat sources clear",
+            "Landlord rules checked"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "real-world-application",
+      "title": "Door Gaps And Draft Seals",
+      "intro": "By the end of this chapter you will treat a door sweep as a sealing accessory, not a wall upgrade.",
+      "opener": {
+        "query": "stock photo of a cozy living room with heavy curtains and a plush rug, soft evening light, no people, no text, no watermark",
+        "flux_prompt": "full-bleed shot of a well-decorated living room with soundproofing elements, showcasing textures like wool and linen",
+        "alt": "stock photo of a cozy living room with heavy curtains and a plush rug, soft evening light, no people, no text, no watermark",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\020-pexels.jpg",
+        "credit": "Photo by Donald Tong on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:189333"
+      },
+      "sections": [
+        {
+          "slug": "using-draft-stoppers-effectively",
+          "title": "Using Draft Stoppers Safely",
+          "day_label": "Days 16–22 · Implement",
+          "hero": {
+            "query": "stock photo of a heavy door draft stopper at a threshold, evening light, no people, no text, no watermark",
+            "flux_prompt": "close-up of a door draft stopper in place, highlighting texture and material",
+            "alt": "a cozy living room corner with curtains drawn, showcasing heavy fabric and soft lighting",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\021-pexels.jpg",
+            "credit": "Photo by Roman Ska on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:14326109"
+          },
+          "scenario": "",
+          "principle": "A fabric sausage under the door is not a rated acoustic seal.",
+          "body": [
+            "A removable draft stopper can cut some undercut airflow and a little associated noise. It can also bunch, trip people, and hold a door ajar. Prefer a listed door sweep installed per instructions if you own the door and the building allows it.",
+            "Test that the door still meets the frame. Do not use a stopper on a door that must close for fire or egress.",
+            "Success is less whistling at the undercut, not a silent neighbor."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A stuffed stopper that the dog relocates into the walkway.",
+          "checklist": [
+            "Trip hazard checked",
+            "Latch still works",
+            "Expectation limited"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "common-pitfalls",
+      "title": "Rugs And Curtains Without Overclaim",
+      "intro": "By the end of this chapter you will buy floor and window textiles for the jobs they can do.",
+      "opener": {
+        "query": "A spacious loft in Mumbai with high ceilings and large windows, showcasing a blend of textiles and plants for sound absorption.",
+        "flux_prompt": "Full-bleed shot of a Mumbai loft with high ceilings, large windows, and a mix of textiles and plants, emphasizing sound absorption features.",
+        "alt": "A spacious loft in Mumbai with high ceilings and large windows, showcasing a blend of textiles and plants for sound absorption",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\022-pexels.jpg",
+        "credit": "Photo by Chris Palladino on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:38661243"
+      },
+      "sections": [
+        {
+          "slug": "layering-rugs-for-acoustic-comfort",
+          "title": "Rugs And Pads",
+          "day_label": "Days 16–22 · Implement",
+          "hero": {
+            "query": "A close-up of a layered rug setup in a Pune apartment, showcasing the texture of the natural fiber and felt pad beneath.",
+            "flux_prompt": "A detailed shot of a layered rug in a Pune living room, emphasizing the textures and colors, with natural light filtering through a window.",
+            "alt": "An inviting corner of a Pune apartment featuring a layered rug with a felt pad.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\023-pexels.jpg",
+            "credit": "Photo by Valeria Boltneva on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:15291102"
+          },
+          "scenario": "",
+          "principle": "A rug does not block traffic through windows or soundproof a ceiling.",
+          "body": [
+            "A rug and pad can reduce hard-floor reflections and soften footfall. Result depends on coverage, pile, pad, room surfaces, and frequency. Thicker is not automatically better.",
+            "Match pad to floor: some rubber pads stain or slip on certain finishes. Let rugs and pads dry fully after cleaning. Curling edges and sliding pads are trip hazards. Use a non-slip pad compatible with the floor.",
+            "Success: the rug stays flat, furniture is stable, floor reflections feel softer. The floor is not soundproof."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A rug that is too small, slides, and is blamed on acoustics rather than pad and size.",
+          "checklist": [
+            "Size vs seating checked",
+            "Pad compatible",
+            "Outside noise not assigned to the rug"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "curtains-for-sound-control",
+          "title": "Curtains That Soften — Not Isolate",
+          "day_label": "Days 16–22 · Implement",
+          "hero": {
+            "query": "A beautifully styled living room in a Bengaluru apartment, featuring full-length curtains drawn to the side, allowing natural light to filter in.",
+            "flux_prompt": "A well-lit Bengaluru living room showcasing full-length curtains, with a focus on texture and light play.",
+            "alt": "A serene corner of a Bengaluru apartment with drawn curtains, highlighting the fabric texture.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\024-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7546711"
+          },
+          "scenario": "",
+          "principle": "Fullness and lining help appearance and some highs. They do not equal isolation.",
+          "body": [
+            "Full, lined curtains can reduce some high-frequency reflections and may modestly soften sound at a window. Treat acoustic effect as secondary to light and privacy. Sheer curtains generally provide limited absorption because they have little material and leave much of the window acoustically open. They may still help privacy, glare, and layering.",
+            "Fullness of about 2.0 to 2.5× rod width is a drapery appearance starting point. It assumes a given fabric width, heading, and stacking space. Recalculate from your rod length and panel construction. Extend the rod beyond the glass so stacks can clear the window if you want light — an aesthetic and light rule, not an STC rating.",
+            "Keep fabric away from heaters, vents, and cooking equipment. Do not block exits."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Blackout lining sold as a soundproofing spec.",
+          "checklist": [
+            "Rod length and fullness calculated",
+            "Heat sources clear",
+            "Isolation not promised"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "strategic-placement-of-soft-materials",
+          "title": "Cushions And Throws As Comfort, Not Panels",
+          "day_label": "Days 16–22 · Implement",
+          "hero": {
+            "query": "A cozy Mumbai living room corner featuring a low upholstered bench and toy baskets, styled for a warm, inviting atmosphere.",
+            "flux_prompt": "A well-composed shot of a Mumbai living room corner with a focus on the upholstered bench and toy baskets, showcasing textures and light.",
+            "alt": "An inviting Mumbai living room with a low bench and decorative baskets.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\025-pexels.jpg",
+            "credit": "Photo by Rob Bach on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:13447120"
+          },
+          "scenario": "",
+          "principle": "Micro-soft goods are comfort layers.",
+          "body": [
+            "Cushions add small soft areas. They may reduce some local reflections. They will not replace a wall absorber. Count is a styling starting point, not an acoustic formula.",
+            "Keep walkways clear. Do not stack floors with pillows.",
+            "Success: the room feels less visually and tactilely hard. Neighbor noise is unchanged."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Eight velvet pillows billed as a bass trap.",
+          "checklist": [
+            "Counts treated as style",
+            "Floor still walkable",
+            "No isolation claim"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "key-takeaways-action-items",
+      "title": "Foam And Felt: Decor Versus Tested Absorbers",
+      "intro": "By the end of this chapter you will know what not to buy, and that generic foam is not automatically acoustic or fire-appropriate.",
+      "opener": {
+        "query": "interior of a modern Indian living room with foam tiles, soft lighting, minimalist decor",
+        "flux_prompt": "full-bleed shot of a Pune apartment living room featuring foam tiles on the walls, soft textures, and a cozy atmosphere",
+        "alt": "interior of a modern Indian living room with foam tiles, soft lighting, minimalist decor",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\026-pexels.jpg",
+        "credit": "Photo by DARKMODE CINEMA on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:29120647"
+      },
+      "sections": [
+        {
+          "slug": "choosing-the-right-foam-tiles",
+          "title": "Before Buying Foam",
+          "day_label": "Days 11–15 · Plan",
+          "hero": {
+            "query": "close-up of foam tiles in a stylish Pune living room, soft lighting, neutral colors",
+            "flux_prompt": "aesthetic close-up of foam tiles on a wall, highlighting texture and color",
+            "alt": "detailed view of foam tiles with a soft-focus background of the living room.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\026-pexels.jpg",
+            "credit": "Photo by DARKMODE CINEMA on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:29120647"
+          },
+          "scenario": "Riya in Pune likes the look of cheap tiles. Look is not a fire listing.",
+          "principle": "Do not use a product only because it is marketed as acoustic.",
+          "body": [
+            "Ask: what frequency range is claimed? Is it tested? Is fire-performance information available? Is the location appropriate? Will adhesive damage paint, texture, or wallpaper? Does it block ventilation or equipment? Is the goal absorption, appearance, or both?",
+            "Thin foam does not provide broad-frequency absorption. Decorative foam may lack suitable fire performance. PET felt, open-cell acoustic foam, and closed-cell craft foam are different materials.",
+            "Do not assume generic foam tiles are suitable for every interior. Check the manufacturer’s fire-performance information, installation instructions, and intended use. Keep materials away from heaters, open flames, hot equipment, and blocked ventilation. Do not cover equipment or vents."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Egg-crate foam on a wall next to a space heater because it was on sale.",
+          "checklist": [
+            "Fire info found or product rejected",
+            "Goal is appearance or absorption, written",
+            "Vent paths clear"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "prioritizing-safety-and-functionality",
+          "title": "Renter-Friendly Is Not Damage-Free",
+          "day_label": "Days 11–15 · Plan",
+          "hero": {
+            "query": "Bengaluru apartment living room with foam tiles, showing clear pathways and functional layout",
+            "flux_prompt": "view of a well-arranged living room with foam tiles, emphasizing clear walking paths and safety",
+            "alt": "angle showing foam tiles and furniture arrangement in a Bengaluru apartment.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\028-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7534283"
+          },
+          "scenario": "",
+          "principle": "Adhesive can take the paint with it.",
+          "body": [
+            "Renter-friendly does not mean damage-free. Check the wall finish, follow the adhesive maker’s removal instructions, and test a small hidden area. Confirm property rules before panels, hooks, rods, or ceiling items.",
+            "Paint delamination, residue, textured walls, drywall vs plaster vs brick vs wallpaper, weight limits of removable hooks, and removable vs permanent adhesives all differ. Test first.",
+            "Select mounting hardware for the actual substrate and the weight. Follow the hardware maker’s load rating. Do not assume an adhesive hook, drywall anchor, or ceiling hook fits every surface or load. Avoid hidden electrical and plumbing. No overhead install without appropriate support. Heavy mirrors, planters, and framed panels need real structure."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A ceiling hook in unknown plaster holding a hanging plant over a sofa.",
+          "checklist": [
+            "Hidden-area adhesive test",
+            "Substrate named",
+            "Load rating read"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "enhancing-acoustics-with-foam-tiles",
+          "title": "If You Still Use Tiles",
+          "day_label": "Days 16–22 · Implement",
+          "hero": {
+            "query": "Mumbai living room with foam tiles, showcasing acoustic treatment and soft furnishings",
+            "flux_prompt": "interior shot of a Mumbai flat with foam tiles, emphasizing sound absorption and cozy decor",
+            "alt": "angle of a living room with foam tiles and layered textiles for acoustic balance.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\029-pexels.jpg",
+            "credit": "Photo by Souranshi Fashion and  Lifestyle Magazine on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7148846"
+          },
+          "scenario": "",
+          "principle": "A trial patch, then reassess speech — not a full-wall foam cave.",
+          "body": [
+            "For a small living room, identify the largest reflection problem. Choose a tested absorber for the intended range if that is the goal, and install per the maker. Treat placement as a trial, then reassess speech clarity and perceived reverberation. There is no universal coverage percentage in this book.",
+            "If the product is decorative only, say so on your worksheet so you do not grade it as isolation.",
+            "Moisture: do not trap dampness behind wall textiles. Do not apply fabric over damp walls."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Covering an entire rental wall in untested foam, then failing the move-out inspection.",
+          "checklist": [
+            "Coverage not copied from a studio myth",
+            "Moisture checked",
+            "Removal plan exists"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "chapter-conclusion",
+      "title": "The Clap Test As A Subjective Check",
+      "intro": "By the end of this chapter you will use a clap as a memory aid, not a standard.",
+      "opener": {
+        "query": "living room with soft furnishings, natural light from one window, warm tones, no people, no text, no watermark",
+        "flux_prompt": "full-bleed image of a cozy living room with a mix of textures and soft furnishings, highlighting sound-absorbing elements",
+        "alt": "living room with soft furnishings, natural light from one window, warm tones, no people, no text, no watermark",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\001-pexels.jpg",
+        "credit": "Photo by Lucian Petrean on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:3987481"
+      },
+      "sections": [
+        {
+          "slug": "conducting-the-clap-test",
+          "title": "Conducting The Clap Test",
+          "day_label": "Days 6–10 · Audit",
+          "hero": {
+            "query": "living room with a rug, lined curtains, and a textile wall piece, natural light from one window, warm tones, no people, no text, no watermark",
+            "flux_prompt": "a well-styled living room showcasing sound-absorbing elements like a rug and curtains, with a focus on texture and warmth",
+            "alt": "a cozy living room with a mix of soft furnishings and soft furnishings, natural light filtering through a window",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\010-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7546217"
+          },
+          "scenario": "",
+          "principle": "A clap is subjective.",
+          "body": [
+            "Stand in the main seat, clap once, listen for ring vs thud. Repeat after changes with the same person, same place, same background. Write a word: harsh, ringy, dull, same.",
+            "Do not convert that word into a dB or RT60. Combine it with a source log and speech-clarity notes.",
+            "If the dB app reading changes under comparable conditions, record it as an observation rather than proof. Also compare speech clarity, perceived harshness, and the specific noise source."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "One clap, one app screenshot, captioned “proved.”",
+          "checklist": [
+            "Subjective note written",
+            "Conditions matched",
+            "No proof language"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "the-20-minute-noise-audit-measure-map-and-prioritize",
+      "title": "The 20-Minute Noise Audit",
+      "intro": "By the end of this chapter you will have three logs: source, room response, and informal measurement — not a single average dB.",
+      "opener": {
+        "query": "interior of a modern Indian living room, natural light from one window, soft furnishings, minimalistic decor, photorealistic",
+        "flux_prompt": "full-bleed shot of a cozy living room with a sofa, curtains, and a coffee table, showcasing soft textures and a peaceful atmosphere",
+        "alt": "interior of a modern Indian living room, natural light from one window, soft furnishings, minimalistic decor, photorealistic",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\010-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:7546217"
+      },
+      "sections": [
+        {
+          "slug": "understanding-noise-in-your-space",
+          "title": "What The Audit Is For",
+          "day_label": "Days 6–10 · Audit",
+          "hero": {
+            "query": "interior of a Pune apartment living room, natural light, minimalistic decor, soft furnishings, photorealistic",
+            "flux_prompt": "a cozy living room with soft textiles and a warm atmosphere, showcasing potential noise sources like windows and walls",
+            "alt": "a view of the living room from a different angle, highlighting furniture arrangement and decor.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\033-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7587778"
+          },
+          "scenario": "Priya’s evening traffic and midday echo need different rows in the log.",
+          "principle": "Separate source identification from room response.",
+          "body": [
+            "Phone microphones and apps are not automatically calibrated. Readings vary by device and app. A-weighted and C-weighted measurements are different. A short average does not represent all events. A few dB should not be presented as proof of successful treatment.",
+            "Log time, source, location, duration, perceived severity, possible response. Example: 7:30 AM traffic at the window, 15 min, high → window and sealing assessment. 6:00 PM conversation echo, continuous, medium → interior absorption. 10:00 PM neighbor bass, shared wall, 30 min, high → isolation/building assessment, not a rug.",
+            "First questions: mainly inside-room echo? External noise? Impact? Equipment vibration? Renter? Construction permitted? Budget? What result would count as meaningful?"
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "One evening average of 52 dB treated as the whole building.",
+          "checklist": [
+            "Three-log template started",
+            "Weighting noted if the app shows it",
+            "Success defined in words"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "conducting-the-noise-audit",
+          "title": "Running The Audit",
+          "day_label": "Days 6–10 · Audit",
+          "hero": {
+            "query": "a close-up of a hand sketching a heatmap of a living room, with marked noise sources and reflection points, photorealistic",
+            "flux_prompt": "a detailed view of the heatmap sketch with color codes and notes, emphasizing the noise audit process",
+            "alt": "a close-up of the mirror point checks being conducted in the living room.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\034-pexels.jpg",
+            "credit": "Photo by Lum3n on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:316466"
+          },
+          "scenario": "",
+          "principle": "Same seat, same hour, windows and HVAC noted.",
+          "body": [
+            "Source log, room-response log (echo, harshness, speech), measurement log (app, device, position, conditions, time). If you skip the app, the first two logs still work.",
+            "Mirror side walls only if you have a helper and a stable stance. Skip ceiling acrobatics.",
+            "Translate to decor only for interior-response rows."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Buying curtains during the first walk-through.",
+          "checklist": [
+            "Do-not-buy-yet still in force",
+            "Helper available for mirror if used",
+            "Exterior rows flagged building"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "translating-data-into-decor-decisions",
+          "title": "From Log To Decisions",
+          "day_label": "Days 11–15 · Plan",
+          "hero": {
+            "query": "a beautifully styled living room with new curtains and a wooden coffee table, showcasing soft textures and a cozy atmosphere, photorealistic",
+            "flux_prompt": "a view of the living room after decor changes, emphasizing the new textiles and furniture arrangement",
+            "alt": "a close-up of the textile wall hanging and the filled bookcase, highlighting the softening elements.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\035-pexels.jpg",
+            "credit": "Photo by Martín Rivera on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:16197203"
+          },
+          "scenario": "",
+          "principle": "Each proposed change gets a worksheet line.",
+          "body": [
+            "For every change: problem, treatment, approximate USD price, install method, surface compatibility, reversible or permanent, acoustic expectation, safety risks, maintenance, result after.",
+            "Do not buy yet until: main problem identified, measurements complete, treatment matches problem, intended use clear, install suitable, return possible, budget includes accessories.",
+            "Shopping quantities: rug and pad size, rod length, total curtain width, panel count, hardware, adhesive or fasteners, optional absorbers, delivery, tax, return policy."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A cart full of “acoustic” SKUs with no problem column.",
+          "checklist": [
+            "Worksheet rows filled",
+            "Quantities calculated",
+            "Checkpoint passed or shopping delayed"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "next-steps-for-a-quieter-room",
+          "title": "Next Steps",
+          "day_label": "Days 11–15 · Plan",
+          "hero": {
+            "query": "a cozy living room with updated decor, showing a visible heatmap on a table, photorealistic",
+            "flux_prompt": "a view of the living room with the heatmap prominently displayed, emphasizing the ongoing process of improvement",
+            "alt": "a close-up of the decibel meter app displaying improved readings.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\036-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6585763"
+          },
+          "scenario": "",
+          "principle": "If the log says isolation, the next step may be a landlord conversation.",
+          "body": [
+            "Interior echo: rug/pad and qualified window textile, then optional tested panels. External: sealing you are allowed to do, then professional or building paths. Do not skip to foam.",
+            "Keep a USD running total.",
+            "Reassess after one change when you can match conditions."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Implementing everything in one afternoon so you cannot tell what worked.",
+          "checklist": [
+            "Sequence written",
+            "USD total started",
+            "One-change rule if possible"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "textiles-that-do-the-heavy-lifting-rugs-curtains-and-cushion",
+      "title": "Textiles: Rugs, Curtains, And Cushions",
+      "intro": "By the end of this chapter you will turn a US room measurement into a shopping list in dollars, with formulas marked as starting points.",
+      "opener": {
+        "query": "A cozy living room with a large rug, plush cushions, and heavy curtains, softly lit by natural light from a single window.",
+        "flux_prompt": "Full-bleed image of a well-decorated living room featuring a large rug, layered cushions, and floor-to-ceiling curtains, with a warm, inviting atmosphere.",
+        "alt": "A cozy living room with a large rug, plush cushions, and heavy curtains, softly lit by natural light from a single window",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\037-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:7045702"
+      },
+      "sections": [
+        {
+          "slug": "rugs-and-rug-pads",
+          "title": "Rugs And Rug Pads",
+          "day_label": "Days 16–22 · Implement",
+          "hero": {
+            "query": "A beautifully layered rug setup with a dense pad underneath, showcasing textures and colors.",
+            "flux_prompt": "A close-up of a plush rug on a felt pad, highlighting the texture and depth of the materials used.",
+            "alt": "A detailed view of the rug and pad, focusing on the interplay of fibers.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\038-pexels.jpg",
+            "credit": "Photo by Jubair Bin Iqbal on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5168859"
+          },
+          "scenario": "Worked US example: 12 × 14 ft living room, one 4 × 5 ft window, hard floor, renter, primary seat facing the TV on the long wall. Illustrative Pune/Bengaluru names elsewhere in the book are planning stories, not the shopping market.",
+          "principle": "Measure the seating group, then the room.",
+          "body": [
+            "Example basket, Starter: an 8 × 10 ft rug (~$80–150) plus a matching non-slip pad (~$30–60). Confirm the pad is rated for your floor. Hardware none. Tax and shipping extra. This does not include furniture. Verify current prices.",
+            "The sofa-plus-12 in rule is visual. If the room cannot take 8 × 10 without blocking a door, downsize and accept less floor coverage.",
+            "Do not place wet planters on the rug. Dry after spills."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Measure seating width and door swings.",
+              "minutes": null
+            },
+            {
+              "text": "Choose rug size, then pad size.",
+              "minutes": null
+            },
+            {
+              "text": "Add tax/shipping to the USD line.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Pad smaller than the rug, edges curling into a trip.",
+          "checklist": [
+            "Sizes written",
+            "Floor compatibility checked",
+            "Traffic not assigned to pile height"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "curtains-that-absorb-rather-than-flap",
+          "title": "Curtains: Coverage Is Not Isolation",
+          "day_label": "Days 16–22 · Implement",
+          "hero": {
+            "query": "A serene window with heavy, lined curtains elegantly draped, allowing for optimal sound absorption.",
+            "flux_prompt": "An artistic shot of heavy curtains framing a window, showcasing their texture and fullness.",
+            "alt": "A detailed view of curtain fabric and mounting hardware.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\039-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6207825"
+          },
+          "scenario": "",
+          "principle": "Calculate fabric from rod length, not from hope.",
+          "body": [
+            "Example: 60 in window, outside-mount rod 72–84 in wide. Two panels whose combined width is about 2–2.5× the rod, lined, ready-made (~$40–120/pair) plus rod (~$20–50). Stacking space needed on each side. Recalculate if fabric is narrower.",
+            "These curtains can soften some reflected sound inside the room and may slightly reduce high-frequency sound entering through a window. They are not a substitute for window upgrades, sealing, or construction-based isolation.",
+            "Mount hardware for the substrate and the rod weight. Studs or suitable anchors. Not a command strip for a heavy rod."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Choose inside vs outside mount.",
+              "minutes": null
+            },
+            {
+              "text": "Write rod length and fullness starting point.",
+              "minutes": null
+            },
+            {
+              "text": "Check heater and door clearance.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "A 2.5 fullness calculation on a rod that cannot carry the weight on two adhesive hooks.",
+          "checklist": [
+            "Mount type named",
+            "Load hardware matched",
+            "Acoustic claim qualified"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "cushions-and-throws-as-micro-absorbers",
+          "title": "Cushions And Throws",
+          "day_label": "Days 16–22 · Implement",
+          "hero": {
+            "query": "A cozy seating area adorned with cushions and a chunky throw, inviting relaxation and warmth.",
+            "flux_prompt": "A close-up of cushions and a throw on a sofa, highlighting texture and layering.",
+            "alt": "A detailed view of the cushions' fabric and arrangement.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\040-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7746466"
+          },
+          "scenario": "",
+          "principle": "Style counts, not NRC.",
+          "body": [
+            "Two to four cushions on a starter budget is styling. They add little absorption compared with a rug. Wash per label. Keep off walkways.",
+            "Do not treat a throw as a first-reflection product.",
+            "Success is comfort. Isolation is unchanged."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Count pieces against the seating, not against a formula.",
+              "minutes": null
+            },
+            {
+              "text": "Add USD to the worksheet.",
+              "minutes": null
+            },
+            {
+              "text": "Keep floors clear.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Cushion math as an acoustic specification.",
+          "checklist": [
+            "USD line updated",
+            "No isolation claim",
+            "Paths clear"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "furniture-as-sound-tools-sofas-shelves-and-soft-seating",
+      "title": "Furniture, Shelves, And The Media Wall",
+      "intro": "By the end of this chapter you will place furniture for living first, acoustics second, and you will not cover a soundbar with felt.",
+      "opener": {
+        "query": "interior of a cozy Indian living room with soft textiles, warm lighting, and a mix of furniture styles",
+        "flux_prompt": "full-bleed shot of a well-decorated living room featuring a deep sofa, bookshelves, and soft seating",
+        "alt": "interior of a cozy Indian living room with soft textiles, warm lighting, and a mix of furniture styles",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\041-pexels.jpg",
+        "credit": "Photo by Luisa Sanfelice on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:34992391"
+      },
+      "sections": [
+        {
+          "slug": "understanding-acoustic-furniture",
+          "title": "Sofas And Soft Seating",
+          "day_label": "Days 16–22 · Implement",
+          "hero": {
+            "query": "interior of a Pune apartment living room with a focus on sound-absorbing furniture",
+            "flux_prompt": "cozy corner of a living room featuring a deep sofa and textured cushions",
+            "alt": "a well-styled bookshelf with varied objects and depths",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\042-pexels.jpg",
+            "credit": "Photo by Anisha Deb on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:36195702"
+          },
+          "scenario": "",
+          "principle": "Upholstery is a large soft area if you already needed a sofa.",
+          "body": [
+            "Seat depth around 22–26 in is a comfort shopping range, not an acoustic law. A fabric sofa may absorb more than a tight leather one at some highs; do not buy a sofa only for NRC.",
+            "Anti-tip if required. Keep walkways. Do not block HVAC.",
+            "Closed storage organizes visually. Hiding devices is not a reflection strategy."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Sofa Seat Depth Is Comfort, Not NRC",
+              "caption": "22–26 in is a common comfort range when shopping. It is not an acoustic specification.",
+              "values": [
+                "22 inch",
+                "26 inch"
+              ],
+              "labels": [
+                "Typical low",
+                "Typical high"
+              ],
+              "minimum": null,
+              "spec_id": "D001",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\figures\\D001.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Measure The Sofa You Own",
+              "caption": "Use the actual sofa width for rug planning. Example only.",
+              "values": [
+                "84 inch"
+              ],
+              "labels": [
+                "Example sofa width"
+              ],
+              "minimum": null,
+              "spec_id": "D002",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\figures\\D002.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Fabric Depth Is Not A Panel",
+              "caption": "A deep fabric seat is still furniture. Do not treat it as a tested absorber.",
+              "values": [
+                "24 inch"
+              ],
+              "labels": [
+                "Example seat depth"
+              ],
+              "minimum": null,
+              "spec_id": "D003",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\figures\\D003.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Replacing a working sofa solely because a chapter praised bouclé.",
+          "checklist": [
+            "Comfort first",
+            "Tip and path checks",
+            "Not bought as a panel"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "strategic-furniture-placement",
+          "title": "Furniture Placement",
+          "day_label": "Days 16–22 · Implement",
+          "hero": {
+            "query": "Bengaluru apartment living room with strategic furniture placement",
+            "flux_prompt": "corner view of a living room showing a sectional sofa and bookshelf arrangement",
+            "alt": "a cozy reading nook with soft seating and plants",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\043-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6580396"
+          },
+          "scenario": "",
+          "principle": "Listening position is a preference, not a studio spec.",
+          "body": [
+            "If you can, keep the main seat off a bare short wall. If you cannot, treat the wall later with a permitted absorber, not a lamp.",
+            "Do not obstruct exits, windows, or walkways. Angle only if circulation still works; a small angle does not solve major problems.",
+            "Before-and-after in words: same 12 × 14 ft room, sofa on the long wall, TV opposite, 36 in path to the entry door. Change: rug under front legs, curtains stacked off glass, plant not in the path. Why: footfall and glare, not neighbor bass."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A furniture angle that pinches the door to 12 in.",
+          "checklist": [
+            "Paths measured",
+            "Door swing free",
+            "Why written"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "creating-effective-diffusers",
+          "title": "Shelves As Informal Scattering",
+          "day_label": "Days 16–22 · Implement",
+          "hero": {
+            "query": "Mumbai apartment bookshelf with varied objects for sound diffusion",
+            "flux_prompt": "a well-styled bookshelf with different object sizes and orientations",
+            "alt": "a close-up of a bookshelf with soft items and textured decor",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\044-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7195289"
+          },
+          "scenario": "",
+          "principle": "Treat shelves as irregular reflection and storage, not a guaranteed diffuser.",
+          "body": [
+            "Result depends on depth, objects, gaps, and the rest of the room. Overloading creates tip and clutter.",
+            "Anchor tall units per furniture and hardware instructions, especially with kids or pets.",
+            "Books are not a frequency-designed diffuser."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A free-standing bookcase as a “bass corner.”",
+          "checklist": [
+            "Unit anchored if tall",
+            "Not in an exit path",
+            "Scattering not oversold"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "taming-the-media-wall",
+          "title": "The Media Wall",
+          "day_label": "Days 16–22 · Implement",
+          "hero": {
+            "query": "family room media console with soft surfaces and strategic placement",
+            "flux_prompt": "media wall featuring a textured console and soft decor",
+            "alt": "a close-up of a media console with decorative elements and soft textures",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\045-pexels.jpg",
+            "credit": "Photo by Eskoala A on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:23471276"
+          },
+          "scenario": "",
+          "principle": "Do not cover drivers to make the wall pretty.",
+          "body": [
+            "Keep the soundbar’s drivers, ports, microphones, and ventilation unobstructed. If fabric is placed in front of a speaker, use a material intended to stay acoustically transparent and follow the speaker maker’s placement guidance. A felt pad may reduce some vibration transfer under a component; it is not a universal treatment.",
+            "Install the soundbar per its manual. A thick panel can change the sound for the worse.",
+            "Cables secured, outlets not overloaded, fabric off heat-producing gear."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A wool tapestry stretched over the soundbar “for acoustics.”",
+          "checklist": [
+            "Drivers unobstructed",
+            "Manual placement followed",
+            "Cables safe"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "windows-walls-and-art-treatments-that-calm-echo",
+      "title": "Windows, Walls, And Art",
+      "intro": "By the end of this chapter the Calm Echo idea will mean interior absorption details, not isolation guarantees.",
+      "opener": {
+        "query": "interior of a modern Indian apartment with large windows and soft furnishings, natural light, no people",
+        "flux_prompt": "full-bleed shot of a stylish living room with large windows dressed in layered curtains and art on the walls, warm lighting, soft textures",
+        "alt": "interior of a modern Indian apartment with large windows and soft furnishings, natural light, no people",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\046-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:6077368"
+      },
+      "sections": [
+        {
+          "slug": "understanding-the-problem",
+          "title": "Hard Glass And Bare Walls",
+          "day_label": "Days 11–15 · Plan",
+          "hero": {
+            "query": "stylish living room with sound-absorbing treatments, one window light, no people",
+            "flux_prompt": "interior shot of a living room with layered curtains and wall art, showcasing a calm and inviting atmosphere, photorealistic, no text, no watermark",
+            "alt": "a cozy living room with a mix of textures and soft furnishings, warm lighting",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\047-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7546645"
+          },
+          "scenario": "",
+          "principle": "Glass is a reflector and a weak isolator when it is a single apartment window.",
+          "body": [
+            "Covering glass changes light and some highs. Replacing or professionally upgrading windows is a different project.",
+            "Decision tree: decorative art; fabric-wrapped acoustic panel; removable felt; curtain; sealing; window replacement; professional assessment. Pick one path per wall or window.",
+            "Adhesive tiles behind a tapestry still need fire, removal, and moisture checks."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Acoustic art that is only a print of a waveform.",
+          "checklist": [
+            "Tree path chosen",
+            "Window vs wall separated",
+            "Art not fake-rated"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "applying-the-calm-echo-framework",
+          "title": "Calm Echo Framework, Corrected",
+          "day_label": "Days 11–15 · Plan",
+          "hero": {
+            "query": "acoustic panels and layered curtains in a Bengaluru apartment, one window light, no people",
+            "flux_prompt": "close-up of fabric-wrapped acoustic panels and layered curtains, showcasing textures and colors, photorealistic, no text, no watermark",
+            "alt": "a stylish corner of a living room with fabric and texture, warm lighting",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\048-pexels.jpg",
+            "credit": "Photo by Zişan  Özdemir on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:28285060"
+          },
+          "scenario": "Rohan in Bengaluru used cellular shades for an air pocket. That is not a soundproofing barrier.",
+          "principle": "Air gaps in this book are interior absorption details.",
+          "body": [
+            "Coverage of the surface you mean to treat. Mass of a curtain helps some highs, not STC like a wall. An air gap behind a properly designed porous absorber can improve absorption at some frequencies. In this book, air gaps are discussed primarily as an interior acoustic treatment detail, not as a guarantee of sound isolation. Informal scattering is last and optional.",
+            "A cellular shade is not automatically a soundproofing barrier. Hardware placement still has to hit suitable structure for the load.",
+            "Do not mount panels that reduce required ventilation."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "“Air gaps reduce sound transmission” as a caption under a shade.",
+          "checklist": [
+            "Isolation language removed from the shade line",
+            "Hardware matched to load",
+            "Vents open"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "layering-treatments-for-maximum-effect",
+          "title": "Layering Windows",
+          "day_label": "Days 16–22 · Implement",
+          "hero": {
+            "query": "layered window treatments in a Mumbai apartment, one window light, no people",
+            "flux_prompt": "interior shot of a Mumbai living room with layered curtains and shades, showcasing a cozy atmosphere, photorealistic, no text, no watermark",
+            "alt": "a warm and inviting living room corner with layered window treatments, soft textures",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\014-pexels.jpg",
+            "credit": "Photo by Sheldon Li on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:18150686"
+          },
+          "scenario": "",
+          "principle": "Layers are for light, privacy, and modest highs.",
+          "body": [
+            "Shade plus curtain can look finished and cut glare. The stack is not a window assembly. Keep fabric off heat. Confirm inside vs outside mount.",
+            "US terms: casing, rod or track, inside mount, outside mount.",
+            "Success: less glare, more privacy, maybe less brittle reflections. Street noise remains a window-and-seal problem."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Three layers that cannot stack and cover the radiator.",
+          "checklist": [
+            "Heat and egress clear",
+            "Mount type named",
+            "Expectation modest"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "creating-acoustic-art",
+          "title": "Acoustic Art Versus Art That Looks Acoustic",
+          "day_label": "Days 16–22 · Implement",
+          "hero": {
+            "query": "acoustic tiles behind a tapestry in a Kolkata apartment, one window light, no people",
+            "flux_prompt": "close-up of a vintage tapestry with hidden acoustic tiles behind it, showcasing texture and color, photorealistic, no text, no watermark",
+            "alt": "a cozy corner with a tapestry and fabric and texture, warm lighting",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\050-pexels.jpg",
+            "credit": "Photo by Nothing Ahead on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7424258"
+          },
+          "scenario": "",
+          "principle": "A tapestry is not a panel unless it is built as one.",
+          "body": [
+            "If you want absorption, buy a tested fabric-wrapped absorber and hang it with rated hardware. If you want a picture, hang a picture. Spacers behind cloth may slightly increase absorption of that cloth; they do not isolate the street.",
+            "Weight and substrate still govern. Moisture behind textiles is a renter risk.",
+            "Ceiling art is a hard no unless the ceiling hardware is rated and allowed."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Command strips and a 20 lb frame at first-reflection height.",
+          "checklist": [
+            "Product is absorber or decor, written",
+            "Hardware rated",
+            "No casual ceiling hang"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "plant-power-and-natural-diffusion-greenery-for-quieter-rooms",
+      "title": "Plants For Visual Softness And Limited Sound Scattering",
+      "intro": "By the end of this chapter you will place plants for biophilia and looks. Plants should not be relied on as meaningful absorption or noise control.",
+      "opener": {
+        "query": "interior living room with plants, soft lighting, natural textures, no people",
+        "flux_prompt": "full-bleed shot of a cozy living room filled with various plants, showcasing a mix of textures and heights, with soft natural light coming from a single window",
+        "alt": "interior living room with plants, soft lighting, natural textures, no people",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\051-pexels.jpg",
+        "credit": "Photo by Faruk Tokluoğlu on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:10213002"
+      },
+      "sections": [
+        {
+          "slug": "understanding-sound-reflection",
+          "title": "What Plants Do Not Do",
+          "day_label": "Days 16–22 · Implement",
+          "hero": {
+            "query": "living room with plants, soft textures, natural light, no people",
+            "flux_prompt": "angle showing plants clustered in a triangular formation, highlighting their varying heights and textures, with soft light illuminating the scene",
+            "alt": "a close-up of different plant leaves showcasing texture and size variety",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\052-pexels.jpg",
+            "credit": "Photo by Rov Camato on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:1624732"
+          },
+          "scenario": "",
+          "principle": "Plants are primarily visual and biophilic.",
+          "body": [
+            "Leaves and irregular forms may provide a small amount of scattering. They do not perform as acoustic treatments, do not meaningfully attenuate flutter echo, and are not a substitute for designed treatment.",
+            "Do not put tall plants at first-reflection points as the treatment. Use an absorber there if you are treating acoustics; add a plant elsewhere if you want green.",
+            "Low-frequency corner myths do not apply. A fiddle-leaf fig is not a bass trap."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A plant catalog sold as a noise-control plan.",
+          "checklist": [
+            "Acoustic claims stripped",
+            "Plant not replacing a panel",
+            "Bass not assigned to soil"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "choosing-the-right-plants",
+          "title": "Choosing Plants For Living",
+          "day_label": "Days 16–22 · Implement",
+          "hero": {
+            "query": "various plant species in a living room, showcasing different textures and sizes, natural light, no people",
+            "flux_prompt": "a close-up of a Monstera and Fiddle Leaf Fig in ceramic pots, highlighting their textures and how they cluster together",
+            "alt": "a collection of medium and fine-leaf plants arranged on a sideboard, with soft lighting enhancing their features",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\053-pexels.jpg",
+            "credit": "Photo by Phúc Phạm on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:13841127"
+          },
+          "scenario": "",
+          "principle": "Light, water, and stability beat leaf-area acoustics.",
+          "body": [
+            "Pick species you can keep alive in the actual light. That is the chapter’s real skill.",
+            "Heavy pots on moisture-sensitive floors need saucers and lifts. Do not park wet planters on wood, laminate, or the rug.",
+            "Skip toxic species if you have pets or kids, per horticultural guidance — not an acoustic note."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Overwatering a pot on a rental hardwood floor “for humidity and sound.”",
+          "checklist": [
+            "Light matched",
+            "Saucer present",
+            "Pet/kid check"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "effective-plant-placement",
+          "title": "Placement Without The Acoustic Theater",
+          "day_label": "Days 16–22 · Implement",
+          "hero": {
+            "query": "living room with plants in triangular clusters, showcasing varying heights and textures, natural light, no people",
+            "flux_prompt": "a wide shot of a living room with plants placed in triangular clusters, highlighting their strategic arrangement and soft edges",
+            "alt": "a close-up of a cluster of plants on a console, emphasizing their layered heights and textures",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\054-pexels.jpg",
+            "credit": "Photo by Lisa Fotios on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:1444424"
+          },
+          "scenario": "",
+          "principle": "Keep pots out of walkways. Skip unsafe ceiling hooks.",
+          "body": [
+            "Height layering is a visual composition trick. Trailing vines on unrated ceiling hooks are a hazard, not a vertical-reflection strategy.",
+            "Clusters of three are a styling starting point, not physics.",
+            "Inspect for mildew, odor, and leaks. Clean saucers."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A hanging pot over a walkway on a hook rated for 2 lb.",
+          "checklist": [
+            "Paths clear",
+            "Hooks rated or unused",
+            "Leak inspection"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "maintenance-and-care",
+          "title": "Plant Care",
+          "day_label": "Days 27–30 · Maintain",
+          "hero": {
+            "query": "care routine for indoor plants, showcasing watering and dusting, natural light, no people",
+            "flux_prompt": "a close-up of a watering can next to a plant, with soft light highlighting the leaves and textures",
+            "alt": "a collection of plant care tools arranged aesthetically next to healthy plants, emphasizing maintenance",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\055-pexels.jpg",
+            "credit": "Photo by Anna Shvets on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5231305"
+          },
+          "scenario": "",
+          "principle": "Dead plants are clutter.",
+          "body": [
+            "Water, dust, and rotate as the species needs. Empty saucers. Keep soil off HVAC.",
+            "If a pot stains a floor, that is a renter problem this chapter exists to prevent.",
+            "Acoustic reassessment does not include the plant."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Fertilizer on a damp pad under the rug.",
+          "checklist": [
+            "Care notes saved",
+            "Floors dry",
+            "No acoustic KPI on leaves"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "layout-tweaks-that-change-how-sound-moves",
+      "title": "Layout Tweaks With Real Constraints",
+      "intro": "By the end of this chapter you will change layout only where doors, paths, and leases allow.",
+      "opener": {
+        "query": "interior of a cozy living room with soft textiles and plants, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+        "flux_prompt": "full-bleed image of a well-decorated living room with soft furnishings and plants",
+        "alt": "interior of a cozy living room with soft textiles and plants, one window light, teak textures, magazine styling, photorealistic, no people",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\038-pexels.jpg",
+        "credit": "Photo by Jubair Bin Iqbal on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:5168859"
+      },
+      "sections": [
+        {
+          "slug": "understanding-sound-movement",
+          "title": "How Sound Moves — Without The Straight-Line Myth",
+          "day_label": "Days 11–15 · Plan",
+          "hero": {
+            "query": "cozy living room with soft furnishings and plants, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "full-bleed image of a well-decorated living room with soft furnishings and plants",
+            "alt": "interior of a cozy living room with soft textiles and plants, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\057-pexels.jpg",
+            "credit": "Photo by Engin Akyurt on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4177773"
+          },
+          "scenario": "",
+          "principle": "Reflections are one behavior among several.",
+          "body": [
+            "Sound energy interacts with surfaces: reflect, scatter, diffract, absorb, or pass through. First reflections from hard walls can blur speech for a given seat and speaker. Parallel walls can support flutter. Corners are not automatic bass buckets you can plant away.",
+            "Layout cannot reroute the neighbor’s subwoofer in the slab.",
+            "Use layout to protect circulation and a reasonable listening seat."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A diagram of arrows in straight lines as the whole theory.",
+          "checklist": [
+            "Myths corrected on the worksheet",
+            "External noise still flagged",
+            "Seat not jammed on a wall if avoidable"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "mapping-reflection-pathways",
+          "title": "Side-Wall Mirror Only",
+          "day_label": "Days 11–15 · Plan",
+          "hero": {
+            "query": "cozy living room with soft furnishings and plants, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "full-bleed image of a well-decorated living room with soft furnishings and plants",
+            "alt": "interior of a cozy living room with soft textiles and plants, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\057-pexels.jpg",
+            "credit": "Photo by Engin Akyurt on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4177773"
+          },
+          "scenario": "",
+          "principle": "No overhead mirror circus.",
+          "body": [
+            "Side walls: helper, ear height, mark when you see the source. Ceiling: skip the handheld-mirror-on-a-ladder method. If you later add a permitted ceiling absorber, follow that product’s install, not a phone selfie.",
+            "At marked side-wall zones, plan a real absorber if the goal is acoustic. A wide lampshade is decor.",
+            "Painter’s tape comes off; nails may not be allowed."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Ladder plus phone camera plus “ceiling first reflection.”",
+          "checklist": [
+            "Side walls only",
+            "Absorber vs decor decided",
+            "Tape not nails if renting"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "zoning-and-seating-geometry",
+          "title": "Zoning And Seating",
+          "day_label": "Days 16–22 · Implement",
+          "hero": {
+            "query": "cozy living room with soft furnishings and plants, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "full-bleed image of a well-decorated living room with soft furnishings and plants",
+            "alt": "interior of a cozy living room with soft textiles and plants, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\057-pexels.jpg",
+            "credit": "Photo by Engin Akyurt on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4177773"
+          },
+          "scenario": "",
+          "principle": "Rugs zone visually. They do not isolate rooms.",
+          "body": [
+            "A rug can mark a conversation group. Keep  the path you actually walk. Furniture that can tip gets anchored.",
+            "Ottomans and floor lamps are trip and cord hazards if they sit in circulation.",
+            "Success: the room is usable. Not “steered sound.”"
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A runner that slides toward the kitchen.",
+          "checklist": [
+            "Zone vs path",
+            "Cords managed",
+            "Tip-over checked"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "style-first-budget-savvy-plans-tiers-and-shopping-lists",
+      "title": "Budget Tiers In US Dollars",
+      "intro": "By the end of this chapter you will have Starter, Sweet Spot, and Splurge baskets for an assumed US living room, with inclusions and exclusions. Prices are estimates. Designer-level quiet is a style phrase, not a measured outcome — this book does not use it as a promise.",
+      "opener": {
+        "query": "A cozy living room setup with layered textiles, soft lighting, and a mix of textures, showcasing a stylish yet budget-friendly design.",
+        "flux_prompt": "Full-bleed shot of a living room with a neutral rug, layered curtains, and a mix of cushions in various textures, illuminated by soft, natural light from a single window.",
+        "alt": "A cozy living room setup with layered textiles, soft lighting, and a mix of textures, showcasing a stylish yet budget-friendly design",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\060-pexels.jpg",
+        "credit": "Photo by AJ  Ahamad on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:32168950"
+      },
+      "sections": [
+        {
+          "slug": "understanding-your-budget-tiers",
+          "title": "How The Tiers Are Built",
+          "day_label": "Days 11–15 · Plan",
+          "hero": {
+            "query": "A visually appealing tier comparison chart showcasing Starter, Sweet Spot, and Splurge options with corresponding benefits and examples.",
+            "flux_prompt": "A magazine-style layout featuring a comparison chart of budget tiers with visuals of each tier's recommended items, set against a stylish backdrop.",
+            "alt": "A clean, organized layout displaying the three budget tiers with images of corresponding textiles and furniture.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\061-pexels.jpg",
+            "credit": "Photo by RDNE Stock project on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7580765"
+          },
+          "scenario": "Ravi’s Pune 1BHK story is illustrative. The dollars below are US planning numbers.",
+          "principle": "Do not convert an Indian basket. Build from US product categories.",
+          "body": [
+            "Assumed room: about 12 × 14 ft, 9 ft ceiling, one window ~48 × 60 in, hard floor, renter, no custom millwork. Hardware for rods included in the ranges when stated. Shipping and tax not included unless you add them. Excluded: sofa, professional acoustic consulting, window replacement, electrician, landlord fees.",
+            "Starter: limited high-impact, low-complexity purchases. Sweet Spot: coordinated rug, pad, window treatment, selected soft furnishings. Splurge: higher-quality materials, custom sizing, professional or tested acoustic products. Optional panels sit in Sweet Spot or Splurge, not in Starter.",
+            "Prices and availability vary by retailer, region, season, size, and material. Verify before purchasing."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Calling Sweet Spot “designer-level quiet.”",
+          "checklist": [
+            "Assumptions copied",
+            "Tax/shipping line added",
+            "Exclusions listed"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "starter-tier-essentials",
+          "title": "Starter Basket (About $150–280)",
+          "day_label": "Days 11–15 · Plan",
+          "hero": {
+            "query": "A cozy corner of a living room featuring a low pile rug, layered curtains, and a mix of textured cushions, all styled for a budget-friendly look.",
+            "flux_prompt": "A compact living room setup showcasing the Starter tier essentials with soft lighting and a warm atmosphere, emphasizing the textures of the rug and cushions.",
+            "alt": "An inviting living room corner with a focus on the rug, curtains, and cushions, styled to highlight budget-friendly design.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\062-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8082565"
+          },
+          "scenario": "",
+          "principle": "Few items, reversible, honest expectations.",
+          "body": [
+            "Example: 5 × 8 or 6 × 9 ft machine-made rug $70–140; pad $25–50; two lined ready-made curtain panels $40–80; basic rod and brackets $20–40; two cushions $20–40. Optional skip: extra throws. No foam unless it passes the foam chapter checklist.",
+            "Installation: rod into studs or rated anchors if allowed; else tension rod only where the product is rated and the trim can take it. Acoustic expectation: softer footfall and slightly less brittle room. Not isolation.",
+            "If the lease forbids wall fasteners, drop the rod to a rated tension rod or skip curtains."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Starter budget blown on untested foam instead of a pad.",
+          "checklist": [
+            "USD range fits",
+            "Permission matches install",
+            "Expectation modest"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "sweet-spot-tier-recommendations",
+          "title": "Sweet Spot Basket (About $400–750)",
+          "day_label": "Days 11–15 · Plan",
+          "hero": {
+            "query": "A stylish living room featuring a wool rug, lined curtains, and a variety of textured cushions, all designed for family living.",
+            "flux_prompt": "A well-styled living room corner showcasing the Sweet Spot tier items, with a focus on texture and comfort, illuminated by natural light.",
+            "alt": "A family-friendly living room setup highlighting the Sweet Spot tier essentials, emphasizing the mix of textures and colors.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\063-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7546767"
+          },
+          "scenario": "",
+          "principle": "Coordinate rug, pad, and window. Add panels only if the log says interior reflection.",
+          "body": [
+            "Example: 8 × 10 ft wool-blend rug $180–350; full-size pad $50–90; lined curtains sewn or better ready-mades $80–180; sturdier rod $30–70; four cushions $40–80. Optional: two tested PET or fabric-wrapped panels $80–200 if mounting is allowed and fire info exists.",
+            "Heavier curtains still are not isolation. Wider rod is for stack-back and light, not STC.",
+            "Include inserts, rings, and a level in the budget so the weekend does not stall."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Skipping the pad to afford a fourth texture of cushion.",
+          "checklist": [
+            "Pad sized to rug",
+            "Optional panels truly optional",
+            "Hardware complete"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "splurge-tier-choices",
+          "title": "Splurge Basket (About $800–1,600+)",
+          "day_label": "Days 11–15 · Plan",
+          "hero": {
+            "query": "A luxurious living room showcasing high-end textiles, including a hand-knotted rug, custom drapery, and rich cushions, styled for elegance.",
+            "flux_prompt": "A sophisticated living room corner featuring Splurge tier items, emphasizing the quality of materials and the overall luxurious feel of the space.",
+            "alt": "An elegant living room setup highlighting the Splurge tier essentials, with a focus on rich textures and bespoke details.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\064-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:9316201"
+          },
+          "scenario": "",
+          "principle": "Splurge is optional quality, not a silence upgrade.",
+          "body": [
+            "Example: larger or better rug $400–800; premium pad $80–150; custom drapery $300–800; rated rod system $80–200; six cushions $80–160. Optional professional hang or tested mineral-wool panels with proper fabric and fire documentation $200–600. Still excludes structural isolation.",
+            "Custom size must wait on finished measurements. Do not cut fabric from the book’s example widths.",
+            "Success is materials you like and a less reflective room. Neighbor bass is still a building issue."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Custom velvet over a heater because the tier said luxury.",
+          "checklist": [
+            "Measurements final before custom",
+            "Fire docs for any “acoustic” panel",
+            "Isolation still not purchased"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "the-weekend-makeover-blueprint-install-measure-and-enjoy",
+      "title": "The Weekend Makeover Blueprint",
+      "intro": "By the end of this chapter you will have a low-risk sequence with stop conditions. Checkpoints compare comfort under similar conditions. They do not prove laboratory progress.",
+      "opener": {
+        "query": "concrete living room with soft textiles, natural light from one window, minimal decor, warm tones, photorealistic",
+        "flux_prompt": "full-bleed shot of a cozy living room with a large window, soft rug, and plants",
+        "alt": "concrete living room with soft textiles, natural light from one window, minimal decor, warm tones, photorealistic",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\041-pexels.jpg",
+        "credit": "Photo by Luisa Sanfelice on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:34992391"
+      },
+      "sections": [
+        {
+          "slug": "plan-your-makeover",
+          "title": "Plan The Weekend",
+          "day_label": "Days 16–22 · Implement",
+          "hero": {
+            "query": "concrete living room with soft textiles, natural light from one window, minimal decor, warm tones, photorealistic",
+            "flux_prompt": "full-bleed shot of a cozy living room with a large window, soft rug, and plants",
+            "alt": "cozy living room with a large window, soft rug, and plants",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\041-pexels.jpg",
+            "credit": "Photo by Luisa Sanfelice on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:34992391"
+          },
+          "scenario": "",
+          "principle": "If Friday is missing permissions or measurements, Saturday is not install day.",
+          "body": [
+            "Confirm the log, the USD basket, return policies, and help for lifting a rug. Stage hardware. Photograph walls before adhesive.",
+            "Stop and reassess if a treatment does not fit, a mounting surface is uncertain, a rug slips, a curtain obstructs a door or heater, or measurement conditions cannot be reproduced.",
+            "Do not install everything before you can tell what changed."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A full-room foam install Saturday morning with no test patch.",
+          "checklist": [
+            "Stop list written",
+            "Permissions in hand",
+            "One change at a time if unsure"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "install-floors-and-windows",
+          "title": "Floors And Windows First",
+          "day_label": "Days 16–22 · Implement",
+          "hero": {
+            "query": "living room with a large wool rug and wide curtain panels, natural light from one window, photorealistic",
+            "flux_prompt": "full-bleed shot of a living room with a large wool rug and wide curtain panels",
+            "alt": "living room with a large wool rug and wide curtain panels",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\067-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7061396"
+          },
+          "scenario": "",
+          "principle": "Rug and curtains are the usual first installs — for comfort, not isolation.",
+          "body": [
+            "Pad down, rug square to the seating, check slides and curls. Rod into proper structure. Hang panels, test stack and door.",
+            "If the rug waves, stop walking on it until the pad is right.",
+            "Do not score “progress” from a different TV volume."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A floating rug corner at the entry.",
+          "checklist": [
+            "Flat rug",
+            "Rod secure",
+            "Heater clearance"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "measure-and-adjust",
+          "title": "Informal Compare",
+          "day_label": "Days 23–26 · Test",
+          "hero": {
+            "query": "living room with a large wool rug and wide curtain panels, natural light from one window, photorealistic",
+            "flux_prompt": "full-bleed shot of a living room with a large wool rug and wide curtain panels",
+            "alt": "living room with a large wool rug and wide curtain panels",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\067-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7061396"
+          },
+          "scenario": "",
+          "principle": "Same conditions. Informal notes.",
+          "body": [
+            "Clap word, speech clarity, main source still present or not, app reading if you use one — all with time, position, device. Interpretation: observation, not proof.",
+            "If the street is the complaint and the number barely moved, that is expected.",
+            "Do not chase a dB by adding plants."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A couple of dB as a victory caption.",
+          "checklist": [
+            "Conditions matched",
+            "Source unchanged?",
+            "No proof language"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "set-seating-and-layout",
+          "title": "Seating And Paths",
+          "day_label": "Days 16–22 · Implement",
+          "hero": {
+            "query": "living room with arranged seating and soft textiles, natural light from one window, photorealistic",
+            "flux_prompt": "full-bleed shot of a living room with arranged seating and soft textiles",
+            "alt": "living room with arranged seating and soft textiles",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\069-pexels.jpg",
+            "credit": "Photo by JUNLIN ZOU on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:37665838"
+          },
+          "scenario": "",
+          "principle": "Live in the room before you add more SKUs.",
+          "body": [
+            "Set the main seat. Walk the door. Sit for a show. If you cannot reach the window, the curtain stack is wrong.",
+            "Furniture stable. Cords managed.",
+            "Layout tweaks only if they pass the path test."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A new armchair in the only clear path.",
+          "checklist": [
+            "Walk the loop",
+            "Cords up",
+            "Seat usable"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "style-shelves-and-add-plants",
+          "title": "Shelves And Plants Last",
+          "day_label": "Days 16–22 · Implement",
+          "hero": {
+            "query": "living room with styled shelves and plants, natural light from one window, photorealistic",
+            "flux_prompt": "full-bleed shot of a living room with styled shelves and plants",
+            "alt": "living room with styled shelves and plants",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\070-pexels.jpg",
+            "credit": "Photo by Stanislav Kondratiev on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7836571"
+          },
+          "scenario": "",
+          "principle": "Green and objects after the room is safe to walk.",
+          "body": [
+            "Anchor shelves. Plants on saucers, not in paths, not on unrated hooks.",
+            "Do not restyle first-reflection points with foliage as treatment.",
+            "If time runs out, skip this layer. The rug still counts as a complete weekend."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Sunday night ceiling plant over the sofa.",
+          "checklist": [
+            "Anchors done",
+            "Saucers dry",
+            "MVP weekend allowed"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "final-accents-and-scoring",
+          "title": "Accents Without A Scoreboard",
+          "day_label": "Days 23–26 · Test",
+          "hero": {
+            "query": "living room with final accents like pillows and throws, natural light from one window, photorealistic",
+            "flux_prompt": "full-bleed shot of a living room with final accents like pillows and throws",
+            "alt": "living room with final accents like pillows and throws",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\071-pexels.jpg",
+            "credit": "Photo by Terry Magallanes on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:2988860"
+          },
+          "scenario": "",
+          "principle": "There is no acoustic score out of ten.",
+          "body": [
+            "Cushions and a throw if the budget still has room. Record actual USD spent.",
+            "If something failed the stop list, reverse it while returns are open.",
+            "Write what success meant: less harsh speech, not a silent street."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A numeric “quiet score” in a caption.",
+          "checklist": [
+            "USD actuals",
+            "Returns window noted",
+            "Success sentence written"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "establish-a-maintenance-rhythm",
+          "title": "Maintenance Rhythm",
+          "day_label": "Days 27–30 · Maintain",
+          "hero": {
+            "query": "living room with a cozy atmosphere, natural light from one window, photorealistic",
+            "flux_prompt": "full-bleed shot of a cozy living room with a warm atmosphere",
+            "alt": "cozy living room with a warm atmosphere",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\072-pexels.jpg",
+            "credit": "Photo by Andranik Paradyan on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:38323542"
+          },
+          "scenario": "",
+          "principle": "Monthly checks are housekeeping, not validation of isolation.",
+          "body": [
+            "Shake rugs, check pads, vacuum curtains per label, empty plant saucers, re-snug hardware, look for mildew behind textiles.",
+            "WARM (wipe, assess, re-level pad, mend) is habit language. It does not certify acoustics.",
+            "Re-run the source log if a new neighbor noise appears — you may need a different response than more fabric."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A monthly clap as proof the lease-safe foam is “working.”",
+          "checklist": [
+            "Care labels saved",
+            "Hardware snug",
+            "New sources logged separately"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "the-quiet-living-room-audit-checklist",
+      "title": "Quiet Living Room Audit Checklist",
+      "intro": "By the end of this chapter the first questions will sort echo from transmission before any treatment.",
+      "opener": {
+        "query": "living room with soft furnishings, natural light from one window, warm color palette, no people, no text, no watermark",
+        "flux_prompt": "full-bleed image of a cozy living room with soft textures and decor elements",
+        "alt": "living room with soft furnishings, natural light from one window, warm color palette, no people, no text, no watermark",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\073-pexels.jpg",
+        "credit": "Photo by Sami  Abdullah on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:26546547"
+      },
+      "sections": [
+        {
+          "slug": "purpose-and-benefits",
+          "title": "Purpose",
+          "day_label": "Days 6–10 · Audit",
+          "hero": {
+            "query": "living room with a focus on noise-reducing decor elements, soft textures, warm lighting, no people, no text, no watermark",
+            "flux_prompt": "image of a living room featuring rugs, curtains, and bookshelves",
+            "alt": "decor elements for noise reduction in a living room",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\074-pexels.jpg",
+            "credit": "Photo by Leandro Rossi on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:35842757"
+          },
+          "scenario": "",
+          "principle": "The checklist prevents treating the wrong problem.",
+          "body": [
+            "Use it to decide whether this book’s decor path applies. If the answer is neighbor bass through a concrete wall, the honest output is “building path,” not a shopping list.",
+            "Keep USD and permission columns.",
+            "Indian-city examples in other chapters remain illustrations."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Checking every box for rugs because rugs are in the table of contents.",
+          "checklist": [
+            "Problem class first",
+            "Decor path yes/no",
+            "Budget column ready"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "how-to-use-the-audit",
+          "title": "How To Use",
+          "day_label": "Days 6–10 · Audit",
+          "hero": {
+            "query": "living room setup for noise measurement, soft furnishings, one window light, no people, no text, no watermark",
+            "flux_prompt": "image of a living room with a decibel meter app in use, soft textures",
+            "alt": "setting up for noise measurement in a living room",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\075-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6943119"
+          },
+          "scenario": "",
+          "principle": "Unanswered first questions block shopping.",
+          "body": [
+            "Print or copy: echo vs external vs impact vs equipment; renter; construction permitted; budget; meaningful result.",
+            "Then surfaces, then treatments.",
+            "Skip sections that do not match the class."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Filling foam boxes on a transmission problem.",
+          "checklist": [
+            "First questions answered",
+            "Irrelevant chapters skipped",
+            "USD cap written"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "main-content-the-audit-checklist",
+          "title": "The Checklist",
+          "day_label": "Days 6–10 · Audit",
+          "hero": {
+            "query": "living room with a mirror point walk-through setup, soft textures, no people, no text, no watermark",
+            "flux_prompt": "image of a living room with a mirror being used to identify sound reflection points",
+            "alt": "mirror point walk-through in a living room",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\076-pexels.jpg",
+            "credit": "Photo by VAZHNIK on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7563545"
+          },
+          "scenario": "",
+          "principle": "Safety, permissions, and budget sit beside acoustics.",
+          "body": [
+            "Room profile complete. Source log started. Side-wall reflections marked only if relevant. Rug/curtain only if interior or footfall. Sealing only if gaps and rules allow. Foam only after fire and adhesive checks. Plants visual. Soundbar unobstructed. Walkways clear.",
+            "Lease: drill? rods? adhesive? ceiling hooks? wall treatments? window treatments? restoration? near fire exits, sprinklers, HVAC, electrical?",
+            "Electrical/heat: fabric off heat, vents open, cables secured, no overloaded strips, lamps per maker."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A completed textile list with a blank permission line.",
+          "checklist": [
+            "Profile",
+            "Permissions",
+            "Heat and cords"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "tips-for-success",
+          "title": "Tips",
+          "day_label": "Days 23–26 · Test",
+          "hero": {
+            "query": "living room with noise-reducing decor elements, soft textures, warm lighting, no people, no text, no watermark",
+            "flux_prompt": "image of a well-decorated living room with noise-reducing elements",
+            "alt": "decor strategies for noise reduction in a living room",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\074-pexels.jpg",
+            "credit": "Photo by Leandro Rossi on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:35842757"
+          },
+          "scenario": "",
+          "principle": "Compare like with like.",
+          "body": [
+            "Same hour, same HVAC, same window state. Write speech in words.",
+            "US construction differences: a treatment that helps echo may do nothing on a shared floor.",
+            "Keep receipts."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Open-window before vs closed-window after.",
+          "checklist": [
+            "Conditions cloned",
+            "Receipts filed",
+            "Building type noted"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "common-mistakes",
+          "title": "Common Mistakes",
+          "day_label": "Days 23–26 · Test",
+          "hero": {
+            "query": "living room with common mistakes in decor for noise reduction, soft textures, no people, no text, no watermark",
+            "flux_prompt": "image of a living room showcasing common mistakes in noise reduction decor",
+            "alt": "common mistakes in a living room setup for noise reduction",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\078-pexels.jpg",
+            "credit": "Photo by Oleg Melevych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:12212553"
+          },
+          "scenario": "",
+          "principle": "Overclaim is the usual failure mode.",
+          "body": [
+            "Calling decor soundproofing. Using a plant as a panel. Ceiling mirrors. Unrated foam. Adhesive on untested paint. Blocking vents. Scoring dB as proof.",
+            "Fix: return to the glossary in chapter 1 and the decision table.",
+            "If you already over-bought, use returns."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Keeping a dangerous install because it was already on the wall.",
+          "checklist": [
+            "Overclaims crossed out",
+            "Unsafe items removed",
+            "Returns used"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "layered-textiles-planner-for-apartment-living",
+      "title": "Layered Textiles Planner For Apartment Living",
+      "intro": "By the end of this chapter you will fill a US-inch planner. The old “Indian Apartments” title is retired. Examples may still mention Pune or Mumbai as stories.",
+      "opener": {
+        "query": "cozy living room with layered textiles, one window light, linen and velvet textures, magazine styling, photorealistic",
+        "flux_prompt": "full-bleed image of a layered textile living room with a sofa, rug, curtains, and cushions",
+        "alt": "cozy living room with layered textiles, one window light, linen and velvet textures, magazine styling, photorealistic",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\079-pexels.jpg",
+        "credit": "Photo by Vladyslav Dukhin on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:30520758"
+      },
+      "sections": [
+        {
+          "slug": "purpose-and-benefits",
+          "title": "Purpose",
+          "day_label": "Days 11–15 · Plan",
+          "hero": {
+            "query": "cozy living room with layered textiles, one window light, linen and velvet textures, magazine styling, photorealistic",
+            "flux_prompt": "full-bleed image of a layered textile living room with a sofa, rug, curtains, and cushions",
+            "alt": "a cozy living room with layered textiles, showing a sofa, rug, and cushions in soft lighting",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\079-pexels.jpg",
+            "credit": "Photo by Vladyslav Dukhin on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:30520758"
+          },
+          "scenario": "",
+          "principle": "The planner turns measurements into quantities.",
+          "body": [
+            "Rug size, pad size, rod length, curtain width, panel count, hardware, USD estimates. Formulas are starting points.",
+            "Caption mindset: layered furnishings are visual reference; acoustic effect depends on material, coverage, and the rest of the room.",
+            "Do not buy yet checkpoint still applies."
+          ],
+          "figures": [
+            {
+              "kind": "comparison",
+              "title": "Rug Width Is A Visual Start",
+              "caption": "Sofa width plus about 12 in each side is a look guideline. Confirm doors, room, and seating. Not an acoustic law.",
+              "values": [
+                "12 inch"
+              ],
+              "labels": [
+                "Example each-side visual add"
+              ],
+              "minimum": null,
+              "spec_id": "D004",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\figures\\D004.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Filling the planner with wish sizes that ignore the door.",
+          "checklist": [
+            "Inches entered",
+            "USD column",
+            "Door swings drawn"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "how-to-use-the-planner",
+          "title": "How To Use",
+          "day_label": "Days 11–15 · Plan",
+          "hero": {
+            "query": "organized planner with textile samples, one window light, linen and velvet textures, magazine styling, photorealistic",
+            "flux_prompt": "full-bleed image of a textile planner with swatches and measurements laid out on a table",
+            "alt": "a textile planner with swatches and measurements, showing a neat arrangement of fabric samples",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\081-pexels.jpg",
+            "credit": "Photo by 3D Render on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:34850999"
+          },
+          "scenario": "",
+          "principle": "Measure twice, shop once, verify price the morning you buy.",
+          "body": [
+            "Room L×W×H, sofa width, window width, mount type. Then apply starting-point fullness and rug visual rule. Then override with constraints.",
+            "Retailers are examples.",
+            "Metric only if a product is labeled that way — convert onto the inch sheet."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Mixing cm from a hangtag into an inch cut plan.",
+          "checklist": [
+            "One unit system",
+            "Overrides written",
+            "Retailer labeled example"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "rug-and-pad-planner",
+          "title": "Rug And Pad Planner",
+          "day_label": "Days 11–15 · Plan",
+          "hero": {
+            "query": "living room with a large area rug and a smaller runner, one window light, linen and jute textures, magazine styling, photorealistic",
+            "flux_prompt": "full-bleed image of a living room featuring a large area rug and a smaller runner",
+            "alt": "a living room showcasing a large area rug and a smaller runner, with soft lighting and layered textures",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\082-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7587782"
+          },
+          "scenario": "",
+          "principle": "Pad equals rug, floor-compatible.",
+          "body": [
+            "Write proposed size, actual seating, door, and the visual starting point you rejected if you rejected it.",
+            "Note cleaning method and dry time.",
+            "USD with tax/shipping blank until checkout."
+          ],
+          "figures": [
+            {
+              "kind": "comparison",
+              "title": "Rug Width Is A Visual Start",
+              "caption": "Override this number when the room or a door disagrees.",
+              "values": [
+                "12 inch"
+              ],
+              "labels": [
+                "Example each-side visual add"
+              ],
+              "minimum": null,
+              "spec_id": "D004",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\figures\\D004.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Pad SKU for carpet used on floating vinyl.",
+          "checklist": [
+            "Compatibility",
+            "Equal sizes",
+            "Cleaning noted"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "curtain-specs",
+          "title": "Curtain Specs",
+          "day_label": "Days 11–15 · Plan",
+          "hero": {
+            "query": "living room with full-length curtains, one window light, velvet and linen textures, magazine styling, photorealistic",
+            "flux_prompt": "full-bleed image of a living room with full-length curtains and layered textiles",
+            "alt": "a living room featuring full-length curtains in soft textures, styled elegantly",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\083-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6301174"
+          },
+          "scenario": "",
+          "principle": "Rod, fullness starting point, stack space, heat clearance.",
+          "body": [
+            "Inside vs outside mount defined again if needed. Hardware load. Fabric away from heat.",
+            "Acoustic expectation one sentence, qualified.",
+            "Panel count from width math, not from a photo."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Three panels on a rod that needs four, called “fullness.”",
+          "checklist": [
+            "Math shown",
+            "Heat clearance",
+            "Qualified sentence"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "cushions-and-throws",
+          "title": "Cushions And Throws",
+          "day_label": "Days 11–15 · Plan",
+          "hero": {
+            "query": "cozy sofa with cushions and throws, one window light, linen and chunky textures, magazine styling, photorealistic",
+            "flux_prompt": "full-bleed image of a cozy sofa adorned with cushions and throws",
+            "alt": "a sofa featuring an array of cushions and a chunky throw, styled for comfort and warmth",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\084-pexels.jpg",
+            "credit": "Photo by Keegan Checks on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:10117709"
+          },
+          "scenario": "",
+          "principle": "Optional styling line.",
+          "body": [
+            "Count for seating comfort. USD. Wash labels.",
+            "Not on the isolation list.",
+            "Skip if the cap is blown."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Cushion line larger than the rug line.",
+          "checklist": [
+            "Optional tagged",
+            "USD capped",
+            "No isolation"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "window-and-wall-treatments-buying-guide",
+      "title": "Window And Wall Treatments Buying Guide",
+      "intro": "By the end of this chapter you will shop US categories with safety and return checks.",
+      "opener": {
+        "query": "interior of a cozy living room with window treatments, soft lighting, plush textures, no people",
+        "flux_prompt": "full-bleed shot of a well-decorated living room featuring layered curtains and wall art",
+        "alt": "interior of a cozy living room with window treatments, soft lighting, plush textures, no people",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\085-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:6947285"
+      },
+      "sections": [
+        {
+          "slug": "purpose-and-benefits",
+          "title": "Purpose",
+          "day_label": "Days 11–15 · Plan",
+          "hero": {
+            "query": "cozy living room with layered curtains, soft textures, warm lighting, no people",
+            "flux_prompt": "interior of a stylish living room showcasing different fabric textures for curtains",
+            "alt": "a well-styled living room with elegant window treatments",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\086-pexels.jpg",
+            "credit": "Photo by YI REN on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:39379963"
+          },
+          "scenario": "",
+          "principle": "Buy the mount and the fabric as a system.",
+          "body": [
+            "Window: rod or track, brackets, panels or shades, tie-backs optional. Wall: absorber vs decor vs nothing. USD and fire info for anything sold as acoustic.",
+            "Example retailers are not endorsements of acoustic performance.",
+            "Renter path defaults to reversible."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Panels without brackets in the cart.",
+          "checklist": [
+            "System complete",
+            "Fire info if acoustic",
+            "Reversible default if renting"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "how-to-use-the-measuring-template",
+          "title": "Measuring Template",
+          "day_label": "Days 11–15 · Plan",
+          "hero": {
+            "query": "measuring window dimensions in a living room with a load-bearing wall, soft lighting, no people",
+            "flux_prompt": "close-up of a measuring tape next to a window, showcasing the measuring process",
+            "alt": "a measuring template laid out on a table with fabric swatches",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\087-pexels.jpg",
+            "credit": "Photo by Castorly Stock on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:3639034"
+          },
+          "scenario": "",
+          "principle": "Width at top, middle, bottom for inside mount. Tightest number wins.",
+          "body": [
+            "Inside mount: smallest width, smallest height, deduct what the shade maker requires. Outside mount: cover extra inches of wall for light. Write both if undecided.",
+            "Do not round before maker deductions.",
+            "Photo the window with a tape in the frame."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "One mid-glass width for an inside-mount shade.",
+          "checklist": [
+            "Three widths",
+            "Maker deduction",
+            "Photo saved"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "fabric-and-hardware-decision-checklist",
+          "title": "Fabric And Hardware",
+          "day_label": "Days 11–15 · Plan",
+          "hero": {
+            "query": "stylish living room with velvet curtains and wraparound rod, soft lighting, no people",
+            "flux_prompt": "interior shot of a living room featuring velvet curtains and stylish hardware",
+            "alt": "a close-up of curtain hardware and fabric swatches laid out for selection",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\088-pexels.jpg",
+            "credit": "Photo by Yunuen Zempoaltecatl on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:35657830"
+          },
+          "scenario": "",
+          "principle": "Hardware is a load problem. Fabric is a light-and-care problem.",
+          "body": [
+            "Match bracket count to rod length and weight. Studs or rated anchors. Felt vs wool vs polyester lining: care and modest highs, not STC.",
+            "Keep a tax and shipping allowance (often several percent plus a flat ship fee — look up the cart).",
+            "Return policy for custom is often worse — delay custom until measures are real."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Custom panels ordered from a phone photo.",
+          "checklist": [
+            "Load math",
+            "Return rules",
+            "Allowance in USD"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "renter-friendly-wall-solutions",
+          "title": "Renter Wall Solutions",
+          "day_label": "Days 16–22 · Implement",
+          "hero": {
+            "query": "decorative wall solutions in a small living room, soft lighting, no people",
+            "flux_prompt": "interior shot of a living room featuring peel and stick felt tiles and fabric art",
+            "alt": "a close-up of fabric-wrapped art and cork boards in a stylish living room",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\089-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7166934"
+          },
+          "scenario": "",
+          "principle": "Test adhesives. Trust load ratings.",
+          "body": [
+            "Removable hooks for light art only. Test paint. No heavy absorbers on stick tabs. Confirm rules.",
+            "Damage-free is marketing. Photograph and keep the kit for move-out.",
+            "If the wall is brick or plaster, stop and identify a method or skip."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A 15 lb panel on four untested adhesive strips.",
+          "checklist": [
+            "Test patch",
+            "Weight vs rating",
+            "Move-out kit"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "weekend-makeover-worksheet",
+      "title": "Weekend Worksheet And Final Inspection",
+      "intro": "By the end of this chapter you will have a before/after table that does not pretend to certify the room, plus a final safety and expectation checklist.",
+      "opener": {
+        "query": "A cozy living room makeover in an Indian apartment, showcasing a serene atmosphere with soft textures and layered textiles, natural light from a single window, no people, no text.",
+        "flux_prompt": "Full-bleed shot of a well-decorated living room with a thick rug, lined curtains, and plants in the corners, emphasizing a tranquil vibe.",
+        "alt": "A cozy living room makeover in an Indian apartment, showcasing a serene atmosphere with soft textures and layered textiles, natural light fr",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\072-pexels.jpg",
+        "credit": "Photo by Andranik Paradyan on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:38323542"
+      },
+      "sections": [
+        {
+          "slug": "purpose-and-benefits",
+          "title": "Purpose",
+          "day_label": "Days 23–26 · Test",
+          "hero": {
+            "query": "A serene living room in a Pune apartment, featuring a thick rug, lined curtains, and plants, with natural light filtering through one window, magazine styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A cozy corner of the living room with a throw blanket and pillows on a sofa, soft textures highlighted by natural light.",
+            "alt": "A view of the living room from the entrance, showcasing the overall decor and arrangement.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\091-pexels.jpg",
+            "credit": "Photo by 天 明 on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:32446188"
+          },
+          "scenario": "",
+          "principle": "The worksheet records observations.",
+          "body": [
+            "Columns: measure, before, after, conditions, interpretation. Rows: app reading (informal); clap impression (subjective); speech clarity (subjective); main noise source (did the source change?).",
+            "WARM is maintenance, not proof.",
+            "USD actuals on the same sheet."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A worksheet titled “proved gains.”",
+          "checklist": [
+            "Table drawn",
+            "Interpretation column",
+            "USD actuals"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "baseline-measurements",
+          "title": "Baseline",
+          "day_label": "Days 6–10 · Audit",
+          "hero": {
+            "query": "A close-up of a measuring tape on a wooden floor, capturing the dimensions of a living room, natural light casting soft shadows, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "An overhead view of the living room layout with marked measurements and existing furniture.",
+            "alt": "A detailed shot of the window and wall texture, highlighting the existing decor.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\092-pexels.jpg",
+            "credit": "Photo by Ron Lach on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7778196"
+          },
+          "scenario": "Ravi records 12 × 10 × 9 ft, wood floor, one 4 × 5 ft window. Any dB he writes is informal.",
+          "principle": "Document the room, not a fake RT60.",
+          "body": [
+            "Room size, floor, walls, rug if any, window and door gaps, tenure, budget. App reading only with device, weighting if shown, time, HVAC, windows.",
+            "Clap in a word. Speech in a word. Main source in a word.",
+            "Do not chase 55 dB as a standard."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A single evening dB as the season’s truth.",
+          "checklist": [
+            "Profile complete",
+            "Informal numbers labeled",
+            "Source named"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "day-1-soft-surfaces-setup",
+          "title": "Soft Surfaces Day",
+          "day_label": "Days 16–22 · Implement",
+          "hero": {
+            "query": "A beautifully styled living room corner with a thick rug, plush pillows, and a cozy throw, natural light creating a warm ambiance, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A view of the sofa area with layered textiles, showcasing the comfort and style of the setup.",
+            "alt": "A close-up of the rug and pillow textures, emphasizing the materials used.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\007-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8142820"
+          },
+          "scenario": "",
+          "principle": "Install, then live with it before the next SKU.",
+          "body": [
+            "Rug/pad/curtains per earlier chapters. Stop list in force.",
+            "Fill after columns only under matched conditions.",
+            "If the rug slips, that row is a safety fail, not an acoustic maybe."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Filling “after” during a party with the TV loud.",
+          "checklist": [
+            "Stop list",
+            "Matched conditions",
+            "Safety fail overrides"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "day-2-final-touches",
+          "title": "Final Touches",
+          "day_label": "Days 23–26 · Test",
+          "hero": {
+            "query": "A well-decorated bookshelf filled with books and fabric baskets, natural light highlighting the textures, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A wide shot of the living room showcasing the newly hung curtains and filled bookshelves.",
+            "alt": "A close-up of the fabric art panels on the wall, emphasizing their texture and placement.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\094-pexels.jpg",
+            "credit": "Photo by Thijs van der Weide on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:1094761"
+          },
+          "scenario": "",
+          "principle": "Optional styling after safety passes.",
+          "body": [
+            "Cushions, plants with saucers, shelves anchored. Soundbar still unobstructed.",
+            "If a mount is uncertain, do not hang it.",
+            "Write the success sentence again."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A last-minute adhesive tile over a vent.",
+          "checklist": [
+            "Safety still passing",
+            "Optional tagged",
+            "Success sentence"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "warm-maintenance-tracker",
+          "title": "Maintenance And Final Inspection",
+          "day_label": "Days 27–30 · Maintain",
+          "hero": {
+            "query": "A serene living room with neatly arranged pillows and throws, natural light enhancing the cozy atmosphere, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A close-up of the WARM maintenance checklist on a stylish notepad, surrounded by cozy decor elements.",
+            "alt": "A wide shot of the living room showcasing the overall maintenance and care taken in the space.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\095-pexels.jpg",
+            "credit": "Photo by Andrea Piacquadio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:920383"
+          },
+          "scenario": "",
+          "principle": "The last page of the book is inspection, not a new product category.",
+          "body": [
+            "Room safety: rugs flat and not sliding; walkways clear; furniture stable; plants cannot tip or leak; curtains do not block doors, heaters, vents, or exits; cables secured; wall and ceiling treatments supported; adhesives and fasteners compatible; nothing blocks ventilation or equipment.",
+            "Acoustic expectations: main problem identified; interior echo distinguished from external noise; no decor item treated as soundproofing; before/after used similar conditions; phone readings informal; speech and comfort recorded; remaining sources documented.",
+            "Budget and maintenance: actual costs in USD including shipping, tax, accessories, installation; return policies; cleaning instructions; rugs, pads, curtains, plants have care plans; renter restoration understood. Glossary: absorption, diffusion (engineered vs informal scattering), reflection, reverberation, RT60, first reflection, room mode, sound transmission, sound isolation, soundproofing, A-weighting, C-weighting, NRC if a maker prints it, acoustic transparency, flanking path."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Signing the room off while a rug corner is a trip and the app screenshot is captioned “soundproofed.”",
+          "checklist": [
+            "Safety list passed",
+            "Expectations honest",
+            "USD and restoration filed"
+          ],
+          "checklist_label": "Final inspection",
+          "inline_photos": []
+        }
+      ]
+    }
+  ]
+}

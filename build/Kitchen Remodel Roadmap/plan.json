@@ -1,0 +1,1802 @@
+{
+  "slug": "kitchen-remodel-roadmap",
+  "title": "Kitchen Remodel Roadmap",
+  "subtitle": "Cap-first kitchen planning — what you can document, and what a qualified trade must do",
+  "tagline": "The cap includes contingency. A score does not authorize live wiring.",
+  "author": "Akarsh Priyadarshan",
+  "series": "30 Day Spaces",
+  "closing_headline": "Your next room starts here",
+  "closing_blurb": "More room kits and measured layouts — same series language, same clear numbers. This book helps readers plan a kitchen refresh against a hard cap. It does not interpret code, replace a licensed trade, or guarantee a price, permit, or damage-free rental.",
+  "accent_hex": "#1E5F6B",
+  "units": "imperial",
+  "cover": {
+    "query": "calm compact kitchen remodel plans on a table, no people, no text",
+    "flux_prompt": "full-bleed designed cover of a compact kitchen with tape measure and cabinet sample, no people, no text",
+    "alt": "A compact kitchen with a tape measure and cabinet sample, no people or text.",
+    "source": "openai",
+    "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\cover.jpg",
+    "credit": "Cover illustration generated for this edition.",
+    "ai_generated": true,
+    "provider_id": "openai:kitchen-remodel-roadmap-cover"
+  },
+  "designed_cover": true,
+  "chapters": [
+    {
+      "slug": "cap-and-contingency",
+      "title": "One cap, one contingency rule",
+      "intro": "This book is a kitchen planning roadmap for compact US homes and rentals. It is not a building-code manual, an electrical or gas guide, a plumbing license, a structural design, or legal advice. Some scenarios use apartments in Indian cities as compact-space illustrations. They do not define the market. Prices are in US dollars. Measurements are in inches. Example dollar amounts are illustrations, not typical remodel prices. 1 inch equals 25 mm if you need a conversion. Manufacturer instructions, the lease, building rules, licensed trades, and the authority having jurisdiction take precedence. You may plan, measure, document, and photograph. Qualified professionals perform electrical, gas, structural, and permit-required plumbing work. A score, a heat map, or a contingency formula in this book does not authorize unsafe work. Contingency lives inside the budget cap. It is not added on top. There is one method in this book. Ignore older notes that used a separate 8 percent plus risk-score formula, a competing 10–12 percent band, or a 12–15 percent band as a second calculator.",
+      "opener": {
+        "query": "cost breakdown worksheet, kitchen renovation, Bengaluru apartment",
+        "flux_prompt": "an overhead shot of a cost breakdown worksheet filled with numbers and categories, a calculator and a cup of coffee beside it, natural light",
+        "alt": "A printed budget cap circled, contingency listed as a reserved line inside it.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\001-pexels.jpg",
+        "credit": "Photo by HONG SON on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:34558043"
+      },
+      "sections": [
+        {
+          "slug": "cap-first-is-the-ceiling",
+          "title": "The cap is the ceiling, not a wish",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "small indian apartment interior minimalist daylight editorial",
+            "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK apartment interior, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+            "alt": "A one-page kitchen cap with must-haves and will-not-move-gas listed.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\002-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6890400"
+          },
+          "scenario": "Budget worksheet: a renter in a Pune 1BHK — used here as a compact-rental illustration — wrote one number and then priced a full cabinet, gas, and electrical remodel against it.",
+          "principle": "Write the cap first. A cosmetic refresh and a systems remodel are different projects.",
+          "body": [
+            "Today's output: a written kitchen cap in USD, labeled illustrative until you have local quotes, plus three buckets — must have, should have, will not do.",
+            "Dollar figures in this book are planning scenarios. Actual cost varies by city, labor, appliances, existing conditions, and whether a qualified person must open walls. A small paint-and-hardware refresh is not the same budget as moving plumbing or electrical.",
+            "State whether the cap includes professional labor, materials, permits, waste, and contingency. If labor is extra, write that. Weekly budget review (the old notes said CFO review — that is a metaphor, not a job title) starts after this page exists."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Write the USD cap",
+              "minutes": null
+            },
+            {
+              "text": "List must / should / will-not",
+              "minutes": null
+            },
+            {
+              "text": "State what the cap includes",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Treating an example cap as a realistic price for every kitchen.",
+          "checklist": [
+            "Write the USD cap",
+            "List must / should / will-not",
+            "State what the cap includes"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "one-contingency-method",
+          "title": "One contingency method, inside the cap",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "cost breakdown, DIY, pro decisions, home renovation, budget planning, Indian apartment",
+            "flux_prompt": "full-bleed shot of a well-organized workspace with task cards, a laptop displaying a cost breakdown spreadsheet, and tools neatly arranged on a table, natural light from a nearby window",
+            "alt": "A spreadsheet with working cost and a reserved contingency line that still sum to the cap.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\003-pexels.jpg",
+            "credit": "Photo by Blue Bird on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7218110"
+          },
+          "scenario": "Kitchen measurement error: two formulas on the same sheet produced two different leftover amounts.",
+          "principle": "Reserve twelve percent of the cap as contingency. Cut other lines if risk is high. Do not add contingency on top of the cap.",
+          "body": [
+            "Today's output: the same cap, with working cost at eighty-eight percent and contingency at twelve percent, summing to one hundred percent of the cap. Category lines under working cost must add up to the working-cost total. Contingency is not copied into those categories.",
+            "Worked illustration, not a quote: cap 10,000 USD. Working cost 8,800 USD. Contingency reserved 1,200 USD. Example cosmetic split of the 8,800: demolition and waste 900, qualified fixture electrical or plumbing 2,000, finishes 2,200, fixtures 2,400, permits and fees 600, tools 700. Those six lines equal 8,800. Plus 1,200 reserved equals the cap. Do not also add 10–12 percent on top.",
+            "People overrun 15–25 percent when they have no cap and they spend the reserve during planning. Contingency is not a forecast of that overrun. If unknowns are high (old plumbing, moisture, complex permits), rescope first. If you still proceed, raise the reserved percent only by reducing other categories so the cap does not move. Do not use 8 percent plus half a percent times a risk score."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Contingency sits inside the cap",
+              "caption": "One method. Do not add a second cushion on top.",
+              "values": [
+                "Hard ceiling",
+                "Everything except the reserve",
+                "Twelve percent of the cap",
+                "Equals the cap"
+              ],
+              "labels": [
+                "Budget cap",
+                "Working cost",
+                "Contingency reserve",
+                "Working plus reserve"
+              ],
+              "minimum": null,
+              "spec_id": "D001",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D001.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Illustration: ten thousand USD cap",
+              "caption": "Label this scenario illustrative. Quotes replace these numbers.",
+              "values": [
+                "Working cost",
+                "Reserved, do not spend in planning",
+                "Must equal the cap",
+                "Rescope or cut categories"
+              ],
+              "labels": [
+                "Eighty-eight percent",
+                "Twelve percent",
+                "Sum",
+                "If risk is high"
+              ],
+              "minimum": null,
+              "spec_id": "D002",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D002.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Enter cap, working cost, reserve",
+              "minutes": null
+            },
+            {
+              "text": "Make categories sum to working cost",
+              "minutes": null
+            },
+            {
+              "text": "Cross out extra formulas",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Running the risk-score formula and the 12 percent rule on the same cap.",
+          "checklist": [
+            "Enter cap, working cost, reserve",
+            "Make categories sum to working cost",
+            "Cross out extra formulas"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "scope-freeze-or-rescope",
+          "title": "Freeze the kitchen scope, or rescope before you buy",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "task cards, DIY project, home renovation, Pune apartment",
+            "flux_prompt": "a close-up of a task card with detailed information, tools, and materials laid out on a table, soft natural light",
+            "alt": "A will-not list: no gas move, no wall move, no extra island.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\004-pexels.jpg",
+            "credit": "Photo by Blue Bird on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7218006"
+          },
+          "scenario": "Inspection hold point: a backsplash add was priced after cabinets were ordered.",
+          "principle": "If it is not in the frozen kitchen scope, it is a change order or it is out.",
+          "body": [
+            "Today's output: a kitchen scope freeze — rooms (kitchen only), outcomes, exclusions, and the change-order gate. Bathroom and living-room examples in older notes were general remodel process, not this project's scope.",
+            "Variance means planned versus actual cost, time, or quantity. Estimate at Completion (EAC) is the current forecast of total spend if you continue. If EAC will break the cap, rescope before purchasing."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Write exclusions",
+              "minutes": null
+            },
+            {
+              "text": "Name the approver",
+              "minutes": null
+            },
+            {
+              "text": "Date the freeze",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Keeping the cap and adding a wall of cabinets that were never in the freeze.",
+          "checklist": [
+            "Write exclusions",
+            "Name the approver",
+            "Date the freeze"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "renters-and-permits",
+      "title": "Renters, buildings, and local rules",
+      "intro": "Permit requirements vary by jurisdiction and project scope. Building-owner or association approval may be required even when a municipal permit is not. Electrical, gas, structural, and plumbing work must be assessed against applicable local requirements. This book is not a substitute for official approval or professional code interpretation. Load-bearing walls are not the only structural concern. Shared stacks, exhaust, waterproofing, and fire assemblies can be affected.",
+      "opener": {
+        "query": "interior of a well-organized home office with a neatly arranged RFQ pack, natural light from a window, wooden desk, and plants",
+        "flux_prompt": "full-bleed shot of a stylish home office, showcasing a clean workspace with a focus on organization and clarity",
+        "alt": "A lease page and a permit office phone number on a kitchen counter.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\005-pexels.jpg",
+        "credit": "Photo by Alpha En on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:28461035"
+      },
+      "sections": [
+        {
+          "slug": "renter-first-kitchen",
+          "title": "Renter and apartment limits before tools come out",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "DIY versus pro decision matrix, home renovation, Mumbai apartment",
+            "flux_prompt": "a clean, organized table displaying the DIY Versus Pro Decision Matrix, with highlighted scores and notes, soft light",
+            "alt": "A kitchen with no holes in a shared wall, written permission on the fridge.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\006-pexels.jpg",
+            "credit": "Photo by Blue Bird on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7218029"
+          },
+          "scenario": "In this rental courtyard kitchen, the tenant wanted a new hood duct through an exterior wall.",
+          "principle": "Written permission first. Restoration last. Freestanding is not automatically allowed.",
+          "body": [
+            "Today's output: a renter sheet — written owner or landlord permission; housing or building-management approval; limits on drilling, structural work, plumbing, and exhaust; waterproofing and drainage limits; where the water, electrical, and gas shutoffs are and who may operate them; noise and demolition windows; waste and debris path; restoration obligations when you leave.",
+            "A load-bearing wall is not the only stop. Shared plumbing, fire-rated assemblies, and building exhaust can be off limits even if the wall is not load-bearing."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Renter kitchen hold points",
+              "caption": "A blank is a Hold, not a maybe.",
+              "values": [
+                "Written",
+                "If the building requires it",
+                "Ask before any hole",
+                "Who is allowed to touch them",
+                "How debris leaves",
+                "Who pays to put it back"
+              ],
+              "labels": [
+                "Owner or landlord",
+                "Association or management",
+                "Drill, plumb, exhaust",
+                "Utility shutoffs",
+                "Waste path",
+                "Restoration"
+              ],
+              "minimum": null,
+              "spec_id": "D006",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D006.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Get written permission",
+              "minutes": null
+            },
+            {
+              "text": "Map shutoffs you must not operate if restricted",
+              "minutes": null
+            },
+            {
+              "text": "List restoration duties",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Ordering a through-wall hood because the listing called it easy DIY.",
+          "checklist": [
+            "Get written permission",
+            "Map shutoffs you must not operate if restricted",
+            "List restoration duties"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "jurisdiction-checklist",
+          "title": "Confirm the city. Do not invent the code",
+          "day_label": "Day 5",
+          "hero": {
+            "query": "fail safes, home renovation, Chennai apartment",
+            "flux_prompt": "a workspace with a binder open to a page of documented fail safes, tools and paint supplies in the background, warm light",
+            "alt": "A jurisdiction form with city, property type, and blank permit numbers.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\007-pexels.jpg",
+            "credit": "Photo by Karl Solano on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5317154"
+          },
+          "scenario": "Contractor bid example: two quotes assumed no permit because a neighbor in another city had not needed one.",
+          "principle": "Ask the local building department and a qualified person. The book does not pick your permit.",
+          "body": [
+            "Today's output: city and jurisdiction; property type; owner or renter approval; applicable permits; responsible professional; inspection or certification requirements; approval status and reference number.",
+            "Pune, Bengaluru, Mumbai, or Delhi in a scenario is an illustration of a dense apartment kitchen. US readers still confirm the US city, county, and utility rules that apply to this address."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Jurisdiction fields",
+              "caption": "This book does not issue approvals.",
+              "values": [
+                "___",
+                "___",
+                "Written",
+                "List or none confirmed",
+                "Named trade",
+                "If required",
+                "Number or none"
+              ],
+              "labels": [
+                "City and jurisdiction",
+                "Property type",
+                "Owner or renter approval",
+                "Applicable permits",
+                "Responsible professional",
+                "Inspection requirements",
+                "Reference number"
+              ],
+              "minimum": null,
+              "spec_id": "D005",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D005.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Fill city and property type",
+              "minutes": null
+            },
+            {
+              "text": "Call or look up what applies",
+              "minutes": null
+            },
+            {
+              "text": "Record the professional who will pull permits",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Copying a permit list from a blog for a different county.",
+          "checklist": [
+            "Fill city and property type",
+            "Call or look up what applies",
+            "Record the professional who will pull permits"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "diy-gates-not-scores",
+      "title": "Safety gates, then skill — never a DIY score as permission",
+      "intro": "Safety and legal constraints are gates. A low composite score cannot override them. Return on investment is a money-ranking tool, not a safety criterion. If risk or regulatory status is uncertain, stop and refer.",
+      "opener": {
+        "query": "a negotiation scene between a homeowner and contractor over a contract, natural light, modern decor",
+        "flux_prompt": "a focused shot of a homeowner and contractor discussing contract terms, with documents on the table",
+        "alt": "A printed exclusion list taped inside a cabinet, tools for paint only.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\008-pexels.jpg",
+        "credit": "Photo by Anastasia  Shuraeva on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:7647760"
+      },
+      "sections": [
+        {
+          "slug": "mandatory-professional-work",
+          "title": "These kitchen tasks are not DIY in this book",
+          "day_label": "Day 6",
+          "hero": {
+            "query": "a well-organized RFQ pack on a wooden table, natural light, with kitchen renovation materials",
+            "flux_prompt": "close-up of an RFQ pack with annotated photos, measurements, and specifications laid out neatly",
+            "alt": "A labeled electrical panel closed, a gas shutoff photographed not touched.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\009-pexels.jpg",
+            "credit": "Photo by Anastasia  Shuraeva on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5495137"
+          },
+          "scenario": "Unexpected concealed condition: a homeowner scored 'swap the range' as DIY because the composite was low.",
+          "principle": "Gates first. Scores never authorize gated work.",
+          "body": [
+            "Today's output: each gated task marked professional, with what you may still document (photos, model numbers, desired location) and what must be verified before anyone starts.",
+            "Outside DIY in this book: work on energized circuits; new circuits, panel work, or significant rewiring; gas line install, relocation, or modification; structural changes or work affecting load-bearing or fire-rated elements; hidden plumbing that can leak into floors or neighbors; any task that local rules require a licensed or qualified person or a permit to perform.",
+            "You may photograph, measure, and write the desired outcome. A qualified person plans and performs the gated work. Verify shutoff authority, permits, and insurance before they start."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Gated work — score does not apply",
+              "caption": "Plan and document only. Qualified people perform the work.",
+              "values": [
+                "Shock and fire",
+                "Panel and new circuits",
+                "Leak, fire, carbon monoxide",
+                "Building and neighbor harm",
+                "Water into floors below",
+                "Local rules decide"
+              ],
+              "labels": [
+                "Energized circuits",
+                "Panel or rewiring",
+                "Gas lines",
+                "Structural or fire assemblies",
+                "Hidden plumbing alterations",
+                "Permit-required tasks"
+              ],
+              "minimum": null,
+              "spec_id": "D004",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D004.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "List gated tasks on this kitchen",
+              "minutes": null
+            },
+            {
+              "text": "Write who will perform them",
+              "minutes": null
+            },
+            {
+              "text": "Do not score gated tasks as DIY",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Using a DIY score of twelve or less as permission to land a new circuit.",
+          "checklist": [
+            "List gated tasks on this kitchen",
+            "Write who will perform them",
+            "Do not score gated tasks as DIY"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "score-only-after-gates",
+          "title": "Score leftover tasks for skill and time, not ROI",
+          "day_label": "Day 7",
+          "hero": {
+            "query": "a contractor discussing renovation plans with a homeowner in a living room, natural light, modern decor",
+            "flux_prompt": "angle of a living room with a contractor and homeowner discussing plans, focus on the load-bearing wall",
+            "alt": "A matrix with safety and code columns marked gate, not points.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\010-pexels.jpg",
+            "credit": "Photo by Pavel Danilyuk on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7937669"
+          },
+          "scenario": "Materials delivery problem: painting scored well; hanging a heavy cabinet on an unknown wall did not.",
+          "principle": "After gates pass, remaining work can be ranked by skill, access, and time. ROI is a separate shopping order.",
+          "body": [
+            "Today's output: one framework. Gate columns: safety and code/legal — fail means professional, stop. Then skill and time for the leftover tasks only. Do not average ROI into the same score.",
+            "There is no twelve-point DIY pass. There is no 'no factor above 3' alternative matrix. A task with a serious hazard stays professional even if every other number is low."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "One DIY framework",
+              "caption": "A number never overrides a gate.",
+              "values": [
+                "Professional — do not score",
+                "Professional — do not score",
+                "Rank leftover tasks only",
+                "Rank leftover tasks only",
+                "Shopping order, not safety",
+                "Stop and refer"
+              ],
+              "labels": [
+                "Safety gate",
+                "Code and legal gate",
+                "Skill",
+                "Time and access",
+                "Return on investment",
+                "If anything is uncertain"
+              ],
+              "minimum": null,
+              "spec_id": "D003",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D003.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Cross gated tasks off",
+              "minutes": null
+            },
+            {
+              "text": "Rank leftover work by skill and time",
+              "minutes": null
+            },
+            {
+              "text": "Keep ROI on a money list only",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Letting a high ROI paint a live-wire swap as DIY.",
+          "checklist": [
+            "Cross gated tasks off",
+            "Rank leftover work by skill and time",
+            "Keep ROI on a money list only"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "stop-and-refer",
+          "title": "Stop and refer when you are not sure",
+          "day_label": "Day 8",
+          "hero": {
+            "query": "a close-up of a Bid Comparison Matrix on a laptop screen, with bids and scores clearly displayed",
+            "flux_prompt": "a well-organized workspace with a laptop showing a Bid Comparison Matrix, natural light, and renovation materials",
+            "alt": "A closed kitchen, phone numbers for electrician, plumber, and landlord.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\011-pexels.jpg",
+            "credit": "Photo by Tima Miroshnichenko on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5380618"
+          },
+          "scenario": "Final punch-list discovery: a warm outlet cover was found after a 'passed' plug-in tester.",
+          "principle": "Uncertain wiring, gas smell, structural movement, or active leak is a stop.",
+          "body": [
+            "Today's output: a stop list on the fridge — suspected wiring faults, overheating, damaged outlets, missing protective devices, gas odor, sagging structure, hidden wetness. Leave the area safe if you can without becoming the trade. Call the qualified person and the owner if you rent.",
+            "You plan placement of outlets and appliances on paper. You do not open the panel."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Post the stop list",
+              "minutes": null
+            },
+            {
+              "text": "Save trade and landlord numbers",
+              "minutes": null
+            },
+            {
+              "text": "Do not troubleshoot live equipment",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Resetting a breaker repeatedly until it stays on.",
+          "checklist": [
+            "Post the stop list",
+            "Save trade and landlord numbers",
+            "Do not troubleshoot live equipment"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "contractors-and-paper",
+      "title": "People, bids, and paper that actually apply here",
+      "intro": "Contract and payment protections depend on local law. For a significant project or material contractual risk, get appropriate legal advice. Lien waivers are not universal and do not work the same in every country. Confirm what payment protections exist where the kitchen is. A license or insurance page does not guarantee workmanship.",
+      "opener": {
+        "query": "a close-up of high-quality renovation materials, natural light, no people",
+        "flux_prompt": "a detailed shot of high-quality renovation materials like laminate and fixtures, beautifully arranged with natural light",
+        "alt": "Two bids on a table, neither treated as a contract yet.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\012-pexels.jpg",
+        "credit": "Photo by Francesco Ungaro on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:15798783"
+      },
+      "sections": [
+        {
+          "slug": "verify-the-trade",
+          "title": "Verify the contractor; do not stop at a certificate photo",
+          "day_label": "Day 9",
+          "hero": {
+            "query": "a close-up of a signed contract on a table, with a pen and renovation materials",
+            "flux_prompt": "a well-lit scene showing a signed contract with a focus on key terms and conditions",
+            "alt": "A notebook of license lookup, insurance dates, and similar-kitchen references.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\013-pexels.jpg",
+            "credit": "Photo by Cytonn Photography on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:955392"
+          },
+          "scenario": "Contractor bid example: three photos of other kitchens and an expired insurance card.",
+          "principle": "Identity, current coverage, similar work, and who signs off specialist trades.",
+          "body": [
+            "Today's output: identity and business details; qualifications or licenses confirmed with the appropriate local authority when that applies; recent references for similar kitchens; insurance current and relevant to this work; which trade performs and signs off electrical, gas, and plumbing; who pulls permits and who corrects failed inspections; written scope and a documented change-order process."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Verify identity and lookups",
+              "minutes": null
+            },
+            {
+              "text": "Call a similar-kitchen reference",
+              "minutes": null
+            },
+            {
+              "text": "Write who owns permits",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Hiring from a license selfie.",
+          "checklist": [
+            "Verify identity and lookups",
+            "Call a similar-kitchen reference",
+            "Write who owns permits"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "bids-without-fake-protections",
+          "title": "Compare bids. Confirm which protections your law actually gives you",
+          "day_label": "Day 10",
+          "hero": {
+            "query": "close-up of a materials roster spreadsheet on a laptop, renovation materials in the background, natural light, no people",
+            "flux_prompt": "close-up shot of a laptop displaying a detailed materials roster spreadsheet, with renovation materials and tools slightly blurred in the background",
+            "alt": "A bid matrix with scope, exclusions, and 'confirm locally' on payment terms.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\014-pexels.jpg",
+            "credit": "Photo by https://kaboompics.com/ on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4977404"
+          },
+          "scenario": "Budget worksheet: the lowest number omitted hood make-up and haul-away.",
+          "principle": "Same scope, same exclusions, same tax treatment — or it is not a comparison.",
+          "body": [
+            "Today's output: a bid sheet — labor, materials, allowances, lead times, who buys appliances, exclusions, permit responsibility. Do not treat a generic lien-waiver clause as valid everywhere. Ask what payment protections are legally available at this address, or get legal advice.",
+            "Payment safeguards you can still use: documented milestones, photos or inspection evidence before the next payment, a defined final-payment condition, and a written process for disputed work. A warranty is useful only if scope, duration, exclusions, and how to claim are written down."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Paper that depends on local law",
+              "caption": "Ask what exists here. This book is not a contract form.",
+              "values": [
+                "Confirm locally or get advice",
+                "Milestones plus evidence",
+                "Scope, duration, claim path",
+                "Written process"
+              ],
+              "labels": [
+                "Lien or similar protections",
+                "Payment safeguards",
+                "Warranty",
+                "Disputed work"
+              ],
+              "minimum": null,
+              "spec_id": "D014",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D014.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Line up equal scopes",
+              "minutes": null
+            },
+            {
+              "text": "Mark legal terms as confirm locally",
+              "minutes": null
+            },
+            {
+              "text": "Require written warranty details",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Signing because the bid mentioned lien waivers and a one-year warranty with no details.",
+          "checklist": [
+            "Line up equal scopes",
+            "Mark legal terms as confirm locally",
+            "Require written warranty details"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "written-scope-only",
+          "title": "Nothing is in the job unless it is written",
+          "day_label": "Day 11",
+          "hero": {
+            "query": "a well-organized materials roster on a laptop, renovation materials neatly arranged in the background, natural light, no people",
+            "flux_prompt": "a clean workspace showcasing a laptop with a detailed materials roster and neatly organized renovation materials in the background",
+            "alt": "A one-page scope: kitchen only, no gas move, cabinets listed by count.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\015-pexels.jpg",
+            "credit": "Photo by https://kaboompics.com/ on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4977448"
+          },
+          "scenario": "Unexpected concealed condition: extra electrical was done on a handshake.",
+          "principle": "Change orders in writing, except the urgent-safety path in the execution chapter.",
+          "body": [
+            "Today's output: a signed or saved scope, payment schedule, and change-order rule. Routine changes wait for written approval. That is not a reason to leave an active leak or a fire risk until a cooling-off period ends — see Day 19."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Save the scope",
+              "minutes": null
+            },
+            {
+              "text": "Save the payment schedule",
+              "minutes": null
+            },
+            {
+              "text": "Point to the change-order rule",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Paying extra cash on site for 'while we are here' with no note.",
+          "checklist": [
+            "Save the scope",
+            "Save the payment schedule",
+            "Point to the change-order rule"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "materials-and-appliances",
+      "title": "Kitchen pieces have to fit this kitchen",
+      "intro": "Nominal cabinet width is not a fit. Manufacturer installation instructions, clearances, fuel type, ventilation, and delivery path decide. Recirculating hoods are not the same as ducted exhaust.",
+      "opener": {
+        "query": "a contractor reviewing a checklist on a clipboard at a renovation site, natural light, no people",
+        "flux_prompt": "a detailed shot of a checklist being filled out at a renovation site, showcasing a clean workspace",
+        "alt": "A range spec sheet next to a tape measure on the existing opening.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\016-pexels.jpg",
+        "credit": "Photo by Pavel Danilyuk on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:7937665"
+      },
+      "sections": [
+        {
+          "slug": "lead-times-are-kitchen-lead-times",
+          "title": "Order against the kitchen sequence, not a mood board",
+          "day_label": "Day 12",
+          "hero": {
+            "query": "a planner with a lead time schedule, renovation materials in the background, natural light, no people",
+            "flux_prompt": "a detailed shot of a planner with a lead time schedule and renovation materials in the background",
+            "alt": "A roster of sink, faucet, and appliance models with lead times.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\017-pexels.jpg",
+            "credit": "Photo by Matheus Bertelli on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:29509476"
+          },
+          "scenario": "Materials delivery problem: the sink arrived after the countertop was templated to a different bowl.",
+          "principle": "One roster. Long-lead items first. Substitutions need a written change.",
+          "body": [
+            "Today's output: a kitchen materials roster — item, model, quantity, lead time, backup source, who accepts delivery. Do not mix bathroom vanities into this list."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "List every kitchen item",
+              "minutes": null
+            },
+            {
+              "text": "Mark long-lead orders",
+              "minutes": null
+            },
+            {
+              "text": "Name the backup source",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Buying a 'kitchen look' faucet that needs a hole the sink does not have.",
+          "checklist": [
+            "List every kitchen item",
+            "Mark long-lead orders",
+            "Name the backup source"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "appliance-compatibility",
+          "title": "Compatibility is more than width",
+          "day_label": "Day 13",
+          "hero": {
+            "query": "a close-up of a homeowner's hands writing notes in a binder, with building department paperwork visible, natural light, no people",
+            "flux_prompt": "a detailed shot of a remodel binder with organized notes and documents, showcasing a clean workspace",
+            "alt": "A checklist: width, depth, height, fuel, vent, water, door swing.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\018-pexels.jpg",
+            "credit": "Photo by Felicity Tai on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7963814"
+          },
+          "scenario": "Kitchen measurement error: a 30-inch range was ordered for a 30-inch opening that ignored handle clearance and gas connection.",
+          "principle": "Fit the opening, the utilities, the vent, and the service access.",
+          "body": [
+            "Today's output: for each appliance — dimensions and manufacturer clearances; electrical supply and circuit requirements (documented, installed by a qualified person); gas or other fuel if applicable; ventilation and exhaust type (ducted vs recirculating); water and drain connections; countertop and cabinet cutouts; door swing and service access; manufacturer install rules; delivery path and packaging inspection; warranty conditions and whether authorized install is required."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Appliance compatibility fields",
+              "caption": "Nominal width is one field, not the decision.",
+              "values": [
+                "Opening and listed clearances",
+                "Document; qualified install",
+                "If the appliance uses it",
+                "Ducted or recirculating",
+                "Sink and dishwasher too",
+                "Cutouts and swings"
+              ],
+              "labels": [
+                "Size and clearances",
+                "Electrical supply",
+                "Gas or other fuel",
+                "Ventilation",
+                "Water and drain",
+                "Access and warranty"
+              ],
+              "minimum": null,
+              "spec_id": "D009",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D009.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Measure the real opening",
+              "minutes": null
+            },
+            {
+              "text": "Match fuel and vent type",
+              "minutes": null
+            },
+            {
+              "text": "Check door swing and service access",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Assuming a matching nominal width is a complete fit.",
+          "checklist": [
+            "Measure the real opening",
+            "Match fuel and vent type",
+            "Check door swing and service access"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "delivery-cutoff",
+          "title": "Delivery and procurement verification before anyone installs",
+          "day_label": "Day 14",
+          "hero": {
+            "query": "a close-up of a homeowner reviewing building plans with a focus on electrical and plumbing details, natural light, no people",
+            "flux_prompt": "a detailed shot of building plans with notes and code references highlighted, showcasing a clean workspace",
+            "alt": "An unopened box photographed, model number matching the roster.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\019-pexels.jpg",
+            "credit": "Photo by Kampus Production on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8729972"
+          },
+          "scenario": "Materials delivery problem: the wrong dishwasher model was accepted because the box was the right color.",
+          "principle": "Wrong, damaged, or incomplete goods do not go into the opening.",
+          "body": [
+            "Today's output: correct product and model; quantity and dimensions; visible damage; accessories and install parts; compatibility with the approved design; warranty and invoice kept; storage and protection; confirmation the install date still works."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Delivery cutoff",
+              "caption": "Do not install a maybe.",
+              "values": [
+                "Matches the order",
+                "Count and measure",
+                "Photo if not",
+                "Invoice and warranty",
+                "Dry and secure",
+                "Still the right day"
+              ],
+              "labels": [
+                "Product and model",
+                "Quantity and dimensions",
+                "Visible damage",
+                "Paper trail",
+                "Storage",
+                "Install date"
+              ],
+              "minimum": null,
+              "spec_id": "D013",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D013.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Match model to the roster",
+              "minutes": null
+            },
+            {
+              "text": "Photograph damage before the driver leaves",
+              "minutes": null
+            },
+            {
+              "text": "Hold install if parts are missing",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Signing for a crushed carton to keep the crew busy.",
+          "checklist": [
+            "Match model to the roster",
+            "Photograph damage before the driver leaves",
+            "Hold install if parts are missing"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "kitchen-sequence",
+      "title": "A kitchen sequence, not a general-house sequence",
+      "intro": "Bathroom and living-room stories in older notes were process examples. This chapter is kitchen only. The order below is a planning aid. Actual order depends on design, existing conditions, and applicable requirements. It is not a method statement for every site.",
+      "opener": {
+        "query": "Interior of a modern Indian apartment with a focus on a workspace setup, natural light from a single window, neutral color palette, and minimalist decor.",
+        "flux_prompt": "A full-bleed shot of a well-organized workspace in an Indian apartment, showcasing a blend of functionality and style, with soft natural light illuminating the space.",
+        "alt": "A kitchen with cabinets still in boxes, utilities marked, no open walls unsupervised.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\020-pexels.jpg",
+        "credit": "Photo by Alpha En on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:28461033"
+      },
+      "sections": [
+        {
+          "slug": "twelve-step-kitchen",
+          "title": "Kitchen execution in twelve planning steps",
+          "day_label": "Day 15",
+          "hero": {
+            "query": "a homeowner preparing a renovation site for inspection, showcasing a clean and organized space, natural light, no people",
+            "flux_prompt": "a detailed shot of a well-prepared renovation site with clear pathways and documentation ready for inspection",
+            "alt": "A numbered list on the wall: permissions, measure, buy, isolate, demo.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\021-pexels.jpg",
+            "credit": "Photo by ClickerHappy on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:3619317"
+          },
+          "scenario": "Inspection hold point: drywall closed before the rough plumbing check.",
+          "principle": "Do not close walls or set cabinets on unverified rough work.",
+          "body": [
+            "Today's output: this kitchen's sequence, with N/A where a step does not apply, not a copied bathroom story.",
+            "1) Scope, permissions, utility identification. 2) Appliance and fixture measurements. 3) Procurement and delivery verification. 4) Isolation of electrical, water, and gas by qualified personnel where required. 5) Demolition and waste. 6) Inspection of concealed conditions. 7) Rough plumbing and electrical by qualified people. 8) Inspection and testing before closing walls or installing cabinetry. 9) Wall, floor, and backsplash prep. 10) Cabinets and countertops. 11) Fixture and appliance connections by the people the manufacturer and local rules require. 12) Functional testing, punch list, handover."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Kitchen sequence — planning aid",
+              "caption": "Site conditions can change the order. Do not skip gated trades.",
+              "values": [
+                "Permissions and utilities",
+                "Measure then buy",
+                "Qualified isolation then demo",
+                "See hidden work",
+                "Before cabinets",
+                "Then punch and handover"
+              ],
+              "labels": [
+                "Steps 1–2",
+                "Steps 3–4",
+                "Steps 4–5",
+                "Steps 6–7",
+                "Steps 8–10",
+                "Steps 11–12"
+              ],
+              "minimum": null,
+              "spec_id": "D007",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D007.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Number the steps for this kitchen",
+              "minutes": null
+            },
+            {
+              "text": "Mark N/A honestly",
+              "minutes": null
+            },
+            {
+              "text": "Put a hold before closing walls",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Following a living-room paint sequence and skipping kitchen rough-in checks.",
+          "checklist": [
+            "Number the steps for this kitchen",
+            "Mark N/A honestly",
+            "Put a hold before closing walls"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "concealed-before-close",
+          "title": "Look, then close",
+          "day_label": "Day 16",
+          "hero": {
+            "query": "a close-up of a homeowner organizing a documentation binder with permits and manuals, natural light, no people",
+            "flux_prompt": "a detailed shot of a well-organized documentation binder with permits and manuals visible",
+            "alt": "An open kitchen wall photographed before insulation, permit tag visible.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\022-pexels.jpg",
+            "credit": "Photo by Joachim Schnürle on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:32201000"
+          },
+          "scenario": "Unexpected concealed condition: scorched sheathing behind a range outlet.",
+          "principle": "If you cannot see it later, photograph it now and get the right eyes on it.",
+          "body": [
+            "Today's output: a concealed-conditions pass — photos of opened walls, who assessed wiring, pipes, and structure, and a written go or Hold before cover-up."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Photograph open walls",
+              "minutes": null
+            },
+            {
+              "text": "Get the named professional's go",
+              "minutes": null
+            },
+            {
+              "text": "Hold cabinets if Hold",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Closing because the inspector's window was inconvenient.",
+          "checklist": [
+            "Photograph open walls",
+            "Get the named professional's go",
+            "Hold cabinets if Hold"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "daily-site-log",
+          "title": "One daily kitchen log",
+          "day_label": "Day 17",
+          "hero": {
+            "query": "small indian apartment interior minimalist daylight editorial",
+            "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK apartment interior, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+            "alt": "A log page: date, trades, hold points, photos.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\023-pexels.jpg",
+            "credit": "Photo by Anisha Deb on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:36195703"
+          },
+          "scenario": "Budget worksheet: three notebooks duplicated the same leak and still missed the cost.",
+          "principle": "One template. Weekly budget review reads this log; it does not replace it.",
+          "body": [
+            "Today's output: a blank log with fields — date and work area; people and trades; work completed; materials delivered and used; inspections or hold points; safety issues; damage or unexpected findings; photos; hours; costs incurred; blockers and next actions; responsible person."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Daily kitchen log fields",
+              "caption": "One row per day. Do not run a second unofficial log.",
+              "values": [
+                "___",
+                "___",
+                "___",
+                "___",
+                "Hold or pass",
+                "___"
+              ],
+              "labels": [
+                "Date and work area",
+                "Trades on site",
+                "Work completed",
+                "Deliveries",
+                "Inspections",
+                "Blockers and owner"
+              ],
+              "minimum": null,
+              "spec_id": "D015",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D015.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Print or duplicate the fields",
+              "minutes": null
+            },
+            {
+              "text": "Fill today's row",
+              "minutes": null
+            },
+            {
+              "text": "Attach photos",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "A group chat as the only record.",
+          "checklist": [
+            "Print or duplicate the fields",
+            "Fill today's row",
+            "Attach photos"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "hidden-change-risk",
+      "title": "Stops, changes, and risks that are not décor",
+      "intro": "Green on a heat map does not make a safety hazard acceptable. Cost impact and safety impact are different ratings. Unresolved high-severity hazards stay gated regardless of the number.",
+      "opener": {
+        "query": "A risk heat map displayed on a computer screen, with notes and a pen nearby, natural light highlighting the workspace.",
+        "flux_prompt": "A detailed shot of a risk heat map on a computer screen, emphasizing the importance of risk management.",
+        "alt": "A red Hold card on a wet subfloor.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\024-pexels.jpg",
+        "credit": "Photo by juliane Monari on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:19809358"
+      },
+      "sections": [
+        {
+          "slug": "hidden-conditions-protocol",
+          "title": "Hidden conditions protocol",
+          "day_label": "Day 18",
+          "hero": {
+            "query": "A close-up of a financial review sheet with organized budget data, natural light highlighting the details, minimalist decor in the background.",
+            "flux_prompt": "A detailed shot of a financial review sheet on a clean desk, with a calculator and a notepad, emphasizing the importance of tracking expenses.",
+            "alt": "A photographed wet layer, work stopped, a call in progress.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\025-pexels.jpg",
+            "credit": "Photo by RDNE Stock project on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7821566"
+          },
+          "scenario": "Unexpected concealed condition: blackened wiring in a kitchen soffit.",
+          "principle": "Stop. Photograph. Protect. Get the right professional. Do not price it as a casual extra.",
+          "body": [
+            "Today's output: the protocol on site — stop work; photograph and document; protect the area and prevent further damage; get an appropriate professional assessment; decide whether safety, code, schedule, or cost is affected; record the scope change and who pays; get written approval before non-emergency extra work.",
+            "Examples: concealed leaks, bad substrate, damaged wiring, unexpected pipe routes, structural concerns."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Hidden conditions — stop first",
+              "caption": "Non-emergency extras wait for written approval.",
+              "values": [
+                "Now",
+                "Evidence",
+                "Limit damage",
+                "Right trade",
+                "Safety, rules, money, time",
+                "Who pays",
+                "Except true emergency path"
+              ],
+              "labels": [
+                "Stop",
+                "Photograph",
+                "Protect",
+                "Assess",
+                "Impacts",
+                "Scope and funds",
+                "Written approval"
+              ],
+              "minimum": null,
+              "spec_id": "D008",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D008.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Stop and photograph",
+              "minutes": null
+            },
+            {
+              "text": "Call the right trade",
+              "minutes": null
+            },
+            {
+              "text": "Do not proceed without the written path",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Tiling over a soft spot to keep the calendar.",
+          "checklist": [
+            "Stop and photograph",
+            "Call the right trade",
+            "Do not proceed without the written path"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "change-orders-and-emergencies",
+          "title": "Written changes, with an urgent-safety exception",
+          "day_label": "Day 19",
+          "hero": {
+            "query": "A focused shot of a contractor discussing plans with a homeowner, with a blueprint and materials in the foreground, soft light from a window.",
+            "flux_prompt": "A shot of a contractor and homeowner reviewing plans at a table, emphasizing collaboration and decision-making.",
+            "alt": "A change-order form next to an emergency record pad.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\026-pexels.jpg",
+            "credit": "Photo by Thirdman on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8470037"
+          },
+          "scenario": "Inspection hold point: a burst supply line during demo.",
+          "principle": "Routine waits. Imminent harm does not wait for a cooling-off period.",
+          "body": [
+            "Today's output: three buckets. Routine change: written approval before work. Urgent protective action: immediate action to prevent injury, active water damage, fire risk, or other imminent harm, then prompt notice and documentation. Regulated correction: follows the professional, inspection, or authority requirements.",
+            "Urgent record: description, reason, who authorized, work performed, cost, follow-up inspection. Then fold it into the budget as a documented change."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Three kinds of change",
+              "caption": "Emergencies are narrow. They are not a style upgrade.",
+              "values": [
+                "Write first",
+                "Protect people and the building",
+                "Follow the authority or trade"
+              ],
+              "labels": [
+                "Routine",
+                "Urgent protective action",
+                "Regulated correction"
+              ],
+              "minimum": null,
+              "spec_id": "D010",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D010.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Label the change type",
+              "minutes": null
+            },
+            {
+              "text": "If urgent, record the six fields",
+              "minutes": null
+            },
+            {
+              "text": "Bring it into the budget the same day",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Using 'emergency' to add a skylight.",
+          "checklist": [
+            "Label the change type",
+            "If urgent, record the six fields",
+            "Bring it into the budget the same day"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "heat-map-means-something",
+          "title": "Heat-map scores have definitions",
+          "day_label": "Day 20",
+          "hero": {
+            "query": "An organized change order log on a desk, with a pen and a calculator, soft light illuminating the details.",
+            "flux_prompt": "A close-up of a change order log with neatly written entries, emphasizing the importance of documentation.",
+            "alt": "A risk list with owner, due date, and separate safety column.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\027-pexels.jpg",
+            "credit": "Photo by Jahra Tasfia Reza on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:36488453"
+          },
+          "scenario": "Budget worksheet: a live-wire risk scored green because it felt unlikely this week.",
+          "principle": "Likelihood and impact are 1 to 5 with words. Safety is not averaged into cheap.",
+          "body": [
+            "Today's output: each kitchen risk with likelihood 1 (rare) to 5 (expected this project), impact 1 (nuisance cost or delay) to 5 (injury, fire, major water, legal stop), owner, due date. Cost and safety are separate. If safety is high, treat it as red even when likelihood is low.",
+            "When a risk moves from green to yellow or red: add a control, a date, and a person. Unresolved high-severity hazards: restrict the area and get professional help. A green box is not acceptance of a shock or gas hazard."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Heat map is not a safety stamp",
+              "caption": "High severity stays gated even if the product is a small number.",
+              "values": [
+                "Rare to expected",
+                "Nuisance to injury or legal stop",
+                "Do not mix into one cell",
+                "Name and date",
+                "Add control and date",
+                "Restrict and refer"
+              ],
+              "labels": [
+                "Likelihood 1 to 5",
+                "Impact 1 to 5",
+                "Cost vs safety",
+                "Owner and due date",
+                "Yellow or red move",
+                "High-severity hazard"
+              ],
+              "minimum": null,
+              "spec_id": "D011",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D011.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Define 1–5 in your log",
+              "minutes": null
+            },
+            {
+              "text": "Split cost vs safety",
+              "minutes": null
+            },
+            {
+              "text": "Assign owner and date",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Leaving a gas-flex concern green because the number was four.",
+          "checklist": [
+            "Define 1–5 in your log",
+            "Split cost vs safety",
+            "Assign owner and date"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "test-and-close",
+      "title": "Test what you can. Do not fake the rest",
+      "intro": "A plug-in tester is not a full electrical inspection. Air at a hood grille is not proof of a legal exhaust system. Water-heater settings are not the same as tap temperature. Do not adjust a water heater just to chase a number from this book.",
+      "opener": {
+        "query": "a neatly organized closeout binder on a table, showcasing tabs for permits, warranties, and maintenance schedules",
+        "flux_prompt": "image of a closeout binder being filled with documents, emphasizing organization and attention to detail",
+        "alt": "A kitchen punch list, appliances still unplugged until the qualified person says so.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\028-pexels.jpg",
+        "credit": "Photo by https://kaboompics.com/ on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:7681225"
+      },
+      "sections": [
+        {
+          "slug": "functional-tests-without-myths",
+          "title": "Functional checks without false comfort",
+          "day_label": "Day 21",
+          "hero": {
+            "query": "interior of a well-finished living room with modern decor, bright light from a single window, showcasing clean lines and textures like plaster and wood",
+            "flux_prompt": "full-bleed image of a beautifully finished living room with a focus on quality finishes and a well-organized space",
+            "alt": "A notepad: tap feel, tester limits, hood type written down.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\029-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8146216"
+          },
+          "scenario": "Final punch-list discovery: a tissue 'passed' on a recirculating hood that never had a path outside.",
+          "principle": "Record what you observed. Do not certify the house.",
+          "body": [
+            "Today's output: a test sheet that states limits. Hot water: comfort and scald risk depend on the system, local rules, and who uses the sink. Do not raise or lower the water heater yourself solely because a 120°F target was missed. Tap temperature is not the heater setting. Ask a qualified person if adjustment or replacement is needed.",
+            "Electrical: a plug-in tester can catch some wiring errors on that receptacle. It does not prove every safety condition. It does not replace required inspection. Stop on suspected faults, heat, damage, or missing protection — Day 8.",
+            "Ventilation: kitchen exhaust is not a bathroom fan. Recirculating hoods filter and return air; they are not ducted exhaust. Airflow at the grille does not prove duct route, discharge, or required performance. Check the installed type against the plan and the manufacturer's instructions."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "What these tests do not prove",
+              "caption": "Observation is not a certificate.",
+              "values": [
+                "Not a DIY heater adjustment",
+                "Not a full inspection",
+                "Not duct or code performance",
+                "Not the same system"
+              ],
+              "labels": [
+                "A temperature target",
+                "A plug-in tester",
+                "Air at the grille",
+                "Kitchen vs bath fan"
+              ],
+              "minimum": null,
+              "spec_id": "D016",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D016.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Write heater vs tap as unknown unless measured by a qualified person",
+              "minutes": null
+            },
+            {
+              "text": "Log tester limits",
+              "minutes": null
+            },
+            {
+              "text": "Name hood type",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Calling the kitchen safe because a tissue stuck to the hood and a tester showed two lights.",
+          "checklist": [
+            "Write heater vs tap as unknown unless measured by a qualified person",
+            "Log tester limits",
+            "Name hood type"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "closeout-binder",
+          "title": "A kitchen closeout binder documents records, not 'proof of compliance'",
+          "day_label": "Day 22",
+          "hero": {
+            "query": "a close-up of a well-organized punch list with notes and photos, bright lighting, emphasizing attention to detail",
+            "flux_prompt": "image of a punch list being filled out, showcasing a clean workspace with tools and materials neatly arranged",
+            "alt": "A binder: serial numbers, shutoffs, photos of open walls.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\030-pexels.jpg",
+            "credit": "Photo by RDNE Stock project on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7888981"
+          },
+          "scenario": "Punch-list discovery: no one knew the dishwasher serial or the shutoff under the sink.",
+          "principle": "The binder holds what you have. It does not prove every rule was met.",
+          "body": [
+            "Today's output: appliance models and serials; warranty registration if you choose to register; approved changes and final scope; photos of concealed services; shutoff locations; cleaning and maintenance from the makers; contractor and trade contacts; invoices and payments; inspection or approval documents you actually received.",
+            "Do not label the binder proof of compliance. It documents available approvals and records."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Kitchen closeout contents",
+              "caption": "Records on file, not a blanket compliance stamp.",
+              "values": [
+                "Model and serial",
+                "If you register",
+                "Open-wall photos",
+                "Where they are",
+                "Maker instructions",
+                "What you received"
+              ],
+              "labels": [
+                "Appliances",
+                "Warranties",
+                "Concealed services",
+                "Shutoffs",
+                "Care sheets",
+                "Approvals and invoices"
+              ],
+              "minimum": null,
+              "spec_id": "D012",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D012.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Collect serials",
+              "minutes": null
+            },
+            {
+              "text": "File photos of concealed work",
+              "minutes": null
+            },
+            {
+              "text": "Store invoices and any approval papers",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Writing 'compliant' on the cover because a permit card was photocopied.",
+          "checklist": [
+            "Collect serials",
+            "File photos of concealed work",
+            "Store invoices and any approval papers"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "weekly-budget-review",
+          "title": "Weekly budget review, in plain words",
+          "day_label": "Day 23",
+          "hero": {
+            "query": "a detailed shot of a thermometer measuring water temperature under a tap, with bright light highlighting the water flow",
+            "flux_prompt": "image of a bathroom fan in operation, with a tissue held near the intake to demonstrate airflow",
+            "alt": "A one-page review: planned, actual, variance, EAC, leftover reserve.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\031-pexels.jpg",
+            "credit": "Photo by Annushka  Ahuja on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8113581"
+          },
+          "scenario": "Budget worksheet: the reserve was spent on nicer hardware in week two.",
+          "principle": "Variance is planned minus actual. EAC is the current forecast to finish.",
+          "body": [
+            "Today's output: weekly budget review (not a corporate CFO meeting) — spent to date, variance by kitchen category, remaining contingency, EAC versus cap, stop if EAC will break the cap.",
+            "Estimate at Completion means your current forecast of total cost if you continue as now. If that forecast exceeds the cap, rescope. The reserve is not a shopping fund."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Compute variance by category",
+              "minutes": null
+            },
+            {
+              "text": "Compute EAC",
+              "minutes": null
+            },
+            {
+              "text": "Protect the reserve",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Calling the project fine because cash remained while EAC was already over.",
+          "checklist": [
+            "Compute variance by category",
+            "Compute EAC",
+            "Protect the reserve"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "two-budget-stories",
+      "title": "Two kitchen budget stories, both labeled illustrations",
+      "intro": "Use separate examples for a cosmetic refresh and a systems remodel. Neither number is a quote.",
+      "opener": {
+        "query": "Budgeting worksheet, home renovation, practical layout, clean design, natural light, no people, no text, no watermark.",
+        "flux_prompt": "A full-bleed shot of a well-organized budget worksheet laid out on a wooden table, with a few tools and paint swatches beside it, illuminated by soft natural light.",
+        "alt": "Two columns: paint-and-hardware versus qualified plumbing and electrical.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\032-pexels.jpg",
+        "credit": "Photo by Ann H on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:38473098"
+      },
+      "sections": [
+        {
+          "slug": "cosmetic-versus-systems",
+          "title": "Cosmetic refresh versus systems remodel",
+          "day_label": "Day 24",
+          "hero": {
+            "query": "a close-up of a budget spreadsheet on a laptop, with highlighted variances and notes",
+            "flux_prompt": "image of a calculator and budget documents on a desk, emphasizing careful financial management",
+            "alt": "Two lists: hardware and paint vs range, hood, and a plumber.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\033-pexels.jpg",
+            "credit": "Photo by RDNE Stock project on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7821578"
+          },
+          "scenario": "Budget worksheet: one 10,000 USD line tried to fund both a cosmetic refresh and a gas-range swap.",
+          "principle": "If gated work is in scope, the illustration cap may be too small. Raise the cap in writing or cut the gated work.",
+          "body": [
+            "Today's output: pick one story. Cosmetic: paint, hardware, lighting replacements that do not need new circuits, maybe a qualified person swapping like-for-like devices. Systems: moving water or gas, new circuits, cabinets, counters — priced with real local quotes, contingency still inside the cap.",
+            "The 8,000–12,000 USD band in older notes was an illustration for a modest refresh, not a universal remodel budget, and not rupees. Replace it with current local quotes."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Choose cosmetic or systems",
+              "minutes": null
+            },
+            {
+              "text": "Re-run Day 2 math",
+              "minutes": null
+            },
+            {
+              "text": "Get quotes before calling it feasible",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Forcing a gas relocation into a cosmetic cap.",
+          "checklist": [
+            "Choose cosmetic or systems",
+            "Re-run Day 2 math",
+            "Get quotes before calling it feasible"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "bid-sheet-kitchen",
+      "title": "The kitchen bid sheet",
+      "intro": "Equal scope or it is not a comparison.",
+      "opener": {
+        "query": "Home renovation planning, kitchen remodel, organized workspace, natural light, no people, no text, no watermark.",
+        "flux_prompt": "An overhead shot of a kitchen planning session with blueprints, a calculator, and a notepad, all bathed in soft light.",
+        "alt": "Three bids with the same appliance list.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\034-pexels.jpg",
+        "credit": "Photo by cottonbro studio on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:6568676"
+      },
+      "sections": [
+        {
+          "slug": "fill-the-bid-sheet",
+          "title": "Fill the bid sheet for this kitchen only",
+          "day_label": "Day 25",
+          "hero": {
+            "query": "Budgeting tools, home renovation, organized workspace, natural light, no people, no text, no watermark.",
+            "flux_prompt": "A close-up of a budgeting tool with colorful pens and notes scattered around, showcasing a creative yet organized approach to home renovation budgeting.",
+            "alt": "A matrix: price, exclusions, permit owner, warranty text.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\035-pexels.jpg",
+            "credit": "Photo by Nataliya Vaitkevich on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8927688"
+          },
+          "scenario": "Contractor bid example: one bid included haul-away; two did not.",
+          "principle": "Lowest price with missing haul-away is not lowest.",
+          "body": [
+            "Today's output: completed bid comparison for the frozen kitchen scope. Confirm locally any payment or lien language. Go back to Days 9–11 before signing."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Equalize exclusions",
+              "minutes": null
+            },
+            {
+              "text": "Name permit owner",
+              "minutes": null
+            },
+            {
+              "text": "Read the warranty paragraph",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Picking a bid that omitted the hood because the number looked friendly.",
+          "checklist": [
+            "Equalize exclusions",
+            "Name permit owner",
+            "Read the warranty paragraph"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "handover-kitchen",
+      "title": "Live in the kitchen, then stop buying",
+      "intro": "A punch list is for this kitchen. Do not start a bathroom with leftover contingency.",
+      "opener": {
+        "query": "stock photo of a detailed bid comparison matrix on a desk, natural light, clean workspace",
+        "flux_prompt": "close-up of a bid comparison matrix with highlighted scores and notes, showing a professional and organized approach",
+        "alt": "A used kitchen after a real cooking night, punch items taped to a cabinet.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\036-pexels.jpg",
+        "credit": "Photo by RDNE Stock project on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:7947711"
+      },
+      "sections": [
+        {
+          "slug": "punch-and-live",
+          "title": "Punch list after a real cooking session",
+          "day_label": "Day 26",
+          "hero": {
+            "query": "Home renovation review, budget tracking, organized workspace, natural light, no people, no text, no watermark.",
+            "flux_prompt": "A close-up of a budget review in progress, with charts and graphs displayed on a laptop, illuminated by soft natural light.",
+            "alt": "A list: drip, door rub, missing outlet plate, unread serials.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\037-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6580561"
+          },
+          "scenario": "Final punch-list discovery: the refrigerator door hit the island on the first grocery load.",
+          "principle": "Use the kitchen as you will use it. Then list defects.",
+          "body": [
+            "Today's output: punch list from cooking, cleaning, and opening every door. Include appliance serials still missing from the binder. Unresolved high-severity items stay restricted."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Cook one meal",
+              "minutes": null
+            },
+            {
+              "text": "Open every door",
+              "minutes": null
+            },
+            {
+              "text": "File remaining Holds",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Signing off because the paint matched.",
+          "checklist": [
+            "Cook one meal",
+            "Open every door",
+            "File remaining Holds"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "stop-buying",
+          "title": "Handover, then stop",
+          "day_label": "Day 27",
+          "hero": {
+            "query": "stock photo of a modern Indian apartment with a home office setup, natural light from one window, clean lines, minimalist decor, teak and linen textures",
+            "flux_prompt": "full-bleed shot of a stylish home office in an Indian apartment, showcasing a workspace with a laptop, plants, and organized materials",
+            "alt": "A closed binder on a clear counter, no extra cart in the browser.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\038-pexels.jpg",
+            "credit": "Photo by Alpha En on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:28461041"
+          },
+          "scenario": "Punch-list discovery: leftover contingency was treated as a backsplash fund.",
+          "principle": "If the kitchen works and Holds are closed or scheduled, stop.",
+          "body": [
+            "Today's output: leftover reserve stays reserve until punch items that are actually required are done. Do not invent a second room. Confirm renter restoration notes if you do not own the place."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Close the punch or schedule it",
+              "minutes": null
+            },
+            {
+              "text": "Keep leftover as leftover",
+              "minutes": null
+            },
+            {
+              "text": "File restoration notes if you rent",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Starting a bathroom with kitchen leftover money.",
+          "checklist": [
+            "Close the punch or schedule it",
+            "Keep leftover as leftover",
+            "File restoration notes if you rent"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    }
+  ]
+}

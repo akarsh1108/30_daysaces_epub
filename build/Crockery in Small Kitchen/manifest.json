@@ -1,0 +1,557 @@
+{
+  "title": "Crockery in Small Kitchen",
+  "units": "imperial",
+  "outputs": {
+    "pdf": "build\\Crockery in Small Kitchen\\crockery-in-small-kitchen.pdf",
+    "cover": "build\\Crockery in Small Kitchen\\cover.pdf",
+    "epub": "build\\Crockery in Small Kitchen\\crockery-in-small-kitchen.epub",
+    "epub_preview": "build\\Crockery in Small Kitchen\\epub-preview.html"
+  },
+  "ai_generated_images": 1,
+  "kdp_ai_disclosure_required": true,
+  "images": [
+    {
+      "query": "small kitchen audit, visual noise, calm intent, organized crockery, morning routine",
+      "source": "openai",
+      "credit": "Cover illustration",
+      "ai": true,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\cover.jpg"
+    },
+    {
+      "query": "small kitchen audit, visual noise, calm intent, organized crockery, morning routine",
+      "source": "pexels",
+      "credit": "Photo by Arturo Añez. on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\001-pexels.jpg"
+    },
+    {
+      "query": "organized kitchen shelves, calm kitchen decor, visual harmony",
+      "source": "pexels",
+      "credit": "Photo by RDNE Stock project on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\002-pexels.jpg"
+    },
+    {
+      "query": "calm kitchen assessment, visual noise score, organized crockery",
+      "source": "pexels",
+      "credit": "Photo by Elly Mar Tamayor on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\003-pexels.jpg"
+    },
+    {
+      "query": "morning kitchen routine, flow map, organized breakfast area",
+      "source": "pexels",
+      "credit": "Photo by Diva Plavalaguna on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\004-pexels.jpg"
+    },
+    {
+      "query": "kitchen interior, small apartment, organized cupboards, natural light, minimalist decor",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\006-pexels.jpg"
+    },
+    {
+      "query": "cluttered kitchen cupboard, mismatched plates, chipped bowls, natural light",
+      "source": "pexels",
+      "credit": "Photo by Magda Ehlers on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\007-pexels.jpg"
+    },
+    {
+      "query": "organized kitchen shelf, categorized dishware, natural light",
+      "source": "pexels",
+      "credit": "Photo by Arturo Añez. on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\008-pexels.jpg"
+    },
+    {
+      "query": "kitchen items assessment, damaged dishware, natural light",
+      "source": "pexels",
+      "credit": "Photo by Anastasia  Shuraeva on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\009-pexels.jpg"
+    },
+    {
+      "query": "ABC Priority Grid kitchen organization, labeled containers, natural light",
+      "source": "pexels",
+      "credit": "Photo by Jan van der Wolf on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\010-pexels.jpg"
+    },
+    {
+      "query": "kitchen organization reflection, before and after photos, natural light",
+      "source": "pexels",
+      "credit": "Photo by Cup of  Couple on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\011-pexels.jpg"
+    },
+    {
+      "query": "A well-organized kitchen with a cohesive crockery set, showcasing a mix of textures and colors, under soft natural light.",
+      "source": "pexels",
+      "credit": "Photo by ready made on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\012-pexels.jpg"
+    },
+    {
+      "query": "A close-up of a curated crockery set featuring dinner plates, side plates, and bowls in a harmonious arrangement, with soft natural light highlighting their textures.",
+      "source": "pexels",
+      "credit": "Photo by Anastasia  Shuraeva on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\013-pexels.jpg"
+    },
+    {
+      "query": "A neatly organized kitchen shelf displaying a set of crockery with a clear N+2 buffer, under soft, diffused lighting.",
+      "source": "pexels",
+      "credit": "Photo by Valeria Boltneva on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\014-pexels.jpg"
+    },
+    {
+      "query": "A Compatibility Matrix laid out on a table, with crockery pieces arranged for assessment, under warm, inviting lighting.",
+      "source": "pexels",
+      "credit": "Photo by Raymond Petrik on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\015-pexels.jpg"
+    },
+    {
+      "query": "A beautifully arranged kitchen shelf featuring a mix of neutral anchor crockery and muted accent pieces, illuminated by soft natural light.",
+      "source": "pexels",
+      "credit": "Photo by Mikhail Nilov on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\016-pexels.jpg"
+    },
+    {
+      "query": "kitchen shelf, neutral colors, minimalistic design, soft lighting, no people",
+      "source": "pexels",
+      "credit": "Photo by Cup of  Couple on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\017-pexels.jpg"
+    },
+    {
+      "query": "kitchen shelf, cohesive color palette, minimalistic design, soft lighting, no people",
+      "source": "pexels",
+      "credit": "Photo by Serena Koi on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\018-pexels.jpg"
+    },
+    {
+      "query": "kitchen shelf, organized crockery, soft lighting, minimalistic design, no people",
+      "source": "pexels",
+      "credit": "Photo by Bilguun Gantumur on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\020-pexels.jpg"
+    },
+    {
+      "query": "Compact Indian kitchen with organized shelves, soft lighting, teak textures, photorealistic styling, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\021-pexels.jpg"
+    },
+    {
+      "query": "Compact Indian kitchen with organized vertical storage, soft lighting, teak textures, photorealistic styling, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\023-pexels.jpg"
+    },
+    {
+      "query": "Compact Indian kitchen drawer with organized grid system, soft lighting, teak textures, photorealistic styling, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\024-pexels.jpg"
+    },
+    {
+      "query": "Compact Indian kitchen with organized containers, soft lighting, teak textures, photorealistic styling, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by ready made on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\025-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a small Indian kitchen with open shelving, natural light, organized mugs and bowls, minimal clutter",
+      "source": "pexels",
+      "credit": "Photo by Lany-Jade Mondou on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\026-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a small Indian kitchen with open shelving, organized by color and size, natural light",
+      "source": "pexels",
+      "credit": "Photo by Jonathan Borba on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\027-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a small Indian kitchen with curated open shelving, featuring colorful ceramics and decorative plants, natural light",
+      "source": "pexels",
+      "credit": "Photo by Huy Phan on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\028-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a small Indian kitchen with organized open shelving, minimal clutter, natural light",
+      "source": "pexels",
+      "credit": "Photo by Ty Nguyễn on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\029-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a well-styled open shelf in a compact Indian apartment, natural light from one window, showcasing a blend of colors and textures, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by 🇻🇳🇻🇳Nguyễn Tiến Thịnh 🇻🇳🇻🇳 on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\030-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a shelf with items grouped in odd numbers, showcasing balance and visual interest, natural light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Anastasia  Shuraeva on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\031-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a shelf with items arranged in color bands, showcasing a cohesive color palette, natural light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Sergey  Meshkov on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\032-pexels.jpg"
+    },
+    {
+      "query": "kitchen shelf organization, clean lines, neutral colors, minimalistic design, one window light, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Cup of  Couple on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\034-pexels.jpg"
+    },
+    {
+      "query": "kitchen shelf with mugs and bowls facing forward, clean design, one window light, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Cup of  Couple on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\035-pexels.jpg"
+    },
+    {
+      "query": "kitchen counter vignette with a tray containing tea and coffee essentials, clean design, one window light, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Cup of  Couple on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\037-pexels.jpg"
+    },
+    {
+      "query": "kitchen shelf organization, curated crockery, everyday items, minimalistic design",
+      "source": "pexels",
+      "credit": "Photo by Arturo Añez. on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\039-pexels.jpg"
+    },
+    {
+      "query": "kitchen shelf organization, storage mapping, functional design",
+      "source": "pexels",
+      "credit": "Photo by Bilguun Gantumur on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\041-pexels.jpg"
+    },
+    {
+      "query": "kitchen shelf styling, odd number groupings, organized crockery",
+      "source": "pexels",
+      "credit": "Photo by Brunxs on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\042-pexels.jpg"
+    },
+    {
+      "query": "kitchen shelf design, negative space, organized crockery",
+      "source": "pexels",
+      "credit": "Photo by Ayşenaz  Bilgin on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\043-pexels.jpg"
+    },
+    {
+      "query": "kitchen shelf organization, compact kitchen, natural light, neutral tones, stoneware and ceramic textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Pavel Danilyuk on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\044-pexels.jpg"
+    },
+    {
+      "query": "kitchen shelf organization, compact kitchen, natural light, neutral tones, spice jars and condiments, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by umberto dez on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\046-pexels.jpg"
+    },
+    {
+      "query": "Kitchen cabinets with glass fronts, warm white removable wallpaper, organized dishware, and open shelving with a clear mat, natural light, no people.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\049-pexels.jpg"
+    },
+    {
+      "query": "shelves with neatly arranged items, one window light, neutral backdrop, minimalist design, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Vinson Chu on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\052-pexels.jpg"
+    },
+    {
+      "query": "close-up of discreet labels on jars, one window light, minimalist kitchen, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\053-pexels.jpg"
+    },
+    {
+      "query": "shelves with simple trays organizing cosmetics, one window light, minimalist design, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\055-pexels.jpg"
+    },
+    {
+      "query": "shelves with items organized by reach zones, one window light, functional kitchen, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Kader D. Kahraman on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\056-pexels.jpg"
+    },
+    {
+      "query": "Stock photo of a small Indian kitchen with open shelves displaying crockery, one window light, warm wood textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by MD. Raktim Raze on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\057-pexels.jpg"
+    },
+    {
+      "query": "Stock photo of a small Indian kitchen shelf with a neutral backdrop, displaying a curated collection of crockery, one window light, warm wood textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Denys Gromov on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\058-pexels.jpg"
+    },
+    {
+      "query": "Compact Indian kitchen, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Fabian Reck on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\061-pexels.jpg"
+    },
+    {
+      "query": "Compact Indian kitchen, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Alexander F Ungerer on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\064-pexels.jpg"
+    },
+    {
+      "query": "kitchen maintenance tools, organized kitchen, serene kitchen environment, natural light, clean surfaces",
+      "source": "pexels",
+      "credit": "Photo by RDNE Stock project on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\067-pexels.jpg"
+    },
+    {
+      "query": "kitchen maintenance routine, organized kitchen, cozy kitchen atmosphere, natural light",
+      "source": "pexels",
+      "credit": "Photo by Ron Lach on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\069-pexels.jpg"
+    },
+    {
+      "query": "organized kitchen, family kitchen, functional kitchen layout, natural light",
+      "source": "pexels",
+      "credit": "Photo by Rodrigo Simoes on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\070-pexels.jpg"
+    },
+    {
+      "query": "upgraded kitchen, organized kitchen, intentional shopping, natural light",
+      "source": "pexels",
+      "credit": "Photo by Peter  Vang on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\071-pexels.jpg"
+    },
+    {
+      "query": "small Indian kitchen, natural morning light, organized crockery, minimal clutter, calm atmosphere",
+      "source": "pexels",
+      "credit": "Photo by Alexander F Ungerer on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\072-pexels.jpg"
+    },
+    {
+      "query": "Pune kitchen with organized crockery, morning light, minimal clutter",
+      "source": "pexels",
+      "credit": "Photo by Lies on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\073-pexels.jpg"
+    },
+    {
+      "query": "Bengaluru kitchen with a shared wall you cannot drill, organized mugs, natural light",
+      "source": "pexels",
+      "credit": "Photo by Hoài  Nam on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\074-pexels.jpg"
+    },
+    {
+      "query": "Mumbai galley kitchen, organized plates, natural light",
+      "source": "pexels",
+      "credit": "Photo by Jan van der Wolf on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\075-pexels.jpg"
+    },
+    {
+      "query": "Delhi studio kitchen, organized bowls, natural light",
+      "source": "pexels",
+      "credit": "Photo by César O'neill on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\076-pexels.jpg"
+    },
+    {
+      "query": "photorealistic, compact Indian apartment scale, one window light, teak textures, magazine styling",
+      "source": "pexels",
+      "credit": "Photo by Sharath G. on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\077-pexels.jpg"
+    },
+    {
+      "query": "photorealistic, compact Indian apartment scale, one window light, linen textures, magazine styling",
+      "source": "pexels",
+      "credit": "Photo by dh tang on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\078-pexels.jpg"
+    },
+    {
+      "query": "photorealistic, compact Indian apartment scale, one window light, plaster textures, magazine styling",
+      "source": "pexels",
+      "credit": "Photo by Aditya Oberai on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\079-pexels.jpg"
+    },
+    {
+      "query": "small indian apartment interior minimalist daylight editorial",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\photos\\083-pexels.jpg"
+    }
+  ],
+  "figures": [
+    {
+      "spec_id": "D010",
+      "kind": "table",
+      "title": "The 6-Fit Test",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\figures\\D010.svg"
+    },
+    {
+      "spec_id": "D021",
+      "kind": "table",
+      "title": "Calm Score anchors (higher = calmer)",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\figures\\D021.svg"
+    },
+    {
+      "spec_id": "D016",
+      "kind": "table",
+      "title": "Damaged crockery",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\figures\\D016.svg"
+    },
+    {
+      "spec_id": "D022",
+      "kind": "table",
+      "title": "What should I do with this piece",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\figures\\D022.svg"
+    },
+    {
+      "spec_id": "D011",
+      "kind": "table",
+      "title": "Quantity heuristic",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\figures\\D011.svg"
+    },
+    {
+      "spec_id": "D012",
+      "kind": "table",
+      "title": "Material starting points",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\figures\\D012.svg"
+    },
+    {
+      "spec_id": "D018",
+      "kind": "table",
+      "title": "Occupancy is not capacity",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\figures\\D018.svg"
+    },
+    {
+      "spec_id": "D013",
+      "kind": "table",
+      "title": "Example 3–4 person Indian daily set",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\figures\\D013.svg"
+    },
+    {
+      "spec_id": "D014",
+      "kind": "table",
+      "title": "Wash-dry-store",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\figures\\D014.svg"
+    },
+    {
+      "spec_id": "D015",
+      "kind": "table",
+      "title": "Crockery safety",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\figures\\D015.svg"
+    },
+    {
+      "spec_id": "D020",
+      "kind": "table",
+      "title": "Before you buy crockery",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\figures\\D020.svg"
+    },
+    {
+      "spec_id": "D024",
+      "kind": "table",
+      "title": "US dollar planning bands",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\figures\\D024.svg"
+    },
+    {
+      "spec_id": "D027",
+      "kind": "table",
+      "title": "Heavy, medium, light",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\figures\\D027.svg"
+    },
+    {
+      "spec_id": "D019",
+      "kind": "table",
+      "title": "Measure before buying",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\figures\\D019.svg"
+    },
+    {
+      "spec_id": "D023",
+      "kind": "table",
+      "title": "Troubleshooting",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\figures\\D023.svg"
+    },
+    {
+      "spec_id": "D026",
+      "kind": "table",
+      "title": "Everyday vs hosting",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\figures\\D026.svg"
+    },
+    {
+      "spec_id": "D004",
+      "kind": "table",
+      "title": "Seventy percent is a starting point",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\figures\\D004.svg"
+    },
+    {
+      "spec_id": "D005",
+      "kind": "table",
+      "title": "Occupancy reminder",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\figures\\D005.svg"
+    },
+    {
+      "spec_id": "D025",
+      "kind": "table",
+      "title": "Renter: do not buy this",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Crockery in Small Kitchen\\figures\\D025.svg"
+    }
+  ]
+}

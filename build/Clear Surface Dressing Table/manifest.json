@@ -1,0 +1,438 @@
+{
+  "title": "Clear Surface Dressing Table",
+  "units": "imperial",
+  "outputs": {
+    "pdf": "build\\Clear Surface Dressing Table\\clear-surface-dressing-table.pdf",
+    "cover": "build\\Clear Surface Dressing Table\\cover.pdf",
+    "epub": "build\\Clear Surface Dressing Table\\clear-surface-dressing-table.epub",
+    "epub_preview": "build\\Clear Surface Dressing Table\\epub-preview.html"
+  },
+  "ai_generated_images": 1,
+  "kdp_ai_disclosure_required": true,
+  "images": [
+    {
+      "query": "makeup vanity table organized clear surface natural light",
+      "source": "openai",
+      "credit": "Cover illustration",
+      "ai": true,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\cover.jpg"
+    },
+    {
+      "query": "compact Indian bedroom, one window light, plaster textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Anisha Deb on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\001-pexels.jpg"
+    },
+    {
+      "query": "compact Indian bedroom, one window light, plaster textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by S3T Koncepts on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\003-pexels.jpg"
+    },
+    {
+      "query": "small indian apartment interior minimalist daylight editorial",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\006-pexels.jpg"
+    },
+    {
+      "query": "Compact bedroom with modular wall-mounted storage solutions, showcasing shelves, pegboards, and cabinets, natural light from one window, warm tones, minimalist design.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\008-pexels.jpg"
+    },
+    {
+      "query": "A close-up of a modular wall-mounted storage system with shelves and hooks, showcasing organization for cosmetics and hair tools, natural light, minimalist design.",
+      "source": "pexels",
+      "credit": "Photo by Castorly Stock on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\009-pexels.jpg"
+    },
+    {
+      "query": "A stylish modular storage system in a Bengaluru apartment, showcasing pegboards and floating shelves, natural light, warm wood tones.",
+      "source": "pexels",
+      "credit": "Photo by Huy Phan on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\010-pexels.jpg"
+    },
+    {
+      "query": "An organized dressing table in a Mumbai flat, showcasing a clear surface with modular storage for grooming essentials, natural light, minimalist design.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\011-pexels.jpg"
+    },
+    {
+      "query": "A close-up of wall-mounted storage with secure fasteners, showcasing load distribution and safety measures, natural light, minimalist design.",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\012-pexels.jpg"
+    },
+    {
+      "query": "A well-planned dressing table setup in a Bengaluru apartment, showcasing the implementation of the MODS framework, natural light, minimalist design.",
+      "source": "pexels",
+      "credit": "Photo by Ihza Akbar on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\013-pexels.jpg"
+    },
+    {
+      "query": "small indian apartment interior minimalist daylight editorial",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\015-pexels.jpg"
+    },
+    {
+      "query": "compact Indian apartment, dressing table organization, natural light, minimal clutter, elegant styling",
+      "source": "pexels",
+      "credit": "Photo by FMC Furniture manufacturer Chalin on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\016-pexels.jpg"
+    },
+    {
+      "query": "shared dressing table in Bengaluru, organized personal items, natural light, minimal clutter, elegant styling",
+      "source": "pexels",
+      "credit": "Photo by Ty Nguyễn on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\018-pexels.jpg"
+    },
+    {
+      "query": "small Mumbai flat, efficient morning routine, organized dressing table, natural light, minimal clutter",
+      "source": "pexels",
+      "credit": "Photo by RDNE Stock project on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\019-pexels.jpg"
+    },
+    {
+      "query": "Compact Indian apartment with a well-organized wall-mounted setup, natural light from a single window, featuring modular storage solutions and a clean aesthetic.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\020-pexels.jpg"
+    },
+    {
+      "query": "Close-up of a stud sensor detecting wall studs, with clear markings on the wall for drill points.",
+      "source": "pexels",
+      "credit": "Photo by Tima Miroshnichenko on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\021-pexels.jpg"
+    },
+    {
+      "query": "A selection of different types of anchors laid out on a wooden surface, with labels for each type.",
+      "source": "pexels",
+      "credit": "Photo by Nothing Ahead on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\022-pexels.jpg"
+    },
+    {
+      "query": "A compact kitchen setup with a mounted shelf, showcasing organized kitchen items, illuminated by natural light.",
+      "source": "pexels",
+      "credit": "Photo by Samuel Jerónimo on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\023-pexels.jpg"
+    },
+    {
+      "query": "A well-organized repair kit laid out on a table, ready for use, with tools and materials for wall repair.",
+      "source": "pexels",
+      "credit": "Photo by Anete Lusina on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\024-pexels.jpg"
+    },
+    {
+      "query": "Stylish dressing area in a Pune apartment, natural light, minimalist design, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by DARKMODE CINEMA on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\026-pexels.jpg"
+    },
+    {
+      "query": "Bengaluru dressing area with organized storage and stylish finishes, natural light, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\027-pexels.jpg"
+    },
+    {
+      "query": "Glamorous dressing area in a Mumbai flat, polished surfaces, soft gold accents, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\028-pexels.jpg"
+    },
+    {
+      "query": "Quality-focused dressing area setup in Pune, natural light, minimalist design, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Heather Green on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\029-pexels.jpg"
+    },
+    {
+      "query": "Efficient procurement plan for a dressing area in Bengaluru, organized layout, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\030-pexels.jpg"
+    },
+    {
+      "query": "A compact bedroom dressing area with a clear surface, featuring a well-organized wall-mounted setup, soft natural light from a single window, and minimalistic decor.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\033-pexels.jpg"
+    },
+    {
+      "query": "A neatly organized shopping list and preparation area, with tools and materials laid out for easy access.",
+      "source": "pexels",
+      "credit": "Photo by Chengxin Zhao on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\035-pexels.jpg"
+    },
+    {
+      "query": "A focused view of the wall with marked locations for pilot holes and a level tool in use, emphasizing precision in installation.",
+      "source": "pexels",
+      "credit": "Photo by Thirdman on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\036-pexels.jpg"
+    },
+    {
+      "query": "A beautifully organized wall with modules filled with neatly arranged items, showcasing a clear and functional dressing area.",
+      "source": "pexels",
+      "credit": "Photo by Luis Becerra  Fotógrafo on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\037-pexels.jpg"
+    },
+    {
+      "query": "small indian apartment interior minimalist daylight editorial",
+      "source": "pexels",
+      "credit": "Photo by Huy Phan on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\038-pexels.jpg"
+    },
+    {
+      "query": "Organized dressing table with wall-mounted storage in a Bengaluru rental, soft afternoon light, clear surface, and labeled zones.",
+      "source": "pexels",
+      "credit": "Photo by Keegan Checks on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\041-pexels.jpg"
+    },
+    {
+      "query": "Dressing table with checklist and labels in a Mumbai flat, natural light, organized items, and a clear surface.",
+      "source": "pexels",
+      "credit": "Photo by RDNE Stock project on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\042-pexels.jpg"
+    },
+    {
+      "query": "Dressing table in a Pune apartment, two-minute reset process in action, clear surface, and organized items.",
+      "source": "pexels",
+      "credit": "Photo by Alexey Demidov on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\photos\\043-pexels.jpg"
+    }
+  ],
+  "figures": [
+    {
+      "spec_id": "D056",
+      "kind": "table",
+      "title": "Terms used in this book",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D056.svg"
+    },
+    {
+      "spec_id": "D050",
+      "kind": "table",
+      "title": "Walkway hierarchy",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D050.svg"
+    },
+    {
+      "spec_id": "D057",
+      "kind": "table",
+      "title": "Detector limits",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D057.svg"
+    },
+    {
+      "spec_id": "D055",
+      "kind": "table",
+      "title": "Cosmetic and jewelry overrides",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D055.svg"
+    },
+    {
+      "spec_id": "D060",
+      "kind": "table",
+      "title": "Walkway hierarchy",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D060.svg"
+    },
+    {
+      "spec_id": "D001",
+      "kind": "table",
+      "title": "If Your Room Cannot Support That, Protect",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D001.svg"
+    },
+    {
+      "spec_id": "D002",
+      "kind": "table",
+      "title": "In Compact Rooms, The Preferred Walkway Is",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D002.svg"
+    },
+    {
+      "spec_id": "D003",
+      "kind": "table",
+      "title": "Provide 16 To 20 Inches Of Stool",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D003.svg"
+    },
+    {
+      "spec_id": "D004",
+      "kind": "table",
+      "title": "Frequently Used Items Should Sit Within 18",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D004.svg"
+    },
+    {
+      "spec_id": "D005",
+      "kind": "table",
+      "title": "Draw A Band That Is 30 To",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D005.svg"
+    },
+    {
+      "spec_id": "D006",
+      "kind": "table",
+      "title": "Shallow Modules With 4 To 6 Inch",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D006.svg"
+    },
+    {
+      "spec_id": "D007",
+      "kind": "table",
+      "title": "The Staging Shelf Within 18 To 24",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D007.svg"
+    },
+    {
+      "spec_id": "D008",
+      "kind": "table",
+      "title": "Walkway Minimum, 24 Inches",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D008.svg"
+    },
+    {
+      "spec_id": "D053",
+      "kind": "table",
+      "title": "Renter-safe is two paths",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D053.svg"
+    },
+    {
+      "spec_id": "D054",
+      "kind": "table",
+      "title": "Mirror constraints to balance, not one equation",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D054.svg"
+    },
+    {
+      "spec_id": "D052",
+      "kind": "table",
+      "title": "Electrical limits at the grooming station",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D052.svg"
+    },
+    {
+      "spec_id": "D014",
+      "kind": "table",
+      "title": "Calibration Rule, Mirror Center Equals Eye Level",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D014.svg"
+    },
+    {
+      "spec_id": "D016",
+      "kind": "table",
+      "title": "Deep Dive Mirror Sizing And Mounting Heights",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D016.svg"
+    },
+    {
+      "spec_id": "D017",
+      "kind": "table",
+      "title": "Seated eye height is measured, not assumed",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D017.svg"
+    },
+    {
+      "spec_id": "D018",
+      "kind": "table",
+      "title": "For Most People That Yields A Mirror",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D018.svg"
+    },
+    {
+      "spec_id": "D019",
+      "kind": "table",
+      "title": "If Your Room Is Very Tight, A",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D019.svg"
+    },
+    {
+      "spec_id": "D021",
+      "kind": "table",
+      "title": "Cleaning Access, Leave 1 To 2 Inches",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D021.svg"
+    },
+    {
+      "spec_id": "D022",
+      "kind": "table",
+      "title": "Position Them 3 To 6 Inches From",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D022.svg"
+    },
+    {
+      "spec_id": "D023",
+      "kind": "table",
+      "title": "Space The Two Lights 24 To 36",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D023.svg"
+    },
+    {
+      "spec_id": "D061",
+      "kind": "table",
+      "title": "Renter-safe is two paths",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D061.svg"
+    },
+    {
+      "spec_id": "D051",
+      "kind": "table",
+      "title": "Storage hook is not a cooling dock",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D051.svg"
+    },
+    {
+      "spec_id": "D062",
+      "kind": "table",
+      "title": "Electrical limits at the grooming station",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D062.svg"
+    },
+    {
+      "spec_id": "D063",
+      "kind": "table",
+      "title": "Walkway hierarchy",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D063.svg"
+    },
+    {
+      "spec_id": "D041",
+      "kind": "table",
+      "title": "Clearance Calculator Card Walkway Minimum, 30 Inches",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D041.svg"
+    },
+    {
+      "spec_id": "D042",
+      "kind": "table",
+      "title": "Vertical Reach Range, 34 To 60 Inches",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D042.svg"
+    },
+    {
+      "spec_id": "D043",
+      "kind": "table",
+      "title": "Stool Space, 20 Inches Deep By 18",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D043.svg"
+    },
+    {
+      "spec_id": "D044",
+      "kind": "table",
+      "title": "Clearance Card Confirms A 30 Inch Walkway",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D044.svg"
+    },
+    {
+      "spec_id": "D045",
+      "kind": "table",
+      "title": "Daily Items Within 34 To 60 Inches",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Clear Surface Dressing Table\\figures\\D045.svg"
+    }
+  ]
+}

@@ -1,0 +1,631 @@
+{
+  "title": "Child Proof Showpiece Setup",
+  "units": "imperial",
+  "outputs": {
+    "pdf": "build\\Child Proof Showpiece Setup\\child-proof-showpiece-setup.pdf",
+    "cover": "build\\Child Proof Showpiece Setup\\cover.pdf",
+    "epub": "build\\Child Proof Showpiece Setup\\child-proof-showpiece-setup.epub",
+    "epub_preview": "build\\Child Proof Showpiece Setup\\epub-preview.html"
+  },
+  "ai_generated_images": 1,
+  "kdp_ai_disclosure_required": true,
+  "images": [
+    {
+      "query": "compact Indian apartment scale, one window light, teak/linen/plaster textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "openai",
+      "credit": "Cover illustration",
+      "ai": true,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\cover.jpg"
+    },
+    {
+      "query": "compact Indian apartment scale, one window light, teak/linen/plaster textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by dh tang on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\001-pexels.jpg"
+    },
+    {
+      "query": "compact Indian apartment scale, one window light, teak/linen/plaster textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Sharath G. on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\003-pexels.jpg"
+    },
+    {
+      "query": "compact Indian apartment scale, one window light, teak/linen/plaster textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Sharath G. on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\004-pexels.jpg"
+    },
+    {
+      "query": "compact Indian apartment scale, one window light, teak/linen/plaster textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by 世品 苏 on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\006-pexels.jpg"
+    },
+    {
+      "query": "Living room with curated decor, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Martín Rivera on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\007-pexels.jpg"
+    },
+    {
+      "query": "Close-up of a coffee table with a mix of decorative items, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Ken Mwaura on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\008-pexels.jpg"
+    },
+    {
+      "query": "Living room corner with elevated decor, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Kübra Arslaner on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\009-pexels.jpg"
+    },
+    {
+      "query": "Decorative items enclosed in a tray, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Canshotz on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\010-pexels.jpg"
+    },
+    {
+      "query": "Decorative items anchored on a console, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Mikhail Nilov on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\011-pexels.jpg"
+    },
+    {
+      "query": "Acrylic vase replacing a glass one, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Cup of  Couple on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\012-pexels.jpg"
+    },
+    {
+      "query": "interior of a modern Indian apartment with a well-decorated living room showcasing various decorative items securely anchored",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\013-pexels.jpg"
+    },
+    {
+      "query": "close-up of the CARE Matrix applied to various surfaces in an apartment",
+      "source": "pexels",
+      "credit": "Photo by RDNE Stock project on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\014-pexels.jpg"
+    },
+    {
+      "query": "various adhesive products displayed on a shelf",
+      "source": "pexels",
+      "credit": "Photo by Sergey  Meshkov on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\015-pexels.jpg"
+    },
+    {
+      "query": "a tall bookshelf anchored to a wall with safety straps",
+      "source": "pexels",
+      "credit": "Photo by Line Knipst on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\016-pexels.jpg"
+    },
+    {
+      "query": "non-slip mats displayed under decorative vases on a table",
+      "source": "pexels",
+      "credit": "Photo by 🇻🇳🇻🇳Nguyễn Tiến Thịnh 🇻🇳🇻🇳 on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\017-pexels.jpg"
+    },
+    {
+      "query": "interior of a modern Indian apartment, living room with a console and artwork, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Donald Tong on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\018-pexels.jpg"
+    },
+    {
+      "query": "interior of a Pune apartment, living room with marked eye level on the wall, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by HONG SON on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\019-pexels.jpg"
+    },
+    {
+      "query": "interior of a Pune apartment, console with painter's tape marking grab zones, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by ClickerHappy on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\020-pexels.jpg"
+    },
+    {
+      "query": "interior of a Pune apartment, console arranged with a sightline ladder, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Anisha Deb on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\021-pexels.jpg"
+    },
+    {
+      "query": "living room decor, mantel styling, media console organization, coffee table arrangement, bookshelf design, natural light, warm tones, cozy atmosphere",
+      "source": "pexels",
+      "credit": "Photo by hello aesthe on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\023-pexels.jpg"
+    },
+    {
+      "query": "elegant mantel decor, warm lighting, art piece, heavy candlesticks, natural textures",
+      "source": "pexels",
+      "credit": "Photo by Michael Gattorna on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\024-pexels.jpg"
+    },
+    {
+      "query": "minimalist media console, organized cables, low decor, warm lighting, sleek design",
+      "source": "pexels",
+      "credit": "Photo by Eskoala A on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\025-pexels.jpg"
+    },
+    {
+      "query": "stylish coffee table arrangement, large tray, decorative books, sculptural object, cozy lighting",
+      "source": "pexels",
+      "credit": "Photo by Wolf  Art on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\026-pexels.jpg"
+    },
+    {
+      "query": "organized bookshelf, zoned decor, warm lighting, textured materials",
+      "source": "pexels",
+      "credit": "Photo by quang vinh on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\027-pexels.jpg"
+    },
+    {
+      "query": "Dining room with a table set for a family meal, natural light from one window, textured runner, simple centerpiece, no people, no text.",
+      "source": "pexels",
+      "credit": "Photo by tazzmanian studios insta on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\028-pexels.jpg"
+    },
+    {
+      "query": "Buffet styled with a textured runner, elevated centerpiece, and anchored ends, natural light from one window, no people, no text.",
+      "source": "pexels",
+      "credit": "Photo by Matheus Bertelli on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\029-pexels.jpg"
+    },
+    {
+      "query": "Dining table with a low-profile centerpiece, natural light from one window, simple and elegant design, no people, no text.",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\030-pexels.jpg"
+    },
+    {
+      "query": "Display cabinet showcasing heirloom china, natural light from one window, elegant arrangement, no people, no text.",
+      "source": "pexels",
+      "credit": "Photo by Tito Zzzz on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\031-pexels.jpg"
+    },
+    {
+      "query": "Dining room set up for a family gathering, natural light from one window, elegant and functional arrangement, no people, no text.",
+      "source": "pexels",
+      "credit": "Photo by Hồng Quang Official on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\032-pexels.jpg"
+    },
+    {
+      "query": "Entryway with a console table, wall-mounted shelves, and decorative elements, natural light from one window, minimalist decor, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\033-pexels.jpg"
+    },
+    {
+      "query": "Stylish console table with a mirror and decorative items, natural light from one window, minimalist decor, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Mizzu  Cho on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\034-pexels.jpg"
+    },
+    {
+      "query": "Floating shelves with lightweight decor, natural light from one window, minimalist styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Cats Coming on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\035-pexels.jpg"
+    },
+    {
+      "query": "Organized drop zone with a key box and mail sorter, natural light from one window, minimalist decor, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Jan van der Wolf on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\036-pexels.jpg"
+    },
+    {
+      "query": "A serene bedroom with soft textures, warm lighting, and a well-organized nightstand, showcasing safety and style in a compact Indian apartment.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\037-pexels.jpg"
+    },
+    {
+      "query": "A cozy bedroom corner with a well-organized nightstand, showcasing safety features and soft textures, illuminated by warm light.",
+      "source": "pexels",
+      "credit": "Photo by Ron Lach on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\038-pexels.jpg"
+    },
+    {
+      "query": "A well-organized nursery shelf with soft goods and safe decor, demonstrating the Rest And Reach Method in action.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\039-pexels.jpg"
+    },
+    {
+      "query": "A nightstand styled with minimal decor, featuring a securely anchored lamp and organized cords, in a softly lit Mumbai bedroom.",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\040-pexels.jpg"
+    },
+    {
+      "query": "A styled dresser with a balanced display of enclosed accents and a securely mounted mirror, showcasing safety and style in a Chennai apartment.",
+      "source": "pexels",
+      "credit": "Photo by rishi raj khare on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\041-pexels.jpg"
+    },
+    {
+      "query": "A nursery shelf beautifully arranged with soft goods and secure decor, showcasing safety and charm in a Hyderabad apartment.",
+      "source": "pexels",
+      "credit": "Photo by Krishna Kids  Photography on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\042-pexels.jpg"
+    },
+    {
+      "query": "A nursery setup with a securely mounted baby monitor and organized cords, demonstrating effective safety measures in a Kolkata apartment.",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\043-pexels.jpg"
+    },
+    {
+      "query": "A well-organized bedroom after a weekend reset, showcasing safety features and a serene aesthetic in a Delhi apartment.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\044-pexels.jpg"
+    },
+    {
+      "query": "interior of a stylish Indian apartment with child-friendly decor, natural light from one window, teak and linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Mariam Unbeatable on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\045-pexels.jpg"
+    },
+    {
+      "query": "interior of a stylish Indian apartment with a vintage console, natural light from one window, teak and linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Andranik Paradyan on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\046-pexels.jpg"
+    },
+    {
+      "query": "interior of a stylish Indian apartment with a living room setup for children, natural light from one window, teak and linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Waqar Hassan on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\047-pexels.jpg"
+    },
+    {
+      "query": "interior of a stylish Indian apartment with humidity considerations, natural light from one window, teak and linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Natalia Walusiak on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\048-pexels.jpg"
+    },
+    {
+      "query": "interior of a stylish Indian apartment with a focus on safety features, natural light from one window, teak and linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Dmitry Zvolskiy on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\049-pexels.jpg"
+    },
+    {
+      "query": "aerial view of a well-organized toolkit for home decor, natural light, wooden textures, minimalist style",
+      "source": "pexels",
+      "credit": "Photo by Alfredo Marco Pradil on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\050-pexels.jpg"
+    },
+    {
+      "query": "a well-organized shopping list for home decor, natural light, wooden textures, minimalist style",
+      "source": "pexels",
+      "credit": "Photo by Cup of  Couple on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\051-pexels.jpg"
+    },
+    {
+      "query": "a detailed pre-measure worksheet with tools, natural light, wooden textures, minimalist style",
+      "source": "pexels",
+      "credit": "Photo by Jahra Tasfia Reza on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\052-pexels.jpg"
+    },
+    {
+      "query": "a checklist for childproofing decor in a nursery, natural light, wooden textures, minimalist style",
+      "source": "pexels",
+      "credit": "Photo by Ivan S on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\053-pexels.jpg"
+    },
+    {
+      "query": "a timeline for staging decor in a living room, natural light, wooden textures, minimalist style",
+      "source": "pexels",
+      "credit": "Photo by Jonathan Borba on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\054-pexels.jpg"
+    },
+    {
+      "query": "A cozy living room vignette with a coffee table styled with books, a vase, and a decorative bowl, all arranged thoughtfully.",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\056-pexels.jpg"
+    },
+    {
+      "query": "A neatly organized console table with a mix of decorative items, framed photos, and plants, all styled according to the worksheet.",
+      "source": "mock",
+      "credit": "",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\057-mock.jpg"
+    },
+    {
+      "query": "A dining room buffet styled with a statement bowl and anchored decor, showcasing a harmonious arrangement.",
+      "source": "pexels",
+      "credit": "Photo by Jonathan Borba on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\058-pexels.jpg"
+    },
+    {
+      "query": "A cluttered shelf with items precariously placed, highlighting the risks of poor arrangement.",
+      "source": "pexels",
+      "credit": "Photo by Lany-Jade Mondou on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\059-pexels.jpg"
+    },
+    {
+      "query": "A neatly organized workspace with completed worksheets and decor items ready for installation, showcasing preparation for the weekend.",
+      "source": "pexels",
+      "credit": "Photo by Jessika Arraes on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\060-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a stylish living room with toddler-safe decor, natural light, warm colors, no people",
+      "source": "pexels",
+      "credit": "Photo by Olya Afanasyeva on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\061-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a toddler-friendly living room setup with elevated decor, natural light, soft textures, no people",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\062-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a checklist being used in a living room, natural light, organized decor, no people",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\063-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a living room checklist in action, natural light, cozy decor, no people",
+      "source": "pexels",
+      "credit": "Photo by Oleg Melevych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\064-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a cleaning routine in a living room, natural light, organized decor, no people",
+      "source": "pexels",
+      "credit": "Photo by SHVETS production on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\065-pexels.jpg"
+    },
+    {
+      "query": "small indian apartment interior minimalist daylight editorial",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\066-pexels.jpg"
+    }
+  ],
+  "figures": [
+    {
+      "spec_id": "D020",
+      "kind": "table",
+      "title": "Three layers, never mixed",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D020.svg"
+    },
+    {
+      "spec_id": "D021",
+      "kind": "table",
+      "title": "STOP and remove the object if",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D021.svg"
+    },
+    {
+      "spec_id": "D026",
+      "kind": "table",
+      "title": "Age bands change the hazard",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D026.svg"
+    },
+    {
+      "spec_id": "D030",
+      "kind": "table",
+      "title": "STOP and remove the object if",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D030.svg"
+    },
+    {
+      "spec_id": "D023",
+      "kind": "table",
+      "title": "Furniture vs decor decision",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D023.svg"
+    },
+    {
+      "spec_id": "D025",
+      "kind": "table",
+      "title": "Choking, batteries, and magnets",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D025.svg"
+    },
+    {
+      "spec_id": "D024",
+      "kind": "table",
+      "title": "When not to use adhesive",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D024.svg"
+    },
+    {
+      "spec_id": "D007",
+      "kind": "table",
+      "title": "Many Galleries Hang Art At 57 Inches",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D007.svg"
+    },
+    {
+      "spec_id": "D012",
+      "kind": "table",
+      "title": "We Set The Adult Eye Level Center",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D012.svg"
+    },
+    {
+      "spec_id": "D014",
+      "kind": "table",
+      "title": "Key Takeaways Adult Eye Level, Typically Around",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D014.svg"
+    },
+    {
+      "spec_id": "D003",
+      "kind": "table",
+      "title": "The Mid Grab Zone",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D003.svg"
+    },
+    {
+      "spec_id": "D004",
+      "kind": "table",
+      "title": "The Low Grab Zone",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D004.svg"
+    },
+    {
+      "spec_id": "D005",
+      "kind": "table",
+      "title": "The Careful Band, Around 43 To 54",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D005.svg"
+    },
+    {
+      "spec_id": "D006",
+      "kind": "table",
+      "title": "The Safe Eye Band, From 55 To",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D006.svg"
+    },
+    {
+      "spec_id": "D008",
+      "kind": "table",
+      "title": "If Most Adult Viewers Are Taller, Set",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D008.svg"
+    },
+    {
+      "spec_id": "D031",
+      "kind": "table",
+      "title": "The Low Grab Zone",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D031.svg"
+    },
+    {
+      "spec_id": "D032",
+      "kind": "table",
+      "title": "The Careful Band, Around 43 To 54",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D032.svg"
+    },
+    {
+      "spec_id": "D033",
+      "kind": "table",
+      "title": "The Safe Eye Band, From 55 To",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D033.svg"
+    },
+    {
+      "spec_id": "D010",
+      "kind": "table",
+      "title": "A Console Might Sit At 30 Inches",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D010.svg"
+    },
+    {
+      "spec_id": "D015",
+      "kind": "table",
+      "title": "Confirm 2 Inches Clearance Around The Tray",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D015.svg"
+    },
+    {
+      "spec_id": "D022",
+      "kind": "table",
+      "title": "Windows: the hidden cord hazard",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D022.svg"
+    },
+    {
+      "spec_id": "D027",
+      "kind": "table",
+      "title": "Electrical at child height",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D027.svg"
+    },
+    {
+      "spec_id": "D034",
+      "kind": "table",
+      "title": "STOP and remove the object if",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D034.svg"
+    },
+    {
+      "spec_id": "D035",
+      "kind": "table",
+      "title": "Windows: the hidden cord hazard",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D035.svg"
+    },
+    {
+      "spec_id": "D036",
+      "kind": "table",
+      "title": "STOP and remove the object if",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D036.svg"
+    },
+    {
+      "spec_id": "D037",
+      "kind": "table",
+      "title": "Age bands change the hazard",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D037.svg"
+    },
+    {
+      "spec_id": "D016",
+      "kind": "table",
+      "title": "Triangle, Left Tall Vase 130 Cm, Center",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D016.svg"
+    },
+    {
+      "spec_id": "D017",
+      "kind": "table",
+      "title": "Left Lamp 120 Cm, Right Sculpture 90",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D017.svg"
+    },
+    {
+      "spec_id": "D018",
+      "kind": "table",
+      "title": "Center Art Bottom At 95 Cm, Inside",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D018.svg"
+    }
+  ]
+}

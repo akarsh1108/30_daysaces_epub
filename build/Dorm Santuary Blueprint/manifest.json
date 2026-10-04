@@ -1,0 +1,463 @@
+{
+  "title": "Dorm Sanctuary Blueprint",
+  "units": "imperial",
+  "outputs": {
+    "pdf": "build\\Dorm Santuary Blueprint\\dorm-santuary-blueprint.pdf",
+    "cover": "build\\Dorm Santuary Blueprint\\cover.pdf",
+    "epub": "build\\Dorm Santuary Blueprint\\dorm-santuary-blueprint.epub",
+    "epub_preview": "build\\Dorm Santuary Blueprint\\epub-preview.html"
+  },
+  "ai_generated_images": 0,
+  "kdp_ai_disclosure_required": false,
+  "images": [
+    {
+      "query": "dorm room, soft lighting, minimalist decor, neutral colors, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Cup of  Couple on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\000-pexels.jpg"
+    },
+    {
+      "query": "dorm room handbook, highlighted text, soft lighting, minimalist decor, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Bushra Islam on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\002-pexels.jpg"
+    },
+    {
+      "query": "dorm room conversation, soft lighting, minimalist decor, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\004-pexels.jpg"
+    },
+    {
+      "query": "dorm room measurements, soft lighting, minimalist decor, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Magda Ehlers on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\005-pexels.jpg"
+    },
+    {
+      "query": "A serene bedroom setup with soft lighting, a neatly made bed, and calming textures, emphasizing a peaceful sleep environment.",
+      "source": "pexels",
+      "credit": "Photo by Castorly Stock on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\006-pexels.jpg"
+    },
+    {
+      "query": "A cozy bedroom corner with a neatly made bed, soft lighting, and a sleep log on a bedside table, inviting a sense of calm.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\007-pexels.jpg"
+    },
+    {
+      "query": "A serene bedroom with layered curtains, a warm lamp, and soft textiles, illustrating a well-considered sleep environment.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\008-pexels.jpg"
+    },
+    {
+      "query": "A detailed sketch of a room layout with marked pathways and furniture placements, highlighting privacy considerations.",
+      "source": "pexels",
+      "credit": "Photo by Tima Miroshnichenko on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\009-pexels.jpg"
+    },
+    {
+      "query": "A cozy living space with two students discussing their schedules, surrounded by soft lighting and calming decor, emphasizing collaboration.",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\010-pexels.jpg"
+    },
+    {
+      "query": "interior of a small Indian apartment, well-organized living space, natural light from one window, soft textures, minimal clutter, magazine styling",
+      "source": "pexels",
+      "credit": "Photo by Andranik Paradyan on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\011-pexels.jpg"
+    },
+    {
+      "query": "cozy corner of a shared bedroom with a bed shielded from light, soft textures, warm lighting, no people",
+      "source": "pexels",
+      "credit": "Photo by Ron Lach on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\012-pexels.jpg"
+    },
+    {
+      "query": "study area in a shared room with organized desks, warm lighting, and minimal clutter",
+      "source": "pexels",
+      "credit": "Photo by Lisa Fotios on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\013-pexels.jpg"
+    },
+    {
+      "query": "cozy shared bedroom with beds and desks arranged for optimal flow, warm lighting, no clutter",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\014-pexels.jpg"
+    },
+    {
+      "query": "organized bedroom with marked tape outlines on the floor, warm lighting, no clutter",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\015-pexels.jpg"
+    },
+    {
+      "query": "organized shared room with clear zones and pathways, warm lighting, no clutter",
+      "source": "pexels",
+      "credit": "Photo by Huy Phan on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\016-pexels.jpg"
+    },
+    {
+      "query": "A serene bedroom setup showcasing layered privacy solutions in a compact Indian apartment, soft natural light filtering through curtains, textures of linen and wood, no people, no text.",
+      "source": "pexels",
+      "credit": "Photo by Natalia Walusiak on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\017-pexels.jpg"
+    },
+    {
+      "query": "A close-up of a soft rug and bed skirt in a cozy bedroom, natural light creating a warm ambiance, no people, no text.",
+      "source": "pexels",
+      "credit": "Photo by Diana ✨ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\018-pexels.jpg"
+    },
+    {
+      "query": "A stylish garment rack with curtains draped elegantly, soft light filtering through, no people, no text.",
+      "source": "pexels",
+      "credit": "Photo by Dariusz Siniarski on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\019-pexels.jpg"
+    },
+    {
+      "query": "A cozy bed tent setup with mesh windows in a compact bedroom, soft light creating a serene atmosphere, no people, no text.",
+      "source": "pexels",
+      "credit": "Photo by Kader Azra Namuslu on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\020-pexels.jpg"
+    },
+    {
+      "query": "A workspace with painter's tape marking positions for curtains and a sketch of the planned setup, natural light illuminating the space, no people, no text.",
+      "source": "pexels",
+      "credit": "Photo by Ivan Chumak on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\021-pexels.jpg"
+    },
+    {
+      "query": "dimly lit dorm room with layered window treatments, soft textures, and a warm lamp",
+      "source": "pexels",
+      "credit": "Photo by Optical Chemist on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\022-pexels.jpg"
+    },
+    {
+      "query": "a well-lit study area with lamps angled away from the bed",
+      "source": "pexels",
+      "credit": "Photo by Mitchell Luo on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\024-pexels.jpg"
+    },
+    {
+      "query": "a cozy bedroom with warm lighting and sheer curtains",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\025-pexels.jpg"
+    },
+    {
+      "query": "dorm room with soft textiles, ambient lighting, and sound-absorbing elements",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\026-pexels.jpg"
+    },
+    {
+      "query": "dorm room with sticky notes marking noise sources, soft textiles, and ambient lighting",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\027-pexels.jpg"
+    },
+    {
+      "query": "dorm room with layered rugs and felt pads under furniture, soft textiles, and ambient lighting",
+      "source": "pexels",
+      "credit": "Photo by Guto Castro on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\028-pexels.jpg"
+    },
+    {
+      "query": "dorm room with sealed gaps and heavy curtains, soft textiles, and ambient lighting",
+      "source": "pexels",
+      "credit": "Photo by Mathias Reding on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\029-pexels.jpg"
+    },
+    {
+      "query": "dorm room with a sound machine and study area, soft textiles, and ambient lighting",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\030-pexels.jpg"
+    },
+    {
+      "query": "interior of a cozy bedroom with soft textiles, warm lighting, and organized storage solutions, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Thới Nam Cao on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\031-pexels.jpg"
+    },
+    {
+      "query": "a neatly organized nightstand with minimal items, soft lighting, and a calming atmosphere, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Ron Lach on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\033-pexels.jpg"
+    },
+    {
+      "query": "a tidy workspace with organized cables, a labeled power strip, and a serene sleep area, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Sóc Năng Động on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\034-pexels.jpg"
+    },
+    {
+      "query": "A serene bedroom setup with soft lighting, a neatly arranged bed, and a tidy workspace, showcasing a harmonious living environment.",
+      "source": "pexels",
+      "credit": "Photo by Huy Quang Nguyễn on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\035-pexels.jpg"
+    },
+    {
+      "query": "A cozy corner of a shared bedroom with a bulletin board displaying R.E.S.T. agreements, warm lighting, and a tidy desk area.",
+      "source": "pexels",
+      "credit": "Photo by khezez  | خزاز on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\036-pexels.jpg"
+    },
+    {
+      "query": "A tidy bedroom with a made bed, organized desk, and soft lighting, reflecting a calm and serene environment.",
+      "source": "pexels",
+      "credit": "Photo by Namfon Sasimaporn on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\037-pexels.jpg"
+    },
+    {
+      "query": "A bright and organized living room with freshly laundered cushions, a clean floor, and well-angled lamps, showcasing a calm atmosphere.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\038-pexels.jpg"
+    },
+    {
+      "query": "dorm room with a cozy bed setup, soft lighting, and minimal decor, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Cats Coming on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\041-pexels.jpg"
+    },
+    {
+      "query": "dorm room with a cozy bed setup, soft lighting, and minimal decor, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Diana ✨ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\044-pexels.jpg"
+    },
+    {
+      "query": "shared dorm room, warm desk lamp, curtain panel, cozy textures, one window light, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\047-pexels.jpg"
+    },
+    {
+      "query": "shared dorm room, warm desk lamp, curtain panel, cozy textures, one window light, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Tobi on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\050-pexels.jpg"
+    },
+    {
+      "query": "shared dorm room, warm desk lamp, curtain panel, cozy textures, one window light, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Zişan  Özdemir on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\053-pexels.jpg"
+    },
+    {
+      "query": "interior of a residence hall room, soft lighting, neutral tones, minimalist decor, no people",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\056-pexels.jpg"
+    },
+    {
+      "query": "a cozy corner of a residence hall room with a tension rod and curtains, soft lighting, no people",
+      "source": "pexels",
+      "credit": "Photo by Yunuen Zempoaltecatl on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\057-pexels.jpg"
+    },
+    {
+      "query": "a checklist on a desk in a residence hall room, soft lighting, no people",
+      "source": "pexels",
+      "credit": "Photo by RDNE Stock project on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\058-pexels.jpg"
+    },
+    {
+      "query": "interior layout templates, cozy bedroom setup, minimalist decor, soft lighting, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Nguyen Truong Khang on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\060-pexels.jpg"
+    },
+    {
+      "query": "budget-friendly bedroom decor, cozy setup, minimalist design, soft lighting, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Ron Lach on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\062-pexels.jpg"
+    }
+  ],
+  "figures": [
+    {
+      "spec_id": "D001",
+      "kind": "table",
+      "title": "Fire and exit clearances",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D001.svg"
+    },
+    {
+      "spec_id": "D024",
+      "kind": "table",
+      "title": "Do not buy these first",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D024.svg"
+    },
+    {
+      "spec_id": "D021",
+      "kind": "table",
+      "title": "When a roommate will not cooperate",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D021.svg"
+    },
+    {
+      "spec_id": "D002",
+      "kind": "table",
+      "title": "Three-night sleep profile",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D002.svg"
+    },
+    {
+      "spec_id": "D015",
+      "kind": "table",
+      "title": "Path and pillow",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D015.svg"
+    },
+    {
+      "spec_id": "D020",
+      "kind": "table",
+      "title": "Roommate agreement worksheet",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D020.svg"
+    },
+    {
+      "spec_id": "D003",
+      "kind": "table",
+      "title": "There Is A Pathway At Least 24",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D003.svg"
+    },
+    {
+      "spec_id": "D008",
+      "kind": "table",
+      "title": "Type A — rectangular room",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D008.svg"
+    },
+    {
+      "spec_id": "D023",
+      "kind": "table",
+      "title": "Symptom to next move",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D023.svg"
+    },
+    {
+      "spec_id": "D004",
+      "kind": "plan",
+      "title": "For Wind Down, A Small Lamp At",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D004.svg"
+    },
+    {
+      "spec_id": "D005",
+      "kind": "plan",
+      "title": "For Desk Work, 450 To 800 Lumens",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D005.svg"
+    },
+    {
+      "spec_id": "D022",
+      "kind": "table",
+      "title": "Before vs after this week",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D022.svg"
+    },
+    {
+      "spec_id": "D018",
+      "kind": "table",
+      "title": "Zero-modification setup",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D018.svg"
+    },
+    {
+      "spec_id": "D019",
+      "kind": "table",
+      "title": "Emergency access checklist",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D019.svg"
+    },
+    {
+      "spec_id": "D009",
+      "kind": "table",
+      "title": "Type B — square shared room",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D009.svg"
+    },
+    {
+      "spec_id": "D011",
+      "kind": "table",
+      "title": "Type C — bed opposite door",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D011.svg"
+    },
+    {
+      "spec_id": "D012",
+      "kind": "table",
+      "title": "Type D — window beside bed",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D012.svg"
+    },
+    {
+      "spec_id": "D014",
+      "kind": "table",
+      "title": "Type E — almost no floor",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D014.svg"
+    },
+    {
+      "spec_id": "D013",
+      "kind": "table",
+      "title": "Shopping matrix — what and why",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D013.svg"
+    },
+    {
+      "spec_id": "D025",
+      "kind": "table",
+      "title": "Which rupee tier buys it",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D025.svg"
+    },
+    {
+      "spec_id": "D026",
+      "kind": "table",
+      "title": "Master checklist — safety and layout",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D026.svg"
+    },
+    {
+      "spec_id": "D027",
+      "kind": "table",
+      "title": "Master checklist — privacy to maintenance",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D027.svg"
+    }
+  ]
+}

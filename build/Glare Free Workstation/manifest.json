@@ -1,0 +1,479 @@
+{
+  "title": "Glare Free Workstation",
+  "units": "imperial",
+  "outputs": {
+    "cover": "build\\Glare Free Workstation\\cover.pdf",
+    "pdf": "build\\Glare Free Workstation\\glare-free-workstation.pdf",
+    "epub": "build\\Glare Free Workstation\\glare-free-workstation.epub",
+    "epub_preview": "build\\Glare Free Workstation\\epub-preview.html"
+  },
+  "ai_generated_images": 0,
+  "kdp_ai_disclosure_required": false,
+  "images": [
+    {
+      "query": "interior workspace with glare-free lighting, matte surfaces, neutral colors, photorealistic, no people",
+      "source": "pexels",
+      "credit": "Photo by FMC Furniture manufacturer Chalin on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\000-pexels.jpg"
+    },
+    {
+      "query": "workspace with matte desk and neutral backdrop, soft lighting, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Susie Han on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\002-pexels.jpg"
+    },
+    {
+      "query": "workspace with layered lighting setup, soft ambient light, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Alpha En on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\004-pexels.jpg"
+    },
+    {
+      "query": "A well-lit home office with a desk facing a window, showcasing glare mapping tools like a grid and a flashlight.",
+      "source": "pexels",
+      "credit": "Photo by Lisa Fotios on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\005-pexels.jpg"
+    },
+    {
+      "query": "A detailed sketch of a room layout with cardinal directions marked, showing a desk near an east-facing window.",
+      "source": "pexels",
+      "credit": "Photo by Anete Lusina on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\006-pexels.jpg"
+    },
+    {
+      "query": "A close-up of different surfaces labeled with their LRV and sheen categories, including a glossy desk and dark wall.",
+      "source": "pexels",
+      "credit": "Photo by Pixabay on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\007-pexels.jpg"
+    },
+    {
+      "query": "A close-up of a flashlight illuminating different surfaces in a room, revealing reflection paths.",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\008-pexels.jpg"
+    },
+    {
+      "query": "A grid showing glare pressure scores for different times of the day, with notes on reflections and adjustments.",
+      "source": "pexels",
+      "credit": "Photo by ThisIsEngineering on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\010-pexels.jpg"
+    },
+    {
+      "query": "A cozy living room setup with a large east-facing window, showcasing how to manage daylight with curtains and layered lighting.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\012-pexels.jpg"
+    },
+    {
+      "query": "A well-lit corner of a Bengaluru apartment, demonstrating effective use of ambient and key lighting with a focus on soft textures.",
+      "source": "pexels",
+      "credit": "Photo by Aniket Suryawanshi on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\013-pexels.jpg"
+    },
+    {
+      "query": "A Mumbai flat setup showcasing adaptive lighting scenes, with a focus on the transition from morning to evening lighting.",
+      "source": "pexels",
+      "credit": "Photo by Mstudio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\014-pexels.jpg"
+    },
+    {
+      "query": "A home office setup with a camera recording the lighting tests, showcasing the importance of testing.",
+      "source": "pexels",
+      "credit": "Photo by Berk Aktas on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\015-pexels.jpg"
+    },
+    {
+      "query": "neutral matte textiles, soft lighting, textured surfaces, no people",
+      "source": "pexels",
+      "credit": "Photo by Davis  Vidal on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\016-pexels.jpg"
+    },
+    {
+      "query": "blackout curtains, dim out fabrics, acoustic panels, no people",
+      "source": "pexels",
+      "credit": "Photo by Nothing Ahead on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\018-pexels.jpg"
+    },
+    {
+      "query": "matte paint samples, textured laminates, workspace setup, no people",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\019-pexels.jpg"
+    },
+    {
+      "query": "materials plan, reflectance mapping, fabric swatches, no people",
+      "source": "pexels",
+      "credit": "Photo by RDNE Stock project on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\020-pexels.jpg"
+    },
+    {
+      "query": "Backdrop setup in a home office, neutral tones, soft lighting, minimal distractions, no people.",
+      "source": "pexels",
+      "credit": "Photo by Alpha En on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\021-pexels.jpg"
+    },
+    {
+      "query": "Home office backdrop with a neutral gray wall, accent elements, and soft lighting.",
+      "source": "pexels",
+      "credit": "Photo by dp singh Bhullar on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\022-pexels.jpg"
+    },
+    {
+      "query": "Compact studio backdrop with taupe curtain, accent elements, and controlled lighting.",
+      "source": "pexels",
+      "credit": "Photo by Israyosoy S. on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\023-pexels.jpg"
+    },
+    {
+      "query": "Tight nook backdrop with deep beige paint, minimal accents, and controlled lighting.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\024-pexels.jpg"
+    },
+    {
+      "query": "Spare bedroom backdrop setup with a gray wall, accent elements, and controlled lighting.",
+      "source": "pexels",
+      "credit": "Photo by Travel with  Lenses on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\025-pexels.jpg"
+    },
+    {
+      "query": "workspace layout, desk with monitors and camera, soft lighting, neutral colors, no people",
+      "source": "pexels",
+      "credit": "Photo by Josh Sorenson on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\026-pexels.jpg"
+    },
+    {
+      "query": "workspace with a focus on monitor angles and reflections, soft lighting, no people",
+      "source": "pexels",
+      "credit": "Photo by Ron Lach on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\027-pexels.jpg"
+    },
+    {
+      "query": "workspace with bias lighting behind the monitor, soft glow, no people",
+      "source": "pexels",
+      "credit": "Photo by Suliman Sallehi on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\028-pexels.jpg"
+    },
+    {
+      "query": "workspace with camera positioned at eye level, soft lighting, no people",
+      "source": "pexels",
+      "credit": "Photo by Matheus Bertelli on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\029-pexels.jpg"
+    },
+    {
+      "query": "workspace with monitor hood and anti-glare film, soft lighting, no people",
+      "source": "pexels",
+      "credit": "Photo by Ron Lach on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\030-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a lux meter measuring light levels in a home office",
+      "source": "pexels",
+      "credit": "Photo by Doğan Alpaslan  Demir on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\032-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a calibration log on a desk in a home office",
+      "source": "pexels",
+      "credit": "Photo by Kampus Production on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\034-pexels.jpg"
+    },
+    {
+      "query": "compact Indian apartment scale, one window light, matte textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by dh tang on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\035-pexels.jpg"
+    },
+    {
+      "query": "compact Indian office scale, one window light, matte textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by ready made on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\037-pexels.jpg"
+    },
+    {
+      "query": "compact Indian studio scale, one window light, matte textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Sabir Khan Shourov on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\038-pexels.jpg"
+    },
+    {
+      "query": "A well-maintained home office workspace with neutral, matte surfaces, natural light control, and organized equipment.",
+      "source": "pexels",
+      "credit": "Photo by Josh Sorenson on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\039-pexels.jpg"
+    },
+    {
+      "query": "A seasonal calendar displayed on a desk with a backdrop of a well-lit workspace.",
+      "source": "pexels",
+      "credit": "Photo by Josh Sorenson on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\040-pexels.jpg"
+    },
+    {
+      "query": "A close-up of a matte fabric backdrop being gently cleaned with a microfiber cloth.",
+      "source": "pexels",
+      "credit": "Photo by Patrick on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\041-pexels.jpg"
+    },
+    {
+      "query": "A well-lit workspace with LED bulbs and a gray card positioned for testing.",
+      "source": "pexels",
+      "credit": "Photo by ThisIsEngineering on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\042-pexels.jpg"
+    },
+    {
+      "query": "A neatly organized folder on a desk with labeled reference photos and logs.",
+      "source": "pexels",
+      "credit": "Photo by Zulfugar Karimov on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\043-pexels.jpg"
+    },
+    {
+      "query": "interior of a modern Indian apartment with a focus on natural light, one window light, neutral matte fabrics, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\044-pexels.jpg"
+    },
+    {
+      "query": "interior of a Pune apartment with east-facing window light, neutral matte shades, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by DARKMODE CINEMA on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\045-pexels.jpg"
+    },
+    {
+      "query": "interior of a Bengaluru apartment with midday sunlight, neutral matte desk pad, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Sourabh on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\046-pexels.jpg"
+    },
+    {
+      "query": "interior of a Mumbai apartment with evening light, neutral matte curtains, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Andranik Paradyan on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\047-pexels.jpg"
+    },
+    {
+      "query": "neutral matte fabric swatches, natural light, workspace backdrop, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\048-pexels.jpg"
+    },
+    {
+      "query": "neutral matte fabric swatches, Pune apartment, natural light, workspace backdrop, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\049-pexels.jpg"
+    },
+    {
+      "query": "Mumbai apartment workspace, fabric selection, natural light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Charlotte May on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\051-pexels.jpg"
+    },
+    {
+      "query": "neutral matte fabrics, soft lighting, workspace setup, no reflections, natural light",
+      "source": "pexels",
+      "credit": "Photo by Josh Sorenson on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\052-pexels.jpg"
+    },
+    {
+      "query": "soft lighting, workspace setup, neutral backdrop, no reflections",
+      "source": "pexels",
+      "credit": "Photo by Hc Digital on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\053-pexels.jpg"
+    },
+    {
+      "query": "workspace with a neutral backdrop, natural light, organized equipment, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Samkit desai on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\055-pexels.jpg"
+    },
+    {
+      "query": "workspace with printed worksheet, natural light, organized equipment, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by WASSIM AHMED on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\056-pexels.jpg"
+    },
+    {
+      "query": "workspace with measurement tools, natural light, organized equipment, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\057-pexels.jpg"
+    },
+    {
+      "query": "workspace with grey card, natural light, organized equipment, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Sinai Lion on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\photos\\058-pexels.jpg"
+    }
+  ],
+  "figures": [
+    {
+      "spec_id": "D001",
+      "kind": "table",
+      "title": "Mid Tone Neutrals Often Land Between 30",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\figures\\D001.svg"
+    },
+    {
+      "spec_id": "D001",
+      "kind": "table",
+      "title": "Mid Tone Neutrals Often Land Between 30",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\figures\\D001.svg"
+    },
+    {
+      "spec_id": "D002",
+      "kind": "table",
+      "title": "Identify Quick Shifts Try Small Rotations, 5",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\figures\\D002.svg"
+    },
+    {
+      "spec_id": "D002",
+      "kind": "table",
+      "title": "Identify Quick Shifts Try Small Rotations, 5",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\figures\\D002.svg"
+    },
+    {
+      "spec_id": "D003",
+      "kind": "table",
+      "title": "Photography Standards Use An 18 Percent Gray",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\figures\\D003.svg"
+    },
+    {
+      "spec_id": "D004",
+      "kind": "table",
+      "title": "Mid, 20 To 45 Percent, Classic Grays",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\figures\\D004.svg"
+    },
+    {
+      "spec_id": "D007",
+      "kind": "table",
+      "title": "For Most Setups, Choose A Fabric Around",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\figures\\D007.svg"
+    },
+    {
+      "spec_id": "D006",
+      "kind": "table",
+      "title": "Pair That Backdrop With Low Sheen Furniture",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\figures\\D006.svg"
+    },
+    {
+      "spec_id": "D005",
+      "kind": "plan",
+      "title": "High, 50 To 70 Percent, Light Beiges",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\figures\\D005.svg"
+    },
+    {
+      "spec_id": "D008",
+      "kind": "elevation",
+      "title": "Comparing Blackout, Dim Out, And Acoustic Curtains",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\figures\\D008.svg"
+    },
+    {
+      "spec_id": "D009",
+      "kind": "elevation",
+      "title": "She Switched To A Taupe Curtain Around",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\figures\\D009.svg"
+    },
+    {
+      "spec_id": "D008",
+      "kind": "elevation",
+      "title": "Comparing Blackout, Dim Out, And Acoustic Curtains",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\figures\\D008.svg"
+    },
+    {
+      "spec_id": "D010",
+      "kind": "table",
+      "title": "Rotate Screens And Lights By Small Increments",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\figures\\D010.svg"
+    },
+    {
+      "spec_id": "D011",
+      "kind": "elevation",
+      "title": "Your Key Light At Roughly 30 To",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\figures\\D011.svg"
+    },
+    {
+      "spec_id": "D011",
+      "kind": "elevation",
+      "title": "Your Key Light At Roughly 30 To",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\figures\\D011.svg"
+    },
+    {
+      "spec_id": "D012",
+      "kind": "elevation",
+      "title": "The Fix Was To Keep The Key",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\figures\\D012.svg"
+    },
+    {
+      "spec_id": "D013",
+      "kind": "plan",
+      "title": "One Neutral Matte Backdrop Fabric, Light Gray",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\figures\\D013.svg"
+    },
+    {
+      "spec_id": "D015",
+      "kind": "table",
+      "title": "Two Compact Led Panels With Small Softboxes",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\figures\\D015.svg"
+    },
+    {
+      "spec_id": "D014",
+      "kind": "table",
+      "title": "Larger Neutral Matte Fabric, 8 To 10",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\figures\\D014.svg"
+    },
+    {
+      "spec_id": "D014",
+      "kind": "table",
+      "title": "Larger Neutral Matte Fabric, 8 To 10",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Glare Free Workstation\\figures\\D014.svg"
+    }
+  ]
+}

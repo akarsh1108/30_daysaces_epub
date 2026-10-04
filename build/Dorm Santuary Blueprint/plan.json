@@ -1,0 +1,2522 @@
+{
+  "slug": "dorm-santuary-blueprint",
+  "title": "Dorm Sanctuary Blueprint",
+  "subtitle": "",
+  "tagline": "A calmer sleep zone in a shared dorm room — no permanent mods required.",
+  "author": "Akarsh Priyadarshan",
+  "series": "30 Day Spaces",
+  "closing_headline": "Your next room starts here",
+  "closing_blurb": "This blueprint is for residence halls, hostels, PGs, and small shared bedrooms. Same series language: reversible first, housing rules first.",
+  "accent_hex": "#1E5F6B",
+  "units": "imperial",
+  "cover": {
+    "query": "dorm room, soft lighting, minimalist decor, neutral colors, no people, no text, no watermark",
+    "flux_prompt": "full-bleed shot of a serene dorm room with soft lighting and minimal decor",
+    "alt": "Dorm Sanctuary Blueprint",
+    "source": "pexels",
+    "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\000-pexels.jpg",
+    "credit": "Photo by Cup of  Couple on Pexels",
+    "ai_generated": false,
+    "provider_id": "pexels:7303672"
+  },
+  "designed_cover": false,
+  "chapters": [
+    {
+      "slug": "foundations-and-ground-rules",
+      "title": "Foundations And Ground Rules",
+      "intro": "This blueprint is for students living in shared dorm rooms, residence halls, hostels, PGs, and small shared bedrooms who want more privacy, better light control, less disruptive noise, and a calmer sleep zone without permanent modifications. City names such as Pune or Bengaluru are illustrations. The room is a dorm-style shared bedroom, not a 1BHK apartment tour. Dorm life can feel like a tug of war. You can still build a sanctuary in the room you have, with the rules you have, in one focused week.",
+      "opener": {
+        "query": "dorm room, soft lighting, minimalist decor, neutral colors, no people, no text, no watermark",
+        "flux_prompt": "full-bleed shot of a serene dorm room with soft lighting and minimal decor",
+        "alt": "A shared dorm bedroom with two beds, a desk, and a clear path, no people.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\000-pexels.jpg",
+        "credit": "Photo by Cup of  Couple on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:7303672"
+      },
+      "sections": [
+        {
+          "slug": "understanding-policies",
+          "title": "Who this is for, and the housing rules",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "dorm room handbook, highlighted text, soft lighting, minimalist decor, no people, no text, no watermark",
+            "flux_prompt": "shot of a student studying a handbook with highlighted sections on a desk, soft light filtering through a window",
+            "alt": "close-up of highlighted rules in a dorm handbook.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\002-pexels.jpg",
+            "credit": "Photo by Bushra Islam on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:39163895"
+          },
+          "scenario": "Ravi, a first-year in a Pune residence hall, highlights the handbook: no drilling, sprinkler clearance as the hall states, exits stay open.",
+          "principle": "Translate residence policies into practical options for your space.",
+          "body": [
+            "Today's output: housing type named (residence hall, hostel, PG, or other small shared bedroom) plus a highlighted rule list. This guide works for all of those. Apartment examples in older drafts were the same small shared bedroom problem — use 'room,' 'shared room,' and 'hall' as the default words.",
+            "Your blueprint at a glance: SLEEP profile → SIGHT layout → Privacy Stack → CALMR light → Noise strategy → R.E.S.T. agreement → CALM maintenance. Each named system is one layer, not a new religion. SIGHT means Shield the pillow, Isolate sleep from the walk, Guide one traffic path, Hide clutter, Threshold the bed. CALMR is Color, Angle, Layers, Micro-leaks, Ritual. R.E.S.T. is Respect, Expectations in writing, Shared quiet hours, Tune during exams. CALM is Clear surfaces, Arrange bedding, Lower stimuli, Maintain cables.",
+            "Policies vary by campus. Use the clearance your residence or housing authority specifies. Where they specify an eighteen-inch sprinkler keep-out, keep it. Where they specify a walkway width, keep that. Do not treat one campus number as a universal fire code. Never block exits, detectors, or vents. If you cannot drill, stick, hang, or install anything, skip to the zero-modification path later in this week — bed orientation, existing furniture, eye mask, earplugs, and light you already have still count."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Fire and exit clearances",
+              "caption": "Housing rules win. Example numbers are examples.",
+              "values": [
+                "Whatever the hall writes",
+                "If your hall uses that example",
+                "Never",
+                "Never",
+                "Never",
+                "If the hall states a width, keep it"
+              ],
+              "labels": [
+                "Sprinkler keep-out",
+                "An eighteen-inch example",
+                "Blocked exits",
+                "Covered smoke or CO detectors",
+                "Fabric on heaters or vents",
+                "Walkway for egress"
+              ],
+              "minimum": null,
+              "spec_id": "D001",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D001.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Treating a Pune 1BHK anecdote as if this were not a dorm book.",
+          "checklist": [
+            "Name housing type",
+            "Highlight hall rules",
+            "Write the blueprint order on one line"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "setting-a-budget",
+          "title": "Setting a Budget",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "dorm room budget planning, soft lighting, minimalist decor, no people, no text, no watermark",
+            "flux_prompt": "shot of a student with a notebook and calculator, planning a budget in a cozy dorm room",
+            "alt": "close-up of a budget planner with notes and calculations.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\000-pexels.jpg",
+            "credit": "Photo by Cup of  Couple on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7303672"
+          },
+          "scenario": "Aditi in a Bengaluru PG that cannot be drilled picks the rupee starter tier so she does not buy a canopy she is not allowed to hang.",
+          "principle": "Establish a clear spending tier to prioritize high-impact items.",
+          "body": [
+            "Today's output: one rupee tier. Primary money system is Indian rupees. Starter about one thousand rupees. Balanced about three thousand. Complete about seven thousand. Dollar labels in older drafts are retired. If you live elsewhere, treat the tiers as low / medium / high and convert locally.",
+            "Starter: eye mask, earplugs, felt pads, cable wraps, a clip-on warm lamp if an outlet exists, a loose draft-stopper only if the door hardware allows it without install. Balanced: add a tension rod and curtain if housing allows, a runner, a compact sound machine. Complete: add a folding screen if allowed, a better blackout liner, a caddy — still no acoustic studio build.",
+            "Do not buy first: expensive acoustic panels, elaborate canopy systems, oversized furniture, extra decorative lighting, bulky screens, strong fragrance. Solve the biggest disturbance first. If housing bans rods and adhesive, stay on Starter and the zero-modification list."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Do not buy these first",
+              "caption": "The biggest irritant first. A canopy is not a starter kit.",
+              "values": [
+                "They do not soundproof a hall",
+                "Fire and heat risk",
+                "No floor left",
+                "Glare and clutter",
+                "They become a sail and a trip",
+                "Asthma and roommate veto"
+              ],
+              "labels": [
+                "Studio acoustic panels",
+                "Elaborate bed tents",
+                "Oversized furniture",
+                "Extra decorative lighting",
+                "Bulky screens",
+                "Strong fragrance products"
+              ],
+              "minimum": null,
+              "spec_id": "D024",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D024.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Mixing fifty dollars with one thousand rupees and buying a tent anyway.",
+          "checklist": [
+            "Pick Starter, Balanced, or Complete in rupees",
+            "List three high-impact items",
+            "Cross off the do-not-buy-first list"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "roommate-collaboration",
+          "title": "Roommate Collaboration",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "dorm room conversation, soft lighting, minimalist decor, no people, no text, no watermark",
+            "flux_prompt": "shot of two students discussing plans in a cozy dorm room with soft lighting",
+            "alt": "close-up of two students' hands taking notes during a discussion.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\004-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5158945"
+          },
+          "scenario": "Vikram and Neha in a Mumbai hostel twin agree on quiet hours before anyone hangs a curtain.",
+          "principle": "Engage in respectful conversations with roommates to ensure everyone’s needs are met.",
+          "body": [
+            "Today's output: a 15-minute talk scheduled, plus an escalation ladder if the roommate refuses.",
+            "Ask in a calm moment. Offer reciprocal quiet and lamp angle. Write touchpoints: quiet hours, guest notice, overhead cutoff, headphone expectation.",
+            "If they refuse: Step 1 — direct conversation. Step 2 — one written compromise. Step 3 — a one-page agreement. Step 4 — RA or residence staff as a formal resource, not a punishment. Step 5 — the room-change process if your hall has one. Skip steps only if you are unsafe; then go to staff first."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "When a roommate will not cooperate",
+              "caption": "The RA is the next formal resource, not a threat you brandish on night one.",
+              "values": [
+                "Ask once, calmly",
+                "One written middle",
+                "The worksheet in this book",
+                "Residence staff",
+                "If the hall offers it"
+              ],
+              "labels": [
+                "Direct conversation",
+                "Compromise",
+                "Written agreement",
+                "RA or housing office",
+                "Room-change process"
+              ],
+              "minimum": null,
+              "spec_id": "D021",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D021.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Not discussing changes with your roommate can lead to misunderstandings and conflict.",
+          "checklist": [
+            "Schedule the talk",
+            "Write the five-step ladder",
+            "Do not surprise-install a curtain"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "measuring-and-mapping",
+          "title": "Measuring and Mapping",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "dorm room measurements, soft lighting, minimalist decor, no people, no text, no watermark",
+            "flux_prompt": "shot of a student measuring a room with a tape measure and sketching a layout",
+            "alt": "close-up of a measuring tape and a sketch of a room layout.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\005-pexels.jpg",
+            "credit": "Photo by Magda Ehlers on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:38253346"
+          },
+          "scenario": "Sita in a Pune residence-hall room measures bed, door swing, and the path a person with a brace would need.",
+          "principle": "Accurate measurements and mapping help identify areas needing improvement.",
+          "body": [
+            "Today's output: a sketch with door, window, beds, desks, path, and pinch points. Adapt the blueprint to your mobility and sensory needs.",
+            "Measure bed, wall height, window, outlets, door swing. Draw traffic. Mark light and noise leaks. If you have a mobility limit, a temporary injury, low vision, or sensory sensitivity: keep a wider path where you need it; put chargers and switches in reach; kill trip cords; skip furniture that needs a two-person lift; choose low-effort storage; pick lighting you can actually use.",
+            "If you have almost no floor: 1 bed orientation, 2 walking path, 3 light control, 4 noise control, 5 vertical storage, 6 privacy screen only if it still leaves a path, 7 cables, 8 décor last."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Neglecting to measure can lead to poor placement of items and ineffective solutions.",
+          "checklist": [
+            "Sketch the room",
+            "Mark a path you can actually use",
+            "Star the tiny-room priority if the floor is gone"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "assess-your-sleep-profile-and-room",
+      "title": "Assess Your Sleep Profile And Room",
+      "intro": "Creating a calm sleep zone in a shared space requires precise assessment and collaboration. This chapter guides you through evaluating your sleep needs and room dynamics to implement effective changes.",
+      "opener": {
+        "query": "A serene bedroom setup with soft lighting, a neatly made bed, and calming textures, emphasizing a peaceful sleep environment.",
+        "flux_prompt": "A full-bleed shot of a well-organized bedroom with a focus on a cozy bed, soft textiles, and a warm lamp, showcasing a tranquil atmosphere.",
+        "alt": "A shared dorm or hostel bedroom, no people.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\006-pexels.jpg",
+        "credit": "Photo by Castorly Stock on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:3872927"
+      },
+      "sections": [
+        {
+          "slug": "start-with-a-three-night-sleep-profile",
+          "title": "Start With A Three Night Sleep Profile",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "A cozy bedroom corner with a neatly made bed, soft lighting, and a sleep log on a bedside table, inviting a sense of calm.",
+            "flux_prompt": "A close-up shot of a bedside table with a sleep log, a warm lamp, and a calming decorative element, emphasizing a peaceful ambiance.",
+            "alt": "An inviting bedroom with soft textures and warm lighting, showcasing a serene sleep environment.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\007-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7749046"
+          },
+          "scenario": "Ravi in a Pune residence hall logs three nights of hallway light and roommate noise.",
+          "principle": "Understanding your sleep profile is crucial for identifying what affects your rest.",
+          "body": [
+            "Today's output: three filled rows. Copy the table. Adults often need about seven hours; dorms steal that. Remove the worst irritant, not every irritant.",
+            "Each night: bedtime, wake, main disturbance, clock time, severity one to five, solution you will try. Also rate calm before bed and on waking, out of ten.",
+            "The biggest repeating pattern is Day 2's job, not a shopping spree."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Three-night sleep profile",
+              "caption": "Empty cells mean you guessed. Fill them in the room.",
+              "values": [
+                "Bedtime / wake / disturbance",
+                "Bedtime / wake / disturbance",
+                "Bedtime / wake / disturbance",
+                "Out of ten / out of ten",
+                "The one you will fix first"
+              ],
+              "labels": [
+                "Night one",
+                "Night two",
+                "Night three",
+                "Calm before bed / on waking",
+                "Main pattern"
+              ],
+              "minimum": null,
+              "spec_id": "D002",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D002.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Failing to log consistently can lead to missing critical patterns that affect sleep.",
+          "checklist": [
+            "Print three rows",
+            "Log tonight",
+            "Circle the pattern on night three"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "profile-your-stimuli-thresholds",
+          "title": "Profile Your Stimuli Thresholds",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "A serene bedroom with layered curtains, a warm lamp, and soft textiles, illustrating a well-considered sleep environment.",
+            "flux_prompt": "A beautifully styled bedroom corner with a focus on light control solutions, showcasing layered curtains and a warm glow from a bedside lamp.",
+            "alt": "A tranquil bedroom setting with soft textures and warm lighting, emphasizing a peaceful atmosphere.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\008-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6444972"
+          },
+          "scenario": "Anita in a Bengaluru PG that cannot be drilled chooses blackout vs warm diffusion — fragrance stays off by default.",
+          "principle": "Identifying your thresholds for light, sound, and scent helps tailor your sleep environment effectively.",
+          "body": [
+            "Today's output: light goal (blackout or diffusion), sound mask choice, scent policy written as fragrance-free unless everyone agrees.",
+            "Fragrance-free is the default. Optional fragrance only with explicit roommate agreement and where housing rules permit. Asthma, migraine, and allergy are vetoes. Do not run plug-in warmers, reeds, or lavender sprays as a 'calm' default.",
+            "Headphones and masks are tools, not a license for loud overnight volume."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A reed diffuser 'for everyone' in a twin room.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "map-room-traffic-and-sightlines",
+          "title": "Map Room Traffic And Sightlines",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "A detailed sketch of a room layout with marked pathways and furniture placements, highlighting privacy considerations.",
+            "flux_prompt": "An artistic rendering of a room layout plan, showcasing marked pathways and furniture arrangements for optimal sleep.",
+            "alt": "A clean, organized room layout sketch emphasizing privacy and movement pathways.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\009-pexels.jpg",
+            "credit": "Photo by Tima Miroshnichenko on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6615235"
+          },
+          "scenario": "Vikram, living in a Mumbai hostel room with one window, sketches his room layout to identify pathways and sightlines that disrupt his sleep.",
+          "principle": "Mapping your room's layout reveals opportunities to enhance privacy and reduce disturbances.",
+          "body": [
+            "Draw a simple plan of your room. Mark the door, beds, desks, closets, window, outlets, and vents. Add arrows for movement, such as door to bed, desk to closet, and window to desk. Highlight where pathways cross near your head. If the door opens with a direct line to your pillow, that sightline invites light and noise.",
+            "Note desk lamps that point toward sleep zones. Create two alternate layouts on paper where heads move out of direct door view, desks are angled to aim light at walls, and a freestanding rack or screen acts as a buffer. This sketching takes ten minutes and reveals privacy opportunities before you lift anything."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Path and pillow",
+              "caption": "Use the walkway width your hall requires. An example twenty-four-inch path is only an example.",
+              "values": [
+                "Housing rule, not a catalog",
+                "Can you leave without moving a chair",
+                "Not across the pillow",
+                "Cords off the walk"
+              ],
+              "labels": [
+                "Egress path",
+                "Door full open",
+                "Traffic vs head of bed",
+                "Trip lines"
+              ],
+              "minimum": null,
+              "spec_id": "D015",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D015.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Neglecting to map your room can result in missed opportunities for improving your sleep environment.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "run-a-roommate-alignment-survey",
+          "title": "Run A Roommate Alignment Survey",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "A cozy living space with two students discussing their schedules, surrounded by soft lighting and calming decor, emphasizing collaboration.",
+            "flux_prompt": "A warm, inviting shot of two students reviewing their schedules in a well-decorated room, highlighting a cooperative atmosphere.",
+            "alt": "A serene study corner with a focus on collaboration and understanding between roommates.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\010-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7128660"
+          },
+          "scenario": "Sita and her roommate in a Pune dorm conduct a quick survey to align their study and sleep schedules, ensuring a peaceful coexistence.",
+          "principle": "Aligning with roommates multiplies your gains in creating a calm sleep environment.",
+          "body": [
+            "Today's output: one filled roommate worksheet, not a paragraph of good intentions.",
+            "Fill: my sleep window, your sleep window, quiet hours, overhead light cutoff, guest notice, headphone expectation, curtain or privacy expectation, what happens during exams.",
+            "If they will not fill it, use the escalation ladder from Day 3 of Foundations."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Roommate agreement worksheet",
+              "caption": "One page. Blank lines live in your notebook if the figure is tight.",
+              "values": [
+                "Write both",
+                "Write both",
+                "Clock range",
+                "Clock",
+                "Hours of notice",
+                "On or off after quiet start",
+                "What may hang, if anything",
+                "Exam weeks"
+              ],
+              "labels": [
+                "My sleep window",
+                "Your sleep window",
+                "Quiet hours",
+                "Overhead light cutoff",
+                "Guest notice",
+                "Headphone expectation",
+                "Curtain / privacy",
+                "During exams"
+              ],
+              "minimum": null,
+              "spec_id": "D020",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D020.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Ignoring roommate preferences can lead to conflicts and disturbances during sleep.",
+          "checklist": [
+            "Print the worksheet",
+            "Fill your column",
+            "Leave theirs for the talk"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "layout-optimization-and-zone-planning",
+      "title": "Layout Optimization And Zone Planning",
+      "intro": "Optimizing your room layout is the quickest way to enhance your living space. By strategically placing furniture, you can control light, sound, and movement, creating a calm environment that supports rest and productivity.",
+      "opener": {
+        "query": "interior of a small Indian apartment, well-organized living space, natural light from one window, soft textures, minimal clutter, magazine styling",
+        "flux_prompt": "full-bleed image of a well-optimized small room layout with furniture arranged for optimal flow and light control",
+        "alt": "A shared dorm or hostel bedroom, no people.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\011-pexels.jpg",
+        "credit": "Photo by Andranik Paradyan on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:38323542"
+      },
+      "sections": [
+        {
+          "slug": "understanding-layout-challenges-in-shared-spaces",
+          "title": "Understanding Layout Challenges in Shared Spaces",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "cozy corner of a shared bedroom with a bed shielded from light, soft textures, warm lighting, no people",
+            "flux_prompt": "image of a shared bedroom corner with a bed shielded by a curtain, creating a calm space",
+            "alt": "calm, inviting space with soft lighting and organized furniture",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\012-pexels.jpg",
+            "credit": "Photo by Ron Lach on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:10130817"
+          },
+          "scenario": "In a shared hostel room in Pune, resident Priya often feels disturbed by the light that floods her bed from the hallway when her roommate enters. This constant exposure disrupts her sleep, making her feel on display.",
+          "principle": "Effective layout can minimize disturbances in shared rooms.",
+          "body": [
+            "Shared rooms often face issues like uncontrolled glare, messy pathways, and zone confusion. For Priya, the door's position directly across from her bed means that every time her roommate enters, bright light hits her pillow, signaling morning even when it’s still night.",
+            "To combat this, Priya can use the SIGHT framework. By shielding her bed with a freestanding screen or curtain that intercepts light, she can create a more restful environment. Additionally, she should aim to minimize pathways that cross near her head, which can be achieved by rearranging furniture to create clear walking paths around her sleep zone.",
+            "Visual clutter can also add to the stress in shared spaces. By using bed skirts and storage baskets, Priya can conceal items that might otherwise distract her visually, allowing her nervous system to register less demand and more calm."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "There Is A Pathway At Least 24",
+              "caption": "Ensure there is a pathway at least 24 inches wide for egress.",
+              "values": [
+                "24 inch"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D003",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D003.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Ignoring the impact of light from doors and windows can lead to disrupted sleep.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "applying-the-sight-framework",
+          "title": "Applying the SIGHT Framework",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "study area in a shared room with organized desks, warm lighting, and minimal clutter",
+            "flux_prompt": "image of a well-organized study area in a shared room with desks facing walls and warm lighting",
+            "alt": "study area with focused lighting and organized workspace",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\013-pexels.jpg",
+            "credit": "Photo by Lisa Fotios on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:1277026"
+          },
+          "scenario": "In a Bengaluru rental, Rohan struggles with his desk lamp creating glare on his roommate’s bed. They both need to study and sleep without disturbing each other.",
+          "principle": "SIGHT is five letters, in order, on one shared bedroom.",
+          "body": [
+            "Today's output: each SIGHT letter ticked on your sketch.",
+            "S — Shield the pillow from the door and from lamps. I — Isolate the sleep zone from the main walk. G — Guide one traffic path. H — Hide cables and bins. T — Threshold the bed with a rug, skirt, or allowed screen — never a sealed tent.",
+            "Rohan in a Bengaluru PG aims the desk lamp at the wall, not the other pillow. A runner marks the path. Clips hide cords. That is SIGHT. It is not a second book."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Failing to shield light sources can lead to constant disturbances for roommates.",
+          "checklist": [
+            "Write the five letters on the sketch",
+            "Aim lamps at walls",
+            "Keep one path"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "implementing-room-layout-templates",
+          "title": "Implementing Room Layout Templates",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "cozy shared bedroom with beds and desks arranged for optimal flow, warm lighting, no clutter",
+            "flux_prompt": "image of a shared bedroom with beds and desks arranged according to a template, creating a calm space",
+            "alt": "shared bedroom layout with clear zones and organized furniture",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\014-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5137980"
+          },
+          "scenario": "Aditi in a Mumbai hostel twin picks Type B and draws it before buying a screen.",
+          "principle": "Using layout templates can streamline the process of optimizing shared spaces.",
+          "body": [
+            "Today's output: your type letter and a drawn path. The plug-and-play chapter repeats the same five diagrams as shopping tools — do not invent a sixth family.",
+            "Type A rectangular: door on the short wall; path along the long wall; bed head on the far wall; desk at the window; screen at the foot if allowed. Type B square shared: beds on adjacent walls, heads off the door line; desks in opposite corners; lamps at walls; low screen between beds only if airflow and egress stay. Type C bed opposite door: rotate or screen the door side first; do not block the swing. Type D window beside bed: control that window's glare before décor; keep the desk lamp off the glass bounce toward a pillow. Type E almost no floor: bed, path, light, noise, then stop shopping.",
+            "For each type the order is bed → desk → screen → window → door → traffic path → privacy layer. Housing rules can delete the screen."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Type A — rectangular room",
+              "caption": "Bed, then desk, then optional screen. Door swing stays free.",
+              "values": [
+                "Short-wall entry",
+                "Along the long wall",
+                "Head on the far wall",
+                "At the window if it exists",
+                "Foot of bed, if allowed",
+                "Not across the pillow",
+                "Curtain or rack only if rules allow"
+              ],
+              "labels": [
+                "Door",
+                "Traffic path",
+                "Bed",
+                "Desk",
+                "Screen",
+                "Window glare",
+                "Privacy layer"
+              ],
+              "minimum": null,
+              "spec_id": "D008",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D008.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Overstuffing the sleep zone with furniture can lead to clutter and discomfort.",
+          "checklist": [
+            "Circle A B C D or E",
+            "Draw bed-desk-path",
+            "Delete any piece that blocks the door"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "rearranging-your-space-effectively",
+          "title": "Rearranging Your Space Effectively",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "organized bedroom with marked tape outlines on the floor, warm lighting, no clutter",
+            "flux_prompt": "image of a bedroom with painter's tape outlining proposed furniture positions, creating a calm space",
+            "alt": "bedroom with clear outlines for furniture arrangement",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\015-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8146209"
+          },
+          "scenario": "In a Pune residence-hall room, Riya wants to rearrange her room to create a more restful environment without heavy lifting.",
+          "principle": "A systematic approach to rearranging can minimize effort and maximize results.",
+          "body": [
+            "Riya can follow a simple sequence to rearrange her room in one afternoon. She should start by marking the proposed locations for her bed and desk with painter's tape. This allows her to visualize the new layout and check sightlines from her pillow before moving heavy furniture.",
+            "Next, she should start with lighter items like chairs and small shelves. This will help her get a feel for the new flow without the strain of heavy lifting. Once the lighter items are in place, she can shift her desk according to the chosen template, ensuring that lamps are turned toward walls to minimize glare.",
+            "Finally, Riya can reposition her bed with help, adding felt pads to the legs to protect her floors. After moving everything, she should test the new layout by lying down and checking sightlines, making adjustments as necessary."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Mark Before You Move: Use painter's tape to outline proposed locations for beds, desks, and screens.",
+              "minutes": null
+            },
+            {
+              "text": "Start Light: Move chairs, carts, and small shelves first to open space without heavy lifting.",
+              "minutes": null
+            },
+            {
+              "text": "Shift Desks Next: Place desks according to your template, turn lamps toward walls, and plug in to confirm reach without crossing paths with cables.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Not testing sightlines before committing to a new layout can lead to discomfort.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "key-takeaways-for-optimizing-layout",
+          "title": "If this is your problem",
+          "day_label": "Day 5",
+          "hero": {
+            "query": "organized shared room with clear zones and pathways, warm lighting, no clutter",
+            "flux_prompt": "image of a shared room with defined zones and clear pathways, creating a calm space",
+            "alt": "shared room layout with clear zones and organized furniture",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\016-pexels.jpg",
+            "credit": "Photo by Huy Phan on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:30386982"
+          },
+          "scenario": "In a shared room in Bengaluru, two students want to ensure their layout supports both study and rest effectively.",
+          "principle": "Understanding key takeaways can help maintain a calm and functional living space.",
+          "body": [
+            "Today's output: one symptom mapped to one next move. Later chapters are tools, not a re-pitch of SIGHT.",
+            "Light hits pillow → lamp angle → allowed screen → curtain → eye mask. Hallway noise → door gap → draft stopper if allowed → masking at low volume → agreement. Room feels exposed → bed orientation → lateral screen → curtain. Clutter → bedside reset → cables → storage. Hot → less enclosure → preserve fan or AC path → breathable layers. Tiny floor → the eight-step priority from measuring day.",
+            "Accessibility: wider path, reachable chargers, no hero lifting, lighting you can use."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Symptom to next move",
+              "caption": "One problem. One move. Then stop shopping.",
+              "values": [
+                "Angle, then screen, then mask",
+                "Gap, then low mask, then talk",
+                "Turn the bed, then a side layer",
+                "Reset, then cables",
+                "Open the cocoon, keep airflow",
+                "Bed, path, light, noise"
+              ],
+              "labels": [
+                "Light on the pillow",
+                "Hallway noise",
+                "Feels exposed",
+                "Feels cluttered",
+                "Feels hot",
+                "Almost no floor"
+              ],
+              "minimum": null,
+              "spec_id": "D023",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D023.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Neglecting safety measures can lead to hazards in shared spaces.",
+          "checklist": [
+            "Name the symptom",
+            "Do only the first move",
+            "Skip décor"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "privacy-layering-without-damage",
+      "title": "Privacy Layering Without Damage",
+      "intro": "Transform your shared space into a personal sanctuary using non-invasive methods to enhance privacy and comfort. This chapter guides you through layering techniques that create a calm, cocooning environment without the need for drilling or permanent fixtures.",
+      "opener": {
+        "query": "A serene bedroom setup showcasing layered privacy solutions in a compact Indian apartment, soft natural light filtering through curtains, textures of linen and wood, no people, no text.",
+        "flux_prompt": "A full-bleed shot of a cozy bedroom with a lofted bed, featuring layered privacy solutions like curtains and a bed tent, soft light illuminating the space.",
+        "alt": "A shared dorm or hostel bedroom, no people.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\017-pexels.jpg",
+        "credit": "Photo by Natalia Walusiak on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:14043671"
+      },
+      "sections": [
+        {
+          "slug": "the-base-layer-calm-starts-at-the-ground",
+          "title": "The Base Layer, Calm Starts At The Ground",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "A close-up of a soft rug and bed skirt in a cozy bedroom, natural light creating a warm ambiance, no people, no text.",
+            "flux_prompt": "A shot focusing on the bed area with a soft rug and a neatly tucked bed skirt, highlighting the calming foundation.",
+            "alt": "A detail shot of the bed skirt concealing storage underneath.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\018-pexels.jpg",
+            "credit": "Photo by Diana ✨ on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:28513849"
+          },
+          "scenario": "In a shared hostel room in Pune, Riya has a bed positioned directly across from the door, making her feel exposed. She decides to orient her bed to create a more private space.",
+          "principle": "Orient your bed to minimize direct sightlines and create a calming threshold.",
+          "body": [
+            "Today's output: bed turned so the head is not a door spotlight. If you cannot install anything, this orientation plus an eye mask is still the base layer.",
+            "Lay a soft rug along the approach to your bed. This not only absorbs foot noise but also signals a threshold, creating a more inviting atmosphere.",
+            "Install a bed skirt to conceal any bins or boxes under the bed. Visual clutter can keep your brain alert, so a skirt or neatly tucked blanket can help remove that stimulus."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Overlooking the importance of a calming foundation can lead to a restless environment.",
+          "checklist": [
+            "Orient bed away from direct sightlines",
+            "Lay down a soft rug",
+            "Install a bed skirt to hide clutter"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "the-mid-layer-strategic-screening-beats-full-closure",
+          "title": "The Mid Layer, Strategic Screening Beats Full Closure",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "A stylish garment rack with curtains draped elegantly, soft light filtering through, no people, no text.",
+            "flux_prompt": "A shot of the garment rack with curtains, showcasing the strategic screening in a cozy bedroom.",
+            "alt": "A close-up of the curtain panel blocking light from a street lamp.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\019-pexels.jpg",
+            "credit": "Photo by Dariusz Siniarski on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:31517344"
+          },
+          "scenario": "In a shared flat in Bengaluru, Arjun feels the glare from a street lamp directly hitting his bed. He decides to add curtains to create a more private and restful environment.",
+          "principle": "Use lateral screening to reduce direct lines of sight without fully enclosing the space.",
+          "body": [
+            "Curtains on tension rods can be installed inside window frames or between sturdy furniture. A rod holds a panel that blocks direct views and glare, making it an effective solution for privacy.",
+            "For wider spans, consider using a closet tension rod. Gradually increase the tension and test it with a light tug to ensure stability.",
+            "Freestanding frames can also be used. A garment rack can serve as a curtain stand, weighted with books or a water-filled jug hidden in a tote for stability.",
+            "If housing bans rods, hooks, and racks, you are on the zero-modification path: turn the bed, use a duvet as a visual edge on the mattress only, and skip hanging."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Using heavy curtains can create a claustrophobic feeling instead of a calming one.",
+          "checklist": [
+            "Install curtains on tension rods",
+            "Consider a freestanding frame for flexibility",
+            "Ensure stability of the curtain setup"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "the-top-layer-canopy-without-compromise",
+          "title": "The Top Layer, Canopy Without Compromise",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "A cozy bed tent setup with mesh windows in a compact bedroom, soft light creating a serene atmosphere, no people, no text.",
+            "flux_prompt": "A full view of the bed tent with mesh windows, highlighting the cozy and breathable setup.",
+            "alt": "A close-up of the mesh window of the bed tent.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\020-pexels.jpg",
+            "credit": "Photo by Kader Azra Namuslu on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:35013667"
+          },
+          "scenario": "In a Mumbai hostel room with one window, Neha wants to create a cozy atmosphere around her bed without sacrificing airflow. She opts for a bed tent with mesh windows.",
+          "principle": "Do not build an enclosed sleeping compartment.",
+          "body": [
+            "Today's output: a no-go list for overhead fabric, plus a heat check.",
+            "Residence-hall rules first. Never obstruct sprinklers. Never block exits. Do not cover smoke or carbon-monoxide detectors. Do not place fabric against heaters. Keep ventilation. Do not create an enclosed sleeping compartment. Do not use unstable overhead structures. Flame-resistant labels are not permission to tent a bed into a sealed box.",
+            "When the room is too hot: do not fully enclose the bed; preserve fan or AC airflow; do not block vents; use breathable fabrics; skip heavy layered curtains that trap heat. A mesh window is not a license to zip shut all night in a warm hall."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A zipped bed tent under a sprinkler because the label said flame resistant.",
+          "checklist": [
+            "Walk sprinklers and detectors",
+            "Leave an exit you can take in the dark",
+            "If it is hot, skip the tent"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "implementation-strategy",
+          "title": "Implementation Strategy",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "A workspace with painter's tape marking positions for curtains and a sketch of the planned setup, natural light illuminating the space, no people, no text.",
+            "flux_prompt": "A shot of the workspace with planning materials and marked positions, showcasing the preparation phase.",
+            "alt": "A close-up of the painter's tape marking on the wall.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\021-pexels.jpg",
+            "credit": "Photo by Ivan Chumak on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:39178046"
+          },
+          "scenario": "Siddharth, living in a Pune residence-hall room, plans to implement his privacy layering strategy over a week. He starts by measuring and planning his layout.",
+          "principle": "A structured approach ensures effective implementation of privacy layers.",
+          "body": [
+            "Begin by assessing and measuring the priority side to screen, usually the door-facing side or the window. Measure spans to the nearest quarter inch and record height limits for rods and racks.",
+            "Use painter's tape to mark rod positions and temporarily drape fabric to preview the setup. Move pieces until you achieve effective coverage while still allowing air to flow.",
+            "Sketch out your Privacy Stack, including base adjustments, mid panels, and top canopy or tent. This visual plan will guide your installation process."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Rushing the planning phase can lead to ineffective setups that do not meet privacy needs.",
+          "checklist": [
+            "Measure spans and record height limits",
+            "Use painter's tape for previewing positions",
+            "Sketch out the Privacy Stack layout"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "light-control-for-restful-nights",
+      "title": "Light Control For Restful Nights",
+      "intro": "This chapter trains the light in your room to serve your rhythms. You will learn how to block intrusive beams, warm the color temperature, and place dimmable lamps that respect both you and your roommate. You will leave with a plan you can set up in a single hour, plus a weekly routine that keeps your sleep zone calm.",
+      "opener": {
+        "query": "dimly lit dorm room with layered window treatments, soft textures, and a warm lamp",
+        "flux_prompt": "full-bleed shot of a cozy dorm room at night, showcasing layered curtains and a warm bedside lamp",
+        "alt": "A shared dorm or hostel bedroom, no people.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\022-pexels.jpg",
+        "credit": "Photo by Optical Chemist on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:36650038"
+      },
+      "sections": [
+        {
+          "slug": "understanding-the-impact-of-light",
+          "title": "Understanding the Impact of Light",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "dimly lit room with a warm lamp and layered curtains",
+            "flux_prompt": "a cozy corner of a dorm room with a warm lamp and soft textures",
+            "alt": "a view of a desk with a lamp angled away from the bed",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\022-pexels.jpg",
+            "credit": "Photo by Optical Chemist on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:36650038"
+          },
+          "scenario": "In a Pune residence-hall room, Riya struggles to sleep due to her roommate's bright study lamp shining directly at her pillow. The overhead lights are harsh, and the streetlight outside seeps through the window, disrupting her rest.",
+          "principle": "Light brightness and color drive your circadian clock.",
+          "body": [
+            "Dorm lighting is designed for maximum visibility, not rest. Overhead fixtures blast cool, bright light, while windows spill light at the wrong times. This can be particularly disruptive in shared spaces, where one person's task lamp can become another's midnight sun. Without a light strategy, your sleep zone never feels private, and your rest suffers.",
+            "The science is straightforward: bright, cool light tells your brain it is daytime, while warm, low light signals evening. When light is uncontrolled, melatonin production is delayed, resulting in poor sleep quality. Therefore, establishing a light control strategy is essential for restful nights, especially in shared living situations.",
+            "By implementing the CALMR Light Method, you can reshape the light in your room to respect both your circadian rhythm and your roommate's needs. This method focuses on color, angle, layers, micro leaks, and ritual to create a calm sleep environment."
+          ],
+          "figures": [
+            {
+              "kind": "plan",
+              "title": "For Wind Down, A Small Lamp At",
+              "caption": "For wind down, a small lamp at 200 to 400 lumens is plenty.",
+              "values": [
+                "200 to 400 lumens"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D004",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D004.svg"
+            },
+            {
+              "kind": "plan",
+              "title": "For Desk Work, 450 To 800 Lumens",
+              "caption": "For desk work, 450 to 800 lumens, angled away from beds, usually works.",
+              "values": [
+                "450 to 800 lumens"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D005",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D005.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Ignoring the impact of bright, cool lighting on your sleep quality.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "implementing-the-calmr-light-method",
+          "title": "Implementing the CALMR Light Method",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "a well-lit study area with lamps angled away from the bed",
+            "flux_prompt": "a study corner in a shared room with a lamp aimed at the wall",
+            "alt": "a close-up of a lamp with a warm bulb, positioned thoughtfully",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\024-pexels.jpg",
+            "credit": "Photo by Mitchell Luo on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:11773474"
+          },
+          "scenario": "In a Bengaluru rental, Arjun and his roommate have a wall you are not allowed to drill that limits their furniture arrangement. They need to find a way to control the light without compromising their study space.",
+          "principle": "Use the CALMR Light Method to design the light in your dorm.",
+          "body": [
+            "The CALMR Light Method consists of five key components: Color, Angle, Layers, Micro Leaks, and Ritual. Begin by shifting your bulbs to warm tones in the evening, ideally 2700K or lower, while reserving neutral 3000K to 4000K for morning or focused daytime tasks. This simple adjustment can significantly enhance your sleep quality.",
+            "Next, consider the angle of your light sources. Direct beams away from faces and pillows by aiming light down or toward walls, allowing it to bounce and soften. This reduces glare and creates a more restful environment. In Arjun's case, he can position his desk lamp to illuminate the wall instead of his roommate's pillow.",
+            "Layering is crucial for managing natural light. Use window blackout plus sheer diffusers for day and night flexibility. This allows you to control the amount of light entering your room without making permanent changes to the space, which is especially important in rented accommodations."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Failing to adjust the angle of lamps, which can lead to glare and disrupted sleep.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "creating-a-light-ritual",
+          "title": "Creating a Light Ritual",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "a cozy bedroom with warm lighting and sheer curtains",
+            "flux_prompt": "a serene bedroom corner with a bedside lamp and open curtains",
+            "alt": "a bedside table with a small lamp and a soft glow",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\025-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7214333"
+          },
+          "scenario": "In a Mumbai flat, Neha finds it challenging to wake up early due to the bright streetlights outside her window. She wants to establish a light ritual that helps her transition from night to morning smoothly.",
+          "principle": "Create a repeatable schedule for light use.",
+          "body": [
+            "Establishing a light ritual is essential for maintaining a calm sleep environment. After 9 p.m., switch to warm lamps on low dim settings and avoid using overhead lights. This signals to your brain that it is time to wind down. Neha can implement this by using a small bedside lamp with a 2700K bulb, ensuring that the light is soft and inviting.",
+            "In the morning, welcome diffused daylight to cue wakefulness. Neha can open her sheer diffusers to allow natural light to fill her room gently. This gradual exposure to light helps regulate her circadian rhythm and prepares her for the day ahead. Additionally, a brief morning blast at 4000K can mimic a bright day and help her perk up, but it should be kept short and indirect.",
+            "Finally, practice your evening ritual for three nights to refine the process. Adjust angles as needed to ensure that light does not disturb your roommate. By rehearsing this routine, Neha can create a predictable environment that supports her sleep and wakefulness."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Neglecting to establish a consistent light ritual, which can lead to erratic sleep patterns.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "noise-softening-and-sound-strategy",
+      "title": "Noise Softening And Sound Strategy",
+      "intro": "Dorm life hums with energy, which is exciting until that energy slips through your door at midnight and lands in your pillow. This chapter gives you a plan to quiet the chaos using soft materials, smart masking, and simple etiquette that respects everyone in the room.",
+      "opener": {
+        "query": "dorm room with soft textiles, ambient lighting, and sound-absorbing elements",
+        "flux_prompt": "full-bleed shot of a cozy dorm room with soft furnishings and a sound machine",
+        "alt": "A shared dorm or hostel bedroom, no people.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\026-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:6186819"
+      },
+      "sections": [
+        {
+          "slug": "identifying-noise-sources",
+          "title": "Identifying Noise Sources",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "dorm room with sticky notes marking noise sources, soft textiles, and ambient lighting",
+            "flux_prompt": "dorm room with a focus on marked noise sources and soft furnishings",
+            "alt": "dorm room with sound-absorbing elements and a cozy atmosphere",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\027-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7703310"
+          },
+          "scenario": "In her Pune hostel twin, Maya lies in bed, trying to sleep as hallway chatter seeps through her door. She decides to identify the noise sources that disrupt her peace.",
+          "principle": "Understanding the origins of noise is the first step to softening it.",
+          "body": [
+            "Start by sitting or lying in your bed zone during your usual sleep time. Close your eyes and listen carefully to the sounds around you. Identify the loudest noises—are they voices from the hallway, the sound of wheels from the floor above, or perhaps a constant HVAC hum?",
+            "Mark each source with sticky notes or arrows on the wall or door, indicating the direction from which the sound arrives. Rate each source from one to five based on intensity and annoyance. Repeat this exercise on a busy night and a regular night to compare your findings.",
+            "This exercise will help you pinpoint which sounds are most disruptive, allowing you to focus your noise-softening efforts effectively."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Ignoring the quieter sounds can lead to an incomplete understanding of your noise environment.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "layering-for-sound-absorption",
+          "title": "Layering for Sound Absorption",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "dorm room with layered rugs and felt pads under furniture, soft textiles, and ambient lighting",
+            "flux_prompt": "dorm room showcasing layered rugs and sound-absorbing elements",
+            "alt": "dorm room with a focus on sound-absorbing materials and cozy atmosphere",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\028-pexels.jpg",
+            "credit": "Photo by Guto Castro on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:27571490"
+          },
+          "scenario": "Jordan, living in a Bengaluru PG room that cannot be drilled, struggles with noise from his rolling chair and hard floors. He decides to layer his space to absorb sound.",
+          "principle": "Absorption is not soundproofing.",
+          "body": [
+            "Today's output: what rugs can do, written beside what they cannot.",
+            "What this book can and cannot do about noise. Can help: echo, footfall, chair movement, rattling, some high-frequency intrusion, room harshness. Cannot reliably eliminate: bass, loud voices, construction, traffic, structural noise, a roommate who will not use headphones.",
+            "Soft layers cut reflections and impact. They do not block a hall argument. When the leftover noise is voices, bass, or structure: earplugs or comfortable headphones, a low masking sound, the R.E.S.T. sheet, then RA if informal talk fails."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Calling a rug soundproofing.",
+          "checklist": [
+            "Pad the path you actually walk",
+            "Write cannot-block on the sketch",
+            "Plan talk or plugs for the rest"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "sealing-gaps-for-sound-control",
+          "title": "Sealing Gaps for Sound Control",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "dorm room with sealed gaps and heavy curtains, soft textiles, and ambient lighting",
+            "flux_prompt": "dorm room with a focus on sealed gaps and sound-absorbing elements",
+            "alt": "dorm room showcasing effective sound sealing and cozy atmosphere",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\029-pexels.jpg",
+            "credit": "Photo by Mathias Reding on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:12040654"
+          },
+          "scenario": "Lina, living in a Mumbai hostel room with one window, faces traffic noise that disrupts her studies. She decides to seal gaps to control sound.",
+          "principle": "Sealing small gaps can prevent noise from sneaking into your space.",
+          "body": [
+            "The under-door gap is a major sound highway. Use a draft stopper or a door sweep if permitted, or place a low rug rolled tightly against the gap during sleep hours. This will help block noise from the hallway.",
+            "Windows can also be a source of unwanted sound. If policy allows, add removable weatherstrip to the sash edges. If not, hang heavier curtain panels on a tension rod within the frame, ensuring to overlap the edges generously to create a soft barrier against noise.",
+            "Keep fabrics off heaters and sprinklers. A draft stopper that is not installed — a removable sausage at the gap during sleep — is allowed in more halls than a screwed sweep. If even that is banned, use earplugs and masking, not a DIY door rebuild."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Failing to seal gaps properly can lead to persistent noise issues that undermine your efforts.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "choosing-the-right-masking-sound",
+          "title": "Choosing the Right Masking Sound",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "dorm room with a sound machine and study area, soft textiles, and ambient lighting",
+            "flux_prompt": "dorm room with a focus on sound masking and study setup",
+            "alt": "dorm room showcasing effective sound masking and cozy atmosphere",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\030-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6156897"
+          },
+          "scenario": "Sam and Drew, sharing a desk area in their Pune apartment, find that typing echoes disrupt their focus. They explore masking sounds to improve their study environment.",
+          "principle": "The right masking sound can help cover disruptive noises without adding stress.",
+          "body": [
+            "Today's output: a mask tested at the lowest useful volume, not a all-night roar.",
+            "Start low. Keep it just loud enough to soften the disturbing sound. Do not run excessive volume through the night. If you use headphones or earbuds, mind comfort and still being able to hear alarms or an emergency in the hall. More volume is not better, and it is not fair to a roommate who is already asleep.",
+            "Test white, pink, and brown in short blocks. Keep the one you stop noticing."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Using masking sounds that are too loud can create stress and disturb roommates.",
+          "checklist": [
+            "Start at the lowest setting",
+            "Raise only until the peak is softened",
+            "Confirm you can hear an alarm"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "sensory-calm-and-smart-storage",
+      "title": "Sensory Calm And Smart Storage",
+      "intro": "Creating a serene sleep environment is essential for relaxation and rest. This chapter guides you through establishing a sensory toolkit, implementing effective storage solutions, and managing cables to maintain a calm atmosphere in your living space.",
+      "opener": {
+        "query": "interior of a cozy bedroom with soft textiles, warm lighting, and organized storage solutions, no people, no text, no watermark",
+        "flux_prompt": "full-bleed shot of a serene bedroom with a neatly made bed, soft linens, and a warm glow from a bedside lamp",
+        "alt": "A shared dorm or hostel bedroom, no people.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\031-pexels.jpg",
+        "credit": "Photo by Thới Nam Cao on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:15867754"
+      },
+      "sections": [
+        {
+          "slug": "establishing-sensory-basics",
+          "title": "Establishing Sensory Basics",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "a serene bedroom corner with a neatly made bed, soft textures, and a calming color palette, no people, no text, no watermark",
+            "flux_prompt": "a cozy corner of a bedroom showcasing a low pile rug, soft bedding, and a small bedside caddy",
+            "alt": "a close-up of breathable bedding textures and a reed diffuser on a nightstand",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\006-pexels.jpg",
+            "credit": "Photo by Castorly Stock on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:3872927"
+          },
+          "scenario": "Ravi lives in a Pune residence-hall room with a nine-foot shared bedroom. He often finds it challenging to create a calming sleep environment amidst the clutter of daily life. By focusing on sensory basics, he aims to transform his bedroom into a peaceful retreat.",
+          "principle": "Fragrance-free is the default. Airflow beats perfume.",
+          "body": [
+            "Today's output: breathable bedding and a written scent policy: none, unless everyone agrees and housing allows.",
+            "Cotton or linen-blend sheets. Low-pile runner if it does not steal the path. No plug-in warmers, reeds, or linen sprays as the standard kit.",
+            "Heat: skip extra throws that trap air if the hall is already warm. Do not add a canopy 'for calm' when the room cannot dump heat."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Overstuffing bedding can lead to dust accumulation and discomfort.",
+          "checklist": [
+            "Pick breathable sheets",
+            "Write fragrance-free on the agreement",
+            "Drop a layer if you sleep hot"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "creating-visual-order",
+          "title": "Creating Visual Order",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "a neatly organized nightstand with minimal items, soft lighting, and a calming atmosphere, no people, no text, no watermark",
+            "flux_prompt": "a well-arranged bedside table with a book, earplugs, and a small water bottle, bathed in warm light",
+            "alt": "a view of a bed with a calming color palette and a neatly tucked bed skirt",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\033-pexels.jpg",
+            "credit": "Photo by Ron Lach on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:9641785"
+          },
+          "scenario": "Ananya lives in a Bengaluru hostel where drilling is banned, which limits her layout options. She needs to simplify her space visually to enhance relaxation and reduce stress.",
+          "principle": "Visual simplicity helps your mind to relax and unwind.",
+          "body": [
+            "To create visual order, decide what your bed view includes and exclude everything else that does not support sleep. A bed skirt can effectively hide under-bed bins, keeping the area looking tidy. On your nightstand, limit items to one book, earplugs, an eye mask, and a small water bottle to maintain a clean surface.",
+            "Color plays a crucial role in visual order. Choose matching or complementary neutrals for your sheets, duvet, and throw to create a cohesive look. If you enjoy color, consider adding a single accent pillow or throw that complements your wall art, ensuring that patterns are quiet near your pillow but can be bolder in the wind down zone.",
+            "By keeping your sleep items separate from study items, you help your brain map where things belong. Store study materials away from your sleep zone to prevent mental clutter."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Allowing study items to migrate to your sleep space can create mental associations that disrupt relaxation.",
+          "checklist": [
+            "Use a bed skirt to conceal storage bins under the bed.",
+            "Limit bedside items to essentials for sleep.",
+            "Choose a consistent color palette for bedding."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "implementing-smart-storage-and-cable-management",
+          "title": "Implementing Smart Storage and Cable Management",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "a tidy workspace with organized cables, a labeled power strip, and a serene sleep area, no people, no text, no watermark",
+            "flux_prompt": "a close-up of neatly bundled cables and a labeled power strip, with a soft glow from a bedside lamp",
+            "alt": "a well-organized desk area with minimal clutter and effective cable management",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\034-pexels.jpg",
+            "credit": "Photo by Sóc Năng Động on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:39234197"
+          },
+          "scenario": "Karan shares a Mumbai hostel twin room with limited space and only one window. He struggles with cable clutter and needs a system to keep his sleep zone organized and safe.",
+          "principle": "Effective storage and cable management can protect your calm space from clutter and hazards.",
+          "body": [
+            "Separate sleep items from study items to maintain mental clarity. Use labeled bins under the bed or on a closet shelf to store extras. Designate one bin for bedding backups, another for wind down items, and a third for tech accessories. This organization helps reduce rummaging and keeps your sleep area serene.",
+            "For cable management, bundle cords with wraps and clip them along desk edges and bed frames to route them away from your sleep zone. Elevate the power strip on a removable hook under the desk or on the side of a shelf, ensuring that it remains clear of fabric to allow airflow and prevent hazards.",
+            "Label each charger with initials to avoid mix-ups, and consider placing a wireless charging pad on the desk rather than near your pillow to keep devices away from your head at night."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Neglecting cable management can lead to visual clutter and safety hazards.",
+          "checklist": [
+            "Store sleep and study items separately to maintain clarity.",
+            "Bundle and label all cables to prevent tangling.",
+            "Elevate power strips and ensure they are not covered by fabric."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "agreements-reset-routines-and-long-term-calm",
+      "title": "Agreements, Reset Routines, And Long-Term Calm",
+      "intro": "Transform your living space into a sanctuary that thrives on clarity and rhythm. This chapter guides you through establishing agreements with roommates, maintaining a calm environment, and implementing routines that ensure your space remains a peaceful haven amidst the chaos of daily life.",
+      "opener": {
+        "query": "A serene bedroom setup with soft lighting, a neatly arranged bed, and a tidy workspace, showcasing a harmonious living environment.",
+        "flux_prompt": "Full-bleed shot of a well-organized bedroom with a soft color palette, warm lighting, and minimal clutter, emphasizing calmness and tranquility.",
+        "alt": "A shared dorm or hostel bedroom, no people.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\035-pexels.jpg",
+        "credit": "Photo by Huy Quang Nguyễn on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:6670653"
+      },
+      "sections": [
+        {
+          "slug": "establishing-r-e-s-t-agreements",
+          "title": "Establishing R.E.S.T. Agreements",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "A cozy corner of a shared bedroom with a bulletin board displaying R.E.S.T. agreements, warm lighting, and a tidy desk area.",
+            "flux_prompt": "A close-up of a bulletin board with neatly written agreements, surrounded by soft textures and calming colors, emphasizing a peaceful atmosphere.",
+            "alt": "A serene workspace with a desk lamp, books, and a plant, showcasing a well-organized and calming environment.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\036-pexels.jpg",
+            "credit": "Photo by khezez  | خزاز on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:34007277"
+          },
+          "scenario": "In her shared hostel room in Pune, Meera often finds herself disturbed by her roommate's late-night study sessions. To address this, she decides to implement R.E.S.T. agreements to create a more peaceful living environment.",
+          "principle": "Clear agreements foster a calm living space by setting mutual expectations.",
+          "body": [
+            "Today's output: R.E.S.T. filled — Respect, Expectations on the worksheet, Shared quiet hours, Tune for exams — plus the refusal ladder if they will not sign.",
+            "Meera in a Pune hostel twin asks for overheads off after a set clock and warm lamps only. Write it. Vague 'be quiet' is not an agreement.",
+            "If they refuse, do not keep adding curtains as a substitute for a talk. Use the five-step ladder."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Being vague about expectations can lead to misunderstandings and frustration.",
+          "checklist": [
+            "Define respect in shared living",
+            "Outline specific expectations",
+            "Set shared quiet times"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "implementing-the-calm-loop",
+          "title": "Implementing the CALM Loop",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "A tidy bedroom with a made bed, organized desk, and soft lighting, reflecting a calm and serene environment.",
+            "flux_prompt": "A beautifully arranged bedroom corner showcasing a neatly made bed, soft textures, and a clear workspace, emphasizing tranquility and order.",
+            "alt": "A close-up of a desk with organized stationery, a soft lamp, and a plant, highlighting a peaceful study area.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\037-pexels.jpg",
+            "credit": "Photo by Namfon Sasimaporn on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:37098141"
+          },
+          "scenario": "In her Bengaluru PG room that cannot be drilled, Priya realizes her living space needs a daily maintenance routine to stay organized and calm, especially with limited space.",
+          "principle": "A consistent maintenance routine preserves the calm atmosphere of your living space.",
+          "body": [
+            "The CALM Loop consists of four simple steps: Clear surfaces, Arrange bedding, Lower stimuli, and Maintain cables. Priya sets a daily reminder to spend ten minutes each evening following this loop. This routine helps her keep her space tidy and reduces visual clutter, which can be distracting.",
+            "Clearing surfaces involves putting away items that don’t belong in the living area. Priya makes it a habit to tidy her desk and put away any clothes or items lying around. This small daily effort prevents clutter from building up and keeps her space inviting.",
+            "Arranging bedding and lowering stimuli are equally important. Priya ensures her bed is made every morning and that she uses soft lighting in the evenings. By maintaining her cables and keeping them organized, she creates a visually calming environment that supports her focus and relaxation."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Neglecting daily maintenance can lead to chaos and stress in a shared living space.",
+          "checklist": [
+            "Set a daily reminder for the CALM Loop",
+            "Clear surfaces daily",
+            "Arrange bedding every morning"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "conducting-weekly-and-monthly-resets",
+          "title": "Conducting Weekly and Monthly Resets",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "A bright and organized living room with freshly laundered cushions, a clean floor, and well-angled lamps, showcasing a calm atmosphere.",
+            "flux_prompt": "A spacious living room corner with a view of the window, bright natural light, and organized decor, emphasizing cleanliness and serenity.",
+            "alt": "A close-up of a freshly made sofa with colorful cushions and a clean coffee table, reflecting a well-maintained living space.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\038-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6523291"
+          },
+          "scenario": "In a Mumbai hostel room with one window, Aditi finds that her living space can become cluttered and chaotic. She decides to implement weekly and monthly resets to maintain her sanctuary.",
+          "principle": "Regular resets keep your living space functional and calm, preventing clutter from taking over.",
+          "body": [
+            "A weekly reset should take about 20 minutes. Aditi schedules this for Sunday afternoons. During this time, she launders her bedding, vacuums the floor, wipes down surfaces, and checks the tension on her curtains. This routine helps her maintain a clean and inviting environment, ready for the week ahead.",
+            "Monthly resets are essential for long-term maintenance. Aditi sets aside 30 minutes at the beginning of each month to reangle her lamps as daylight shifts, rotate her curtains for cleaning, and revisit her agreements with her roommate. This proactive approach prevents small issues from becoming larger problems.",
+            "By integrating these resets into her routine, Aditi ensures her living space remains a sanctuary that supports her well-being. She also tracks her progress and makes adjustments as needed, keeping her environment aligned with her needs."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Skipping regular resets can lead to overwhelming clutter and stress.",
+          "checklist": [
+            "Schedule a weekly reset time",
+            "Perform monthly maintenance tasks",
+            "Review agreements during resets"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "7-day-dorm-sanctuary-sprint-checklist",
+      "title": "7-Day Dorm Sanctuary Sprint Checklist",
+      "intro": "Transform your shared dorm bed area into a calm, private sleep zone in just one week. This checklist respects RA rules and shared constraints while delivering privacy, light control, and noise relief quickly and effectively.",
+      "opener": {
+        "query": "dorm room with a cozy bed setup, soft lighting, and minimal decor, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+        "flux_prompt": "full-bleed establishing shot of a well-organized dorm room with a bed, desk, and personal touches",
+        "alt": "A shared dorm or hostel bedroom, no people.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\037-pexels.jpg",
+        "credit": "Photo by Namfon Sasimaporn on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:37098141"
+      },
+      "sections": [
+        {
+          "slug": "day-1-foundations",
+          "title": "Day 1: Foundations",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "dorm room with a cozy bed setup, soft lighting, and minimal decor, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "full-bleed establishing shot of a well-organized dorm room with a bed, desk, and personal touches",
+            "alt": "dorm room with a bed, desk, and personal touches, soft lighting, no people, no text, no watermark",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\037-pexels.jpg",
+            "credit": "Photo by Namfon Sasimaporn on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:37098141"
+          },
+          "scenario": "Aisha in a Delhi residence hall reads the rules and picks the rupee Starter tier (about one thousand rupees), not a dollar card.",
+          "principle": "Establish a solid foundation for your sleep zone by understanding the rules and gathering necessary materials.",
+          "body": [
+            "Today's output: rules highlighted, rupee tier chosen, one-sentence outcome. This week is a tool pass, not a second foundations lecture.",
+            "Starter / Balanced / Complete in rupees. If you cannot install anything, you are still on Starter: mask, plugs, lamp angle, bed turn.",
+            "Outcome sentence example: I can sleep without the door light on my face, without blocking an exit."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Read hall rules",
+              "minutes": null
+            },
+            {
+              "text": "Choose rupee tier",
+              "minutes": null
+            },
+            {
+              "text": "Write the outcome sentence",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Ignoring hall rules can lead to penalties or forced removal of your setup.",
+          "checklist": [
+            "Read hall rules",
+            "Choose rupee tier",
+            "Write the outcome sentence"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "day-2-assess-and-plan",
+          "title": "Day 2: Assess and Plan",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "dorm room with a cozy bed setup, soft lighting, and minimal decor, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "full-bleed establishing shot of a well-organized dorm room with a bed, desk, and personal touches",
+            "alt": "dorm room with a bed, desk, and personal touches, soft lighting, no people, no text, no watermark",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\041-pexels.jpg",
+            "credit": "Photo by Cats Coming on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:707581"
+          },
+          "scenario": "In her Bengaluru rental, student Rahul logs the disruptors affecting his sleep, noting the street noise and light from the window. He measures the window width and bed zone to plan his interventions.",
+          "principle": "Assessing your environment is crucial for identifying the best solutions to enhance your sleep space.",
+          "body": [
+            "Begin by logging the disruptors in your environment, such as light, sound, and temperature. This will help you understand what aspects need the most attention.",
+            "Map out the traffic lines from the door and window to your bed. This will inform your layout decisions and ensure that your space remains functional and safe.",
+            "Measure the width of your window and the area around your bed. This information will be essential for selecting the right curtains and other materials."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Log disruptors like light, sound, and temperature.",
+              "minutes": null
+            },
+            {
+              "text": "Map traffic lines from door and window to bed.",
+              "minutes": null
+            },
+            {
+              "text": "Measure window width and bed zone.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Failing to accurately assess disruptors can lead to ineffective solutions.",
+          "checklist": [
+            "Log disruptors",
+            "Map traffic lines",
+            "Measure window and bed area",
+            "Prototype towel curtain test"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "day-3-layout-optimization",
+          "title": "Day 3: Layout Optimization",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "dorm room with a cozy bed setup, soft lighting, and minimal decor, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "full-bleed establishing shot of a well-organized dorm room with a bed, desk, and personal touches",
+            "alt": "dorm room with a bed, desk, and personal touches, soft lighting, no people, no text, no watermark",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\041-pexels.jpg",
+            "credit": "Photo by Cats Coming on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:707581"
+          },
+          "scenario": "In a shared Pune residence-hall room, student Meera rearranges her furniture to optimize her sleep zone. She moves her desk and bed while ensuring that all cables are neatly routed along the edges.",
+          "principle": "Optimizing your layout can significantly improve the functionality and comfort of your sleep space.",
+          "body": [
+            "Start by moving light items, followed by heavier pieces like desks and beds. This allows you to experiment with different configurations without straining yourself.",
+            "Add felt pads under the legs of your furniture to protect the floor and reduce noise. Test different angles from your pillow to find the most comfortable position for sleeping.",
+            "Route cables along the edges of the room using clips to keep them organized and out of the way. Label your chargers to avoid confusion and ensure easy access."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Move light items first, then desks, then bed.",
+              "minutes": null
+            },
+            {
+              "text": "Add felt pads under furniture legs.",
+              "minutes": null
+            },
+            {
+              "text": "Route cables along edges and label chargers.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Neglecting to optimize layout can lead to discomfort and clutter.",
+          "checklist": [
+            "Move furniture for optimal layout",
+            "Add felt pads under furniture",
+            "Route cables neatly",
+            "Label chargers"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "day-4-privacy-layering",
+          "title": "Day 4: Privacy Layering",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "dorm room with a cozy bed setup, soft lighting, and minimal decor, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "full-bleed establishing shot of a well-organized dorm room with a bed, desk, and personal touches",
+            "alt": "dorm room with a bed, desk, and personal touches, soft lighting, no people, no text, no watermark",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\041-pexels.jpg",
+            "credit": "Photo by Cats Coming on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:707581"
+          },
+          "scenario": "In a Mumbai hostel room with one window, student Arjun installs tension rods and clips curtains to create a private sleep zone while ensuring airflow is maintained.",
+          "principle": "Layering for privacy is essential for creating a restful environment in shared spaces.",
+          "body": [
+            "Install tension rods or a freestanding frame to hang curtains. This allows you to create a barrier without damaging walls or ceilings.",
+            "Clip curtains to the rods to enhance privacy. Make sure to keep airflow clear to avoid stuffiness in your sleep zone.",
+            "Discuss curtain courtesy with your roommate to establish mutual respect for privacy and shared space."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Install tension rods or freestanding frame.",
+              "minutes": null
+            },
+            {
+              "text": "Clip curtains for privacy.",
+              "minutes": null
+            },
+            {
+              "text": "Agree on curtain courtesy with roommate.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Failing to communicate about privacy can lead to conflicts with roommates.",
+          "checklist": [
+            "Install tension rods or frame",
+            "Clip curtains for privacy",
+            "Discuss curtain courtesy"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "day-5-light-control",
+          "title": "Day 5: Light Control",
+          "day_label": "Day 5",
+          "hero": {
+            "query": "dorm room with a cozy bed setup, soft lighting, and minimal decor, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "full-bleed establishing shot of a well-organized dorm room with a bed, desk, and personal touches",
+            "alt": "dorm room with a bed, desk, and personal touches, soft lighting, no people, no text, no watermark",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\044-pexels.jpg",
+            "credit": "Photo by Diana ✨ on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:33312398"
+          },
+          "scenario": "In her Chennai residence-hall room, student Priya pairs blackout curtains with a thin diffuser layer on her window to control light effectively while adding warm clip-on lamps.",
+          "principle": "Controlling light in your sleep zone is crucial for promoting restful sleep.",
+          "body": [
+            "Pair blackout curtains with a thin diffuser layer on your windows to block out harsh light while allowing a soft glow. This combination helps create a calming atmosphere.",
+            "Place clip-on lamps with warm bulbs at 2700K around your room to provide gentle lighting during the evening. This will help signal to your body that it’s time to wind down.",
+            "Block any under-door light with a draft stopper or rug to prevent light from disturbing your sleep. Dim device LEDs with stickers to minimize distractions."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Pair blackout curtains with a thin diffuser layer.",
+              "minutes": null
+            },
+            {
+              "text": "Use clip-on lamps with warm bulbs.",
+              "minutes": null
+            },
+            {
+              "text": "Block under-door light with a draft stopper.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Using overly bright lights can disrupt your sleep routine.",
+          "checklist": [
+            "Pair blackout curtains with diffuser",
+            "Use warm light for lamps",
+            "Block under-door light"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "day-6-noise-softening",
+          "title": "Day 6: Noise Softening",
+          "day_label": "Day 6",
+          "hero": {
+            "query": "dorm room with a cozy bed setup, soft lighting, and minimal decor, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "full-bleed establishing shot of a well-organized dorm room with a bed, desk, and personal touches",
+            "alt": "dorm room with a bed, desk, and personal touches, soft lighting, no people, no text, no watermark",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\044-pexels.jpg",
+            "credit": "Photo by Diana ✨ on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:33312398"
+          },
+          "scenario": "In a noisy area of Kolkata, student Riya lays a rug runner and pads under her chairs to soften noise while positioning a sound machine near the source of disturbance.",
+          "principle": "Softening noise is essential for creating a peaceful sleep environment.",
+          "body": [
+            "Lay a rug runner in your sleep zone and add pads under chairs to absorb sound and reduce echoes. This will create a more serene atmosphere.",
+            "Position a sound machine near the noise source to mask disruptive sounds. Choose a sound that you find calming, such as white noise or nature sounds.",
+            "Hang soft textiles opposite noise sources to further dampen sound. This could include wall hangings or additional curtains."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Lay a rug runner and pads under chairs.",
+              "minutes": null
+            },
+            {
+              "text": "Position a sound machine near noise source.",
+              "minutes": null
+            },
+            {
+              "text": "Hang soft textiles opposite noise sources.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Neglecting to address noise can lead to poor sleep quality.",
+          "checklist": [
+            "Lay rug runner and pads",
+            "Position sound machine",
+            "Hang soft textiles"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "day-7-sensory-and-agreements",
+          "title": "Day 7: Score it",
+          "day_label": "Day 7",
+          "hero": {
+            "query": "dorm room with a cozy bed setup, soft lighting, and minimal decor, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "full-bleed establishing shot of a well-organized dorm room with a bed, desk, and personal touches",
+            "alt": "dorm room with a bed, desk, and personal touches, soft lighting, no people, no text, no watermark",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\044-pexels.jpg",
+            "credit": "Photo by Diana ✨ on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:33312398"
+          },
+          "scenario": "Neha in a Hyderabad PG fills the before/after card. Fragrance stays off.",
+          "principle": "Creating a sensory-rich environment and establishing agreements with roommates enhances the overall sleep experience.",
+          "body": [
+            "Today's output: a before/after scorecard and Keep / Change / Remove. No new lavender.",
+            "Score light, noise, privacy, clutter, roommate friction out of five, sleep comfort out of ten — before this week and after. If a number did not move, change the layer or remove the gadget.",
+            "Post the R.E.S.T. sheet if they agreed. Start CALM at night. If they refused, take the next escalation step, not a bigger canopy."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Before vs after this week",
+              "caption": "Guessing is optional. The card is the point of Day 7.",
+              "values": [
+                "Before / after",
+                "Before / after",
+                "Before / after",
+                "Before / after",
+                "Before / after",
+                "Before / after",
+                "Keep, change, or remove"
+              ],
+              "labels": [
+                "Light disturbance /5",
+                "Noise disturbance /5",
+                "Privacy /5",
+                "Clutter /5",
+                "Roommate friction /5",
+                "Sleep comfort /10",
+                "Each object you added"
+              ],
+              "minimum": null,
+              "spec_id": "D022",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D022.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Fill before and after",
+              "minutes": null
+            },
+            {
+              "text": "Mark Keep / Change / Remove",
+              "minutes": null
+            },
+            {
+              "text": "Fragrance stays default off",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Declaring victory because the room looks nicer on camera.",
+          "checklist": [
+            "Fill before and after",
+            "Mark Keep / Change / Remove",
+            "Fragrance stays default off"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "roommate-agreement-script-pack",
+      "title": "Creating a Calm Shared Space: Roommate Agreement Script Pack",
+      "intro": "Setting boundaries in shared living spaces can be challenging, but with the right approach, you can create a peaceful environment that respects everyone's needs. This chapter outlines a structured plan to establish agreements on light, noise, and privacy in a shared room, ensuring a functional and friendly atmosphere.",
+      "opener": {
+        "query": "shared dorm room, warm desk lamp, curtain panel, cozy textures, one window light, photorealistic",
+        "flux_prompt": "full-bleed shot of a cozy shared dorm room with a warm desk lamp and curtain panel, showcasing a calm atmosphere",
+        "alt": "A shared dorm or hostel bedroom, no people.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\047-pexels.jpg",
+        "credit": "Photo by cottonbro studio on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:6157284"
+      },
+      "sections": [
+        {
+          "slug": "purpose-and-benefits",
+          "title": "Purpose and Benefits",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "shared dorm room, warm desk lamp, curtain panel, cozy textures, one window light, photorealistic",
+            "flux_prompt": "full-bleed shot of a cozy shared dorm room with a warm desk lamp and curtain panel, showcasing a calm atmosphere",
+            "alt": "a serene view of a shared room with a desk lamp and curtains, emphasizing a peaceful ambiance.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\047-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6157284"
+          },
+          "scenario": "Priya and Aman in a Pune hostel twin fill the one-page sheet instead of arguing at 1 a.m.",
+          "principle": "Establishing boundaries reduces conflicts and enhances comfort in shared spaces.",
+          "body": [
+            "Today's output: the same worksheet as the survey — this pack is the script, not a new theory chapter.",
+            "Use the filled lines: sleep windows, quiet hours, overhead cutoff, guest notice, headphones, privacy, exams.",
+            "If they will not play, stop re-explaining CALMR. Escalate."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Not discussing needs openly can lead to misunderstandings and resentment.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "day-1-preparation",
+          "title": "Day 1: Preparation",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "shared dorm room, warm desk lamp, curtain panel, cozy textures, one window light, photorealistic",
+            "flux_prompt": "full-bleed shot of a cozy shared dorm room with a warm desk lamp and curtain panel, showcasing a calm atmosphere",
+            "alt": "a serene view of a shared room with a desk lamp and curtains, emphasizing a peaceful ambiance.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\047-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6157284"
+          },
+          "scenario": "In their shared Pune apartment, Priya and Aman sit down to identify their top two needs: light and noise. They gather a warm desk lamp, a dimmer, a curtain panel, and a white noise machine to prepare for their agreement.",
+          "principle": "Preparation is key to successfully implementing a roommate agreement.",
+          "body": [
+            "To begin, Priya and Aman identify their top two needs: light and noise. This step is crucial as it sets the foundation for their agreement. They decide that they need a warm desk lamp to create a cozy atmosphere and a white noise machine to mask any disruptive sounds during study sessions.",
+            "Next, they gather the necessary items: a warm desk lamp, a dimmer switch, a curtain panel, and a white or brown noise machine. Having these tools on hand will facilitate their discussions and help them visualize the changes they want to implement in their shared space.",
+            "Finally, they set a timeline for their agreement, aiming to run a trial for three nights. This structured approach allows them to evaluate the effectiveness of their agreements and make necessary adjustments."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Failing to gather necessary materials can hinder the implementation of the agreement.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "day-2-opening-alignment",
+          "title": "Day 2: Opening Alignment",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "shared dorm room, warm desk lamp, curtain panel, cozy textures, one window light, photorealistic",
+            "flux_prompt": "full-bleed shot of a cozy shared dorm room with a warm desk lamp and curtain panel, showcasing a calm atmosphere",
+            "alt": "a serene view of a shared room with a desk lamp and curtains, emphasizing a peaceful ambiance.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\050-pexels.jpg",
+            "credit": "Photo by Tobi on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:2346090"
+          },
+          "scenario": "Priya and Aman sit down for their Opening Alignment meeting in their Pune apartment. They use the Opening Alignment Script to set goals and tone for their roommate agreement.",
+          "principle": "Setting a positive tone fosters cooperation and understanding.",
+          "body": [
+            "During their Opening Alignment meeting, Priya uses the Opening Alignment Script to express her desire for a calmer sleep area. She states, \"I am working on a small, compliant setup to make my sleep area calmer, things like a curtain panel and warm desk lamp. My goal is to rest better and keep our room functional. Can we agree on quiet windows and lamp angles after 9 p.m.?\" This clear communication sets a positive tone for their discussions.",
+            "Aman responds positively, acknowledging the need for both of them to have a comfortable living space. They agree to establish quiet windows from 9 p.m. to 7 a.m., ensuring that both can enjoy their routines without disturbing each other.",
+            "By the end of their meeting, they feel more aligned and ready to tackle the next steps in their agreement, knowing they have a mutual understanding of each other's needs."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Skipping the opening alignment can lead to miscommunication later on.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "day-3-lamp-discipline",
+          "title": "Day 3: Lamp Discipline",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "shared dorm room, warm desk lamp, curtain panel, cozy textures, one window light, photorealistic",
+            "flux_prompt": "full-bleed shot of a cozy shared dorm room with a warm desk lamp and curtain panel, showcasing a calm atmosphere",
+            "alt": "a serene view of a shared room with a desk lamp and curtains, emphasizing a peaceful ambiance.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\050-pexels.jpg",
+            "credit": "Photo by Tobi on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:2346090"
+          },
+          "scenario": "In their shared Pune apartment, Priya and Aman implement the Lamp Discipline Script to manage their lighting needs after 9 p.m.",
+          "principle": "Establishing lamp discipline helps maintain a peaceful environment during nighttime hours.",
+          "body": [
+            "On Day 3, Priya and Aman focus on lamp discipline. Priya explains to Aman, \"The overhead light wakes me when I am settling down. Would you be okay using the clip-on lamp aimed at your desk after 9 p.m.? I can share a warm bulb and dimmer if helpful.\" This approach allows them to maintain a functional workspace while respecting each other's sleep needs.",
+            "They decide to position the clip-on lamp so that it illuminates Aman's desk without disturbing Priya. The warm bulb creates a cozy atmosphere, and the dimmer allows Aman to adjust the brightness as needed.",
+            "By implementing this lamp discipline, both roommates can enjoy their respective activities without compromising each other's comfort, leading to fewer conflicts and a more harmonious living space."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Not discussing lamp angles can lead to disturbances during study or sleep.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "day-4-curtain-courtesy",
+          "title": "Day 4: Curtain Courtesy",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "shared dorm room, warm desk lamp, curtain panel, cozy textures, one window light, photorealistic",
+            "flux_prompt": "full-bleed shot of a cozy shared dorm room with a warm desk lamp and curtain panel, showcasing a calm atmosphere",
+            "alt": "a serene view of a shared room with a desk lamp and curtains, emphasizing a peaceful ambiance.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\050-pexels.jpg",
+            "credit": "Photo by Tobi on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:2346090"
+          },
+          "scenario": "Priya and Aman work together to install curtain clips in their Pune apartment, ensuring airflow gaps are maintained for comfort.",
+          "principle": "Respecting curtain placement enhances privacy and comfort for both roommates.",
+          "body": [
+            "On Day 4, Priya and Aman focus on curtain courtesy. Priya explains, \"If my curtain is angled closed at night, please keep it in place and avoid leaning objects on it. I have left airflow gaps, so it should feel fine. If it bothers you, let us adjust clips together.\" This clear communication helps establish respect for each other's space.",
+            "They install the curtain clips together, ensuring that airflow gaps are maintained. This allows for ventilation while still providing privacy during the night. They agree that if either of them feels uncomfortable with the curtain placement, they will discuss it openly and make adjustments as needed.",
+            "By respecting each other's curtain preferences, Priya and Aman create a more comfortable and private environment, allowing both to feel at ease in their shared space."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Ignoring curtain placement can lead to discomfort and privacy issues.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "day-5-guest-policy",
+          "title": "Day 5: Guest Policy",
+          "day_label": "Day 5",
+          "hero": {
+            "query": "shared dorm room, warm desk lamp, curtain panel, cozy textures, one window light, photorealistic",
+            "flux_prompt": "full-bleed shot of a cozy shared dorm room with a warm desk lamp and curtain panel, showcasing a calm atmosphere",
+            "alt": "a serene view of a shared room with a desk lamp and curtains, emphasizing a peaceful ambiance.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\053-pexels.jpg",
+            "credit": "Photo by Zişan  Özdemir on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:28285060"
+          },
+          "scenario": "Priya and Aman establish a guest policy in their Pune apartment to manage social interactions and maintain a peaceful environment.",
+          "principle": "Setting guest policies helps manage social dynamics and maintain comfort in shared spaces.",
+          "body": [
+            "On Day 5, Priya and Aman focus on establishing a guest policy. Priya suggests, \"When friends visit, could we keep conversation away from beds and wrap by 11 p.m. most nights? I will use brown noise to mask chatter, and I will give you a heads up for any early morning prep.\" This proactive approach helps set clear expectations for social interactions.",
+            "They agree to communicate in advance about any guests, ensuring that both are comfortable with the arrangements. By setting a time limit for conversations, they can enjoy socializing without disrupting each other's routines.",
+            "This guest policy fosters a sense of respect and understanding, allowing both roommates to maintain their comfort and privacy while still enjoying social interactions."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Not discussing guest policies can lead to discomfort and conflicts during social gatherings.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "day-6-trial-run",
+          "title": "Day 6: Trial Run",
+          "day_label": "Day 6",
+          "hero": {
+            "query": "shared dorm room, warm desk lamp, curtain panel, cozy textures, one window light, photorealistic",
+            "flux_prompt": "full-bleed shot of a cozy shared dorm room with a warm desk lamp and curtain panel, showcasing a calm atmosphere",
+            "alt": "a serene view of a shared room with a desk lamp and curtains, emphasizing a peaceful ambiance.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\053-pexels.jpg",
+            "credit": "Photo by Zişan  Özdemir on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:28285060"
+          },
+          "scenario": "Priya and Aman conduct a trial run of their agreements in their Pune apartment, evaluating the effectiveness of their new setup.",
+          "principle": "A trial run allows roommates to assess the effectiveness of their agreements and make necessary adjustments.",
+          "body": [
+            "On Day 6, Priya and Aman run a trial of their agreements for three nights. They each commit to following the established rules regarding light, noise, and guest policies. This trial period provides an opportunity to assess how well the agreements are working in practice.",
+            "During the trial, Priya uses her white noise machine to mask any disturbances from Aman's late-night study sessions, while Aman adjusts the lamp to ensure it doesn't disturb Priya's sleep. They both take note of any challenges or successes during this period.",
+            "At the end of the trial, they feel more connected and comfortable in their shared space, having successfully navigated their needs and preferences."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Skipping the trial run can lead to unresolved issues and discomfort.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "day-7-review-and-adjust",
+          "title": "Day 7: Review and Adjust",
+          "day_label": "Day 7",
+          "hero": {
+            "query": "shared dorm room, warm desk lamp, curtain panel, cozy textures, one window light, photorealistic",
+            "flux_prompt": "full-bleed shot of a cozy shared dorm room with a warm desk lamp and curtain panel, showcasing a calm atmosphere",
+            "alt": "a serene view of a shared room with a desk lamp and curtains, emphasizing a peaceful ambiance.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\053-pexels.jpg",
+            "credit": "Photo by Zişan  Özdemir on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:28285060"
+          },
+          "scenario": "Priya and Aman meet to review their trial run in their Pune apartment, discussing what worked and what needs adjustment.",
+          "principle": "Regular check-ins are essential for maintaining a harmonious living environment.",
+          "body": [
+            "On Day 7, Priya and Aman conduct a review of their trial run. They use the Maintenance Check In Script to discuss what is working and what might need tweaking. Priya asks, \"What is working with the new setup? Lamp angles are good for me. Any tweaks needed, noise levels, curtain position, guest timing? Let us pick a small adjustment for this week.\" This structured approach allows them to address any concerns openly.",
+            "During their discussion, they identify a few areas for improvement, such as adjusting the noise level of the white noise machine and fine-tuning the curtain clips for better airflow. They agree to make these adjustments and continue with their agreements for another week.",
+            "By regularly checking in and making adjustments, Priya and Aman can maintain a comfortable and respectful living environment, ensuring that both feel heard and valued."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Neglecting to review agreements can lead to unresolved issues and discomfort.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "ra-compliance-and-non-damaging-install-guide",
+      "title": "RA Compliance And Non-Damaging Install Guide",
+      "intro": "This guide provides essential strategies for creating a compliant and comfortable living space in residence halls, ensuring that installations are safe, reversible, and respectful of housing rules.",
+      "opener": {
+        "query": "interior of a residence hall room, soft lighting, neutral tones, minimalist decor, no people",
+        "flux_prompt": "full-bleed shot of a well-decorated residence hall room with a tension rod and curtains, showcasing compliance with RA guidelines",
+        "alt": "A shared dorm or hostel bedroom, no people.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\056-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:6958133"
+      },
+      "sections": [
+        {
+          "slug": "purpose-and-benefits",
+          "title": "Purpose and Benefits",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "a cozy corner of a residence hall room with a tension rod and curtains, soft lighting, no people",
+            "flux_prompt": "a well-styled corner featuring a tension rod with blackout curtains, showcasing compliance with RA guidelines",
+            "alt": "a close-up of a tension rod installation with clips and curtains, emphasizing the non-damaging aspect",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\057-pexels.jpg",
+            "credit": "Photo by Yunuen Zempoaltecatl on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:35657830"
+          },
+          "scenario": "Ravi in a Pune residence hall wants a sleep zone without a fine. If even hooks are banned, he still has a path.",
+          "principle": "Implementing non-damaging installations protects your space while enhancing comfort.",
+          "body": [
+            "Today's output: either a reversible install plan or a completed zero-modification setup.",
+            "If you cannot drill, stick, hang, mount, or install anything: turn the bed; use existing furniture; fold a blanket as a visual edge on the mattress; use freestanding storage you already own; eye mask; earplugs; portable sound at low volume; existing curtains; cable wraps that do not need adhesive if you can tuck; move the lamp you have; a removable floor mat; a loose under-door stopper only if it is not a fixture. That is a guaranteed fallback.",
+            "Reversible installs still need housing permission. Trust with the RA is documentation, not a loophole."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Zero-modification setup",
+              "caption": "If the hall bans rods and hooks, you are not out of the book.",
+              "values": [
+                "Turn it",
+                "No new hulks",
+                "On the mattress only",
+                "What you already own",
+                "Face and ears",
+                "Low volume",
+                "Tuck, do not stick, if needed",
+                "Not a screwed sweep"
+              ],
+              "labels": [
+                "Bed orientation",
+                "Existing furniture",
+                "Blanket as a visual edge",
+                "Freestanding storage you have",
+                "Eye mask and earplugs",
+                "Sound machine or app",
+                "Cables and lamp you have",
+                "Loose draft stopper / mat"
+              ],
+              "minimum": null,
+              "spec_id": "D018",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D018.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "compliance-quick-checklist",
+          "title": "Compliance Quick Checklist",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "a checklist on a desk in a residence hall room, soft lighting, no people",
+            "flux_prompt": "a close-up of a compliance checklist on a desk with a pen, emphasizing preparation for installations",
+            "alt": "a well-organized desk with a compliance checklist and installation materials, showcasing a methodical approach",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\058-pexels.jpg",
+            "credit": "Photo by RDNE Stock project on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8581014"
+          },
+          "scenario": "Aditi, living in a Bengaluru PG room that cannot be drilled, reviews the compliance checklist before installing her new curtains to ensure she avoids any violations.",
+          "principle": "Following a compliance checklist helps prevent common mistakes during installations.",
+          "body": [
+            "Today's output: an emergency-access pass. Use the hall's numbers, not this book's examples as law.",
+            "Can the door fully open? Can you exit without moving furniture? Is the walkway unobstructed? Can emergency personnel reach the bed? Are cords off walking paths? Are fabrics away from heat? Are windows and exits unobstructed? Are smoke and CO detectors accessible?",
+            "Where your hall specifies a walkway width — including an example twenty-four-inch rule — keep it. Where they specify sprinkler clearance — including an example eighteen-inch radius — keep it."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Emergency access checklist",
+              "caption": "A pretty curtain that traps you is a fail.",
+              "values": [
+                "Yes / no",
+                "Yes / no",
+                "Hall width, not a guess",
+                "Yes / no",
+                "Yes / no",
+                "Yes / no",
+                "Yes / no",
+                "Yes / no"
+              ],
+              "labels": [
+                "Door fully opens",
+                "Exit without moving furniture",
+                "Walkway unobstructed",
+                "Reach the bed in an emergency",
+                "Cords off the path",
+                "Fabrics off heat",
+                "Windows and exits clear",
+                "Detectors accessible"
+              ],
+              "minimum": null,
+              "spec_id": "D019",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D019.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [
+            "Open the door fully",
+            "Walk out in the dark in your head",
+            "Fix any no"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "step-by-step-minis",
+          "title": "Step by Step Minis",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "a beautifully installed tension rod with curtains in a Mumbai flat, soft lighting, no people",
+            "flux_prompt": "a close-up of a tension rod installation with curtains, showcasing a successful and compliant setup",
+            "alt": "a detailed view of curtain clips and the tension rod, emphasizing the installation process",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\057-pexels.jpg",
+            "credit": "Photo by Yunuen Zempoaltecatl on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:35657830"
+          },
+          "scenario": "Karan, living in a Mumbai hostel room with one window, decides to install a privacy curtain using a tension rod. He follows the step-by-step guide to ensure compliance.",
+          "principle": "Detailed steps ensure proper installation and compliance with housing rules.",
+          "body": [
+            "To install a privacy curtain with a tension rod, first measure the inside span of the window frame. This ensures that the rod fits perfectly without any overextension.",
+            "Set the rod slightly longer than the span to allow for a snug fit. Next, add a blackout or privacy panel using clips to ensure that the fabric hangs properly and provides the desired level of privacy.",
+            "Test the installation by gently tugging at the center and ends of the curtain to ensure stability. This step is crucial to avoid any accidents or damage to the walls."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Measure inside span.",
+              "minutes": null
+            },
+            {
+              "text": "Set rod slightly longer than span.",
+              "minutes": null
+            },
+            {
+              "text": "Add blackout or privacy panel with clips.",
+              "minutes": null
+            },
+            {
+              "text": "Test by tugging gently at center and ends.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Overextending tension rods can lead to installation failure and potential damage.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "plug-and-play-layout-templates-and-shopping-lists",
+      "title": "Plug-And-Play Layout Templates And Shopping Lists",
+      "intro": "Tools only: five drawable types, rupee shopping, then a master checklist. Concepts live in the earlier chapters. Do not re-teach SIGHT here.",
+      "opener": {
+        "query": "interior layout templates, cozy bedroom setup, minimalist decor, soft lighting, no people, no text, no watermark",
+        "flux_prompt": "full-bleed shot of a well-organized bedroom with a calming layout, featuring soft fabrics and a cozy atmosphere",
+        "alt": "A shared dorm or hostel bedroom, no people.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\060-pexels.jpg",
+        "credit": "Photo by Nguyen Truong Khang on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:37382008"
+      },
+      "sections": [
+        {
+          "slug": "understanding-your-room-type",
+          "title": "Understanding Your Room Type",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "room layout identification, cozy bedroom setup, minimalist decor, soft lighting, no people, no text, no watermark",
+            "flux_prompt": "full-bleed shot of a room layout diagram showing types A to E, with clear labels and dimensions",
+            "alt": "illustration of different room types with corresponding layouts",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\060-pexels.jpg",
+            "credit": "Photo by Nguyen Truong Khang on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:37382008"
+          },
+          "scenario": "Riya in a Pune hostel twin picks Type A or B from the diagrams, not from a 1BHK living-room story.",
+          "principle": "Identify your room type to match layouts and budgets effectively.",
+          "body": [
+            "Today's output: type letter plus the seven-point order drawn once.",
+            "Type A rectangular. Type B square shared. Type C bed opposite door. Type D window beside bed. Type E extremely constrained. Same order every time: bed → desk → screen → window → door → traffic path → privacy layer.",
+            "Copy the figure for your letter. If Type E, stop after path and light."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Type B — square shared room",
+              "caption": "Heads off the door line. Lamps at walls. Airflow stays.",
+              "values": [
+                "Two entries or one — keep swing free",
+                "Not through either pillow",
+                "Adjacent walls, heads inward or away from door",
+                "Opposite corners",
+                "Low, if allowed",
+                "Share or split glare",
+                "A cue, not a wall"
+              ],
+              "labels": [
+                "Door",
+                "Traffic path",
+                "Beds",
+                "Desks",
+                "Screen",
+                "Window",
+                "Privacy layer"
+              ],
+              "minimum": null,
+              "spec_id": "D009",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D009.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Type C — bed opposite door",
+              "caption": "The door is the problem. Screen the line of sight or turn the bed.",
+              "values": [
+                "Directly faces the pillow until you fix it",
+                "Must swing fully",
+                "Turn or shield first",
+                "Not in the swing",
+                "Door-side only, if allowed",
+                "Secondary",
+                "Must leave an exit"
+              ],
+              "labels": [
+                "Door",
+                "Traffic path",
+                "Bed",
+                "Desk",
+                "Screen",
+                "Window",
+                "Privacy layer"
+              ],
+              "minimum": null,
+              "spec_id": "D011",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D011.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Type D — window beside bed",
+              "caption": "Treat the window as a lamp. Then the door.",
+              "values": [
+                "Usually on the other wall",
+                "Keep it",
+                "Head not cooked by morning glare if you can help it",
+                "Lamp aimed at wall, not glass-to-pillow",
+                "Only if needed",
+                "Film or curtain if allowed",
+                "Glare layer first"
+              ],
+              "labels": [
+                "Door",
+                "Traffic path",
+                "Bed",
+                "Desk",
+                "Screen",
+                "Window",
+                "Privacy layer"
+              ],
+              "minimum": null,
+              "spec_id": "D012",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D012.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Type E — almost no floor",
+              "caption": "Buy nothing until 1–4 are done.",
+              "values": [
+                "Must still open",
+                "Priority two",
+                "Priority one: orientation",
+                "Skip if it steals the path",
+                "Skip",
+                "Priority three: existing covering",
+                "Mask and plugs, not a rack"
+              ],
+              "labels": [
+                "Door",
+                "Traffic path",
+                "Bed",
+                "Desk",
+                "Screen",
+                "Window",
+                "Privacy layer"
+              ],
+              "minimum": null,
+              "spec_id": "D014",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D014.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Failing to accurately identify the room type can lead to inappropriate layout choices that do not fit the space effectively.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "choosing-your-budget-tier",
+          "title": "Choosing Your Budget Tier",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "budget-friendly bedroom decor, cozy setup, minimalist design, soft lighting, no people, no text, no watermark",
+            "flux_prompt": "full-bleed shot of a well-styled bedroom with budget items from the 50 and 100 tiers, showcasing their functionality",
+            "alt": "photograph of budget items laid out on a bed, emphasizing affordability and style",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\062-pexels.jpg",
+            "credit": "Photo by Ron Lach on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:10130826"
+          },
+          "scenario": "Aditi in a Bengaluru PG picks Balanced in rupees only if rods are legal.",
+          "principle": "Select a budget tier to guide your shopping and layout decisions.",
+          "body": [
+            "Today's output: Starter, Balanced, or Complete in rupees, mapped to the shopping matrix.",
+            "Starter about one thousand rupees. Balanced about three thousand. Complete about seven thousand. Costs are approximate street prices; your city will differ. If housing bans installs, you stay Starter even if you could spend Complete.",
+            "The matrix is the shopping list the title promised. One row per item: purpose, tier, priority, alternative."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Shopping matrix — what and why",
+              "caption": "Priority High first. Alternative if the hall says no.",
+              "values": [
+                "Privacy; High; rack if rods banned",
+                "Light/privacy; High; extra sheet on allowed rod",
+                "Noise of chairs; Medium; folded cloth",
+                "Tidy; Medium; tuck under mattress",
+                "Hall gap; Medium; earplugs if banned",
+                "Evening light; High; use the desk lamp you have",
+                "Footfall; Medium; skip if no floor",
+                "Mask and plugs; High; on Starter always"
+              ],
+              "labels": [
+                "Tension rod",
+                "Curtain panel",
+                "Felt pads",
+                "Cable clips or wraps",
+                "Draft stopper",
+                "Clip-on warm lamp",
+                "Rug runner",
+                "Eye mask and earplugs"
+              ],
+              "minimum": null,
+              "spec_id": "D013",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D013.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Which rupee tier buys it",
+              "caption": "Approximate. Starter first. Complete is still not a studio.",
+              "values": [
+                "Starter if allowed, else skip",
+                "Balanced",
+                "Starter",
+                "Starter",
+                "Starter if removable",
+                "Starter",
+                "Balanced",
+                "Starter — always"
+              ],
+              "labels": [
+                "Tension rod",
+                "Blackout liner / extra panel",
+                "Felt pads",
+                "Cable wraps",
+                "Draft stopper",
+                "Clip lamp",
+                "Runner / sound machine",
+                "Mask and earplugs"
+              ],
+              "minimum": null,
+              "spec_id": "D025",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D025.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Choosing a budget tier without considering the specific needs of the room can lead to overspending or inadequate solutions.",
+          "checklist": [
+            "Circle your tier",
+            "Tick High items only",
+            "Skip anything the hall bans"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "setting-up-your-space",
+          "title": "Setting Up Your Space",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "bedroom setup process, cozy decor, minimalist design, soft lighting, no people, no text, no watermark",
+            "flux_prompt": "full-bleed shot of a bedroom setup process, showing marked zones and installation steps in action",
+            "alt": "image of a partially set up bedroom with measuring tools and painter tape visible",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\062-pexels.jpg",
+            "credit": "Photo by Ron Lach on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:10130826"
+          },
+          "scenario": "Vikram in a Mumbai hostel room marks tape, then installs only what the hall allows.",
+          "principle": "Follow a systematic setup process to ensure a functional and comfortable space.",
+          "body": [
+            "Today's output: tape on the floor, then only allowed hardware. Warm evening light from a lamp you aim at a wall — color temperature is a preference, not a law.",
+            "Measure. Mark Type A–E. Install rods only with permission. Adhesives only if the hall allows, and only after a hidden test. Cable-manage. If zero-mod, stop after tape and furniture slide.",
+            "Do not re-teach CALMR. You already have it."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Neglecting to measure accurately can lead to a cluttered or dysfunctional space, making it difficult to achieve the desired layout.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "final-adjustments-and-testing",
+          "title": "Dorm sanctuary master checklist",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "bedroom testing setup, cozy decor, minimalist design, soft lighting, no people, no text, no watermark",
+            "flux_prompt": "full-bleed shot of a bedroom during a night test, showcasing adjustments for light and sound management",
+            "alt": "image of a bedroom with curtains drawn and sound machine in use, emphasizing the testing phase",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\photos\\062-pexels.jpg",
+            "credit": "Photo by Ron Lach on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:10130826"
+          },
+          "scenario": "Neha in a Delhi PG runs the master list on night two, not a new apartment subplot.",
+          "principle": "Conduct final adjustments and tests to ensure your space is comfortable and functional.",
+          "body": [
+            "Today's output: the master checklist ticked, plus the Day-7 scorecard if you ran the sprint.",
+            "Safety: rules checked; exit clear; sprinkler and vent clear as the hall states; cables safe. Layout: bed positioned; traffic path clear; sightlines controlled. Privacy: screen or curtain only if allowed; airflow preserved. Light: main glare controlled; warm evening lamp; morning light still possible. Noise: main source named; absorption added; masking tested low; agreement or next escalation. Maintenance: daily CALM; weekly reset; monthly review.",
+            "That is the end of the blueprint. If a box is empty, that is the next hour — not a new product."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Master checklist — safety and layout",
+              "caption": "A no on exit beats a yes on décor.",
+              "values": [
+                "Ticked",
+                "Ticked",
+                "Ticked as the hall states",
+                "Ticked",
+                "Ticked",
+                "Ticked",
+                "Ticked"
+              ],
+              "labels": [
+                "Housing rules checked",
+                "Exit clear",
+                "Sprinkler / vent / detectors",
+                "Cables safe",
+                "Bed positioned",
+                "Traffic path clear",
+                "Sightlines controlled"
+              ],
+              "minimum": null,
+              "spec_id": "D026",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D026.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Master checklist — privacy to maintenance",
+              "caption": "Airflow stays. Fragrance stays off unless agreed.",
+              "values": [
+                "Only if allowed",
+                "Ticked",
+                "Ticked",
+                "Ticked",
+                "Ticked",
+                "Low volume",
+                "Or the ladder",
+                "Daily / weekly / monthly"
+              ],
+              "labels": [
+                "Screen or curtain",
+                "Airflow preserved",
+                "Main glare controlled",
+                "Evening lamp / morning light",
+                "Main noise named",
+                "Masking tested",
+                "Roommate agreement",
+                "CALM / reset / review"
+              ],
+              "minimum": null,
+              "spec_id": "D027",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Dorm Santuary Blueprint\\figures\\D027.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Calling the room done because a curtain looks good on a phone photo.",
+          "checklist": [
+            "Tick safety first",
+            "Tick layout and privacy",
+            "Leave fragrance off unless agreed"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    }
+  ]
+}

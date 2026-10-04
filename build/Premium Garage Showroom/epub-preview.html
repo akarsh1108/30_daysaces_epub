@@ -1,0 +1,630 @@
+<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'/>
+<meta name='viewport' content='width=device-width, initial-scale=1'/>
+<title>EPUB preview — Premium Garage Showroom</title>
+<style>
+@namespace epub "http://www.idpf.org/2007/ops";
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.55;
+  color: #141816;
+  background: #ffffff;
+}
+h1, h2, h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.2;
+  page-break-after: avoid;
+}
+h1 { font-size: 1.6em; margin: 0.4em 0 0.35em; }
+h2 { font-size: 1.35em; margin: 0.2em 0 0.45em; }
+h3 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.78em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 1.1em 0 0.45em;
+}
+p { margin: 0 0 0.85em; }
+img.full, .hero img, .opener img, figure img {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 0;
+  border: 0;
+}
+.hero, .opener {
+  margin: 0 0 1em;
+}
+.hero-cap {
+  padding: 0.55em 0 0.2em;
+}
+.day, .kicker, .scenario .label {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.72em;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #1E5F6B;
+  margin: 0 0 0.35em;
+}
+.intro { font-size: 0.95em; color: #333; }
+.scenario {
+  margin: 0.8em 0 1em;
+  padding: 0.7em 0.8em;
+  background: #f3f6f6;
+  border-top: 3px solid #1E5F6B;
+}
+.scenario p { margin: 0; font-style: italic; }
+.scenario .label { font-style: normal; margin-bottom: 0.4em; }
+.principle {
+  font-size: 1.12em;
+  font-weight: bold;
+  color: #0f3d45;
+  border-left: 3px solid #1E5F6B;
+  padding: 0.15em 0 0.15em 0.7em;
+  margin: 0.4em 0 1em;
+}
+figure.diagram {
+  margin: 1em 0;
+  padding: 0.5em;
+  background: #f3f6f6;
+}
+figcaption {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.78em;
+  color: #7a8285;
+  margin-top: 0.4em;
+}
+.steps {
+  background: #f3f6f6;
+  padding: 0.7em 0.9em;
+  margin: 1em 0;
+}
+.steps ol { margin: 0; padding-left: 1.2em; }
+.steps li { margin: 0 0 0.4em; }
+.mistake {
+  background: #f8eeeb;
+  border-left: 3px solid #c8442b;
+  padding: 0.7em 0.9em;
+  margin: 1em 0;
+}
+.mistake h3 { color: #c8442b; }
+.checklist ul { list-style: none; padding: 0; margin: 0; }
+.checklist li {
+  padding-left: 1.3em;
+  position: relative;
+  margin: 0 0 0.4em;
+}
+.checklist li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.25em;
+  width: 0.7em;
+  height: 0.7em;
+  border: 1.5px solid #1E5F6B;
+}
+
+html { background: #eceff0; }
+body.preview-shell { margin: 0; padding: 24px 12px 48px; }
+.device {
+  max-width: 420px;
+  margin: 0 auto 28px;
+  background: #fff;
+  border: 1px solid #cfd5d7;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 0 0 20px;
+}
+.device .label {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #7a8285;
+  padding: 10px 16px;
+  border-bottom: 1px solid #e8ecec;
+  background: #f7f9f9;
+}
+.device .page { padding: 0 16px 8px; }
+.preview-top {
+  max-width: 420px;
+  margin: 0 auto 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #333;
+}
+.preview-top h1 { font-size: 20px; margin: 0 0 6px; }
+.preview-top p { margin: 0; font-size: 13px; color: #666; }
+</style></head>
+<body class='preview-shell'>
+<div class='preview-top'>
+<h1>Premium Garage Showroom</h1>
+<p>Kindle-style preview of the EPUB. Scroll through each section below.</p>
+</div>
+<div class='device'><div class='label'>Cover</div><div class='page'>
+<img class='full' src='cover.jpg' alt='A two-car residential garage with a clear floor, wall-mounted bikes, and no people or text.'/>
+</div></div>
+<div class='device'><div class='label'>Chapter opener</div><div class='page'>
+<div class='opener'>
+<img class='full' src='photos/001-pexels.jpg' alt='An empty two-car garage with tape-measure marks on the floor, no people.'/>
+<p class='kicker'>Chapter</p><h1>Measure the garage and the actual cars</h1>
+<p class='intro'>This book helps a household plan a premium-looking garage that still parks real vehicles, stores bikes, and can be maintained after ordinary use. It is not a building-code manual, an electrical guide, a fire-code manual, a structural engineering text, or a coating specification. The primary reference is a private two-car garage. A 20-by-20-foot bay is an illustration, not a promise that two cars and four bikes will fit. Apartment, stilt, and shared parking are stricter: many buildings forbid drilling, coatings, or EV equipment. Some scenarios use Indian cities as compact-garage illustrations. They do not define the market. Prices are USD. Measurements are inches. Example dimensions are illustrations until you measure the actual garage and vehicles. Manufacturer instructions, the lease or HOA rules, and qualified professionals take precedence over this book. Use the book in this order. Assess: measure the actual garage and both vehicles. Plan: choose a layout that survives a parked-car test. Verify: structure, electrical capacity, moisture, permissions. Select: materials and vendors. Install: only after hold points are cleared, with qualified people for electrical and uncertain structure. Test: parking, doors, walking, bike retrieval, emergency access. Maintain. Chapters 1–7 are action. Chapters 8–12 are worksheets that copy those records — they are not a second project. Exhaust safety: never rely on a carbon monoxide alarm to make indoor vehicle operation safe. Do not run a vehicle in an enclosed garage. If exhaust fumes or an alarm indicate a possible hazard, leave the area and follow appropriate emergency guidance. An alarm is a warning device, not a substitute for preventing exposure. Ventilation requirements depend on the garage and local rules, especially when the garage connects to a home. Gasoline, solvents, paints, aerosols, and other flammables must follow product labels, local rules, and appropriate containers. Decorative bins are not chemical storage. Keep ignition sources away. Do not store unknown or unlabeled chemicals in a showroom garage. A fire extinguisher's type and placement depend on the actual hazards and local requirements; one extinguisher does not make every hazard safe. Keep emergency exits and access routes clear. For suspected fuel leaks, strong fumes, or fire hazards, leave, do not investigate with a flame or spark, and follow emergency guidance and the property's reporting path. Electrical installation, circuit sizing, protection, grounding, and EV charging equipment must be designed and installed by appropriately qualified professionals and inspected as local rules require. The reader may plan and document loads, locations, and questions. Do not install circuits, junction boxes, or charging equipment from this book. A load schedule is a planning list, not proof that a service or circuit is safe. Confirm service capacity and whether a parking space is authorized for charging before promising EV readiness. Do not route cables across vehicle paths. Conduit appearance cannot override electrical code. Equipment manufacturer requirements for mounting, ventilation, and clearances take precedence. Confirm the substrate, mounting method, manufacturer's load rating, and installation requirements for each mount. Do not infer structural suitability from wall appearance or from the weight of the bikes alone. A load-bearing wall is not automatic permission. Locate concealed utilities before drilling. Uncertain construction, overhead systems, or unusual loads need a qualified assessment. Four bike mounts are not automatically safe because the combined bike weight looks small. A layout that fits on paper may still be uncomfortable or unsafe. Do not mount anything until both actual cars have parked, opened, and released a walking path.</p>
+</div></div></div>
+<div class='device'><div class='label'>Assess · Two-car fit before any showroom layout</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/002-pexels.jpg' alt='Two parked cars in a garage with a clear walking path and no wall-mounted bikes yet.'/>
+<div class='hero-cap'><p class='day'>Assess</p><h2>Two-car fit before any showroom layout</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>A US detached garage is labeled 20 by 20. After measuring to the lowest opener rail and both door tracks, the usable rectangle is smaller. One car is a compact hatchback; the other is a midsize SUV. Four bikes are planned for a side wall that sits in the SUV's door swing.</p></blockquote>
+<p class='principle'>Record the actual garage and both vehicles. A labeled 20-by-20 bay is a reference, not proof that two cars and four bikes will fit.</p>
+<p>Today's output: a filled Two-Car Fit Verification Sheet with both vehicles' length, width, mirror-to-mirror width, door-opening test, front and rear clearance, wall and bike clearance, walking route, and garage-door mechanism clearance.</p>
+<figure class='diagram'><img class='full' src='figures/D001.svg' alt='Two-car fit sheet'/><figcaption>Fill with the actual vehicles. Not a standard layout.</figcaption></figure>
+<p>Measure the interior at three points each way and keep the smallest numbers. Record clear height to the lowest obstruction: opener motor, tracks, torsion hardware, beams, water heater, electrical panel, steps, columns, ramps. Capture door opening width and where the open garage door sits. The paper size of the building is not the usable envelope.</p>
+<figure class='diagram'><img class='full' src='figures/D002.svg' alt='The labeled bay is not the usable bay'/><figcaption>A nominal 20-by-20 garage is an illustration, not an unobstructed floor.</figcaption></figure>
+<p>Then measure each car: overall length and width, mirror-to-mirror width, and the space needed to enter and exit on the sides you actually use. Compact hatchbacks, sedans, SUVs, and larger vehicles are not interchangeable. Illustrative catalog ranges in this chapter are starting points only. Park both actual cars, open the doors, open the trunk or hatch, walk to the house or exit, and note every squeeze. If the sequence requires unsafe pinching or repeated repositioning, revise the layout before buying mounts.</p>
+<figure class='diagram'><img class='full' src='figures/D003.svg' alt='Walking route, verified'/><figcaption>Circulation is a tested path, not a universal 36-inch rule.</figcaption></figure>
+<p>Wall-mounted bikes steal door swing and walking width. Handlebars, pedals, and racks count. Emergency access paths must stay clear of vehicles, storage, and display. Parking aids must not become trip hazards. Apartment or stilt parking may forbid this entire project; confirm permissions before measuring for a showroom.</p>
+<figure class='diagram'><img class='full' src='figures/D004.svg' alt='Illustrative compact sedan sizes'/><figcaption>Catalog ranges only. Use the cars that will park here.</figcaption></figure>
+<figure class='diagram'><img class='full' src='figures/D005.svg' alt='Illustrative midsize SUV sizes'/><figcaption>Not a clearance standard. Measure the actual SUV.</figcaption></figure>
+<figure class='diagram'><img class='full' src='figures/D007.svg' alt='Paper fit versus parked-car test'/><figcaption>If the parked-car test fails, the drawing does not win.</figcaption></figure>
+<figure class='diagram'><img class='full' src='figures/D009.svg' alt='Larger vehicles may not fit two-abreast'/><figcaption>A pickup or large SUV can exceed a compact two-car plan.</figcaption></figure>
+<figure class='diagram'><img class='full' src='figures/D010.svg' alt='Door opening is a test, not a rule'/><figcaption>Open the actual doors with bikes mocked up.</figcaption></figure>
+<div class='steps'><h3>Do this</h3><ol><li>Measure usable interior width, depth, and lowest height.</li><li>Record Car A and Car B length, width, mirrors, and a real door-opening test.</li><li>Park both cars and walk the exit path before choosing a wall for bikes.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Using a 20-by-20 label, a 36-inch walkway rule, or a 24-inch front clearance as if they were universal, then mounting bikes into a door arc.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Fit sheet filled</li><li>Both cars parked and tested</li><li>Unresolved constraints listed</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Chapter opener</div><div class='page'>
+<div class='opener'>
+<img class='full' src='photos/003-pexels.jpg' alt='Bikes on a garage wall with space left for a car door to open.'/>
+<p class='kicker'>Chapter</p><h1>Bike walls, mounts, and structure</h1>
+<p class='intro'>Confirm the substrate, mounting method, manufacturer's load rating, and installation requirements for each mount. Do not infer structural suitability from wall appearance or from the weight of the bikes alone. A load-bearing wall is not automatic permission. Locate concealed utilities before drilling. Uncertain construction, overhead systems, or unusual loads need a qualified assessment. Four bike mounts are not automatically safe because the combined bike weight looks small. This chapter chooses mount types and a verification path. It does not certify that your wall can hold four bikes.</p>
+</div></div></div>
+<div class='device'><div class='label'>Plan the wall · Substrate first, then the mount</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/001-pexels.jpg' alt='A garage wall with marked studs and a bike outline taped beside a parked car.'/>
+<div class='hero-cap'><p class='day'>Plan the wall</p><h2>Substrate first, then the mount</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>A villa garage has wood studs. A stilt parking stall in an apartment building has a concrete wall, a waterproofing layer, and a lease that forbids drilling. Both owners want four bikes on display. Only one of those walls may be a legal or structural candidate.</p></blockquote>
+<p class='principle'>The wall you have — not the bike weight — decides whether a mount is allowed.</p>
+<p>Today's output: a substrate map (stud, masonry, unknown), a permission note, and a mount type per bike that the manufacturer lists for that substrate — or a decision to store bikes on the floor or elsewhere.</p>
+<figure class='diagram'><img class='full' src='figures/D028.svg' alt='Bikes versus door swing'/><figcaption>Projection is measured with the actual bike, not a 2-inch rule.</figcaption></figure>
+<p>Private villa garages and shared apartment parking are different projects. Shared stalls often prohibit wall systems, overhead storage, and any penetration of waterproofing. If permission is missing, stop this chapter.</p>
+<figure class='diagram'><img class='full' src='figures/D029.svg' alt='Height follows the door travel'/><figcaption>Hook height is not a universal 66-to-74-inch band.</figcaption></figure>
+<p>Choose vertical hooks, cradles, or folding arms only from products rated for the bike and the substrate. Follow the manufacturer's hardware, embedment, and spacing. Do not invent a 3-to-4 safety factor or a 66-to-74-inch hook height as a universal rule. Heights must clear the garage-door travel, the opener, and the people who lift the bikes. Handlebar, pedal, and rack projection must stay out of the verified car-door arcs from the fit sheet.</p>
+<figure class='diagram'><img class='full' src='figures/D030.svg' alt='Mount decisions'/><figcaption>Product instructions beat spacing folklore.</figcaption></figure>
+<p>Locate electrical, plumbing, and reinforcement before drilling. If the wall construction is unknown, the load is unusual, or you want overhead storage, get a qualified assessment. Do not perform improvised overload tests that can damage the building. Use only the manufacturer's installation and inspection method.</p>
+<figure class='diagram'><img class='full' src='figures/D031.svg' alt='Handlebars and walking path'/><figcaption>Pedals and bars are part of the vehicle-movement test.</figcaption></figure>
+<figure class='diagram'><img class='full' src='figures/D032.svg' alt='Stagger only if it still lifts safely'/><figcaption>Alternating heights must still be reachable for the people who live here.</figcaption></figure>
+<div class='steps'><h3>Do this</h3><ol><li>Identify substrate and permission.</li><li>Match each mount to the manufacturer's substrate list and load rating.</li><li>Mock the bike outline against the parked-car door swing before drilling.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Mounting four bikes because the combined weight 'looks fine,' or using drywall as structure.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Substrate named</li><li>Permission recorded</li><li>Each mount has a product rating</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Chapter opener</div><div class='page'>
+<div class='opener'>
+<img class='full' src='photos/001-pexels.jpg' alt='A garage layout sketch next to two parked cars and a wall of bikes.'/>
+<p class='kicker'>Chapter</p><h1>Layout options and the daily-use test</h1>
+<p class='intro'>Plans A, B, and C are alternatives for different constraints, not a universal best layout. The showroom must survive rain, groceries, bike retrieval, and a blocked car.</p>
+</div></div></div>
+<div class='device'><div class='label'>Plan the floor · Pick a layout only after the movement sequence</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/006-pexels.jpg' alt='Two cars parked, a person-width path to a house door, bikes on a wall that does not block the hatch.'/>
+<div class='hero-cap'><p class='day'>Plan the floor</p><h2>Pick a layout only after the movement sequence</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Both cars are in. It is raining. Groceries need to come out of the hatch. A bike is needed from the wall. The house door is behind Car B.</p></blockquote>
+<p class='principle'>Test the actual sequence: enter, park both, open doors, walk to the exit, retrieve a bike, return it. If any step is unsafe, change the layout before installation.</p>
+<p>Today's output: a chosen layout option — A side-wall bikes, B back-wall bikes, or C split walls — plus a written daily-use pass/fail for rain parking, groceries, bike retrieval, tool access, and cleaning.</p>
+<figure class='diagram'><img class='full' src='figures/D033.svg' alt='Layout options, not a universal plan'/><figcaption>Pick the option that passes the parked-car test.</figcaption></figure>
+<p>Option A puts bikes on a side wall when that wall is not in a primary door swing. Option B uses the back wall when the garage door tracks eat the sides. Option C splits bikes when no single wall is clear. None is 'the best layout.' Choose from the fit sheet. If two cars cannot open and a person cannot walk to the house without crossing an active vehicle path, reduce display, store bikes elsewhere, or park one car outside.</p>
+<p>Minimum clear floor is whatever the movement test needs, not an aesthetic margin. Keep a tool and pump cabinet on a path that does not require moving a car. Seasonal gear leaves the floor. Display only items that still look acceptable after a wet week; everything else gets closed storage or leaves the garage.</p>
+<p>Garage-door travel, sensors, emergency release, and vehicle height clearance are part of the layout. Storage must not sit in the door's path. Child and visitor safety is not guaranteed by a pretty layout: chemicals stay in labeled, appropriate storage; tools do not live on the floor.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Run the full movement sequence with both actual cars.</li><li>Choose A, B, or C only if the sequence passes.</li><li>Name a tool location that does not require moving a car.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Installing the gallery wall first, then discovering groceries cannot leave the hatch.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Movement sequence passed</li><li>Layout letter chosen</li><li>Tool access without moving a car</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Chapter opener</div><div class='page'>
+<div class='opener'>
+<img class='full' src='photos/007-pexels.jpg' alt='A garage floor coating edge next to a wall panel, no people.'/>
+<p class='kicker'>Chapter</p><h1>Floors, walls, and finish care</h1>
+<p class='intro'>Coatings and panels are selected for the actual slab, moisture, and chemicals you will use. They are not waterproofing, and they are not maintenance-free.</p>
+</div></div></div>
+<div class='device'><div class='label'>Select floors · Floor coating is not a drainage fix</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/002-pexels.jpg' alt='A garage slab with a moisture-test patch and a visible slope toward a drain.'/>
+<div class='hero-cap'><p class='day'>Select floors</p><h2>Floor coating is not a drainage fix</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Rain sheets in under the garage door and pools at the back wall. The owner wants a metallic epoxy because it photographs well.</p></blockquote>
+<p class='principle'>Choose a coating from the manufacturer's substrate, moisture, and chemical limits. Coatings do not repair slope, leaks, or structural water.</p>
+<p>Today's output: a moisture and slope note, a coating system name that matches those conditions, or a hold until water is resolved.</p>
+<p>Check existing slope and where water goes. Rain at the entrance, wash water, and condensation are different loads. If water pools, find the source. Report persistent ingress to the owner or a qualified professional. Do not coat over an unresolved water problem.</p>
+<p>Follow the coating manufacturer's tests, prep, temperature, and re-entry times. Ask the vendor which chemicals the finish can tolerate — brake fluid, gasoline, and cleaners differ. A friction number quoted in a brochure is not a universal wet-safety rating for your shoes and slope.</p>
+<p>Protect finished floors during washing and jack use as the manufacturer allows. Vehicle washing may be restricted by local rules and by the coating warranty.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Record slope, pooling, and moisture-test method from the product.</li><li>Stop if water ingress is unresolved.</li><li>Select a system only after the manufacturer conditions are met.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Using a floor coating as waterproofing, or skipping moisture testing because the slab looks dry.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Slope and pooling noted</li><li>Product moisture limits checked</li><li>Hold or proceed written</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Select walls · Wall panels carry load only if the backup does</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/006-pexels.jpg' alt='Garage wall with a plywood or masonry backup marked before panels go on.'/>
+<div class='hero-cap'><p class='day'>Select walls</p><h2>Wall panels carry load only if the backup does</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>A renter wants slatwall on what looks like a solid wall. The substrate is unknown.</p></blockquote>
+<p class='principle'>Panel appearance is not a load rating. Backup, fasteners, and the product listing decide.</p>
+<p>Today's output: wall finish choice plus a backup method listed by the panel manufacturer, or a no-drill alternative.</p>
+<p>Paint and panels in a garage see moisture, impact, and UV at the door. Use products rated for that exposure. Do not fasten bike loads to drywall alone.</p>
+<p>If you do not own the building, prefer removable systems and get permission in writing. Replacement: keep extra slats or paint. Inspect fasteners on a schedule from the manufacturer, not 'when it looks loose.'</p>
+<p>Cross-reference the substrate map from the wall chapter. This day selects finishes; it does not re-engineer the wall.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Choose a garage-rated finish.</li><li>Confirm backup and fasteners from the product.</li><li>Record a no-drill fallback.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Screwing slatwall to drywall because the bikes are 'only road bikes.'</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Finish chosen</li><li>Backup specified</li><li>Permission or fallback</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Select accents · Metal and wood that can be cleaned and replaced</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/003-pexels.jpg' alt='Coordinated black hardware and a wood bench lifted off a garage floor.'/>
+<div class='hero-cap'><p class='day'>Select accents</p><h2>Metal and wood that can be cleaned and replaced</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>A coastal garage rusts cheap brackets. A wood bench wicks wash water.</p></blockquote>
+<p class='principle'>Name the exposure each finish must survive. 'Durable' without conditions is not a specification.</p>
+<p>Today's output: one metal family and one wood or wood-look product, each with a cleaning method and a replacement plan.</p>
+<p>Metal: corrosion, cleaner chemistry, and finish compatibility. Powder coat and stainless still fail if the cut edges rust. Clean with products the finish maker allows.</p>
+<p>Wood: moisture, finish care, lift off the floor, and impact. Engineered products still swell if edges are open. Keep wood out of the wash zone.</p>
+<p>Trim and transitions must not become trip hazards. Replace damaged pieces; do not caulk over a rocking reducer.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Pick one metal finish for visible hardware.</li><li>Pick wood that can live above splash.</li><li>Write cleaning and replacement notes.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Calling the package maintenance-free, then parking a wood bench in the wash stream.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Metal family</li><li>Wood care note</li><li>Trip-hazard check on transitions</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Chapter opener</div><div class='page'>
+<div class='opener'>
+<img class='full' src='photos/011-pexels.jpg' alt='A car under even garage lighting without windshield glare.'/>
+<p class='kicker'>Chapter</p><h1>Lighting layers without glare</h1>
+<p class='intro'>Ambient, task, and accent lighting do different jobs. Footcandle targets in this book are illustrations. Fixtures must suit a garage environment. Controls must fail to a usable light.</p>
+</div></div></div>
+<div class='device'><div class='label'>Select lighting · See the car, then add drama</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/003-pexels.jpg' alt='The same car photographed conceptually under even ambient light, without a hot spot on the windshield.'/>
+<div class='hero-cap'><p class='day'>Select lighting</p><h2>See the car, then add drama</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>A polished hood mirrors a downlight into the driver's eyes. The workbench is dim. The smart scene fails and the garage goes dark.</p></blockquote>
+<p class='principle'>Verify uniformity and glare on actual paint and glass. Scenes must fail safe.</p>
+<p>Today's output: a three-layer plan — ambient for moving around, task for work and loading, accent for bikes — plus a glare test on both parking spaces and a fail-safe (manual switch or always-on path light).</p>
+<figure class='diagram'><img class='full' src='figures/D034.svg' alt='Light the walking and parking grid'/><figcaption>Layers follow the verified movement path.</figcaption></figure>
+<p>Ambient covers walking and parking. Task covers the bench, hatch, and lock area. Accent is optional. Compare the same vehicle under ambient only; ambient plus task; then all three. If accent lighting hides a puddle or a bike pedal, it is in the way.</p>
+<figure class='diagram'><img class='full' src='figures/D035.svg' alt='Task light is for work, not sparkle'/><figcaption>A bench needs light you can work by. Illustrative only.</figcaption></figure>
+<p>Illustrative planning bands such as 20–30 footcandles ambient or 50–75 at a bench are starting points, not code. Choose levels for the activity, fixture layout, and any applicable requirements. Keep color temperature consistent unless a product requires otherwise. Use garage-rated, damp-or-wet-listed fixtures where the environment needs them.</p>
+<figure class='diagram'><img class='full' src='figures/D036.svg' alt='Both parking spaces, not one spotlight'/><figcaption>Check uniformity between Car A and Car B.</figcaption></figure>
+<p>Do not tie life-safety response solely to a lighting scene. If automation dies, a regular switch must still light the path. Electrical work remains professional installation.</p>
+<figure class='diagram'><img class='full' src='figures/D037.svg' alt='Layer 1 — ambient only'/><figcaption>Can you walk and park without accent lights?</figcaption></figure>
+<figure class='diagram'><img class='full' src='figures/D038.svg' alt='Layer 2 — ambient plus task'/><figcaption>Can you load groceries and use the bench?</figcaption></figure>
+<figure class='diagram'><img class='full' src='figures/D039.svg' alt='Layer 3 — add accent last'/><figcaption>Accent cannot hide pedals, puddles, or the exit.</figcaption></figure>
+<figure class='diagram'><img class='full' src='figures/D040.svg' alt='Aim off the windshield'/><figcaption>Side light on bodywork often glares less than a downlight in glass.</figcaption></figure>
+<figure class='diagram'><img class='full' src='figures/D041.svg' alt='Controls fail safe'/><figcaption>A dead smart scene must not leave the garage dark.</figcaption></figure>
+<div class='steps'><h3>Do this</h3><ol><li>Place ambient so both parking spaces are usable.</li><li>Add task light at the bench and loading side.</li><li>Aim accents, then look for paint and glass glare. Confirm a manual-on path light.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Programming a showcase scene as the only way to turn the lights on, or treating a footcandle table as a required installation.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Three layers named</li><li>Glare test done</li><li>Fail-safe switch exists</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Chapter opener</div><div class='page'>
+<div class='opener'>
+<img class='full' src='photos/006-pexels.jpg' alt='A labeled electrical panel with clear working space in a garage.'/>
+<p class='kicker'>Chapter</p><h1>Power planning, fire, and exhaust</h1>
+<p class='intro'>Electrical installation, circuit sizing, protection, grounding, and EV charging equipment must be designed and installed by appropriately qualified professionals and inspected as local rules require. The reader may plan and document loads, locations, and questions. Do not install circuits, junction boxes, or charging equipment from this book. A load schedule is a planning list, not proof that a service or circuit is safe. Confirm service capacity and whether a parking space is authorized for charging before promising EV readiness. Do not route cables across vehicle paths. Conduit appearance cannot override electrical code. Equipment manufacturer requirements for mounting, ventilation, and clearances take precedence. Gasoline, solvents, paints, aerosols, and other flammables must follow product labels, local rules, and appropriate containers. Decorative bins are not chemical storage. Keep ignition sources away. Do not store unknown or unlabeled chemicals in a showroom garage. A fire extinguisher's type and placement depend on the actual hazards and local requirements; one extinguisher does not make every hazard safe. Keep emergency exits and access routes clear. For suspected fuel leaks, strong fumes, or fire hazards, leave, do not investigate with a flame or spark, and follow emergency guidance and the property's reporting path. Exhaust safety: never rely on a carbon monoxide alarm to make indoor vehicle operation safe. Do not run a vehicle in an enclosed garage. If exhaust fumes or an alarm indicate a possible hazard, leave the area and follow appropriate emergency guidance. An alarm is a warning device, not a substitute for preventing exposure. Ventilation requirements depend on the garage and local rules, especially when the garage connects to a home. This chapter is documentation. It is not a license to wire the garage.</p>
+</div></div></div>
+<div class='device'><div class='label'>Plan power · Document loads. Do not install them.</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/014-pexels.jpg' alt='A written load list taped beside a garage panel with clear floor space.'/>
+<div class='hero-cap'><p class='day'>Plan power</p><h2>Document loads. Do not install them.</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>A household wants future EV charging, a compressor, and showroom lighting on a service that has never been assessed.</p></blockquote>
+<p class='principle'>A load list is a question for a qualified professional, not a DIY circuit plan.</p>
+<p>Today's output: a load schedule of lighting, opener, tools, and possible EV — with watt or amp estimates from nameplates — marked for professional review. No circuits are installed in this chapter.</p>
+<p>List what exists and what you want. Note the panel location and working clearance as the professional and local rules require; do not treat a 30-by-36-inch anecdote as code. GFCI and other protection depend on the installation and local requirements.</p>
+<p>EV charging: confirm the parking space is authorized and the service can support it before promising readiness. Manufacturer requirements for the charger, ventilation, mounting, and cable length apply. Cables must not cross driving or walking paths.</p>
+<p>Outlet height and placement are convenience notes for the electrician, not DIY layout rules. Keep cords out of door swings.</p>
+<div class='steps'><h3>Do this</h3><ol><li>List nameplate loads.</li><li>Mark EV as pending professional and permission review.</li><li>Photograph the panel and its working space without opening it if you are not qualified.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Installing a 'future EV' circuit or moving the panel clearance to fit a bike wall.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Load list</li><li>EV permission unknown/yes/no</li><li>Panel access not blocked on the plan</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Plan routes · Cable routes that a professional can actually build</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/015-pexels.jpg' alt='Painter-tape raceway lines along a garage corner, stopping short of the door track.'/>
+<div class='hero-cap'><p class='day'>Plan routes</p><h2>Cable routes that a professional can actually build</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>A clean raceway looks good on a mood board and would run through the garage-door sensor beam.</p></blockquote>
+<p class='principle'>Aesthetics cannot override code, sensors, or vehicle paths. The electrician owns the routing.</p>
+<p>Today's output: a sketch of preferred raceway lines along edges, with no-go zones: door travel, sensors, walking path, and flammable storage.</p>
+<p>You may prefer surface raceway versus concealed work. The installer decides what is permitted. Keep low-voltage documentation separate as the professional requires. Do not share assumptions about mixing cables in one conduit.</p>
+<p>Security cameras and access control must follow local law, privacy, and building rules, and must not obstruct movement. Label planned circuits on paper for the binder; the installer labels the finished work.</p>
+<p>This is still not an installation day.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Sketch preferred edges.</li><li>Mark no-go zones.</li><li>Hand the sketch to the qualified installer.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Pulling cable yourself to keep the showroom on schedule.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Route sketch</li><li>No-go zones</li><li>Installer named or still required</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Plan safety · Fire, fumes, and what an alarm cannot do</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/016-pexels.jpg' alt='Labeled fuel container in an approved cabinet, extinguisher visible near an exit, no running car.'/>
+<div class='hero-cap'><p class='day'>Plan safety</p><h2>Fire, fumes, and what an alarm cannot do</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Fuel cans sit in an open crate under a bike. A CO alarm is tied to a lighting scene so the room 'feels safe' while a car idles.</p></blockquote>
+<p class='principle'>Alarms warn. They do not make idling or sloppy chemical storage acceptable.</p>
+<p>Today's output: a chemical inventory with labeled containers only, an extinguisher decision referred to local requirements and actual hazards, detector locations as required, and a written exhaust rule: engines off in the enclosure.</p>
+<p>Gasoline, solvents, paints, aerosols, and other flammables must follow product labels, local rules, and appropriate containers. Decorative bins are not chemical storage. Keep ignition sources away. Do not store unknown or unlabeled chemicals in a showroom garage. A fire extinguisher's type and placement depend on the actual hazards and local requirements; one extinguisher does not make every hazard safe. Keep emergency exits and access routes clear. For suspected fuel leaks, strong fumes, or fire hazards, leave, do not investigate with a flame or spark, and follow emergency guidance and the property's reporting path.</p>
+<p>Exhaust safety: never rely on a carbon monoxide alarm to make indoor vehicle operation safe. Do not run a vehicle in an enclosed garage. If exhaust fumes or an alarm indicate a possible hazard, leave the area and follow appropriate emergency guidance. An alarm is a warning device, not a substitute for preventing exposure. Ventilation requirements depend on the garage and local rules, especially when the garage connects to a home.</p>
+<p>Do not hide extinguishers behind display. Do not store fuel in decorative glass. If the garage attaches to the house, treat exhaust and door seals as a household hazard, not a styling detail. Lighting scenes must not be the emergency plan.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Remove unlabeled chemicals.</li><li>Place detectors and extinguishers per professional and local guidance.</li><li>Write the no-idling rule on the fit sheet.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Idling a car for the CO alarm 'test,' or using one ABC extinguisher as a blanket guarantee.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Chemical inventory</li><li>Alarm is not a substitute for exhaust control</li><li>Exit paths clear</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Chapter opener</div><div class='page'>
+<div class='opener'>
+<img class='full' src='photos/002-pexels.jpg' alt='A garage budget worksheet with labor and contingency lines, not only finish samples.'/>
+<p class='kicker'>Chapter</p><h1>Budget, vendors, and what to postpone</h1>
+<p class='intro'>A premium finish is optional. Safety, structure, electrical, and preparation are not. If the budget cannot cover the essential work, postpone the aesthetic upgrade.</p>
+</div></div></div>
+<div class='device'><div class='label'>Select vendors · Price the whole project, then cut the showroom</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/016-pexels.jpg' alt='A budget sheet listing electrician, prep, and contingency above decorative finishes.'/>
+<div class='hero-cap'><p class='day'>Select vendors</p><h2>Price the whole project, then cut the showroom</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>A Good/Better/Best sheet prices epoxy and slatwall. It omits an electrician, moisture mitigation, permits, and disposal.</p></blockquote>
+<p class='principle'>The cheapest quote is not comparable until scope, qualifications, and warranty are the same.</p>
+<p>Today's output: a budget that includes design, professional assessments, demolition, prep, materials, labor, electrical, permits, delivery, disposal, contingency, and maintenance — with a go/postpone decision.</p>
+<p>USD line items belong in writing. Warranty terms are only real when written. Lead times change. Installation quality is part of the bid. Check licenses separately from a vendor score.</p>
+<p>If money is short, keep parking function, fire and exhaust rules, and required electrical corrections. Drop metallic floors, accent lighting, and extra bikes.</p>
+<p>Renter and HOA fees, deposits, and restoration at move-out belong in the budget if you do not own the building.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Fill every cost category, including labor and contingency.</li><li>Score vendors on written warranty and qualifications, not photos.</li><li>Postpone aesthetics if essential work does not fit.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Spending the contingency on a Best-tier floor while the panel still needs professional work.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Complete cost categories</li><li>Written warranties</li><li>Postpone-or-proceed decision</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Chapter opener</div><div class='page'>
+<div class='opener'>
+<img class='full' src='photos/016-pexels.jpg' alt='A garage with floor protection down and no electrical DIY in progress.'/>
+<p class='kicker'>Chapter</p><h1>Install with hold points</h1>
+<p class='intro'>Do not skip verification to keep a finish schedule. Each stage below has a stop rule. Electrical installation is performed by qualified professionals.</p>
+</div></div></div>
+<div class='device'><div class='label'>Stage 1 · Hold point: permissions, fit, and hazards</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/020-pexels.jpg' alt='A clipboard packet on a workbench: fit sheet, permission, electrician note.'/>
+<div class='hero-cap'><p class='day'>Stage 1</p><h2>Hold point: permissions, fit, and hazards</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Materials have arrived. The two-car test was never finished. The wall type is still 'probably studs.'</p></blockquote>
+<p class='principle'>Do not clear the room for finishing until permissions, vehicle fit, electrical review, structure, and water issues are documented.</p>
+<p>Today's output: a signed-off pre-install packet — permission, fit sheet, load list for the electrician, substrate note, moisture/slope note — or a stop.</p>
+<p>Protect vehicles and the house from dust only after the packet exists. Emptying the garage is not a substitute for verification.</p>
+<p>Do not proceed to demolition or grinding if water, structure, or electrical capacity is unresolved.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Assemble the packet.</li><li>Stop if any essential line is blank.</li><li>Only then protect the site.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Scheduling the coating crew because the epoxy already shipped.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Packet complete or stop</li><li>Site not opened early</li><li>Vehicles protected only after go</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Stage 2 · Hold point: slab and water</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/015-pexels.jpg' alt='Moisture-test results next to a coating data sheet.'/>
+<div class='hero-cap'><p class='day'>Stage 2</p><h2>Hold point: slab and water</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>The coating crew is ready. The manufacturer's moisture reading is over the product limit.</p></blockquote>
+<p class='principle'>Follow the coating manufacturer's prep, moisture, cure, and re-entry. Do not proceed if the product limits fail.</p>
+<p>Today's output: recorded moisture and environment readings versus the product, then prep and coating only if they pass.</p>
+<p>Mechanical versus chemical prep is the manufacturer's choice, not a preference. Coatings do not fix pooling.</p>
+<p>Keep people and vehicles off the floor for the stated re-entry time. This book does not set that time.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Compare readings to the product.</li><li>Stop if over limit.</li><li>Prep and coat only to the instructions.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Coating a wet slab because the showroom reveal is this weekend.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Readings recorded</li><li>Pass or stop</li><li>Re-entry from the product</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Stage 3 · Hold point: wall backup before panels</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/007-pexels.jpg' alt='Opened wall showing studs or masonry before panels go up.'/>
+<div class='hero-cap'><p class='day'>Stage 3</p><h2>Hold point: wall backup before panels</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Panels are stacked. Nobody has found the studs or confirmed masonry anchors.</p></blockquote>
+<p class='principle'>Do not install the finish wall until substrate, services, mounting locations, and storage load are verified.</p>
+<p>Today's output: verified backing and service clearances, then panels only with the specified fasteners.</p>
+<p>Opening walls may require a professional and permission. Do not cut into unknown assemblies.</p>
+<p>Alignment is secondary to a sound backup. A laser-straight rail on drywall is still a failure.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Verify substrate and services.</li><li>Install only listed hardware.</li><li>Stop if the wall is not what the plan assumed.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Hanging the gallery on the finish layer because it is faster.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Backup verified</li><li>Services marked</li><li>Listed fasteners only</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Stage 4 · Hold point: bikes after the cars still fit</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/023-pexels.jpg' alt='Four bikes on a wall while two cars sit with doors opened beside them.'/>
+<div class='hero-cap'><p class='day'>Stage 4</p><h2>Hold point: bikes after the cars still fit</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Mounts are on the wall. Nobody has re-parked both cars with the actual bikes hung.</p></blockquote>
+<p class='principle'>Hang bikes only on verified mounts. Re-run the door, hatch, and walking test with the real bikes.</p>
+<p>Today's output: each mount installed to the product instructions, then a parked-car clearance test with all four bikes (or fewer if four fail).</p>
+<p>Do not improvise a 1.25-times hang test. Use the manufacturer's inspection method.</p>
+<p>If a door hits a pedal, remove that bike from the wall. Display is optional; exit is not.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Install per product.</li><li>Hang the actual bikes.</li><li>Repeat the movement sequence.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Declaring the wall finished from a tape-measure stagger without the cars present.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Product install followed</li><li>Actual bikes hung</li><li>Movement sequence repeated</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Stage 5 · Hold point: electrical by qualified people</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/024-pexels.jpg' alt='An electrician's completed garage lighting, with a wall switch independent of a smart scene.'/>
+<div class='hero-cap'><p class='day'>Stage 5</p><h2>Hold point: electrical by qualified people</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>The lighting boxes arrived with a printed scene list. Someone offers to 'just rough in the circuits.'</p></blockquote>
+<p class='principle'>Qualified professionals install and verify electrical work. The homeowner does not run circuits from this book.</p>
+<p>Today's output: completed professional electrical and lighting installation per the reviewed plan, with inspection as required — or a stop that leaves temporary safe lighting.</p>
+<p>Aim fixtures for glare after they are legally installed. Program scenes only as a convenience on top of a manual-on path light.</p>
+<p>GFCI and polarity checks are part of the professional's verification, not a DIY lesson.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Keep the homeowner off live work.</li><li>Confirm inspection or equivalent local closeout.</li><li>Test manual lighting if automation is off.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Running circuits to protect the showroom schedule.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Professional install</li><li>Inspection or required closeout</li><li>Manual light works</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Stage 6 · Finish only after the garage still functions</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/025-pexels.jpg' alt='Finished garage with a clear path to the house door and a visible door-release handle.'/>
+<div class='hero-cap'><p class='day'>Stage 6</p><h2>Finish only after the garage still functions</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Trim is on. A bump stop creates a trip in the walking path. The emergency release for the door is blocked by a bench.</p></blockquote>
+<p class='principle'>QA is vehicle fit, movement, storage access, floor condition, electrical closeout, and emergency access — not only seam alignment.</p>
+<p>Today's output: a QA list with parked-car fit, door and hatch, walking route, bike retrieval, tool access, floor, lighting fail-safe, extinguisher/detector access, and garage-door emergency release.</p>
+<p>Clean the coating only as the manufacturer allows. Parking aids must not trip people.</p>
+<p>Document deviations. Insurance, warranties, and shutoff locations go in the binder.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Run the QA list with both cars.</li><li>Clear the door emergency release.</li><li>File warranties and emergency contacts.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Signing off because the photos look premium while the walking path is blocked.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>QA with cars</li><li>Emergency access clear</li><li>Binder complete</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Chapter opener</div><div class='page'>
+<div class='opener'>
+<img class='full' src='photos/011-pexels.jpg' alt='A printed two-car fit sheet on a garage workbench.'/>
+<p class='kicker'>Chapter</p><h1>Two-car fit verification sheet</h1>
+<p class='intro'>Copy the Assess chapter numbers here. Do not invent a second measuring method. Unresolved constraints stay on the page.</p>
+</div></div></div>
+<div class='device'><div class='label'>Worksheet · Fill the sheet with the parked cars</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/027-pexels.jpg' alt='A completed fit sheet clipped to a garage wall, both cars parked.'/>
+<div class='hero-cap'><p class='day'>Worksheet</p><h2>Fill the sheet with the parked cars</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>The worksheet is still blank except for '20x20' copied from a listing.</p></blockquote>
+<p class='principle'>If a field is the listing size rather than a measured size, the sheet is not done.</p>
+<p>Today's output: every row on the fit sheet completed or marked NA, plus unresolved constraints.</p>
+<figure class='diagram'><img class='full' src='figures/D044.svg' alt='Bike retrieval with both cars in'/><figcaption>The worksheet fails if a bike cannot come off the wall.</figcaption></figure>
+<p>Include actual vehicle dimensions, wall projections, door swing, walking route, bike clearance, garage-door mechanism, and pedestrian route to the house. Add columns for Car A and Car B.</p>
+<p>Horizontal display, vertical hooks, and folding arms are choices only after these numbers exist. Illustrative mount heights in older notes are not copied forward as rules.</p>
+<p>If two cars fail, write the reduced plan on this sheet: one car, fewer bikes, or off-site storage.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Transfer Assess measurements.</li><li>Park and test again if anything changed.</li><li>List unresolved constraints.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Filling the sheet with catalog sedan sizes.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>All rows filled or NA</li><li>Parked-car test dated</li><li>Constraints listed</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Chapter opener</div><div class='page'>
+<div class='opener'>
+<img class='full' src='photos/028-pexels.jpg' alt='Hardware and mounts laid out with spec sheets, not yet installed.'/>
+<p class='kicker'>Chapter</p><h1>Wall-system bill of materials</h1>
+<p class='intro'>The BOM is a buying list tied to substrate and ratings. It is not a second wall-design chapter.</p>
+</div></div></div>
+<div class='device'><div class='label'>Worksheet · List only what the wall can take</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/014-pexels.jpg' alt='A BOM sheet with substrate and load columns filled before any order.'/>
+<div class='hero-cap'><p class='day'>Worksheet</p><h2>List only what the wall can take</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>A cart is full of hooks. The substrate field on the template is empty.</p></blockquote>
+<p class='principle'>No SKU without substrate, load requirement, and permission.</p>
+<p>Today's output: a BOM with product, quantity, substrate, load requirement, hardware, and a professional-verification checkbox where the wall is uncertain.</p>
+<p>Walk the garage with the fit sheet. Mark no-build zones at panels, gas appliances, and door tracks. Then fill vendor and lead time.</p>
+<p>Do not order from a pretty four-bike photo.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Fill substrate first.</li><li>Add SKUs that list that substrate.</li><li>Check permission.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Ordering four identical mounts for mixed bikes and an unknown wall.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Substrate filled</li><li>SKUs match substrate</li><li>Permission box</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Worksheet · Heights from people and door travel</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/030-pexels.jpg' alt='A wall with the garage-door open-position marked above proposed hook heights.'/>
+<div class='hero-cap'><p class='day'>Worksheet</p><h2>Heights from people and door travel</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>A template still says 64 inches for adult bikes and 48 inches for kids as if that were code.</p></blockquote>
+<p class='principle'>Record the height that this household can lift, below door travel, from the product instructions.</p>
+<p>Today's output: a height and stagger plan that cites the product and the door-travel mark — not a copied 64/48-inch rule.</p>
+<p>Kids' bikes, e-bikes, and heavy mountain bikes have different lift and rating needs. E-bike weight can exceed ordinary hook ratings.</p>
+<p>Stagger only if bars and pedals still clear car doors.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Mark door travel on the wall.</li><li>Set heights from product and reach.</li><li>Reject any height that enters the door arc.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Copying a 64-inch adult height into a low-opener garage.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Door-travel mark</li><li>Reach-checked heights</li><li>Ratings for the heaviest bike</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Worksheet · Sign off only with cars and bikes together</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/020-pexels.jpg' alt='Signed QA sheet next to two parked cars and mounted bikes.'/>
+<div class='hero-cap'><p class='day'>Worksheet</p><h2>Sign off only with cars and bikes together</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>The installer wants a signature before the parked-car test.</p></blockquote>
+<p class='principle'>QA includes stud or anchor verification, product embedment, and a live door-swing test.</p>
+<p>Today's output: a signed QA with the parked-car test attached.</p>
+<p>Document torque or inspection only as the manufacturer specifies.</p>
+<p>Warranty claims need this paper.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Complete the product inspection.</li><li>Park both cars with bikes mounted.</li><li>Sign only if the movement sequence still passes.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Signing off from a ladder photo of even spacing.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Product inspection</li><li>Parked-car test</li><li>Record filed</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Chapter opener</div><div class='page'>
+<div class='opener'>
+<img class='full' src='photos/020-pexels.jpg' alt='A lighting worksheet with zones marked on a garage plan.'/>
+<p class='kicker'>Chapter</p><h1>Lighting worksheet and fail-safe scenes</h1>
+<p class='intro'>Footcandle numbers here are optional planning targets. The required outputs are fixture locations, glare results, and a working manual light.</p>
+</div></div></div>
+<div class='device'><div class='label'>Worksheet · Write zones, not a required lux map</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/033-pexels.jpg' alt='Garage plan with ambient, task, and accent zones labeled.'/>
+<div class='hero-cap'><p class='day'>Worksheet</p><h2>Write zones, not a required lux map</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>A worksheet still demands 20–30 footcandles as if it were an inspection standard.</p></blockquote>
+<p class='principle'>Record what each zone is for. Any numeric target is illustrative until measured and judged on site.</p>
+<p>Today's output: zone map — ambient, task, accent — with intended activity, glare notes, and fixture type. Optional illustrative bands may be written as 'try' values only.</p>
+<figure class='diagram'><img class='full' src='figures/D045.svg' alt='Illustrative lighting tries, not code'/><figcaption>Use only as a starting conversation with the lighting plan.</figcaption></figure>
+<p>CRI and color temperature should be consistent enough that paint is not two colors between bays. Choose products listed for the garage environment.</p>
+<p>Do not buy dimmers incompatible with the fixtures; that check belongs with the electrician.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Map zones to activities.</li><li>Note glare risks on paint and glass.</li><li>Mark garage-rated fixtures.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Treating a 20–30 footcandle table as a pass/fail code.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Zones mapped</li><li>Glare notes</li><li>Environment listing</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Worksheet · Commission by looking at the cars</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/034-pexels.jpg' alt='A person viewing a hood and windshield for glare with the garage lights on.'/>
+<div class='hero-cap'><p class='day'>Worksheet</p><h2>Commission by looking at the cars</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Dimmers are at 80 percent because a scene card said so. The windshield blooms.</p></blockquote>
+<p class='principle'>Aim and dim until glare and uniformity pass, not until a percentage matches a worksheet.</p>
+<p>Today's output: recorded aim notes and a pass/fail glare check on both cars, plus bike retrieval light.</p>
+<p>If the 10-foot-bay example in an apartment is your garage, scale the number of fixtures down; do not copy a 20-by-20 scene.</p>
+<p>Task light at the hatch must work with the door open.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Aim off glass.</li><li>Compare both parking spaces.</li><li>Confirm hatch and bench.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Leaving factory aim because the scene names sound premium.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Glare pass/fail</li><li>Both bays compared</li><li>Hatch checked</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Worksheet · Document scenes and the override</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/027-pexels.jpg' alt='A wall switch labeled path light beside a lighting scene keypad.'/>
+<div class='hero-cap'><p class='day'>Worksheet</p><h2>Document scenes and the override</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Nobody wrote down which switch still works when Wi-Fi dies.</p></blockquote>
+<p class='principle'>Scenes are optional. The override is required.</p>
+<p>Today's output: scene names, dimmer notes, color temperature, and the location of the manual-on path light.</p>
+<p>Maintenance: clean lenses as the fixture maker allows; replace failed lamps with the same type.</p>
+<p>Do not connect alarms to lighting as the only emergency response.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Write scene settings.</li><li>Circle the override device.</li><li>Schedule lens cleaning.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>A showroom that is dark during a network outage.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Scenes recorded</li><li>Override circled</li><li>Cleaning note</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Chapter opener</div><div class='page'>
+<div class='opener'>
+<img class='full' src='photos/036-pexels.jpg' alt='A garage binder with warranties, shutoffs, and a maintenance calendar.'/>
+<p class='kicker'>Chapter</p><h1>Budget worksheet and long-term care</h1>
+<p class='intro'>Finish the money sheet, then keep a maintenance and security list. Aesthetics do not outrank parking, fire rules, or professional electrical closeout.</p>
+</div></div></div>
+<div class='device'><div class='label'>Worksheet · Every cost category, including the unsexy ones</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/007-pexels.jpg' alt='Budget worksheet with electrician and contingency filled in.'/>
+<div class='hero-cap'><p class='day'>Worksheet</p><h2>Every cost category, including the unsexy ones</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>The Good/Better/Best columns still list only floors, walls, mounts, and lights.</p></blockquote>
+<p class='principle'>If labor, assessments, prep, electrical, permits, disposal, contingency, and maintenance are missing, the sheet is incomplete.</p>
+<p>Today's output: a completed category sheet in USD, including professional review and future recoating or hardware replacement.</p>
+<p>This is not another design essay. Fill the blanks from quotes.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Add missing categories.</li><li>Attach quotes.</li><li>Set contingency.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>A Best lighting number with a $0 electrician line.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>All categories</li><li>Quotes attached</li><li>Contingency set</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Worksheet · How to use the sheet without restyling</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/023-pexels.jpg' alt='Budget lines highlighted as essential versus optional.'/>
+<div class='hero-cap'><p class='day'>Worksheet</p><h2>How to use the sheet without restyling</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Someone starts the sheet by choosing walnut slats before the electrician quote arrives.</p></blockquote>
+<p class='principle'>Lock essential work first. Assign finishes to leftover money.</p>
+<p>Today's output: essential versus optional tagged on every line.</p>
+<p>A 10-foot single bay uses a smaller bill of materials. Do not copy a two-car quantity list.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Tag essential vs optional.</li><li>Fit the optional list to remaining funds.</li><li>Stop if essentials do not fit.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Defining the aesthetic target before the safety and parking lines.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Essential tags</li><li>Optional list cut to fit</li><li>Stop rule applied</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Worksheet · Vendors, licenses, and unequal quotes</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/024-pexels.jpg' alt='Two coating bids with the same prep scope highlighted.'/>
+<div class='hero-cap'><p class='day'>Worksheet</p><h2>Vendors, licenses, and unequal quotes</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>The low bid omits grinding, moisture tests, and electrical permits.</p></blockquote>
+<p class='principle'>Score only comparable scope. Check qualifications outside the score.</p>
+<p>Today's output: two vendors per trade, written warranty, lead time, and license or qualification note, plus a primary and backup.</p>
+<p>Sequence purchases after hold points, not because a sale ends Sunday.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Normalize scope.</li><li>Record warranty in writing.</li><li>Keep a backup vendor.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>Picking the lowest number with a different scope.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Comparable scope</li><li>Written warranty</li><li>Backup vendor</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Worksheet · Safety ratings beat cosmetic upgrades</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/025-pexels.jpg' alt='Lockable tool cabinet out of the vehicle path, manuals in a binder.'/>
+<div class='hero-cap'><p class='day'>Worksheet</p><h2>Safety ratings beat cosmetic upgrades</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>A decorative hook is cheaper than the mount rated for an e-bike.</p></blockquote>
+<p class='principle'>Load ratings, chemical storage, and listed electrical gear outrank matching finishes.</p>
+<p>Today's output: a rejected-SKU list for anything without a usable rating or listing.</p>
+<p>Keep proofs, manuals, and shutoff maps in one binder. Note insurance requirements if any.</p>
+<p>Security: review door hardware, visibility, and lockable storage for tools and bike parts without blocking movement. Follow local law on cameras.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Drop unrated mounts.</li><li>File manuals and shutoffs.</li><li>Place locks so they do not obstruct paths.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>A camera or lock box in the walking path, or an unrated hook on an e-bike.</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Unrated SKUs removed</li><li>Binder started</li><li>Security without obstruction</li></ul></div>
+</article></div></div>
+<div class='device'><div class='label'>Worksheet · Maintenance calendar and emergency info</div><div class='page'><article class='unit'>
+<div class='hero'>
+<img class='full' src='photos/011-pexels.jpg' alt='A one-page emergency and maintenance card inside a garage cabinet door.'/>
+<div class='hero-cap'><p class='day'>Worksheet</p><h2>Maintenance calendar and emergency info</h2></div></div>
+<blockquote class='scenario'><p class='label'>In this apartment</p><p>Six months later the coating is stained, a fastener is loose, and nobody knows the door-release or panel location.</p></blockquote>
+<p class='principle'>A showroom that cannot be cleaned or shut down is not finished.</p>
+<p>Today's output: a calendar for coating care, fastener inspection, detector tests per manufacturer, drain or sweep, and a card with emergency contacts and shutoff locations.</p>
+<p>Include waste and recycling for rags, oil, and empty chemical containers per local rules.</p>
+<p>Accessibility: if someone in the household cannot use a high hook or a narrow path, change the layout rather than insisting on the original showroom drawing.</p>
+<div class='steps'><h3>Do this</h3><ol><li>Write the calendar.</li><li>Fill the emergency card.</li><li>Revisit reach and path with the people who use the garage.</li></ol></div>
+<aside class='mistake'><h3>Where this goes wrong</h3><p>No plan except 'it should still look like the photo.'</p></aside>
+<div class='checklist'><h3>Today's output</h3><ul><li>Calendar</li><li>Shutoffs and contacts</li><li>Reach reviewed</li></ul></div>
+</article></div></div>
+</body></html>

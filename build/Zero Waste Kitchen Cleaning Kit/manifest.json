@@ -1,0 +1,398 @@
+{
+  "title": "Zero Waste Kitchen Cleaning Kit",
+  "units": "imperial",
+  "outputs": {
+    "cover": "build\\Zero Waste Kitchen Cleaning Kit\\cover.pdf",
+    "pdf": "build\\Zero Waste Kitchen Cleaning Kit\\zero-waste-kitchen-cleaning-kit.pdf",
+    "epub": "build\\Zero Waste Kitchen Cleaning Kit\\zero-waste-kitchen-cleaning-kit.epub",
+    "epub_preview": "build\\Zero Waste Kitchen Cleaning Kit\\epub-preview.html"
+  },
+  "ai_generated_images": 0,
+  "kdp_ai_disclosure_required": false,
+  "images": [
+    {
+      "query": "compact Indian kitchen with minimal clutter, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Ty Nguyễn on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\000-pexels.jpg"
+    },
+    {
+      "query": "minimalist kitchen with clear surfaces, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Cup of  Couple on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\002-pexels.jpg"
+    },
+    {
+      "query": "compact kitchen storage solutions, one window light, plaster textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Fabian Reck on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\003-pexels.jpg"
+    },
+    {
+      "query": "organized kitchen zones, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Yunuen Zempoaltecatl on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\004-pexels.jpg"
+    },
+    {
+      "query": "cleaning supplies for sensitive surfaces, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by 3D Render on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\005-pexels.jpg"
+    },
+    {
+      "query": "kitchen cleaning routine with airflow considerations, one window light, plaster textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Betül  Üstün on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\006-pexels.jpg"
+    },
+    {
+      "query": "Compact cleaning kit in a small kitchen, under-sink cabinet, organized tools, natural light, minimalist styling.",
+      "source": "pexels",
+      "credit": "Photo by Andrea Davis on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\007-pexels.jpg"
+    },
+    {
+      "query": "Organized cleaning tools in a compact caddy, natural light, minimalist design.",
+      "source": "pexels",
+      "credit": "Photo by Alec Adriano on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\008-pexels.jpg"
+    },
+    {
+      "query": "Organized cleaning kit in a small kitchen cabinet, natural light, minimalist design.",
+      "source": "pexels",
+      "credit": "Photo by SHVETS production on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\010-pexels.jpg"
+    },
+    {
+      "query": "Maintained cleaning kit in a small kitchen, natural light, minimalist design.",
+      "source": "pexels",
+      "credit": "Photo by Lisa Fotios on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\011-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a compact Indian kitchen with refillable cleaner bottles on the counter, natural light from a window, clean and organized",
+      "source": "pexels",
+      "credit": "Photo by Marc Pell on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\012-pexels.jpg"
+    },
+    {
+      "query": "stock photo of cleaning ingredients like vinegar, baking soda, and castile soap",
+      "source": "pexels",
+      "credit": "Photo by Tara Winstead on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\014-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a small kitchen with cleaning supplies on the counter",
+      "source": "pexels",
+      "credit": "Photo by ready made on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\015-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a well-organized cleaning station in a small kitchen",
+      "source": "pexels",
+      "credit": "Photo by Huy Phan on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\016-pexels.jpg"
+    },
+    {
+      "query": "Compact kitchen with vertical storage solutions, natural light from one window, clean lines, minimalist design, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\017-pexels.jpg"
+    },
+    {
+      "query": "Compact kitchen storage solutions with vertical organization, natural light, clean textures, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by American  Cleaning Institute on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\018-pexels.jpg"
+    },
+    {
+      "query": "Compact kitchen with a Reach Frequency Map, emphasizing organization, natural light, clean textures, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Samuel Jerónimo on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\020-pexels.jpg"
+    },
+    {
+      "query": "Compact kitchen with finalized storage layout, emphasizing organization, natural light, clean textures, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\021-pexels.jpg"
+    },
+    {
+      "query": "Compact Indian kitchen, organized cleaning supplies, warm light, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Gustavo Galeano Maz on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\023-pexels.jpg"
+    },
+    {
+      "query": "Compact Indian kitchen, organized cleaning caddy, warm light, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Dương Nhân on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\024-pexels.jpg"
+    },
+    {
+      "query": "kitchen cleaning supplies, various surfaces, natural light, compact Indian apartment, minimalistic styling",
+      "source": "pexels",
+      "credit": "Photo by Andrea Davis on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\026-pexels.jpg"
+    },
+    {
+      "query": "pH cleaning method diagram, visual representation, minimalistic design",
+      "source": "pexels",
+      "credit": "Photo by Google DeepMind on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\027-pexels.jpg"
+    },
+    {
+      "query": "butcher block countertop, cleaning process, natural light, compact Indian kitchen",
+      "source": "pexels",
+      "credit": "Photo by Curtis Adams on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\029-pexels.jpg"
+    },
+    {
+      "query": "stainless steel appliances, cleaning process, compact Indian kitchen",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\030-pexels.jpg"
+    },
+    {
+      "query": "cleaning glass surfaces, natural light, compact Indian kitchen",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\031-pexels.jpg"
+    },
+    {
+      "query": "raw meat spill response, compact Indian kitchen, natural light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Boys in Bristol Photography on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\034-pexels.jpg"
+    },
+    {
+      "query": "dairy spill cleanup, compact Indian kitchen, natural light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Beyzanur K. on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\035-pexels.jpg"
+    },
+    {
+      "query": "greasy spill response, compact Indian kitchen, natural light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Engin Akyurt on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\036-pexels.jpg"
+    },
+    {
+      "query": "Compact kitchen with organized cleaning supplies, natural light from a window, clean countertops, and a visually appealing layout.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\037-pexels.jpg"
+    },
+    {
+      "query": "Organized cleaning supplies in a small kitchen, natural light, clean surfaces, and an inviting atmosphere.",
+      "source": "pexels",
+      "credit": "Photo by ommy on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\038-pexels.jpg"
+    },
+    {
+      "query": "A compact kitchen with cleaning supplies staged for a deep clean, sunlight illuminating the space, and a sense of order.",
+      "source": "pexels",
+      "credit": "Photo by Alley Chien on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\039-pexels.jpg"
+    },
+    {
+      "query": "A well-maintained kitchen with organized cleaning supplies, a clean sink, and a fresh atmosphere.",
+      "source": "pexels",
+      "credit": "Photo by RDNE Stock project on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\040-pexels.jpg"
+    },
+    {
+      "query": "Close-up of a Waste and Cost Dashboard with metrics clearly visible, natural light filtering through a window, and eco-friendly cleaning supplies in the background.",
+      "source": "pexels",
+      "credit": "Photo by Anna Shvets on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\042-pexels.jpg"
+    },
+    {
+      "query": "A map showing a planned refill route with markers for different stores, natural light highlighting the area, and a clean, organized kitchen in the background.",
+      "source": "pexels",
+      "credit": "Photo by Keegan Checks on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\043-pexels.jpg"
+    },
+    {
+      "query": "A kitchen with cleaning supplies organized according to the Constraints Compass principles, natural light illuminating the space, and a clean, minimalistic aesthetic.",
+      "source": "pexels",
+      "credit": "Photo by Cup of  Couple on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\044-pexels.jpg"
+    },
+    {
+      "query": "A family in their RV, organizing cleaning supplies and planning their ninety-day sprint, with natural light coming through the windows and a clean, organized space.",
+      "source": "pexels",
+      "credit": "Photo by Thomas  balabaud on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\045-pexels.jpg"
+    },
+    {
+      "query": "Compact zero-waste cleaning kit in a small kitchen, natural lighting, wooden textures, organized caddy with cleaning supplies, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by alleksana on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\046-pexels.jpg"
+    },
+    {
+      "query": "Compact zero-waste cleaning kit arranged in a small kitchen, natural light, organized caddy, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Amar  Preciado on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\047-pexels.jpg"
+    },
+    {
+      "query": "Replacement schedule for cleaning supplies, organized layout, natural lighting, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Matheus Bertelli on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\050-pexels.jpg"
+    },
+    {
+      "query": "kitchen organization, refill system, waterproof labels, compact storage, color coding, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Andreas Näslund on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\051-pexels.jpg"
+    },
+    {
+      "query": "organized cleaning supplies, refill labels, color-coded bottles, compact kitchen, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\052-pexels.jpg"
+    },
+    {
+      "query": "kitchen surfaces with cleaning solutions, one window light, clean textures, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Elizabeth Iris on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\058-pexels.jpg"
+    },
+    {
+      "query": "cleaning mistakes in action, one window light, clean textures, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Liliana Drew on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\060-pexels.jpg"
+    },
+    {
+      "query": "Close-up of a waste tracker worksheet on a kitchen counter, with cleaning supplies in the background, natural light filtering through a window.",
+      "source": "pexels",
+      "credit": "Photo by SHVETS production on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\062-pexels.jpg"
+    },
+    {
+      "query": "A digital version of the Waste and Cost Tracker displayed on a tablet in a kitchen setting, with cleaning supplies in the background.",
+      "source": "pexels",
+      "credit": "Photo by Hanna Pad on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\063-pexels.jpg"
+    },
+    {
+      "query": "A well-organized kitchen with a calendar and waste tracker worksheet side by side, showcasing an efficient cleaning routine.",
+      "source": "pexels",
+      "credit": "Photo by RDNE Stock project on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\photos\\066-pexels.jpg"
+    }
+  ],
+  "figures": [
+    {
+      "spec_id": "D002",
+      "kind": "elevation",
+      "title": "If A Cabinet Is 22 Inches Wide",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\figures\\D002.svg"
+    },
+    {
+      "spec_id": "D003",
+      "kind": "elevation",
+      "title": "She Measured 18 Inches Of Under Sink",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\figures\\D003.svg"
+    },
+    {
+      "spec_id": "D004",
+      "kind": "elevation",
+      "title": "She Replaced Paper Towels With Four Swedish",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\figures\\D004.svg"
+    },
+    {
+      "spec_id": "D003",
+      "kind": "elevation",
+      "title": "She Measured 18 Inches Of Under Sink",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\figures\\D003.svg"
+    },
+    {
+      "spec_id": "D005",
+      "kind": "table",
+      "title": "Hydrogen Peroxide Method: Use 3 Percent Hydrogen",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\figures\\D005.svg"
+    },
+    {
+      "spec_id": "D006",
+      "kind": "table",
+      "title": "Alcohol Method, Optional: Use 70 Percent Isopropyl",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\figures\\D006.svg"
+    },
+    {
+      "spec_id": "D005",
+      "kind": "table",
+      "title": "Hydrogen Peroxide Method: Use 3 Percent Hydrogen",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\figures\\D005.svg"
+    },
+    {
+      "spec_id": "D006",
+      "kind": "table",
+      "title": "Alcohol Method, Optional: Use 70 Percent Isopropyl",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\figures\\D006.svg"
+    },
+    {
+      "spec_id": "D007",
+      "kind": "table",
+      "title": "The Sweep Loop And The 3 By",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\figures\\D007.svg"
+    },
+    {
+      "spec_id": "D007",
+      "kind": "table",
+      "title": "The Sweep Loop And The 3 By",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Zero Waste Kitchen Cleaning Kit\\figures\\D007.svg"
+    }
+  ]
+}

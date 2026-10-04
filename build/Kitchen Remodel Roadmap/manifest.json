@@ -1,0 +1,385 @@
+{
+  "title": "Kitchen Remodel Roadmap",
+  "units": "imperial",
+  "outputs": {
+    "pdf": "build\\Kitchen Remodel Roadmap\\kitchen-remodel-roadmap.pdf",
+    "cover": "build\\Kitchen Remodel Roadmap\\cover.pdf",
+    "epub": "build\\Kitchen Remodel Roadmap\\kitchen-remodel-roadmap.epub",
+    "epub_preview": "build\\Kitchen Remodel Roadmap\\epub-preview.html"
+  },
+  "ai_generated_images": 1,
+  "kdp_ai_disclosure_required": true,
+  "images": [
+    {
+      "query": "calm compact kitchen remodel plans on a table, no people, no text",
+      "source": "openai",
+      "credit": "Cover illustration generated for this edition.",
+      "ai": true,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\cover.jpg"
+    },
+    {
+      "query": "cost breakdown worksheet, kitchen renovation, Bengaluru apartment",
+      "source": "pexels",
+      "credit": "Photo by HONG SON on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\001-pexels.jpg"
+    },
+    {
+      "query": "small indian apartment interior minimalist daylight editorial",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\002-pexels.jpg"
+    },
+    {
+      "query": "cost breakdown, DIY, pro decisions, home renovation, budget planning, Indian apartment",
+      "source": "pexels",
+      "credit": "Photo by Blue Bird on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\003-pexels.jpg"
+    },
+    {
+      "query": "task cards, DIY project, home renovation, Pune apartment",
+      "source": "pexels",
+      "credit": "Photo by Blue Bird on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\004-pexels.jpg"
+    },
+    {
+      "query": "interior of a well-organized home office with a neatly arranged RFQ pack, natural light from a window, wooden desk, and plants",
+      "source": "pexels",
+      "credit": "Photo by Alpha En on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\005-pexels.jpg"
+    },
+    {
+      "query": "DIY versus pro decision matrix, home renovation, Mumbai apartment",
+      "source": "pexels",
+      "credit": "Photo by Blue Bird on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\006-pexels.jpg"
+    },
+    {
+      "query": "fail safes, home renovation, Chennai apartment",
+      "source": "pexels",
+      "credit": "Photo by Karl Solano on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\007-pexels.jpg"
+    },
+    {
+      "query": "a negotiation scene between a homeowner and contractor over a contract, natural light, modern decor",
+      "source": "pexels",
+      "credit": "Photo by Anastasia  Shuraeva on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\008-pexels.jpg"
+    },
+    {
+      "query": "a well-organized RFQ pack on a wooden table, natural light, with kitchen renovation materials",
+      "source": "pexels",
+      "credit": "Photo by Anastasia  Shuraeva on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\009-pexels.jpg"
+    },
+    {
+      "query": "a contractor discussing renovation plans with a homeowner in a living room, natural light, modern decor",
+      "source": "pexels",
+      "credit": "Photo by Pavel Danilyuk on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\010-pexels.jpg"
+    },
+    {
+      "query": "a close-up of a Bid Comparison Matrix on a laptop screen, with bids and scores clearly displayed",
+      "source": "pexels",
+      "credit": "Photo by Tima Miroshnichenko on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\011-pexels.jpg"
+    },
+    {
+      "query": "a close-up of high-quality renovation materials, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by Francesco Ungaro on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\012-pexels.jpg"
+    },
+    {
+      "query": "a close-up of a signed contract on a table, with a pen and renovation materials",
+      "source": "pexels",
+      "credit": "Photo by Cytonn Photography on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\013-pexels.jpg"
+    },
+    {
+      "query": "close-up of a materials roster spreadsheet on a laptop, renovation materials in the background, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\014-pexels.jpg"
+    },
+    {
+      "query": "a well-organized materials roster on a laptop, renovation materials neatly arranged in the background, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\015-pexels.jpg"
+    },
+    {
+      "query": "a contractor reviewing a checklist on a clipboard at a renovation site, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by Pavel Danilyuk on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\016-pexels.jpg"
+    },
+    {
+      "query": "a planner with a lead time schedule, renovation materials in the background, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by Matheus Bertelli on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\017-pexels.jpg"
+    },
+    {
+      "query": "a close-up of a homeowner's hands writing notes in a binder, with building department paperwork visible, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by Felicity Tai on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\018-pexels.jpg"
+    },
+    {
+      "query": "a close-up of a homeowner reviewing building plans with a focus on electrical and plumbing details, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by Kampus Production on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\019-pexels.jpg"
+    },
+    {
+      "query": "Interior of a modern Indian apartment with a focus on a workspace setup, natural light from a single window, neutral color palette, and minimalist decor.",
+      "source": "pexels",
+      "credit": "Photo by Alpha En on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\020-pexels.jpg"
+    },
+    {
+      "query": "a homeowner preparing a renovation site for inspection, showcasing a clean and organized space, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by ClickerHappy on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\021-pexels.jpg"
+    },
+    {
+      "query": "a close-up of a homeowner organizing a documentation binder with permits and manuals, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by Joachim Schnürle on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\022-pexels.jpg"
+    },
+    {
+      "query": "small indian apartment interior minimalist daylight editorial",
+      "source": "pexels",
+      "credit": "Photo by Anisha Deb on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\023-pexels.jpg"
+    },
+    {
+      "query": "A risk heat map displayed on a computer screen, with notes and a pen nearby, natural light highlighting the workspace.",
+      "source": "pexels",
+      "credit": "Photo by juliane Monari on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\024-pexels.jpg"
+    },
+    {
+      "query": "A close-up of a financial review sheet with organized budget data, natural light highlighting the details, minimalist decor in the background.",
+      "source": "pexels",
+      "credit": "Photo by RDNE Stock project on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\025-pexels.jpg"
+    },
+    {
+      "query": "A focused shot of a contractor discussing plans with a homeowner, with a blueprint and materials in the foreground, soft light from a window.",
+      "source": "pexels",
+      "credit": "Photo by Thirdman on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\026-pexels.jpg"
+    },
+    {
+      "query": "An organized change order log on a desk, with a pen and a calculator, soft light illuminating the details.",
+      "source": "pexels",
+      "credit": "Photo by Jahra Tasfia Reza on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\027-pexels.jpg"
+    },
+    {
+      "query": "a neatly organized closeout binder on a table, showcasing tabs for permits, warranties, and maintenance schedules",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\028-pexels.jpg"
+    },
+    {
+      "query": "interior of a well-finished living room with modern decor, bright light from a single window, showcasing clean lines and textures like plaster and wood",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\029-pexels.jpg"
+    },
+    {
+      "query": "a close-up of a well-organized punch list with notes and photos, bright lighting, emphasizing attention to detail",
+      "source": "pexels",
+      "credit": "Photo by RDNE Stock project on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\030-pexels.jpg"
+    },
+    {
+      "query": "a detailed shot of a thermometer measuring water temperature under a tap, with bright light highlighting the water flow",
+      "source": "pexels",
+      "credit": "Photo by Annushka  Ahuja on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\031-pexels.jpg"
+    },
+    {
+      "query": "Budgeting worksheet, home renovation, practical layout, clean design, natural light, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Ann H on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\032-pexels.jpg"
+    },
+    {
+      "query": "a close-up of a budget spreadsheet on a laptop, with highlighted variances and notes",
+      "source": "pexels",
+      "credit": "Photo by RDNE Stock project on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\033-pexels.jpg"
+    },
+    {
+      "query": "Home renovation planning, kitchen remodel, organized workspace, natural light, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\034-pexels.jpg"
+    },
+    {
+      "query": "Budgeting tools, home renovation, organized workspace, natural light, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Nataliya Vaitkevich on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\035-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a detailed bid comparison matrix on a desk, natural light, clean workspace",
+      "source": "pexels",
+      "credit": "Photo by RDNE Stock project on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\036-pexels.jpg"
+    },
+    {
+      "query": "Home renovation review, budget tracking, organized workspace, natural light, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\037-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a modern Indian apartment with a home office setup, natural light from one window, clean lines, minimalist decor, teak and linen textures",
+      "source": "pexels",
+      "credit": "Photo by Alpha En on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\photos\\038-pexels.jpg"
+    }
+  ],
+  "figures": [
+    {
+      "spec_id": "D001",
+      "kind": "table",
+      "title": "Contingency sits inside the cap",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D001.svg"
+    },
+    {
+      "spec_id": "D002",
+      "kind": "table",
+      "title": "Illustration: ten thousand USD cap",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D002.svg"
+    },
+    {
+      "spec_id": "D006",
+      "kind": "table",
+      "title": "Renter kitchen hold points",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D006.svg"
+    },
+    {
+      "spec_id": "D005",
+      "kind": "table",
+      "title": "Jurisdiction fields",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D005.svg"
+    },
+    {
+      "spec_id": "D004",
+      "kind": "table",
+      "title": "Gated work — score does not apply",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D004.svg"
+    },
+    {
+      "spec_id": "D003",
+      "kind": "table",
+      "title": "One DIY framework",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D003.svg"
+    },
+    {
+      "spec_id": "D014",
+      "kind": "table",
+      "title": "Paper that depends on local law",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D014.svg"
+    },
+    {
+      "spec_id": "D009",
+      "kind": "table",
+      "title": "Appliance compatibility fields",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D009.svg"
+    },
+    {
+      "spec_id": "D013",
+      "kind": "table",
+      "title": "Delivery cutoff",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D013.svg"
+    },
+    {
+      "spec_id": "D007",
+      "kind": "table",
+      "title": "Kitchen sequence — planning aid",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D007.svg"
+    },
+    {
+      "spec_id": "D015",
+      "kind": "table",
+      "title": "Daily kitchen log fields",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D015.svg"
+    },
+    {
+      "spec_id": "D008",
+      "kind": "table",
+      "title": "Hidden conditions — stop first",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D008.svg"
+    },
+    {
+      "spec_id": "D010",
+      "kind": "table",
+      "title": "Three kinds of change",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D010.svg"
+    },
+    {
+      "spec_id": "D011",
+      "kind": "table",
+      "title": "Heat map is not a safety stamp",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D011.svg"
+    },
+    {
+      "spec_id": "D016",
+      "kind": "table",
+      "title": "What these tests do not prove",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D016.svg"
+    },
+    {
+      "spec_id": "D012",
+      "kind": "table",
+      "title": "Kitchen closeout contents",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Kitchen Remodel Roadmap\\figures\\D012.svg"
+    }
+  ]
+}

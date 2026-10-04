@@ -1,0 +1,495 @@
+{
+  "title": "Accessible Bedroom Design",
+  "units": "imperial",
+  "outputs": {
+    "pdf": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\accessible-bedroom-design.pdf",
+    "cover": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\cover.pdf",
+    "epub": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\accessible-bedroom-design.epub",
+    "epub_preview": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\epub-preview.html"
+  },
+  "ai_generated_images": 1,
+  "kdp_ai_disclosure_required": true,
+  "images": [
+    {
+      "query": "accessible bedroom designed cover",
+      "source": "openai",
+      "credit": "",
+      "ai": true,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\cover.jpg"
+    },
+    {
+      "query": "small indian bedroom minimalist daylight editorial",
+      "source": "pexels",
+      "credit": "Photo by Anisha Deb on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\001-pexels.jpg"
+    },
+    {
+      "query": "small indian apartment interior minimalist daylight editorial",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\003-pexels.jpg"
+    },
+    {
+      "query": "small indian apartment interior minimalist daylight editorial",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\006-pexels.jpg"
+    },
+    {
+      "query": "soft lighting in a compact Indian bedroom, warm tones, diffused fixtures, no people",
+      "source": "pexels",
+      "credit": "Photo by Oleg Melevych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\007-pexels.jpg"
+    },
+    {
+      "query": "ambient lighting in a cozy Indian bedroom, warm tones, fabric shades, no people",
+      "source": "pexels",
+      "credit": "Photo by Brett Sayles on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\008-pexels.jpg"
+    },
+    {
+      "query": "task lighting in a shared Indian bedroom, warm tones, wall sconces, no people",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\009-pexels.jpg"
+    },
+    {
+      "query": "guidance lighting in a Mumbai bedroom, warm tones, LED strips, no people",
+      "source": "pexels",
+      "credit": "Photo by Ducky on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\010-pexels.jpg"
+    },
+    {
+      "query": "A cozy bedroom with a low pile wool rug, soft lighting, and a clear pathway to the bathroom, showcasing the importance of rug selection for safety and aesthetics.",
+      "source": "pexels",
+      "credit": "Photo by Jonathan Borba on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\011-pexels.jpg"
+    },
+    {
+      "query": "A beautifully styled bedroom with a low pile wool rug, soft lighting, and clear pathways, emphasizing the importance of rug selection.",
+      "source": "pexels",
+      "credit": "Photo by Jonathan Borba on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\012-pexels.jpg"
+    },
+    {
+      "query": "A well-framed bedroom with a king bed, showcasing the Grip And Frame Method in action with a properly sized rug and clear pathways.",
+      "source": "pexels",
+      "credit": "Photo by Curtis Adams on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\013-pexels.jpg"
+    },
+    {
+      "query": "A stylish Mumbai bedroom with a cotton flatweave rug, emphasizing the importance of material choice for safety and aesthetics.",
+      "source": "pexels",
+      "credit": "Photo by Souranshi Fashion and  Lifestyle Magazine on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\014-pexels.jpg"
+    },
+    {
+      "query": "A well-installed rug in a Kolkata apartment, showcasing effective cord management and maintenance practices.",
+      "source": "pexels",
+      "credit": "Photo by Liliana Drew on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\015-pexels.jpg"
+    },
+    {
+      "query": "A cozy bedroom with well-aligned furniture, soft lighting, and clear pathways, showcasing a harmonious blend of functionality and style.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\016-pexels.jpg"
+    },
+    {
+      "query": "A well-styled bedroom with a platform bed at the correct height, showcasing risers and a tidy bedside area.",
+      "source": "pexels",
+      "credit": "Photo by Get Lost Mike on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\017-pexels.jpg"
+    },
+    {
+      "query": "A stylish nightstand aligned with the mattress height, featuring rounded edges and a lamp, creating a safe and functional bedside space.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\018-pexels.jpg"
+    },
+    {
+      "query": "A close-up of a dresser featuring wide D-shaped pulls, emphasizing ease of grip and tactile finishes.",
+      "source": "pexels",
+      "credit": "Photo by Olga Solo on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\019-pexels.jpg"
+    },
+    {
+      "query": "A well-organized storage solution in a guest room, with mid-range shelves and anchored furniture, ensuring safety and accessibility.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\020-pexels.jpg"
+    },
+    {
+      "query": "A modern guest suite featuring a storage ottoman with locking casters and wall-mounted shelves, creating a flexible and spacious environment.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\021-pexels.jpg"
+    },
+    {
+      "query": "A serene bedroom with soft textiles, calming colors, and sound-absorbing elements, natural light filtering through a window, no people, no text.",
+      "source": "pexels",
+      "credit": "Photo by Natalia Walusiak on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\022-pexels.jpg"
+    },
+    {
+      "query": "Close-up of bedding materials including cotton, linen, and wool, showcasing textures and colors, natural light, no people, no text.",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\023-pexels.jpg"
+    },
+    {
+      "query": "A well-dressed window with layered treatments, showcasing a light-filtering shade and blackout liner, natural light, no people, no text.",
+      "source": "pexels",
+      "credit": "Photo by Jan van der Wolf on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\024-pexels.jpg"
+    },
+    {
+      "query": "A beautifully painted bedroom wall in soft blues and greens, with complementary decor, natural light, no people, no text.",
+      "source": "pexels",
+      "credit": "Photo by Wayne  Barnes on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\025-pexels.jpg"
+    },
+    {
+      "query": "A cozy bedroom with sound-absorbing textiles, including a plush rug and upholstered headboard, natural light, no people, no text.",
+      "source": "pexels",
+      "credit": "Photo by Lee Salem on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\026-pexels.jpg"
+    },
+    {
+      "query": "Compact bedroom with soft lighting, minimal clutter, and a well-placed nightstand, showcasing accessibility features.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\029-pexels.jpg"
+    },
+    {
+      "query": "A well-lit bedroom pathway with clear access to the bed and dresser, emphasizing safety and accessibility.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\030-pexels.jpg"
+    },
+    {
+      "query": "A side view of a bed and nightstand, highlighting height alignment and accessibility features.",
+      "source": "pexels",
+      "credit": "Photo by SHVETS production on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\031-pexels.jpg"
+    },
+    {
+      "query": "A softly lit bedroom pathway with gentle lighting leading to the bathroom, emphasizing safety and comfort.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\032-pexels.jpg"
+    },
+    {
+      "query": "A stylish bedroom featuring a well-placed rug that complements the decor while ensuring safety.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\033-pexels.jpg"
+    },
+    {
+      "query": "A tidy bedroom with organized furniture and clean pathways, emphasizing the importance of maintenance.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\034-pexels.jpg"
+    },
+    {
+      "query": "A well-organized bedroom showcasing various budget tier elements, soft lighting, and tactile textures, with a focus on accessibility and comfort.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\035-pexels.jpg"
+    },
+    {
+      "query": "A cozy bedroom corner featuring essential lighting and safety elements, with warm tones and tactile textures, emphasizing accessibility.",
+      "source": "pexels",
+      "credit": "Photo by Ron Lach on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\036-pexels.jpg"
+    },
+    {
+      "query": "An organized checklist on a stylish desk, with elements of lighting, rugs, and furniture laid out, emphasizing a systematic approach to sourcing.",
+      "source": "pexels",
+      "credit": "Photo by Natasha Fernandez on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\037-pexels.jpg"
+    },
+    {
+      "query": "A neatly organized installation kit laid out on a table, featuring tools and materials needed for a bedroom setup, emphasizing preparation.",
+      "source": "pexels",
+      "credit": "Photo by Jimmy Liao on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\038-pexels.jpg"
+    },
+    {
+      "query": "small indian apartment interior minimalist daylight editorial",
+      "source": "pexels",
+      "credit": "Photo by Anisha Deb on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\photos\\039-pexels.jpg"
+    }
+  ],
+  "figures": [
+    {
+      "spec_id": "D001",
+      "kind": "table",
+      "title": "Preferred Transfer Height, Then Test",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D001.svg"
+    },
+    {
+      "spec_id": "D002",
+      "kind": "table",
+      "title": "Turning Space Depends On The Device",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D002.svg"
+    },
+    {
+      "spec_id": "D003",
+      "kind": "table",
+      "title": "Secondary side is not transfer space",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D003.svg"
+    },
+    {
+      "spec_id": "D004",
+      "kind": "table",
+      "title": "Pathway Widths: A Range Of 32 To",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D004.svg"
+    },
+    {
+      "spec_id": "D005",
+      "kind": "table",
+      "title": "Preferred Transfer Height, Then Test",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D005.svg"
+    },
+    {
+      "spec_id": "D006",
+      "kind": "table",
+      "title": "Everyday reach is a starting band",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D006.svg"
+    },
+    {
+      "spec_id": "D008",
+      "kind": "elevation",
+      "title": "The Bed Height Was Lowered From 25",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D008.svg"
+    },
+    {
+      "spec_id": "D009",
+      "kind": "plan",
+      "title": "Solution, They Shifted The Dresser To A",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D009.svg"
+    },
+    {
+      "spec_id": "D015",
+      "kind": "table",
+      "title": "Switches In The 36 To 48 Inch",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D015.svg"
+    },
+    {
+      "spec_id": "D016",
+      "kind": "table",
+      "title": "Note The Distance From Bed To Switch",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D016.svg"
+    },
+    {
+      "spec_id": "D017",
+      "kind": "table",
+      "title": "Assign One Square Equal To 6 Inches",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D017.svg"
+    },
+    {
+      "spec_id": "D018",
+      "kind": "plan",
+      "title": "Case One, Small City Bedroom A 10",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D018.svg"
+    },
+    {
+      "spec_id": "D019",
+      "kind": "table",
+      "title": "The Audit Recorded Bed To Wall Distances",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D019.svg"
+    },
+    {
+      "spec_id": "D020",
+      "kind": "table",
+      "title": "Case Two, Shared Room With One Cane",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D020.svg"
+    },
+    {
+      "spec_id": "D021",
+      "kind": "plan",
+      "title": "A Warm, Low Glare Lamp Was Added",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D021.svg"
+    },
+    {
+      "spec_id": "D022",
+      "kind": "elevation",
+      "title": "The Audit Measured Knee Height For Both",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D022.svg"
+    },
+    {
+      "spec_id": "D030",
+      "kind": "plan",
+      "title": "Around The Bed, Aim For Walkways Of",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D030.svg"
+    },
+    {
+      "spec_id": "D031",
+      "kind": "elevation",
+      "title": "Nightstand Height Within 1 To 2 Inches",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D031.svg"
+    },
+    {
+      "spec_id": "D032",
+      "kind": "table",
+      "title": "Turning Space Depends On The Device",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D032.svg"
+    },
+    {
+      "spec_id": "D033",
+      "kind": "table",
+      "title": "Narrow secondary side needs a qualifier",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D033.svg"
+    },
+    {
+      "spec_id": "D034",
+      "kind": "table",
+      "title": "Match Their Top Within 1 To 2",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D034.svg"
+    },
+    {
+      "spec_id": "D035",
+      "kind": "table",
+      "title": "Closed passage versus open drawers",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D035.svg"
+    },
+    {
+      "spec_id": "D036",
+      "kind": "plan",
+      "title": "Reserve A Clear Landing Zone About 10",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D036.svg"
+    },
+    {
+      "spec_id": "D037",
+      "kind": "table",
+      "title": "Preferred clearances, then test",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D037.svg"
+    },
+    {
+      "spec_id": "D048",
+      "kind": "elevation",
+      "title": "Position Wall Sconces At 60 To 66",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D048.svg"
+    },
+    {
+      "spec_id": "D049",
+      "kind": "elevation",
+      "title": "Step 5, Set Controls And Reach Place",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D049.svg"
+    },
+    {
+      "spec_id": "D050",
+      "kind": "elevation",
+      "title": "Switches Are Installed At 40 Inches Above",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D050.svg"
+    },
+    {
+      "spec_id": "D007",
+      "kind": "elevation",
+      "title": "Step 5, Set Controls And Reach Place",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D007.svg"
+    },
+    {
+      "spec_id": "D010",
+      "kind": "elevation",
+      "title": "Switches Are Installed At 40 Inches Above",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D010.svg"
+    },
+    {
+      "spec_id": "D051",
+      "kind": "comparison",
+      "title": "Queen Bed: An 8 By 10 Rug",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D051.svg"
+    },
+    {
+      "spec_id": "D052",
+      "kind": "comparison",
+      "title": "King Bed: A 9 By 12 Rug",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D052.svg"
+    },
+    {
+      "spec_id": "D053",
+      "kind": "comparison",
+      "title": "Twin Or Full Bed: A 6 By",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D053.svg"
+    },
+    {
+      "spec_id": "D054",
+      "kind": "comparison",
+      "title": "Confirm That The Rug Will Clear Door",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D054.svg"
+    },
+    {
+      "spec_id": "D055",
+      "kind": "comparison",
+      "title": "The Rug Sits Two Thirds Under The",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D055.svg"
+    },
+    {
+      "spec_id": "D056",
+      "kind": "table",
+      "title": "The Right Size, 8 By 10 For",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D056.svg"
+    },
+    {
+      "spec_id": "D057",
+      "kind": "comparison",
+      "title": "Allocate, Lighting 35 Percent, Rug Pads 25",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D057.svg"
+    },
+    {
+      "spec_id": "D058",
+      "kind": "comparison",
+      "title": "Allocate, Lighting 30 Percent, Rugs And Pads",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D058.svg"
+    },
+    {
+      "spec_id": "D059",
+      "kind": "comparison",
+      "title": "Allocate, Lighting 25 Percent, Rugs And Pads",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D059.svg"
+    },
+    {
+      "spec_id": "D060",
+      "kind": "table",
+      "title": "Required Side First, Not Matching Sides",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Accessible Bedroom design\\figures\\D060.svg"
+    }
+  ]
+}

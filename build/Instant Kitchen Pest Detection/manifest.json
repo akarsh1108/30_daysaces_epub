@@ -1,0 +1,468 @@
+{
+  "title": "Instant Kitchen Pest Detection",
+  "units": "imperial",
+  "outputs": {
+    "pdf": "build\\Instant Kitchen Pest Detection\\instant-kitchen-pest-detection.pdf",
+    "cover": "build\\Instant Kitchen Pest Detection\\cover.pdf",
+    "epub": "build\\Instant Kitchen Pest Detection\\instant-kitchen-pest-detection.epub",
+    "epub_preview": "build\\Instant Kitchen Pest Detection\\epub-preview.html"
+  },
+  "ai_generated_images": 0,
+  "kdp_ai_disclosure_required": false,
+  "images": [
+    {
+      "query": "modern bright kitchen cabinets pantry natural light no people",
+      "source": "pexels",
+      "credit": "Photo by HONG SON on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\000-pexels.jpg"
+    },
+    {
+      "query": "kitchen interior, warm lighting, organized shelves, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Ty Nguyễn on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\001-pexels.jpg"
+    },
+    {
+      "query": "kitchen corner with pest risk zones, warm light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Dua'a Al-Amad on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\002-pexels.jpg"
+    },
+    {
+      "query": "kitchen layout sketch with marked risk zones, warm light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Ron Lach on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\003-pexels.jpg"
+    },
+    {
+      "query": "kitchen during evening scan, warm light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Lisa Fotios on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\004-pexels.jpg"
+    },
+    {
+      "query": "kitchen pest signs, inspection tools, bright lighting, clean surfaces",
+      "source": "pexels",
+      "credit": "Photo by Meaghan on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\006-pexels.jpg"
+    },
+    {
+      "query": "kitchen inspection tools, high lumen flashlight, inspection mirror, clean kitchen",
+      "source": "pexels",
+      "credit": "Photo by ThisIsEngineering on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\007-pexels.jpg"
+    },
+    {
+      "query": "kitchen pantry inspection, pest clusters, bright lighting, clean surfaces",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\008-pexels.jpg"
+    },
+    {
+      "query": "apartment kitchen inspection tools, organized workspace, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by 🇻🇳🇻🇳 Việt Anh Nguyễn 🇻🇳🇻🇳 on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\009-pexels.jpg"
+    },
+    {
+      "query": "kitchen interior, high lumen flashlight on countertop, organized cleaning tools, soft morning light, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\010-pexels.jpg"
+    },
+    {
+      "query": "kitchen entryway, flashlight illuminating floor edges, soft morning light, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Kaiya Inouye on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\011-pexels.jpg"
+    },
+    {
+      "query": "kitchen sink area, high lumen flashlight illuminating drain, soft evening light, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Zulfugar Karimov on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\012-pexels.jpg"
+    },
+    {
+      "query": "pantry shelves, flashlight highlighting potential pest signs, soft morning light, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Campio Saez on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\013-pexels.jpg"
+    },
+    {
+      "query": "shared kitchen area, cleaning tools organized, soft morning light, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Thomas  balabaud on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\015-pexels.jpg"
+    },
+    {
+      "query": "kitchen with various DIY traps and monitors, natural light, clean surfaces, no people",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\016-pexels.jpg"
+    },
+    {
+      "query": "various pest monitors displayed in a kitchen setting",
+      "source": "pexels",
+      "credit": "Photo by Kampus Production on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\018-pexels.jpg"
+    },
+    {
+      "query": "kitchen with traps placed strategically along edges and corners",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\019-pexels.jpg"
+    },
+    {
+      "query": "logbook with pest monitoring data",
+      "source": "pexels",
+      "credit": "Photo by Connor Scott McManus on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\020-pexels.jpg"
+    },
+    {
+      "query": "Compact kitchen with smart sensors and cameras, soft evening light, textures of wood and metal, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\021-pexels.jpg"
+    },
+    {
+      "query": "Pest pathways marked in a kitchen, soft evening light, textures of wood and metal, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Alexey Demidov on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\022-pexels.jpg"
+    },
+    {
+      "query": "Selection of smart sensors and cameras in a kitchen, soft evening light, textures of wood and metal, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Jordan Benton on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\023-pexels.jpg"
+    },
+    {
+      "query": "Kitchen alert configuration setup, soft evening light, textures of wood and metal, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Bruno Curly on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\024-pexels.jpg"
+    },
+    {
+      "query": "Daily operational logs integrated with sensor alerts, soft evening light, textures of wood and metal, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Jan van der Wolf on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\025-pexels.jpg"
+    },
+    {
+      "query": "kitchen pantry with organized airtight containers, one window light, teak textures, magazine styling, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by RDNE Stock project on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\027-pexels.jpg"
+    },
+    {
+      "query": "under sink area with moisture sensor and waterproof mat, one window light, teak textures, magazine styling, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Richard REVEL on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\030-pexels.jpg"
+    },
+    {
+      "query": "clean kitchen with sanitation supplies, one window light, teak textures, magazine styling, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by 开 心 on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\031-pexels.jpg"
+    },
+    {
+      "query": "kitchen interior, organized logs, clipboard on wall, natural light, clean surfaces, no people",
+      "source": "pexels",
+      "credit": "Photo by Cup of  Couple on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\032-pexels.jpg"
+    },
+    {
+      "query": "kitchen logs on clipboard, natural light, organized space, no people",
+      "source": "pexels",
+      "credit": "Photo by ommy on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\033-pexels.jpg"
+    },
+    {
+      "query": "apartment kitchen notes on a wall, natural light, organized, no people",
+      "source": "pexels",
+      "credit": "Photo by Rodrigo Simoes on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\034-pexels.jpg"
+    },
+    {
+      "query": "decision tree on wall in kitchen, natural light, organized, no people",
+      "source": "pexels",
+      "credit": "Photo by Cup of  Couple on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\035-pexels.jpg"
+    },
+    {
+      "query": "kitchen with trend analysis charts, natural light, organized, no people",
+      "source": "pexels",
+      "credit": "Photo by Rafael Minguet Delgado on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\036-pexels.jpg"
+    },
+    {
+      "query": "kitchen pest control, organized containment, food safety measures, indoor monitoring, ambient light, clean surfaces",
+      "source": "pexels",
+      "credit": "Photo by Matilda Wormwood on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\037-pexels.jpg"
+    },
+    {
+      "query": "kitchen pest control, targeted interventions, pest bait stations, clean surfaces, ambient light",
+      "source": "pexels",
+      "credit": "Photo by Vladyslav Dukhin on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\040-pexels.jpg"
+    },
+    {
+      "query": "kitchen pest control, verification process, monitoring logs, clean surfaces, ambient light",
+      "source": "pexels",
+      "credit": "Photo by Mikhail Nilov on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\041-pexels.jpg"
+    },
+    {
+      "query": "kitchen door with a tight seal, natural light, clean surfaces",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\043-pexels.jpg"
+    },
+    {
+      "query": "exterior trash area with clean bins, natural light, organized landscaping",
+      "source": "pexels",
+      "credit": "Photo by Haberdoedas Photography on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\044-pexels.jpg"
+    },
+    {
+      "query": "kitchen during monsoon season, natural light filtering through a window, organized storage",
+      "source": "pexels",
+      "credit": "Photo by Souranshi Fashion and  Lifestyle Magazine on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\045-pexels.jpg"
+    },
+    {
+      "query": "home kitchen checklist on a counter, natural light, organized workspace, no people",
+      "source": "pexels",
+      "credit": "Photo by Mikhail Nilov on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\046-pexels.jpg"
+    },
+    {
+      "query": "kitchen scanning tools, flashlight, mirror, white card, organized caddy, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by dada _design on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\049-pexels.jpg"
+    },
+    {
+      "query": "kitchen scanning tools, organized caddy, natural light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Mike Bird on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\052-pexels.jpg"
+    },
+    {
+      "query": "kitchen pest signs, common mistakes, natural light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Oliver Wagenblatt on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\053-pexels.jpg"
+    },
+    {
+      "query": "kitchen tracking results, organized notes, natural light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Lily  Lili on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\054-pexels.jpg"
+    },
+    {
+      "query": "Kitchen with organized pest management supplies, natural light, clean surfaces, no people.",
+      "source": "pexels",
+      "credit": "Photo by Matilda Wormwood on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\055-pexels.jpg"
+    },
+    {
+      "query": "Pest management supplies on a kitchen counter, natural light, organized space, no people.",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\056-pexels.jpg"
+    },
+    {
+      "query": "Pest management tools in a pantry, natural light, organized space, no people.",
+      "source": "pexels",
+      "credit": "Photo by ready made on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\058-pexels.jpg"
+    },
+    {
+      "query": "Kitchen with pest management tools and a filled Symptom-To-Signal Matrix Template, natural light, organized space, no people.",
+      "source": "pexels",
+      "credit": "Photo by ready made on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\059-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a modern Indian kitchen with pest control tools, one window light, clean surfaces, neutral colors, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\060-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a clean kitchen sink area with pest control traps, one window light, bright and airy, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Alesha on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\061-pexels.jpg"
+    },
+    {
+      "query": "pest detection log, kitchen workspace, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by J MAD on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\064-pexels.jpg"
+    },
+    {
+      "query": "home kitchen monitoring tools, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by Kenneth Surillo on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\066-pexels.jpg"
+    }
+  ],
+  "figures": [
+    {
+      "spec_id": "D015",
+      "kind": "table",
+      "title": "Things that can look like pest evidence",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D015.svg"
+    },
+    {
+      "spec_id": "D006",
+      "kind": "table",
+      "title": "Child and pet safety",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D006.svg"
+    },
+    {
+      "spec_id": "D013",
+      "kind": "table",
+      "title": "Tool and primary role",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D013.svg"
+    },
+    {
+      "spec_id": "D017",
+      "kind": "table",
+      "title": "Camera privacy rule",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D017.svg"
+    },
+    {
+      "spec_id": "D014",
+      "kind": "table",
+      "title": "Sensor failure and false alerts",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D014.svg"
+    },
+    {
+      "spec_id": "D001",
+      "kind": "table",
+      "title": "Moisture, not a magic humidity number",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D001.svg"
+    },
+    {
+      "spec_id": "D018",
+      "kind": "table",
+      "title": "New food entering the kitchen",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D018.svg"
+    },
+    {
+      "spec_id": "D010",
+      "kind": "table",
+      "title": "Calibrate every threshold",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D010.svg"
+    },
+    {
+      "spec_id": "D008",
+      "kind": "table",
+      "title": "Rodent escalation rule",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D008.svg"
+    },
+    {
+      "spec_id": "D011",
+      "kind": "table",
+      "title": "When food leaves the kitchen",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D011.svg"
+    },
+    {
+      "spec_id": "D005",
+      "kind": "table",
+      "title": "Chemical safety rule",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D005.svg"
+    },
+    {
+      "spec_id": "D009",
+      "kind": "table",
+      "title": "Success criteria before de-escalation",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D009.svg"
+    },
+    {
+      "spec_id": "D012",
+      "kind": "table",
+      "title": "Renter boundary",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D012.svg"
+    },
+    {
+      "spec_id": "D002",
+      "kind": "table",
+      "title": "Humidity without a fake target",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D002.svg"
+    },
+    {
+      "spec_id": "D016",
+      "kind": "table",
+      "title": "Stop DIY and escalate when",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D016.svg"
+    },
+    {
+      "spec_id": "D003",
+      "kind": "table",
+      "title": "72 hours is verification",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D003.svg"
+    },
+    {
+      "spec_id": "D004",
+      "kind": "table",
+      "title": "Worksheet go / no-go",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D004.svg"
+    }
+  ]
+}

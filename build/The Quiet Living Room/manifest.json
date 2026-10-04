@@ -1,0 +1,606 @@
+{
+  "title": "The Quiet Living Room",
+  "units": "imperial",
+  "outputs": {
+    "pdf": "build\\The Quiet Living Room\\the-quiet-living-room.pdf",
+    "cover": "build\\The Quiet Living Room\\cover.pdf",
+    "epub": "build\\The Quiet Living Room\\the-quiet-living-room.epub",
+    "epub_preview": "build\\The Quiet Living Room\\epub-preview.html"
+  },
+  "ai_generated_images": 1,
+  "kdp_ai_disclosure_required": true,
+  "images": [
+    {
+      "query": "stock photo of a modern living room with soft furnishings, natural light from one window, textured walls, and a cozy atmosphere",
+      "source": "openai",
+      "credit": "Cover illustration generated for this edition.",
+      "ai": true,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\cover.jpg"
+    },
+    {
+      "query": "stock photo of a modern living room with soft furnishings, natural light from one window, textured walls, and a cozy atmosphere",
+      "source": "pexels",
+      "credit": "Photo by Lucian Petrean on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\001-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a living room with sound-absorbing decor elements like a large rug and thick curtains, one window light",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\002-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a living room with a mix of soft and hard materials, natural light from one window",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\003-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a living room with strategic furniture layout, one window light, plants, and soft furnishings",
+      "source": "pexels",
+      "credit": "Photo by Quang Nguyen Vinh on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\004-pexels.jpg"
+    },
+    {
+      "query": "urban apartment, sound control, soft furnishings, warm lighting, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by AJ  Ahamad on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\005-pexels.jpg"
+    },
+    {
+      "query": "urban apartment, sound absorption, plush rugs, warm lighting, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\007-pexels.jpg"
+    },
+    {
+      "query": "urban apartment, sound diffusion, varied bookshelves, warm lighting, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Filip Szyller on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\008-pexels.jpg"
+    },
+    {
+      "query": "urban apartment, sound isolation, heavy curtains, warm lighting, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Egor Komarov on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\009-pexels.jpg"
+    },
+    {
+      "query": "interior of a modern Indian living room, soft furnishings, varied textures, natural light from one window",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\010-pexels.jpg"
+    },
+    {
+      "query": "modern Indian living room with sound-absorbing decor, natural light, rich textures",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\011-pexels.jpg"
+    },
+    {
+      "query": "Bengaluru living room with sound-absorbing decor, warm lighting, rich textures",
+      "source": "pexels",
+      "credit": "Photo by Aabouden Yassir on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\012-pexels.jpg"
+    },
+    {
+      "query": "interior of a modern Indian apartment with soft furnishings, one window light, textured walls, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\013-pexels.jpg"
+    },
+    {
+      "query": "acoustic treatment in a modern Indian living room, one window light, textured walls, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Sheldon Li on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\014-pexels.jpg"
+    },
+    {
+      "query": "textured rugs and curtains in a Bengaluru apartment, one window light, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\015-pexels.jpg"
+    },
+    {
+      "query": "stylish living room decor in a Mumbai flat, one window light, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\016-pexels.jpg"
+    },
+    {
+      "query": "home theater setup in a Pune apartment, one window light, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\017-pexels.jpg"
+    },
+    {
+      "query": "acoustic balance in a Bengaluru living room, one window light, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Atlantic Ambience on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\018-pexels.jpg"
+    },
+    {
+      "query": "sound isolation solutions in a Mumbai apartment, one window light, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Drew Abala on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\019-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a cozy living room with heavy curtains and a plush rug, soft evening light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Donald Tong on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\020-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a heavy door draft stopper at a threshold, evening light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Roman Ska on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\021-pexels.jpg"
+    },
+    {
+      "query": "A spacious loft in Mumbai with high ceilings and large windows, showcasing a blend of textiles and plants for sound absorption.",
+      "source": "pexels",
+      "credit": "Photo by Chris Palladino on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\022-pexels.jpg"
+    },
+    {
+      "query": "A close-up of a layered rug setup in a Pune apartment, showcasing the texture of the natural fiber and felt pad beneath.",
+      "source": "pexels",
+      "credit": "Photo by Valeria Boltneva on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\023-pexels.jpg"
+    },
+    {
+      "query": "A beautifully styled living room in a Bengaluru apartment, featuring full-length curtains drawn to the side, allowing natural light to filter in.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\024-pexels.jpg"
+    },
+    {
+      "query": "A cozy Mumbai living room corner featuring a low upholstered bench and toy baskets, styled for a warm, inviting atmosphere.",
+      "source": "pexels",
+      "credit": "Photo by Rob Bach on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\025-pexels.jpg"
+    },
+    {
+      "query": "interior of a modern Indian living room with foam tiles, soft lighting, minimalist decor",
+      "source": "pexels",
+      "credit": "Photo by DARKMODE CINEMA on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\026-pexels.jpg"
+    },
+    {
+      "query": "Bengaluru apartment living room with foam tiles, showing clear pathways and functional layout",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\028-pexels.jpg"
+    },
+    {
+      "query": "Mumbai living room with foam tiles, showcasing acoustic treatment and soft furnishings",
+      "source": "pexels",
+      "credit": "Photo by Souranshi Fashion and  Lifestyle Magazine on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\029-pexels.jpg"
+    },
+    {
+      "query": "interior of a Pune apartment living room, natural light, minimalistic decor, soft furnishings, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\033-pexels.jpg"
+    },
+    {
+      "query": "a close-up of a hand sketching a heatmap of a living room, with marked noise sources and reflection points, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Lum3n on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\034-pexels.jpg"
+    },
+    {
+      "query": "a beautifully styled living room with new curtains and a wooden coffee table, showcasing soft textures and a cozy atmosphere, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Martín Rivera on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\035-pexels.jpg"
+    },
+    {
+      "query": "a cozy living room with updated decor, showing a visible heatmap on a table, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\036-pexels.jpg"
+    },
+    {
+      "query": "A cozy living room with a large rug, plush cushions, and heavy curtains, softly lit by natural light from a single window.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\037-pexels.jpg"
+    },
+    {
+      "query": "A beautifully layered rug setup with a dense pad underneath, showcasing textures and colors.",
+      "source": "pexels",
+      "credit": "Photo by Jubair Bin Iqbal on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\038-pexels.jpg"
+    },
+    {
+      "query": "A serene window with heavy, lined curtains elegantly draped, allowing for optimal sound absorption.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\039-pexels.jpg"
+    },
+    {
+      "query": "A cozy seating area adorned with cushions and a chunky throw, inviting relaxation and warmth.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\040-pexels.jpg"
+    },
+    {
+      "query": "interior of a cozy Indian living room with soft textiles, warm lighting, and a mix of furniture styles",
+      "source": "pexels",
+      "credit": "Photo by Luisa Sanfelice on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\041-pexels.jpg"
+    },
+    {
+      "query": "interior of a Pune apartment living room with a focus on sound-absorbing furniture",
+      "source": "pexels",
+      "credit": "Photo by Anisha Deb on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\042-pexels.jpg"
+    },
+    {
+      "query": "Bengaluru apartment living room with strategic furniture placement",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\043-pexels.jpg"
+    },
+    {
+      "query": "Mumbai apartment bookshelf with varied objects for sound diffusion",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\044-pexels.jpg"
+    },
+    {
+      "query": "family room media console with soft surfaces and strategic placement",
+      "source": "pexels",
+      "credit": "Photo by Eskoala A on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\045-pexels.jpg"
+    },
+    {
+      "query": "interior of a modern Indian apartment with large windows and soft furnishings, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\046-pexels.jpg"
+    },
+    {
+      "query": "stylish living room with sound-absorbing treatments, one window light, no people",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\047-pexels.jpg"
+    },
+    {
+      "query": "acoustic panels and layered curtains in a Bengaluru apartment, one window light, no people",
+      "source": "pexels",
+      "credit": "Photo by Zişan  Özdemir on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\048-pexels.jpg"
+    },
+    {
+      "query": "acoustic tiles behind a tapestry in a Kolkata apartment, one window light, no people",
+      "source": "pexels",
+      "credit": "Photo by Nothing Ahead on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\050-pexels.jpg"
+    },
+    {
+      "query": "interior living room with plants, soft lighting, natural textures, no people",
+      "source": "pexels",
+      "credit": "Photo by Faruk Tokluoğlu on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\051-pexels.jpg"
+    },
+    {
+      "query": "living room with plants, soft textures, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by Rov Camato on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\052-pexels.jpg"
+    },
+    {
+      "query": "various plant species in a living room, showcasing different textures and sizes, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by Phúc Phạm on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\053-pexels.jpg"
+    },
+    {
+      "query": "living room with plants in triangular clusters, showcasing varying heights and textures, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by Lisa Fotios on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\054-pexels.jpg"
+    },
+    {
+      "query": "care routine for indoor plants, showcasing watering and dusting, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by Anna Shvets on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\055-pexels.jpg"
+    },
+    {
+      "query": "cozy living room with soft furnishings and plants, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Engin Akyurt on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\057-pexels.jpg"
+    },
+    {
+      "query": "A cozy living room setup with layered textiles, soft lighting, and a mix of textures, showcasing a stylish yet budget-friendly design.",
+      "source": "pexels",
+      "credit": "Photo by AJ  Ahamad on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\060-pexels.jpg"
+    },
+    {
+      "query": "A visually appealing tier comparison chart showcasing Starter, Sweet Spot, and Splurge options with corresponding benefits and examples.",
+      "source": "pexels",
+      "credit": "Photo by RDNE Stock project on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\061-pexels.jpg"
+    },
+    {
+      "query": "A cozy corner of a living room featuring a low pile rug, layered curtains, and a mix of textured cushions, all styled for a budget-friendly look.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\062-pexels.jpg"
+    },
+    {
+      "query": "A stylish living room featuring a wool rug, lined curtains, and a variety of textured cushions, all designed for family living.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\063-pexels.jpg"
+    },
+    {
+      "query": "A luxurious living room showcasing high-end textiles, including a hand-knotted rug, custom drapery, and rich cushions, styled for elegance.",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\064-pexels.jpg"
+    },
+    {
+      "query": "living room with a large wool rug and wide curtain panels, natural light from one window, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\067-pexels.jpg"
+    },
+    {
+      "query": "living room with arranged seating and soft textiles, natural light from one window, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by JUNLIN ZOU on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\069-pexels.jpg"
+    },
+    {
+      "query": "living room with styled shelves and plants, natural light from one window, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Stanislav Kondratiev on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\070-pexels.jpg"
+    },
+    {
+      "query": "living room with final accents like pillows and throws, natural light from one window, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Terry Magallanes on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\071-pexels.jpg"
+    },
+    {
+      "query": "living room with a cozy atmosphere, natural light from one window, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Andranik Paradyan on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\072-pexels.jpg"
+    },
+    {
+      "query": "living room with soft furnishings, natural light from one window, warm color palette, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Sami  Abdullah on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\073-pexels.jpg"
+    },
+    {
+      "query": "living room with a focus on noise-reducing decor elements, soft textures, warm lighting, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Leandro Rossi on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\074-pexels.jpg"
+    },
+    {
+      "query": "living room setup for noise measurement, soft furnishings, one window light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\075-pexels.jpg"
+    },
+    {
+      "query": "living room with a mirror point walk-through setup, soft textures, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by VAZHNIK on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\076-pexels.jpg"
+    },
+    {
+      "query": "living room with common mistakes in decor for noise reduction, soft textures, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Oleg Melevych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\078-pexels.jpg"
+    },
+    {
+      "query": "cozy living room with layered textiles, one window light, linen and velvet textures, magazine styling, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Vladyslav Dukhin on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\079-pexels.jpg"
+    },
+    {
+      "query": "organized planner with textile samples, one window light, linen and velvet textures, magazine styling, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by 3D Render on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\081-pexels.jpg"
+    },
+    {
+      "query": "living room with a large area rug and a smaller runner, one window light, linen and jute textures, magazine styling, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\082-pexels.jpg"
+    },
+    {
+      "query": "living room with full-length curtains, one window light, velvet and linen textures, magazine styling, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\083-pexels.jpg"
+    },
+    {
+      "query": "cozy sofa with cushions and throws, one window light, linen and chunky textures, magazine styling, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Keegan Checks on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\084-pexels.jpg"
+    },
+    {
+      "query": "interior of a cozy living room with window treatments, soft lighting, plush textures, no people",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\085-pexels.jpg"
+    },
+    {
+      "query": "cozy living room with layered curtains, soft textures, warm lighting, no people",
+      "source": "pexels",
+      "credit": "Photo by YI REN on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\086-pexels.jpg"
+    },
+    {
+      "query": "measuring window dimensions in a living room with a load-bearing wall, soft lighting, no people",
+      "source": "pexels",
+      "credit": "Photo by Castorly Stock on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\087-pexels.jpg"
+    },
+    {
+      "query": "stylish living room with velvet curtains and wraparound rod, soft lighting, no people",
+      "source": "pexels",
+      "credit": "Photo by Yunuen Zempoaltecatl on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\088-pexels.jpg"
+    },
+    {
+      "query": "decorative wall solutions in a small living room, soft lighting, no people",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\089-pexels.jpg"
+    },
+    {
+      "query": "A serene living room in a Pune apartment, featuring a thick rug, lined curtains, and plants, with natural light filtering through one window, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by 天 明 on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\091-pexels.jpg"
+    },
+    {
+      "query": "A close-up of a measuring tape on a wooden floor, capturing the dimensions of a living room, natural light casting soft shadows, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Ron Lach on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\092-pexels.jpg"
+    },
+    {
+      "query": "A well-decorated bookshelf filled with books and fabric baskets, natural light highlighting the textures, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Thijs van der Weide on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\094-pexels.jpg"
+    },
+    {
+      "query": "A serene living room with neatly arranged pillows and throws, natural light enhancing the cozy atmosphere, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Andrea Piacquadio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\photos\\095-pexels.jpg"
+    }
+  ],
+  "figures": [
+    {
+      "spec_id": "D001",
+      "kind": "table",
+      "title": "Sofa Seat Depth Is Comfort, Not NRC",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\figures\\D001.svg"
+    },
+    {
+      "spec_id": "D002",
+      "kind": "table",
+      "title": "Measure The Sofa You Own",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\figures\\D002.svg"
+    },
+    {
+      "spec_id": "D003",
+      "kind": "table",
+      "title": "Fabric Depth Is Not A Panel",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\figures\\D003.svg"
+    },
+    {
+      "spec_id": "D004",
+      "kind": "comparison",
+      "title": "Rug Width Is A Visual Start",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\figures\\D004.svg"
+    },
+    {
+      "spec_id": "D004",
+      "kind": "comparison",
+      "title": "Rug Width Is A Visual Start",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\The Quiet Living Room\\figures\\D004.svg"
+    }
+  ]
+}

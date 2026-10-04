@@ -1,0 +1,583 @@
+{
+  "title": "Shared Bathroom Harmony",
+  "units": "imperial",
+  "outputs": {
+    "pdf": "build\\Shared Bathroom Harmony\\shared-bathroom-harmony.pdf",
+    "cover": "build\\Shared Bathroom Harmony\\cover.pdf",
+    "epub": "build\\Shared Bathroom Harmony\\shared-bathroom-harmony.epub",
+    "epub_preview": "build\\Shared Bathroom Harmony\\epub-preview.html"
+  },
+  "ai_generated_images": 1,
+  "kdp_ai_disclosure_required": true,
+  "images": [
+    {
+      "query": "calm shared bathroom with two organized zones, natural light, no people, no text",
+      "source": "openai",
+      "credit": "Cover illustration generated for this edition.",
+      "ai": true,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\cover.jpg"
+    },
+    {
+      "query": "shared bathroom with organized zones, natural light, clean lines, neutral tones",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\001-pexels.jpg"
+    },
+    {
+      "query": "shared bathroom with defined zones, natural light, organized storage",
+      "source": "pexels",
+      "credit": "Photo by Đỗ Huy Hoàng on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\002-pexels.jpg"
+    },
+    {
+      "query": "shared bathroom with organized zones, natural light, clear visibility",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\003-pexels.jpg"
+    },
+    {
+      "query": "shared bathroom with a clear charter, organized zones, natural light",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\004-pexels.jpg"
+    },
+    {
+      "query": "A clean, organized bathroom space with two distinct zones for personal items, showcasing a clear separation of ownership and accessibility.",
+      "source": "pexels",
+      "credit": "Photo by Curtis Adams on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\005-pexels.jpg"
+    },
+    {
+      "query": "A cluttered bathroom cabinet with various personal care products spilling out, emphasizing the chaos of mixed ownership.",
+      "source": "pexels",
+      "credit": "Photo by Andy Coffie on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\006-pexels.jpg"
+    },
+    {
+      "query": "A well-organized bathroom counter with neatly labeled categories for skincare, haircare, and dental products.",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\007-pexels.jpg"
+    },
+    {
+      "query": "A bathroom counter with a clear display of daily essentials, alongside a designated area for expired items and hazardous waste.",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\008-pexels.jpg"
+    },
+    {
+      "query": "A neatly organized set of labeled bins ready for mapping, showcasing the results of a successful declutter.",
+      "source": "pexels",
+      "credit": "Photo by Blue Bird on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\009-pexels.jpg"
+    },
+    {
+      "query": "bathroom layout with organized zones, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\010-pexels.jpg"
+    },
+    {
+      "query": "organized bathroom with designated zones, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Peter  Vang on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\011-pexels.jpg"
+    },
+    {
+      "query": "compact bathroom with vertical storage solutions, one window light, plaster textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\012-pexels.jpg"
+    },
+    {
+      "query": "shared bathroom with clearly defined zones, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Mathias Reding on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\013-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a small bathroom with organized shelves and clear zones, natural light from one window, soft textures like linen and plaster",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\014-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a well-maintained bathroom with organized zones and labels, natural light from one window, soft textures like linen and plaster",
+      "source": "pexels",
+      "credit": "Photo by Curtis Adams on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\017-pexels.jpg"
+    },
+    {
+      "query": "organized vanity drawers with adjustable inserts, neutral colors, no people",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\020-pexels.jpg"
+    },
+    {
+      "query": "under-sink storage with risers and labeled bins, neutral colors, no people",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\021-pexels.jpg"
+    },
+    {
+      "query": "organized linen closet with labeled stacks and bins, neutral colors, no people",
+      "source": "pexels",
+      "credit": "Photo by RDNE Stock project on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\022-pexels.jpg"
+    },
+    {
+      "query": "organized shower space with waterproof labels, neutral colors, no people",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\023-pexels.jpg"
+    },
+    {
+      "query": "Compact bathroom with hair tools organized near a mirror, warm lighting, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\024-pexels.jpg"
+    },
+    {
+      "query": "Organized hair tool station with heat-resistant tray and neatly routed cords, warm lighting, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by KoolShooters on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\025-pexels.jpg"
+    },
+    {
+      "query": "Close-up of labeled zones for hair tools, warm lighting, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Engin Akyurt on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\026-pexels.jpg"
+    },
+    {
+      "query": "Organized bins for hair tools staged by tier, warm lighting, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by asude on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\027-pexels.jpg"
+    },
+    {
+      "query": "compact bathroom, pedestal sink, neutral tones, organized storage, one window light, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\028-pexels.jpg"
+    },
+    {
+      "query": "neutral bathroom storage, organized counter, compact design, one window light, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Peter  Vang on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\029-pexels.jpg"
+    },
+    {
+      "query": "bathroom backup storage, labeled bins, organized shelves, one window light, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Peter  Vang on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\030-pexels.jpg"
+    },
+    {
+      "query": "Compact Indian bathroom with organized storage solutions, natural light, clean lines, no brands.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\034-pexels.jpg"
+    },
+    {
+      "query": "Compact Indian bathroom with a single vanity, organized drawers, and a corner caddy, natural light, no brands.",
+      "source": "pexels",
+      "credit": "Photo by Collab Media on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\035-pexels.jpg"
+    },
+    {
+      "query": "Spacious primary suite bathroom with double vanity, organized drawers, and shared items, natural light, no brands.",
+      "source": "pexels",
+      "credit": "Photo by Curtis Adams on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\036-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a compact Indian apartment bathroom with organized shelves, natural light, neutral tones, no people",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\037-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a well-organized bathroom shelf with daily items at eye level, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by Castorly Stock on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\038-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a bathroom counter with organized hot tools and cords, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by Curtis Adams on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\041-pexels.jpg"
+    },
+    {
+      "query": "A modern bathroom with neutral tones, featuring organized zones, clear labels, and neatly arranged daily items, soft natural light from a window.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\042-pexels.jpg"
+    },
+    {
+      "query": "A neatly organized bathroom vanity with two equal sections, each holding personal items in labeled bins, soft natural light highlighting the space.",
+      "source": "pexels",
+      "credit": "Photo by Curtis Adams on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\043-pexels.jpg"
+    },
+    {
+      "query": "A clean bathroom shelf with shared daily items neatly arranged, soft natural light illuminating the space, emphasizing organization and accessibility.",
+      "source": "pexels",
+      "credit": "Photo by Vinson Chu on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\044-pexels.jpg"
+    },
+    {
+      "query": "A well-organized under-sink area featuring risers and labeled bins, showcasing efficient use of vertical space, soft natural light highlighting the organization.",
+      "source": "pexels",
+      "credit": "Photo by EqualStock IN on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\045-pexels.jpg"
+    },
+    {
+      "query": "A neatly organized shower area with daily products at eye level and weekly items stored higher, soft natural light filtering through a frosted glass window.",
+      "source": "pexels",
+      "credit": "Photo by Ty Nguyễn on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\046-pexels.jpg"
+    },
+    {
+      "query": "organized shared bathroom, no people, no text",
+      "source": "pexels",
+      "credit": "Photo by SHVETS production on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\047-pexels.jpg"
+    },
+    {
+      "query": "organized shared bathroom vanity storage, no people, no text",
+      "source": "pexels",
+      "credit": "Photo by Marc Pell on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\049-pexels.jpg"
+    },
+    {
+      "query": "organized shared bathroom vanity storage, no people, no text",
+      "source": "pexels",
+      "credit": "Photo by Cup of  Couple on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\050-pexels.jpg"
+    },
+    {
+      "query": "bathroom interior, cohesive design, neutral palette, modern fixtures, natural light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Eugene Laszczewski on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\051-pexels.jpg"
+    },
+    {
+      "query": "bathroom palette, neutral tones, accent colors, natural light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Cup of  Couple on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\052-pexels.jpg"
+    },
+    {
+      "query": "bathroom materials, matte textures, chrome fixtures, natural light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\053-pexels.jpg"
+    },
+    {
+      "query": "bathroom labels, micro style guide, cohesive design, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Andrea Piacquadio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\054-pexels.jpg"
+    },
+    {
+      "query": "bathroom implementation, cohesive design, organized space, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Alex Tyson on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\055-pexels.jpg"
+    },
+    {
+      "query": "bathroom with organized containers, dividers, and hardware, natural light, clean lines, modern design, no people",
+      "source": "pexels",
+      "credit": "Photo by Cup of  Couple on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\056-pexels.jpg"
+    },
+    {
+      "query": "organized bathroom storage, no people, no text",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\057-pexels.jpg"
+    },
+    {
+      "query": "organized bathroom drawer with dividers and trays, natural light",
+      "source": "pexels",
+      "credit": "Photo by Bilguun Gantumur on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\058-pexels.jpg"
+    },
+    {
+      "query": "neatly arranged bathroom counter with identical trays, natural light",
+      "source": "pexels",
+      "credit": "Photo by isabel  ph on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\059-pexels.jpg"
+    },
+    {
+      "query": "organized shower with rust-resistant caddy, natural light",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\061-pexels.jpg"
+    },
+    {
+      "query": "bathroom organization, labels, refill routines, rotation systems, minimalistic design",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\062-pexels.jpg"
+    },
+    {
+      "query": "bathroom labels, organized containers, minimalistic design",
+      "source": "pexels",
+      "credit": "Photo by Cup of  Couple on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\063-pexels.jpg"
+    },
+    {
+      "query": "bathroom product rotation, organized storage, minimal clutter",
+      "source": "pexels",
+      "credit": "Photo by Valeriia Miller on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\065-pexels.jpg"
+    },
+    {
+      "query": "bathroom cleaning routine, micro resets, organized space",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\066-pexels.jpg"
+    },
+    {
+      "query": "organized bathroom counter, minimalistic design, natural light, matching containers",
+      "source": "pexels",
+      "credit": "Photo by Ryan Lansdown on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\068-pexels.jpg"
+    },
+    {
+      "query": "shared bathroom tools, organized storage, heat-safe tray, morning routine",
+      "source": "pexels",
+      "credit": "Photo by Cup of  Couple on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\069-pexels.jpg"
+    },
+    {
+      "query": "bathroom textiles, soft green towels, minimalistic design, natural light",
+      "source": "pexels",
+      "credit": "Photo by Beyzanur K. on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\070-pexels.jpg"
+    },
+    {
+      "query": "accessible bathroom storage, natural light, soft textures",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\076-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a well-organized vanity area in a shared bathroom, natural light, neutral colors, no people",
+      "source": "pexels",
+      "credit": "Photo by AJ  Ahamad on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\078-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a couple organizing a shared bathroom, natural light, neutral colors, no people",
+      "source": "pexels",
+      "credit": "Photo by Cup of  Couple on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\079-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a cluttered bathroom with disorganized items, natural light, neutral colors, no people",
+      "source": "pexels",
+      "credit": "Photo by Karl Solano on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\082-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a neatly organized bathroom vanity with clear acrylic containers and matte black labels, soft natural light, clean lines, no people",
+      "source": "pexels",
+      "credit": "Photo by Curtis Adams on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\084-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a bathroom with clear acrylic containers and matte black labels, natural light, organized and clean",
+      "source": "pexels",
+      "credit": "Photo by Vie Studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\085-pexels.jpg"
+    },
+    {
+      "query": "organized shared bathroom vanity storage, no people, no text",
+      "source": "pexels",
+      "credit": "Photo by RDNE Stock project on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\086-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a bathroom installation process with containers being placed, natural light, organized and clean",
+      "source": "pexels",
+      "credit": "Photo by Jaycee300s on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\087-pexels.jpg"
+    },
+    {
+      "query": "bathroom storage solutions, compact Indian apartment, natural light, minimalistic design, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\088-pexels.jpg"
+    },
+    {
+      "query": "shared bathroom decision-making, compact Indian apartment, natural light, minimalistic design, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Real  Estate 4k on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\090-pexels.jpg"
+    },
+    {
+      "query": "successful shared bathroom organization, compact Indian apartment, natural light, minimalistic design, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\092-pexels.jpg"
+    }
+  ],
+  "figures": [
+    {
+      "spec_id": "F001",
+      "kind": "table",
+      "title": "When storage is not enough",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\figures\\F001.svg"
+    },
+    {
+      "spec_id": "F002",
+      "kind": "table",
+      "title": "Inventory classes",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\figures\\F002.svg"
+    },
+    {
+      "spec_id": "F003",
+      "kind": "table",
+      "title": "Illustrative compact vanity",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\figures\\F003.svg"
+    },
+    {
+      "spec_id": "F004",
+      "kind": "table",
+      "title": "Renter mounting tree",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\figures\\F004.svg"
+    },
+    {
+      "spec_id": "F005",
+      "kind": "table",
+      "title": "Small-drawer split",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\figures\\F005.svg"
+    },
+    {
+      "spec_id": "F006",
+      "kind": "table",
+      "title": "Stop and escalate",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\figures\\F006.svg"
+    },
+    {
+      "spec_id": "F007",
+      "kind": "table",
+      "title": "Textile states",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\figures\\F007.svg"
+    },
+    {
+      "spec_id": "F008",
+      "kind": "table",
+      "title": "Shower storage conditions",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\figures\\F008.svg"
+    },
+    {
+      "spec_id": "F009",
+      "kind": "table",
+      "title": "Chemical handling",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\figures\\F009.svg"
+    },
+    {
+      "spec_id": "F010",
+      "kind": "table",
+      "title": "Budget hierarchy",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\figures\\F010.svg"
+    },
+    {
+      "spec_id": "F011",
+      "kind": "table",
+      "title": "Before any under-sink buy",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\figures\\F011.svg"
+    },
+    {
+      "spec_id": "F012",
+      "kind": "table",
+      "title": "Weekly reset",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\figures\\F012.svg"
+    },
+    {
+      "spec_id": "F013",
+      "kind": "table",
+      "title": "Measurement sheet lines",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\figures\\F013.svg"
+    },
+    {
+      "spec_id": "F014",
+      "kind": "table",
+      "title": "Negotiation worksheet fields",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\figures\\F014.svg"
+    }
+  ]
+}

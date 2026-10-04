@@ -1,0 +1,3583 @@
+{
+  "slug": "spill-proof-dining-setup",
+  "title": "Spill Proof Dining Setup",
+  "subtitle": "A practical guide to reducing spills, improving dining comfort, and creating more manageable meal setups",
+  "tagline": "Reduce spills and simplify cleanup for US households — tested with the diner, not promised as spill-proof.",
+  "author": "Akarsh Priyadarshan",
+  "series": "30 Day Spaces",
+  "closing_headline": "Your next room starts here",
+  "closing_blurb": "More room kits and measured layouts — same series language, same clear numbers. This book helps readers create a dining setup that reduces spills, supports comfortable reach, simplifies cleanup, and adapts to the needs of the person using it. It does not guarantee spill-free dining or replace individualized clinical and accessibility advice.",
+  "accent_hex": "#1E5F6B",
+  "units": "imperial",
+  "cover": {
+    "query": "dining table with placemat handled cup warm light no people",
+    "flux_prompt": "full-bleed dining table with simple tableware, warm light, no people, no text",
+    "alt": "A small dining table with a placemat, a handled cup, and a clear path beside the chair. No people or text.",
+    "source": "openai",
+    "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\cover.jpg",
+    "credit": "Cover illustration generated for this edition.",
+    "ai_generated": true,
+    "provider_id": "pexels:31132843"
+  },
+  "designed_cover": true,
+  "chapters": [
+    {
+      "slug": "the-spill-proof-mindset-safety-dignity-and-baseline-assessme",
+      "title": "Before you begin",
+      "intro": "This book is organized as a reference guide. You can read the chapters in order or use the assessment, tableware, seating, serving, cleanup, and worksheet sections independently. This book helps readers create a dining setup that reduces spills, supports comfortable reach, simplifies cleanup, and adapts to the needs of the person using it. It does not guarantee spill-free dining or replace individualized clinical and accessibility advice. This book is intended for adults and households looking for practical ways to reduce dining spills, improve table organization, and make meals easier to manage. It is not a pediatric feeding or choking-prevention guide, and it does not replace individualized clinical or accessibility assessment. The measurements and product examples are starting points, not universal safety standards. A setup that works for one person may be unsuitable for another. Test each change with the person who will use it. Consider posture, reach, strength, vision, fatigue, mobility equipment, food texture, and cleaning requirements. If the person has swallowing difficulties, recurrent choking, significant movement changes, falls, or complex accessibility needs, consult an appropriate qualified professional. Clinical and accessibility note. The suggestions in this book are general environmental and practical ideas, not individualized medical, rehabilitation, swallowing, or nutritional advice. Tremors, weakness, impaired coordination, swallowing difficulties, and mobility limitations can have different causes and safety requirements. Consult an appropriate qualified professional—such as an occupational therapist, physical therapist, speech-language pathologist, registered dietitian, or clinician—when the person has difficulty swallowing, recurrent choking, unexplained weight loss, significant weakness, falls, or a major change in movement or control. Examples are illustrative and may use different home layouts. Some scenarios use apartments in Indian cities as illustrations. They do not define the book’s market. Prices are USD. Measurements are inches first. Verify local requirements and product instructions. A lower-spill dining setup is not created by one mat, plate, or tray. It comes from matching the person, the furniture, the tableware, the food, the lighting, and the cleanup routine.",
+      "opener": {
+        "query": "dining table with spill-proof settings, warm lighting, inviting atmosphere, no people, no text, no watermark",
+        "flux_prompt": "full-bleed image of a beautifully set dining table in a cozy Indian apartment, showcasing spill-proof tableware and a warm ambiance",
+        "alt": "A dining table with placemat, simple tableware, and warm lighting. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\001-pexels.jpg",
+        "credit": "Photo by Leyla M on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:31132843"
+      },
+      "sections": [
+        {
+          "slug": "understanding-the-spill-risks",
+          "title": "Name the actual problem, not a spill-proof promise",
+          "day_label": "Core principles",
+          "hero": {
+            "query": "dining area with textured tableware, warm lighting, inviting atmosphere, no people, no text, no watermark",
+            "flux_prompt": "image of a well-lit dining area with textured tableware and easy-to-reach settings, showcasing a cozy and inviting atmosphere",
+            "alt": "alternative view of the dining area focusing on the tableware and lighting.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\002-pexels.jpg",
+            "credit": "Photo by Quang Nguyen Vinh on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:33326574"
+          },
+          "scenario": "Ravi lives in a 1BHK in Pune with a compact dining area. He experiences tremors when he reaches across the table. The city name is an illustration. The task is the same in a US home: test what actually slides, tips, or spills for this person.",
+          "principle": "Spills follow movement, reach, grip, vision, and furniture — but no setup eliminates them.",
+          "body": [
+            "What this book can and cannot do. This book provides practical ideas for reducing spills, improving reach, organizing dining spaces, and making cleanup easier. No arrangement, product, or routine can guarantee spill-free dining or eliminate every risk. Test each adaptation with the individual using it, reassess as needs change, and obtain qualified clinical or accessibility advice when a person has significant swallowing, movement, balance, vision, or coordination difficulties.",
+            "Watch where the diner’s hand travels, which items slide, and whether lighting or a crowded path adds effort. Keep needed items within a comfortable reach for that person.",
+            "Ask the diner what feels comfortable, useful, and dignified. Do not introduce an adaptation solely because it looks safer or more organized to someone else.",
+            "The table below separates ordinary spill-reduction work from questions that need individualized advice."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "What this book can cover",
+              "caption": "Ordinary spill reduction versus individualized clinical or accessibility advice.",
+              "values": [
+                "Specialized condition gear: clinician",
+                "Swallowing liquid changes: clinician",
+                "Prescribed texture/diet: clinician",
+                "Rehab equipment selection: clinician",
+                "Posture/transfer assessment: clinician"
+              ],
+              "labels": [
+                "Plate: test placement/grip",
+                "Drinks: container and fill",
+                "Food: scooping and serving",
+                "Utensils: comfort testing",
+                "Seating: layout observation"
+              ],
+              "minimum": null,
+              "spec_id": "D041",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D041.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Swallowing and food-texture boundary",
+              "caption": "This book does not prescribe textures, thickeners, or cut sizes for swallowing safety.",
+              "values": [
+                "Not this book",
+                "Not this book",
+                "Clinician if choking risk"
+              ],
+              "labels": [
+                "Independent thickening",
+                "Universal cut size",
+                "Pediatric feeding"
+              ],
+              "minimum": null,
+              "spec_id": "D042",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D042.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Watch one real meal and note what slid, tipped, spilled, or felt tiring.",
+              "minutes": null
+            },
+            {
+              "text": "Ask the diner what they want changed — and what they want left alone.",
+              "minutes": null
+            },
+            {
+              "text": "Write whether swallowing, falls, or a major movement change means professional advice first.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: the household buys a ‘spill-proof’ mug and treats the problem as solved, or rearranges the place setting without asking the diner.",
+          "checklist": [
+            "Limitation statement read: no setup is completely spill-proof",
+            "Diner preferences asked",
+            "Clinical boundary reviewed"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "conducting-a-home-assessment",
+          "title": "Assess the room as a starting point, then test the route",
+          "day_label": "Assessment",
+          "hero": {
+            "query": "dining area with load-bearing wall, cozy lighting, inviting atmosphere, no people, no text, no watermark",
+            "flux_prompt": "image of a dining area with a load-bearing wall, showcasing a thoughtful layout that minimizes spill risks",
+            "alt": "alternative view focusing on the table layout and accessibility.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\003-pexels.jpg",
+            "credit": "Photo by Japanese girl  in europe on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:29109683"
+          },
+          "scenario": "Anita’s Bengaluru rental has a load-bearing wall that limits table placement. She maps paths and bottlenecks before buying mats.",
+          "principle": "Measure the equipment and test the complete route before finalizing the layout.",
+          "body": [
+            "The dimensions in this chapter are planning starting points, not universal accessibility requirements. Actual clearance depends on the mobility aid, chair or wheelchair dimensions, turning method, body size, table base, armrests, and the person’s movement pattern. Measure the equipment and test the complete route before finalizing the layout.",
+            "Observe how people actually move during a meal. Note chair legs, door swings, walker or wheelchair paths, and places where someone twists while carrying a dish.",
+            "Track outcomes that matter to this household without treating a lower spill count as a safety guarantee."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Walk the kitchen-to-table route with the actual mobility aid if one is used.",
+              "minutes": null
+            },
+            {
+              "text": "Mark bottlenecks, glare, and unstable furniture.",
+              "minutes": null
+            },
+            {
+              "text": "Do not buy a runner until the route has been tested.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a 36-inch path is copied from a diagram while the wheelchair still cannot turn, or a mat is ordered before the table is confirmed stable.",
+          "checklist": [
+            "Route walked with real equipment",
+            "Table stability checked",
+            "Purchases delayed until the problem is named"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "creating-a-comfortable-dining-environment",
+          "title": "Comfort, lighting, and seating are tests — not a style formula",
+          "day_label": "Assessment",
+          "hero": {
+            "query": "dining area with warm lighting, cozy textures, inviting atmosphere, no people, no text, no watermark",
+            "flux_prompt": "image of a cozy dining area with warm lighting and inviting decor, showcasing a comfortable dining experience",
+            "alt": "alternative view focusing on the lighting and decor.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\004-pexels.jpg",
+            "credit": "Photo by Hasini Parsa on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:39478022"
+          },
+          "scenario": "Meera’s Mumbai flat has a window on one side. Warm lighting might suit the mood and still leave glare on the plate.",
+          "principle": "Color temperature is only one part of lighting quality. Comfort is tested from the seated position.",
+          "body": [
+            "Warm-white lighting in the 2700–3000 K range may suit the desired atmosphere, but choose the brightness and color rendering based on the person’s visual needs and the room’s glare and shadow conditions. Also assess brightness, glare, shadows, contrast, flicker, reflections on plates, and the diner’s vision needs. Test the lighting from the seated position and along the serving route.",
+            "Contrast preferences vary with vision, lighting, glare, and visual processing. A light plate on a dark placemat, a dark cup on a light surface, or a contrasting tray edge may help some people. Patterned cloths can hide food or spills. Test the arrangement in the actual room rather than assuming that stronger contrast is always more comfortable.",
+            "Test lighting at the time of day when the meal usually occurs. A setup that looks comfortable in daylight may create glare or shadows at night. Check reflections on plates, glare from glossy table protectors, shadows from hands, light into the eyes, flicker, and visibility of food edges and cup rims.",
+            "Choose seating the diner can sit, stand, or transfer from using their established method. Do not move a wheelchair, walker, or chair during a transfer unless the equipment is positioned and secured according to its instructions."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Sit in the diner’s seat and check glare, shadows, and plate-edge visibility.",
+              "minutes": null
+            },
+            {
+              "text": "Ask whether contrast feels helpful or harsh.",
+              "minutes": null
+            },
+            {
+              "text": "Note how the person sits down and stands up before changing chairs.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: warm bulbs are installed as if they were a vision treatment, or a new chair is introduced without checking the transfer.",
+          "checklist": [
+            "Lighting tested from the seat",
+            "Contrast tested, not assumed",
+            "Transfer method left intact unless a plan exists"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "the-solution-framework",
+      "title": "The dining system: Person, furniture, tableware, food, and cleanup",
+      "intro": "A lower-spill dining setup matches the person, furniture, tableware, food, lighting, reach, mobility, cleanup, and caregiver preferences. Buy only after naming the specific problem. See Before you begin for limits.",
+      "opener": {
+        "query": "Dining table set with adaptive gear, soft lighting, elegant tableware, no people, no text, no watermark.",
+        "flux_prompt": "Full-bleed image of a beautifully set dining table in a compact Indian apartment, showcasing a blend of traditional and modern elements, with a focus on accessibility and style.",
+        "alt": "A dining table with placemat, simple tableware, and warm lighting. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\005-pexels.jpg",
+        "credit": "Photo by Rene Terp on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:4451262"
+      },
+      "sections": [
+        {
+          "slug": "understanding-the-challenges",
+          "title": "Host anxiety is real; a clinical look is not required",
+          "day_label": "Core principles",
+          "hero": {
+            "query": "Dining area with stylish table protection, soft lighting, elegant decor, no people, no text, no watermark.",
+            "flux_prompt": "Photorealistic image of a dining area in a compact Indian apartment, showcasing adaptive gear and stylish table settings, with one window light illuminating the space.",
+            "alt": "A cozy dining nook featuring a blend of traditional Indian textiles and modern design elements.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\006-pexels.jpg",
+            "credit": "Photo by Engin Akyurt on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4170017"
+          },
+          "scenario": "Priya hosts in a Pune 1BHK and feels tense about guests spilling. Reducing mess is useful. Treating guests as hazards is not.",
+          "principle": "Design for easier meals and cleanup without turning the table into a clinic.",
+          "body": [
+            "Mealtime is social as well as practical. A lower-spill setup can reduce cleanup effort. It cannot promise that guests will not spill. Choose changes that still look like a dining table the household wants to use.",
+            "Ask the diner before changing the setup. See the dignity chapter.",
+            "Keep later chapters for equipment. This chapter’s job is to name the system: person, furniture, tableware, food, lighting, reach, mobility, cleanup, caregiver preferences, and ongoing adjustment."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Write the social goal in one sentence.",
+              "minutes": null
+            },
+            {
+              "text": "Write the practical problem in one sentence.",
+              "minutes": null
+            },
+            {
+              "text": "Keep those two lists separate when you shop.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: every guest meal becomes a training session, or styling is bought before the table stops rocking.",
+          "checklist": [
+            "Problem named",
+            "Diner or host preference recorded",
+            "No universal product list yet"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "the-solution-framework",
+          "title": "STABLE: six checks, not six guarantees",
+          "day_label": "Core principles",
+          "hero": {
+            "query": "Stylish dining setup with adaptive gear, soft lighting, elegant tableware, no people, no text, no watermark.",
+            "flux_prompt": "A well-arranged dining table in a Bengaluru apartment, highlighting adaptive gear and a cozy atmosphere.",
+            "alt": "A close-up of a beautifully set dining table with elegant tableware and adaptive features.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\006-pexels.jpg",
+            "credit": "Photo by Engin Akyurt on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4170017"
+          },
+          "scenario": "Ramesh’s Bengaluru rental needs a method that is memorable. STABLE in this book means Secure base, Tilt and channel, Assisted grip, Balanced weight, Limited portion, Easy clean.",
+          "principle": "Each letter is one action. A product that helps one letter may not help the others.",
+          "body": [
+            "STABLE is this book’s central checklist. Each letter has one meaning, used the same way later: S — Secure base: the dish or cup stays put on this table when used. T — Tilt and channel: a lip or guard may help some foods stay on the plate; it does not make swallowing safer. A — Assisted grip: handles and textures must fit this hand. B — Balanced weight: heavier is not automatically better; test with food on the utensil. L — Limited portion: a practical amount for control, not a diet rule. E — Easy clean: follow that product’s cleaning instructions.",
+            "In this book, stability refers to the specific behavior being addressed: tableware sliding, containers tipping, furniture shifting, a person maintaining posture, or a mobility aid moving. A product that improves one type of stability may not improve the others.",
+            "Layer furniture first, then tableware, then food handling, then cleanup. Gadgets last. Later chapters use these letters; they do not redefine them."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Score each STABLE letter as working, untested, or not needed.",
+              "minutes": null
+            },
+            {
+              "text": "Fix furniture rocking before adding grip dots.",
+              "minutes": null
+            },
+            {
+              "text": "Retest after one meal.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a plate guard is added to an unstable folding table, or ‘limited portion’ is used to restrict food without a reason.",
+          "checklist": [
+            "STABLE letters named",
+            "Furniture stability checked first",
+            "Portion language not used as a diet"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "implementing-effective-strategies",
+          "title": "Change one thing, then ask the diner",
+          "day_label": "Core principles",
+          "hero": {
+            "query": "Elegant dining area with adaptive features, soft lighting, tasteful decor, no people, no text, no watermark.",
+            "flux_prompt": "A beautifully styled dining area in a Mumbai flat, showcasing adaptive features and a warm ambiance.",
+            "alt": "A close-up of adaptive dining tools and elegant table settings.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\006-pexels.jpg",
+            "credit": "Photo by Engin Akyurt on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4170017"
+          },
+          "scenario": "Neha wants family dinners in a Mumbai flat without turning the table into a product display.",
+          "principle": "A raised-edge plate or a different layout may help. Neither prevents every spill.",
+          "body": [
+            "Choose tableware for this diner’s grip, vision, and fatigue. Raised edges may help some foods stay on the plate. Nonslip mats may reduce sliding on some surfaces and fail on others.",
+            "Layout and elbow room are tested, not copied from a clearance number. Cleanup works when cloths and bins are actually within reach after a spill.",
+            "Do not wait for a scheduled review if the person reports pain, a new fall risk, or loss of control."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Pick one change.",
+              "minutes": null
+            },
+            {
+              "text": "Test it at a real meal.",
+              "minutes": null
+            },
+            {
+              "text": "Ask what to keep.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: three new products arrive at once and nobody knows which one helped.",
+          "checklist": [
+            "One change at a time",
+            "Real-meal test",
+            "Diner asked"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "deep-dive",
+      "title": "What stability means: Sliding, tipping, posture, and furniture",
+      "intro": "In this book, stability refers to the specific behavior being addressed: tableware sliding, containers tipping, furniture shifting, a person maintaining posture, or a mobility aid moving. A product that improves one type of stability may not improve the others. Forearm support and utensil weight are tests, not tremor treatments.",
+      "opener": {
+        "query": "A well-set dining table with contrasting placemats and textured charger plates, soft lighting, no people, photorealistic, magazine styling.",
+        "flux_prompt": "Full-bleed shot of a dining table set for a meal, showcasing high-contrast placemats and textured charger plates.",
+        "alt": "A dining table with placemat, simple tableware, and warm lighting. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\009-pexels.jpg",
+        "credit": "Photo by Jonathan Cooper on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:9651390"
+      },
+      "sections": [
+        {
+          "slug": "understanding-tremors-and-reach",
+          "title": "Reach and forearm support are individual",
+          "day_label": "Seating and reach",
+          "hero": {
+            "query": "A close-up of a dining setup showing elbow support and a well-arranged table, soft lighting, no people, photorealistic, magazine styling.",
+            "flux_prompt": "A detailed shot of the dining table from a side angle, focusing on the elbow support and the arrangement of utensils.",
+            "alt": "An alternative angle showcasing the table setup with a focus on the placemats and charger plates.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\010-pexels.jpg",
+            "credit": "Photo by Denys Gromov on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4717549"
+          },
+          "scenario": "Riya experiences hand tremors in a Pune 1BHK. A shorter reach might help — or it might crowd her wrists.",
+          "principle": "Forearm or elbow support may improve comfort and control for some people. It does not reliably reduce tremor amplitude.",
+          "body": [
+            "Forearm or elbow support may improve comfort and control for some people. Test different support positions and check whether the person experiences less effort, improved accuracy, or increased discomfort.",
+            "Use a comfortable reach zone based on the diner’s actual seated posture, shoulder mobility, arm length, tremor pattern, and ability to recover from a misreach. The 12–16-inch range can be tested as a starting point, not a universal limit. A shorter reach is not always safer if it forces the elbow, wrist, or shoulder into an awkward position. Test both reach distance and posture.",
+            "When the seating, table, and arm-support positions are comfortable and well matched, some people may experience improved control or reduced effort. The effect varies by person and should be evaluated during actual meals."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Map the diner’s comfortable reach with shoulders relaxed.",
+              "minutes": null
+            },
+            {
+              "text": "Try forearm support and ask about effort and discomfort.",
+              "minutes": null
+            },
+            {
+              "text": "Do not claim the tremor got smaller unless the person reports a useful change.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: ‘better elbow contact lowers tremor’ is treated as a rule, or items are packed so close the diner cannot move a spoon.",
+          "checklist": [
+            "Reach tested on this body",
+            "Support tested for comfort",
+            "No universal tremor-reduction claim"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "utilizing-friction-for-stability",
+          "title": "Friction helps some surfaces and fails on others",
+          "day_label": "Surface and tableware",
+          "hero": {
+            "query": "A dining table with textured charger plates and a high-friction mat, soft lighting, no people, photorealistic, magazine styling.",
+            "flux_prompt": "An overhead shot of the dining table, highlighting the textures of the charger plates and mats.",
+            "alt": "A side view of the table setup showing the contrast between smooth and textured surfaces.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\011-pexels.jpg",
+            "credit": "Photo by Paul López on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8050574"
+          },
+          "scenario": "Priya’s Bengaluru table is glossy. A mat that grips when dry may slide when oily or wet.",
+          "principle": "A nonslip product is not automatically nonslip on this table, with this load, when wet.",
+          "body": [
+            "Gently nudge a plate and cup on the actual surface, dry and after a small water film if that matches real meals. If they glide, test a grip product intended for that surface. Silicone pads can be useful for some tableware and tray applications, but their performance depends on the surface, load, moisture, texture, and cleaning condition.",
+            "Tablecloths and runners can help or they can be pulled, caught by wheels, or dragged during a transfer. Check hanging fabric against hot dishes and mobility-aid wheels.",
+            "A grip product cannot compensate for a table that rocks, shifts, rolls, or has damaged joints."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Nudge-test dry and damp.",
+              "minutes": null
+            },
+            {
+              "text": "Confirm the table does not rock.",
+              "minutes": null
+            },
+            {
+              "text": "Check cloth pull hazards.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: the mat is placed under the plate, but its edge catches the diner’s sleeve when they reach for the cup.",
+          "checklist": [
+            "Surface tested wet and dry",
+            "Table stable",
+            "Mat edge does not snag"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "choosing-the-right-weight-for-utensils",
+          "title": "Test utensil weight; heavier is not better",
+          "day_label": "Surface and tableware",
+          "hero": {
+            "query": "A close-up of a dining setup featuring heavier utensils and mugs, soft lighting, no people, photorealistic, magazine styling.",
+            "flux_prompt": "A detailed shot of the utensils on the table, focusing on their weight and design.",
+            "alt": "An alternative angle showcasing the dining setup with a focus on the mugs and plates.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\012-pexels.jpg",
+            "credit": "Photo by Mathias Reding on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:12008100"
+          },
+          "scenario": "Neha in a Mumbai flat was told weighted utensils would quiet her movement. Some meals they help; some meals they tire her shoulder.",
+          "principle": "Weighted utensils help some people and tire others. Test before regular use.",
+          "body": [
+            "Some people find weighted utensils helpful, while others experience more fatigue or reduced control. Test the utensil’s weight, handle shape, balance, and length during a short meal before adopting it for regular use. Do not assume that heavier is better. The most suitable utensil is the one the individual can control comfortably without excessive effort, strain, or fatigue.",
+            "Checklist: Can the diner lift it repeatedly without fatigue? Does the handle fit? Is it too heavy when food is added? Can they control the angle? Does it increase wrist or shoulder strain? Can it be cleaned? Do they prefer a lighter, larger-handled, angled, or adapted design?"
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Trial two utensils at one meal.",
+              "minutes": null
+            },
+            {
+              "text": "Ask about fatigue after ten bites.",
+              "minutes": null
+            },
+            {
+              "text": "Keep the one the diner prefers.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a heavier fork is kept because a catalog said it dampens tremor amplitude, even though the diner cannot finish the meal.",
+          "checklist": [
+            "Weight tested with food on the utensil",
+            "Fatigue checked",
+            "Handle comfort checked",
+            "Diner preference recorded"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "enhancing-visual-contrast",
+          "title": "Use contrast as a trial, not a rule",
+          "day_label": "Assessment",
+          "hero": {
+            "query": "A dining table with high-contrast placemats and well-placed lighting, soft lighting, no people, photorealistic, magazine styling.",
+            "flux_prompt": "An overhead shot of the dining table, showcasing the contrast between the placemats and dishes.",
+            "alt": "A side view of the table setup highlighting the lighting and color contrasts.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\013-pexels.jpg",
+            "credit": "Photo by Zak Chapman on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:2291606"
+          },
+          "scenario": "Arjun has low vision in a Chennai apartment. A dark mat helped him find the plate edge at dinner and felt harsh at breakfast in sun.",
+          "principle": "Contrast preferences vary. Test in the actual room.",
+          "body": [
+            "Useful trials include a light plate on a dark placemat, a dark cup on a light table, a contrasting tray edge, fewer busy patterns that hide food or spills, higher-contrast handles where helpful, and clear contrast between chair edges and floor.",
+            "Contrast preferences vary with vision, lighting, glare, and visual processing. Test the arrangement in the actual room rather than assuming that stronger contrast is always more comfortable."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Try one contrast change.",
+              "minutes": null
+            },
+            {
+              "text": "Check noon and evening light.",
+              "minutes": null
+            },
+            {
+              "text": "Ask the diner.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a high-contrast mat is treated as a safety device and kept even when it causes glare.",
+          "checklist": [
+            "Contrast tested in this room",
+            "Patterned cloths checked for hiding spills",
+            "Diner comfort asked"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "creating-clear-pathways",
+          "title": "Clear paths by measuring this equipment",
+          "day_label": "Room and table assessment",
+          "hero": {
+            "query": "A dining area with clear pathways and organized staging zones, soft lighting, no people, photorealistic, magazine styling.",
+            "flux_prompt": "A wide shot of the dining area showing the clear pathways and staging zones in the kitchen.",
+            "alt": "An alternative angle showcasing the dining setup with a focus on the arrangement of furniture.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\014-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7195885"
+          },
+          "scenario": "Meera carries plates through a Mumbai flat. Extra steps and a curling runner both add risk.",
+          "principle": "A clear path is the one this person can actually use.",
+          "body": [
+            "Provide enough clearance for the chair to move, for the diner to sit and stand, and for other people to pass without collision. Measure the actual chair depth and movement path rather than relying on one fixed clearance.",
+            "Use a low-profile floor covering only if it remains stable, lies flat, does not interfere with walker or wheelchair movement, and does not create a trip or wheel-catching hazard. Test the route with the actual shoes, walker, wheelchair, and chair. Check edges, transitions, corners, and wet-floor behavior. Rubber backing does not automatically mean nonslip and may mark some floors.",
+            "Do not move or reposition a wheelchair, walker, or chair during a transfer unless the equipment is positioned and secured according to its instructions. Check brakes, footrests, armrests, floor conditions, and the transfer route.",
+            "The label ‘nonslip’ does not guarantee performance on every floor, moisture level, load, or mobility aid. Test the product in the actual location, including when the surface is dry and when it may become damp. Remove the product if it shifts, curls, catches wheels, or interferes with transfers. Check the flooring manufacturer’s compatibility guidance. Some backing materials can discolor, soften, or leave marks on particular floor finishes.",
+            "Check whether fabric, runners, mats, or accessories can be pulled, caught by wheels, or dragged when someone reaches, stands, or transfers. Keep loose material away from hot dishes, mobility-aid wheels, and routes used for standing or walking."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Walk the path with the real aid.",
+              "minutes": null
+            },
+            {
+              "text": "Remove or flatten trip edges.",
+              "minutes": null
+            },
+            {
+              "text": "Keep transfers on the existing plan.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a rubber-backed runner catches a wheelchair footrest, or a chair is yanked during a stand.",
+          "checklist": [
+            "Path tested with real aid",
+            "Runner not assumed nonslip",
+            "Transfer boundary noted"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "implementation-strategy",
+      "title": "Table, seating, and a first dry run",
+      "intro": "A short dry run: confirm furniture stability, then seating and cleanup reach. See Before you begin for limits.",
+      "opener": {
+        "query": "dining table with high friction mat, weighted mugs, warm lighting, no people",
+        "flux_prompt": "full-bleed shot of a dining setup featuring a high friction mat, weighted mugs, and warm lighting",
+        "alt": "A dining table with placemat, simple tableware, and warm lighting. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\015-pexels.jpg",
+        "credit": "Photo by Waqar Hassan on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:38290266"
+      },
+      "sections": [
+        {
+          "slug": "elbow-support-and-mug-stability",
+          "title": "Support the arms; do not promise less tremor",
+          "day_label": "Seating and reach",
+          "hero": {
+            "query": "dining table with elbow support and weighted mugs, warm light, no people",
+            "flux_prompt": "photorealistic shot of a dining table set with elbow support and weighted mugs, warm light, no people",
+            "alt": "close-up of a weighted mug with a silicone sleeve on a coaster.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\016-pexels.jpg",
+            "credit": "Photo by Golnar Sabzpoush  Rashidi on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:2530347"
+          },
+          "scenario": "A soup bowl on a high-friction mat may stay put. The diner’s comfort still has to be checked.",
+          "principle": "A stable bowl and a supported forearm are different kinds of stability.",
+          "body": [
+            "Forearm or elbow support may improve comfort and control for some people. Test pad thickness and whether the table edge presses the abdomen or traps a wheelchair.",
+            "Position the table close enough to support comfortable eating without compressing the abdomen, restricting breathing, trapping the wheelchair or chair, or forcing the diner to lean excessively. Do not make 3–5 inches a mandatory target.",
+            "Choose a drink container the person can use comfortably. Lids may reduce slosh for some people and are not automatically safer to swallow with."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Check torso, knee, and armrest clearance.",
+              "minutes": null
+            },
+            {
+              "text": "Trial forearm support.",
+              "minutes": null
+            },
+            {
+              "text": "Trial the usual mug empty, then with a typical fill.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a pad ‘to lower tremor’ lifts the shoulders, or a lidded mug is forced on someone who prefers an open cup.",
+          "checklist": [
+            "Clearance checked",
+            "Support optional and tested",
+            "Drink method chosen with the diner"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "mapping-your-dining-area",
+          "title": "Map flow without a universal width",
+          "day_label": "Room and table assessment",
+          "hero": {
+            "query": "dining area with tight spaces and load-bearing wall, warm light, no people",
+            "flux_prompt": "photorealistic shot of a dining area with a load-bearing wall, warm light, no people",
+            "alt": "close-up of a dining setup highlighting tight spaces.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\017-pexels.jpg",
+            "credit": "Photo by Kathrine Birch on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:15945660"
+          },
+          "scenario": "Anita maps kitchen-to-table steps in a Bengaluru rental.",
+          "principle": "Count the actual turns and carries. Then shorten what this household can shorten.",
+          "body": [
+            "Sketch doors, chairs, staging spots, and mobility parking. A 36-inch path may be a useful planning range in some layouts; confirm the width this wheelchair, walker, or carrying style needs.",
+            "Staging close to the table can reduce carry distance. It should not block the diner’s exit or transfer."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Sketch the room.",
+              "minutes": null
+            },
+            {
+              "text": "Mark carries and turns.",
+              "minutes": null
+            },
+            {
+              "text": "Place staging only if the path stays usable.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a staging cart blocks the walker parking zone.",
+          "checklist": [
+            "Sketch done",
+            "Staging does not block exit",
+            "Width confirmed with real aid"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "assessing-table-surface-and-seating",
+          "title": "Confirm the table itself is stable",
+          "day_label": "Room and table assessment",
+          "hero": {
+            "query": "dining table with plates and cups, warm light, no people",
+            "flux_prompt": "photorealistic shot of a dining table with items arranged for stability, warm light, no people",
+            "alt": "close-up of a table surface with plates and cups.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\018-pexels.jpg",
+            "credit": "Photo by Davis Arenas on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:16131602"
+          },
+          "scenario": "A lightweight folding table in a small apartment rocks when a diner leans.",
+          "principle": "Before adding mats, rails, or serving equipment, confirm that the table and seating are stable.",
+          "body": [
+            "A nonslip placemat can reduce movement of a plate, but it cannot stabilize a table or chair. Check the table legs, joints, casters, floor contact, and chair stability separately. Do not add grip products to compensate for furniture that rocks, rolls, or shifts.",
+            "Check wobbly legs, uneven floors, folding joints, lightweight tops, rolling tables, and whether a tablecloth can be pulled. Lock casters on carts when available. Locking casters can reduce movement but do not automatically prevent tipping or load shift. Keep heavy items low, distribute weight evenly, and test the cart with the intended load."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Rock the table from each corner.",
+              "minutes": null
+            },
+            {
+              "text": "Lock or replace unstable furniture.",
+              "minutes": null
+            },
+            {
+              "text": "Check cloth and runner pull.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: silicone dots are added to a rocking table and the cup still walks.",
+          "checklist": [
+            "Table does not rock",
+            "Casters locked if present",
+            "Cloth pull checked"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "observing-cleanup-workflow",
+          "title": "Watch one cleanup before buying more cloths",
+          "day_label": "Cleanup and maintenance",
+          "hero": {
+            "query": "dining area during cleanup, warm light, no people",
+            "flux_prompt": "photorealistic shot of a dining area during cleanup, warm light, no people",
+            "alt": "close-up of a cleanup process in a dining area.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\019-pexels.jpg",
+            "credit": "Photo by Kader Azra Namuslu on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:34206672"
+          },
+          "scenario": "After dinner, the household discovers the ‘wipe kit’ is in another room.",
+          "principle": "A quick wipe may be enough for a small, contained spill. Some spills need a fuller clean.",
+          "body": [
+            "A quick wipe may be enough for a small, contained spill. Use the cleaning method appropriate for the liquid, surface, contamination level, and flooring. Water, milk, oil, sugary drinks, and hot liquids behave differently. Inspect the floor promptly because moisture, grease, and cleaning residue can still create a slip hazard.",
+            "Follow the cleaning instructions for each material. Do not assume a wipe disinfects."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Time one real cleanup.",
+              "minutes": null
+            },
+            {
+              "text": "Note what was missing from reach.",
+              "minutes": null
+            },
+            {
+              "text": "Separate food-contact cloths from floor cloths.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: the same cloth wipes the plate zone and then the floor.",
+          "checklist": [
+            "Cleanup location named",
+            "Cloth roles separated",
+            "Floor checked after liquid"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "real-world-application",
+      "title": "Dignity, consent, and caregiver support",
+      "intro": "The person using the setup should be involved in deciding what is changed whenever possible. A visually tidy arrangement is not necessarily comfortable, practical, or preferred.",
+      "opener": {
+        "query": "photorealistic dining table setup, one window light, textured linen tablecloth, ceramic dishware, warm lighting",
+        "flux_prompt": "full-bleed image of a well-set dining table with a cozy atmosphere, featuring a mix of textures and colors",
+        "alt": "A dining table with placemat, simple tableware, and warm lighting. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\020-pexels.jpg",
+        "credit": "Photo by https://kaboompics.com/ on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:6794583"
+      },
+      "sections": [
+        {
+          "slug": "collaborate-with-caregivers-or-family",
+          "title": "Ask before touching, moving equipment, or rearranging",
+          "day_label": "Core principles",
+          "hero": {
+            "query": "photorealistic family dining scene, one window light, warm wooden table, textured placemats, ceramic dishware",
+            "flux_prompt": "image of a family gathered around a dining table, showcasing roles in meal preparation",
+            "alt": "alternative view of the dining setup with focus on placemats and dishware",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\021-pexels.jpg",
+            "credit": "Photo by Gu Ko on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:32027903"
+          },
+          "scenario": "A family wants to help a parent who uses a wheelchair. Help that was not asked for can feel like takeover.",
+          "principle": "Support is chosen with the diner.",
+          "body": [
+            "Ask before moving personal items, changing reach positions, or introducing assistive products. Some people benefit from brief verbal cues; others prefer quiet support or help only when requested.",
+            "Prefer person-centered wording: person who experiences tremors; diner using a wheelchair; person who benefits from assistance. Avoid ‘the dependent diner’ or ‘the patient’ at a household meal.",
+            "Do not assume a caregiver must watch constantly unless that is part of an existing care plan."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Ask what help is welcome.",
+              "minutes": null
+            },
+            {
+              "text": "Write it down where caregivers can see it.",
+              "minutes": null
+            },
+            {
+              "text": "Review after a week or after a change.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a caregiver moves the plate ‘to a safer spot’ while the diner is mid-bite.",
+          "checklist": [
+            "Preference asked",
+            "No automatic takeover",
+            "Language checked"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "maintain-dignity-first-language",
+          "title": "Keep the diner in charge of the place setting",
+          "day_label": "Core principles",
+          "hero": {
+            "query": "photorealistic close-up of dining items, one window light, textured placemats, ceramic mugs, warm lighting",
+            "flux_prompt": "image of a close-up dining setup highlighting the textures of placemats and mugs",
+            "alt": "alternative view of the dining table focusing on the arrangement of dishware and placemats",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\022-pexels.jpg",
+            "credit": "Photo by Linn Htut on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:19438527"
+          },
+          "scenario": "Maria offers her daughter a choice of placemat texture. The choice is the point.",
+          "principle": "An adaptation that looks organized to someone else may still be wrong for the diner.",
+          "body": [
+            "Ask before touching the person, moving their equipment, or changing the arrangement. Caregivers should not automatically rearrange the place setting.",
+            "Two-word cues can help some households and annoy others. Agree on the cue list."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Offer a real choice where possible.",
+              "minutes": null
+            },
+            {
+              "text": "Leave the place setting unless asked or a safety issue appears.",
+              "minutes": null
+            },
+            {
+              "text": "Drop cues the diner dislikes.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: every movement is narrated, or the diner is discussed as a problem to manage.",
+          "checklist": [
+            "Choices offered",
+            "Place setting not hijacked",
+            "Cues agreed"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "common-pitfalls",
+      "title": "Worked examples: What to copy and what not to copy",
+      "intro": "These households are illustrations. Copy the testing habit, not the inches or products.",
+      "opener": {
+        "query": "a modern dining room with a matte textured charger, warm lighting, and off-white plates, showcasing a masculine aesthetic",
+        "flux_prompt": "full-bleed shot of a stylish dining room with dark tones and smooth lines, featuring a table set for a meal",
+        "alt": "A dining table with placemat, simple tableware, and warm lighting. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\002-pexels.jpg",
+        "credit": "Photo by Quang Nguyen Vinh on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:33326574"
+      },
+      "sections": [
+        {
+          "slug": "tom-s-adaptive-dining-experience",
+          "title": "Example: test the utensil and the path",
+          "day_label": "Templates and worksheets",
+          "hero": {
+            "query": "a close-up of a dining table setup with a matte charger and thick-handled spoon, warm lighting",
+            "flux_prompt": "a detailed shot of the dining table focusing on the charger and utensils, highlighting textures and colors",
+            "alt": "a side view of the dining table showing the armrest pad and bowl placement",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\024-pexels.jpg",
+            "credit": "Photo by Rene Terp on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:12919275"
+          },
+          "scenario": "Tom tries a different handle and a shorter carry. The useful part is the trial, not a product name.",
+          "principle": "An example is not a prescription.",
+          "body": [
+            "If a story in this book uses a specific seat height or mat, treat it as one household’s trial. Your diner’s fatigue, vision, and mobility aid may need a different choice.",
+            "Keep, modify, or remove after a real meal. Use the product-testing worksheet later in the book."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Note what was tested.",
+              "minutes": null
+            },
+            {
+              "text": "Note what the diner said.",
+              "minutes": null
+            },
+            {
+              "text": "Do not copy inches blindly.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a reader buys the same weighted fork because ‘it worked for Tom.’",
+          "checklist": [
+            "Example labeled as example",
+            "Local test planned",
+            "Diner feedback required"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "aisha-s-dining-adaptations",
+          "title": "Example: contrast and lighting are local",
+          "day_label": "Templates and worksheets",
+          "hero": {
+            "query": "a dining table set with a plain runner and off-white plates, warm ambient lighting",
+            "flux_prompt": "a view of the dining table from an angle that highlights the runner and plates, emphasizing textures and colors",
+            "alt": "a close-up of the table runner and plates, showcasing the high contrast and design",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\025-pexels.jpg",
+            "credit": "Photo by Matheus Bertelli on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:16935901"
+          },
+          "scenario": "Aisha changes a placemat color and a lamp angle. Both need a seated test in her room.",
+          "principle": "What is easier to see in one room can glare in another.",
+          "body": [
+            "If contrast or a lamp helped in an example, repeat the seated test. Do not assume stronger contrast is always more comfortable.",
+            "If spills continue, change one variable and consider clinical advice when swallowing, falls, or control change quickly."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Test lighting from the seat.",
+              "minutes": null
+            },
+            {
+              "text": "Test contrast with the usual food.",
+              "minutes": null
+            },
+            {
+              "text": "Stop if discomfort increases.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: more contrast is added until the table looks like a safety poster and the diner hates meals.",
+          "checklist": [
+            "Local light test",
+            "Diner likes the look enough to use it",
+            "Clinical boundary remembered"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "key-takeaways-action-items",
+      "title": "Review triggers: Do not wait for the calendar",
+      "intro": "Reassess after a meaningful change rather than waiting for a scheduled review. Stop using an adaptation if it creates new discomfort, instability, obstruction, or loss of control.",
+      "opener": {
+        "query": "Dining area with a modern table setting, soft natural light from one window, textured linen tablecloth, and stylish protective gear.",
+        "flux_prompt": "Full-bleed image of a chic dining space featuring a modern table, elegant tableware, and adaptive gear for spill-proof dining.",
+        "alt": "A dining table with placemat, simple tableware, and warm lighting. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\026-pexels.jpg",
+        "credit": "Photo by Samuel Peter on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:12294086"
+      },
+      "sections": [
+        {
+          "slug": "assessing-your-dining-area",
+          "title": "Reassess after change, not only after a week",
+          "day_label": "Cleanup and maintenance",
+          "hero": {
+            "query": "Stylish dining area with a focus on safety gear, natural light, and elegant table settings.",
+            "flux_prompt": "A well-organized dining table with adaptive gear, showcasing a blend of style and safety.",
+            "alt": "Elegant dining setup with protective gear and a clean, clutter-free environment.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\027-pexels.jpg",
+            "credit": "Photo by Valeria Boltneva on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:1484527"
+          },
+          "scenario": "A new walker arrives mid-month. The old runner no longer works.",
+          "principle": "A weekly glance is optional. A change in equipment is not optional to ignore.",
+          "body": [
+            "Review after: a change in tremor or coordination; new fatigue or weakness; a fall or near-fall; a new wheelchair or walker; a seating change; a new table or floor covering; a new cup, plate, or utensil; more spills; pain or discomfort; a change in swallowing guidance; a change in caregiver routine.",
+            "Do not wait for the calendar if a new safety concern appears. Use the validation checklist at the end of the book."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "List last week’s changes in body, equipment, or room.",
+              "minutes": null
+            },
+            {
+              "text": "Retest the route.",
+              "minutes": null
+            },
+            {
+              "text": "Ask the diner.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: the calendar says ‘weekly review Sunday’ and a Monday fall is not connected to the table setup.",
+          "checklist": [
+            "Triggers listed",
+            "Route retested after equipment change",
+            "Diner asked"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "implementing-safety-solutions",
+          "title": "Buy for the named problem",
+          "day_label": "Shopping checklist",
+          "hero": {
+            "query": "Close-up of a stylish placemat and weighted mug, emphasizing safety and design.",
+            "flux_prompt": "A beautifully styled dining table featuring high-friction placemats and a weighted mug, highlighting the blend of safety and elegance.",
+            "alt": "Elegant dining setup showcasing adaptive gear in a chic environment.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\028-pexels.jpg",
+            "credit": "Photo by ERIC MUFASA on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:1342641"
+          },
+          "scenario": "The household wants a complete kit. Most of it would sit unused.",
+          "principle": "Buy only after identifying the specific problem.",
+          "body": [
+            "Do not buy every item in the shopping list. Start with the specific problem, test an existing or low-cost solution where appropriate, and purchase additional products only when the test identifies a clear benefit.",
+            "Core needs: appropriate tableware, required grip or stability products, necessary cleaning materials, and required accessibility modifications. Optional: decorative placemats, coordinated colors, extra trays, additional storage, styling accessories. Custom accessibility or installation costs are extra unless you add them. Prices are illustrative USD estimates."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Name the problem in one line.",
+              "minutes": null
+            },
+            {
+              "text": "Test a cheap or existing option first.",
+              "minutes": null
+            },
+            {
+              "text": "Add products only if the test supports them.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: edge guards, weighted utensils, and a spouted cup are bought together ‘just in case.’",
+          "checklist": [
+            "Problem named",
+            "Core needs before styling",
+            "Prices treated as estimates"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "measuring-progress-and-adjusting-routines",
+          "title": "Track what the diner cares about",
+          "day_label": "Cleanup and maintenance",
+          "hero": {
+            "query": "A clean dining table with a logbook for tracking spills and cleanup times, illuminated by soft light.",
+            "flux_prompt": "A well-maintained dining area with a tracking log, emphasizing the importance of measuring progress.",
+            "alt": "Dining space with a focus on cleanliness and tracking progress.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\029-pexels.jpg",
+            "credit": "Photo by Serena Koi on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5673439"
+          },
+          "scenario": "A spill log helps one household and feels like surveillance to another.",
+          "principle": "Count only with consent, and never as proof the room is now safe.",
+          "body": [
+            "If you log spills, log also fatigue, enjoyment, and whether the diner wants the setup kept. A lower spill count can still hide strain.",
+            "Adjust one element at a time. Follow any clinical swallowing or nutrition instructions separately."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Agree whether logging is welcome.",
+              "minutes": null
+            },
+            {
+              "text": "Review enjoyment as well as mess.",
+              "minutes": null
+            },
+            {
+              "text": "Change one variable.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: confidence is rated 5/5 because the floor looks dry while the diner is exhausted.",
+          "checklist": [
+            "Consent to tracking",
+            "Fatigue and enjoyment included",
+            "One change at a time"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "chapter-conclusion",
+      "title": "Household roles and a weekly check — if they help",
+      "intro": "Roles and cues are optional. See the dignity chapter. Do not script every bite.",
+      "opener": {
+        "query": "A well-set dining table with a focus on safety and aesthetics, natural light from one side, warm wood textures, no people, no text, no watermark.",
+        "flux_prompt": "Full-bleed shot of a beautifully arranged dining table in a small Indian apartment, showcasing elegant tableware and a calming atmosphere.",
+        "alt": "A dining table with placemat, simple tableware, and warm lighting. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\030-pexels.jpg",
+        "credit": "Photo by YI REN on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:39379963"
+      },
+      "sections": [
+        {
+          "slug": "establishing-roles-and-communication",
+          "title": "Agree on cues; do not script every bite",
+          "day_label": "Core principles",
+          "hero": {
+            "query": "A cozy dining area with a focus on communication tools like cue cards, natural light from one side, warm wood textures, no people, no text, no watermark.",
+            "flux_prompt": "A close-up of a dining table with cue cards and a meal setup, emphasizing communication tools and a welcoming atmosphere.",
+            "alt": "A beautifully arranged dining table with cue cards, showcasing a blend of functionality and aesthetics.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\022-pexels.jpg",
+            "credit": "Photo by Linn Htut on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:19438527"
+          },
+          "scenario": "Priya’s household tries short cues. One parent finds them calming; the diner finds them noisy.",
+          "principle": "Cueing should be individualized.",
+          "body": [
+            "Agree on the type and amount of assistance the diner prefers. Some people benefit from brief verbal cues, while others prefer visual prompts, quiet support, or help only when requested.",
+            "If you define roles, review them when the household changes. Do not treat a cue card as a clinical protocol."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Ask which cues, if any, are useful.",
+              "minutes": null
+            },
+            {
+              "text": "Drop the rest.",
+              "minutes": null
+            },
+            {
+              "text": "Review after a change in energy or guests.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: ‘slow down’ is called across the table every thirty seconds.",
+          "checklist": [
+            "Cues optional and agreed",
+            "Roles not confused with therapy",
+            "Privacy respected"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "weekly-progress-review",
+          "title": "Weekly is a habit, not a requirement",
+          "day_label": "Cleanup and maintenance",
+          "hero": {
+            "query": "A dining area with a checklist and notes for weekly reviews, natural light from one side, warm wood textures, no people, no text, no watermark.",
+            "flux_prompt": "A well-organized dining table with a checklist and notes, highlighting the review process and a sense of order.",
+            "alt": "A dining space with a visible checklist, showcasing a commitment to improvement and aesthetics.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\032-pexels.jpg",
+            "credit": "Photo by Vinny Anugraha on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:33234706"
+          },
+          "scenario": "Ravi’s family picks one element to adjust. They also reassess the same day a new cushion arrives.",
+          "principle": "Do not wait for the scheduled review if a new safety concern appears.",
+          "body": [
+            "A short weekly conversation can help: what felt easier, what snagged, what the diner wants changed. Adjust one element. Keep aesthetics only if the diner still wants to use the table.",
+            "Reassessment triggers from the previous chapter still apply."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Ask the diner first.",
+              "minutes": null
+            },
+            {
+              "text": "Change one thing.",
+              "minutes": null
+            },
+            {
+              "text": "Retest a real meal.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: three furniture moves happen at once and the transfer plan is lost.",
+          "checklist": [
+            "Diner asked first",
+            "One change",
+            "Immediate review after incidents"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "room-and-table-layout-blueprints-flow-lighting-and-stability",
+      "title": "Room and table layout: Flow, lighting, and furniture stability",
+      "intro": "Most spills start before the first bite: a tight path, glare, or a poor furniture match. The measurements in these examples are illustrative starting points for layout and portion planning. Adjust them for the actual table, dishware, mobility equipment, person’s reach, food type, and spill pattern. Do not interpret them as tested safety limits. These diagrams are examples of how to think about reach and placement. They are not a recommended reach limit for every person. Measure reach from the seated diner, not from the table edge.",
+      "opener": {
+        "query": "small indian apartment interior minimalist daylight editorial",
+        "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK apartment interior, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+        "alt": "A calm apartment interior",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\033-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:6890400"
+      },
+      "sections": [
+        {
+          "slug": "room-and-table-layout-blueprints-flow-lighting-and-stability",
+          "title": "Layout blueprints as starting points",
+          "day_label": "Room and table assessment",
+          "hero": {
+            "query": "small indian apartment interior minimalist daylight editorial",
+            "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK apartment interior, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+            "alt": "A calm apartment interior",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\033-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6890400"
+          },
+          "scenario": "Leo uses a wheelchair and needed a table that cleared his knees without twisting. The inches in his story describe that trial only.",
+          "principle": "Plan space for this equipment. A printed clearance is not a guarantee.",
+          "body": [
+            "Adjust the example dimensions to the actual user and setup. Measure reach from the seated diner.",
+            "A clear width of 36–42 inches may be a useful planning range in some layouts, but confirm the actual width required by the person’s wheelchair, turning approach, and transfer method. A 60-inch circle can be used as an initial planning reference, not a guarantee.",
+            "The example wheelchair table describes that user’s fit only. A central pedestal can help approach and can interfere with footrests, wheels, or turning.",
+            "Measure reach from the seated person. Shared items should not require a lean or twist. A shorter reach should not crowd elbows or utensils. Check dominant and non-dominant sides.",
+            "Forearm support may improve comfort for some people. It does not reliably reduce tremor.",
+            "Warm-white 2700–3000 K may suit atmosphere. Test brightness, glare, shadows, and vision needs at the usual meal time.",
+            "Test floor coverings dry and damp. Rubber backing is not automatically compatible with every finish.",
+            "Do not reposition mobility equipment mid-transfer unless it is secured as instructed. This book does not provide manual lifting instructions."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Path width is a planning range",
+              "caption": "Illustrative starting points. Measure the actual aid and test the route.",
+              "values": [
+                "trial range",
+                "confirm locally",
+                "test the aid"
+              ],
+              "labels": [
+                "Many layouts try ~36 in",
+                "Some wheelchairs need more",
+                "Your measured width"
+              ],
+              "minimum": null,
+              "spec_id": "D001",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D001.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Chair-behind clearance is not one number",
+              "caption": "Measure chair depth and the real pass-through. Do not rely on one fixed clearance.",
+              "values": [
+                "starting idea",
+                "measure chairs",
+                "keep a pass lane"
+              ],
+              "labels": [
+                "~36 in is a trial",
+                "Actual chair depth",
+                "Sit, stand, pass"
+              ],
+              "minimum": null,
+              "spec_id": "D002",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D002.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Wheelchair clear-width trial",
+              "caption": "36–42 inches may be useful in some layouts. Confirm turning and transfer.",
+              "values": [
+                "planning range",
+                "not a guarantee",
+                "live test"
+              ],
+              "labels": [
+                "36–42 in trial",
+                "This wheelchair’s width",
+                "Turn and transfer"
+              ],
+              "minimum": null,
+              "spec_id": "D003",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D003.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Straight last approach — example",
+              "caption": "A straighter last segment can reduce twisting while carrying. Length is individual.",
+              "values": [
+                "example",
+                "test with a tray"
+              ],
+              "labels": [
+                "24–36 in last segment (example)",
+                "This person’s carry"
+              ],
+              "minimum": null,
+              "spec_id": "D004",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D004.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Turning space is equipment-specific",
+              "caption": "A 60-inch circle is an initial planning reference, not a guarantee of usable turning space.",
+              "values": [
+                "planning reference",
+                "measure the aid",
+                "watch the base"
+              ],
+              "labels": [
+                "60 in circle (trial)",
+                "This wheelchair’s turn",
+                "Pedestal vs T-base"
+              ],
+              "minimum": null,
+              "spec_id": "D005",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D005.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Table height is a starting range",
+              "caption": "28–30 inches is common for many adults. Check this body, chair, and wheelchair.",
+              "values": [
+                "starting range",
+                "example only",
+                "live fit"
+              ],
+              "labels": [
+                "28–30 in table (trial)",
+                "Shorter/taller diner (example)",
+                "Elbows and knees"
+              ],
+              "minimum": null,
+              "spec_id": "D006",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D006.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Wheelchair example — not a specification",
+              "caption": "Example: 29 in table, 27 in knee height, 30 in width, 24 in depth after checking that chair.",
+              "values": [
+                "example",
+                "example",
+                "check interference"
+              ],
+              "labels": [
+                "This user’s knee clearance",
+                "This user’s armrests",
+                "Pedestal base trade-off"
+              ],
+              "minimum": null,
+              "spec_id": "D007",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D007.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Reach and lighting are tests",
+              "caption": "12–16 in reach and 2700–3000 K light are trials. Test posture, glare, and vision needs.",
+              "values": [
+                "starting point",
+                "atmosphere only",
+                "seated test"
+              ],
+              "labels": [
+                "12–16 in reach (trial)",
+                "2700–3000 K (optional mood)",
+                "Glare from the seat"
+              ],
+              "minimum": null,
+              "spec_id": "D008",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D008.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Measure this wheelchair or walker and walk the real route.",
+              "minutes": null
+            },
+            {
+              "text": "Sit the diner and test reach, glare, and table-edge pressure.",
+              "minutes": null
+            },
+            {
+              "text": "Treat 36-inch, 60-inch, and 12–16-inch figures as trials only.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a 60-inch circle is taped on the floor while the wheelchair still cannot turn because of a pedestal base; or a runner catches a footrest.",
+          "checklist": [
+            "Equipment measured",
+            "Example wheelchair inches not copied as a standard",
+            "Transfers left on the existing plan"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "protective-layering-for-tables-seating-and-floors-clean-and-",
+      "title": "Protective layers: Tables, seats, and floors",
+      "intro": "Layers may contain some liquid and make cleanup easier. They do not keep a floor dry by themselves.",
+      "opener": {
+        "query": "Dining table with layered protective materials, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+        "flux_prompt": "Full-bleed image of a dining setup showcasing layered protective materials on a table, with a focus on textures and colors that blend with the decor.",
+        "alt": "A dining table with placemat, simple tableware, and warm lighting. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\035-pexels.jpg",
+        "credit": "Photo by Engin Akyurt on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:9996341"
+      },
+      "sections": [
+        {
+          "slug": "understanding-protective-layering",
+          "title": "Layers contain some liquid; they do not guarantee a dry floor",
+          "day_label": "Surface and tableware setup",
+          "hero": {
+            "query": "Close-up of a layered dining table setup with protective materials, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "Image showing a close-up of the layered protective materials on a dining table, highlighting the textures and overlaps.",
+            "alt": "Detailed view of a dining table with protective layering.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\036-pexels.jpg",
+            "credit": "Photo by Ivan S on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7118753"
+          },
+          "scenario": "Riya hosts in a Pune 1BHK. She wants less floor mess without trapping moisture on the table.",
+          "principle": "Absorbent layers may capture small amounts of liquid, but their capacity is limited.",
+          "body": [
+            "Helping contain small spills makes cleaning easier. Inspect the floor promptly; moisture and grease can still create a slip hazard. Edge guards may contain some drips within their capacity and direction; they do not make the entire table safe.",
+            "Do not leave damp mats in place. Check beneath for trapped moisture, discoloration, or floor damage."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Name which layer is absorbent, which is a barrier, which is grip.",
+              "minutes": null
+            },
+            {
+              "text": "Plan drying after wet meals.",
+              "minutes": null
+            },
+            {
+              "text": "Skip edge guards if they snag.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: the protective layer traps moisture beneath it, or a guard is treated as accident-proof.",
+          "checklist": [
+            "Layer jobs named",
+            "Moisture plan exists",
+            "Edge product optional and fitted"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "choosing-the-right-materials",
+          "title": "Match material to job, heat, and food contact",
+          "day_label": "Surface and tableware setup",
+          "hero": {
+            "query": "Dining area with stylish protective materials, one window light, plaster textures, magazine styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "Image of a modern dining area featuring stylish protective layering materials, emphasizing the cohesive look.",
+            "alt": "Stylish dining area with protective layering.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\030-pexels.jpg",
+            "credit": "Photo by YI REN on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:39379963"
+          },
+          "scenario": "Arjun likes the look of silicone and acrylic. Ratings still have to match hot dishes and cleaning.",
+          "principle": "A table protector, a nonslip liner, and a food-contact mat are not interchangeable.",
+          "body": [
+            "A material suitable for protecting a table or floor is not automatically suitable for direct food contact. Check the product’s intended use, temperature limits, cleaning instructions, and food-contact rating before placing food directly on it.",
+            "Do not treat a food-contact mat, table protector, floor mat, tray liner, and nonslip shelf liner as interchangeable.",
+            "Some silicone table mats are designed for grip and heat; ratings vary. Check temperature limits before hot cookware or food. Absorbent fabric, coated fabric, silicone, PUL, rubber-backed runners, and acrylic covers each have different jobs and failure modes."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Read intended use and temperature limits.",
+              "minutes": null
+            },
+            {
+              "text": "Separate floor products from plate-zone products.",
+              "minutes": null
+            },
+            {
+              "text": "Test residue on an inconspicuous area.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a floor runner is used as a placemat, or a hot pan is set on an unrated liner.",
+          "checklist": [
+            "Food-contact vs floor vs table sorted",
+            "Temperature rating checked",
+            "Residue tested"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "implementing-placement-templates",
+          "title": "Placement templates are illustrations",
+          "day_label": "Templates and worksheets",
+          "hero": {
+            "query": "Dining table with protective layering in place, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "Image of a dining table with correctly implemented protective layering, showcasing the placement templates in action.",
+            "alt": "Dining table with protective layers in place.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\038-pexels.jpg",
+            "credit": "Photo by Emre Gencer on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:20213104"
+          },
+          "scenario": "Meera used one-inch and two-inch overlaps from a diagram. Her sleeve caught the extra edge.",
+          "principle": "Adjust the example dimensions to the actual user and setup.",
+          "body": [
+            "Adjust the example dimensions to the actual user and setup. Leave a practical food-to-rim margin; it is not a mandatory one-inch rule.",
+            "Extend a protective layer only as far as the likely spill area without snagging elbows, clothing, or mobility aids. Use a floor protector only if it lies flat, stays stable when wet, and does not interfere with chairs or aids. Dry or remove saturated material. Inspect the underside and the floor."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Place layers, then sit and reach for cup and utensil.",
+              "minutes": null
+            },
+            {
+              "text": "Trim or swap anything that snags.",
+              "minutes": null
+            },
+            {
+              "text": "Dry or remove wet layers after the meal.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: the mat is under the plate, but its edge catches the diner’s sleeve when they reach for the cup.",
+          "checklist": [
+            "Overlaps treated as trials",
+            "Sleeve and wheel clearance checked",
+            "Wet layers not left in place"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "creating-modular-kits",
+          "title": "Kits need a purpose and a ‘when not to use’ line",
+          "day_label": "Surface and tableware setup",
+          "hero": {
+            "query": "Modular dining kits displayed on a table, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "Image showcasing modular dining kits for different scenarios, emphasizing organization and style.",
+            "alt": "Modular dining kits for various dining occasions.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\039-pexels.jpg",
+            "credit": "Photo by Tokuo Nobuhiro on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:20494415"
+          },
+          "scenario": "Riya packs an everyday kit and a soup-night kit. Neither replaces a stable table or clinical advice.",
+          "principle": "Every kit should say who it is for, what situation, and when to put it away.",
+          "body": [
+            "Everyday tabletop kit: intended for small, routine spills during seated meals. It is not intended to replace supervision, clinical adaptations, or a stable table and chair. Check the mat and placemat after cleaning and remove them if they shift, curl, or deteriorate.",
+            "For each kit record: intended user, dining situation, components, setup time, cleaning, storage, weight, mobility compatibility, when not to use it, and replacement schedule. Guest and soup kits add layers; they also add edges, heat, and moisture. Test them."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Write a when-not-to-use line on each kit.",
+              "minutes": null
+            },
+            {
+              "text": "Weigh the tray if a diner will carry it.",
+              "minutes": null
+            },
+            {
+              "text": "Inspect after washing.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a soup kit’s raised guards snag a sleeve, or a wet runner stays down overnight.",
+          "checklist": [
+            "Kit purpose written",
+            "Weight and cleaning known",
+            "Deteriorated parts removed"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "adaptive-dishware-and-utensils-non-slip-weighted-and-guarded",
+      "title": "Adaptive dishware and utensils: Options to test",
+      "intro": "Use the STABLE letters from the dining-system chapter. This chapter tests dishes and utensils; it does not redefine the letters. See the opening clinical boundary.",
+      "opener": {
+        "query": "Adaptive dishware and utensils on a dining table, warm lighting, textured tablecloth, no people, no text, no watermark.",
+        "flux_prompt": "A beautifully arranged dining table featuring adaptive dishware and utensils, showcasing a mix of textures like linen and wood, with a focus on stability and elegance.",
+        "alt": "A dining table with placemat, simple tableware, and warm lighting. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\040-pexels.jpg",
+        "credit": "Photo by AS Photography on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:291767"
+      },
+      "sections": [
+        {
+          "slug": "understanding-the-stable-framework",
+          "title": "Use STABLE as a filter, not a second definition",
+          "day_label": "Surface and tableware setup",
+          "hero": {
+            "query": "A close-up of adaptive dishware featuring raised lip plates and non-slip bases, warm lighting, no people, no text, no watermark.",
+            "flux_prompt": "An elegant close-up of adaptive dishware showcasing raised lip plates and non-slip bases, emphasizing stability and design.",
+            "alt": "A detailed view of adaptive utensils with built-up handles and weighted features.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\041-pexels.jpg",
+            "credit": "Photo by ready made on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:3847409"
+          },
+          "scenario": "Riya uses STABLE as a shopping filter so she does not buy every adaptive gadget.",
+          "principle": "A secure base does not fix a heavy utensil. Easy-clean does not fix reach.",
+          "body": [
+            "Score Secure base, Tilt and channel, Assisted grip, Balanced weight, Limited portion, and Easy clean. Skip letters that do not apply. Do not treat a plate guard as a swallowing intervention or ‘limited portion’ as a diet.",
+            "Ask the diner before changing the setup."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Score each letter.",
+              "minutes": null
+            },
+            {
+              "text": "Skip letters that do not apply.",
+              "minutes": null
+            },
+            {
+              "text": "Retest after fatigue sets in.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a plate guard is called essential and the diner never liked it.",
+          "checklist": [
+            "Letters understood",
+            "No letter treated as therapy",
+            "Diner preference included"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "choosing-the-right-plates-and-bowls",
+          "title": "Plates and bowls are tools for scooping, not safety seals",
+          "day_label": "Surface and tableware setup",
+          "hero": {
+            "query": "A variety of adaptive plates and bowls with raised lips and divided sections, warm lighting, no people, no text, no watermark.",
+            "flux_prompt": "An array of adaptive plates and bowls showcasing raised lips and divided sections, styled elegantly on a dining table.",
+            "alt": "A close-up of a divided plate with various food sections, emphasizing functionality and design.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\042-pexels.jpg",
+            "credit": "Photo by ready made on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:3847451"
+          },
+          "scenario": "Sanjay tries a lipped plate. It helps rice stay put and makes cutting steak awkward.",
+          "principle": "Match the dish to the food and the diner’s movement, then retest.",
+          "body": [
+            "Raised lips and clip-on guards may help some people scoop. They can also interfere with cutting, look unwanted, or detach. Divided plates can reduce mixing; they can also shrink working space. Lightweight materials reduce lift for some people and feel cheap or tippy to others.",
+            "Follow existing swallowing guidance. Scoopability is not swallowing safety."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Trial the usual foods on the candidate plate.",
+              "minutes": null
+            },
+            {
+              "text": "Check cutting as well as scooping.",
+              "minutes": null
+            },
+            {
+              "text": "Ask whether the diner wants it at the table with guests.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a guard clips on but becomes a pulling point, or stoneware is blamed as if weight were always bad.",
+          "checklist": [
+            "Foods tested",
+            "Detachment checked",
+            "Diner still wants the dish"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "selecting-cups-and-utensils",
+          "title": "Lids, straws, and weight are not universally safer",
+          "day_label": "Surface and tableware setup",
+          "hero": {
+            "query": "An assortment of adaptive cups and utensils with two handles and weighted features, warm lighting, no people, no text, no watermark.",
+            "flux_prompt": "A beautifully arranged display of adaptive cups and utensils, highlighting their functionality and design.",
+            "alt": "A close-up of a two-handled mug with a lid, emphasizing ease of use.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\043-pexels.jpg",
+            "credit": "Photo by Jean-Paul  Wright on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:15168177"
+          },
+          "scenario": "Priya was offered a one-way-valve straw. It did not match her swallowing advice.",
+          "principle": "A straw is not automatically safer than a cup.",
+          "body": [
+            "Choose a drink container the diner can use comfortably. Lids, handles, spouts, and straws may help some people. Suitability depends on swallowing ability, posture, suction, fatigue, and preference. Follow existing swallowing guidance. A straw is not automatically safer than a cup.",
+            "Weight tested with food on the utensil. Fatigue checked. Handle comfort checked. Diner preference recorded.",
+            "Spill reduction does not eliminate burn risk. Test whether the diner can control hot drinks and dishes safely before serving them. Consider temperature, insulation, handle comfort, lid behavior, carrying distance, and the ability to place the item down without sudden movement. Do not rely on a lid or nonslip base as proof that a hot drink cannot spill."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "If swallowing is an issue, follow clinician guidance before changing lids or straws.",
+              "minutes": null
+            },
+            {
+              "text": "Trial utensil weight with food.",
+              "minutes": null
+            },
+            {
+              "text": "Keep the diner’s preferred vessel if it is working.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a lidded mug is treated as safer swallowing equipment because it spills less on the table.",
+          "checklist": [
+            "Swallowing kept separate from slosh",
+            "Utensil fatigue checked",
+            "No universal straw rule"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "practical-placement-and-portion-control",
+          "title": "Fill level and portions are comfort choices",
+          "day_label": "Serving and meal preparation",
+          "hero": {
+            "query": "A dining setup showcasing proper placement of plates, cups, and utensils, warm lighting, no people, no text, no watermark.",
+            "flux_prompt": "An elegant dining setup that highlights proper placement and portion control, emphasizing a calm dining atmosphere.",
+            "alt": "A close-up of a plate with a guard and a cup positioned for easy access.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\044-pexels.jpg",
+            "credit": "Photo by Jonathan Borba on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:28572187"
+          },
+          "scenario": "Neha was told to fill cups two-thirds and leave one inch below the rim. Her mug is short; that rule emptied it too far.",
+          "principle": "Choose portions that match appetite, nutrition, pace, and control.",
+          "body": [
+            "Fill to a level the diner can control. A lower fill may reduce slosh depending on the container, liquid, grip, posture, and drinking method.",
+            "Choose portions for appetite, nutrition, pace, and control. Smaller portions may reduce crowding; they should not restrict intake without an appropriate reason. This book is not a weight-loss guide."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Ask about appetite and pace.",
+              "minutes": null
+            },
+            {
+              "text": "Trial fill levels on the actual cup.",
+              "minutes": null
+            },
+            {
+              "text": "Refill rather than restrict without a reason.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: half portions are treated as a safety rule and the diner leaves hungry.",
+          "checklist": [
+            "Fill level individualized",
+            "Portions not used as restriction",
+            "Placement still inside comfortable reach"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "budget-friendly-hacks-and-premium-touches",
+          "title": "Hacks still need a grip and choking check",
+          "day_label": "Surface and tableware setup",
+          "hero": {
+            "query": "A close-up of budget-friendly hacks for adaptive dishware, warm lighting, no people, no text, no watermark.",
+            "flux_prompt": "An elegant display of budget-friendly hacks for adaptive dishware, showcasing creativity and functionality.",
+            "alt": "A detailed view of shelf liner under a plate and elastic bands on cups.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\045-pexels.jpg",
+            "credit": "Photo by Tara Winstead on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7123557"
+          },
+          "scenario": "Aditi cuts shelf liner and uses a hair tie on a cup. Small parts can lift and be swallowed.",
+          "principle": "Do not use small detachable grip pieces where they could become a choking hazard.",
+          "body": [
+            "Homemade adaptations are experimental and should not be treated as tested assistive equipment. Avoid loose elastic, detachable bands, small pieces, or materials that can be pulled into the mouth, become entangled, or interfere with grip. Stop using the adaptation if it shifts, cracks, loosens, or creates a new hazard.",
+            "Cut shelf liner, hair ties, and elastic rings are temporary experiments at most. Prefer commercially designed or easily inspectable products. Do not apply heat unless the product instructions permit it. Inspect small parts for lifting — they can be a choking hazard if children share the home."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Avoid loose dots near children.",
+              "minutes": null
+            },
+            {
+              "text": "Test adhesive without improvised heat.",
+              "minutes": null
+            },
+            {
+              "text": "Inspect after washing.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: silicone dots are heated with a hair dryer because a blog said they lift that way, and the finish damages.",
+          "checklist": [
+            "No improvised heat",
+            "Small parts inspected",
+            "Dignity still intact"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "non-slip-surfaces-and-stabilization-mats-rails-and-edge-cont",
+      "title": "Nonslip surfaces: Mats, rails, and edges to test",
+      "intro": "A ‘nonslip’ label is marketing until you test this floor, this load, and this mobility aid.",
+      "opener": {
+        "query": "stabilized dining table with non-slip mats, micro grip dots, and edge rails, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+        "flux_prompt": "full-bleed shot of a dining table set with non-slip mats and edge control features, showcasing a clean and organized dining environment",
+        "alt": "A dining table with placemat, simple tableware, and warm lighting. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\015-pexels.jpg",
+        "credit": "Photo by Waqar Hassan on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:38290266"
+      },
+      "sections": [
+        {
+          "slug": "understanding-the-problem",
+          "title": "Sliding is one kind of stability problem",
+          "day_label": "Surface and tableware setup",
+          "hero": {
+            "query": "dining table with a focus on non-slip mats and edge control, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "angle shot of a dining table showing the placement of non-slip mats and edge rails, emphasizing stability and cleanliness",
+            "alt": "close-up of nonslip mats and micro grip dots on a dining table",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\015-pexels.jpg",
+            "credit": "Photo by Waqar Hassan on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:38290266"
+          },
+          "scenario": "Riya’s plates creep on a Pune table when condensation forms under a cold glass.",
+          "principle": "In this book, stability is specific: sliding, tipping, furniture shift, posture, or a mobility aid moving.",
+          "body": [
+            "Sliding and tipping are different failures. Heat, oil, and crumbs change grip.",
+            "The label ‘nonslip’ does not guarantee performance on every floor, moisture level, load, or mobility aid. Test dry and damp. Remove the product if it shifts, curls, catches wheels, or interferes with transfers.",
+            "For every grip product, check intended surface, wet/dry performance, food-contact if needed, temperature, cleaning, residue, swallowable pieces, mobility interference, raised edges, and load."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Nudge-test the usual dishes dry and with a water film.",
+              "minutes": null
+            },
+            {
+              "text": "Note oil or crumb conditions.",
+              "minutes": null
+            },
+            {
+              "text": "Name which stability problem you are solving.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a mat shifts on a wet surface, or a rail makes the edge impossible to wipe.",
+          "checklist": [
+            "Problem typed (slide vs tip)",
+            "Wet test done",
+            "Cleanability considered"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "the-stability-stack-framework",
+          "title": "Stack grip only after the table is stable",
+          "day_label": "Surface and tableware setup",
+          "hero": {
+            "query": "stability stack setup on a dining table, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "full view of a dining table with a clear demonstration of the stability stack, including mats, micro grip, and edge control features",
+            "alt": "close-up of a silicone mat and micro grip dots in use",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\048-pexels.jpg",
+            "credit": "Photo by Joshua Miranda on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4399358"
+          },
+          "scenario": "A rail is added to a lightweight table. The table still walks when someone leans.",
+          "principle": "A grip product cannot compensate for a table that rocks, shifts, or rolls.",
+          "body": [
+            "A nonslip placemat can reduce plate movement; it cannot stabilize a table or chair. Confirm joints, floor contact, and caster locks first.",
+            "Rails and edge guides may reduce some slides and can snag sleeves or detach. An edge protector reduces one hazard; it does not make the entire table safe."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Rock the table.",
+              "minutes": null
+            },
+            {
+              "text": "Add one grip layer.",
+              "minutes": null
+            },
+            {
+              "text": "Sit and reach past it.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a rail becomes a pulling point, or locked casters are trusted to stop a loaded cart from tipping.",
+          "checklist": [
+            "Table stable first",
+            "Rails optional",
+            "Snag test done"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "materials-and-placement-strategies",
+          "title": "Adhesive and micro-grip are product-specific",
+          "day_label": "Surface and tableware setup",
+          "hero": {
+            "query": "materials used for non-slip surfaces on a dining table, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "detailed shot of silicone mats and micro grip dots on a dining table, showcasing their functionality and design",
+            "alt": "close-up of edge control features on a dining table",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\035-pexels.jpg",
+            "credit": "Photo by Engin Akyurt on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:9996341"
+          },
+          "scenario": "Clear dots promised strong adhesion and gentle-heat removal. The finish disagreed.",
+          "principle": "Do not apply heat unless the product instructions specifically permit it.",
+          "body": [
+            "Some grip products use adhesive or friction-based attachment. Removability depends on the product, surface, temperature, installation duration, moisture, and removal method. Follow the manufacturer’s instructions and test an inconspicuous area.",
+            "Do not use small detachable grip pieces where they could become a choking hazard or be swallowed. Inspect them regularly for lifting, cracking, or detachment.",
+            "For every grip product, check: intended surface; wet and dry performance; food-contact suitability if applicable; temperature range; cleaning method; residue; whether a detached piece could be swallowed; interference with wheelchair or walker movement; raised edges; stability under the actual load."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Test a hidden patch.",
+              "minutes": null
+            },
+            {
+              "text": "Skip improvised heat.",
+              "minutes": null
+            },
+            {
+              "text": "Inspect dots after each wash.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a rubber backing leaves residue on the floor, or a lifted dot is ignored.",
+          "checklist": [
+            "Hidden-area test",
+            "No improvised heat",
+            "Small parts inspected"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "implementing-the-stability-system",
+          "title": "Install, then run the product worksheet",
+          "day_label": "Templates and worksheets",
+          "hero": {
+            "query": "implementation of a stability system on a dining table, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "step-by-step view of the implementation process on a dining table, showcasing mats, micro grip, and edge guides",
+            "alt": "close-up of the mapping process on a dining table",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\050-pexels.jpg",
+            "credit": "Photo by Curtis Adams on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:3773583"
+          },
+          "scenario": "The household installs a full grip kit in one evening and cannot tell what helped.",
+          "principle": "Test one product’s intended use, surface, user, and wet/dry condition.",
+          "body": [
+            "Product being tested; intended use; surface; user; load; wet/dry; heat exposure; cleaning method; does it slide; curl or lift; interfere with reach; create a trip or snag; leave residue; is it comfortable; keep, modify, or remove?",
+            "Check tablecloths and runners for pull and wheel catch after grip layers are added."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Fill the worksheet for each new product.",
+              "minutes": null
+            },
+            {
+              "text": "Keep, modify, or remove.",
+              "minutes": null
+            },
+            {
+              "text": "Do not stack failures.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: three liners are stacked and the top one still slides.",
+          "checklist": [
+            "Worksheet used",
+            "Keep/modify/remove decided",
+            "Pull hazards rechecked"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "maintaining-the-stability-system",
+          "title": "Clean and dry according to each product",
+          "day_label": "Cleanup and maintenance",
+          "hero": {
+            "query": "maintenance routine for a dining table setup, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "image showing the maintenance process on a dining table, emphasizing cleanliness and organization",
+            "alt": "close-up of cleaning materials used for maintaining the dining setup",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\051-pexels.jpg",
+            "credit": "Photo by 🇻🇳🇻🇳 Việt Anh Nguyễn 🇻🇳🇻🇳 on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:34386528"
+          },
+          "scenario": "A silicone mat stays sticky after oil; a blog soak does not match the label.",
+          "principle": "Follow the product’s cleaning instructions. A wipe is not automatically disinfection.",
+          "body": [
+            "Follow the cleaning instructions for each material. Use food-safe cleaning products where required, allow surfaces to dry, and avoid using the same cloth for food-contact surfaces and floor cleanup without proper washing.",
+            "If the material permits soaking, use the recommended water temperature and a compatible detergent. Avoid abrasive tools or chemicals that may damage the surface, and inspect for cracks, tackiness, odor retention, or deterioration.",
+            "Do not leave damp mats in place. Check beneath for moisture and floor damage."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Wash as labeled.",
+              "minutes": null
+            },
+            {
+              "text": "Dry fully before reuse.",
+              "minutes": null
+            },
+            {
+              "text": "Replace cracked or tacky pieces.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: vinegar is used on a coating that forbids acid, or a damp pad stays under a plate overnight.",
+          "checklist": [
+            "Label followed",
+            "Food-contact cloths separated",
+            "Moisture underneath checked"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "seating-posture-and-reach-optimization-measurement-based-tem",
+      "title": "Seating, posture, and reach: Measure this body",
+      "intro": "Seat height and reach marks are starting points. Measure from the seated diner. Adjust the example dimensions to the actual user and setup.",
+      "opener": {
+        "query": "stock photo of a well-lit dining area in an Indian apartment, featuring a simple wooden dining table with a contrasting dark plate and light food, no people, photorealistic",
+        "flux_prompt": "full-bleed image of a cozy dining setup in an Indian apartment, showcasing textures of wood and linen, with a single window light",
+        "alt": "A dining table with placemat, simple tableware, and warm lighting. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\002-pexels.jpg",
+        "credit": "Photo by Quang Nguyen Vinh on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:33326574"
+      },
+      "sections": [
+        {
+          "slug": "understanding-the-problem",
+          "title": "Posture problems are not always spill problems",
+          "day_label": "Seating and reach",
+          "hero": {
+            "query": "stock photo of a dining chair with a medium firm cushion, set against a simple wooden table, no people, photorealistic",
+            "flux_prompt": "image of a dining chair with a lumbar roll and cushion, showcasing the textures of the materials used, with soft natural light",
+            "alt": "image of a dining area setup with a focus on seating arrangement and comfort.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\053-pexels.jpg",
+            "credit": "Photo by Ayşegül  Aytören on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:39220968"
+          },
+          "scenario": "A diner slides forward to reach a cup and the chair moves on a smooth floor.",
+          "principle": "Fix seating and table match before adding more tableware.",
+          "body": [
+            "Check whether the person can sit, stand, or transfer using their plan. Do not reposition equipment mid-transfer unless it is secured as instructed. Check brakes and floor conditions.",
+            "Pain, breathlessness from a tight table edge, or a trapped wheelchair are reasons to stop and refit — not to add a heavier fork."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Watch sit-to-table without coaching first.",
+              "minutes": null
+            },
+            {
+              "text": "Note pain or breath restriction.",
+              "minutes": null
+            },
+            {
+              "text": "Keep the transfer plan.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: the table edge contacts the abdomen, or a caregiver parks the walker where the diner cannot stand.",
+          "checklist": [
+            "Transfer intact",
+            "No abdominal trap",
+            "Chair does not skate"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "setting-seat-height-and-cushion-firmness",
+          "title": "Seat height ranges are trials",
+          "day_label": "Seating and reach",
+          "hero": {
+            "query": "stock photo of a dining chair with a firm cushion and lumbar support, no people, photorealistic",
+            "flux_prompt": "image of a chair setup with a firm cushion and lumbar roll, highlighting the importance of proper seating",
+            "alt": "image of a chair with a wedge cushion, emphasizing the open hip angle.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\054-pexels.jpg",
+            "credit": "Photo by aboodi vesakaran on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:18435547"
+          },
+          "scenario": "A 17–19 inch seat height is often printed as typical. This diner’s cushion compresses two inches.",
+          "principle": "Measure after the cushion compresses, with the usual shoes or footrests.",
+          "body": [
+            "Published 17–19 inch or 18–20 inch seat heights are planning ranges. Cushion compression, armrests, and wheelchair configuration change the result. Test sit-to-stand if that is how the person leaves the table.",
+            "A firmer cushion can help some people and increase pressure for others. Ask."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Measure compressed seat height.",
+              "minutes": null
+            },
+            {
+              "text": "Test standing or transferring.",
+              "minutes": null
+            },
+            {
+              "text": "Ask about pressure.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a wedge cushion improves reach and blocks a safe stand.",
+          "checklist": [
+            "Compressed height recorded",
+            "Stand/transfer tested",
+            "Pressure asked"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "anchoring-elbows-and-table-distance",
+          "title": "Table-to-torso distance is not 3–5 inches for everyone",
+          "day_label": "Seating and reach",
+          "hero": {
+            "query": "stock photo of a dining table set at an appropriate distance from a chair, no people, photorealistic",
+            "flux_prompt": "image of a dining setup showing the ideal distance between the table and chair, with focus on elbow positioning",
+            "alt": "image of a table with a towel placed for elbow support.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\055-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4829066"
+          },
+          "scenario": "A worksheet says 3–5 inches at belly-button level. That compressed this diner’s abdomen.",
+          "principle": "Do not make 3–5 inches a mandatory target.",
+          "body": [
+            "Position the table without compressing the abdomen, restricting breathing, trapping a wheelchair, or forcing an excessive lean. Do not make 3–5 inches a mandatory target.",
+            "Forearm support may improve comfort for some people. Evaluate during actual meals."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Check breathing and abdomen at the usual lean.",
+              "minutes": null
+            },
+            {
+              "text": "Check knees and armrests.",
+              "minutes": null
+            },
+            {
+              "text": "Trial forearm rest without calling it tremor reduction.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: the table edge contacts the abdomen, or elbows are ‘anchored’ until shoulders hike.",
+          "checklist": [
+            "No 3–5 in mandate",
+            "Breathing unrestricted",
+            "Wheelchair not trapped"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "defining-the-comfort-arc",
+          "title": "Map this diner’s reach, not a 12–16 inch rule",
+          "day_label": "Seating and reach",
+          "hero": {
+            "query": "stock photo of a dining table with a drawn comfort arc on a placemat, no people, photorealistic",
+            "flux_prompt": "image of a dining setup illustrating the comfort arc concept, with focus on utensil placement",
+            "alt": "image of a placemat with a drawn semicircle for comfort arc.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\056-pexels.jpg",
+            "credit": "Photo by Thirdman on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7236735"
+          },
+          "scenario": "Neha’s comfortable arc is shorter on a high-fatigue evening.",
+          "principle": "A shorter reach is not always safer if it forces an awkward joint position.",
+          "body": [
+            "These placement ideas are examples of how to think about reach. They are not a recommended limit for every person. Base the arrangement on comfortable posture, actual reach, mobility equipment, fatigue, and preferred independence.",
+            "Measure reach from the seated person, not the table edge. Shared items should not force a lean or twist. A shorter reach is not always safer if it crowds elbows or utensils."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Have the diner show a comfortable reach.",
+              "minutes": null
+            },
+            {
+              "text": "Place plate and cup there.",
+              "minutes": null
+            },
+            {
+              "text": "Retest when tired.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a caregiver places items outside the diner’s preferred reach, or everything is jammed against the torso.",
+          "checklist": [
+            "Arc from this body",
+            "Fatigue retest",
+            "Caregiver did not override placement"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "tuning-lighting-and-contrast",
+          "title": "Light from the seat, contrast as a trial",
+          "day_label": "Seating and reach",
+          "hero": {
+            "query": "stock photo of a dining table with task lighting positioned at an angle, no people, photorealistic",
+            "flux_prompt": "image of a dining setup with proper lighting and contrasting plates, showcasing the importance of visibility",
+            "alt": "image of a plate with contrasting rim against food.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\055-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4829066"
+          },
+          "scenario": "Vikram’s overhead lights glare on glossy plates.",
+          "principle": "Color temperature is only one part of lighting quality.",
+          "body": [
+            "Test lighting at the usual meal time. Check reflections on plates, glare from glossy protectors, hand shadows, light into the eyes, flicker, evening versus daytime, and visibility of food edges and cup rims. Warm-white 2700–3000 K may suit atmosphere; it is not automatically better for all diners.",
+            "Contrast preferences vary. Stronger is not always more comfortable."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Sit and look at the plate.",
+              "minutes": null
+            },
+            {
+              "text": "Move or diffuse glare sources.",
+              "minutes": null
+            },
+            {
+              "text": "Ask about comfort.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a 45-degree task light is treated as a universal aiming rule and blinds the diner.",
+          "checklist": [
+            "Seated glare check",
+            "Contrast optional",
+            "Patterned cloths reviewed"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "smart-serving-and-portioning-safe-transfers-and-caregiver-te",
+      "title": "Serving, carrying, and caregiver support",
+      "intro": "Choose the transport method based on balance, grip, vision, route, and the ability to set the load down.",
+      "opener": {
+        "query": "staging zone for serving food, kitchen to dining area, non-slip mat, rimmed tray, warm lighting",
+        "flux_prompt": "full-bleed shot of a well-organized staging zone with a rimmed tray and non-slip mat, showcasing a short distance to the dining area",
+        "alt": "A dining table with placemat, simple tableware, and warm lighting. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\058-pexels.jpg",
+        "credit": "Photo by Curtis Adams on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:36777848"
+      },
+      "sections": [
+        {
+          "slug": "staging-zone-design",
+          "title": "Stage loads the person can actually control",
+          "day_label": "Serving and meal preparation",
+          "hero": {
+            "query": "staging zone with a rimmed tray, warm lighting, non-slip mat, kitchen to dining area",
+            "flux_prompt": "photorealistic image of a staging zone with a rimmed tray and non-slip mat, showcasing a warm and inviting atmosphere",
+            "alt": "a close-up of the rimmed tray with food items arranged neatly, emphasizing the nonslip mat beneath.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\014-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7195885"
+          },
+          "scenario": "Maya sets a landing table one step from her father’s chair. The tray still has to match his lift.",
+          "principle": "Tray stability depends on load, surface, lip, handles, and the person carrying it.",
+          "body": [
+            "A rimmed tray may contain some spills within its capacity. Stability depends on load, surface, lip, handles, and the person carrying it. A half-inch lip is an example feature, not proof of safe transport.",
+            "Spill reduction does not eliminate burn risk. Test hot drinks and dishes before serving. Do not rely on a lid or nonslip base as proof a hot drink cannot spill.",
+            "Do not carry a hot, heavy, or unstable load if grip or sightline fails. When carrying is difficult, reduce the load, use multiple trips, stage items closer, or use a stable cart with wheel locks. Locking casters reduce movement; they do not automatically prevent tipping. Keep heavy items low."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Test the tray with the real load.",
+              "minutes": null
+            },
+            {
+              "text": "Skip hot carries the person cannot see over.",
+              "minutes": null
+            },
+            {
+              "text": "Park and lock a cart if used.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: the tray is too heavy when fully loaded, or a hot casserole is carried because the lip is ‘enough.’",
+          "checklist": [
+            "Load tested",
+            "Hot/heavy alternative named",
+            "Cart locks not over-trusted"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "two-hand-carrying-mechanics",
+          "title": "Two hands only when balance and vision remain",
+          "day_label": "Serving and meal preparation",
+          "hero": {
+            "query": "two hands carrying a bowl and cup, warm lighting, kitchen setting",
+            "flux_prompt": "photorealistic image of a person carrying a bowl and cup with two hands, emphasizing stability and control",
+            "alt": "a close-up of the tray with balanced items, showcasing the technique of two-hand carrying.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\060-pexels.jpg",
+            "credit": "Photo by Cup of  Couple on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6633435"
+          },
+          "scenario": "Sam practices a two-hand carry. He still needs a hand for a rail on the stairs to the dining nook.",
+          "principle": "Two-handed carrying can block vision or keep a hand off a mobility aid.",
+          "body": [
+            "Use two-handed carrying only when the person can keep balance, see the route, and still use a needed mobility aid or rail. Two hands are not always safer.",
+            "Choose among carrying a tray, moving a cup, using a cart, sliding an item, or receiving assistance. A tray may be inappropriate if it blocks the view, prevents use of a mobility aid, or is too heavy when loaded.",
+            "Checks: route clear; sight over the item; heat and weight; doors; walker, cane, or railing needed; place-down plan if control drops."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Walk the empty route first.",
+              "minutes": null
+            },
+            {
+              "text": "Refuse two-hand carries that block a needed rail.",
+              "minutes": null
+            },
+            {
+              "text": "Set down if control drops.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: both hands are on a tray and the person cannot use the walker they need.",
+          "checklist": [
+            "Route visible",
+            "Aid not sacrificed",
+            "Set-down plan exists"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "container-and-portion-design",
+          "title": "Margins and fill lines are not safety limits",
+          "day_label": "Serving and meal preparation",
+          "hero": {
+            "query": "curved bowls and portioned plates, warm lighting, dining setup",
+            "flux_prompt": "photorealistic image of a dining setup featuring curved bowls and portioned plates, emphasizing design and functionality",
+            "alt": "a close-up of a bowl with food, showcasing the rounded sides and portioning.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\061-pexels.jpg",
+            "credit": "Photo by Mikhail Nilov on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8093412"
+          },
+          "scenario": "A one-inch plate margin was copied from a template and left the diner underfed.",
+          "principle": "Adjust the example dimensions to the actual user and setup.",
+          "body": [
+            "Leave a practical plate margin. Fill to a controllable level. Smaller is not always easier or safer.",
+            "Do not treat one-inch cubes as a choking standard. See the swallowing boundary in the food chapter."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Ignore mandatory one-inch rules.",
+              "minutes": null
+            },
+            {
+              "text": "Trial the usual foods.",
+              "minutes": null
+            },
+            {
+              "text": "Ask if portions feel like restriction.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: ‘one-inch cubes are safe’ is treated as a choking standard.",
+          "checklist": [
+            "Margins illustrative",
+            "Fill individualized",
+            "No universal cube rule"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "caregiver-cueing-and-side-by-side-support",
+          "title": "Cue only as the diner prefers",
+          "day_label": "Serving and meal preparation",
+          "hero": {
+            "query": "caregiver assisting with meal service, warm lighting, dining area",
+            "flux_prompt": "photorealistic image of a caregiver assisting a person during meal service, emphasizing support and communication",
+            "alt": "a close-up of the caregiver's hand lightly touching the tray edge, showcasing the gentle support.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\062-pexels.jpg",
+            "credit": "Photo by ANTONI SHKRABA production on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8791031"
+          },
+          "scenario": "A team stands beside Leah and announces every lift. She asked for quieter help.",
+          "principle": "Announcing every action may be distracting or uncomfortable.",
+          "body": [
+            "Agree on assistance. Ask before touching, moving equipment, or changing the arrangement. Do not narrate every action if the diner finds it distracting. Do not take over automatically."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Ask before the meal.",
+              "minutes": null
+            },
+            {
+              "text": "Use the agreed cue set only.",
+              "minutes": null
+            },
+            {
+              "text": "Stop narrating if asked.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: help is given because it looks safer to the caregiver, not because the diner wanted it.",
+          "checklist": [
+            "Preference recorded",
+            "No automatic takeover",
+            "Path not blocked"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "meal-engineering-textures-containers-and-menu-planning",
+      "title": "Swallowing and food-texture boundary",
+      "intro": "Swallowing and food-texture boundary. If a person has swallowing difficulties, do not independently change liquid thickness based on this book. Follow the texture and fluid recommendations provided by a qualified clinician. For people without swallowing restrictions, choose drink containers and serving methods based on comfort, control, and spill reduction. A texture that is easier to control on a spoon is not automatically safer to swallow. Consider swallowing safety separately from spill management. This chapter addresses handling and spill reduction, not clinical texture modification. It is not a pediatric feeding guide.",
+      "opener": {
+        "query": "high sided bowls, divided plates, lidded mugs, textured food, photorealistic, no people, no text, no watermark",
+        "flux_prompt": "full-bleed shot of a beautifully arranged dining table featuring high sided bowls, divided plates, and lidded mugs, with a focus on textured food",
+        "alt": "A dining table with placemat, simple tableware, and warm lighting. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\063-pexels.jpg",
+        "credit": "Photo by ready made on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:3847482"
+      },
+      "sections": [
+        {
+          "slug": "designing-meals-that-behave",
+          "title": "Handling versus swallowing",
+          "day_label": "Serving and meal preparation",
+          "hero": {
+            "query": "high sided bowls, divided plates, textured food, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "shot of a high sided bowl filled with a thick stew, a divided plate with colorful vegetables, and a lidded mug on a dining table",
+            "alt": "close-up of a bowl with a thick soup and a spoon resting beside it.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\064-pexels.jpg",
+            "credit": "Photo by https://kaboompics.com/ on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5208251"
+          },
+          "scenario": "Ravi wants less slosh on the plate. Thickening his drink on his own would be the wrong tool if swallowing is involved.",
+          "principle": "Follow existing swallowing guidance. Scoopability is not swallowing safety.",
+          "body": [
+            "Follow the person’s existing swallowing guidance. This section addresses handling and spill reduction, not clinical texture modification.",
+            "Lidded mugs may limit slosh for some people without swallowing restrictions. They are not a swallowing treatment.",
+            "Prepare foods according to chewing and swallowing abilities and any clinical recommendations. This book is for adults and households."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "If swallowing is an issue, stop and use clinician guidance.",
+              "minutes": null
+            },
+            {
+              "text": "Otherwise pick containers for control and comfort.",
+              "minutes": null
+            },
+            {
+              "text": "Keep spill goals separate from diet therapy.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a thickener is added ‘to prevent spills’ for someone with dysphagia without clinician input.",
+          "checklist": [
+            "Swallowing separated from slosh",
+            "No independent thickening for dysphagia",
+            "Adult household audience clear"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "engineering-textures-that-behave",
+          "title": "Do not thicken liquids from this book",
+          "day_label": "Serving and meal preparation",
+          "hero": {
+            "query": "thick soups, cohesive grains, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "image of a thick lentil stew in a high sided bowl, with a spoon resting beside it, showcasing a cohesive texture",
+            "alt": "close-up of a creamy soup with visible chunks of vegetables.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\065-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:3832362"
+          },
+          "scenario": "Anjali’s soup runs. A thicker soup may scoop better. That is not a swallow prescription.",
+          "principle": "A suitable texture may make some foods easier to scoop or control. It depends on the person, the food, and clinical requirements.",
+          "body": [
+            "Follow the person’s existing swallowing guidance. A thicker soup may scoop more easily; that is not a swallow prescription. Thickening can change hydration, medication, taste, and intake.",
+            "Do not use finger-swipe or ‘nectar-like’ tests from this book as swallowing standards. Follow existing medical, allergy, and swallowing instructions separately."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Do not buy a thickener to follow this chapter.",
+              "minutes": null
+            },
+            {
+              "text": "Cook for the diner’s known guidance.",
+              "minutes": null
+            },
+            {
+              "text": "Treat scoop-ability as a separate goal.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: chia gel is added to a drink because the book mentioned flow, and a medication timing issue is missed.",
+          "checklist": [
+            "No DIY dysphagia thickening",
+            "Allergies and existing orders followed",
+            "Scoop vs swallow separated"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "choosing-containers-that-guide-food",
+          "title": "Containers guide food; they do not treat swallowing",
+          "day_label": "Serving and meal preparation",
+          "hero": {
+            "query": "high sided bowls, divided plates, lidded mugs, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "image of a dining setup featuring high sided bowls, divided plates, and lidded mugs, arranged neatly on a table",
+            "alt": "close-up of a divided plate with different food items separated.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\063-pexels.jpg",
+            "credit": "Photo by ready made on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:3847482"
+          },
+          "scenario": "Karan likes a high-sided bowl. A spouted cup would fight his clinician’s cup-sipping plan.",
+          "principle": "Choose containers with the diner and any existing swallowing plan.",
+          "body": [
+            "High-sided bowls may help some foods stay put. Weighted or two-handled cups may help some grips and may increase fatigue or conflict with a swallowing plan.",
+            "Follow existing swallowing guidance. A straw is not automatically safer than a cup."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Match containers to the existing plan.",
+              "minutes": null
+            },
+            {
+              "text": "Trial slosh separately from swallow.",
+              "minutes": null
+            },
+            {
+              "text": "Ask which vessel the diner wants at the table.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a travel lid is insisted on because it spills less, against the diner’s preference and clinical cup practice.",
+          "checklist": [
+            "Clinical drink method honored",
+            "Slosh optional",
+            "Diner preference kept"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "portion-cut-size-and-plating-within-reach-arcs",
+          "title": "Cut size is not a universal choking standard",
+          "day_label": "Serving and meal preparation",
+          "hero": {
+            "query": "portion sizes, cut sizes, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "image of a well-plated meal with appropriate portion sizes and cut sizes, arranged neatly on a table",
+            "alt": "close-up of a plate with bite-sized pieces of food.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\067-pexels.jpg",
+            "credit": "Photo by Beyzaa Yurtkuran on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:31144007"
+          },
+          "scenario": "A note said to cube grapes and halve cherry tomatoes. That is not enough for a diner with chewing or swallowing risk.",
+          "principle": "A one-inch cube is a portioning measurement, not a universal safety standard. Bite-sized does not mean safe.",
+          "body": [
+            "Prepare foods according to the diner’s chewing and swallowing abilities and any clinical recommendations. If choking risk is a concern, obtain individualized guidance rather than a universal cut size. Do not use ‘always cube,’ ‘one-inch cubes are safe,’ or ‘cutting prevents choking.’",
+            "Place food in comfortable reach. This book is not a pediatric feeding manual."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Follow clinician cut and texture orders if they exist.",
+              "minutes": null
+            },
+            {
+              "text": "Do not copy one-inch cubes as safety.",
+              "minutes": null
+            },
+            {
+              "text": "Ask the diner about chewing comfort.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: grapes are cubed and called safe for everyone at the table.",
+          "checklist": [
+            "No universal cube rule",
+            "Choking risk referred out",
+            "Not a kids’ feeding guide"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "rapid-clean-up-and-troubleshooting-no-mop-strategies-and-mai",
+      "title": "Rapid cleanup and troubleshooting: Quick wipe-downs and maintenance",
+      "intro": "A quick wipe is suitable only for some small spills. The method depends on the liquid, surface, and product instructions.",
+      "opener": {
+        "query": "compact Indian apartment dining area, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+        "flux_prompt": "full-bleed shot of a compact dining area with a small caddy staged beside the table, showcasing the wipe first method tools",
+        "alt": "A dining table with placemat, simple tableware, and warm lighting. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\068-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:7214157"
+      },
+      "sections": [
+        {
+          "slug": "wipe-first-method",
+          "title": "Contain small spills; inspect the floor",
+          "day_label": "Cleanup and maintenance",
+          "hero": {
+            "query": "compact Indian apartment dining area, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "full-bleed shot of a table with a squeegee and color-coded cloths staged for clean-up",
+            "alt": "close-up of a squeegee and cloths arranged neatly on a dining table.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\068-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7214157"
+          },
+          "scenario": "Priya pulls water toward a catch zone. Oil still leaves a slip film on the floor.",
+          "principle": "Helping contain small spills makes cleaning easier. Inspect the floor promptly.",
+          "body": [
+            "Suggested sequence: (1) Stop the spill from spreading if it is safe. (2) Move hot, sharp, or unstable items only when they can be handled safely. (3) Remove food residue with the method for that surface. (4) Clean food-contact surfaces with compatible products. (5) Dry fully. (6) Inspect beneath mats, pads, and table protectors. (7) Wash or replace saturated materials. (8) Check for slippery residue or damage.",
+            "A quick wipe is suitable only for some small spills. Water, milk, oil, sugary drinks, and hot liquids differ. A wipe is not automatically disinfection. Do not use the same cloth on food-contact areas and the floor without washing. A handheld vacuum does not finish a liquid spill.",
+            "Avoid one homemade mix as universal. Vinegar and soap are not appropriate for every finish."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Stop spread without chasing liquid onto the floor.",
+              "minutes": null
+            },
+            {
+              "text": "Use the right process for oil vs watery spills.",
+              "minutes": null
+            },
+            {
+              "text": "Check the floor for slip.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a no-mop habit leaves an oily film, or the same cloth returns to the plate zone.",
+          "checklist": [
+            "Floor inspected",
+            "Cloth roles separated",
+            "No universal cleaner recipe"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "targeted-floor-catchers",
+          "title": "Catchers must stay flat, dry, and out of the wheels",
+          "day_label": "Cleanup and maintenance",
+          "hero": {
+            "query": "compact Indian apartment dining area, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "full-bleed shot of a dining area with absorbent runners and silicone mats in place",
+            "alt": "close-up of a high-sided silicone mat beside a plate.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\068-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7214157"
+          },
+          "scenario": "Ravi puts an absorbent mat under the chair. It saturates and slides.",
+          "principle": "Use a floor protector only when it lies flat, remains stable when wet, and does not interfere with movement.",
+          "body": [
+            "Use a floor protector only when it lies flat, stays stable when wet, and does not interfere with movement. Remove saturated pieces. Inspect underside and flooring. May contain some drips within capacity; inspect for moisture and residue."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Place catchers, then roll or walk the aid across the edge.",
+              "minutes": null
+            },
+            {
+              "text": "Remove saturated pieces during the meal if needed.",
+              "minutes": null
+            },
+            {
+              "text": "Dry the floor zone.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a floor runner catches a wheelchair footrest, or a wet pad is left until morning.",
+          "checklist": [
+            "Edges tested with the aid",
+            "Saturation removed",
+            "Floor dried"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "maintenance-and-rotation",
+          "title": "Inspect, dry, and replace deteriorating pieces",
+          "day_label": "Cleanup and maintenance",
+          "hero": {
+            "query": "compact Indian apartment dining area, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "full-bleed shot of a caddy with cleaning supplies staged for maintenance",
+            "alt": "close-up of a checklist for cleaning supplies.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\071-pexels.jpg",
+            "credit": "Photo by Pixabay on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:276678"
+          },
+          "scenario": "Anjali’s silicone mat smells and stays tacky. A ten-minute dish-soap soak is not a universal fix.",
+          "principle": "Follow the product’s cleaning instructions and inspect for deterioration.",
+          "body": [
+            "Follow each product’s cleaning instructions. Inspect for cracks, tackiness, or odor. Do not leave damp layers in place. A spill log is optional and does not prove safety."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Wash as labeled.",
+              "minutes": null
+            },
+            {
+              "text": "Replace failed grip.",
+              "minutes": null
+            },
+            {
+              "text": "Look under mats.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a stained silicone piece is scrubbed with a harsh pad and then used against food.",
+          "checklist": [
+            "Label followed",
+            "Failed items removed",
+            "Under-mat check"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "measurement-based-placement-templates",
+      "title": "Measurement templates: Illustrative overlays",
+      "intro": "These diagrams are examples of how to think about reach and placement. They are not a recommended reach limit for every person. Adjust the example dimensions to the actual user and setup.",
+      "opener": {
+        "query": "small indian apartment interior minimalist daylight editorial",
+        "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK apartment interior, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+        "alt": "A calm apartment interior",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\033-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:6890400"
+      },
+      "sections": [
+        {
+          "slug": "measurement-based-placement-templates",
+          "title": "How to use the overlays without treating inches as limits",
+          "day_label": "Templates and worksheets",
+          "hero": {
+            "query": "small indian apartment interior minimalist daylight editorial",
+            "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK apartment interior, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+            "alt": "A calm apartment interior",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\073-pexels.jpg",
+            "credit": "Photo by Anisha Deb on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:36195703"
+          },
+          "scenario": "A laminated reach overlay is handy. Copying 3–5 inches to the torso is not.",
+          "principle": "Adjust every mark for this diner, this chair, and this table.",
+          "body": [
+            "Print overlays if they help. Recalibrate on the real body and equipment. Measure reach from the seated diner. Do not copy 3–5 inches to the torso as a rule.",
+            "Seat height, armrest angles, and runner length in worksheets are examples. Measure compressed cushions, walker width, and glare from the seat. Case numbers such as ‘spills reduced from two to zero’ are stories, not proof.",
+            "Update after equipment or movement changes. Do not wait for a three-week lock-in if something feels unsafe."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Runner coverage is a trial",
+              "caption": "Illustrative only. Use a covering only if it stays flat and does not catch wheels.",
+              "values": [
+                "trial",
+                "test wet",
+                "test the aid"
+              ],
+              "labels": [
+                "Forward coverage (example)",
+                "Side coverage (example)",
+                "This floor + this aid"
+              ],
+              "minimum": null,
+              "spec_id": "D033",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D033.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Armrest and forearm angles are individual",
+              "caption": "90–110 degrees appeared in an example. Check shoulder lift and comfort.",
+              "values": [
+                "example",
+                "live check"
+              ],
+              "labels": [
+                "Example forearm angle",
+                "This diner’s comfort"
+              ],
+              "minimum": null,
+              "spec_id": "D034",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D034.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Table-to-seat difference is a starting idea",
+              "caption": "10–12 inches above the seat is an example offset. Check knees, abdomen, and reach.",
+              "values": [
+                "example",
+                "fit this body"
+              ],
+              "labels": [
+                "10–12 in offset (example)",
+                "This chair + table"
+              ],
+              "minimum": null,
+              "spec_id": "D035",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D035.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Table-to-torso is not a 3–5 inch rule",
+              "caption": "Do not make 3–5 inches a mandatory target. Avoid abdominal pressure and trapped equipment.",
+              "values": [
+                "not mandatory",
+                "check breathing",
+                "check wheelchair"
+              ],
+              "labels": [
+                "3–5 in (do not require)",
+                "Abdomen and breath",
+                "Knees and armrests"
+              ],
+              "minimum": null,
+              "spec_id": "D036",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D036.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Walker side clearance is equipment-specific",
+              "caption": "20–24 inches is a planning example. Measure the walker and the pass-through.",
+              "values": [
+                "example range",
+                "measure rails"
+              ],
+              "labels": [
+                "20–24 in (trial)",
+                "This walker’s width"
+              ],
+              "minimum": null,
+              "spec_id": "D037",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D037.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Lighting angle is a seated test",
+              "caption": "30–45 degrees is an aiming example. Check glare on the plate from the diner’s eyes.",
+              "values": [
+                "example",
+                "seated test"
+              ],
+              "labels": [
+                "30–45° (example)",
+                "Glare from this seat"
+              ],
+              "minimum": null,
+              "spec_id": "D038",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D038.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Seat-height examples",
+              "caption": "18–20 inches to the cushion top is a planning range. Measure after compression.",
+              "values": [
+                "planning range",
+                "compressed height"
+              ],
+              "labels": [
+                "18–20 in (trial)",
+                "This cushion compressed"
+              ],
+              "minimum": null,
+              "spec_id": "D039",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D039.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Case-study inches are not targets",
+              "caption": "A story that used 19-inch seat height and a 30-inch table describes that household only.",
+              "values": [
+                "example",
+                "example",
+                "your measures"
+              ],
+              "labels": [
+                "19 in seat (story)",
+                "30 in table (story)",
+                "Your measurements"
+              ],
+              "minimum": null,
+              "spec_id": "D040",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D040.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Measure the diner in the usual chair.",
+              "minutes": null
+            },
+            {
+              "text": "Treat printed inches as optional marks.",
+              "minutes": null
+            },
+            {
+              "text": "Retest after cushion or aid changes.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: items sit outside the elbow arc because the overlay was placed on a different chair, or walker clearance is skipped.",
+          "checklist": [
+            "Inches labeled illustrative",
+            "Body remeasured",
+            "Aid clearance tested"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "weekly-menu-and-texture-planning-worksheet",
+      "title": "Weekly menu worksheet: Preferences, not a clinical diet",
+      "intro": "This worksheet records preferences and practical observations. It does not determine medical diets, swallowing textures, nutritional requirements, or allergy safety.",
+      "opener": {
+        "query": "stock photo of a well-organized kitchen with meal prep containers and utensils, natural light from one window, warm wood textures, photorealistic, no people, no text, no watermark",
+        "flux_prompt": "full-bleed image of a kitchen counter with neatly arranged meal prep items and utensils",
+        "alt": "A dining table with placemat, simple tableware, and warm lighting. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\074-pexels.jpg",
+        "credit": "Photo by Castorly Stock on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:3722563"
+      },
+      "sections": [
+        {
+          "slug": "purpose-and-benefits",
+          "title": "Record what worked; do not prescribe texture",
+          "day_label": "Templates and worksheets",
+          "hero": {
+            "query": "stock photo of a dining table set with various meal prep containers and utensils, natural light, warm wood textures, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "image of a dining table with neatly arranged meal prep containers and utensils",
+            "alt": "image of a close-up of a high-sided bowl filled with oatmeal and banana, natural light, warm textures",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\075-pexels.jpg",
+            "credit": "Photo by sukrit lamthong on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7675061"
+          },
+          "scenario": "Riya plans meals for her father. She copies clinician texture orders; she does not invent them here.",
+          "principle": "Matching a texture to a spill goal is not swallowing therapy.",
+          "body": [
+            "Follow any existing medical, allergy, nutritional, or swallowing instructions separately. Lids and straws may help some people; they are not automatically safer."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Copy clinician orders into the notes if they exist.",
+              "minutes": null
+            },
+            {
+              "text": "Do not add thickeners from this book.",
+              "minutes": null
+            },
+            {
+              "text": "Ask what the diner enjoyed.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: thicker drinks are chosen from a spill log despite a different swallow plan.",
+          "checklist": [
+            "Worksheet is observational",
+            "Swallow orders separate",
+            "Enjoyment recorded"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "how-to-use-the-worksheet",
+          "title": "Fill extra fields without turning it into a diet chart",
+          "day_label": "Templates and worksheets",
+          "hero": {
+            "query": "stock photo of a printed weekly menu worksheet on a kitchen counter, natural light, warm textures, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "image of a printed weekly menu worksheet with meal options filled in",
+            "alt": "image of a close-up of a filled weekly menu worksheet with colorful meal options",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\076-pexels.jpg",
+            "credit": "Photo by Spencer Stone on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:12499375"
+          },
+          "scenario": "Meera posts a weekly sheet. Allergens already live on a separate card from the clinic.",
+          "principle": "The sheet supports planning. It does not authorize texture changes.",
+          "body": [
+            "Fields you may use: allergens; dietary restrictions; food temperature; preparation time; required assistance; cleanup difficulty; diner preference; fatigue during the meal; any relevant existing clinical guidance; enjoyment.",
+            "Do not select a texture target from this book when a clinician has already named one."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Post the sheet only if the household wants it.",
+              "minutes": null
+            },
+            {
+              "text": "Keep allergen and swallow docs separate.",
+              "minutes": null
+            },
+            {
+              "text": "Update after a bad fatigue day.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: ‘soft solids’ is ticked as if it were an official diet level from this title.",
+          "checklist": [
+            "Allergens separate",
+            "No invented diet levels",
+            "Diner involved"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "weekly-menu-grid",
+          "title": "Log meals without a universal cut size",
+          "day_label": "Templates and worksheets",
+          "hero": {
+            "query": "stock photo of a filled weekly menu grid on a kitchen table, natural light, warm textures, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "image of a filled weekly menu grid with colorful meal options",
+            "alt": "image of a close-up of a weekly menu grid with neatly organized meal entries",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\077-pexels.jpg",
+            "credit": "Photo by https://kaboompics.com/ on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4033165"
+          },
+          "scenario": "Arjun hosts friends and his partner’s restrictions. Cut size stays on the partner’s guidance, not a cube rule.",
+          "principle": "Cut size on the grid is a reminder of what was served, not a safety rating.",
+          "body": [
+            "Note what was served, how it was prepared, assistance, enjoyment, fatigue, and cleanup. Cut size on the grid is a reminder, not a safety rating. Choose portions for appetite and nutrition."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Fill what helps next week.",
+              "minutes": null
+            },
+            {
+              "text": "Skip fields that feel clinical without orders.",
+              "minutes": null
+            },
+            {
+              "text": "Log fatigue honestly.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: the notes column is used to justify smaller portions as ‘safer.’",
+          "checklist": [
+            "No cube-as-safe language",
+            "Appetite respected",
+            "Fatigue noted"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "spill-proof-setup-shopping-and-gear-checklist",
+      "title": "Shopping, budget, testing, and a final validation checklist",
+      "intro": "Do not buy every item in the shopping list. Start with the specific problem. Core needs first; optional styling last. Prices are illustrative USD estimates. Installation and custom accessibility costs are not included unless you add them.",
+      "opener": {
+        "query": "Dining area with a spill-proof setup, showcasing various adaptive dining gear, natural light from one window, textures of wood and linen, magazine styling, photorealistic, no people.",
+        "flux_prompt": "Full-bleed image of a well-organized dining space featuring spill-proof gear, with a focus on textures and natural light.",
+        "alt": "A dining table with placemat, simple tableware, and warm lighting. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\078-pexels.jpg",
+        "credit": "Photo by Pixabay on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:271696"
+      },
+      "sections": [
+        {
+          "slug": "purpose-and-benefits",
+          "title": "Shop from a problem list, not a universal kit",
+          "day_label": "Shopping checklist",
+          "hero": {
+            "query": "Elegant dining setup with adaptive gear, showcasing textures of wood and linen, natural light, photorealistic, no people.",
+            "flux_prompt": "A beautifully arranged dining table with spill-proof gear, emphasizing functionality and style.",
+            "alt": "Close-up of adaptive dining gear on a table.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\079-pexels.jpg",
+            "credit": "Photo by Ivan S on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7118748"
+          },
+          "scenario": "Priya is hosting. She needs a wipeable cover only if her table actually stains and the diner accepts it.",
+          "principle": "Fitted covers, edge guards, runners, weighted utensils, and spouted cups are options — not a required cart.",
+          "body": [
+            "Core needs: appropriate tableware, required grip or stability products, necessary cleaning materials, required accessibility modifications. Optional additions: decorative placemats, coordinated colors, extra serving trays, additional storage, styling accessories.",
+            "Test an existing or low-cost solution where appropriate. Purchase more only when the test shows a clear benefit. Verify ratings locally."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Write the problem.",
+              "minutes": null
+            },
+            {
+              "text": "Budget safety and function first.",
+              "minutes": null
+            },
+            {
+              "text": "Treat prices as estimates.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a full ‘spill-proof kit’ is bought and most of it is unused clutter.",
+          "checklist": [
+            "Problem-first cart",
+            "Styling last",
+            "USD estimates only"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "how-to-use-the-checklist",
+          "title": "Measure, budget, then test at a real meal",
+          "day_label": "Shopping checklist",
+          "hero": {
+            "query": "Dining area in a Bengaluru apartment with a load-bearing wall, showcasing a functional layout, natural light, photorealistic, no people.",
+            "flux_prompt": "A compact dining setup that maximizes space while featuring adaptive dining gear.",
+            "alt": "Close-up of a dining table with adaptive gear.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\080-pexels.jpg",
+            "credit": "Photo by Ivan S on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7671236"
+          },
+          "scenario": "Raj measures the table and the walker path before he shops.",
+          "principle": "Place and test each item during a meal. Keep, modify, or remove.",
+          "body": [
+            "Measure table, chairs, and the real aid’s path. Set a budget. Choose materials for daily cleaning reality, not for a catalog photo.",
+            "A rubberized runner is optional and must pass the movement and moisture tests. It is not automatically decorative protection.",
+            "Product worksheet: intended use, surface, user, load, wet/dry, heat, cleaning, slide, curl, reach interference, trip/snag, residue, comfort, keep/modify/remove."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Measure first.",
+              "minutes": null
+            },
+            {
+              "text": "Buy the smallest testable item.",
+              "minutes": null
+            },
+            {
+              "text": "Run the worksheet at a meal.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: items are never tested because the receipt already feels like progress.",
+          "checklist": [
+            "Measurements in hand",
+            "Meal test scheduled",
+            "Remove option open"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "main-content-shopping-and-gear-checklist",
+          "title": "Optional gear, qualified",
+          "day_label": "Shopping checklist",
+          "hero": {
+            "query": "Stylish dining area in a Mumbai flat, showcasing adaptive dining gear and textures, natural light, photorealistic, no people.",
+            "flux_prompt": "A well-organized dining space with a focus on spill-proof gear and floor protection.",
+            "alt": "Close-up of adaptive dining gear on a table.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\030-pexels.jpg",
+            "credit": "Photo by YI REN on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:39379963"
+          },
+          "scenario": "Neha’s Mumbai flat is an illustration. US shoppers still verify local product instructions.",
+          "principle": "Nothing on this list is essential for every household.",
+          "body": [
+            "Table cover: only if needed and rated for the use. Edge protectors: only if the edge is a real contact hazard; match profile; check detachment and snag. They do not prevent accidents overall.",
+            "Armrest pads, wedges, and footrests change posture and transfers — test sit-to-stand. Floor runners and absorbent mats: only if flat, stable when wet, and compatible with chairs and mobility aids. Dry or remove when saturated.",
+            "Weighted utensils, spouted cups, and liners: test as earlier chapters require. Follow swallowing advice separately."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Tick only items that match a named problem.",
+              "minutes": null
+            },
+            {
+              "text": "Read temperature and food-contact ratings.",
+              "minutes": null
+            },
+            {
+              "text": "Skip child-specific feeding gear unless that is truly the household — this book is not a pediatric guide.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: soft silicone edge guards are bought to ‘prevent accidents’ on a table that did not need them.",
+          "checklist": [
+            "Each item has a problem line",
+            "Ratings read",
+            "Transfers considered"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "tips-for-success",
+          "title": "Test one category; contrast is optional",
+          "day_label": "Shopping checklist",
+          "hero": {
+            "query": "Practical dining setup in a Pune apartment, showcasing adaptive gear and practical tips, natural light, photorealistic, no people.",
+            "flux_prompt": "A compact dining area with practical tips for maintaining a clean and functional space.",
+            "alt": "Close-up of a dining table with adaptive gear.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\082-pexels.jpg",
+            "credit": "Photo by Bilguun Gantumur on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:38310828"
+          },
+          "scenario": "Rohan tries placemats one week and lighting the next.",
+          "principle": "High contrast is a trial. Stronger is not always more comfortable.",
+          "body": [
+            "Test one category at a time. Ask the diner. A handheld vacuum is a cleanup convenience, not a safety system.",
+            "Before adopting the setup: (1) test with the person who will use it; (2) empty and loaded dishes; (3) dry and lightly wet where relevant; (4) reach, posture, comfort; (5) route with the actual chair, walker, or wheelchair; (6) whether mats, runners, and cables move; (7) cleanup practicality; (8) ask what they would change; (9) several real meals; (10) reassess after changes in mobility, tremor, strength, vision, or equipment."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "One category per trial.",
+              "minutes": null
+            },
+            {
+              "text": "Run the ten-step validation.",
+              "minutes": null
+            },
+            {
+              "text": "Ask again after a week.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: contrast is maximized until meals feel clinical, or validation is skipped because the table ‘looks done.’",
+          "checklist": [
+            "One-at-a-time tests",
+            "Validation sequence used",
+            "Diner asked"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "common-mistakes",
+          "title": "Dining setup validation checklist",
+          "day_label": "Templates and worksheets",
+          "hero": {
+            "query": "Dining area in a Bengaluru apartment, highlighting common mistakes in setup, natural light, photorealistic, no people.",
+            "flux_prompt": "A dining space illustrating common mistakes in gear selection and placement.",
+            "alt": "Close-up of improperly sized dining gear.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\083-pexels.jpg",
+            "credit": "Photo by Huy Phan on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:30386992"
+          },
+          "scenario": "Meera uses the final list after a new walker arrives, not only after shopping errors.",
+          "principle": "Correct new hazards promptly. Do not wait for a scheduled review.",
+          "body": [
+            "Person and comfort: preferences considered; no unnecessary strain; essential items in comfortable reach; dignity and independence supported; assistance as preferred.",
+            "Table and seating: table stable; chair or wheelchair positioned appropriately; armrests, footrests, and knees have clearance; table edge does not create pressure or obstruction; the person can sit, stand, or transfer safely using their plan.",
+            "Tableware: sizes appropriate; grip products do not shift or curl; utensil weight and handle comfortable; hot and cold items handled per instructions; detached small parts are not a hazard.",
+            "Food and drink: preparation matches abilities and guidance; no texture change for swallowing problems without appropriate advice; portions practical and nutritionally appropriate; drink containers comfortable; no universal cut-size assumption.",
+            "Floor and movement: path clear; coverings do not curl or shift; wheelchair and walker movement tested; wet-floor conditions considered; chairs and legs do not obstruct transfers.",
+            "Cleanup: materials cleaned as instructed; damp mats dried or removed; food-contact surfaces cleaned appropriately; floor checked after spills; damaged products replaced.",
+            "Reassessment: after mobility or tremor changes; diner asked whether it remains comfortable; after new equipment; new hazards corrected promptly.",
+            "Common shopping errors still apply: undersized mats, unfitted edge profiles, supplies stored too far away — fix those after the validation list, not instead of it.",
+            "Stop using an adaptation if it creates new discomfort, instability, obstruction, or loss of control. Reassess after the trigger list in the review chapter rather than waiting for a scheduled date."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Walk the full checklist with the diner present.",
+              "minutes": null
+            },
+            {
+              "text": "Remove anything that failed.",
+              "minutes": null
+            },
+            {
+              "text": "File clinician orders beside this list, separately.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: the checklist is ticked from memory without the diner in the chair.",
+          "checklist": [
+            "Diner present for validation",
+            "Failed products removed",
+            "Reassessment triggers posted"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    }
+  ]
+}

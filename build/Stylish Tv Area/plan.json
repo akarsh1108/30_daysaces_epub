@@ -1,0 +1,2913 @@
+{
+  "slug": "stylish-tv-area",
+  "title": "Stylish TV Area",
+  "subtitle": "A stylish TV area with practical child-safety measures",
+  "tagline": "Safer furniture placement, secure installation, and organized cables for US homes — without promising a childproof room.",
+  "author": "Akarsh Priyadarshan",
+  "series": "30 Day Spaces",
+  "closing_headline": "Your next room starts here",
+  "closing_blurb": "More room kits and measured layouts — same series language, same clear numbers. A stylish TV area can reduce foreseeable risks; it cannot eliminate them.",
+  "accent_hex": "#1E5F6B",
+  "units": "imperial",
+  "cover": {
+    "query": "living room TV wall with media console, calm lighting, no people",
+    "flux_prompt": "full-bleed living room with a TV console and calm furnishings, no people, no text",
+    "alt": "A living-room TV wall with a media console, a mounted screen, and simple furnishings. No people or text.",
+    "source": "openai",
+    "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\cover.jpg",
+    "credit": "Cover illustration generated for this edition.",
+    "ai_generated": true,
+    "provider_id": "pexels:7745995"
+  },
+  "designed_cover": true,
+  "chapters": [
+    {
+      "slug": "foundations-of-a-stylish-tv-area-with-child-safety-measures",
+      "title": "Foundations of a stylish TV area with child-safety measures",
+      "intro": "This book is organized as a reference guide with optional implementation sequences. You can read it from beginning to end or use the assessment, installation, rental, and maintenance sections independently. About the examples: this book is written for renters and homeowners in the United States. Some scenarios use apartments in Indian cities as illustrations of planning decisions. They do not define the book’s market, building codes, product availability, or budget. Prices are USD. Measurements are inches first. No room arrangement is completely childproof. The recommendations in this book are intended to reduce foreseeable risks, not eliminate them. Children’s abilities change quickly, so caregivers should reassess reach, climbing routes, cords, furniture stability, and equipment access regularly. This chapter defines the safety principles used in the rest of the book: TV stability, furniture stability, cable protection, and child reachability are four separate problems. Later chapters apply those principles; they do not repeat the full explanation.",
+      "opener": {
+        "query": "interior living room with a stylish TV area, child-safe design, soft lighting, minimal decor, no people",
+        "flux_prompt": "full-bleed shot of a chic living room with a TV area, showcasing safety features and stylish decor",
+        "alt": "Living room with a TV wall, media console, and simple furnishings. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\001-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:7745995"
+      },
+      "sections": [
+        {
+          "slug": "defining-your-safety-vision",
+          "title": "Write a brief that includes the safety limits",
+          "day_label": "Core guide",
+          "hero": {
+            "query": "stylish living room with TV area, child-safe design elements, soft lighting, minimal decor",
+            "flux_prompt": "elevated view of a living room with a mounted TV, showcasing safety features and decor",
+            "alt": "Living-room TV area with furniture and lighting. No people or text.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\002-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7166945"
+          },
+          "scenario": "In a 1BHK apartment in Pune, Anjali wants a calm living room that still works for her toddler. The city name is an illustration. The safety questions are the same in a US rental: what can tip, what can be pulled, and what can be climbed.",
+          "principle": "A design brief is useful only if it names both the look you want and the risks you will not accept.",
+          "body": [
+            "No room arrangement is completely childproof. The recommendations in this book are intended to reduce foreseeable risks, not eliminate them. Children’s abilities change quickly, so caregivers should reassess reach, climbing routes, cords, furniture stability, and equipment access regularly.",
+            "Write three sentences for mood, color, and materials. Then write four non-negotiables: the TV must be secured to its support; the furniture must be anchored if it can tip; cords must be protected from pulling, chewing, crushing, and heat; climbing aids near the TV must be removed. Hidden cords are not automatically safe.",
+            "Share the brief with anyone who shops, installs, or rearranges the room. A stylish TV area with practical child-safety measures is the goal. A childproof guarantee is not."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Four separate safety questions",
+              "caption": "Treat each risk on its own. A clear floor does not replace anchoring.",
+              "values": [
+                "TV support",
+                "Furniture tip",
+                "Cable pull",
+                "Climb or reach"
+              ],
+              "labels": [
+                "Can the TV fall?",
+                "Can the unit tip?",
+                "Can a cord be pulled?",
+                "Is there a climbing route?"
+              ],
+              "minimum": null,
+              "spec_id": "D001",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D001.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Write the mood, color, and material sentences.",
+              "minutes": null
+            },
+            {
+              "text": "List the four non-negotiables: TV support, furniture stability, cords, climbing routes.",
+              "minutes": null
+            },
+            {
+              "text": "Note renter or owner, wall uncertainty, and whether a fireplace or heat source is present.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: the brief names a color palette but skips anchoring, treats hidden cables as finished safety work, or assumes a low console will keep a toddler safe.",
+          "checklist": [
+            "Limitation statement read: no room is completely childproof",
+            "Four risk types named: TV, furniture, cords, reach",
+            "Renter or owner noted"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "choosing-mounting-or-a-stand",
+          "title": "Choose a support, then plan both anchors",
+          "day_label": "Core guide",
+          "hero": {
+            "query": "living room with a mounted TV and a stylish media stand, child-safe design, soft lighting",
+            "flux_prompt": "view of a media unit with a mounted TV, showcasing safety features and decor",
+            "alt": "Living-room TV area with furniture and lighting. No people or text.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\003-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8089078"
+          },
+          "scenario": "In a family room in Bengaluru, Ravi and Priya have a 55-inch TV. They are choosing between a wall mount and a stand. Either choice still requires a complete stability plan.",
+          "principle": "Mounting and a stand are both valid. Neither is safe until the TV and the furniture are secured as required.",
+          "body": [
+            "There are two separate stability questions: (1) Can the TV itself tip, slide, or fall from its support? (2) Can the furniture tip, slide, or pull away from the wall? Address both risks using compatible, manufacturer-approved hardware and installation methods. Follow the TV, mount, furniture, and anti-tip hardware instructions.",
+            "A mount’s stated weight capacity is only one compatibility check. Confirm the TV’s VESA pattern, dimensions, mounting orientation, wall structure, fasteners, clearance requirements, and installation instructions before purchasing.",
+            "If you use a stand, a low, wide unit may offer a more stable starting geometry, but stability depends on dimensions, weight distribution, construction, floor condition, TV placement, and anchoring. Do not treat shape alone as a substitute for anti-tip protection. Anchor the furniture to a suitable structural point using hardware appropriate for the wall substrate and the manufacturer’s instructions. Do not assume that two studs are available, correctly positioned, or sufficient for every furniture and anchor configuration.",
+            "Stop and obtain qualified help if you cannot identify the wall structure; you are unsure where electrical wiring or plumbing runs; the TV is unusually heavy or large; the mount cannot be attached according to its instructions; the wall is damaged or unstable; the installation requires structural reinforcement; you cannot verify the hardware’s suitability; or you are working above a fireplace or another heat-producing feature."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Decide wall-mount, freestanding stand, or both — then write how the TV is secured and how the furniture is secured.",
+              "minutes": null
+            },
+            {
+              "text": "Collect TV weight with and without stand, VESA pattern, and furniture load rating.",
+              "minutes": null
+            },
+            {
+              "text": "If the wall or hardware is uncertain, stop and get qualified help.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: the furniture is anchored but the TV is not secured to it; the TV is strapped to a unit that can still tip; or the reader assumes two wood studs will be present and correctly aligned.",
+          "checklist": [
+            "TV-support method named",
+            "Furniture-anchor method named",
+            "Professional-help boundary reviewed"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "setting-height-and-clearance-targets",
+          "title": "Set height by comfort and reach, not a universal number",
+          "day_label": "Core guide",
+          "hero": {
+            "query": "TV mounted at optimal height in a stylish living room, child-safe design, soft lighting",
+            "flux_prompt": "angle of a living room with a TV mounted at a safe height, showcasing decor and safety features",
+            "alt": "alternate view of a living room with TV height considerations",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\004-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6980724"
+          },
+          "scenario": "In a Mumbai flat, Meera wants a comfortable view and a safer setup for her toddler. A higher screen is not automatically out of reach, and a lower screen is not automatically safer.",
+          "principle": "Choose TV height from seated eye level, viewing comfort, furniture placement, and climbing routes — not from a fixed bottom-edge range.",
+          "body": [
+            "Choose the TV height by considering seated eye level, viewing comfort, furniture placement, and the child’s ability to reach or climb toward the screen. Do not use mounting height as a substitute for anchoring the TV and furniture. Follow the TV mount manufacturer’s installation requirements and assess the complete room for climbing and reach hazards.",
+            "A practical method: (1) measure seated eye height; (2) mark the approximate screen position with painter’s tape; (3) sit in the normal viewing position; (4) check neck comfort and sightlines; (5) check whether nearby furniture creates a climbing route; (6) confirm that the final installation can be securely anchored. Use your actual seated eye height rather than relying on a universal number. A 42-inch figure may be used as an example, but furniture height, body size, posture, and seating position vary.",
+            "Choose a viewing height that is comfortable and compatible with the child-safety plan. A lower TV is not automatically safer, and a higher TV is not automatically out of reach. Secure the TV and furniture, remove climbing aids, manage cords, and evaluate reachability from nearby surfaces.",
+            "Check the television manufacturer’s installation instructions for ventilation, wall clearance, orientation, and surrounding obstructions. Do not assume that a two-inch gap is sufficient. Choose a cabinet that provides the ventilation and clearance specified for the equipment installed inside it. A rear opening alone does not guarantee adequate airflow."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Height and ventilation checks",
+              "caption": "Comfort, reach, and manufacturer clearances are separate checks. Height is not a substitute for anchoring.",
+              "values": [
+                "Measure it",
+                "Tape and sit",
+                "Manufacturer"
+              ],
+              "labels": [
+                "Seated eye height",
+                "Screen mock-up",
+                "TV and device vents"
+              ],
+              "minimum": null,
+              "spec_id": "D002",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D002.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Measure seated eye height at the usual viewing seat.",
+              "minutes": null
+            },
+            {
+              "text": "Tape a mock screen on the wall and sit in the normal position.",
+              "minutes": null
+            },
+            {
+              "text": "Check neck comfort, glare, climbing routes, and whether the chosen height can be anchored.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: the reader mounts to a 36–48 inch bottom edge because it sounded child-safe, then discovers neck strain, a climbable console, or a gap that does not match the manufacturer’s ventilation instructions.",
+          "checklist": [
+            "Actual seated eye height recorded",
+            "Tape mock-up checked from the sofa",
+            "Manufacturer ventilation instructions located"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "establishing-the-safety-zone",
+          "title": "Assess reach and climbing instead of a fixed buffer",
+          "day_label": "Core guide",
+          "hero": {
+            "query": "living room with a defined safety zone around the TV area, child-safe design, soft lighting",
+            "flux_prompt": "view of a living room with a clear safety zone around the TV, showcasing decor and safety features",
+            "alt": "Living-room TV wall with a media console and furnishings. No people or text.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\005-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7214157"
+          },
+          "scenario": "In a compact 1BHK in Pune, Anjali wants the TV area to stay usable while her toddler explores. A taped 18–24 inch band would look tidy on a floor plan and still miss the stool that becomes a step.",
+          "principle": "A clear area is a planning tool. It does not replace anchoring, cord protection, or a reach-and-climb review.",
+          "body": [
+            "Create a clear area around the TV unit by removing stools, poufs, low tables, and other objects that could become climbing aids. The required clearance depends on the furniture, TV placement, room layout, and the child’s ability to reach or climb. Evaluate the complete setup rather than relying on a fixed 18–24-inch buffer.",
+            "A clear area does not replace anchoring. A TV and its supporting furniture must be secured according to the manufacturer’s instructions and the installation conditions.",
+            "Use a rug as a visual boundary only if it lies flat, has a compatible non-slip pad where appropriate, and does not obstruct walkways. Do not use a low bench or other climbable furniture as a child-safety barrier unless its placement and stability have been assessed.",
+            "Reassess the room as the child grows. A setup that is inaccessible today may become reachable within a few months."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Reach-and-climb snapshot",
+              "caption": "Reassess as the child grows. A clear area does not replace anchoring.",
+              "values": [
+                "Yes / no",
+                "Yes / no",
+                "Yes / no",
+                "Yes / no"
+              ],
+              "labels": [
+                "Reach from sofa?",
+                "Climb from stool?",
+                "Pull a cord?",
+                "Open a drawer?"
+              ],
+              "minimum": null,
+              "spec_id": "D009",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D009.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Remove stools, poufs, low tables, and toys that create a step toward the TV.",
+              "minutes": null
+            },
+            {
+              "text": "Walk the reach-and-climb worksheet in the worksheets chapter.",
+              "minutes": null
+            },
+            {
+              "text": "Confirm both TV and furniture anchors are still part of the plan.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a low bench is used as a ‘boundary’; a cord is hidden but still reachable; or the reader treats a painted buffer on the floor as a sufficient safety zone.",
+          "checklist": [
+            "Climbing aids listed and removed or relocated",
+            "Rug checked for slip and trip",
+            "Anchoring still on the plan"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "room-and-wall-assessment-layouts-sightlines-and-traffic-flow",
+      "title": "Room and wall assessment: Layouts, sightlines, and traffic flow",
+      "intro": "This is the assessment chapter. Measure the room, identify the wall, map traffic, and flag heat sources before you buy a mount or a console. Do not identify wall type by knocking alone. Do not treat a viewing-distance range as a universal rule. About the examples: this book is written for renters and homeowners in the United States. Some scenarios use apartments in Indian cities as illustrations of planning decisions. They do not define the book’s market, building codes, product availability, or budget. Prices are USD. Measurements are inches first.",
+      "opener": {
+        "query": "A spacious living room in a Pune 1BHK with a 9-foot wall, featuring a large window and minimal furniture.",
+        "flux_prompt": "A full-bleed shot of a Pune living room, showcasing a 9-foot wall with a large window, neutral tones, and a cozy sofa arrangement.",
+        "alt": "Living room with a TV wall, media console, and simple furnishings. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\006-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:7587782"
+      },
+      "sections": [
+        {
+          "slug": "assessing-layout-for-comfort-and-safety",
+          "title": "Map seating, sightlines, and viewing comfort",
+          "day_label": "Assessment",
+          "hero": {
+            "query": "A cozy Pune living room with a marked wall for TV placement, natural light streaming through the window.",
+            "flux_prompt": "A well-lit Pune living room with painter's tape marking the TV area, showcasing a minimalist decor style.",
+            "alt": "A Pune living room with a sofa and marked screen area, emphasizing safety and comfort.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\007-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7614608"
+          },
+          "scenario": "Ravi lives in a 1BHK in Pune with a 9-foot living-room wall. He wants a TV area that is comfortable for adults and harder for a toddler to turn into a climbing course.",
+          "principle": "Viewing comfort is tested from the actual seat. Published distance ranges are starting points, not guarantees.",
+          "body": [
+            "Use the manufacturer or reputable viewing-distance guidance as a starting point, then test the proposed position from the actual seating location. Viewing comfort varies with screen size, resolution, content, and personal preference. A 55-inch TV with a 7–11 foot seating range can be used as an illustrative example; it is not a universal comfort standard.",
+            "Tape the proposed screen on the wall. Sit in the primary adult seat. Check neck comfort, glare, and whether children would look sharply upward for long periods. Ensure that furniture changes made for viewing do not create a climbing route and that the viewing position does not obstruct normal traffic.",
+            "Maintain clear, usable paths between doors, seating, and frequently used areas. Check the actual furniture dimensions, door swings, mobility needs, and the people using the room. Do not rely on one fixed clearance number for every layout."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Measure seat-to-wall distance and seated eye height.",
+              "minutes": null
+            },
+            {
+              "text": "Tape the screen outline and sit in the usual seat.",
+              "minutes": null
+            },
+            {
+              "text": "Note glare, neck comfort, child viewing angle, and walkway conflicts.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a 7–11 foot rule is applied to every 55-inch TV; the tape mock-up is skipped; or a new ottoman added for ‘better viewing’ becomes a step.",
+          "checklist": [
+            "Seat-to-screen distance recorded",
+            "Tape mock-up checked by an adult and, if relevant, a child",
+            "Walkways still usable"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "understanding-wall-types-and-mounting-options",
+          "title": "Identify the wall without relying on a knock test",
+          "day_label": "Assessment",
+          "hero": {
+            "query": "A Bengaluru living room with a stud finder in action, showcasing plaster walls and a cozy media unit.",
+            "flux_prompt": "A Bengaluru living room highlighting the wall type and stud locations, with a focus on safety and style.",
+            "alt": "A close-up of a Bengaluru living room wall, emphasizing the stud finder and plaster texture.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\008-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8141964"
+          },
+          "scenario": "Anjali’s Bengaluru rental has plaster that does not match a simple drywall story. A hollow or solid knock would not tell her whether a mount can be installed.",
+          "principle": "Wall sound is a rough clue at best. It cannot confirm structure or a safe mounting point.",
+          "body": [
+            "Use the building information, visual inspection, appropriate detection tools, and the mount manufacturer’s requirements to identify the wall construction. Do not rely on knocking alone to determine whether a wall can support a TV.",
+            "If the wall structure or utility locations are uncertain, stop before drilling and consult a qualified installer or building professional.",
+            "Use the stud finder as one part of the assessment, not as proof of a safe mounting point. Confirm the wall construction, stud position, mount hole pattern, TV weight, and hardware requirements. Check for hidden wiring and plumbing before drilling. If the mount cannot be installed according to its instructions, use a different mounting method or obtain professional help. Stud finders can produce false positives or false negatives. Metal studs require different mounting methods. Stud spacing varies. The mount’s hole pattern may not align with available studs. Mounting into drywall alone is not automatically sufficient for a heavy TV.",
+            "Do not place ordinary extension cords, power strips, or non-rated cables inside walls. Use wiring and cable assemblies approved for in-wall installation and follow applicable electrical requirements. Power wiring and low-voltage signal wiring may have different installation rules. Do not cut or modify electrical wiring to create a concealed route. Electrical requirements vary by location, installation type, and building conditions. Do not modify outlets, wiring, or circuits based solely on this book. Consult a qualified electrician when electrical work is required.",
+            "Stop and obtain qualified help if you cannot identify the wall structure; you are unsure where electrical wiring or plumbing runs; the TV is unusually heavy or large; the mount cannot be attached according to its instructions; the wall is damaged or unstable; the installation requires structural reinforcement; you cannot verify the hardware’s suitability; or you are working above a fireplace or another heat-producing feature."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Record wall finish, any building documents, and outlet locations.",
+              "minutes": null
+            },
+            {
+              "text": "Use detection tools as one input; do not drill from a single beep.",
+              "minutes": null
+            },
+            {
+              "text": "If structure or utilities are uncertain, stop.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: the TV is mounted because the wall ‘sounded hollow’; the mount holes do not hit suitable structure; or ordinary power cords are planned for an in-wall path.",
+          "checklist": [
+            "Wall construction still a hypothesis until confirmed",
+            "Utilities flagged before any drilling",
+            "Professional-help boundary reviewed"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "mapping-traffic-flow-and-toddler-routes",
+          "title": "Map traffic, windows, and climbing routes",
+          "day_label": "Assessment",
+          "hero": {
+            "query": "A Mumbai living room with a drawn map of traffic flow, highlighting safety measures for toddlers.",
+            "flux_prompt": "A Mumbai living room showcasing a clear traffic flow map, emphasizing safety and functionality.",
+            "alt": "A detailed view of a Mumbai living room with marked pathways and toddler safety considerations.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\009-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5137775"
+          },
+          "scenario": "Sita’s Mumbai flat has a window on one side. She needs the TV wall to work with glare, window operation, and a toddler who treats low furniture as a staircase.",
+          "principle": "Traffic, egress, glare, and climbing are room problems. They are not solved by one placement rule.",
+          "body": [
+            "Draw a simple map: doors, windows, heating equipment, walkways, the TV, the console, cord paths, power strips, and objects a child can climb or pull. Observe how the child actually moves.",
+            "Evaluate window placement for glare, heat, operation, child access, and emergency egress. Do not block a required exit or prevent the window from being used safely. Choose the TV location based on the complete room layout rather than a universal rule against placing furniture beneath a window.",
+            "Use a rug as a visual boundary only if it lies flat, has a compatible non-slip pad where appropriate, and does not obstruct walkways. Do not use a low bench or other climbable furniture as a child-safety barrier unless its placement and stability have been assessed."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Sketch doors, windows, heat sources, walkways, TV, console, and cord paths.",
+              "minutes": null
+            },
+            {
+              "text": "Mark climbing aids and pullable objects.",
+              "minutes": null
+            },
+            {
+              "text": "Check that windows and required exits still work.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a low bench defines the TV ‘zone’; a console under a window blocks egress; or a walkway is planned with one universal clearance number.",
+          "checklist": [
+            "Room map started",
+            "Window and egress checked",
+            "Climbing aids listed"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "finalizing-your-plan-for-tv-height-and-cable-routing",
+          "title": "Flag fireplaces, heat, and cable routes",
+          "day_label": "Assessment",
+          "hero": {
+            "query": "A family room with a TV mock-up at the ideal height, showcasing a cozy and safe environment.",
+            "flux_prompt": "A family room with a mock screen at the correct height, emphasizing safety and comfort for children.",
+            "alt": "A well-styled family room with a focus on TV height and safety considerations.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\010-pexels.jpg",
+            "credit": "Photo by Annushka  Ahuja on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8054848"
+          },
+          "scenario": "Vikram’s family room has a central fireplace. He measured a seated eye height of about 42 inches — a useful personal measurement, not a universal target — and still needs to know whether the fireplace wall can take a TV at all.",
+          "principle": "Do not assume a fireplace wall is suitable for a TV. Heat, construction, and cable routing are separate checks.",
+          "body": [
+            "Do not assume that a fireplace wall is suitable for TV mounting. Follow the fireplace manufacturer’s required clearances and the TV manufacturer’s installation instructions. If heat exposure, wall construction, or cable routing is uncertain, obtain qualified advice before installation. Do not improvise a heat test. Mantel depth, heat deflection, warranty limits, masonry or framing, and hidden services all matter. Avoid a universal clearance number above a fireplace.",
+            "Provide the clearances, airflow, and ventilation specified by each device manufacturer. Do not stack or enclose equipment in a way that blocks vents or traps heat. Heat-generating equipment includes AV receivers, game consoles, streaming devices, power adapters, network equipment, soundbars, amplifiers, and media hubs — always model-specific.",
+            "The goal is not simply to hide cords. Route them so they are protected from pulling, chewing, crushing, heat, sharp edges, and accidental disconnection while remaining accessible for inspection and maintenance."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "If a fireplace or other heat source is present, stop and collect both manufacturers’ instructions.",
+              "minutes": null
+            },
+            {
+              "text": "List every heat-generating device and its ventilation notes.",
+              "minutes": null
+            },
+            {
+              "text": "Sketch power and signal paths separately.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a TV is planned above a fireplace from a magazine photo; heat testing is improvised with a hand; or cables are routed toward the heat source to keep them out of sight.",
+          "checklist": [
+            "Fireplace or heat source yes/no recorded",
+            "Device list started",
+            "Cable path not crossing heat or sharp edges"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "choosing-the-right-media-unit-secure-stylish-and-functional",
+      "title": "Choosing the right media unit: Geometry, load, and ventilation",
+      "intro": "This is the furniture chapter. Geometry helps. It does not replace anti-tip protection, a load rating, or manufacturer ventilation. Closed storage is not automatically safer.",
+      "opener": {
+        "query": "media unit in a modern Indian living room, low and wide design, clean lines, soft lighting, no people",
+        "flux_prompt": "full-bleed shot of a stylish media unit in a contemporary Indian apartment, showcasing its design and functionality",
+        "alt": "Living room with a TV wall, media console, and simple furnishings. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\011-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:8089161"
+      },
+      "sections": [
+        {
+          "slug": "understanding-stability",
+          "title": "Treat low and wide as a starting geometry, not a safety system",
+          "day_label": "Furniture",
+          "hero": {
+            "query": "stable media unit design, low and wide, modern Indian decor, soft lighting",
+            "flux_prompt": "angle shot of a low media unit with rounded edges and handleless fronts, showcasing its stability and design",
+            "alt": "close-up of a media unit's base and legs, emphasizing stability features",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\012-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6934172"
+          },
+          "scenario": "Ravi and Priya need a media unit that can take a TV and survive two curious children. A short, wide credenza is on the shortlist — and still needs a full stability plan.",
+          "principle": "A low, wide unit may offer a more stable starting geometry, but shape is not a substitute for anti-tip protection.",
+          "body": [
+            "A low, wide unit may offer a more stable starting geometry, but stability depends on the unit’s dimensions, weight distribution, construction, floor condition, TV placement, and anchoring. A unit can still tip if it is shallow, the TV is heavy or placed near the front, drawers are pulled out, a child climbs, the floor is uneven, the back panel is weak, or doors and shelves create steps.",
+            "Use published dimension ranges only as shopping examples. A 20–28 inch height or 18–22 inch depth can describe one common living-room console; they are not universal child-safety measurements. Check the furniture manufacturer’s load rating for the TV base, whether an anti-tip kit is included, whether the kit matches the wall, and whether the unit has a structural attachment point.",
+            "Footprint, plinth or braced legs, and a stiff back panel matter more than a brand name. You will still treat furniture anchoring as a separate requirement in the next chapter."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Console geometry is a starting point",
+              "caption": "Example shopping ranges, not universal safety measurements. Anchoring is still required.",
+              "values": [
+                "example only",
+                "example only",
+                "required"
+              ],
+              "labels": [
+                "Height (one common range: 20–28 in)",
+                "Depth (one common range: 18–22 in)",
+                "Anti-tip plan"
+              ],
+              "minimum": null,
+              "spec_id": "D005",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D005.svg"
+            },
+            {
+              "kind": "table",
+              "title": "What still tips a low, wide unit",
+              "caption": "Shape does not replace anti-tip protection.",
+              "values": [
+                "Yes / no",
+                "Yes / no",
+                "Yes / no",
+                "Yes / no"
+              ],
+              "labels": [
+                "Shallow depth?",
+                "TV near front edge?",
+                "Drawers as steps?",
+                "Unit unanchored?"
+              ],
+              "minimum": null,
+              "spec_id": "D003",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D003.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Example console, not a template",
+              "caption": "One household chose a 24-inch-tall, 20-inch-deep credenza. Copy the checks, not the inches.",
+              "values": [
+                "24 in example",
+                "20 in example",
+                "Check the kit"
+              ],
+              "labels": [
+                "Height (this household)",
+                "Depth (this household)",
+                "Anti-tip hardware"
+              ],
+              "minimum": null,
+              "spec_id": "D006",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D006.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Record unit height, depth, width, and TV placement (front vs back of the top).",
+              "minutes": null
+            },
+            {
+              "text": "Read the load rating and anti-tip kit notes.",
+              "minutes": null
+            },
+            {
+              "text": "Note drawers, shelves, and whether they can become climbing steps.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a low, wide console is treated as tip-proof; the TV sits on the front edge; or drawers become a ladder because child locks were skipped.",
+          "checklist": [
+            "Geometry recorded as a starting point only",
+            "Load rating and anti-tip kit checked",
+            "Climbing features on the unit listed"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "integrated-venting-and-signal-paths",
+          "title": "Match the cabinet to the equipment, not a two-inch rule",
+          "day_label": "Furniture",
+          "hero": {
+            "query": "media unit with integrated venting, clean design, modern Indian decor, soft lighting",
+            "flux_prompt": "close-up of a media unit's back panel with vent cutouts and cable management features, showcasing functionality",
+            "alt": "angle shot of a media unit with remote control access and cable ports",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\013-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6489108"
+          },
+          "scenario": "Meera’s Bengaluru rental needs a console that can hide a receiver and a console without cooking them. A rear cutout looks like ventilation and may not be.",
+          "principle": "Closed storage can hide clutter. It must still meet each device’s ventilation and access needs.",
+          "body": [
+            "Follow the manufacturer’s clearance and ventilation requirements for every device. Do not enclose heat-generating equipment in a tight cabinet or block its ventilation openings. If the manufacturer specifies minimum clearances, use those requirements rather than a universal distance.",
+            "Choose a cabinet that provides the ventilation and clearance specified for the equipment installed inside it. A rear opening alone does not guarantee adequate airflow.",
+            "Closed storage can reduce visual clutter and limit access to some items, but it must be designed for the equipment inside. Check ventilation, cable routing, remote-signal requirements, access for maintenance, and the manufacturer’s clearances before enclosing devices. Closed cabinets can trap heat, restrict remotes, block vents, hide damaged cables, and encourage tangled routes.",
+            "Heat-generating equipment includes AV receivers, game consoles, streaming devices, power adapters, network equipment, soundbars, amplifiers, and media hubs. Do not stack or enclose equipment in a way that blocks vents or traps heat. Keep power supplies ventilated."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Device inventory (no generic clearance numbers)",
+              "caption": "Heat output and ventilation are model-specific. Copy the manufacturer’s instructions, not a universal gap.",
+              "values": [
+                "Model-specific",
+                "Model-specific",
+                "Potentially high",
+                "Model-specific"
+              ],
+              "labels": [
+                "TV",
+                "Game console",
+                "AV receiver",
+                "Streaming device / router"
+              ],
+              "minimum": null,
+              "spec_id": "D004",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D004.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "List each device and find its ventilation notes.",
+              "minutes": null
+            },
+            {
+              "text": "Check rear openings, side vents, and shelf spacing against those notes.",
+              "minutes": null
+            },
+            {
+              "text": "Confirm remote or app control still works with doors closed.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a rear opening is treated as enough airflow; devices are stacked; or a universal two-inch gap is used instead of the manufacturer’s instructions.",
+          "checklist": [
+            "Device inventory started",
+            "No generic clearance number used",
+            "Remote path checked"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "neat-closed-storage",
+          "title": "Use closed storage for access control, then check heat and reach",
+          "day_label": "Furniture",
+          "hero": {
+            "query": "media unit with closed storage, modern Indian decor, organized and tidy, soft lighting",
+            "flux_prompt": "angle shot of a media unit with closed storage compartments, showcasing organization and safety features",
+            "alt": "close-up of a drawer with soft close mechanism and child lock",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\014-pexels.jpg",
+            "credit": "Photo by Keegan Checks on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:10117736"
+          },
+          "scenario": "Anjali’s Mumbai flat needs remotes and controllers out of a toddler’s first grab, without turning the cabinet into a sealed oven.",
+          "principle": "Closed storage limits some access. It does not make the cabinet childproof or automatically well ventilated.",
+          "body": [
+            "Put remotes, controllers, and small accessories in doors or drawers that latch if that matches how your household actually uses the room. Soft-close hardware can reduce slammed fingers; it is not a lock. Check whether a child can still open the door and whether shelves inside become climbing steps once the door is open.",
+            "Keep glass, ceramic, sharp, heavy, and small objects out of the child’s reach. For homes with young children, assess whether decorative objects can be pulled, thrown, broken, swallowed, or used as climbing aids.",
+            "Maintain device-sensor paths and manufacturer clearances while you conceal cables. If enclosing the equipment conflicts with ventilation or access, change the cabinet or the equipment location — do not ‘solve’ heat by leaving the door ajar as a habit."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Assign closed storage for remotes and small objects.",
+              "minutes": null
+            },
+            {
+              "text": "Add latches only where they match the furniture and do not create a new climb.",
+              "minutes": null
+            },
+            {
+              "text": "Recheck ventilation after doors are closed.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: closed doors are treated as childproof; heat-generating gear is sealed in; or open baskets of remotes sit at toddler height ‘just for now.’",
+          "checklist": [
+            "Small objects and remotes have a home",
+            "Doors checked as possible climbing features",
+            "Closed-door heat check done"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "tested-anchor-readiness-and-load",
+          "title": "Confirm the unit can be anchored and can carry the TV",
+          "day_label": "Furniture",
+          "hero": {
+            "query": "media unit with strong anchoring features, modern Indian decor, soft lighting",
+            "flux_prompt": "angle shot of a media unit highlighting its back panel and anchoring features, showcasing stability and safety",
+            "alt": "close-up of back panel with anchor points and solid rails",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\015-pexels.jpg",
+            "credit": "Photo by Guto Castro on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:27571490"
+          },
+          "scenario": "Suresh is shopping for a console in a Pune 1BHK. The listing says ‘anti-tip ready.’ That claim does not replace the installation instructions.",
+          "principle": "An anti-tip claim on a product page is not an installation plan.",
+          "body": [
+            "Check whether the furniture manufacturer provides an anti-tip kit; whether the kit is compatible with the wall; whether the furniture has an appropriate structural attachment point; whether the unit needs to be attached to studs or another suitable structure; whether the furniture can support the TV base; whether drawers can be opened by a child; and whether shelves create climbing steps.",
+            "Inspect the back panel. A thin cardboard back may not be a structural attachment point. Look for rails, a solid top rail, or the attachment locations named in the furniture instructions. Do not assume two studs will line up with those points.",
+            "If the unit cannot be secured safely, choose a different unit or a different TV support. Do not buy a console because it looks low and wide and hope the next chapter will fix it."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Furniture anti-tip readiness",
+              "caption": "A product’s anti-tip claim does not replace checking its installation instructions.",
+              "values": [
+                "Yes / no",
+                "Yes / no",
+                "Yes / no",
+                "Yes / no"
+              ],
+              "labels": [
+                "Kit included?",
+                "Wall compatible?",
+                "Structural attachment?",
+                "TV load within rating?"
+              ],
+              "minimum": null,
+              "spec_id": "D016",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D016.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Read the anti-tip kit and load-rating documents before purchase.",
+              "minutes": null
+            },
+            {
+              "text": "Find the structural attachment point on the furniture.",
+              "minutes": null
+            },
+            {
+              "text": "Match that point to a suitable wall structure — or change the plan.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: the kit is tossed; the strap is screwed into a thin back panel; or the TV base exceeds the top’s load rating.",
+          "checklist": [
+            "Anti-tip kit documented",
+            "Attachment point found",
+            "TV load vs furniture rating checked"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "anchoring-media-furniture-methods-hardware-and-invisible-ins",
+      "title": "Anchoring the TV and the furniture: Two separate jobs",
+      "intro": "This is the mounting and furniture-anchoring chapter. There are two separate stability questions: (1) Can the TV itself tip, slide, or fall from its support? (2) Can the furniture tip, slide, or pull away from the wall? Address both risks using compatible, manufacturer-approved hardware and installation methods. Follow the TV, mount, furniture, and anti-tip hardware instructions. Wood-stud mounting is only one wall condition. Stop and obtain qualified help if you cannot identify the wall structure; you are unsure where electrical wiring or plumbing runs; the TV is unusually heavy or large; the mount cannot be attached according to its instructions; the wall is damaged or unstable; the installation requires structural reinforcement; you cannot verify the hardware’s suitability; or you are working above a fireplace or another heat-producing feature.",
+      "opener": {
+        "query": "media unit anchored to wall with invisible hardware, soft natural light, textured wall, no people, no text, no watermark",
+        "flux_prompt": "full-bleed image of a stylish media unit anchored securely to a wall, showcasing clean lines and hidden hardware",
+        "alt": "Living room with a TV wall, media console, and simple furnishings. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\016-pexels.jpg",
+        "credit": "Photo by Jan van der Wolf on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:18335927"
+      },
+      "sections": [
+        {
+          "slug": "understanding-the-importance-of-anchoring",
+          "title": "Separate TV stability from furniture stability",
+          "day_label": "Mounting",
+          "hero": {
+            "query": "media unit anchored to wall with invisible hardware, soft natural light, textured wall, no people, no text, no watermark",
+            "flux_prompt": "image of a media unit anchored to the wall, highlighting the hidden hardware and clean design",
+            "alt": "close-up of the anchoring hardware used behind a media unit.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\016-pexels.jpg",
+            "credit": "Photo by Jan van der Wolf on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:18335927"
+          },
+          "scenario": "Priya likes her media unit. Her toddler uses drawers as steps. Anchoring the cabinet would not, by itself, keep the TV on top of it.",
+          "principle": "Securing the furniture does not secure the TV. Securing the TV does not secure the furniture.",
+          "body": [
+            "There are two separate stability questions: (1) Can the TV itself tip, slide, or fall from its support? (2) Can the furniture tip, slide, or pull away from the wall? Address both risks using compatible, manufacturer-approved hardware and installation methods. Follow the TV, mount, furniture, and anti-tip hardware instructions.",
+            "Unanchored furniture can look stable until a drawer becomes a step or a child pulls the top edge. Adjacent furniture can create a ladder. A heavy TV on a weak or unsuitable wall is still unsafe. A strap rated for one setup may not be suitable for another.",
+            "A product’s anti-tip claim does not replace checking its installation instructions. If you cannot identify the wall, locate utilities, or attach the hardware as instructed, stop. Stop and obtain qualified help if you cannot identify the wall structure; you are unsure where electrical wiring or plumbing runs; the TV is unusually heavy or large; the mount cannot be attached according to its instructions; the wall is damaged or unstable; the installation requires structural reinforcement; you cannot verify the hardware’s suitability; or you are working above a fireplace or another heat-producing feature."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Write the TV-support method and the furniture-anchor method as two lines.",
+              "minutes": null
+            },
+            {
+              "text": "Note wall construction and any uncertainty.",
+              "minutes": null
+            },
+            {
+              "text": "If either line is ‘hope,’ change the setup or get help.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: the furniture is anchored but the TV is free on top; the TV is strapped to a unit that can still walk away from the wall; or adjacent stools complete a climb.",
+          "checklist": [
+            "Two stability questions answered",
+            "Wall uncertainty flagged",
+            "Adjacent climbing furniture listed"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "choosing-the-right-hardware",
+          "title": "Match hardware to the wall substrate",
+          "day_label": "Mounting",
+          "hero": {
+            "query": "media unit anchored with various hardware types, soft natural light, textured wall, no people, no text, no watermark",
+            "flux_prompt": "image showcasing different types of anchoring hardware used for media units, emphasizing their functionality and design",
+            "alt": "close-up of flexible straps and rigid brackets used for anchoring.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\018-pexels.jpg",
+            "credit": "Photo by Ann H on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:38862869"
+          },
+          "scenario": "Arjun’s Bengaluru rental may be masonry in one wall and a different assembly in another. A wood-stud strap kit is not automatically the right product.",
+          "principle": "Hardware must match the wall substrate, the furniture, the TV, and the manufacturer’s instructions.",
+          "body": [
+            "Anchor the furniture to a suitable structural point using hardware appropriate for the wall substrate and the manufacturer’s instructions. Do not assume that two studs are available, correctly positioned, or sufficient for every furniture and anchor configuration. If a later example uses two wood studs, treat it as an example — not a universal rule.",
+            "Wood studs: mount hardware must match stud size, spacing, and mount requirements. Metal studs: may require a specifically designed mounting method and structural reinforcement. Concrete or masonry: requires appropriate anchors, substrate verification, and load calculations. Plaster over lath: requires careful identification of the supporting structure. Drywall without suitable structural support: do not assume ordinary anchors can support the TV and mount. Do not provide yourself a generic anchor size as a universal solution.",
+            "Flexible straps, rigid brackets, and cleats are different tools. Choose the type named in the furniture or anti-tip instructions, with a load rating that matches this setup. A mount’s stated weight capacity is only one compatibility check. Confirm VESA pattern, dimensions, orientation, wall structure, fasteners, clearance, cable bend, maintenance access, and whether the mount can support the TV’s center of gravity."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Name the wall condition: wood stud, metal stud, masonry, plaster, or unknown.",
+              "minutes": null
+            },
+            {
+              "text": "Select hardware named for that condition and this furniture or mount.",
+              "minutes": null
+            },
+            {
+              "text": "If unknown, stop.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: drywall anchors are used because they are in the junk drawer; metal studs are treated like wood; or weight capacity is the only mount check.",
+          "checklist": [
+            "Wall condition named",
+            "Hardware matches that condition",
+            "VESA and orientation checked if wall-mounting"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "installation-techniques-for-safety",
+          "title": "Install as instructed — and do not force a pull test",
+          "day_label": "Mounting",
+          "hero": {
+            "query": "media unit installation process, soft natural light, textured wall, no people, no text, no watermark",
+            "flux_prompt": "image capturing the installation process of a media unit, highlighting the anchoring techniques and tools used",
+            "alt": "close-up of the installation tools and techniques for anchoring a media unit.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\019-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8720260"
+          },
+          "scenario": "Meera is ready to attach straps in a small Mumbai living room. She wants a way to know the install worked without yanking the TV off the wall.",
+          "principle": "Follow the installation instructions. Do not perform a forceful pull test on a TV or furniture unit.",
+          "body": [
+            "Map a load path only after the wall structure is identified. On the furniture, use the structural attachment points named by the manufacturer — often a top rail or specified brace — not a thin decorative back.",
+            "Use the fasteners specified for that wall. Do not drill based only on a detector reading. If the mount’s hole pattern does not align with suitable structure, change the method or get professional help. Stop and obtain qualified help if you cannot identify the wall structure; you are unsure where electrical wiring or plumbing runs; the TV is unusually heavy or large; the mount cannot be attached according to its instructions; the wall is damaged or unstable; the installation requires structural reinforcement; you cannot verify the hardware’s suitability; or you are working above a fireplace or another heat-producing feature.",
+            "Inspect the anchor points, straps, brackets, fasteners, and furniture connection points according to the manufacturer’s instructions. Do not perform a forceful pull test on a TV or furniture unit. If you notice movement, looseness, damage, or an unexplained gap, stop using the setup as necessary and correct the issue using the appropriate installation method."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Dry-fit hardware against the actual wall and furniture.",
+              "minutes": null
+            },
+            {
+              "text": "Install only with the specified fasteners and locations.",
+              "minutes": null
+            },
+            {
+              "text": "Inspect for snug, undamaged connections — do not yank the TV.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: holes are drilled from a stud-finder beep; a ‘tug test’ is used as proof; or the strap is installed into cardboard backing.",
+          "checklist": [
+            "Instructions in hand during install",
+            "No forceful pull test",
+            "Connections inspected for movement or damage"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "maintenance-and-inspection",
+          "title": "Keep anchors inspectable after the room is styled",
+          "day_label": "Mounting",
+          "hero": {
+            "query": "media unit inspection process, soft natural light, textured wall, no people, no text, no watermark",
+            "flux_prompt": "image depicting the inspection process of a media unit, showcasing tools and techniques for checking anchoring",
+            "alt": "close-up of inspection tools and methods for maintaining a securely anchored media unit.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\020-pexels.jpg",
+            "credit": "Photo by Ruslan Alekso on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:35383623"
+          },
+          "scenario": "Ravi’s Chennai apartment looks finished. The straps disappeared behind baskets — and so did any way to see whether they are still doing their job.",
+          "principle": "An anchor you cannot inspect is a plan you cannot maintain.",
+          "body": [
+            "Keep a path to straps, brackets, and fasteners. If styling makes inspection impossible, change the styling. Document hardware types, locations, and the date of the last visual check.",
+            "Reinspect the setup after moving furniture, replacing equipment, changing cable routes, or noticing impact, movement, or damage. Do not assume that an earlier installation remains safe after the load or configuration changes.",
+            "The maintenance chapter later in this book is the schedule. This chapter’s job is to make that schedule possible."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Photograph fastener locations before you conceal them.",
+              "minutes": null
+            },
+            {
+              "text": "Leave an inspection path.",
+              "minutes": null
+            },
+            {
+              "text": "Write the next visual-check date.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: baskets block the straps; the TV is swapped and the old mount is assumed to fit; or a moved console is left unanchored ‘until the weekend.’",
+          "checklist": [
+            "Inspection path exists",
+            "Hardware photographed",
+            "Reinspect triggers understood"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "cord-management-mastery-hide-route-and-contain",
+      "title": "Cord management: Plan, protect, contain, and inspect",
+      "intro": "This is the cord chapter. The goal is not simply to hide cords. Route them so they are protected from pulling, chewing, crushing, heat, sharp edges, and accidental disconnection while remaining accessible for inspection and maintenance. Electrical requirements vary by location, installation type, and building conditions. Do not modify outlets, wiring, or circuits based solely on this book. Consult a qualified electrician when electrical work is required.",
+      "opener": {
+        "query": "media wall with hidden cords, soft natural light, teak textures, photorealistic, no people, no text, no watermark",
+        "flux_prompt": "full-bleed shot of a stylish media wall with hidden cords, showcasing a clean and organized setup",
+        "alt": "Living room with a TV wall, media console, and simple furnishings. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\021-pexels.jpg",
+        "credit": "Photo by Engin Akyurt on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:9996341"
+      },
+      "sections": [
+        {
+          "slug": "understanding-the-risks-of-exposed-cords",
+          "title": "Treat cords as pull, heat, and damage hazards — not as clutter",
+          "day_label": "Cords",
+          "hero": {
+            "query": "media wall with organized cords, soft natural light, teak textures, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "angle shot of a media wall with neatly routed cables behind panels",
+            "alt": "Living-room TV area with furniture and lighting. No people or text.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\022-pexels.jpg",
+            "credit": "Photo by Ann H on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:38285047"
+          },
+          "scenario": "In a 1BHK in Pune, Riya’s media wall looks styled until a toddler finds a loop of power cable. Hiding that loop behind the console would not, by itself, make it safe.",
+          "principle": "Concealment can improve appearance. A hidden cable may still be reachable, pinched, overheated, or installed incorrectly.",
+          "body": [
+            "The goal is not simply to hide cords. Route them so they are protected from pulling, chewing, crushing, heat, sharp edges, and accidental disconnection while remaining accessible for inspection and maintenance.",
+            "A hidden cable may still be accessible to a child, pinched behind furniture, damaged by bending, pulled under tension, trapped near a heat source, installed in a way that violates electrical requirements, or difficult to inspect or replace.",
+            "Keep outlets and power strips inaccessible where practical. Use suitable outlet protection where appropriate. Do not cover outlets in a way that creates overheating or access problems. Do not place loose adapters or power bricks where children can pull them. Keep cords secured without creating tension on plugs. Do not recommend a generic outlet cover to yourself without checking compatibility with the outlet."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "List every power brick, strip, and dangling loop a child could reach.",
+              "minutes": null
+            },
+            {
+              "text": "Note pinch points behind the console and at door swings.",
+              "minutes": null
+            },
+            {
+              "text": "Mark any cable near heat or a sharp cabinet edge.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: the cable path is hidden but still reachable; a power brick sits on the floor; or an outlet is covered in a way that traps heat.",
+          "checklist": [
+            "Reachable cords listed",
+            "Power bricks off the floor and out of pull range where practical",
+            "Outlet protection considered without blocking heat"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "the-four-layer-pathway-framework",
+          "title": "Use four layers: Plan, protect, contain, inspect",
+          "day_label": "Cords",
+          "hero": {
+            "query": "gaming setup with organized cords, soft natural light, linen textures, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "angled view of a gaming console setup with neatly managed cables behind furniture",
+            "alt": "close-up of a gaming console with organized cords and a clean look",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\023-pexels.jpg",
+            "credit": "Photo by Josh Sorenson on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:36363144"
+          },
+          "scenario": "Anil is adding a game console in a Bengaluru apartment. He wants one method that does not dump every cable into the same hot, overfilled raceway.",
+          "principle": "Four layers keep the work in order. They do not require every cable to share one containment system.",
+          "body": [
+            "Layer 1 — Plan: identify each device, its power and signal connections, the route length, and how you will move or service the equipment. Sketch two paths: wall outlet → power protection → media console → device; and TV → HDMI or other signal cable → console or source. Do not force power and signal through the same containment if that creates heat, signal, or installation problems.",
+            "Layer 2 — Protect: avoid pinch points, sharp edges, heat, tension, and excessive bending. Keep cords away from children’s reach. Avoid cables stretched tightly between devices. Avoid sharp bends near connectors. Leave enough slack for safe maintenance. Do not coil cables tightly around heat-generating equipment. Keep excess cable away from children’s reach. Avoid placing cables where furniture movement can crush them.",
+            "Layer 3 — Contain: select compatible raceways, clips, sleeves, or channels. Check the load and adhesive limitations. Avoid creating a new trip or climb hazard.",
+            "Layer 4 — Inspect: check plugs and cables, adhesive and fasteners, and that devices remain ventilated. Reassess after furniture movement or equipment changes.",
+            "Follow the power strip or surge protector’s ratings and manufacturer instructions. Avoid overloading outlets, connecting power strips in series, or using extension cords as permanent wiring. If the equipment load or electrical condition is uncertain, consult a qualified electrician. Do not use a surge protector as a substitute for adequate circuit capacity. Inspect cords for damage. Keep power supplies ventilated. Electrical requirements vary by location, installation type, and building conditions. Do not modify outlets, wiring, or circuits based solely on this book. Consult a qualified electrician when electrical work is required."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Draw the power path and the signal path as two lines.",
+              "minutes": null
+            },
+            {
+              "text": "Mark pinch, heat, reach, and door-swing conflicts.",
+              "minutes": null
+            },
+            {
+              "text": "Choose containment only after those conflicts are named.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: every cable is stuffed into one raceway; power strips are daisy-chained; or an extension cord becomes permanent wiring because it looked tidy.",
+          "checklist": [
+            "Power path sketched",
+            "Signal path sketched",
+            "No series-connected power strips in the plan"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "designing-the-end-to-end-pathway",
+          "title": "Keep in-wall work inside electrical rules",
+          "day_label": "Cords",
+          "hero": {
+            "query": "home office with organized cords, soft natural light, plaster textures, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "view of a home office with neatly routed cables under the desk",
+            "alt": "close-up of a desk with organized cords and a clean workspace",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\024-pexels.jpg",
+            "credit": "Photo by Diana ✨ on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:28505043"
+          },
+          "scenario": "Priya wants a clean wall in a Mumbai flat. The tempting shortcut is to push ordinary cables into a wall cavity.",
+          "principle": "A concealed route is not automatically a legal or safe route.",
+          "body": [
+            "Do not place ordinary extension cords, power strips, or non-rated cables inside walls. Use wiring and cable assemblies approved for in-wall installation and follow applicable electrical requirements. Power wiring and low-voltage signal wiring may have different installation rules. Do not cut or modify electrical wiring to create a concealed route.",
+            "Electrical requirements vary by location, installation type, and building conditions. Do not modify outlets, wiring, or circuits based solely on this book. Consult a qualified electrician when electrical work is required.",
+            "If the wall structure or utility locations are uncertain, stop before drilling. Stop and obtain qualified help if you cannot identify the wall structure, locate wiring or plumbing, attach the mount as instructed, or verify the hardware."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Decide surface routing versus in-wall routing.",
+              "minutes": null
+            },
+            {
+              "text": "If in-wall, use only rated assemblies and qualified electrical work.",
+              "minutes": null
+            },
+            {
+              "text": "If you cannot verify that, keep the route on the surface and protect it.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: an ordinary extension cord is fished into a wall; a power strip is hidden in a cavity; or wiring is cut to ‘make a hole work.’",
+          "checklist": [
+            "In-wall vs surface decided",
+            "No ordinary power cord planned inside a wall",
+            "Electrician flagged if power wiring must move"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "choosing-containment-components-with-confidence",
+          "title": "Use raceways as organizers, not as a child-safety system",
+          "day_label": "Cords",
+          "hero": {
+            "query": "media wall with adhesive raceways, soft natural light, teak textures, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "angled view of a media wall with adhesive raceways and organized cords",
+            "alt": "close-up of adhesive raceways installed on a wall for cord management",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\021-pexels.jpg",
+            "credit": "Photo by Engin Akyurt on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:9996341"
+          },
+          "scenario": "Ravi is in a Chennai rental and likes adhesive raceways because they promise easy removal. Removal results are not a promise, and a raceway is not automatically child-safe.",
+          "principle": "A raceway organizes and protects cables; it does not automatically make a route child-safe.",
+          "body": [
+            "A raceway organizes and protects cables; it does not automatically make a route child-safe. Check the product’s capacity, attachment method, removal limitations, and placement. Keep cable paths away from climbing routes, door movement, heat, and sharp edges. Raceways must be appropriately sized. Cables must not be crushed. The raceway should not create a tripping hazard. Adhesive may fail with heat, dust, texture, or humidity. A child may still pull on the raceway. Install according to the product’s weight and cable limits. Do not route cables across door hinges or moving furniture.",
+            "Some raceways are marketed as removable, but removal results depend on the adhesive, wall finish, paint condition, installation duration, temperature, and removal method. Follow the manufacturer’s instructions and test a small hidden area. Do not assume that removal will leave the wall undamaged.",
+            "Removability and residue depend on the product, surface, temperature, load, installation time, and removal method. Check the manufacturer’s instructions and test an inconspicuous area. Do not rely on adhesive pads as the sole safety system for heavy, sharp, breakable, or climbable objects."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Size the raceway to the cable bundle without crushing.",
+              "minutes": null
+            },
+            {
+              "text": "Test adhesive in a hidden spot.",
+              "minutes": null
+            },
+            {
+              "text": "Keep the run off climbing routes and out of door swings.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: an overfilled raceway crushes cables; adhesive fails in heat; or the raceway itself becomes a pull handle.",
+          "checklist": [
+            "Capacity checked",
+            "Adhesive tested",
+            "Removal damage not assumed to be zero"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "your-checklist-for-the-week-ahead",
+          "title": "Cord checklist: length, strain, and power ratings",
+          "day_label": "Cords",
+          "hero": {
+            "query": "cozy living room with organized cords, soft natural light, linen textures, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "view of a cozy living room with neatly managed cords and a clean setup",
+            "alt": "close-up of a living room with organized cords and a stylish finish",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\026-pexels.jpg",
+            "credit": "Photo by Oleg Melevych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:12212553"
+          },
+          "scenario": "Meera in a Delhi 1BHK is ready to buy parts. She will not use a surge protector as proof that the circuit is adequate.",
+          "principle": "Buy containment after the route, the load, and the child-reach picture are clear.",
+          "body": [
+            "Measure each run. Avoid cables stretched tightly between devices. Leave slack for maintenance. Do not coil leftover cable on a hot device. Keep extra length out of reach and out of furniture-crush zones.",
+            "Follow the power strip or surge protector’s ratings and manufacturer instructions. Avoid overloading outlets, connecting power strips in series, or using extension cords as permanent wiring.",
+            "Add child-accessible outlet protection only with compatible products. Do not cover outlets in a way that creates overheating."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Measure routes and note service slack.",
+              "minutes": null
+            },
+            {
+              "text": "Confirm strip ratings against the actual devices.",
+              "minutes": null
+            },
+            {
+              "text": "Place the strip where a child cannot pull plugs — if that is not possible, change the layout.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: slack is stuffed behind a hot receiver; strips are chained; or the surge protector is treated as extra circuit capacity.",
+          "checklist": [
+            "Routes measured",
+            "No daisy-chained strips",
+            "Outlet and brick access reviewed"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "anchoring-decor-and-accessories-beauty-without-risk",
+      "title": "Anchoring decor and accessories: Objects are not furniture",
+      "intro": "This is the decor chapter. Furniture anchoring reduces the risk of a cabinet, shelf, or console tipping. Object anchoring secures items placed on or attached to furniture — frames, lamps, speakers, small electronics, vases, plants. The hardware, load, surface, and failure modes differ. Securing a decorative object does not secure the furniture supporting it. Evaluate the stability of the furniture separately. No room arrangement is completely childproof. The recommendations in this book are intended to reduce foreseeable risks, not eliminate them.",
+      "opener": {
+        "query": "small indian apartment interior minimalist daylight editorial",
+        "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK apartment interior, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+        "alt": "A calm apartment interior",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\027-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:6890400"
+      },
+      "sections": [
+        {
+          "slug": "anchoring-decor-and-accessories-beauty-without-risk",
+          "title": "Secure objects separately from the furniture that holds them",
+          "day_label": "Decor",
+          "hero": {
+            "query": "small indian apartment interior minimalist daylight editorial",
+            "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK apartment interior, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+            "alt": "A calm apartment interior",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\027-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6890400"
+          },
+          "scenario": "A family living room has a glass vase, a leaning frame, and a loose soundbar on a console. Museum putty on the vase would not make the console safe to climb.",
+          "principle": "Securing a decorative object does not secure the furniture supporting it.",
+          "body": [
+            "Furniture anchoring is for the cabinet, shelf, or console. Object anchoring is for what sits on it. Do both when both risks exist. Hardware that holds a frame will not hold a tipping credenza.",
+            "For homes with young children, assess whether decorative objects can be pulled, thrown, broken, swallowed, or used as climbing aids. Place fragile, sharp, heavy, or small objects outside the child’s reach and secure larger items where appropriate. Glass vases, ceramic objects, heavy pieces, sharp-edged frames, floor-standing mirrors, small objects that can be swallowed, lamp cords, and objects at the console edge all need a decision: relocate, enclose, or secure with hardware that matches the load.",
+            "Removability and residue depend on the product, surface, temperature, load, installation time, and removal method. Check the manufacturer’s instructions and test an inconspicuous area. Do not rely on adhesive pads as the sole safety system for heavy, sharp, breakable, or climbable objects. These products can damage paint, leave residue, stain finishes, fail under heat, fail on dusty or textured surfaces, lose adhesion, damage veneer, or become accessible to children if they detach.",
+            "Soundbars and speakers have their own mounts, weight limits, and cable paths. Confirm VESA or manufacturer compatibility. Do not treat a ‘rated toggle’ as a universal answer for every wall. Keep ventilation and sensor paths clear. Follow the manufacturer’s clearance and ventilation requirements for every device. Do not enclose heat-generating equipment in a tight cabinet or block its ventilation openings.",
+            "Plants soften a wall. They are not barriers. A tall planter can be a climb. Trailing vines can be a pull. Offset shelves so they do not read as a ladder. Closed, latched storage is for remotes and small accessories — then recheck heat if devices share that cabinet.",
+            "Reach changes with the child. A 36-inch or 48-inch tape mark can help you see today’s surfaces; it is not a permanent safety rating. Reassess as mobility changes. Do not use those marks as a claim that everything above them is out of reach."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Furniture anchoring vs object anchoring",
+              "caption": "Different hardware, loads, and failure modes.",
+              "values": [
+                "Cabinet / console / shelf",
+                "Frames, lamps, vases, speakers",
+                "Does not secure the other"
+              ],
+              "labels": [
+                "Furniture anchoring",
+                "Object anchoring",
+                "One does not replace the other"
+              ],
+              "minimum": null,
+              "spec_id": "D007",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D007.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Wall conditions for any mount or shelf",
+              "caption": "Do not treat a generic anchor size as a universal solution.",
+              "values": [
+                "Match studs and mount",
+                "Special method possible",
+                "Rated masonry anchors",
+                "Find the structure",
+                "Not assumed sufficient"
+              ],
+              "labels": [
+                "Wood studs",
+                "Metal studs",
+                "Concrete or masonry",
+                "Plaster over lath",
+                "Drywall alone"
+              ],
+              "minimum": null,
+              "spec_id": "D008",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D008.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Fireplace and heat-source caution",
+              "caption": "Do not assume a fireplace wall is suitable. Do not use a universal clearance.",
+              "values": [
+                "Follow the fireplace maker",
+                "Follow the TV maker",
+                "Do not improvise",
+                "Get qualified advice if unsure"
+              ],
+              "labels": [
+                "Clearances",
+                "Temperature limits",
+                "Heat testing",
+                "When to stop"
+              ],
+              "minimum": null,
+              "spec_id": "D010",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D010.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Adhesive pads are not a universal removable product",
+              "caption": "Residue, damage, and failure depend on product, surface, heat, and time.",
+              "values": [
+                "Possible",
+                "Possible",
+                "Possible",
+                "Not a sole system"
+              ],
+              "labels": [
+                "Paint or veneer damage",
+                "Residue or stain",
+                "Heat or dust failure",
+                "Heavy or climbable objects"
+              ],
+              "minimum": null,
+              "spec_id": "D011",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D011.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Breakable and pullable decor",
+              "caption": "Place fragile, sharp, heavy, or small objects outside the child’s reach.",
+              "values": [
+                "Relocate or enclose",
+                "Relocate or enclose",
+                "Secure or remove",
+                "Out of reach"
+              ],
+              "labels": [
+                "Glass and ceramic",
+                "Sharp frames",
+                "Heavy pieces",
+                "Small swallowable items"
+              ],
+              "minimum": null,
+              "spec_id": "D012",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D012.svg"
+            },
+            {
+              "kind": "table",
+              "title": "VESA examples, not a shopping rule",
+              "caption": "200 × 200 mm and 400 × 300 mm are examples of patterns. Confirm the TV and mount.",
+              "values": [
+                "example",
+                "example",
+                "Required check"
+              ],
+              "labels": [
+                "200 × 200 mm",
+                "400 × 300 mm",
+                "Your TV’s actual pattern"
+              ],
+              "minimum": null,
+              "spec_id": "D013",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D013.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Post-event inspection triggers",
+              "caption": "Do not assume an earlier installation remains safe after the load or layout changes.",
+              "values": [
+                "Reinspect",
+                "Reinspect",
+                "Reinspect",
+                "Reinspect"
+              ],
+              "labels": [
+                "Furniture moved",
+                "TV replaced",
+                "Child climbed / cord pulled",
+                "Adhesive detached"
+              ],
+              "minimum": null,
+              "spec_id": "D014",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D014.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Safety spend vs styling spend",
+              "caption": "Do not remove required anchoring to stay within a styling budget.",
+              "values": [
+                "Not optional",
+                "Not optional",
+                "Optional last"
+              ],
+              "labels": [
+                "Anchors and anti-tip",
+                "Cable protection",
+                "Baskets and art"
+              ],
+              "minimum": null,
+              "spec_id": "D015",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D015.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "List every object on and beside the console: fragile, sharp, heavy, small, or climbable.",
+              "minutes": null
+            },
+            {
+              "text": "Decide relocate, enclose, or secure — with hardware that matches the load.",
+              "minutes": null
+            },
+            {
+              "text": "Confirm the furniture itself is still on the anchoring plan.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: gel pads are treated as enough for a heavy lamp; aligned shelves become a ladder; or a soundbar sits loose because the room already ‘looks child-safe.’",
+          "checklist": [
+            "Furniture vs object anchoring distinguished",
+            "Glass, ceramic, sharp, heavy, and small items decided",
+            "Adhesive not used as the only system for heavy or climbable objects"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "rental-friendly-tv-areas-low-damage-options-and-installation-li",
+      "title": "Rental-friendly TV areas: Low-damage options and installation limits",
+      "intro": "This is the rental chapter. Reversible products can still damage paint, leave residue, violate a lease, or fail under load. Use ‘landlord-safe’ only for a particular written permission or restoration process — not as a universal product promise. No-drill methods are suitable only when the complete product and furniture setup remains safe without drilling. Do not use a no-drill approach as a substitute for required structural anchoring. If a TV or furniture unit cannot be secured safely under the rental restrictions, choose a different setup or obtain written permission for an appropriate installation.",
+      "opener": {
+        "query": "freestanding TV stand in a chic rental living room, soft natural light, teak textures, magazine styling, no people",
+        "flux_prompt": "full-bleed shot of a stylish rental living room with a freestanding TV stand, showcasing a child-safe setup",
+        "alt": "Living room with a TV wall, media console, and simple furnishings. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\029-pexels.jpg",
+        "credit": "Photo by Keegan Checks on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:12715506"
+      },
+      "sections": [
+        {
+          "slug": "understanding-the-deposit-dilemma",
+          "title": "Put safety ahead of a no-hole preference",
+          "day_label": "Rental",
+          "hero": {
+            "query": "stylish living room with removable raceways and freestanding TV stand, natural light, teak textures, magazine styling, no people",
+            "flux_prompt": "a beautifully styled living room corner with a freestanding TV stand and removable raceways, showcasing a child-safe design",
+            "alt": "a close-up of the freestanding TV stand with weighted base and removable raceways in a chic rental living room",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\030-pexels.jpg",
+            "credit": "Photo by HONG SON on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:34538290"
+          },
+          "scenario": "Aditi’s Pune rental pits a security deposit against a toddler and a TV. Avoiding every mark is not the same as a safe setup.",
+          "principle": "Prioritize a secure TV and furniture setup over avoiding every hole or mark.",
+          "body": [
+            "No-drill methods are suitable only when the complete product and furniture setup remains safe without drilling. Do not use a no-drill approach as a substitute for required structural anchoring. If a TV or furniture unit cannot be secured safely under the rental restrictions, choose a different setup or obtain written permission for an appropriate installation.",
+            "Separate three categories. No-drill decorative setup: lightweight decor and reversible styling. Freestanding TV stand with a suitable anti-tip solution: TV and furniture only when the complete setup is secured appropriately. Wall-mounted TV: requires suitable structural attachment and manufacturer-compliant installation.",
+            "Do not market an unsecured freestanding TV to yourself as a safe solution simply because it avoids wall damage. If anchoring is required, ask for written permission. If permission is refused and a safe alternative does not exist, change the equipment or the room plan."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Read the lease for alteration rules.",
+              "minutes": null
+            },
+            {
+              "text": "Name which of the three setup categories you actually have.",
+              "minutes": null
+            },
+            {
+              "text": "If structural anchoring is required, request written permission.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a no-drill stand is called child-safe because it protects the deposit; or permission is skipped because the product box said removable.",
+          "checklist": [
+            "Lease notes recorded",
+            "Setup category named",
+            "Safety ranked above zero marks"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "the-no-holes-full-control-method",
+          "title": "Use no-drill methods only inside their real limits",
+          "day_label": "Rental",
+          "hero": {
+            "query": "living room with a freestanding TV stand and removable raceways, natural light, teak textures, magazine styling, no people",
+            "flux_prompt": "a well-organized living room featuring a freestanding TV stand and neatly hidden cables, emphasizing a child-safe environment",
+            "alt": "a detailed view of the removable raceways and freestanding stand in a chic rental living room",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\031-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6587850"
+          },
+          "scenario": "Aditi likes a freestanding VESA stand. The stand still has to hold this TV on this floor, with this child, and with a real anti-tip method.",
+          "principle": "A no-drill method is a constraint. It is not a safety rating.",
+          "body": [
+            "A freestanding stand can be appropriate when the TV is secured to the stand as instructed, the stand is stable on the actual floor, cords are protected, and any required anti-tip connection is compatible with the rental rules. If that chain breaks, the method is not available for this room.",
+            "Removable raceways and wraps can organize cables. They do not automatically make the route child-safe, and they may still mark paint. Test a hidden area. Document the existing wall and floor before you start.",
+            "Pressure-mounted barriers and furniture placement can change access. They can also become climbing aids or trip hazards. Assess them as furniture, not as a childproof gate."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Confirm the TV-to-stand hardware matches this TV.",
+              "minutes": null
+            },
+            {
+              "text": "Check the stand on the actual floor, including rugs and unevenness.",
+              "minutes": null
+            },
+            {
+              "text": "If an anti-tip connection needs a wall, go back to permission.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: the stand is VESA-compatible but unsecured; a tension gate becomes a ladder; or adhesive raceways are promised to leave zero marks.",
+          "checklist": [
+            "TV secured to the stand",
+            "Floor stability checked",
+            "Wall permission status written down"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "deep-dive-into-landlord-safe-components",
+          "title": "Choose components by ratings and permission, not by ‘landlord-safe’ labels",
+          "day_label": "Rental",
+          "hero": {
+            "query": "detailed view of a freestanding TV stand with VESA mounts and removable raceways, natural light, teak textures, magazine styling, no people",
+            "flux_prompt": "close-up of a freestanding TV stand with VESA mounts and removable raceways, highlighting safety features",
+            "alt": "a view of the media console with concealed weights and non-marking straps for added stability",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\021-pexels.jpg",
+            "credit": "Photo by Engin Akyurt on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:9996341"
+          },
+          "scenario": "Aditi is shopping products marketed as removable and renter-friendly. Those words are marketing until the instructions, the wall, and the lease agree.",
+          "principle": "A product is not safe solely because it is marketed as child-friendly or renter-friendly.",
+          "body": [
+            "Verify weight ratings, anti-tip instructions, and whether the product needs a wall connection after all. A broad base helps friction; it does not replace a required strap.",
+            "Linking a stand to a heavy console with non-marking straps only helps if both pieces stay put and the straps are used as instructed. A heavy console that is itself unanchored is not a foundation.",
+            "Some raceways are marketed as removable, but removal results depend on the adhesive, wall finish, paint condition, installation duration, temperature, and removal method. Do not assume removal will leave the wall undamaged. Avoid promising current availability of a named product in every US region; use categories and verify ratings locally."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Write the product category, rating, and whether a wall connection is required.",
+              "minutes": null
+            },
+            {
+              "text": "Test adhesives in a hidden area.",
+              "minutes": null
+            },
+            {
+              "text": "Keep receipts and instructions for move-out and for safety.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: ‘renter-friendly’ is treated as a safety listing; residue is a surprise at move-out; or two unanchored pieces are strapped to each other and called done.",
+          "checklist": [
+            "Ratings verified",
+            "Adhesive tested",
+            "Availability and instructions checked locally"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "step-by-step-rental-setup-plan",
+          "title": "Walk the rental decision tree before you buy",
+          "day_label": "Rental",
+          "hero": {
+            "query": "step-by-step setup of a freestanding TV stand in a chic rental living room, natural light, teak textures, magazine styling, no people",
+            "flux_prompt": "a step-by-step visual guide of Aditi setting up her freestanding TV stand in her rental living room",
+            "alt": "a close-up of Aditi documenting her setup process with photos and notes",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\033-pexels.jpg",
+            "credit": "Photo by Han on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:33941646"
+          },
+          "scenario": "Aditi documents the room for her lease file. Documentation helps restoration. It does not make an unsecured TV acceptable.",
+          "principle": "Work the decision tree in order. Safety first, then reversibility.",
+          "body": [
+            "1. Can the TV be safely secured using an approved freestanding setup? 2. Does the furniture manufacturer provide an anti-tip method? 3. Is the TV secured to the stand? 4. Is the unit stable on the actual floor? 5. Are cords inaccessible and protected? 6. Does the lease allow the proposed installation? 7. If anchoring is required, can the landlord provide written permission? 8. If not, is there a safer alternative?",
+            "Photograph existing walls, floors, and outlets before you start. Restore with the product’s removal method, not with improvised solvents. If permission is granted, keep it in writing with the hardware list."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Answer the eight decision-tree questions in writing.",
+              "minutes": null
+            },
+            {
+              "text": "Take before photos.",
+              "minutes": null
+            },
+            {
+              "text": "Do not buy a mount or stand that fails question 1, 3, or 4.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: before photos are skipped; the lease is unread; or a refused permission is ignored because the weekend is already booked.",
+          "checklist": [
+            "Decision tree completed",
+            "Before photos stored",
+            "Written permission or a safer alternative"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "budget-sourcing-and-weekend-implementation-plan",
+      "title": "Budget, sourcing, and an optional weekend sequence",
+      "intro": "This is the budget chapter. Core safety costs are not optional styling upgrades. The weekend sequence later in this chapter is optional — not a mandatory day-by-day program. All prices are illustrative USD estimates, not live quotes. Actual costs vary by retailer, region, product specification, shipping, tax, installation, and availability. Verify current pricing and product instructions before purchasing.",
+      "opener": {
+        "query": "Compact Indian apartment with a stylish, child-safe TV area, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+        "flux_prompt": "Full-bleed shot of a stylish child-safe TV area in a compact Indian apartment, showcasing a secured media unit and hidden cords.",
+        "alt": "Living room with a TV wall, media console, and simple furnishings. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\034-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:7195853"
+      },
+      "sections": [
+        {
+          "slug": "understanding-the-importance-of-weekend-execution",
+          "title": "Buy safety hardware before decor",
+          "day_label": "Budget",
+          "hero": {
+            "query": "Compact Indian apartment with a stylish, child-safe TV area, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "Full-bleed shot of a stylish child-safe TV area in a compact Indian apartment, showcasing a secured media unit and hidden cords.",
+            "alt": "Living-room TV area with furniture and lighting. No people or text.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\034-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7195853"
+          },
+          "scenario": "Riya’s Pune 1BHK is an illustration. The spending order is the same in a US apartment: anchors and cable protection before baskets.",
+          "principle": "Do not remove required anchoring or safety hardware to stay within a styling budget. Reduce decorative purchases first.",
+          "body": [
+            "Core safety costs include appropriate anchoring hardware, suitable mounting hardware, safe cable management, required installation assistance, and compatible anti-tip equipment. Optional aesthetic costs include decorative panels, baskets, artwork, styling objects, accent lighting, and decorative storage.",
+            "Fragmented shopping — decor first, measurements later — is how cords stay exposed and returns pile up. Measure, then buy the safety items, then furniture that can accept those items, then styling.",
+            "All prices are illustrative USD estimates, not live quotes. Actual costs vary by retailer, region, product specification, shipping, tax, installation, and availability. Verify current pricing and product instructions before purchasing. The TV itself is excluded from the example table unless you add it. Professional installation is excluded unless you add it. Tax and delivery are shown as an allowance, not a quote. Furniture anchoring hardware is included as its own line."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "List core safety items before any decor list.",
+              "minutes": null
+            },
+            {
+              "text": "Decide whether professional installation belongs in the budget.",
+              "minutes": null
+            },
+            {
+              "text": "Do not cut the safety list to fund styling.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: the console is purchased and the anti-tip kit is skipped to keep a throw-pillow budget; or live website prices are treated as this book’s quotes.",
+          "checklist": [
+            "Safety list written first",
+            "TV included or excluded — stated",
+            "Installer included or excluded — stated"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "the-priority-spending-framework",
+          "title": "Use a complete USD example, then verify locally",
+          "day_label": "Budget",
+          "hero": {
+            "query": "Compact Indian apartment with a stylish, child-safe TV area, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "Full-bleed shot of a stylish child-safe TV area in a compact Indian apartment, showcasing a secured media unit and hidden cords.",
+            "alt": "Living-room TV area with furniture and lighting. No people or text.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\034-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7195853"
+          },
+          "scenario": "Vikram and Neha in a Bengaluru rental are an illustration. They shop US-style categories: console, anti-tip kit, cord management, optional mount — at illustrative USD prices.",
+          "principle": "An example total is a planning envelope. It is not a quote and not a claim that those products exist on every aisle.",
+          "body": [
+            "All prices are illustrative USD estimates, not live quotes. Actual costs vary by retailer, region, product specification, shipping, tax, installation, and availability. Verify current pricing and product instructions before purchasing.",
+            "Example envelope, TV excluded, professional installation excluded: media console about $180; anti-tip hardware about $25; cord-management components about $40; cable protection about $20; optional mounting hardware about $60; decorative items about $50; delivery and tax allowance about $45; planning total about $420. Quantities and unit prices will differ. Verify ratings and instructions before purchasing. Do not imply a product is safe solely because it is marketed as child-friendly or renter-friendly.",
+            "Shop generic product categories at US retailers you actually use. Avoid promising current availability. If the wall or the TV requires a qualified installer, that cost is in addition to this envelope."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Copy the example lines into your own sheet and replace every price.",
+              "minutes": null
+            },
+            {
+              "text": "Mark safety lines as non-cuttable.",
+              "minutes": null
+            },
+            {
+              "text": "Add installer or TV lines only if they apply.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: the $420 figure is treated as a national average; or decorative items are bought and the anti-tip line is deleted.",
+          "checklist": [
+            "Local prices filled in",
+            "Safety lines intact",
+            "Availability verified"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "the-weekend-sequence-that-keeps-you-on-track",
+          "title": "Optional weekend sequence — not a mandatory program",
+          "day_label": "Optional weekend implementation",
+          "hero": {
+            "query": "Compact Indian apartment with a stylish, child-safe TV area, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "Full-bleed shot of a stylish child-safe TV area in a compact Indian apartment, showcasing a secured media unit and hidden cords.",
+            "alt": "Living-room TV area with furniture and lighting. No people or text.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\037-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6636242"
+          },
+          "scenario": "Ananya plans a weekend in a Mumbai flat. She can also spread the same tasks across weeknights. Order matters more than the calendar label.",
+          "principle": "This sequence is optional. Skip any day label that does not match how you actually work.",
+          "body": [
+            "Suggested order, not a required Saturday: measure and tape first; dry-fit hardware without drilling; install only when the wall and instructions agree; route cables; style last. If permission or structure is missing, stop.",
+            "Inspect connections visually. Do not perform a forceful pull test on a TV or furniture unit. If you notice movement, looseness, or damage, stop using the setup as necessary and correct it with the appropriate method.",
+            "Photograph the finished fastener locations and keep receipts, spec sheets, and any written landlord permission together."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Measure and tape before opening hardware.",
+              "minutes": null
+            },
+            {
+              "text": "Dry-fit, then install only as instructed.",
+              "minutes": null
+            },
+            {
+              "text": "Inspect — do not yank — then style.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: drilling starts before the tape mock-up; a tug test is used as quality control; or styling hides straps that have not been photographed.",
+          "checklist": [
+            "Sequence treated as optional",
+            "No forceful pull test",
+            "Documents stored"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "maintenance-inspection-and-age-based-updates",
+      "title": "Maintenance, inspection, and growing-child updates",
+      "intro": "This is the maintenance schedule. Inspect according to manufacturer instructions. Do not perform a forceful pull test. Reassess reach as the child grows. Follow the cleaning instructions for each surface and product rather than one household formula.",
+      "opener": {
+        "query": "TV area with stylish decor, child-safe furniture, and hidden cords, soft lighting, warm textures, no people",
+        "flux_prompt": "A full-bleed shot of a modern TV area in an Indian apartment, showcasing a stylish media unit anchored to the wall, with hidden cables and child-safe decor.",
+        "alt": "Living room with a TV wall, media console, and simple furnishings. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\038-pexels.jpg",
+        "credit": "Photo by Ansar Muhammad on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:27604139"
+      },
+      "sections": [
+        {
+          "slug": "rhythm-one-weekly-glance",
+          "title": "Weekly glance: look, do not tug",
+          "day_label": "Maintenance schedule",
+          "hero": {
+            "query": "Stylish media unit with hidden cables, warm lighting, no people",
+            "flux_prompt": "A cozy corner of a Pune apartment featuring a media unit with child-safe decor, showcasing a clean and organized space.",
+            "alt": "A close-up of the media unit highlighting the anchored decor and hidden cables.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\039-pexels.jpg",
+            "credit": "Photo by Justin Rieta on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:34110027"
+          },
+          "scenario": "Anjali in a Pune 1BHK dusts the console and glances for new loops, shifted frames, and gaps that were not there last week.",
+          "principle": "A weekly look catches change. It is not a structural test.",
+          "body": [
+            "While you clean, look for cables that have migrated into reach, objects that have moved to an edge, adhesive that is lifting, and furniture that sits differently on the floor. If something looks loose, stop casual use of that part of the setup and inspect it properly — do not prove the problem by pulling harder.",
+            "Reassess the room as the child grows. A setup that is inaccessible today may become reachable within a few months."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Weekly visual scan",
+              "caption": "Look for change. Do not yank the TV or the furniture.",
+              "values": [
+                "Look",
+                "Look",
+                "Look"
+              ],
+              "labels": [
+                "Cords in reach?",
+                "Objects at edges?",
+                "New gaps or lift?"
+              ],
+              "minimum": null,
+              "spec_id": "D018",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D018.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Child-safety reassessment snapshot",
+              "caption": "Reach changes. Height numbers here are reminders to look, not a permanent rating.",
+              "values": [
+                "This week",
+                "This week",
+                "This week"
+              ],
+              "labels": [
+                "Reach changed?",
+                "New climbing?",
+                "Cords still protected?"
+              ],
+              "minimum": null,
+              "spec_id": "D019",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D019.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Look for new cord loops and edge-placed objects.",
+              "minutes": null
+            },
+            {
+              "text": "Note any lifted adhesive or new gaps.",
+              "minutes": null
+            },
+            {
+              "text": "Write one follow-up if anything changed.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a weekly ‘wiggle the TV’ habit is treated as maintenance; or a new stool is left in front of the console because it arrived mid-week.",
+          "checklist": [
+            "Visual scan done",
+            "No forceful tug",
+            "New climbing objects noted"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "rhythm-two-monthly-wipe",
+          "title": "Monthly clean with product-specific methods",
+          "day_label": "Maintenance schedule",
+          "hero": {
+            "query": "Clean media unit with microfiber cloth, soft lighting, no people",
+            "flux_prompt": "A well-maintained media unit in a Bengaluru apartment, showcasing a cleaning process with a microfiber cloth and gentle lighting.",
+            "alt": "Close-up of a microfiber cloth cleaning the media unit.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\040-pexels.jpg",
+            "credit": "Photo by Patrick on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:24403525"
+          },
+          "scenario": "Riya’s Bengaluru rental has mixed finishes: a screen, a veneer, and an adhesive raceway. One soap mix is not a universal cleaner.",
+          "principle": "Follow the cleaning instructions for each surface. Moisture in electronics, outlets, seams, or adhesive joints is a separate hazard.",
+          "body": [
+            "Follow the cleaning instructions for each surface, adhesive, screen, furniture finish, and cable-management product. Do not assume that a cleaning solution is compatible with every material. Use only the method recommended by the manufacturer, and prevent moisture from entering electronics, outlets, seams, or adhesive joints.",
+            "A damp microfiber cloth and mild soap appear in many furniture guides; they are not approved for every screen, every adhesive, or every veneer. Ammonia, vinegar, citrus, and oil-based cleaners can damage some finishes and some adhesives — check the product, do not apply a blanket ban or a blanket recipe.",
+            "While you clean, look at latch function, lifted pads, and cable slack that has crept into reach."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Clean each surface with its own approved method.",
+              "minutes": null
+            },
+            {
+              "text": "Keep liquids off screens, outlets, and adhesive joints.",
+              "minutes": null
+            },
+            {
+              "text": "Note any lifted raceway or pad for replacement.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: one homemade cleaner is used on the TV, the putty, and the wood; or spray is aimed at the screen and runs into the bezel.",
+          "checklist": [
+            "Manufacturer cleaning notes used",
+            "No liquid into electronics or outlets",
+            "Adhesive edges checked"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "rhythm-three-quarterly-pull-test",
+          "title": "Quarterly inspection without a forceful pull test",
+          "day_label": "Maintenance schedule",
+          "hero": {
+            "query": "Quarterly pull test on wall-mounted TV, warm lighting, no people",
+            "flux_prompt": "A close-up of a person conducting a pull test on a wall-mounted TV in a Mumbai flat, emphasizing the importance of safety checks.",
+            "alt": "Living-room TV wall with a media console and furnishings. No people or text.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\041-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8142825"
+          },
+          "scenario": "Priya used to yank the top corners of the TV every three months. That habit is not in this book.",
+          "principle": "Inspect. Do not perform a forceful pull test on a TV or furniture unit.",
+          "body": [
+            "Inspect the anchor points, straps, brackets, fasteners, and furniture connection points according to the manufacturer’s instructions. Do not perform a forceful pull test on a TV or furniture unit. If you notice movement, looseness, damage, or an unexplained gap, stop using the setup as necessary and correct the issue using the appropriate installation method.",
+            "Open one section of cable containment if the product allows. Look for damage, pinch, heat, or overloaded strips. Close it as instructed. Follow the power strip or surge protector’s ratings. Avoid overloading outlets or connecting strips in series.",
+            "Reinspect after moving furniture, replacing the TV, a climb or a pulled cable, wall repair or paint, impact, a detached raceway, seasonal layout changes, or a new device."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Visually inspect every accessible fastener and strap.",
+              "minutes": null
+            },
+            {
+              "text": "Look for movement or gaps without yanking.",
+              "minutes": null
+            },
+            {
+              "text": "Correct problems with the proper method, or get help.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a quarterly yank is treated as a safety test; or a loose bracket is ignored because the TV has not fallen yet.",
+          "checklist": [
+            "No forceful pull test",
+            "Fasteners inspected",
+            "Post-event triggers reviewed"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "rhythm-four-seasonal-adjustments",
+          "title": "Seasonal changes need a fresh risk pass",
+          "day_label": "Maintenance schedule",
+          "hero": {
+            "query": "Festive living room decor for Diwali, warm lighting, no people",
+            "flux_prompt": "A beautifully decorated Pune apartment for Diwali, showcasing safe and stylish decor with child-friendly elements.",
+            "alt": "Close-up of anchored decor and safety measures in the festive setup.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\042-pexels.jpg",
+            "credit": "Photo by Naveen Sahu on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6443947"
+          },
+          "scenario": "Meera adds holiday lighting in a Pune apartment. Extra cords and extra objects change the room that was assessed in spring.",
+          "principle": "Temporary decor is a configuration change. Reinspect rather than assuming last season’s setup still holds.",
+          "body": [
+            "Reinspect the setup after moving furniture, replacing equipment, changing cable routes, or noticing impact, movement, or damage. Holiday objects, extra lighting, and guest furniture are all configuration changes.",
+            "Follow the power strip or surge protector’s ratings and manufacturer instructions. Avoid overloading outlets, connecting power strips in series, or using extension cords as permanent wiring. Uncoil extension cords if you use them temporarily, inspect them for damage, and do not treat them as a lasting circuit. Electrical requirements vary by location, installation type, and building conditions. Do not modify outlets, wiring, or circuits based solely on this book. Consult a qualified electrician when electrical work is required.",
+            "Brief other caregivers on where remotes live and which objects were relocated for guests."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "List every new object, cord, and seat.",
+              "minutes": null
+            },
+            {
+              "text": "Check load on strips without chaining them.",
+              "minutes": null
+            },
+            {
+              "text": "Restore or re-anchor after the event.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: extra lights overload a strip; a guest pouf stays as a climb; or an extension cord remains after the holiday.",
+          "checklist": [
+            "New objects listed",
+            "No daisy-chained strips",
+            "Temporary cords not left as permanent wiring"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "rhythm-five-annual-audit",
+          "title": "Annual audit: measure again, do not reuse last year’s assumptions",
+          "day_label": "Maintenance schedule",
+          "hero": {
+            "query": "Annual audit of TV area with measurements, warm lighting, no people",
+            "flux_prompt": "A well-organized TV area in a Bengaluru apartment during an annual audit, highlighting safety checks and measurements.",
+            "alt": "Living-room TV area with furniture and lighting. No people or text.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\043-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8082551"
+          },
+          "scenario": "Kavya photographs the TV wall once a year in Bengaluru. The photos are a record. The child’s reach will still need a live check.",
+          "principle": "Rebuild the measurement sheet annually. Adhesive products and children both age.",
+          "body": [
+            "Photograph anchors, locks, and cable paths. Re-measure seated eye height, seat-to-screen distance, and the current climbing picture. Review receipts and instructions for parts that may need replacement. Adhesive life varies by product, climate, and cleaning — do not treat a one-to-three-year guess as a rating.",
+            "Has the child’s reach changed? Has climbing started? Are new stools, toys, or furniture nearby? Are cords still inaccessible? Is the TV still secure? Is the media unit still stable? Have adhesive mounts loosened? Are new devices present? Are decorative objects still appropriate? Has the furniture been moved?"
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Annual child-safety reassessment",
+              "caption": "Reassess reach, climbing, cords, and furniture after a year of growth and room changes.",
+              "values": [
+                "Yes / no",
+                "Yes / no",
+                "Yes / no",
+                "Yes / no"
+              ],
+              "labels": [
+                "Reach changed?",
+                "New climbing furniture?",
+                "Cords still protected?",
+                "TV and unit still secure?"
+              ],
+              "minimum": null,
+              "spec_id": "D017",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D017.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Annual configuration check",
+              "caption": "Do not assume last year’s installation remains safe after load or layout changes.",
+              "values": [
+                "Yes / no",
+                "Yes / no",
+                "Yes / no"
+              ],
+              "labels": [
+                "Furniture moved?",
+                "New devices or cables?",
+                "Adhesive loosened?"
+              ],
+              "minimum": null,
+              "spec_id": "D025",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D025.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Photograph and re-measure.",
+              "minutes": null
+            },
+            {
+              "text": "Walk the child-safety reassessment list.",
+              "minutes": null
+            },
+            {
+              "text": "Replace products that have failed or that the manufacturer says to replace.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: last year’s tape outline is reused after a new sofa; or aged adhesive is left because it ‘still looks stuck.’",
+          "checklist": [
+            "Photos updated",
+            "Reassessment list walked",
+            "Failed adhesives replaced"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "weekend-implementation-checklist",
+      "title": "Optional weekend implementation checklist",
+      "intro": "This is an optional weekend implementation, not a required program. Use it if you want a three-pass order: assess and shop, install and inspect, style and document. Core-guide chapters still govern the safety rules. No room arrangement is completely childproof. The recommendations in this book are intended to reduce foreseeable risks, not eliminate them.",
+      "opener": {
+        "query": "Stylish child-safe TV area in a modern Indian apartment, soft lighting, neutral tones, textured walls, no people, no text, no watermark.",
+        "flux_prompt": "Full-bleed shot of a stylish living room with a child-safe TV area, showcasing a media console, wall-mounted TV, and decorative elements.",
+        "alt": "Living room with a TV wall, media console, and simple furnishings. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\044-pexels.jpg",
+        "credit": "Photo by S3T Koncepts on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:28853343"
+      },
+      "sections": [
+        {
+          "slug": "purpose-and-benefits",
+          "title": "What this optional checklist is for",
+          "day_label": "Optional weekend implementation",
+          "hero": {
+            "query": "Stylish child-safe TV area with a focus on safety features, soft lighting, neutral decor, no people, no text, no watermark.",
+            "flux_prompt": "A beautifully styled child-safe TV area featuring a secured TV, hidden cords, and decorative elements that are safe for children.",
+            "alt": "Living-room TV wall with a media console and furnishings. No people or text.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\045-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8089187"
+          },
+          "scenario": "Priya wants a single weekend list for a Pune 1BHK. She can also use the same list across two Saturdays.",
+          "principle": "The checklist executes the plan. It does not replace manufacturer instructions or professional help.",
+          "body": [
+            "You will confirm measurements, buy the safety items first, install only as instructed, protect cables without treating concealment as safety, and document the result. A tidy look is a side effect, not the proof that the room is childproof.",
+            "If the wall, the lease, or the hardware is uncertain, stop. Stop and obtain qualified help if you cannot identify the wall structure, locate wiring or plumbing, attach the mount as instructed, or verify the hardware."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Skim the four core risks: TV, furniture, cords, reach.",
+              "minutes": null
+            },
+            {
+              "text": "Decide whether this weekend is even possible.",
+              "minutes": null
+            },
+            {
+              "text": "Keep manufacturer instructions in the room while you work.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: the checklist is used as permission to skip the wall-assessment chapter; or ‘hide cords’ is checked while a pull loop remains.",
+          "checklist": [
+            "Optional status understood",
+            "Instructions in the room",
+            "Stop conditions reviewed"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "how-to-use-the-checklist",
+          "title": "How to use the three optional passes",
+          "day_label": "Optional weekend implementation",
+          "hero": {
+            "query": "Organized checklist layout for creating a child-safe TV area, soft lighting, neutral decor, no people, no text, no watermark.",
+            "flux_prompt": "A visually appealing checklist displayed in a modern living room setting, emphasizing organization and planning.",
+            "alt": "A close-up of the checklist with highlighted sections for clarity.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\045-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8089187"
+          },
+          "scenario": "Arjun’s Bengaluru rental may block drilling. Pass 1 must catch that before a mount is purchased.",
+          "principle": "Work in order. Pause at every stop condition.",
+          "body": [
+            "Pass 1: assess and shop. Pass 2: install and inspect. Pass 3: style and document. If you rent, complete the rental decision tree before pass 2.",
+            "Write measurements on the worksheets in the next chapter. Do not drill from memory."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Schedule the three passes or spread them.",
+              "minutes": null
+            },
+            {
+              "text": "Complete the rental tree if you rent.",
+              "minutes": null
+            },
+            {
+              "text": "Pause when structure or permission is missing.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: shopping happens before wall type is known; or pass 2 starts without written permission where the lease requires it.",
+          "checklist": [
+            "Pass order accepted",
+            "Rental tree done if renting",
+            "Worksheets printed or copied"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "main-content-pre-project-measurements",
+          "title": "Pass 1: Fill the measurement sheet before you buy",
+          "day_label": "Optional weekend implementation",
+          "hero": {
+            "query": "Detailed measurements being taken in a stylish living room, soft lighting, neutral decor, no people, no text, no watermark.",
+            "flux_prompt": "A close-up of a measuring tape against a wall in a modern living room, highlighting the importance of accurate measurements.",
+            "alt": "A stylish living room setup with a focus on measurement tools.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\047-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6238679"
+          },
+          "scenario": "Meera records TV weight, VESA, wall type, eye height, and outlet locations in a Mumbai flat.",
+          "principle": "If a line on the measurement sheet is blank, do not guess it at the store.",
+          "body": [
+            "Record TV model, screen size, weight with and without stand, VESA, width and height, stand width and depth, media-unit load rating, wall type, structural-support locations, seated eye height, seating-to-screen distance, cable lengths, outlet locations, window and door locations, fireplace or heat-source location, and furniture anchoring points.",
+            "Do not fill ventilation with a universal gap. Copy the manufacturer’s clearance notes. Do not identify wall type by knocking alone."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Fill the measurement sheet in the worksheets chapter.",
+              "minutes": null
+            },
+            {
+              "text": "Copy manufacturer clearances, not a two-inch rule.",
+              "minutes": null
+            },
+            {
+              "text": "Shop only after the sheet is complete enough to buy the right hardware.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: weight is estimated; wall type is guessed from sound; or ventilation is entered as ‘2 inches’ from memory.",
+          "checklist": [
+            "TV weights recorded",
+            "Wall still unconfirmed if uncertain",
+            "No universal clearance entered"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "day-2-installation-sequence",
+          "title": "Pass 2: Install both anchors, then protect cables",
+          "day_label": "Optional weekend implementation",
+          "hero": {
+            "query": "Installation process of a child-safe TV area, soft lighting, neutral decor, no people, no text, no watermark.",
+            "flux_prompt": "A step-by-step installation scene in a modern living room, showcasing the anchoring of a media console and TV.",
+            "alt": "Living-room TV wall with a media console and furnishings. No people or text.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\048-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6186813"
+          },
+          "scenario": "Rohan installs in a Pune 1BHK. He treats TV straps and furniture straps as two jobs.",
+          "principle": "Anchor the furniture. Secure the TV to its support. Then route cables so they stay protected and inspectable.",
+          "body": [
+            "Follow each manufacturer’s sequence. Dry-fit first. Do not drill from a single detector reading. Do not perform a forceful pull test when you are done. Inspect for movement, looseness, or damage.",
+            "Route power and signal so they are protected from pulling, chewing, crushing, heat, and sharp edges, and so you can still inspect them. A closed raceway is not a completed safety check."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Install furniture anchoring as specified.",
+              "minutes": null
+            },
+            {
+              "text": "Secure the TV to the stand or mount as specified.",
+              "minutes": null
+            },
+            {
+              "text": "Route cables; inspect; do not yank.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: only the console is strapped; cables are pinched in a snap cover; or a tug test is used as a finish-line ritual.",
+          "checklist": [
+            "Both stability jobs done",
+            "Cables protected and inspectable",
+            "No forceful pull test"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "day-3-styling-and-maintenance",
+          "title": "Pass 3: Style without undoing the safety work",
+          "day_label": "Optional weekend implementation",
+          "hero": {
+            "query": "Stylishly decorated child-safe TV area, soft lighting, neutral decor, no people, no text, no watermark.",
+            "flux_prompt": "A beautifully styled child-safe TV area featuring soft decor elements and a well-organized media console.",
+            "alt": "Living-room TV area with furniture and lighting. No people or text.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\029-pexels.jpg",
+            "credit": "Photo by Keegan Checks on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:12715506"
+          },
+          "scenario": "Anjali styles a Bengaluru apartment last so baskets do not hide unphotographed straps.",
+          "principle": "Styling is last. If a decorative object fights an anchor, inspection path, or climb assessment, the object moves.",
+          "body": [
+            "Stabilize remaining objects with hardware that matches the load, or relocate them. Do not rely on adhesive pads as the sole system for heavy, sharp, breakable, or climbable objects.",
+            "Photograph fastener locations, cord paths, and the room. Store instructions and any written permission. Set the first weekly glance date."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Style only after photos of fasteners exist.",
+              "minutes": null
+            },
+            {
+              "text": "Remove any new climbing aid you just introduced.",
+              "minutes": null
+            },
+            {
+              "text": "File documents.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a new bench is added as a ‘boundary’; gel pads hold a heavy lamp; or straps disappear behind decor with no photo.",
+          "checklist": [
+            "Fasteners photographed",
+            "Climbing aids rechecked",
+            "Documents filed"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "room-and-wall-assessment-worksheet",
+      "title": "Worksheets: Measurements, reach, decisions, and inventory",
+      "intro": "This is the reference-checklist chapter. Copy the tables into a notebook. Numbers that appear here as examples are labeled as examples. Manufacturer instructions override them.",
+      "opener": {
+        "query": "interior living room with a TV setup, natural light from one window, minimalist decor, soft textures, no people, no text",
+        "flux_prompt": "full-bleed shot of a stylish living room with a TV setup, showcasing a child-safe environment with clear pathways and organized decor",
+        "alt": "Living room with a TV wall, media console, and simple furnishings. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\050-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:5998138"
+      },
+      "sections": [
+        {
+          "slug": "assessing-your-room",
+          "title": "TV and furniture measurement sheet",
+          "day_label": "Reference checklist",
+          "hero": {
+            "query": "interior living room with painter's tape marking TV location, natural light, soft textures, no people, no text",
+            "flux_prompt": "shot of a living room with painter's tape marking the wall for TV placement, showcasing a child-safe environment with clear pathways",
+            "alt": "alternative angle of the living room showing marked TV location with tools scattered around.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\051-pexels.jpg",
+            "credit": "Photo by Ron Lach on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:9902128"
+          },
+          "scenario": "Ravi gathers a tape, painter’s tape, a detector, and the TV manual in a Pune 1BHK. The sheet is for his room, not a copied case study.",
+          "principle": "Write the actual values. Leave a line blank rather than inventing a universal number.",
+          "body": [
+            "Fill: TV model; screen size; weight without stand; weight with stand; VESA dimensions; TV width and height; stand width and depth; media-unit load rating; wall type; stud or structural-support locations; seated eye height; seating-to-screen distance; cable lengths; outlet locations; window and door locations; fireplace or heat-source location; furniture anchoring points.",
+            "On a simple room diagram mark: TV, furniture, child-accessible objects, climbing aids, cord paths, power strips, doors, windows, heating equipment, walkways, and potential anchor locations. You should not have to invent this map from scratch — copy the list onto a floor outline.",
+            "Use seated eye height and viewing distance from this room. A 65-inch TV, a 40-inch eye height, or an 18-inch outlet height may appear in examples; they are not targets."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Measurement sheet fields",
+              "caption": "Fill actual values. Examples in other figures are not this room.",
+              "values": [
+                "____",
+                "____",
+                "____",
+                "____",
+                "____"
+              ],
+              "labels": [
+                "TV model / size",
+                "Weight with / without stand",
+                "VESA",
+                "Seated eye height",
+                "Seat-to-screen distance"
+              ],
+              "minimum": null,
+              "spec_id": "D020",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D020.svg"
+            },
+            {
+              "kind": "table",
+              "title": "More measurement fields",
+              "caption": "Wall type is identified with documents, inspection, and tools — not knocking alone.",
+              "values": [
+                "____",
+                "____",
+                "____",
+                "____"
+              ],
+              "labels": [
+                "Wall type",
+                "Structural points",
+                "Outlet locations",
+                "Heat source yes/no"
+              ],
+              "minimum": null,
+              "spec_id": "D021",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D021.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Illustrative USD shopping example",
+              "caption": "Estimates only. TV and professional installation excluded. Verify locally.",
+              "values": [
+                "$180",
+                "$25",
+                "$40",
+                "$20",
+                "$60",
+                "$50",
+                "$45",
+                "$420"
+              ],
+              "labels": [
+                "Console (1)",
+                "Anti-tip hardware (1)",
+                "Cord management",
+                "Cable protection",
+                "Optional mount (1)",
+                "Decor",
+                "Tax/delivery allowance",
+                "Example total"
+              ],
+              "minimum": null,
+              "spec_id": "D022",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D022.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Safety-risk map checklist",
+              "caption": "Mark each item on a simple room outline.",
+              "values": [
+                "Marked",
+                "Marked",
+                "Marked",
+                "Marked",
+                "Marked"
+              ],
+              "labels": [
+                "TV and furniture",
+                "Climbing aids",
+                "Cord paths and strips",
+                "Doors and windows",
+                "Heat and walkways"
+              ],
+              "minimum": null,
+              "spec_id": "D023",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D023.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Example only — do not copy as a target",
+              "caption": "A case-study 55-inch TV and a 36-inch seated eye height are illustrations.",
+              "values": [
+                "example",
+                "example",
+                "Measure yours"
+              ],
+              "labels": [
+                "55-inch TV (example)",
+                "36-inch eye height (example)",
+                "Your seated eye height"
+              ],
+              "minimum": null,
+              "spec_id": "D024",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D024.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Copy the field list into a notebook and fill it.",
+              "minutes": null
+            },
+            {
+              "text": "Sketch the safety-risk map from the bullet list.",
+              "minutes": null
+            },
+            {
+              "text": "Attach manufacturer clearance notes instead of a generic gap.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: example inches from a case study are copied as if they were this room; or wall type is filled in as ‘hollow, so drywall.’",
+          "checklist": [
+            "Measurement fields filled or marked unknown",
+            "Risk map sketched",
+            "Unknown wall flagged"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "determining-tv-size-and-height",
+          "title": "Installation decision worksheet",
+          "day_label": "Reference checklist",
+          "hero": {
+            "query": "interior living room with painter's tape outlining TV size, natural light, soft textures, no people, no text",
+            "flux_prompt": "shot of a living room with painter's tape outlining the TV size on the wall, showcasing a child-safe environment with clear pathways",
+            "alt": "alternative angle of the living room showing the TV size outline with tools scattered around.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\051-pexels.jpg",
+            "credit": "Photo by Ron Lach on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:9902128"
+          },
+          "scenario": "Ravi has a 9-foot seat-to-wall distance and a seated eye height of 40 inches in this illustration. He still has to answer whether wall mounting is necessary at all.",
+          "principle": "Height and size come after the installation method is possible and permitted.",
+          "body": [
+            "Answer: Is wall mounting necessary? Is a freestanding setup safer or more practical? Can the wall support the selected mount? Can the furniture be anchored appropriately? Can the TV be secured to the furniture? Are the required hardware and instructions available? Are hidden utilities accounted for? Does the lease permit the installation? Is professional help needed? Does the final setup remain safe after cable routing?",
+            "Use your actual seated eye height rather than a universal number. Test adult seating, child viewing angle, glare, climbing routes, and traffic. Tape the screen and sit.",
+            "A mount’s stated weight capacity is only one compatibility check. Confirm VESA, dimensions, orientation, wall structure, fasteners, and instructions before purchasing."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Installation decision worksheet",
+              "caption": "Stop on any unknown that affects structure, utilities, or the lease.",
+              "values": [
+                "Yes / no / unknown",
+                "Yes / no / unknown",
+                "Yes / no / unknown",
+                "Yes / no / unknown"
+              ],
+              "labels": [
+                "Wall can support the mount?",
+                "Furniture can be anchored?",
+                "TV can be secured to support?",
+                "Lease allows this?"
+              ],
+              "minimum": null,
+              "spec_id": "D026",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D026.svg"
+            },
+            {
+              "kind": "table",
+              "title": "More decision questions",
+              "caption": "Professional help is a valid outcome.",
+              "values": [
+                "Yes / no / unknown",
+                "Yes / no / unknown",
+                "Yes / no / unknown"
+              ],
+              "labels": [
+                "Utilities accounted for?",
+                "Instructions and hardware in hand?",
+                "Help needed?"
+              ],
+              "minimum": null,
+              "spec_id": "D027",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D027.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Answer the decision questions in writing.",
+              "minutes": null
+            },
+            {
+              "text": "Tape and sit before you buy a mount height.",
+              "minutes": null
+            },
+            {
+              "text": "Stop if any required ‘yes’ is actually ‘unknown.’",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: center height is set to eye level minus 2–4 inches as if that were a code; or a 65-inch outline is taped with no wall-structure answer.",
+          "checklist": [
+            "Decision worksheet completed",
+            "Tape mock-up done",
+            "Unknowns listed"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "planning-clearances-and-pathways",
+          "title": "Reach-and-climb assessment",
+          "day_label": "Reference checklist",
+          "hero": {
+            "query": "interior living room with clear pathways marked, natural light, soft textures, no people, no text",
+            "flux_prompt": "shot of a living room with clear pathways marked, showcasing a child-safe environment with organized decor",
+            "alt": "alternative angle of the living room showing clearances around the TV and seating.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\026-pexels.jpg",
+            "credit": "Photo by Oleg Melevych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:12212553"
+          },
+          "scenario": "Ravi sketches walkways in a Pune apartment. He will not use a three-foot rule as if it applied to every body and every doorway.",
+          "principle": "Clearances come from this room’s doors, furniture, and people. Climbing comes from this child’s reach.",
+          "body": [
+            "Maintain clear, usable paths between doors, seating, and frequently used areas. Check actual furniture dimensions, door swings, and mobility needs. If you write a numeric clearance, label it as a planning example and state the assumptions.",
+            "Reach-and-climb worksheet (yes/no): Can the child reach the TV from the sofa? Climb from a stool, pouf, table, or toy? Pull on a cord? Open drawers or cabinet doors? Pull a decorative object down? Reach a power strip or adapter? Climb onto the media console? Access a sharp or breakable item? Can the furniture tip if pulled or climbed?",
+            "Reassess the room as the child grows. A setup that is inaccessible today may become reachable within a few months."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Reach-and-climb worksheet",
+              "caption": "Reassess as the child grows. A clear area does not replace anchoring.",
+              "values": [
+                "Yes / no",
+                "Yes / no",
+                "Yes / no",
+                "Yes / no",
+                "Yes / no"
+              ],
+              "labels": [
+                "Reach TV from sofa?",
+                "Climb from stool/toy?",
+                "Pull a cord?",
+                "Open drawers?",
+                "Furniture can tip?"
+              ],
+              "minimum": null,
+              "spec_id": "D028",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\figures\\D028.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Walk the yes/no reach-and-climb list.",
+              "minutes": null
+            },
+            {
+              "text": "Sketch real walkways without a universal width.",
+              "minutes": null
+            },
+            {
+              "text": "Fix any ‘yes’ that is actually a hazard before styling.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a 12-inch floor gap is treated as ventilation; a three-foot walkway is copied from another apartment; or a 30-inch ‘toddler reach zone’ is treated as a permanent rating.",
+          "checklist": [
+            "Nine reach questions answered",
+            "Walkways checked in this room",
+            "Reassessment date set"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "rental-friendly-no-drill-methods-guide",
+      "title": "Rental methods: Permission, reversibility, and hard limits",
+      "intro": "This is a rental reference, not a second copy of the core safety chapters. No-drill methods are suitable only when the complete product and furniture setup remains safe without drilling. Do not use a no-drill approach as a substitute for required structural anchoring. If a TV or furniture unit cannot be secured safely under the rental restrictions, choose a different setup or obtain written permission for an appropriate installation. Some raceways are marketed as removable; do not assume removal leaves the wall undamaged.",
+      "opener": {
+        "query": "child-safe TV area, no-drill methods, stylish decor, Indian apartment",
+        "flux_prompt": "A full-bleed shot of a stylish, child-safe TV area in a compact Indian apartment, featuring a freestanding TV mount, a media console, and a soft rug, all bathed in natural light from a single window.",
+        "alt": "Living room with a TV wall, media console, and simple furnishings. No people or text.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\054-pexels.jpg",
+        "credit": "Photo by Liva  Kitchens And Interiors on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:33688058"
+      },
+      "sections": [
+        {
+          "slug": "planning-your-layout",
+          "title": "Layout still has to pass the reach-and-climb list",
+          "day_label": "Rental",
+          "hero": {
+            "query": "living room layout for child safety, no-drill TV setup",
+            "flux_prompt": "A stylish corner TV setup in a Pune apartment, showcasing a freestanding mount and a media console, with a soft rug and coffee table in front.",
+            "alt": "Living-room TV area with furniture and lighting. No people or text.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\055-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8092173"
+          },
+          "scenario": "Riya wants a corner TV in a Pune 1BHK. A rug and a coffee table would not automatically create a safe buffer.",
+          "principle": "Placement can reduce access. It cannot replace required anchoring.",
+          "body": [
+            "Keep traffic from cutting through the screen-to-seat line when you can. Evaluate windows for glare, heat, operation, child access, and egress. Do not block a required exit.",
+            "Use a rug as a visual boundary only if it lies flat, has a compatible non-slip pad where appropriate, and does not obstruct walkways. Do not use a low bench or coffee table as a child-safety barrier unless placement and stability have been assessed — those objects are common climbing aids.",
+            "No room arrangement is completely childproof. The recommendations in this book are intended to reduce foreseeable risks, not eliminate them."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Sketch the corner or wall option on the risk map.",
+              "minutes": null
+            },
+            {
+              "text": "Remove climbable ‘boundaries.’",
+              "minutes": null
+            },
+            {
+              "text": "Confirm egress and window operation.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a coffee table is used as a toddler fence; or a corner TV still has a pullable cord on the open side.",
+          "checklist": [
+            "Climbing aids not used as barriers",
+            "Egress clear",
+            "Reach list walked for this layout"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "choosing-the-right-mount",
+          "title": "Freestanding support is still an installation",
+          "day_label": "Rental",
+          "hero": {
+            "query": "freestanding TV mount setup, Bengaluru apartment",
+            "flux_prompt": "A close-up of a freestanding TV mount in a Bengaluru apartment, emphasizing its wide base and stability features.",
+            "alt": "A side view of the TV mount with the load-bearing wall in the background.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\003-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8089078"
+          },
+          "scenario": "Neha needs a 50-inch TV in a Bengaluru rental. ‘No drill’ on a product page does not mean the complete setup is safe without a wall connection.",
+          "principle": "Choose a stand or mount only if the complete setup can be secured as instructed under this lease.",
+          "body": [
+            "No-drill methods are suitable only when the complete product and furniture setup remains safe without drilling. Do not use a no-drill approach as a substitute for required structural anchoring. If a TV or furniture unit cannot be secured safely under the rental restrictions, choose a different setup or obtain written permission for an appropriate installation.",
+            "Confirm TV weight, VESA, stand or mount ratings, floor condition, and whether anti-tip hardware requires a wall. Follow the manufacturer’s installation instructions. If the product cannot be used as instructed, pick another product or get permission and help.",
+            "Do not assume ordinary drywall anchors, or a no-drill claim, can support a heavy TV."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Write TV weight and the support’s rating.",
+              "minutes": null
+            },
+            {
+              "text": "Note whether a wall connection is required anyway.",
+              "minutes": null
+            },
+            {
+              "text": "Stop if the lease and the instructions conflict.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: a no-drill mount is bought for a TV that the instructions say must be structurally attached; or load rating is guessed from screen size.",
+          "checklist": [
+            "Weight vs rating recorded",
+            "Wall connection yes/no recorded",
+            "Instructions match the lease"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "bracing-and-stabilizing-your-setup",
+          "title": "Bracing two unanchored objects is not a complete system",
+          "day_label": "Rental",
+          "hero": {
+            "query": "TV mount bracing in a Mumbai flat, child safety",
+            "flux_prompt": "A detailed view of a TV mount braced to a media console in a Mumbai flat, showcasing the anti-slip pads and straps used for stability.",
+            "alt": "An angle showing the mount's connection to the heavy media console.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\057-pexels.jpg",
+            "credit": "Photo by yair elgazar on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6020432"
+          },
+          "scenario": "Arjun wants to strap a stand to a bookshelf in a Mumbai flat so he can avoid drilling. If both can move, the strap only ties the accident together.",
+          "principle": "Anti-tip methods must match the manufacturer and the actual masses and wall rules in the room.",
+          "body": [
+            "Non-marring straps and pads can be part of a specified system. They are not a generic workaround. A gentle push is not a substitute for the inspection method in the product instructions, and it is not a forceful pull test.",
+            "If the furniture manufacturer’s anti-tip method needs a wall, return to written permission. Do not use a no-drill approach as a substitute for required structural anchoring."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Use only the anti-tip method specified for these products.",
+              "minutes": null
+            },
+            {
+              "text": "Check the floor and the actual masses.",
+              "minutes": null
+            },
+            {
+              "text": "Request permission if a wall connection is required.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: two movable pieces are strapped together; or a push test is taken as proof of child safety.",
+          "checklist": [
+            "Specified anti-tip method used",
+            "Both masses cannot freely walk",
+            "Permission status current"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "effective-cord-management",
+          "title": "Rental cord routes still have to be protected and inspectable",
+          "day_label": "Rental",
+          "hero": {
+            "query": "cord management solutions in a Delhi studio, no-drill",
+            "flux_prompt": "A close-up of a neatly managed cord system in a Delhi studio, highlighting the use of adhesive raceways and cable covers.",
+            "alt": "A wider shot showing the TV area with organized cords and a tidy appearance.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Stylish Tv Area\\photos\\058-pexels.jpg",
+            "credit": "Photo by Andrey Matveev on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:28190367"
+          },
+          "scenario": "Meera wants adhesive raceways in a Delhi studio. Pets and children can still pull a neat-looking channel.",
+          "principle": "Removable containment is still containment. It is not automatically child-safe or damage-free.",
+          "body": [
+            "A raceway organizes and protects cables; it does not automatically make a route child-safe. Some raceways are marketed as removable, but removal results depend on the adhesive, wall finish, paint, time, temperature, and method. Test a hidden area. Do not assume the wall will be undamaged.",
+            "Keep slack out of reach and out of crush zones. Do not leave dangling cords as a compromise for reversibility. Do not put ordinary extension cords inside walls.",
+            "Electrical requirements vary by location, installation type, and building conditions. Do not modify outlets, wiring, or circuits based solely on this book. Consult a qualified electrician when electrical work is required."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Test adhesive in a hidden spot.",
+              "minutes": null
+            },
+            {
+              "text": "Keep pull loops off the floor and off climbing routes.",
+              "minutes": null
+            },
+            {
+              "text": "Plan inspection access.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Where this goes wrong: ‘easy removal’ is treated as zero damage; or a tidy raceway is left within a child’s pull.",
+          "checklist": [
+            "Adhesive tested",
+            "Cords protected, not only hidden",
+            "No in-wall power cord"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    }
+  ]
+}

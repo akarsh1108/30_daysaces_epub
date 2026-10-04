@@ -1,0 +1,2602 @@
+{
+  "slug": "family-terrace-blueprint",
+  "title": "Family Terrace Blueprint",
+  "subtitle": "",
+  "tagline": "Guards first. Water and weather are part of the blueprint.",
+  "author": "Akarsh Priyadarshan",
+  "series": "30 Day Spaces",
+  "closing_headline": "Your next room starts here",
+  "closing_blurb": "A family terrace is an exposed building surface. Keep the same series language, and treat drainage, load, and permissions as first-class — not afterthoughts.",
+  "accent_hex": "#1E5F6B",
+  "units": "imperial",
+  "cover": {
+    "query": "A spacious terrace with a safe guard system, inviting seating areas, and lush greenery, bathed in soft afternoon light.",
+    "flux_prompt": "A full-bleed shot of a beautifully designed terrace with a view of the city skyline, featuring a combination of safety features and stylish furnishings.",
+    "alt": "Family Terrace Blueprint",
+    "source": "pexels",
+    "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\000-pexels.jpg",
+    "credit": "Photo by Matheus Bertelli on Pexels",
+    "ai_generated": false,
+    "provider_id": "pexels:17023000"
+  },
+  "designed_cover": false,
+  "chapters": [
+    {
+      "slug": "introduction-defining-your-safe-and-stylish-family-terrace",
+      "title": "Defining Your Safe And Stylish Family Terrace",
+      "intro": "Designing a terrace that is both safe and stylish requires careful planning and consideration of your family's needs. This chapter provides a comprehensive guide to creating a functional and beautiful outdoor space that accommodates play, relaxation, and dining while ensuring safety.",
+      "opener": {
+        "query": "A spacious terrace with a safe guard system, inviting seating areas, and lush greenery, bathed in soft afternoon light.",
+        "flux_prompt": "A full-bleed shot of a beautifully designed terrace with a view of the city skyline, featuring a combination of safety features and stylish furnishings.",
+        "alt": "A family terrace with a guard, seating, and plants, no people.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\000-pexels.jpg",
+        "credit": "Photo by Matheus Bertelli on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:17023000"
+      },
+      "sections": [
+        {
+          "slug": "setting-the-stage",
+          "title": "Setting The Stage",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "A cozy terrace with a bistro set and soft cushions, surrounded by greenery, illuminated by warm evening light.",
+            "flux_prompt": "A close-up shot of a bistro set on a terrace, with soft cushions and potted plants, creating an inviting atmosphere.",
+            "alt": "A stylish terrace with a mix of textures and colors, featuring a safe guard system.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\002-pexels.jpg",
+            "credit": "Photo by yun zhu on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:39016547"
+          },
+          "scenario": "Small terrace: Riya in a Pune 1BHK has about ten feet of terrace. She wants play and breakfast without treating the slab as a living room.",
+          "principle": "A well-designed terrace integrates safety and style seamlessly.",
+          "body": [
+            "Today's output: a one-page vision that names play, dining, and quiet time — and lists what you will not DIY.",
+            "Guards come before furniture. A terrace is an exposed building surface: rain, wind, and load travel through it into the rooms below. Style is the last layer.",
+            "Use six example households in this book, not a new family on every page: a small terrace, a medium terrace, a large terrace, a monsoon terrace, a rental, and a multigenerational family."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Write the vision",
+              "minutes": null
+            },
+            {
+              "text": "List non-DIY work",
+              "minutes": null
+            },
+            {
+              "text": "Name your terrace size: small, medium, or large",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Buying furniture before the edge is safe and the drains are found.",
+          "checklist": [
+            "Write the vision",
+            "List non-DIY work",
+            "Name your terrace size: small, medium, or large"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "detailed-breakdown-and-evidence",
+          "title": "Detailed Breakdown And Evidence",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "compact rental terrace with a guard and simple furniture, soft natural light, no people",
+            "flux_prompt": "wide shot of a small rental terrace with a safe guard, no drilling mess",
+            "alt": "A functional terrace layout with safety features and comfortable seating.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\003-pexels.jpg",
+            "credit": "Photo by Edoardo Colombo on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5052209"
+          },
+          "scenario": "Rental: Arjun in a compact Bengaluru rental where drilling needs approval. His terrace is about eight feet wide.",
+          "principle": "Understanding the structure and safety requirements is crucial for a successful terrace design.",
+          "body": [
+            "Today's output: measured width, drop height, door swing, and every drain you can see, photographed.",
+            "Evidence beats a pretty mood board. Note standing water stains, door-threshold gaps, and whether furniture already blocks a drain.",
+            "If you rent, stop at documentation. Anchoring, flooring changes, and waterproofing wait for written approval."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Measure width and drop",
+              "minutes": null
+            },
+            {
+              "text": "Photograph every drain",
+              "minutes": null
+            },
+            {
+              "text": "Circle what needs landlord or society approval",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Neglecting to measure and document the space can lead to poor design decisions and safety hazards.",
+          "checklist": [
+            "Measure width and drop",
+            "Photograph every drain",
+            "Circle what needs landlord or society approval"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "translating-routines-into-zones",
+          "title": "Translating Routines Into Zones",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "A serene terrace with a dining area and gardening space, bathed in warm evening light, showcasing a harmonious design.",
+            "flux_prompt": "A close-up shot of a dining table set for an evening meal on a terrace, surrounded by planters and soft lighting.",
+            "alt": "A beautifully arranged terrace with defined zones for dining and gardening.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\004-pexels.jpg",
+            "credit": "Photo by Ahmet ÇÖTÜR on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:24805069"
+          },
+          "scenario": "Medium terrace, monsoon: Meera in a Mumbai flat, about twelve by five feet, evening meals and a few planters.",
+          "principle": "Mapping routines into functional zones helps create an organized and clutter-free terrace.",
+          "body": [
+            "Today's output: play, lounge, and dining blocks that leave a clear path from the door to the guard — and do not cover drains.",
+            "Routines decide zones. Wet-climate terraces need a dry landing inside the door and furniture that can move before rain.",
+            "Do not invent a fourth family. If your terrace is this size, you are Meera's layout, not a new case study."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "List family routines and their requirements.",
+              "minutes": null
+            },
+            {
+              "text": "Draw zone boundaries on the terrace plan.",
+              "minutes": null
+            },
+            {
+              "text": "Design clear pathways for movement.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Failing to define clear zones can lead to a chaotic and cluttered terrace.",
+          "checklist": [
+            "List family routines and their requirements.",
+            "Draw zone boundaries on the terrace plan.",
+            "Design clear pathways for movement."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "guarded-edge-systems-blueprint-railings-screens-and-barriers",
+      "title": "Guarded Edge Systems Blueprint: Railings, Screens, And Barriers",
+      "intro": "Guarded Edge Systems Blueprint: Railings, Screens, And Barriers Chapter Introduction Step onto a terrace and your eyes travel to the edge. That boundary defines how free you feel, how safe your children are, and how calm the space appears. In the previous chapter, you mapped your family routines and clarified a vision for a safe, stylish terrace. Now you are ready to turn that vision into the phys",
+      "opener": {
+        "query": "small indian apartment interior minimalist daylight editorial",
+        "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK apartment interior, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+        "alt": "A calm apartment interior",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\005-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:6890400"
+      },
+      "sections": [
+        {
+          "slug": "guarded-edge-systems-blueprint-railings-screens-and-barriers",
+          "title": "Guarded Edge Systems Blueprint: Railings, Screens, And Barriers",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "small indian apartment interior minimalist daylight editorial",
+            "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK apartment interior, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+            "alt": "A calm apartment interior",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\005-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6890400"
+          },
+          "scenario": "Multigenerational: a high-rise family needs a view, HOA-neutral tones, and a guard a toddler cannot climb.",
+          "principle": "You also want to keep your view, avoid a bulky look, and stay within constraints such as homeowner association guidelines, structural limits, and maintenance tolerance.",
+          "body": [
+            "Today's output: an edge spec — height from local rules, 4-inch sphere on every opening, no climbable ladder pattern, furniture set back so it cannot become a step.",
+            "Guarded Edge Systems Blueprint: Railings, Screens, And Barriers Chapter Introduction Step onto a terrace and your eyes travel to the edge. That boundary defines how free you feel, how safe your children are, and how calm the space appears. In the previous chapter, you mapped your family routines and clarified a vision for a safe, stylish terrace. Now you are ready to turn that vision into the physical guard systems that protect without cluttering your view.",
+            "This chapter gives you the knowledge to select and integrate railings, screens, and barriers that meet kid safety standards, feel visually light, and endure weather over time. You will understand the rules that matter, compare materials and infills, evaluate anchoring and hardware, and learn smart ways to integrate guards into seating and planters. By the end, you will have a practical spec and a phased plan you can implement with confidence.",
+            "explore. They lean, climb, and push. Pets squeeze and dart. Adults set down a coffee and look away for a moment. Without a well designed guard system, that everyday behavior can turn into falls, stuck limbs, or broken elements. The challenge is not only safety. You also want to keep your view, avoid a bulky look, and stay within constraints such as homeowner association guidelines, structural limits, and maintenance tolerance. Many products promise both beauty and security, yet they can introduce climbable patterns, sharp corners, corrosion, or distracting visual noise. The core problem is finding solutions that align with your family's routines, local code, and your aesthetic without inviting clutter or creating new hazards.",
+            "Height And Openings. Guards should meet local minimum height standards, often between 36 and 42 inches depending on the setting and jurisdiction. No opening should allow a 4 inch sphere to pass. This single guideline is simple and powerful. If a ball with a 4 inch diameter cannot pass, a child's head cannot pass. Anti Climb Thinking. Eliminate horizontal members that form a ladder effect. Favor vertical balusters, solid panels, or perforated panels with small holes. Keep furniture and planters a safe distance from edges so they do not become step stools.",
+            "Anchoring And Hardware Integrity. Use anchors, posts, and fasteners suited to your structure and climate. Stainless steel grade 316 is best for coastal settings. Stainless steel grade 304 is typical inland. Powder coated hardware avoids rust and heat glare. Quality fasteners and periodic checks are as important as the guard material. Aesthetic Integration With Function. Integrate guards with benches, planters, and storage to achieve calm lines and avoid clutter. Screens can serve double duty as wind and privacy barriers while meeting the 4 inch sphere rule. Keep the palette consistent so the guard becomes part of the terrace, not a noisy afterthought.",
+            "your terrace and note where a fall could occur. Most residential terraces require a guard when the drop is significant, often around 30 inches or more, but check your local code. Aim for guard heights in the range required by your area. If you are unsure, design for the stricter standard. It is easier to meet a taller requirement than to retrofit later. Apply the 4 inch sphere rule to every opening, including at the base near the floor, around posts, and at the latch of any gate.",
+            "Design out climbability. Children climb when they see a pattern that looks like steps. Horizontal bars, cable runs, decorative lattice, and staggered slats invite it. Vertical balusters spaced less than 4 inches apart do not. Solid tempered glass panels do not. Perforated metal with small diameter holes does not. If you love the look of a horizontal line, use it as a top rail only, with a continuous infill below that is non climbable.",
+            "Comparing Railing Systems Tempered Glass With Protective Film. Glass delivers an open view and a clean look. Choose tempered glass for strength. Add a protective film or select laminated safety glass to help prevent shatter scatter if breakage occurs. Specify edges that are polished and rounded. Avoid a bottom gap larger than 3 inches. Glass shows smudges, so plan for easy cleaning access and consider a soft matte finish if glare is a concern."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Guard openings and climb",
+              "caption": "Local height rules win. The sphere test is a check, not a substitute for code.",
+              "values": [
+                "Ask the authority, not a catalog",
+                "No child-head gap",
+                "No ladder effect",
+                "Not a step stool",
+                "Posts into structure, not only pavers"
+              ],
+              "labels": [
+                "Guard height",
+                "Four-inch sphere at every gap",
+                "Horizontal bars and lattice",
+                "Furniture and planters at the edge",
+                "Anchors"
+              ],
+              "minimum": null,
+              "spec_id": "D001",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D001.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Screens are wind sails",
+              "caption": "A privacy screen is a load. Furniture weight is not an anchor.",
+              "values": [
+                "Needs a rated system",
+                "Can push a weak post over",
+                "Not a substitute for a guard",
+                "Ask before you bolt"
+              ],
+              "labels": [
+                "Broad panels",
+                "Wind on a high terrace",
+                "A screen that fails the sphere test",
+                "Permanent screens on a rental"
+              ],
+              "minimum": null,
+              "spec_id": "D002",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D002.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Map every drop",
+              "minutes": null
+            },
+            {
+              "text": "Write the sphere test on the drawing",
+              "minutes": null
+            },
+            {
+              "text": "Mark furniture setback from the edge",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Anchoring a post only to a paver, or using a climbable screen as a guard.",
+          "checklist": [
+            "Map every drop",
+            "Write the sphere test on the drawing",
+            "Mark furniture setback from the edge"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "before-you-modify-a-terrace",
+          "title": "Before you modify a terrace",
+          "day_label": "Day 5",
+          "hero": {
+            "query": "Pune terrace design, safety compliance, guard height, natural light, textured surfaces",
+            "flux_prompt": "image of a terrace with visible guardrails, plants, and furniture arranged safely",
+            "alt": "Pune terrace with safety features and compliant design elements.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\007-pexels.jpg",
+            "credit": "Photo by Alfredo Marco Pradil on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:19073668"
+          },
+          "scenario": "Rental: Arjun cannot treat a compact Bengaluru terrace like a house he owns. Society rules apply too.",
+          "principle": "Reversible first. Permanent work needs approval and, often, a professional.",
+          "body": [
+            "Today's output: two lists — what you may place without altering the building, and what needs landlord, HOA, apartment association, or society approval.",
+            "Usually reversible: freestanding furniture, removable mats, planters where permitted, portable shade, removable storage, and non-permanent child barriers where they are appropriate and still meet opening rules.",
+            "Get approval before drilling, anchoring guards, installing permanent screens, altering flooring, electrical modifications, plumbing or drain changes, waterproofing, structural changes, or exterior façade work. Association and HOA rules can be stricter than the lease."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Before you modify a terrace",
+              "caption": "Ask the landlord, HOA, or society before anything that touches the building.",
+              "values": [
+                "Usually yes",
+                "Usually yes",
+                "If the lease and society allow",
+                "Usually yes",
+                "Usually yes",
+                "If it does not become a climbable ladder",
+                "Written approval",
+                "Written approval plus a professional"
+              ],
+              "labels": [
+                "Freestanding furniture and removable mats",
+                "Portable shade and removable storage",
+                "Planters where permitted",
+                "Non-permanent child barriers",
+                "Documenting drains and cracks",
+                "Temporary barriers",
+                "Drilling, anchoring, permanent screens",
+                "Flooring, electrical, drains, waterproofing, structure, façade"
+              ],
+              "minimum": null,
+              "spec_id": "D008",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D008.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Do not DIY when the task involves",
+              "caption": "Detection and furniture layout can stay yours. The building cannot.",
+              "values": [
+                "Stop",
+                "Stop",
+                "Stop",
+                "Stop",
+                "Stop",
+                "Stop",
+                "Stop",
+                "Stop"
+              ],
+              "labels": [
+                "Structural modifications",
+                "Guard anchoring into the building",
+                "Permanent electrical work",
+                "Waterproofing systems",
+                "Major drainage or plumbing changes",
+                "Significant extra load",
+                "Permanent shade structures",
+                "Building-envelope penetrations"
+              ],
+              "minimum": null,
+              "spec_id": "D010",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D010.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Circle reversible items",
+              "minutes": null
+            },
+            {
+              "text": "Write who must approve the rest",
+              "minutes": null
+            },
+            {
+              "text": "File the Do not DIY list on the fridge",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Drilling a slab because a furniture shop sold you an awning kit.",
+          "checklist": [
+            "Circle reversible items",
+            "Write who must approve the rest",
+            "File the Do not DIY list on the fridge"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "kid-safe-material-matrix-non-toxic-durable-surfaces-and-furn",
+      "title": "Kid-Safe Material Matrix: Non-Toxic, Durable Surfaces and Furnishings",
+      "intro": "This chapter guides you through a practical matrix that compares safety, durability, maintenance, and aesthetics for kid-safe materials in your terrace design.",
+      "opener": {
+        "query": "full-bleed shot of a serene terrace with kid-friendly furnishings and materials, natural light, soft textures",
+        "flux_prompt": "full-bleed shot of a terrace with a mix of soft furnishings and durable surfaces, showcasing a calm and inviting atmosphere",
+        "alt": "Outdoor furniture and planters on a terrace, no people.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\008-pexels.jpg",
+        "credit": "Photo by Dmitry Zvolskiy on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:2082090"
+      },
+      "sections": [
+        {
+          "slug": "understanding-the-kid-safe-material-matrix",
+          "title": "Understanding the Kid Safe Material Matrix",
+          "day_label": "Day 6",
+          "hero": {
+            "query": "a detailed view of a kid-safe material matrix spreadsheet, with highlighted ratings and notes, natural light",
+            "flux_prompt": "a close-up of a material matrix spreadsheet with colorful highlights, showcasing safety ratings and notes, well-organized",
+            "alt": "a visual representation of a kid-safe material matrix with clear categories and ratings.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\009-pexels.jpg",
+            "credit": "Photo by https://kaboompics.com/ on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5386423"
+          },
+          "scenario": "Small terrace: Riya needs surfaces that stay cooler and cleaner with a toddler, not a new named household.",
+          "principle": "A structured matrix helps compare materials based on essential criteria.",
+          "body": [
+            "Today's output: a short material list that you can actually maintain, with toxicity and slip as vetoes.",
+            "Key criteria include non-toxic certifications, slip resistance ratings, UV stability, corrosion resistance, rounded edges, and tamper-resistant hardware. For instance, when assessing decking, ensure you check the dynamic coefficient of friction (DCOF) values. A DCOF of 0.42 or higher is ideal for wet areas, which is crucial for safety in a family space.",
+            "By verifying third-party labels such as Greenguard Gold, OEKO TEX Standard 100, and FSC for wood, you can build confidence in your material choices. Testing samples on your terrace helps you see how they behave in your specific climate, ensuring they meet your family's needs."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Create a Kid Safe Material Matrix spreadsheet.",
+              "minutes": null
+            },
+            {
+              "text": "Include columns for Safety, Durability, Maintenance, and Aesthetics.",
+              "minutes": null
+            },
+            {
+              "text": "Verify non-toxic certifications for all materials.",
+              "minutes": null
+            },
+            {
+              "text": "Test samples in your climate before making final decisions.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Overlooking the importance of slip resistance ratings can lead to unsafe surfaces.",
+          "checklist": [
+            "Create a Kid Safe Material Matrix spreadsheet.",
+            "Include columns for Safety, Durability, Maintenance, and Aesthetics.",
+            "Verify non-toxic certifications for all materials.",
+            "Test samples in your climate before making final decisions."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "choosing-the-right-flooring-and-surface-options",
+          "title": "Choosing the Right Flooring and Surface Options",
+          "day_label": "Day 7",
+          "hero": {
+            "query": "a close-up of various flooring samples on a terrace, showcasing textures and colors, natural light",
+            "flux_prompt": "a detailed view of different flooring materials arranged aesthetically, highlighting slip-resistant textures and colors, soft lighting",
+            "alt": "a collection of flooring samples, including capped composite, porcelain pavers, and rubber tiles, displayed on a terrace.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\010-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7504591"
+          },
+          "scenario": "Rental: Anita in a compact Bengaluru rental. Flooring changes need approval; a removable mat may not.",
+          "principle": "Selecting the right flooring is crucial for safety and comfort.",
+          "body": [
+            "Decking sets the tone for comfort and safety on your terrace. When assessing flooring options, consider slip resistance, thermal behavior, and upkeep. For example, capped composite decking is an excellent choice as it resists staining and splintering. Look for products with textured surfaces and slip resistance values. A DCOF of 0.42 or higher is recommended for wet areas, ensuring safety for children playing outside.",
+            "Porcelain pavers on pedestals are another viable option. They resist stains and remain dimensionally stable, making them suitable for drainage. Look for tiles with R ratings, R11 or higher, which indicate enhanced grip in wet conditions. Ensure the edges are rectified and smooth to avoid trip hazards. Testing the thermal comfort of the color you choose is also essential; lighter tones tend to stay cooler underfoot.",
+            "Rubber play tiles are ideal for play zones, providing cushioning and traction. Ensure they meet impact attenuation ratings for playground safety, often tested to ASTM F1292. Select tiles with good slip resistance and a sealed finish to resist UV fade and microbial growth. Avoid strong odors by checking for VOC emission data.",
+            "Drainage is not a tile color. Pedestals and open joints only help if water can still reach the drains. Do not lay a sheet that dams the slab. If the floor looks sound, that is not proof it can take extra stone or wet soil."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Assess each flooring option using the Kid Safe Material Matrix.",
+              "minutes": null
+            },
+            {
+              "text": "Verify slip resistance ratings for all surfaces.",
+              "minutes": null
+            },
+            {
+              "text": "Choose lighter colors for decking to reduce heat absorption.",
+              "minutes": null
+            },
+            {
+              "text": "Test thermal comfort with samples before installation.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Choosing dark decking in full sun can lead to overheating.",
+          "checklist": [
+            "Assess each flooring option using the Kid Safe Material Matrix.",
+            "Verify slip resistance ratings for all surfaces.",
+            "Choose lighter colors for decking to reduce heat absorption.",
+            "Test thermal comfort with samples before installation."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "selecting-durable-finishes-and-metals",
+          "title": "Selecting Durable Finishes and Metals",
+          "day_label": "Day 8",
+          "hero": {
+            "query": "a display of various metal finishes and coatings under natural light, emphasizing smooth textures",
+            "flux_prompt": "a close-up of powder-coated metal samples and wood finishes, showcasing their durability and aesthetics, soft lighting",
+            "alt": "a collection of metal finishes and wood coatings, highlighting their smooth surfaces and colors.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\011-pexels.jpg",
+            "credit": "Photo by Karina Badura on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:12774180"
+          },
+          "scenario": "Monsoon terrace: Meera in Mumbai needs metals and coatings that survive salt air and rain, not a second family.",
+          "principle": "Durable finishes and metals are essential for maintaining safety and aesthetics.",
+          "body": [
+            "Hardware and finishes are critical components of your terrace. Children interact with these surfaces, so it’s vital to select coatings and metals that resist corrosion and remain smooth. For wood or composite finishes, review the VOC content measured in grams per liter; lower values are better. Many products carry Greenguard or Greenguard Gold certification, indicating low chemical emissions, which is essential for a kid-friendly environment.",
+            "Powder-coated aluminum and steel should meet recognized performance standards. AAMA 2604 is a durable choice for residential applications, while AAMA 2605 offers exceptional UV and corrosion performance. Always ask vendors for specification sheets and salt spray test results to ensure longevity in coastal areas. Smooth finishes reduce snag risks, which is particularly important for children.",
+            "Tamper-resistant hardware is crucial for safety. Select fasteners that kids cannot easily loosen, such as tamper-resistant Torx screws and captured nuts. For gates and storage latches, prefer keyed or combination locks that hide mechanisms to prevent curious hands from tampering."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Choose low VOC finishes for all wood and composite materials.",
+              "minutes": null
+            },
+            {
+              "text": "Verify powder coating standards for metals based on your environment.",
+              "minutes": null
+            },
+            {
+              "text": "Select tamper-resistant hardware for safety.",
+              "minutes": null
+            },
+            {
+              "text": "Inspect all finishes and metals for smoothness and durability.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Using untreated pressure-treated wood can lead to splintering.",
+          "checklist": [
+            "Choose low VOC finishes for all wood and composite materials.",
+            "Verify powder coating standards for metals based on your environment.",
+            "Select tamper-resistant hardware for safety.",
+            "Inspect all finishes and metals for smoothness and durability."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "furnishings-textiles-and-planters-for-safety-and-comfort",
+          "title": "Furnishings, Textiles, and Planters for Safety and Comfort",
+          "day_label": "Day 9",
+          "hero": {
+            "query": "a beautifully arranged terrace with kid-friendly furniture, textiles, and planters, natural light",
+            "flux_prompt": "a well-styled terrace showcasing rounded furniture and vibrant textiles, emphasizing safety and comfort, soft lighting",
+            "alt": "a cozy terrace setup with safe furnishings and colorful textiles, highlighting a kid-friendly environment.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\012-pexels.jpg",
+            "credit": "Photo by myHQ-Workspaces on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5444185"
+          },
+          "scenario": "Small terrace plus pets: Riya's terrace is used by a toddler and a small dog. Planters are furniture with wet weight.",
+          "principle": "Choosing the right furnishings and textiles enhances safety and comfort.",
+          "body": [
+            "Today's output: furniture and planters placed so they cannot become steps, sails, or toxin shelves.",
+            "Planter safety: count the weight when soil is wet; check wind; keep drainage and overflow off walking paths and away from door thresholds; keep pots stable; keep them off the guard line; do not stack them into a climbing stair; skip plants that are toxic to pets if pets can reach them.",
+            "Pet terrace safety: no toxic plants in reach; no gaps a small pet can escape; no climbable furniture against guards; no loose strings or cables; no unstable planters; no accessible chemicals or fertilizers; avoid hot surfaces in strong sun; provide shade and water; match barriers to the pet's size and behavior."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Planter safety",
+              "caption": "Wet soil is heavy. A pretty pot is still a load and a possible step.",
+              "values": [
+                "Heavier than it looks",
+                "Can topple or sail",
+                "Must reach a drain, not a path",
+                "Not a pool at the door",
+                "Will not roll or tip easily",
+                "Not a ladder at the edge",
+                "If pets can reach them"
+              ],
+              "labels": [
+                "Weight when soil is wet",
+                "Wind exposure",
+                "Drainage",
+                "Overflow",
+                "Stability",
+                "Position relative to guards",
+                "Toxic plants"
+              ],
+              "minimum": null,
+              "spec_id": "D029",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D029.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Pet terrace safety",
+              "caption": "Child rules still apply. Pets add escape, chew, and heat risks.",
+              "values": [
+                "Out of reach or not planted",
+                "Sphere and latch still matter",
+                "Not against the rail",
+                "Tie or remove",
+                "Locked away",
+                "Paws and pads burn",
+                "A bowl and a shaded pad",
+                "A cat is not a toddler"
+              ],
+              "labels": [
+                "Toxic plants",
+                "Escape gaps",
+                "Climbable furniture at guards",
+                "Loose strings and cables",
+                "Chemicals and fertilizers",
+                "Hot surfaces in sun",
+                "Shade and water",
+                "Barrier vs pet size and behavior"
+              ],
+              "minimum": null,
+              "spec_id": "D024",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D024.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Weigh wet-soil risk",
+              "minutes": null
+            },
+            {
+              "text": "Walk the edge as a pet would",
+              "minutes": null
+            },
+            {
+              "text": "Move climbable pieces inward",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "A row of pots against the guard that a child can climb, or lilies where a cat eats.",
+          "checklist": [
+            "Weigh wet-soil risk",
+            "Walk the edge as a pet would",
+            "Move climbable pieces inward"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "family-zoning-framework-designing-play-lounging-and-dining-z",
+      "title": "Family Zoning Framework: Designing Play, Lounging, And Dining Zones",
+      "intro": "Family Zoning Framework: Designing Play, Lounging, And Dining Zones Chapter Introduction You want a terrace that feels calm, looks beautiful, and works for your family daily. The secret is not more furniture or more toys. It is a clear, thoughtful zone plan that quietly guides behavior, protects kids near edges, and keeps movement stress free. When zones are right, you relax more, kids play longer",
+      "opener": {
+        "query": "small indian dining minimalist daylight editorial",
+        "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK dining, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+        "alt": "A calm dining",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\013-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:7046002"
+      },
+      "sections": [
+        {
+          "slug": "family-zoning-framework-designing-play-lounging-and-dining-z",
+          "title": "Family Zoning Framework: Designing Play, Lounging, And Dining Zones",
+          "day_label": "Day 10",
+          "hero": {
+            "query": "small indian dining minimalist daylight editorial",
+            "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK dining, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+            "alt": "A calm dining",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\013-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7046002"
+          },
+          "scenario": "Large terrace: a multigenerational rooftop with play in sight of dining — still one family, not a new novel.",
+          "principle": "",
+          "body": [
+            "Today's output: five zones that leave drains open, keep play in sight, and do not pile wet soil and stone on one bay of slab.",
+            "Family Zoning Framework: Designing Play, Lounging, And Dining Zones Chapter Introduction You want a terrace that feels calm, looks beautiful, and works for your family daily. The secret is not more furniture or more toys. It is a clear, thoughtful zone plan that quietly guides behavior, protects kids near edges, and keeps movement stress free. When zones are right, you relax more, kids play longer, and meals do not compete with racing scooters or dripping pool toys.",
+            "Building on the guarded edges and safe materials you selected earlier, this chapter translates routines into distinct, easy to supervise zones. You will learn how to position play, lounging, dining, gardening, and storage, how to size pathways and clearances, and how to mark boundaries without clutter or climb risks. By the end, you will have a practical map that supports family life today and evolves as kids grow.",
+            "Most terraces start as one big space. Without defined zones, toys creep into walkways, chairs block doors, and play edges toward railings where climbing becomes tempting. Sun exposure roasts one area while wind whips another, so people crowd into the same corner. Visual noise builds. You spend more time managing than enjoying. Unclear circulation compounds the issue. Pathways narrow unexpectedly, dining chairs bump into loungers, and storage bins sit where everyone needs to walk. The result is spilled drinks, stubbed toes, and constant redirecting of kids away from edge risks. Even thoughtful material choices from the previous chapter cannot fix a layout that fights your routines.",
+            "Use the Family Zoning Framework, a simple method to organize your terrace into five interoperable zones. Each zone earns a place based on adjacency, sightlines, sun and wind orientation, and noise separation. The framework includes circulation standards and subtle markers that maintain style while reinforcing boundaries. Play Zone in view of the main seating and kitchen door, with soft surfacing and no climb risks near edges Lounging Zone with modular seating, side tables, and layered shade, anchored away from primary circulation Dining Zone sized for your household plus guests, with safe chair footprints and booster options Gardening Zone using planters as buffers and teaching tools, positioned to block wind or screen views without creating ladders Storage Zone that swallows toys and cushions, strategically placed for quick resets and clear pathways There are four rules that shape the plan. Keep primary sightlines to play uninterrupted. Setback climb prone items from edges. Honor circulation widths and furniture clearances. Mark boundaries with low profile cues, not tall fences or visual clutter. Think of the terrace as a calm storyboard of your day.",
+            "Never assume a terrace can safely support extra concentrated load because the floor looks structurally sound. Planters, wet soil, stone pots, water, storage boxes, people, and outdoor kitchens add up. For substantial additions, get appropriate professional confirmation."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Primary Pathways From Doors Should Be 36",
+              "caption": "Primary pathways from doors should be 36 inches wide at minimum, 42 to 48 inches is ideal if space allows for two way passing. Maintain a buffer of at least 24 inches from guarded edges for climb prone objects, including benches, planters, and play features.",
+              "values": [
+                "36 inch",
+                "42 to 48 inch"
+              ],
+              "labels": [],
+              "minimum": "24 inches",
+              "spec_id": "D009",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D009.svg"
+            },
+            {
+              "kind": "table",
+              "title": "24 Inches Behind Each Dining Chair For",
+              "caption": "Leave 24 inches behind each dining chair for pull back movement, 30 inches is ideal for ease of seating with boosters.",
+              "values": [
+                "24 inch",
+                "30 inch"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D011",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D011.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Coffee Tables 16 To 18 Inches From",
+              "caption": "Set coffee tables 16 to 18 inches from seating fronts for reach without shin bashing.",
+              "values": [
+                "16 to 18 inch"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D012",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D012.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Provide 18 Inches Between Loungers For Side",
+              "caption": "Provide 18 inches between loungers for side tables and safe passage.",
+              "values": [
+                "18 inch"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D013",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D013.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Terrace load warning",
+              "caption": "Looks solid is not a capacity rating.",
+              "values": [
+                "Wet soil is a live load",
+                "Stone and ceramic concentrate weight",
+                "Tanks and saucers add more",
+                "Boxes plus people at a party",
+                "Not a DIY guess",
+                "Ask a professional"
+              ],
+              "labels": [
+                "Heavy planters",
+                "Large pots",
+                "Water",
+                "Storage and occupancy",
+                "Outdoor kitchens and equipment",
+                "Substantial additions"
+              ],
+              "minimum": null,
+              "spec_id": "D028",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D028.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "space-specific-layout-templates-small-medium-and-large-terra",
+      "title": "Space-Specific Layout Templates: Small, Medium, And Large Terraces",
+      "intro": "This chapter provides ready templates for small, medium, and large terraces, ensuring a layout that fits your specific space without clutter and guesswork. By applying the principles of safety, flow, and visual calm, you can create an organized outdoor area that meets your family's needs.",
+      "opener": {
+        "query": "A serene terrace layout with integrated furniture and greenery, showcasing a small family-friendly space with a focus on safety and visual calm.",
+        "flux_prompt": "Full-bleed shot of a well-designed terrace with a compact layout, soft textures, and a neutral color palette, illuminated by warm evening light.",
+        "alt": "A measured terrace layout with a clear walking spine.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\015-pexels.jpg",
+        "credit": "Photo by AJ  Ahamad on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:29149074"
+      },
+      "sections": [
+        {
+          "slug": "small-terraces-micro-balconies-up-to-about-one-hundred-twent",
+          "title": "Small Terraces: Micro Balconies Up To About One Hundred Twenty Square Feet",
+          "day_label": "Day 11",
+          "hero": {
+            "query": "A compact balcony layout featuring a slim storage bench, round bistro table, and play rug, all under soft evening light.",
+            "flux_prompt": "A well-styled small balcony with a focus on safety and organization, showcasing textures like wood and fabric, with a serene color palette.",
+            "alt": "An inviting small terrace with integrated storage and dining areas, emphasizing safety and functionality.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\016-pexels.jpg",
+            "credit": "Photo by Jan van der Wolf on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:37365097"
+          },
+          "scenario": "Small terrace: Riya's Pune balcony. One bistro set, one planter line, no extra fictional household.",
+          "principle": "Compact stacking of zones is essential in small terraces to maximize functionality while maintaining safety.",
+          "body": [
+            "To optimize the small balcony, start by placing a slim storage bench along the wall opposite the guard. The bench should have a depth of 18 inches and a length between 60 to 72 inches. This provides both seating and storage without obstructing pathways.",
+            "Next, create a two-person dining nook adjacent to the bench using a round bistro table with a diameter of 24 to 28 inches and two folding chairs. Round tables ease circulation because their corners do not protrude, making movement around the space more fluid.",
+            "Finally, float a small play rug in the remaining open area, measuring roughly 36 by 48 inches, and add one portable toy bin under the bench. This arrangement allows for safe play while keeping the area organized."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Measure your balcony dimensions accurately.",
+              "minutes": null
+            },
+            {
+              "text": "Select a slim storage bench of appropriate size.",
+              "minutes": null
+            },
+            {
+              "text": "Choose a round bistro table and folding chairs for dining.",
+              "minutes": null
+            },
+            {
+              "text": "Add a play rug and portable toy storage under the bench.",
+              "minutes": null
+            },
+            {
+              "text": "Ensure a clear pathway of at least 30 inches along the guard.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Avoid placing furniture too close to the guard; maintain at least a 12-inch setback to prevent climbing hazards.",
+          "checklist": [
+            "Measure your balcony dimensions accurately.",
+            "Select a slim storage bench of appropriate size.",
+            "Choose a round bistro table and folding chairs for dining.",
+            "Add a play rug and portable toy storage under the bench.",
+            "Ensure a clear pathway of at least 30 inches along the guard."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "medium-terraces-about-one-hundred-twenty-to-three-hundred-sq",
+          "title": "Medium Terraces: About One Hundred Twenty To Three Hundred Square Feet",
+          "day_label": "Day 12",
+          "hero": {
+            "query": "A medium terrace layout featuring a dining area, lounging cluster, and play corner, all harmoniously integrated.",
+            "flux_prompt": "A stylish medium terrace showcasing a balanced arrangement of dining and lounging areas, with soft textures and warm lighting.",
+            "alt": "An organized medium terrace with distinct zones for dining, lounging, and play, emphasizing safety and flow.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\017-pexels.jpg",
+            "credit": "Photo by Denys Gromov on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:12645236"
+          },
+          "scenario": "Medium terrace: Meera's Mumbai slot. Dining plus play in sight, furniture that can move before rain.",
+          "principle": "Balanced lounging and dining arrangements are key in medium terraces to ensure comfort and functionality.",
+          "body": [
+            "Begin by sizing the dining zone for four to six people, using a rectangular table that is 60 to 72 inches long and 36 inches wide, with six chairs. Position the table parallel to the longest edge of the terrace, ensuring at least 36 inches of clearance behind the chairs for easy movement.",
+            "Next, create a lounging cluster with a compact sectional or two lounge chairs plus an ottoman. Arrange the seating to face inward toward the dining table and play corner, fostering interaction and comfort. Include two side tables instead of a large coffee table to ease movement.",
+            "Designate a play corner in the most visible quadrant from the seating area. Use soft surfacing, such as an outdoor rug or foam tiles, and include one low play shelf. Define this corner with a planter that sits inside the guard setback, ensuring safety."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Measure the terrace dimensions accurately.",
+              "minutes": null
+            },
+            {
+              "text": "Select a rectangular dining table and chairs that fit the space.",
+              "minutes": null
+            },
+            {
+              "text": "Arrange lounging furniture to face the dining and play areas.",
+              "minutes": null
+            },
+            {
+              "text": "Create a visible play corner with soft surfacing and storage.",
+              "minutes": null
+            },
+            {
+              "text": "Ensure all zones have appropriate setbacks from the guard.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Do not ignore the importance of maintaining a continuous pathway of at least 36 inches connecting all zones for ease of movement.",
+          "checklist": [
+            "Measure the terrace dimensions accurately.",
+            "Select a rectangular dining table and chairs that fit the space.",
+            "Arrange lounging furniture to face the dining and play areas.",
+            "Create a visible play corner with soft surfacing and storage.",
+            "Ensure all zones have appropriate setbacks from the guard."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "large-terraces-over-three-hundred-square-feet",
+          "title": "Large Terraces: Over Three Hundred Square Feet",
+          "day_label": "Day 13",
+          "hero": {
+            "query": "A spacious rooftop layout with distinct zones for dining, lounging, and play, all designed for family interaction and safety.",
+            "flux_prompt": "A beautifully styled large terrace featuring a central spine, dining area, and lounging zone, enhanced by warm evening lighting.",
+            "alt": "An inviting large terrace with multiple zones for dining, lounging, and play, emphasizing safety and supervision.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\018-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7214339"
+          },
+          "scenario": "Large terrace: a Mumbai rooftop for a multigenerational family. Supervision lines matter more than a fire bowl.",
+          "principle": "A multi-zone arrangement with clear pathways and supervision lines is crucial in large terraces to enhance usability and safety.",
+          "body": [
+            "Today's output: a central spine from the door to a planting cluster — not an open flame — wide enough to walk, with dining near service and play in view.",
+            "If any open flame remains on the terrace, follow local rules first. Keep flames away from combustible furniture and textiles. Maintain manufacturer-required clearances. Never leave an open flame unattended. Keep an appropriate extinguisher or fire-safety measure accessible where appropriate. Do not use improvised fuel containers. Consider wind before using any flame-producing equipment. If those rules are too heavy for this household, do not put a fire bowl on the drawing.",
+            "Portable shade is generally a lower intervention. Anchored or permanent shade needs professional assessment and required approval. Shade that punctures the envelope is a waterproofing risk."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Open-flame boundary",
+              "caption": "If flame is not essential, omit it. Dining does not require a bowl of fire.",
+              "values": [
+                "Before any flame",
+                "Textiles and dry foliage ignite",
+                "The label, not a guess",
+                "Not even for a minute",
+                "Where appropriate and legal",
+                "No kitchen bottles as fuel",
+                "A gust turns a toy into a torch"
+              ],
+              "labels": [
+                "Local open-flame rules",
+                "Distance from furniture and fabric",
+                "Manufacturer clearances",
+                "Unattended flame",
+                "Extinguisher or stated measure",
+                "Improvised fuel containers",
+                "Wind exposure"
+              ],
+              "minimum": null,
+              "spec_id": "D023",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D023.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Portable vs permanent shade",
+              "caption": "An umbrella is not a pergola. Penetrations are waterproofing.",
+              "values": [
+                "Lower intervention if weighted as the maker says",
+                "Professional plus approval",
+                "A sail in a storm",
+                "Can pond water",
+                "Needs rated hardware",
+                "A leak path into the slab"
+              ],
+              "labels": [
+                "Portable shade",
+                "Anchored or permanent shade",
+                "Wind load",
+                "Water accumulation",
+                "Anchoring",
+                "Envelope penetrations"
+              ],
+              "minimum": null,
+              "spec_id": "D027",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D027.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Draw the spine to plants, not flame",
+              "minutes": null
+            },
+            {
+              "text": "Mark shade as portable or permanent",
+              "minutes": null
+            },
+            {
+              "text": "Set fire rules or delete flame",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "A decorative fire bowl under an umbrella with cushions nearby.",
+          "checklist": [
+            "Draw the spine to plants, not flame",
+            "Mark shade as portable or permanent",
+            "Set fire rules or delete flame"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "clutter-free-storage-and-organization-playbook",
+      "title": "Clutter-Free Storage And Organization Playbook",
+      "intro": "This chapter focuses on creating an organized and clutter-free terrace that enhances safety and usability for families. By integrating storage solutions into your layout, you can maintain a calm and inviting outdoor space.",
+      "opener": {
+        "query": "terrace organization, clutter-free storage, family-friendly design, Indian apartment terrace, natural light, neutral colors, outdoor living",
+        "flux_prompt": "full-bleed shot of a well-organized terrace with built-in benches and vertical storage, showcasing a calm and inviting atmosphere, no people, no text, no watermark",
+        "alt": "A terrace bench with storage, drains still visible.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\019-pexels.jpg",
+        "credit": "Photo by Berna on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:28957822"
+      },
+      "sections": [
+        {
+          "slug": "integrating-storage-into-your-layout",
+          "title": "Integrating Storage into Your Layout",
+          "day_label": "Day 14",
+          "hero": {
+            "query": "integrated storage solutions, built-in benches, vertical cabinets, Pune terrace design",
+            "flux_prompt": "shot of a built-in bench with clear bins, showcasing the integration of storage into the terrace layout, natural light, no people, no text, no watermark",
+            "alt": "alternative angle of the built-in bench with cushions and toys neatly stored.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\020-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6580395"
+          },
+          "scenario": "Small terrace: Ravi on Riya's size of terrace — toys need a bench, not a cabinet bolted without permission.",
+          "principle": "Storage should be seamlessly integrated into the layout to enhance safety and usability.",
+          "body": [
+            "Built-in benches along interior walls are essential for handling everyday items and removing the need for freestanding boxes in circulation paths. A depth of 16 to 18 inches is comfortable for sitting and ample for toy bins and cushions. Include a sealed base to prevent items from rolling underneath. Choose lids with soft close hinges and finger cutouts instead of external handles to enhance safety.",
+            "Slim deck boxes can slide into negative spaces at the ends of sofas or under console tables. Measure the clearance under tables you already own; many under table boxes can be 10 to 12 inches high and still hold sketch pads, chalk, and small bats. Fit foam or rubber bumpers on lids and corners, and select boxes with gasket seals to keep out rain and dust.",
+            "Vertical cabinets are for seasonal items if you are allowed to anchor them. Keep them shallow, on an interior wall you may fix to, never as a climb next to a guard. Ask the vendor about tip-over tests. Permanent anchors are a permission item."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "We Recommended A 60 Inch Built In",
+              "caption": "We recommended a 60 inch built in bench along the interior wall with three clear bins inside, art, active toys, and cushions.",
+              "values": [
+                "60 inch"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D020",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D020.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Many Under Table Boxes Can Be 10",
+              "caption": "Many under table boxes can be 10 to 12 inches high and still hold sketch pads, chalk, and small bats.",
+              "values": [
+                "10 to 12 inch"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D019",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D019.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Measure your terrace and plan for built-in benches along interior walls.",
+              "minutes": null
+            },
+            {
+              "text": "Select slim deck boxes that fit under existing furniture.",
+              "minutes": null
+            },
+            {
+              "text": "Choose vertical cabinets that are shallow and can be anchored safely.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Do not place tall cabinets near guarded edges; move them to interior walls and anchor them.",
+          "checklist": [
+            "Measure your terrace and plan for built-in benches along interior walls.",
+            "Select slim deck boxes that fit under existing furniture.",
+            "Choose vertical cabinets that are shallow and can be anchored safely."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "organizing-by-micro-zones-and-rotation",
+          "title": "Organizing by Micro Zones and Rotation",
+          "day_label": "Day 15",
+          "hero": {
+            "query": "organized micro zones, labeled bins, Bengaluru terrace design",
+            "flux_prompt": "shot of clearly labeled bins for art and sports supplies, showcasing organized micro zones, natural light, no people, no text, no watermark",
+            "alt": "alternative angle of the micro zones with bins and toys neatly arranged.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\021-pexels.jpg",
+            "credit": "Photo by Aditya Oberai on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:35114454"
+          },
+          "scenario": "Rental: Priya on a compact Bengaluru terrace. Micro-zones must stay reversible.",
+          "principle": "Organizing storage by micro zones enhances accessibility and encourages kids to return items to their designated places.",
+          "body": [
+            "Create small, clear categories for different activities such as art, sports, and gardening. Label transparent bins with words and icons so children can self-serve and self-return items. This empowers them to take responsibility for their belongings and helps maintain order.",
+            "Implement a toy rotation system where half of the toys are stored away while the other half is accessible. Rotate toys on a weekly or biweekly schedule to keep the terrace feeling fresh without adding clutter. This approach not only reduces the number of toys in circulation but also re-engages children with toys they may have forgotten about.",
+            "Ensure that each storage piece is sized appropriately for its task. For example, art supplies should be easily accessible near the dining table, while sports equipment should be stored near the play area. This strategic placement aligns with family routines and minimizes the time spent searching for items."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Create clear categories for different activities in your storage.",
+              "minutes": null
+            },
+            {
+              "text": "Label bins with words and icons for easy identification.",
+              "minutes": null
+            },
+            {
+              "text": "Establish a toy rotation schedule to keep the space fresh.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Do not skip labeling; without labels, bins become mysterious and disorganized.",
+          "checklist": [
+            "Create clear categories for different activities in your storage.",
+            "Label bins with words and icons for easy identification.",
+            "Establish a toy rotation schedule to keep the space fresh."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "finishing-touches-for-safety-and-visual-calm",
+          "title": "Finishing Touches for Safety and Visual Calm",
+          "day_label": "Day 16",
+          "hero": {
+            "query": "safe and visually calm storage, Mumbai terrace design, neutral finishes",
+            "flux_prompt": "shot of a vertical cabinet with neutral finishes and concealed hardware, showcasing a calm and safe terrace environment, natural light, no people, no text, no watermark",
+            "alt": "alternative angle of the vertical cabinet with safety features highlighted.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\022-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6585745"
+          },
+          "scenario": "Monsoon terrace: Aditi on Meera's Mumbai slot wants calm storage that still leaves drains visible.",
+          "principle": "Finishing touches and hardware details enhance both safety and aesthetics in terrace storage solutions.",
+          "body": [
+            "Choose neutral finishes that match the surrounding walls and floors to help storage visually disappear. This allows foliage and sky to be the main visual elements of the terrace. If you want a micro pop of color, use it on bin labels rather than on storage fronts to maintain a calm atmosphere.",
+            "Select concealed pulls or recessed handles to deter climbing and enhance safety. Soft close hinges should be used on all lids to prevent slams and protect fingers. Pinch guards at lids and tamper-resistant hardware are essential for any storage that children can access.",
+            "For vertical cabinets, ensure they include wall anchors and meet recognized tip-over safety practices. If the cabinet is tall, anchor it to a structural wall or deck surface to prevent accidents. Keep the bottom shelf dedicated to heavy items, while lighter items should be placed on higher shelves to reduce the risk of tipping."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Choose neutral finishes for storage that match your terrace palette.",
+              "minutes": null
+            },
+            {
+              "text": "Install soft close hinges and pinch guards on all lids.",
+              "minutes": null
+            },
+            {
+              "text": "Anchor tall cabinets to structural walls or surfaces.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Do not oversize storage; huge boxes invite dumping and become visual clutter.",
+          "checklist": [
+            "Choose neutral finishes for storage that match your terrace palette.",
+            "Install soft close hinges and pinch guards on all lids.",
+            "Anchor tall cabinets to structural walls or surfaces."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "budget-and-phased-implementation-plans-from-weekend-makeover",
+      "title": "Budget And Phased Implementation Plans: From Weekend Makeover To Full Renovation",
+      "intro": "This chapter outlines a structured approach to terrace planning, focusing on safety, budget management, and phased implementation to create a usable and beautiful outdoor space.",
+      "opener": {
+        "query": "A well-designed terrace with layered safety features, inviting decor, and functional storage, bathed in soft evening light.",
+        "flux_prompt": "Full-bleed image of a beautifully designed terrace showcasing safety features, comfortable seating, and greenery, with warm lighting.",
+        "alt": "A terrace staged in a simple first phase, no drilling mess.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\023-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:6580406"
+      },
+      "sections": [
+        {
+          "slug": "why-phasing-your-terrace-works",
+          "title": "Why Phasing Your Terrace Works",
+          "day_label": "Day 17",
+          "hero": {
+            "query": "A terrace with clear safety features, including edge guards and organized storage, illuminated by soft lighting.",
+            "flux_prompt": "A well-organized terrace featuring safety elements and storage solutions, with a focus on functionality and aesthetics.",
+            "alt": "A cozy terrace with safety features and decorative elements.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\023-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6580406"
+          },
+          "scenario": "Small terrace: Riya phases safety first so the family can use ten feet of slab without a full renovation.",
+          "principle": "Phasing your terrace project allows for immediate safety and gradual improvement without overwhelming your budget or time.",
+          "body": [
+            "Phasing breaks down a large project into manageable stages, allowing you to focus on immediate needs first. For Riya, this means starting with safety features like edge guards and circulation paths, ensuring her children can play safely while she plans the next steps.",
+            "By prioritizing safety and functionality, Riya can enjoy her terrace sooner rather than later. This approach minimizes disruption and allows her family to use the space while improvements continue.",
+            "Phased implementation also helps in managing costs effectively. Riya can allocate her budget wisely, spending on essential safety features first, and delaying decorative elements until the terrace is functional."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Attempting to complete all renovations at once can lead to budget overruns and safety hazards.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "the-terrace-phasing-method",
+          "title": "The Terrace Phasing Method",
+          "day_label": "Day 18",
+          "hero": {
+            "query": "A terrace in Bengaluru showcasing the three phases of implementation with clear safety and storage features.",
+            "flux_prompt": "A terrace illustrating the three phases: safety installations, durable materials, and decorative elements, all harmoniously integrated.",
+            "alt": "A terrace with a focus on safety and organized storage.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\025-pexels.jpg",
+            "credit": "Photo by Jayanth Muppaneni on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:31490760"
+          },
+          "scenario": "Rental: Vikram on Arjun's compact Bengaluru terrace. Phase one is reversible; guards and waterproofing wait for approval.",
+          "principle": "The Terrace Phasing Method divides the project into three key stages: Guard and Clear, Build and Store, and Glow and Style.",
+          "body": [
+            "Vikram starts with the first phase, Guard and Clear, where he installs edge protections and gates to ensure safety. He also clears clutter to create safe circulation routes, which is crucial for a space that will be used by children.",
+            "In the second phase, Build and Store, Vikram upgrades to durable, kid-safe materials and adds storage solutions tailored to his terrace's micro zones. This investment ensures longevity and keeps the area organized.",
+            "Finally, in the Glow and Style phase, Vikram layers in lighting and decor that enhance the mood without creating visual clutter. This careful selection of durable, low-maintenance pieces ensures the terrace remains inviting and functional."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Neglecting to follow the phasing method can lead to safety risks and a cluttered space.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "cost-tiers-and-smart-allocation",
+          "title": "Cost Tiers And Smart Allocation",
+          "day_label": "Day 19",
+          "hero": {
+            "query": "A budget-friendly terrace renovation plan with clear cost tiers and safety features.",
+            "flux_prompt": "A terrace showcasing a budget allocation plan with safety installations and functional decor, illuminated softly.",
+            "alt": "A terrace with a focus on budget-friendly safety and aesthetics.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\026-pexels.jpg",
+            "credit": "Photo by Thirdman on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8469998"
+          },
+          "scenario": "Medium terrace: Anisha on Meera's Mumbai size. Essential money goes to guards and drainage, not décor.",
+          "principle": "Understanding cost tiers helps in allocating budget effectively for immediate safety and long-term improvements.",
+          "body": [
+            "Anisha learns about the three cost tiers: Weekend Makeover (₹250 to ₹1,000), Essential Upgrade (₹3,000 to ₹10,000), and Full Renovation (₹15,000 to ₹40,000 and above). She decides to start with a Weekend Makeover, focusing on immediate safety features like modular child barriers and non-slip mats.",
+            "For the Essential Upgrade, Anisha plans to install permanent guard systems and upgrade her flooring to slip-resistant tiles. This phase will involve some DIY tasks, but she will hire professionals for anchoring and any permanent electrical work.",
+            "Anisha understands that smart allocation means prioritizing safety and clutter reduction first. She will delay spending on decorative items until the essential safety features and durable surfaces are in place.",
+            "A weekend makeover is only Phase one: reversible furniture, mats, and planters where permitted. It is not a substitute for guards, drainage, or professional work. Do not spend the weekend drilling, waterproofing, or running permanent power."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Keep the weekend reversible",
+              "minutes": null
+            },
+            {
+              "text": "Do not drill or waterproof this weekend",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Spending on decor before ensuring safety can lead to a clutter trap and safety gaps.",
+          "checklist": [
+            "Keep the weekend reversible",
+            "Do not drill or waterproof this weekend"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "procurement-and-vendor-vetting-essentials",
+          "title": "Procurement And Vendor Vetting Essentials",
+          "day_label": "Day 20",
+          "hero": {
+            "query": "A well-organized procurement plan for terrace materials with vendor quotes and specifications.",
+            "flux_prompt": "A terrace procurement checklist displayed with organized vendor information and material specifications.",
+            "alt": "A procurement plan with vendor details and material lists.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\027-pexels.jpg",
+            "credit": "Photo by Ivan S on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4458196"
+          },
+          "scenario": "Large terrace: the multigenerational rooftop hires for structure and waterproofing, not for moving chairs.",
+          "principle": "A disciplined procurement process saves money and time while ensuring quality materials and services.",
+          "body": [
+            "Rahul starts by defining the scope of his project, writing a one-page brief that outlines goals, zones, and must-have safety items. This brief will guide his purchasing decisions and keep him focused.",
+            "Next, he creates a bill of materials, listing all necessary items such as guard systems, surfaces, storage, and lighting, along with their specifications. This detailed list helps prevent impulse buys and ensures he gets the right products.",
+            "Rahul shortlists vendors by asking for three quotes per category and verifying their credentials. He checks for outdoor warranties and installation documentation to ensure he is working with reliable professionals."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Not verifying vendor credentials can lead to poor quality and unsafe installations.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "code-and-safety-compliance-standards-inspections-and-approva",
+      "title": "Code And Safety Compliance: Standards, Inspections, And Approvals",
+      "intro": "This chapter translates code language and HOA rules into simple decisions you can make while designing, buying, and building. You will learn exactly what guard heights, opening limits, climb resistance, gate and latch placement, wind load, slip resistance, electrical safety, and egress mean in practice.",
+      "opener": {
+        "query": "terrace safety compliance, outdoor space, design standards, natural light, textured surfaces",
+        "flux_prompt": "full-bleed image of a well-designed terrace showcasing safety features and compliance elements, soft natural light, textured surfaces like wood and stone",
+        "alt": "A terrace guard photographed for an approval file.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\028-pexels.jpg",
+        "credit": "Photo by Enric Cruz López on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:9989544"
+      },
+      "sections": [
+        {
+          "slug": "why-compliance-fails-on-terraces",
+          "title": "Why Compliance Fails On Terraces",
+          "day_label": "Day 21",
+          "hero": {
+            "query": "Pune terrace design, safety compliance, guard height, natural light, textured surfaces",
+            "flux_prompt": "image of a terrace with visible guardrails, plants, and furniture arranged safely",
+            "alt": "Pune terrace with safety features and compliant design elements.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\007-pexels.jpg",
+            "credit": "Photo by Alfredo Marco Pradil on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:19073668"
+          },
+          "scenario": "Small terrace: Priya on Riya's Pune terrace assumed the guard was tall enough. Measure; do not assume.",
+          "principle": "Compliance failures often stem from assumptions rather than measurements.",
+          "body": [
+            "Many terrace projects fail compliance for simple reasons. Residents often assume guardrails are tall enough without measuring. In Priya's case, she chose a beautiful design but neglected to check the height, leading to a compliance issue.",
+            "Another common challenge is the HOA approval cycle. Priya submitted her design but forgot to include the manufacturer's specifications for her chosen materials, resulting in delays and frustration.",
+            "To avoid these stalls, it's crucial to organize information in a way that reviewers expect and verify key dimensions during the design phase."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Assuming guard heights are sufficient without measuring.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "the-terrace-compliance-blueprint",
+          "title": "The Terrace Compliance Blueprint",
+          "day_label": "Day 22",
+          "hero": {
+            "query": "compact rental terrace with notes and a measuring tape, natural light, no people",
+            "flux_prompt": "terrace with measuring tape and compliance notes, no drilling",
+            "alt": "A rental terrace with measurements written down before anyone drills.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\030-pexels.jpg",
+            "credit": "Photo by N Sopyan on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:38323000"
+          },
+          "scenario": "Rental: Riya on Arjun's compact Bengaluru terrace. Compliance includes the lease and the society, not only a catalog height.",
+          "principle": "Compliance is a continuous loop of design, purchase, installation, and inspection.",
+          "body": [
+            "Think of compliance as a four-phase loop that you run once during the build, then lightly each season. The phases are design, purchase, installation, and inspection. Riya mapped out her terrace, ensuring each phase was documented with photos and measurements.",
+            "During the design phase, Riya checked standards for guard height and opening sizes, ensuring her design met local regulations. She also documented her choices to streamline the approval process.",
+            "Maintenance is an ongoing phase that keeps everything safe over time. Riya planned seasonal checks to ensure her terrace remained compliant and safe for her family."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Neglecting to document the compliance process throughout the project.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "standards-explained-in-practice",
+          "title": "Standards Explained In Practice",
+          "day_label": "Day 23",
+          "hero": {
+            "query": "Mumbai terrace safety standards, guard height, child safety, natural light, textured surfaces",
+            "flux_prompt": "image of a terrace with compliant guard height and safe furniture arrangement",
+            "alt": "Mumbai terrace showcasing safety standards and child-friendly design.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\031-pexels.jpg",
+            "credit": "Photo by Leo Sacchi on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:30668336"
+          },
+          "scenario": "Monsoon terrace: Meera's Mumbai slot. Slip, drainage, and outdoor-rated power matter as much as guard height.",
+          "principle": "Understanding specific standards is crucial for safety and compliance.",
+          "body": [
+            "Most residential balcony codes require guardrails or barriers when the drop is a certain height above the ground. Aman discovered that the minimum guard height in Mumbai is 42 inches, and his installation was only 36 inches. He quickly added extensions to meet the requirement.",
+            "Openings in guards should be small enough that a typical sphere cannot pass through. Aman used a 4-inch sphere test to ensure that his guard design was compliant, avoiding any potential hazards for his children.",
+            "Climb resistance is another critical factor. Aman removed horizontal elements that could encourage climbing and ensured that furniture was placed at a safe distance from the guard.",
+            "Electrical safety on a terrace: use outdoor-rated equipment; give it appropriate weather protection; protect against water ingress; route cables so they cannot trip anyone; no loose cables on walking paths; no improvised extension-cord arrangements; permanent electrical work is professional work; use protection devices required locally; keep connections away from standing water. This book does not prescribe installation details that depend on local code."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Terrace electrical safety",
+              "caption": "Outdoor-rated is not a kitchen power strip. Permanent work is professional.",
+              "values": [
+                "Listed for outdoor use",
+                "Covers and placements the maker allows",
+                "Not a soaked junction",
+                "Tied up, not a trip line",
+                "Not a daisy chain across the slab",
+                "Not a weekend DIY",
+                "Whatever local rules require",
+                "Move or disconnect portable kit"
+              ],
+              "labels": [
+                "Outdoor-rated equipment",
+                "Weather protection",
+                "Water ingress",
+                "Cable routing",
+                "Improvised extension cords",
+                "Permanent electrical work",
+                "Protection devices",
+                "Connections near standing water"
+              ],
+              "minimum": null,
+              "spec_id": "D022",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D022.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "List every outlet and lamp",
+              "minutes": null
+            },
+            {
+              "text": "Mark cords that cross a path",
+              "minutes": null
+            },
+            {
+              "text": "Write 'pro only' on permanent power",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "A kitchen power strip under a planter saucer.",
+          "checklist": [
+            "List every outlet and lamp",
+            "Mark cords that cross a path",
+            "Write 'pro only' on permanent power"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "step-by-step-compliance-plan",
+          "title": "Step By Step Compliance Plan",
+          "day_label": "Day 24",
+          "hero": {
+            "query": "Pune compliance folder, terrace design documentation, safety standards, natural light, textured surfaces",
+            "flux_prompt": "image of a neatly organized compliance folder with documents and photos",
+            "alt": "Pune terrace compliance folder showcasing organized documentation.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\032-pexels.jpg",
+            "credit": "Photo by Beyzaa Yurtkuran on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:13609741"
+          },
+          "scenario": "Large terrace: the same multigenerational rooftop files HOA, society, and professional specs before anyone drills.",
+          "principle": "A structured compliance plan simplifies the approval process.",
+          "body": [
+            "During the design phase, Priya created a simple sketch of her terrace, annotating guard heights, opening sizes, and clear egress paths. This visual guide helped her stay organized and compliant.",
+            "In the purchase phase, Priya saved cut sheets for each item, ensuring they met safety standards. She confirmed GFCI and weatherproof markings for her outlets, which were crucial for outdoor safety.",
+            "For the installation phase, Priya meticulously measured and photographed her work, documenting guard heights and anchor placements to avoid any compliance issues during inspection.",
+            "Avoidable mistakes: assuming a guard is tall enough without measuring; submitting HOA or society papers without product specs; drilling a waterproofed slab; treating a rental like a house you own. Log each miss and who must approve the fix."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Not keeping documentation organized throughout the project.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "maintenance-and-seasonal-refresh-keeping-it-safe-and-stylish",
+      "title": "Maintenance And Seasonal Refresh: Keeping It Safe And Stylish Year-Round",
+      "intro": "This chapter serves as your maintenance compass, guiding you through the essential steps to keep your terrace safe and stylish throughout the year. From quarterly inspections to seasonal cleaning routines, you will learn how to protect your investment and ensure a calm retreat for your family.",
+      "opener": {
+        "query": "terrace maintenance, seasonal refresh, urban apartment, Pune, sunlight filtering through trees, clean surfaces, organized space",
+        "flux_prompt": "full-bleed shot of a well-maintained terrace in Pune, showcasing clean surfaces, organized furniture, and vibrant plants",
+        "alt": "A clean terrace after rain, drains open.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\033-pexels.jpg",
+        "credit": "Photo by Anisha Deb on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:36195703"
+      },
+      "sections": [
+        {
+          "slug": "the-calm-cycle-a-framework-for-ongoing-care",
+          "title": "The Calm Cycle: A Framework for Ongoing Care",
+          "day_label": "Day 25",
+          "hero": {
+            "query": "urban terrace maintenance, Pune, organized space, clean surfaces, vibrant plants",
+            "flux_prompt": "a well-organized terrace in Pune with clean surfaces and vibrant plants, showcasing a calm atmosphere",
+            "alt": "a close-up of clean, textured surfaces and organized decor on a terrace",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\034-pexels.jpg",
+            "credit": "Photo by Manolya İzgi Gezgin on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:39148694"
+          },
+          "scenario": "Small terrace: Riya and Arjun's Pune slab after the toddler's first monsoon season — still the same household.",
+          "principle": "The Calm Cycle simplifies maintenance into manageable habits.",
+          "body": [
+            "The Calm Cycle consists of four key actions: Clean, Assess, Log, and Modify. This framework is designed to be fast and repeatable, allowing you to maintain your terrace without feeling overwhelmed.",
+            "Start with Clean. Regularly remove dirt, pollen, and debris from surfaces to prevent them from bonding and trapping moisture. This simple step is the most cost-effective way to extend the life of your terrace materials and maintain slip resistance.",
+            "Next, Assess. Inspect guards, fasteners, anchors, screens, and textiles for any signs of wear or looseness. Look for changes since your last check, such as wobbly railings or cracked sealant lines. This proactive approach helps you catch small issues before they escalate.",
+            "Log is not a diary of vibes. Use one row per item: guards, flooring, drainage, furniture, planters, lighting or electrical, shade. Condition, action, date."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Clean surfaces weekly",
+              "minutes": null
+            },
+            {
+              "text": "Assess condition quarterly",
+              "minutes": null
+            },
+            {
+              "text": "Log findings after each inspection",
+              "minutes": null
+            },
+            {
+              "text": "Modify setup based on usage and growth",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Neglecting regular inspections can lead to safety issues and costly repairs.",
+          "checklist": [
+            "Clean surfaces weekly",
+            "Assess condition quarterly",
+            "Log findings after each inspection",
+            "Modify setup based on usage and growth"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "terrace-water-and-waterproofing",
+          "title": "Terrace water management and waterproofing",
+          "day_label": "Day 26",
+          "hero": {
+            "query": "Bengaluru terrace inspection, safety checks, organized space, clean surfaces",
+            "flux_prompt": "a detailed view of a terrace in Bengaluru during an inspection, highlighting safety checks and organized decor",
+            "alt": "a close-up of safety railings and inspection tools on a terrace",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\035-pexels.jpg",
+            "credit": "Photo by Pavel Danilyuk on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7937758"
+          },
+          "scenario": "Monsoon terrace: Meera after rain on a Mumbai slab. Standing water is a building problem, not a mopping hobby.",
+          "principle": "Drainage is not waterproofing. Sealing a crack is not a waterproofing system.",
+          "body": [
+            "Today's output: a water-management checklist plus a waterproofing boundary. Surface drainage, a failed waterproofing layer, and a structural moisture problem are three different escalations.",
+            "Find every drain and keep it accessible. Check that the slab still falls toward those drains. Keep furniture and planters off the drainage path. After rain, look for standing water, wet door thresholds, planter overflow, and persistent dampness below or around the terrace. Escalate suspected waterproofing failure to the appropriate professional. Never permanently seal or obstruct a drainage path as a DIY fix.",
+            "Waterproofing is not the same as sealing visible cracks. Do not drill through a waterproofed surface casually. Planters and furniture can damage waterproofing layers. Persistent dampness below the terrace needs investigation. Systems should be specified and installed to match the existing building. Renters and homeowners should not do invasive waterproofing without authorization and professional input.",
+            "Pests follow water and food. Empty standing water and containers, keep drains clear, check planter saucers, manage food waste, add screening where appropriate, and escalate a persistent pest problem. This is not a pest-control manual — one page is enough."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Terrace water-management checklist",
+              "caption": "Never block a drain to 'neaten' the floor.",
+              "values": [
+                "Map them",
+                "Nothing parked on the grate",
+                "Water should not pond mid-slab",
+                "Lift them before rain",
+                "Photograph and time it",
+                "Water should not run indoors",
+                "Overflow is a slip and a leak",
+                "Not a caulk job"
+              ],
+              "labels": [
+                "Identify every drain",
+                "Keep drains accessible",
+                "Slope toward drains",
+                "Furniture and planters off the path",
+                "Standing water after rainfall",
+                "Door thresholds",
+                "Planter drainage",
+                "Dampness below; do not seal the drain"
+              ],
+              "minimum": null,
+              "spec_id": "D018",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D018.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Waterproofing is not crack paint",
+              "caption": "A terrace leak is a building system. DIY tubes are not that system.",
+              "values": [
+                "Different problem",
+                "Can void a system",
+                "Feet and wet pots punch through",
+                "Investigate; do not perfume",
+                "Match the existing build-up",
+                "Authorization plus a professional"
+              ],
+              "labels": [
+                "Visible crack vs failed membrane",
+                "Casual drilling",
+                "Planters and furniture on the layer",
+                "Persistent dampness below",
+                "Specified to this building",
+                "Invasive waterproofing"
+              ],
+              "minimum": null,
+              "spec_id": "D021",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D021.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Standing water and pests",
+              "caption": "Mosquitoes breed in saucers. Do not start a chemical war on a family terrace.",
+              "values": [
+                "Dump it",
+                "Flow, do not pond",
+                "Buckets, toys, trays",
+                "Empty them",
+                "No overnight plates",
+                "If the lease allows",
+                "A professional pest service"
+              ],
+              "labels": [
+                "Standing water",
+                "Drains",
+                "Containers",
+                "Planter saucers",
+                "Food waste",
+                "Screening",
+                "Persistent pests"
+              ],
+              "minimum": null,
+              "spec_id": "D025",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D025.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Map drains",
+              "minutes": null
+            },
+            {
+              "text": "Walk the slab after rain",
+              "minutes": null
+            },
+            {
+              "text": "Write who handles waterproofing",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Caulking a terrace drain shut because it looked ugly.",
+          "checklist": [
+            "Map drains",
+            "Walk the slab after rain",
+            "Write who handles waterproofing"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "quarterly-inspections-what-to-check-and-when",
+          "title": "Quarterly Inspections: What to Check and When",
+          "day_label": "Day 27",
+          "hero": {
+            "query": "Bengaluru terrace inspection, safety checks, organized space, clean surfaces",
+            "flux_prompt": "a detailed view of a terrace in Bengaluru during an inspection, highlighting safety checks and organized decor",
+            "alt": "a close-up of safety railings and inspection tools on a terrace",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\035-pexels.jpg",
+            "credit": "Photo by Pavel Danilyuk on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7937758"
+          },
+          "scenario": "Rental: Sameer and Priya on a compact Bengaluru terrace. Inspections they can do; repairs they report.",
+          "principle": "Quarterly inspections help maintain safety and prevent expensive repairs.",
+          "body": [
+            "Performing quarterly inspections is crucial for preserving the integrity of your terrace. Start by checking guards and railings. Grip the top rail at multiple points and apply gentle body weight to look for any movement. Verify the guard height with a measuring tape to ensure compliance with safety standards.",
+            "Next, inspect screens and barriers for any tears, frayed edges, or sagging. Ensure that tension is even and that attachment points are secure. Confirm that gaps remain within the safe opening limits established during compliance checks.",
+            "Finally, assess anchors and fasteners. Tighten visible screws and bolts that secure furniture tethers and shade structures. If structural anchors are used, confirm they haven't backed out by marking the edge of a bolt head with paint to show movement since the last check."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Recurring terrace log",
+              "caption": "Copy the rows. Fill condition, action, and date. Empty is a missed inspection.",
+              "values": [
+                "Condition / action / date",
+                "Condition / action / date",
+                "Condition / action / date",
+                "Condition / action / date",
+                "Condition / action / date",
+                "Condition / action / date",
+                "Condition / action / date"
+              ],
+              "labels": [
+                "Guard and railing",
+                "Flooring",
+                "Drainage",
+                "Furniture",
+                "Planters",
+                "Lighting and electrical",
+                "Shade system"
+              ],
+              "minimum": null,
+              "spec_id": "D031",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D031.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Print the log",
+              "minutes": null
+            },
+            {
+              "text": "Fill one row per item",
+              "minutes": null
+            },
+            {
+              "text": "Escalate anything structural or wet below",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Overlooking small signs of wear can lead to larger safety issues.",
+          "checklist": [
+            "Print the log",
+            "Fill one row per item",
+            "Escalate anything structural or wet below"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "cleaning-routines-preservation-and-safety",
+          "title": "Cleaning Routines: Preservation and Safety",
+          "day_label": "Day 28",
+          "hero": {
+            "query": "Mumbai terrace cleaning routine, organized space, clean surfaces, inviting atmosphere",
+            "flux_prompt": "a clean and inviting terrace in Mumbai, showcasing organized decor and well-maintained surfaces",
+            "alt": "a close-up of clean fabrics and organized decor on a terrace",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\037-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7703307"
+          },
+          "scenario": "Monsoon terrace: Meera washes slip films off the Mumbai slab without flooding the neighbor below.",
+          "principle": "Regular cleaning is essential for preserving materials and ensuring safety.",
+          "body": [
+            "Cleaning is both a preservation and safety measure. For decking, sweep weekly during leaf season or after storms, and wet mop monthly to maintain a clean surface. In spring and late summer, apply a gentle deck wash, following product instructions to avoid stripping protective coatings.",
+            "For metal finishes, wipe stainless steel with a microfiber cloth and a light solution of water and dish soap. Rinse and dry thoroughly to prevent spots. For powder-coated metal, avoid abrasive pads and touch up any chips with color-matched paint to prevent rust.",
+            "When it comes to fabrics and rugs, vacuum cushions lightly and spot clean spills immediately. Wash removable covers as directed and reapply a fabric protector each spring to maintain their appearance and durability."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Sweep decking weekly",
+              "minutes": null
+            },
+            {
+              "text": "Wet mop monthly",
+              "minutes": null
+            },
+            {
+              "text": "Wipe metal finishes regularly",
+              "minutes": null
+            },
+            {
+              "text": "Vacuum and spot clean fabrics",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Using harsh cleaning products can damage finishes and shorten the lifespan of materials.",
+          "checklist": [
+            "Sweep decking weekly",
+            "Wet mop monthly",
+            "Wipe metal finishes regularly",
+            "Vacuum and spot clean fabrics"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "seasonal-storage-and-protection",
+          "title": "Seasonal Storage and Protection",
+          "day_label": "Day 29",
+          "hero": {
+            "query": "Delhi terrace seasonal storage, organized space, clean surfaces, vibrant plants",
+            "flux_prompt": "a well-organized terrace in Delhi, showcasing seasonal storage solutions and vibrant plants",
+            "alt": "a close-up of labeled storage bins and organized decor on a terrace",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\038-pexels.jpg",
+            "credit": "Photo by Ty Nguyễn on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:32327373"
+          },
+          "scenario": "Medium terrace: Aditi on Meera's size, packing textiles before a forecast, not a new Delhi subplot.",
+          "principle": "Proper seasonal storage prevents clutter and protects your terrace materials.",
+          "body": [
+            "Avoid clutter by planning storage early. Store extra textiles, toys, and seasonal decor in labeled, stackable bins to keep your terrace organized. Use breathable fabric bags for cushions and ensure that bins are kept off the floor on shelves to prevent moisture transfer.",
+            "Shade sails and umbrellas should be closed and secured during high wind forecasts, and anchors should be checked afterward to ensure stability. This proactive approach helps maintain the integrity of your terrace during adverse weather conditions.",
+            "Additionally, monitor plant care and pest mitigation. Healthy plants contribute to the visual appeal of your terrace, so use a consistent watering schedule and moisture meters for deep planters. Trim dead growth in spring and fall to keep your terrace looking its best."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Store textiles in breathable bags",
+              "minutes": null
+            },
+            {
+              "text": "Label and stack bins for organization",
+              "minutes": null
+            },
+            {
+              "text": "Close shade structures during storms",
+              "minutes": null
+            },
+            {
+              "text": "Monitor plant health regularly",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Failing to store items properly can lead to damage and clutter.",
+          "checklist": [
+            "Store textiles in breathable bags",
+            "Label and stack bins for organization",
+            "Close shade structures during storms",
+            "Monitor plant health regularly"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "wind-rain-and-emergency-weather",
+          "title": "Wind, rain, and emergency weather",
+          "day_label": "Day 30",
+          "hero": {
+            "query": "Delhi terrace seasonal storage, organized space, clean surfaces, vibrant plants",
+            "flux_prompt": "a well-organized terrace in Delhi, showcasing seasonal storage solutions and vibrant plants",
+            "alt": "a close-up of labeled storage bins and organized decor on a terrace",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\038-pexels.jpg",
+            "credit": "Photo by Ty Nguyễn on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:32327373"
+          },
+          "scenario": "Monsoon terrace: Meera gets a wind warning on the Mumbai slab. Umbrellas come down before anyone argues about cushions.",
+          "principle": "Furniture weight is not an anchor. Children and pets come inside when the terrace is unsafe.",
+          "body": [
+            "Today's output: a wind-event list, a before-and-after rain list, and a severe-weather mode you can run in ten minutes.",
+            "When strong winds are expected: close or remove umbrellas; secure lightweight furniture; check tall planters; remove loose décor; inspect screens and panels; do not rely on furniture weight as permanent anchoring; follow manufacturer anchoring requirements.",
+            "Before heavy rain: clear drains; check planters; remove loose furniture; secure shade; check door thresholds. After heavy rain: look for standing water and slip films; inspect furniture; check electrical equipment; look for new dampness; document recurring problem areas.",
+            "When severe weather is expected: remove loose objects; secure furniture; close or remove umbrellas; check drainage; disconnect or move portable electrical equipment as appropriate; keep children and pets away during unsafe conditions; reinspect after the event."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Wind-event checklist",
+              "caption": "A terrace is a wind tunnel. Toys and umbrellas fly.",
+              "values": [
+                "Down or inside",
+                "Move or tie as the maker allows",
+                "Wet soil still blows over",
+                "It becomes a missile",
+                "They are sails",
+                "Not a substitute for rated hardware",
+                "The label wins"
+              ],
+              "labels": [
+                "Umbrellas",
+                "Lightweight furniture",
+                "Tall planters",
+                "Loose décor",
+                "Screens and panels",
+                "Furniture weight as an anchor",
+                "Manufacturer anchoring"
+              ],
+              "minimum": null,
+              "spec_id": "D026",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D026.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Before and after heavy rain",
+              "caption": "Indian city names in this book are climate illustrations. The checklist is the work.",
+              "values": [
+                "Before",
+                "Before",
+                "Before",
+                "Before",
+                "Before",
+                "After",
+                "After",
+                "After — write it down"
+              ],
+              "labels": [
+                "Clear drains",
+                "Check planters",
+                "Remove loose furniture",
+                "Secure shade",
+                "Check door thresholds",
+                "Standing water and slip",
+                "Furniture and electrical kit",
+                "New dampness; recurring spots"
+              ],
+              "minimum": null,
+              "spec_id": "D030",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D030.svg"
+            },
+            {
+              "kind": "table",
+              "title": "When severe weather is expected",
+              "caption": "The terrace can wait. People cannot.",
+              "values": [
+                "Now",
+                "Now",
+                "Now",
+                "Now",
+                "Now",
+                "Inside",
+                "Do not skip"
+              ],
+              "labels": [
+                "Remove loose objects",
+                "Secure furniture",
+                "Close or remove umbrellas",
+                "Check drainage",
+                "Disconnect portable electrical kit",
+                "Children and pets",
+                "Reinspect after"
+              ],
+              "minimum": null,
+              "spec_id": "D032",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D032.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Run wind mode from the forecast",
+              "minutes": null
+            },
+            {
+              "text": "Clear drains before rain",
+              "minutes": null
+            },
+            {
+              "text": "Reinspect after",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Leaving a crank umbrella up because the furniture is 'heavy enough.'",
+          "checklist": [
+            "Run wind mode from the forecast",
+            "Clear drains before rain",
+            "Reinspect after"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "printable-code-and-safety-compliance-checklist",
+      "title": "Printable Code And Safety Compliance Checklist",
+      "intro": "This checklist is designed to ensure your terrace meets safety standards while maintaining aesthetic appeal. It covers essential aspects like guard heights, opening sizes, and pet containment, making it a vital tool for homeowners and contractors alike. These pages are printables for the 30-day blueprint. They are not extra days.",
+      "opener": {
+        "query": "terrace safety compliance checklist, outdoor space, natural light, clean lines, minimal clutter, photorealistic",
+        "flux_prompt": "full-bleed image of a well-designed terrace with safety features in place, showcasing guard heights and open spaces",
+        "alt": "A terrace ready for a checklist photo set.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\040-pexels.jpg",
+        "credit": "Photo by Sami  Abdullah on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:32352944"
+      },
+      "sections": [
+        {
+          "slug": "project-overview-and-compliance",
+          "title": "Project Overview and Compliance",
+          "day_label": "Printable",
+          "hero": {
+            "query": "terrace project overview, natural light, clean lines, minimal clutter, photorealistic",
+            "flux_prompt": "a clean, organized workspace with project documents and safety compliance checklist laid out on a table, no people, no text, no watermark",
+            "alt": "a close-up of the checklist with a pen ready for notes",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\040-pexels.jpg",
+            "credit": "Photo by Sami  Abdullah on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:32352944"
+          },
+          "scenario": "Use the same household you picked on Day 1. Do not invent a new apartment for a form.",
+          "principle": "A thorough project overview ensures all safety and compliance measures are documented from the start.",
+          "body": [
+            "Begin by documenting the project name, address, and planner details. Include the local authority contact for compliance verification. If your Homeowners Association (HOA) approval is required, note it here as well.",
+            "Assess site constraints such as wind exposure and local weather patterns. This information is crucial for determining the safety features needed for your terrace.",
+            "Record all relevant notes regarding the occupancy type and any specific requirements from local authorities. This will help streamline the approval process."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Document project name and address.",
+              "minutes": null
+            },
+            {
+              "text": "List planner and installer details.",
+              "minutes": null
+            },
+            {
+              "text": "Note HOA or building approval requirements.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Failing to document all necessary project details can lead to compliance issues later on.",
+          "checklist": [
+            "Project name and address",
+            "Planner and installer details",
+            "HOA approval needed (yes/no)",
+            "Site constraints noted"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "guard-edges-and-heights",
+          "title": "Guard Edges and Heights",
+          "day_label": "Printable",
+          "hero": {
+            "query": "guard heights on terrace, natural light, clean lines, minimal clutter, photorealistic",
+            "flux_prompt": "a detailed shot of the guard edges on a terrace, showcasing height measurements and materials used, no people, no text, no watermark",
+            "alt": "a close-up of the guard with a measuring tape visible",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\042-pexels.jpg",
+            "credit": "Photo by Jan van der Wolf on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:27395102"
+          },
+          "scenario": "In her Pune apartment, Priya measures the guard edges of her terrace to ensure they are safe for her kids. She records the height from the finished floor to the top of the guard.",
+          "principle": "Proper guard heights are essential for safety, especially in family-friendly spaces.",
+          "body": [
+            "Measure the height of the guard from the finished floor and ensure it is consistent across all points. The minimum height should be compliant with local safety regulations, typically around 42 inches for terraces.",
+            "Document the materials used for the railing system, including panels and posts. This information is crucial for inspections and future maintenance.",
+            "Capture photos during the design and installation stages to provide visual proof of compliance. These photos will be helpful for HOA submissions."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Measure guard height from finished floor.",
+              "minutes": null
+            },
+            {
+              "text": "Document materials and railing system.",
+              "minutes": null
+            },
+            {
+              "text": "Take design and installation stage photos.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Inconsistent guard heights can lead to safety hazards and compliance failures.",
+          "checklist": [
+            "Guard height measured and recorded",
+            "Materials documented",
+            "Photos taken during design and installation"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "egress-and-circulation",
+          "title": "Egress and Circulation",
+          "day_label": "Printable",
+          "hero": {
+            "query": "clear egress paths on terrace, natural light, clean lines, minimal clutter, photorealistic",
+            "flux_prompt": "an image showing clear circulation paths on a terrace, emphasizing open space and unobstructed exits, no people, no text, no watermark",
+            "alt": "a wide-angle shot of the terrace with clear paths to exits",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\043-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8134814"
+          },
+          "scenario": "Priya ensures that her terrace has clear paths for egress and circulation, especially since she often entertains guests. She checks for obstructions that might block exits.",
+          "principle": "Maintaining clear paths to exits is crucial for safety and accessibility.",
+          "body": [
+            "Verify that the path width to exits is at least 36 inches, allowing for easy movement. This is especially important in case of emergencies where quick access is needed.",
+            "Check for any obstructions near doors or stairs that could impede movement. Ensure that furniture is arranged to facilitate easy circulation.",
+            "Evaluate threshold heights to ensure they are comfortable and even. This helps prevent tripping hazards, especially in low-light conditions."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Measure path width to exits.",
+              "minutes": null
+            },
+            {
+              "text": "Check for obstructions near doors and stairs.",
+              "minutes": null
+            },
+            {
+              "text": "Evaluate threshold heights.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Ignoring circulation paths can create safety hazards and make the space less functional.",
+          "checklist": [
+            "Path width maintained to exits",
+            "No obstructions near doors or stairs",
+            "Threshold heights comfortable and even"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "materials-and-certifications",
+          "title": "Materials and Certifications",
+          "day_label": "Printable",
+          "hero": {
+            "query": "materials and certifications for terrace, natural light, clean lines, minimal clutter, photorealistic",
+            "flux_prompt": "a detailed shot of product labels and certifications on a terrace, highlighting safety compliance, no people, no text, no watermark",
+            "alt": "a close-up of material samples with certification labels",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\040-pexels.jpg",
+            "credit": "Photo by Sami  Abdullah on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:32352944"
+          },
+          "scenario": "As Priya finalizes her terrace design, she compiles a list of all materials and their certifications to ensure compliance with safety standards.",
+          "principle": "Documenting materials and certifications is vital for compliance and future reference.",
+          "body": [
+            "Record product names, model numbers, and finish codes for all materials used on the terrace. This includes guard systems, flooring, and any other structural elements.",
+            "Add listings, test reports, and warranties for each product. This documentation will be essential for inspections and potential future repairs.",
+            "Verify compatibility of metals to prevent corrosion, especially in outdoor environments. This step is crucial for maintaining the integrity of the terrace over time."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Record product names and model numbers.",
+              "minutes": null
+            },
+            {
+              "text": "Add test reports and warranties.",
+              "minutes": null
+            },
+            {
+              "text": "Verify metal compatibility for corrosion prevention.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Failing to document materials can lead to compliance issues and increased maintenance costs.",
+          "checklist": [
+            "Product names and model numbers recorded",
+            "Test reports and warranties added",
+            "Metal compatibility verified"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "space-specific-layout-template-pack",
+      "title": "Space-Specific Layout Template Pack",
+      "intro": "This chapter provides a comprehensive guide to creating functional and aesthetically pleasing terrace layouts using specific templates tailored for various space shapes. Each template helps in planning zones, circulation paths, and ensuring safety while maintaining visual calm. These pages are printables for the 30-day blueprint. They are not extra days.",
+      "opener": {
+        "query": "terrace layout templates, small medium large spaces, zone planning, circulation paths, safety setbacks, furniture footprints, integration points, photorealistic, no people, no text, no watermark",
+        "flux_prompt": "full-bleed shot of a beautifully designed terrace showcasing various zones and furniture arrangements, with natural light illuminating the space",
+        "alt": "A terrace plan sketch beside the real slab.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\045-pexels.jpg",
+        "credit": "Photo by Engin Akyurt on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:10911585"
+      },
+      "sections": [
+        {
+          "slug": "understanding-your-space",
+          "title": "Understanding Your Space",
+          "day_label": "Printable",
+          "hero": {
+            "query": "Pune terrace layout, family-friendly design, safety setbacks, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "a well-organized terrace layout with distinct zones for seating, dining, and play, showcasing safety measures and clear paths",
+            "alt": "a close-up of the seating area with comfortable furniture and greenery around",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\046-pexels.jpg",
+            "credit": "Photo by Heather Green on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:18449922"
+          },
+          "scenario": "Use the same household you picked on Day 1. Do not invent a new apartment for a form.",
+          "principle": "Proper planning of zones and circulation paths is essential for a functional terrace layout.",
+          "body": [
+            "Begin by measuring your terrace dimensions accurately, noting any obstructions such as columns or doors. For Ravi's terrace, he needs to account for a 3-foot wide door leading into the space.",
+            "Next, identify any guarded edges and plan safety setbacks. For example, if there is a railing, mark a minimum safety setback of 2 feet from the edge to ensure safety for children.",
+            "Once you have your dimensions and setbacks marked, define the primary use of the terrace. Ravi decides on a family-friendly layout that includes seating, dining, and a small play area."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Measure terrace dimensions and note all obstructions.",
+              "minutes": null
+            },
+            {
+              "text": "Identify guarded edges and plan safety setbacks.",
+              "minutes": null
+            },
+            {
+              "text": "Define primary use, family, quiet, entertaining, or play.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Ignoring safety setbacks can lead to dangerous situations, especially for families with children.",
+          "checklist": [
+            "Measure terrace dimensions and note all obstructions",
+            "Identify guarded edges and plan safety setbacks",
+            "Define primary use, family, quiet, entertaining, or play",
+            "Choose a simple color and material palette"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "choosing-the-right-template",
+          "title": "Choosing the Right Template",
+          "day_label": "Printable",
+          "hero": {
+            "query": "Bengaluru narrow terrace layout, social gathering design, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "a narrow terrace layout featuring foldable furniture and clear pathways, designed for social gatherings",
+            "alt": "a view of the dining area with a foldable table and slim seating, surrounded by plants",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\047-pexels.jpg",
+            "credit": "Photo by HRIDYAKSH GEJWAL on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:35814840"
+          },
+          "scenario": "Use the same household you picked on Day 1. Do not invent a new apartment for a form.",
+          "principle": "Selecting the appropriate template can significantly enhance the usability of your terrace.",
+          "body": [
+            "For Neha's narrow terrace, the Narrow Terrace Template is ideal. It recommends zones such as linear seating, slim dining, and a play strip. This ensures that she can host friends without crowding the space.",
+            "Using the template, she can visualize where to place her foldable dining table and slim benches, allowing for easy movement and circulation paths. It's crucial to keep at least one clear path from the door to the seating area to avoid blocking access.",
+            "Neha should also consider safety setbacks. For example, if her terrace has a railing, she needs to maintain a 2-foot setback from the edge to ensure safety while entertaining guests."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Print the template that matches your terrace shape.",
+              "minutes": null
+            },
+            {
+              "text": "Trace or input your terrace dimensions, including any steps, columns, doors, and guarded edges.",
+              "minutes": null
+            },
+            {
+              "text": "Mark safety setbacks along guarded edges.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Choosing a template that doesn't fit the space can lead to inefficient layouts and wasted areas.",
+          "checklist": [
+            "Select the matching template for your terrace shape",
+            "Trace or input your terrace dimensions",
+            "Mark safety setbacks along guarded edges",
+            "Place zones and draw circulation paths"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "finalizing-your-layout",
+          "title": "Finalizing Your Layout",
+          "day_label": "Printable",
+          "hero": {
+            "query": "Mumbai large terrace layout, family gathering design, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "a spacious terrace layout with distinct zones for lounging, dining, and play, showcasing clear paths and storage solutions",
+            "alt": "a close-up of the dining area set for a family gathering, surrounded by greenery",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\048-pexels.jpg",
+            "credit": "Photo by Uday Ahir on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:38906568"
+          },
+          "scenario": "Aditi has a large terrace in Mumbai and wants to create a vibrant space for family gatherings and relaxation.",
+          "principle": "Finalizing your layout with careful consideration of furniture and circulation paths ensures a harmonious space.",
+          "body": [
+            "Aditi's large terrace allows for multiple zones, including a lounge cluster, dining area for six to eight people, and a play lane for her children. Using the Large Terrace Template, she can plan these areas effectively.",
+            "She needs to create two distinct paths on the terrace to reduce crossing, ensuring that guests can move freely without disrupting play zones. For instance, one path can lead from the kitchen door to the dining area, while another connects the lounge to the play area.",
+            "Aditi should also integrate storage solutions, such as a storage wall, to keep the area tidy. This helps in maintaining visual calm by limiting clutter and ensuring that toys and cushions are stored away when not in use."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Place zones and draw circulation paths.",
+              "minutes": null
+            },
+            {
+              "text": "Fit furniture footprints inside zones.",
+              "minutes": null
+            },
+            {
+              "text": "Add guarding, screens, planters, storage.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Failing to create distinct paths can lead to congestion and disrupt the flow of the space.",
+          "checklist": [
+            "Place zones and draw circulation paths",
+            "Fit furniture footprints inside zones",
+            "Add guarding, screens, planters, storage",
+            "Remove visual clutter and confirm clear views"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "quick-start-weekend-makeover-guide",
+      "title": "Quick-Start Weekend Makeover Guide",
+      "intro": "Transform your terrace in just 48 hours with this focused plan that enhances safety, reduces clutter, and refreshes your outdoor space. This guide provides a structured approach to creating a stylish and kid-friendly environment. These pages are printables for the 30-day blueprint. They are not extra days.",
+      "opener": {
+        "query": "A vibrant terrace makeover with soft textiles, plants, and a cozy seating area, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+        "flux_prompt": "A full-bleed shot of a beautifully styled terrace with a clear view of the seating area, plants, and kid-friendly zones.",
+        "alt": "Reversible terrace furniture, no tools in the slab.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\049-pexels.jpg",
+        "credit": "Photo by Namfon Sasimaporn on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:36577716"
+      },
+      "sections": [
+        {
+          "slug": "purpose-and-benefits",
+          "title": "Purpose and Benefits",
+          "day_label": "Printable",
+          "hero": {
+            "query": "A cozy terrace with a soft play area, plants, and a stylish seating arrangement, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A close-up shot of the kid-friendly zone with soft bins and a low table, showcasing a safe play area.",
+            "alt": "A detailed view of the storage solutions and textiles used in the terrace.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\050-pexels.jpg",
+            "credit": "Photo by Ayşegül  Aytören on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:39351136"
+          },
+          "scenario": "Use the same household you picked on Day 1. Do not invent a new apartment for a form.",
+          "principle": "A well-organized terrace enhances safety and aesthetics.",
+          "body": [
+            "This guide helps you make rapid improvements to your terrace with minimal stress. By identifying hazards and reorganizing the space, you can create a safe and beautiful environment for your family. The process involves adding storage solutions that hide clutter, selecting gentle textiles, and defining kid-friendly zones that are easy to supervise.",
+            "The result will be a terrace that not only looks good but also remains tidy and safe. You will create guarded edges that protect without appearing heavy, ensuring that your outdoor space is both functional and inviting.",
+            "By following this guide, you will be able to remove visual noise and improve the flow of your terrace, making it a more enjoyable place for family gatherings."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Neglecting to assess safety hazards can lead to accidents.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "how-to-use-this-guide",
+          "title": "How to Use This Guide",
+          "day_label": "Printable",
+          "hero": {
+            "query": "A well-organized terrace preparation scene with measuring tools, shopping lists, and safety audit notes, one window light, plaster textures, magazine styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "An overhead view of the terrace layout with measurements and notes for safety checks.",
+            "alt": "A close-up of the shopping list and tools laid out for the makeover.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\051-pexels.jpg",
+            "credit": "Photo by DS stories on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6991324"
+          },
+          "scenario": "Riya sets aside her weekend to follow the guide, preparing her terrace for a makeover. She measures the space and notes potential hazards on Friday evening.",
+          "principle": "Preparation is key to a successful weekend makeover.",
+          "body": [
+            "To effectively use this guide, block out your weekend and follow the structured schedule provided. Start by printing the checklists and templates to keep track of your progress. On Friday evening, measure your terrace dimensions and identify any hazards that need to be addressed before you begin the makeover.",
+            "On Saturday morning, conduct a safety audit and take measurements to ensure that all adjustments will fit properly. Shopping for materials should be done early on Saturday to maximize your time for the actual makeover tasks.",
+            "Involve your kids in safe activities such as sorting toys and placing soft bins. This not only helps with the organization but also makes them feel included in the process."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Failing to prepare can lead to wasted time and incomplete tasks.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "main-content-time-block-schedule",
+          "title": "Main Content Time Block Schedule",
+          "day_label": "Printable",
+          "hero": {
+            "query": "A detailed schedule laid out on a table with time blocks and tasks for the weekend makeover, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "An organized planner showing the time blocks and tasks for the weekend makeover.",
+            "alt": "A close-up of the shopping list and materials organized for the makeover.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\052-pexels.jpg",
+            "credit": "Photo by Ann H on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:33094558"
+          },
+          "scenario": "On Saturday morning, Riya conducts a safety audit of her terrace, taking 90 minutes to measure edges and identify hazards.",
+          "principle": "A structured schedule ensures efficient use of time during the makeover.",
+          "body": [
+            "The time block schedule is designed to help you stay focused and complete your makeover efficiently. Start on Saturday morning with a safety audit and measurements, which should take about 90 minutes. This step is crucial for identifying gaps, sharp corners, and slippery zones that need attention.",
+            "Following the audit, allocate 2 to 3 hours for shopping and picking up your materials. Make sure to have your shopping list ready to avoid any last-minute confusion. After shopping, spend 2 hours on Saturday afternoon addressing guarded edge touch-ups, installing anchors, and placing rugs to enhance safety and aesthetics.",
+            "In the evening, dedicate 90 minutes to refreshing textiles and rearranging furniture to create a more inviting atmosphere. This structured approach will help you make significant progress without feeling overwhelmed."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Ignoring the time blocks can lead to rushed work and incomplete tasks.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "shopping-list-and-tool-requirements",
+          "title": "Shopping List and Tool Requirements",
+          "day_label": "Printable",
+          "hero": {
+            "query": "A shopping cart filled with materials and tools for a terrace makeover, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A close-up of the shopping cart showcasing the items needed for the makeover.",
+            "alt": "An organized display of the shopping list and materials before heading to the store.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\053-pexels.jpg",
+            "credit": "Photo by David Brown on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:17579943"
+          },
+          "scenario": "Riya heads to the local home improvement store in Pune to gather all the necessary materials for her terrace makeover.",
+          "principle": "Having a comprehensive shopping list streamlines the makeover process.",
+          "body": [
+            "Before heading out, ensure you have a complete shopping list that includes all the necessary items for your terrace makeover. Key items include rail netting or clear panel guards, rounded corner guards for tables, an outdoor rug with a textured, non-slip backing, and weighted planters for perimeter soft barriers.",
+            "Additionally, consider weather-friendly cushions and washable covers, a lockable deck box or two lidded storage benches, and soft bins for toys that are clearly labeled. Don't forget cable clips and outdoor cord covers to keep everything tidy and safe.",
+            "For tools, gather a measuring tape, level, screwdriver set, drill with outdoor fasteners, utility knife, scissors, zip ties, and a cleaning kit. Having everything ready will save time and ensure a smooth process."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Not having the right tools and materials can delay your progress.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "step-by-step-guide",
+          "title": "Step by Step Guide",
+          "day_label": "Printable",
+          "hero": {
+            "query": "A tidy terrace with organized storage solutions and a defined play area, one window light, plaster textures, magazine styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "An overview of the decluttered terrace showcasing storage solutions and the kid zone.",
+            "alt": "A close-up of the labeled bins and organized play area.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\054-pexels.jpg",
+            "credit": "Photo by Turgay Koca on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:14918666"
+          },
+          "scenario": "On Sunday morning, Riya conducts a declutter sprint, sorting items on her terrace into keep, relocate, and discard categories.",
+          "principle": "A systematic approach to decluttering maximizes space and safety.",
+          "body": [
+            "Begin your Sunday with a declutter sprint, which should take about 2 hours. Sort through all items on your terrace and categorize them into three groups: keep, relocate, and discard. This process helps to limit decor to a few calm pieces and creates a more organized space.",
+            "Once decluttering is complete, set up your storage solutions. Place the deck box and benches near the entry point for easy access, and assign bins for toys and outdoor gear to keep everything tidy. Clear labeling will help your kids know where to put their items, promoting independence and organization.",
+            "Finally, define a soft play area for your kids with a low table, a bin station, and a cushion stack. This creates a designated space for play that is safe and easy to supervise."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Skipping the declutter step can lead to a cluttered and unsafe environment.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "tips-for-success",
+          "title": "Tips for Success",
+          "day_label": "Printable",
+          "hero": {
+            "query": "A beautifully styled terrace showcasing light textiles and soft plants, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A close-up of the light-colored textiles and soft plants used in the terrace design.",
+            "alt": "An overview of the terrace highlighting the organized bins and clear labeling.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\055-pexels.jpg",
+            "credit": "Photo by Dương Nhân on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6000680"
+          },
+          "scenario": "Riya reflects on her completed terrace makeover, noting the importance of using light colors and keeping heavy items away from edges.",
+          "principle": "Simple design choices can enhance safety and aesthetics.",
+          "body": [
+            "To ensure the longevity and safety of your terrace, choose light-colored textiles that reflect light and show dirt easily for quick cleaning. This will help maintain a fresh look and make it easier to spot any messes that need attention.",
+            "Avoid placing heavy items near the edges of the terrace, as this can create hazards for children. Instead, opt for soft plants with non-thorny leaves to enhance the aesthetic without compromising safety.",
+            "Finally, remember to label bins clearly and keep them reachable for kids. This encourages them to participate in keeping the space tidy. Taking before and after photos can also guide future resets and help you maintain the organization."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Using dark colors can make it difficult to maintain cleanliness and safety.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "common-mistakes",
+          "title": "Common Mistakes",
+          "day_label": "Printable",
+          "hero": {
+            "query": "A checklist of common mistakes to avoid during a terrace makeover, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "An organized checklist highlighting common mistakes and how to avoid them.",
+            "alt": "A close-up of the safety checks and reminders for maintaining the terrace.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\056-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7114134"
+          },
+          "scenario": "After completing her makeover, Riya reviews common mistakes to avoid in future projects.",
+          "principle": "Awareness of common pitfalls can lead to better planning.",
+          "body": [
+            "One common mistake is overfilling the deck box, which invites clutter and defeats the purpose of organization. Ensure that you set an inventory limit for the deck box to keep it functional and tidy.",
+            "Another mistake is skipping anchors for tall items, which can lead to safety hazards. Always secure tall furniture and decor to prevent tipping, especially in areas where children play.",
+            "Finally, remember to conduct a weekly reset to maintain the organization and safety of your terrace. This simple habit can prevent clutter from accumulating and keep your space looking its best."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Ignoring safety checks can lead to accidents and injuries.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    }
+  ]
+}

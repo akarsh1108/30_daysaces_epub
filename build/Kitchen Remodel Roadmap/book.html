@@ -1,0 +1,1726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Kitchen Remodel Roadmap</title>
+<style>@font-face{font-family:&#34;Source Serif 4&#34;;font-weight:400;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/SourceSerif4-400.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;Source Serif 4&#34;;font-weight:700;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/SourceSerif4-700.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;Fraunces&#34;;font-weight:600;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/Fraunces-600.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;Fraunces&#34;;font-weight:700;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/Fraunces-700.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;DM Sans&#34;;font-weight:400;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/DMSans-400.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;DM Sans&#34;;font-weight:700;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/DMSans-700.woff&#34;) format(&#34;woff&#34;);}
+/* 6x9 KDP magazine interior — WeasyPrint-safe (no absolute overlays / bleed pages).
+   Cover + chapter openers + heroes are STACKED blocks so text never overlaps images.
+   Shared across every book in the series: change this file once, all titles update. */
+
+@page {
+  size: 6in 9in;
+  margin: 0.7in 0.6in 0.7in 0.65in;
+  @top-left {
+    content: string(series-name);
+    font: 7.5pt &#34;DM Sans&#34;, sans-serif;
+    color: #9AA0A2;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  @bottom-center {
+    content: counter(page);
+    font: 8.5pt &#34;DM Sans&#34;, sans-serif;
+    color: #9AA0A2;
+  }
+}
+@page cover {
+  margin: 0;
+  @top-left { content: none; }
+  @bottom-center { content: none; }
+}
+@page front {
+  @top-left { content: none; }
+  @bottom-center { content: none; }
+}
+@page closing {
+  @top-left { content: none; }
+  @bottom-center { content: none; }
+}
+
+:root {
+  --ink: #141816;
+  --paper: #FFFFFF;
+  --accent: #1E5F6B;
+  --accent-deep: #0F3D45;
+  --mist: #F3F6F6;
+  --muted: #7A8285;
+  --red: #C8442B;
+  --serif: &#34;Source Serif 4&#34;, &#34;DejaVu Serif&#34;, Georgia, serif;
+  --display: &#34;Fraunces&#34;, &#34;Source Serif 4&#34;, Georgia, serif;
+  --sans: &#34;DM Sans&#34;, &#34;DejaVu Sans&#34;, sans-serif;
+}
+
+html {
+  font-family: var(--serif);
+  font-size: 10.5pt;
+  line-height: 1.48;
+  color: var(--ink);
+  background: var(--paper);
+}
+body { margin: 0; }
+p { margin: 0 0 0.65em; orphans: 3; widows: 3; }
+img { max-width: 100%; display: block; }
+a { color: inherit; text-decoration: none; }
+
+.series-mark { string-set: series-name content(); display: none; }
+
+/* ========== COVER (shared series template) ========== */
+.cover {
+  page: cover;
+  page-break-after: always;
+  page-break-inside: avoid;
+  width: 6in;
+  height: 9in;
+  overflow: hidden;
+  background: var(--accent-deep);
+}
+.cover-photo {
+  width: 6in;
+  height: 5.35in;
+  object-fit: cover;
+  display: block;
+}
+.cover.cover-designed {
+  background: #111;
+}
+.cover.cover-designed .cover-photo {
+  width: 6in;
+  height: 9in;
+  object-fit: cover;
+}
+.cover-panel {
+  width: 6in;
+  height: 3.65in;
+  box-sizing: border-box;
+  background: var(--accent-deep);
+  color: #fff;
+  padding: 0.38in 0.5in 0.35in;
+}
+.cover-panel .series {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #B7D4D8;
+  margin: 0 0 0.16in;
+}
+.cover-panel .rule {
+  width: 0.9in;
+  height: 2.5pt;
+  background: #fff;
+  margin: 0 0 0.18in;
+}
+.cover-panel h1 {
+  font-family: var(--display);
+  font-size: 26pt;
+  line-height: 1.05;
+  font-weight: 700;
+  margin: 0 0 0.14in;
+  color: #fff;
+}
+.cover-panel .tagline {
+  font-size: 10.5pt;
+  line-height: 1.35;
+  color: #D7E6E8;
+  margin: 0 0 0.4in;
+  max-width: 4.6in;
+}
+.cover-panel .author {
+  font-family: var(--sans);
+  font-size: 10pt;
+  color: #fff;
+  margin: 0;
+  border-top: 0.5pt solid rgba(255,255,255,0.28);
+  padding-top: 0.16in;
+}
+
+/* ========== FRONT MATTER ========== */
+.title-page {
+  page: front;
+  page-break-after: always;
+  padding-top: 1.6in;
+}
+.title-page .mast {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.35in;
+}
+.title-page .rule {
+  width: 1in;
+  height: 2.5pt;
+  background: var(--accent);
+  margin: 0 0 0.3in;
+}
+.title-page h1 {
+  font-family: var(--display);
+  font-size: 28pt;
+  line-height: 1.08;
+  margin: 0 0 0.25in;
+  font-weight: 700;
+}
+.title-page .subtitle {
+  font-size: 12pt;
+  color: #3A4244;
+  margin: 0 0 1.2in;
+  max-width: 4.4in;
+}
+.title-page .author {
+  font-family: var(--sans);
+  font-size: 10pt;
+  color: var(--muted);
+}
+
+.copyright {
+  page: front;
+  page-break-after: always;
+  font-family: var(--sans);
+  font-size: 8pt;
+  line-height: 1.45;
+  color: #555;
+  padding-top: 4.8in;
+}
+.copyright .credits { color: var(--muted); margin-top: 0.4em; }
+
+.toc {
+  page: front;
+  page-break-after: always;
+}
+.toc .kicker {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.12in;
+}
+.toc h2 {
+  font-family: var(--display);
+  font-size: 24pt;
+  margin: 0 0 0.35in;
+  font-weight: 700;
+}
+.toc ol { list-style: none; padding: 0; margin: 0; }
+.toc &gt; ol &gt; li {
+  margin: 0 0 0.45em;
+  font-size: 10.5pt;
+  padding-bottom: 0.28em;
+  border-bottom: 0.4pt solid #E4E8E9;
+}
+.toc &gt; ol &gt; li &gt; a { font-family: var(--display); font-weight: 600; }
+.toc a::after {
+  content: leader(&#34; . &#34;) target-counter(attr(href url), page);
+  font-family: var(--sans);
+  font-size: 8pt;
+  color: var(--muted);
+  font-weight: 400;
+}
+.toc ol ol {
+  margin: 0.15em 0 0;
+  font-size: 9pt;
+  color: #4A5254;
+}
+.toc ol ol li { margin: 0 0 0.12em; border: none; padding: 0; }
+.toc ol ol a { font-family: var(--serif); font-weight: 400; }
+
+/* ========== CHAPTER ========== */
+.chapter { page-break-before: always; }
+
+.chapter-opener {
+  page-break-before: always;
+  page-break-after: always;
+  page-break-inside: avoid;
+  margin: 0;
+  background: var(--accent-deep);
+}
+.chapter-opener img {
+  width: 100%;
+  height: 4.6in;
+  object-fit: cover;
+  display: block;
+}
+.chapter-opener .opener-text {
+  background: var(--accent-deep);
+  color: #fff;
+  padding: 0.32in 0.05in 0.35in;
+}
+.chapter-opener .chap-kicker {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #B7D4D8;
+  margin: 0 0 0.12in;
+}
+.chapter-opener h2 {
+  font-family: var(--display);
+  font-size: 20pt;
+  line-height: 1.12;
+  margin: 0 0 0.12in;
+  font-weight: 700;
+  color: #ffffff;
+}
+.chapter-opener p {
+  font-size: 9.5pt;
+  line-height: 1.4;
+  color: #D7E6E8;
+  margin: 0;
+}
+
+.chapter-title {
+  font-family: var(--display);
+  font-size: 24pt;
+  line-height: 1.1;
+  margin: 0.6in 0 0.22in;
+  font-weight: 700;
+}
+.intro {
+  font-size: 11pt;
+  color: #333;
+  margin-bottom: 0.4in;
+  border-left: 3pt solid var(--accent);
+  padding-left: 0.16in;
+}
+
+/* ========== UNIT ========== */
+.unit { page-break-before: always; }
+.chapter &gt; .unit:first-of-type { page-break-before: auto; }
+
+.unit-head { margin: 0 0 0.25in; }
+.day {
+  display: block;
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 5pt;
+}
+.unit h3, .hero h3 {
+  font-family: var(--display);
+  font-size: 17pt;
+  line-height: 1.15;
+  margin: 0;
+  font-weight: 700;
+}
+
+/* Hero: image then caption strip UNDER it — never overlays */
+.hero {
+  margin: 0 0 0.28in;
+  page-break-inside: avoid;
+  background: var(--mist);
+}
+.hero img {
+  width: 100%;
+  height: 3.15in;
+  object-fit: cover;
+  display: block;
+}
+.hero .hero-label {
+  padding: 0.16in 0.18in 0.18in;
+}
+.hero .day { color: var(--accent); }
+.hero h3 { color: var(--ink); font-size: 16pt; }
+
+.scenario {
+  background: var(--mist);
+  border-top: 2.5pt solid var(--accent);
+  padding: 0.16in 0.18in 0.18in;
+  margin: 0 0 0.25in;
+}
+.scenario .label {
+  font-family: var(--sans);
+  font-size: 7.5pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.08in;
+}
+.scenario p {
+  font-size: 10pt;
+  font-style: italic;
+  color: #2A3234;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.principle {
+  font-family: var(--display);
+  font-size: 13.5pt;
+  line-height: 1.28;
+  font-weight: 600;
+  margin: 0.05in 0 0.28in;
+  color: var(--accent-deep);
+  padding: 0.08in 0 0.08in 0.18in;
+  border-left: 3pt solid var(--accent);
+}
+
+.body-copy p { font-size: 10.5pt; }
+
+figure.diagram {
+  margin: 0.18in 0 0.28in;
+  page-break-inside: avoid;
+  background: var(--mist);
+  padding: 0.1in;
+}
+figure.diagram img {
+  width: 100%;
+  display: block;
+  background: #fff;
+}
+figure.diagram figcaption {
+  font-family: var(--sans);
+  font-size: 8pt;
+  color: var(--muted);
+  line-height: 1.35;
+  margin-top: 5pt;
+}
+
+.steps, .checklist, .mistake {
+  page-break-inside: avoid;
+  margin: 0.25in 0;
+}
+.steps h4, .checklist h4, .mistake h4 {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0 0 7pt;
+  font-weight: 700;
+}
+.steps {
+  background: var(--mist);
+  padding: 0.16in 0.18in;
+}
+.steps ol {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  counter-reset: step;
+}
+.steps li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 1.4em;
+  margin: 0 0 6pt;
+  font-size: 10pt;
+}
+.steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: var(--sans);
+  font-size: 8.5pt;
+  font-weight: 700;
+  color: var(--accent);
+}
+.steps em {
+  color: var(--muted);
+  font-style: normal;
+  font-family: var(--sans);
+  font-size: 8pt;
+}
+
+.mistake {
+  background: #F8EEEB;
+  padding: 0.16in 0.18in;
+  border-left: 3pt solid var(--red);
+}
+.mistake h4 { color: var(--red); }
+.mistake p { margin: 0; font-size: 9.8pt; }
+
+.checklist ul { list-style: none; padding: 0; margin: 0; }
+.checklist li {
+  padding-left: 1.4em;
+  position: relative;
+  margin: 0 0 5pt;
+  font-size: 10pt;
+}
+.checklist li::before {
+  content: &#34;&#34;;
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  width: 0.7em;
+  height: 0.7em;
+  border: 1.2pt solid var(--accent);
+}
+
+/* ========== LAST PAGE (shared series closer) ========== */
+.closing {
+  page: closing;
+  page-break-before: always;
+  padding-top: 0;
+}
+.closing-photo {
+  width: 100%;
+  height: 3.2in;
+  object-fit: cover;
+  display: block;
+  margin: 0 0 0.45in;
+}
+.closing .kicker {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.16in;
+}
+.closing .rule {
+  width: 1in;
+  height: 2.5pt;
+  background: var(--accent);
+  margin: 0 0 0.25in;
+}
+.closing h2 {
+  font-family: var(--display);
+  font-size: 24pt;
+  line-height: 1.1;
+  margin: 0 0 0.2in;
+}
+.closing .blurb {
+  font-size: 11.5pt;
+  line-height: 1.4;
+  color: #333;
+  max-width: 4.5in;
+  margin: 0 0 0.7in;
+}
+.closing .author {
+  margin-top: 0.9in;
+  font-family: var(--sans);
+  font-size: 9.5pt;
+  color: var(--muted);
+}
+</style>
+</head>
+<body>
+<span class="series-mark">30 Day Spaces</span>
+
+<section class="cover cover-designed">
+  <img class="cover-photo" src="cover.jpg" alt="A compact kitchen with a tape measure and cabinet sample, no people or text.">
+</section>
+
+<section class="title-page">
+  <p class="mast">30 Day Spaces</p>
+  <div class="rule"></div>
+  <h1>Kitchen Remodel Roadmap</h1>
+<p class="subtitle">Cap-first kitchen planning — what you can document, and what a qualified trade must do</p><p class="author">Akarsh Priyadarshan</p></section>
+
+<section class="copyright">
+  <p>© 2026 Akarsh Priyadarshan. All rights reserved.</p>
+  <p>Interior designed for Amazon KDP print (6 × 9 in) and Kindle.</p>
+  <p>1 interior image in this book
+     was generated with AI tools and reviewed by the author.
+     All diagrams were drawn from the measurements in the text.</p>
+<p class="credits">Photographs: Photo by HONG SON on Pexels; Photo by Max Vakhtbovych on Pexels; Photo by Blue Bird on Pexels; Photo by Alpha En on Pexels; Photo by Karl Solano on Pexels; Photo by Anastasia  Shuraeva on Pexels; Photo by Pavel Danilyuk on Pexels; Photo by Tima Miroshnichenko on Pexels; Photo by Francesco Ungaro on Pexels; Photo by Cytonn Photography on Pexels; Photo by https://kaboompics.com/ on Pexels; Photo by Matheus Bertelli on Pexels; Photo by Felicity Tai on Pexels; Photo by Kampus Production on Pexels; Photo by ClickerHappy on Pexels; Photo by Joachim Schnürle on Pexels; Photo by Anisha Deb on Pexels; Photo by juliane Monari on Pexels; Photo by RDNE Stock project on Pexels; Photo by Thirdman on Pexels; Photo by Jahra Tasfia Reza on Pexels; Photo by Annushka  Ahuja on Pexels; Photo by Ann H on Pexels; Photo by cottonbro studio on Pexels; Photo by Nataliya Vaitkevich on Pexels.</p></section>
+
+<section class="toc">
+  <p class="kicker">Inside this book</p>
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#cap-and-contingency">One cap, one contingency rule</a>
+      <ol><li><a href="#cap-first-is-the-ceiling">The cap is the ceiling, not a wish</a></li><li><a href="#one-contingency-method">One contingency method, inside the cap</a></li><li><a href="#scope-freeze-or-rescope">Freeze the kitchen scope, or rescope before you buy</a></li></ol>
+    </li>
+    <li><a href="#renters-and-permits">Renters, buildings, and local rules</a>
+      <ol><li><a href="#renter-first-kitchen">Renter and apartment limits before tools come out</a></li><li><a href="#jurisdiction-checklist">Confirm the city. Do not invent the code</a></li></ol>
+    </li>
+    <li><a href="#diy-gates-not-scores">Safety gates, then skill — never a DIY score as permission</a>
+      <ol><li><a href="#mandatory-professional-work">These kitchen tasks are not DIY in this book</a></li><li><a href="#score-only-after-gates">Score leftover tasks for skill and time, not ROI</a></li><li><a href="#stop-and-refer">Stop and refer when you are not sure</a></li></ol>
+    </li>
+    <li><a href="#contractors-and-paper">People, bids, and paper that actually apply here</a>
+      <ol><li><a href="#verify-the-trade">Verify the contractor; do not stop at a certificate photo</a></li><li><a href="#bids-without-fake-protections">Compare bids. Confirm which protections your law actually gives you</a></li><li><a href="#written-scope-only">Nothing is in the job unless it is written</a></li></ol>
+    </li>
+    <li><a href="#materials-and-appliances">Kitchen pieces have to fit this kitchen</a>
+      <ol><li><a href="#lead-times-are-kitchen-lead-times">Order against the kitchen sequence, not a mood board</a></li><li><a href="#appliance-compatibility">Compatibility is more than width</a></li><li><a href="#delivery-cutoff">Delivery and procurement verification before anyone installs</a></li></ol>
+    </li>
+    <li><a href="#kitchen-sequence">A kitchen sequence, not a general-house sequence</a>
+      <ol><li><a href="#twelve-step-kitchen">Kitchen execution in twelve planning steps</a></li><li><a href="#concealed-before-close">Look, then close</a></li><li><a href="#daily-site-log">One daily kitchen log</a></li></ol>
+    </li>
+    <li><a href="#hidden-change-risk">Stops, changes, and risks that are not décor</a>
+      <ol><li><a href="#hidden-conditions-protocol">Hidden conditions protocol</a></li><li><a href="#change-orders-and-emergencies">Written changes, with an urgent-safety exception</a></li><li><a href="#heat-map-means-something">Heat-map scores have definitions</a></li></ol>
+    </li>
+    <li><a href="#test-and-close">Test what you can. Do not fake the rest</a>
+      <ol><li><a href="#functional-tests-without-myths">Functional checks without false comfort</a></li><li><a href="#closeout-binder">A kitchen closeout binder documents records, not &#39;proof of compliance&#39;</a></li><li><a href="#weekly-budget-review">Weekly budget review, in plain words</a></li></ol>
+    </li>
+    <li><a href="#two-budget-stories">Two kitchen budget stories, both labeled illustrations</a>
+    </li>
+    <li><a href="#bid-sheet-kitchen">The kitchen bid sheet</a>
+    </li>
+    <li><a href="#handover-kitchen">Live in the kitchen, then stop buying</a>
+      <ol><li><a href="#punch-and-live">Punch list after a real cooking session</a></li><li><a href="#stop-buying">Handover, then stop</a></li></ol>
+    </li>
+  </ol>
+</section>
+
+<section class="chapter" id="cap-and-contingency">
+  <div class="chapter-opener">
+    <img src="photos/001-pexels.jpg" alt="A printed budget cap circled, contingency listed as a reserved line inside it.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>One cap, one contingency rule</h2>
+<p>This book is a kitchen planning roadmap for compact US homes and rentals. It is not a building-code manual, an electrical or gas guide, a plumbing license, a structural design, or legal advice. Some scenarios use apartments in Indian cities as compact-space illustrations. They do not define the market. Prices are in US dollars. Measurements are in inches. Example dollar amounts are illustrations, not typical remodel prices. 1 inch equals 25 mm if you need a conversion. Manufacturer instructions, the lease, building rules, licensed trades, and the authority having jurisdiction take precedence. You may plan, measure, document, and photograph. Qualified professionals perform electrical, gas, structural, and permit-required plumbing work. A score, a heat map, or a contingency formula in this book does not authorize unsafe work. Contingency lives inside the budget cap. It is not added on top. There is one method in this book. Ignore older notes that used a separate 8 percent plus risk-score formula, a competing 10–12 percent band, or a 12–15 percent band as a second calculator.</p>    </div>
+  </div>
+
+  <article class="unit" id="cap-first-is-the-ceiling">
+
+    <figure class="hero">
+      <img src="photos/002-pexels.jpg" alt="A one-page kitchen cap with must-haves and will-not-move-gas listed.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>The cap is the ceiling, not a wish</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Budget worksheet: a renter in a Pune 1BHK — used here as a compact-rental illustration — wrote one number and then priced a full cabinet, gas, and electrical remodel against it.</p>
+    </div>
+
+    <p class="principle">Write the cap first. A cosmetic refresh and a systems remodel are different projects.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a written kitchen cap in USD, labeled illustrative until you have local quotes, plus three buckets — must have, should have, will not do.</p>
+      <p>Dollar figures in this book are planning scenarios. Actual cost varies by city, labor, appliances, existing conditions, and whether a qualified person must open walls. A small paint-and-hardware refresh is not the same budget as moving plumbing or electrical.</p>
+      <p>State whether the cap includes professional labor, materials, permits, waste, and contingency. If labor is extra, write that. Weekly budget review (the old notes said CFO review — that is a metaphor, not a job title) starts after this page exists.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Write the USD cap</li><li>List must / should / will-not</li><li>State what the cap includes</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Treating an example cap as a realistic price for every kitchen.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Write the USD cap</li><li>List must / should / will-not</li><li>State what the cap includes</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="one-contingency-method">
+
+    <figure class="hero">
+      <img src="photos/003-pexels.jpg" alt="A spreadsheet with working cost and a reserved contingency line that still sum to the cap.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>One contingency method, inside the cap</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Kitchen measurement error: two formulas on the same sheet produced two different leftover amounts.</p>
+    </div>
+
+    <p class="principle">Reserve twelve percent of the cap as contingency. Cut other lines if risk is high. Do not add contingency on top of the cap.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: the same cap, with working cost at eighty-eight percent and contingency at twelve percent, summing to one hundred percent of the cap. Category lines under working cost must add up to the working-cost total. Contingency is not copied into those categories.</p>
+      <figure class="diagram">
+        <img src="figures/D001.svg" alt="Contingency sits inside the cap">
+<figcaption>One method. Do not add a second cushion on top.</figcaption>      </figure>
+      <p>Worked illustration, not a quote: cap 10,000 USD. Working cost 8,800 USD. Contingency reserved 1,200 USD. Example cosmetic split of the 8,800: demolition and waste 900, qualified fixture electrical or plumbing 2,000, finishes 2,200, fixtures 2,400, permits and fees 600, tools 700. Those six lines equal 8,800. Plus 1,200 reserved equals the cap. Do not also add 10–12 percent on top.</p>
+      <figure class="diagram">
+        <img src="figures/D002.svg" alt="Illustration: ten thousand USD cap">
+<figcaption>Label this scenario illustrative. Quotes replace these numbers.</figcaption>      </figure>
+      <p>People overrun 15–25 percent when they have no cap and they spend the reserve during planning. Contingency is not a forecast of that overrun. If unknowns are high (old plumbing, moisture, complex permits), rescope first. If you still proceed, raise the reserved percent only by reducing other categories so the cap does not move. Do not use 8 percent plus half a percent times a risk score.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Enter cap, working cost, reserve</li><li>Make categories sum to working cost</li><li>Cross out extra formulas</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Running the risk-score formula and the 12 percent rule on the same cap.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Enter cap, working cost, reserve</li><li>Make categories sum to working cost</li><li>Cross out extra formulas</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="scope-freeze-or-rescope">
+
+    <figure class="hero">
+      <img src="photos/004-pexels.jpg" alt="A will-not list: no gas move, no wall move, no extra island.">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Freeze the kitchen scope, or rescope before you buy</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Inspection hold point: a backsplash add was priced after cabinets were ordered.</p>
+    </div>
+
+    <p class="principle">If it is not in the frozen kitchen scope, it is a change order or it is out.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a kitchen scope freeze — rooms (kitchen only), outcomes, exclusions, and the change-order gate. Bathroom and living-room examples in older notes were general remodel process, not this project&#39;s scope.</p>
+      <p>Variance means planned versus actual cost, time, or quantity. Estimate at Completion (EAC) is the current forecast of total spend if you continue. If EAC will break the cap, rescope before purchasing.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Write exclusions</li><li>Name the approver</li><li>Date the freeze</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Keeping the cap and adding a wall of cabinets that were never in the freeze.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Write exclusions</li><li>Name the approver</li><li>Date the freeze</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="renters-and-permits">
+  <div class="chapter-opener">
+    <img src="photos/005-pexels.jpg" alt="A lease page and a permit office phone number on a kitchen counter.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Renters, buildings, and local rules</h2>
+<p>Permit requirements vary by jurisdiction and project scope. Building-owner or association approval may be required even when a municipal permit is not. Electrical, gas, structural, and plumbing work must be assessed against applicable local requirements. This book is not a substitute for official approval or professional code interpretation. Load-bearing walls are not the only structural concern. Shared stacks, exhaust, waterproofing, and fire assemblies can be affected.</p>    </div>
+  </div>
+
+  <article class="unit" id="renter-first-kitchen">
+
+    <figure class="hero">
+      <img src="photos/006-pexels.jpg" alt="A kitchen with no holes in a shared wall, written permission on the fridge.">
+      <div class="hero-label">
+<span class="day">Day 4</span>        <h3>Renter and apartment limits before tools come out</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In this rental courtyard kitchen, the tenant wanted a new hood duct through an exterior wall.</p>
+    </div>
+
+    <p class="principle">Written permission first. Restoration last. Freestanding is not automatically allowed.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a renter sheet — written owner or landlord permission; housing or building-management approval; limits on drilling, structural work, plumbing, and exhaust; waterproofing and drainage limits; where the water, electrical, and gas shutoffs are and who may operate them; noise and demolition windows; waste and debris path; restoration obligations when you leave.</p>
+      <figure class="diagram">
+        <img src="figures/D006.svg" alt="Renter kitchen hold points">
+<figcaption>A blank is a Hold, not a maybe.</figcaption>      </figure>
+      <p>A load-bearing wall is not the only stop. Shared plumbing, fire-rated assemblies, and building exhaust can be off limits even if the wall is not load-bearing.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Get written permission</li><li>Map shutoffs you must not operate if restricted</li><li>List restoration duties</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Ordering a through-wall hood because the listing called it easy DIY.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Get written permission</li><li>Map shutoffs you must not operate if restricted</li><li>List restoration duties</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="jurisdiction-checklist">
+
+    <figure class="hero">
+      <img src="photos/007-pexels.jpg" alt="A jurisdiction form with city, property type, and blank permit numbers.">
+      <div class="hero-label">
+<span class="day">Day 5</span>        <h3>Confirm the city. Do not invent the code</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Contractor bid example: two quotes assumed no permit because a neighbor in another city had not needed one.</p>
+    </div>
+
+    <p class="principle">Ask the local building department and a qualified person. The book does not pick your permit.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: city and jurisdiction; property type; owner or renter approval; applicable permits; responsible professional; inspection or certification requirements; approval status and reference number.</p>
+      <figure class="diagram">
+        <img src="figures/D005.svg" alt="Jurisdiction fields">
+<figcaption>This book does not issue approvals.</figcaption>      </figure>
+      <p>Pune, Bengaluru, Mumbai, or Delhi in a scenario is an illustration of a dense apartment kitchen. US readers still confirm the US city, county, and utility rules that apply to this address.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Fill city and property type</li><li>Call or look up what applies</li><li>Record the professional who will pull permits</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Copying a permit list from a blog for a different county.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Fill city and property type</li><li>Call or look up what applies</li><li>Record the professional who will pull permits</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="diy-gates-not-scores">
+  <div class="chapter-opener">
+    <img src="photos/008-pexels.jpg" alt="A printed exclusion list taped inside a cabinet, tools for paint only.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Safety gates, then skill — never a DIY score as permission</h2>
+<p>Safety and legal constraints are gates. A low composite score cannot override them. Return on investment is a money-ranking tool, not a safety criterion. If risk or regulatory status is uncertain, stop and refer.</p>    </div>
+  </div>
+
+  <article class="unit" id="mandatory-professional-work">
+
+    <figure class="hero">
+      <img src="photos/009-pexels.jpg" alt="A labeled electrical panel closed, a gas shutoff photographed not touched.">
+      <div class="hero-label">
+<span class="day">Day 6</span>        <h3>These kitchen tasks are not DIY in this book</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Unexpected concealed condition: a homeowner scored &#39;swap the range&#39; as DIY because the composite was low.</p>
+    </div>
+
+    <p class="principle">Gates first. Scores never authorize gated work.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: each gated task marked professional, with what you may still document (photos, model numbers, desired location) and what must be verified before anyone starts.</p>
+      <figure class="diagram">
+        <img src="figures/D004.svg" alt="Gated work — score does not apply">
+<figcaption>Plan and document only. Qualified people perform the work.</figcaption>      </figure>
+      <p>Outside DIY in this book: work on energized circuits; new circuits, panel work, or significant rewiring; gas line install, relocation, or modification; structural changes or work affecting load-bearing or fire-rated elements; hidden plumbing that can leak into floors or neighbors; any task that local rules require a licensed or qualified person or a permit to perform.</p>
+      <p>You may photograph, measure, and write the desired outcome. A qualified person plans and performs the gated work. Verify shutoff authority, permits, and insurance before they start.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>List gated tasks on this kitchen</li><li>Write who will perform them</li><li>Do not score gated tasks as DIY</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Using a DIY score of twelve or less as permission to land a new circuit.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>List gated tasks on this kitchen</li><li>Write who will perform them</li><li>Do not score gated tasks as DIY</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="score-only-after-gates">
+
+    <figure class="hero">
+      <img src="photos/010-pexels.jpg" alt="A matrix with safety and code columns marked gate, not points.">
+      <div class="hero-label">
+<span class="day">Day 7</span>        <h3>Score leftover tasks for skill and time, not ROI</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Materials delivery problem: painting scored well; hanging a heavy cabinet on an unknown wall did not.</p>
+    </div>
+
+    <p class="principle">After gates pass, remaining work can be ranked by skill, access, and time. ROI is a separate shopping order.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: one framework. Gate columns: safety and code/legal — fail means professional, stop. Then skill and time for the leftover tasks only. Do not average ROI into the same score.</p>
+      <figure class="diagram">
+        <img src="figures/D003.svg" alt="One DIY framework">
+<figcaption>A number never overrides a gate.</figcaption>      </figure>
+      <p>There is no twelve-point DIY pass. There is no &#39;no factor above 3&#39; alternative matrix. A task with a serious hazard stays professional even if every other number is low.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Cross gated tasks off</li><li>Rank leftover work by skill and time</li><li>Keep ROI on a money list only</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Letting a high ROI paint a live-wire swap as DIY.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Cross gated tasks off</li><li>Rank leftover work by skill and time</li><li>Keep ROI on a money list only</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="stop-and-refer">
+
+    <figure class="hero">
+      <img src="photos/011-pexels.jpg" alt="A closed kitchen, phone numbers for electrician, plumber, and landlord.">
+      <div class="hero-label">
+<span class="day">Day 8</span>        <h3>Stop and refer when you are not sure</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Final punch-list discovery: a warm outlet cover was found after a &#39;passed&#39; plug-in tester.</p>
+    </div>
+
+    <p class="principle">Uncertain wiring, gas smell, structural movement, or active leak is a stop.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a stop list on the fridge — suspected wiring faults, overheating, damaged outlets, missing protective devices, gas odor, sagging structure, hidden wetness. Leave the area safe if you can without becoming the trade. Call the qualified person and the owner if you rent.</p>
+      <p>You plan placement of outlets and appliances on paper. You do not open the panel.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Post the stop list</li><li>Save trade and landlord numbers</li><li>Do not troubleshoot live equipment</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Resetting a breaker repeatedly until it stays on.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Post the stop list</li><li>Save trade and landlord numbers</li><li>Do not troubleshoot live equipment</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="contractors-and-paper">
+  <div class="chapter-opener">
+    <img src="photos/012-pexels.jpg" alt="Two bids on a table, neither treated as a contract yet.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>People, bids, and paper that actually apply here</h2>
+<p>Contract and payment protections depend on local law. For a significant project or material contractual risk, get appropriate legal advice. Lien waivers are not universal and do not work the same in every country. Confirm what payment protections exist where the kitchen is. A license or insurance page does not guarantee workmanship.</p>    </div>
+  </div>
+
+  <article class="unit" id="verify-the-trade">
+
+    <figure class="hero">
+      <img src="photos/013-pexels.jpg" alt="A notebook of license lookup, insurance dates, and similar-kitchen references.">
+      <div class="hero-label">
+<span class="day">Day 9</span>        <h3>Verify the contractor; do not stop at a certificate photo</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Contractor bid example: three photos of other kitchens and an expired insurance card.</p>
+    </div>
+
+    <p class="principle">Identity, current coverage, similar work, and who signs off specialist trades.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: identity and business details; qualifications or licenses confirmed with the appropriate local authority when that applies; recent references for similar kitchens; insurance current and relevant to this work; which trade performs and signs off electrical, gas, and plumbing; who pulls permits and who corrects failed inspections; written scope and a documented change-order process.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Verify identity and lookups</li><li>Call a similar-kitchen reference</li><li>Write who owns permits</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Hiring from a license selfie.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Verify identity and lookups</li><li>Call a similar-kitchen reference</li><li>Write who owns permits</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="bids-without-fake-protections">
+
+    <figure class="hero">
+      <img src="photos/014-pexels.jpg" alt="A bid matrix with scope, exclusions, and &#39;confirm locally&#39; on payment terms.">
+      <div class="hero-label">
+<span class="day">Day 10</span>        <h3>Compare bids. Confirm which protections your law actually gives you</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Budget worksheet: the lowest number omitted hood make-up and haul-away.</p>
+    </div>
+
+    <p class="principle">Same scope, same exclusions, same tax treatment — or it is not a comparison.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a bid sheet — labor, materials, allowances, lead times, who buys appliances, exclusions, permit responsibility. Do not treat a generic lien-waiver clause as valid everywhere. Ask what payment protections are legally available at this address, or get legal advice.</p>
+      <figure class="diagram">
+        <img src="figures/D014.svg" alt="Paper that depends on local law">
+<figcaption>Ask what exists here. This book is not a contract form.</figcaption>      </figure>
+      <p>Payment safeguards you can still use: documented milestones, photos or inspection evidence before the next payment, a defined final-payment condition, and a written process for disputed work. A warranty is useful only if scope, duration, exclusions, and how to claim are written down.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Line up equal scopes</li><li>Mark legal terms as confirm locally</li><li>Require written warranty details</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Signing because the bid mentioned lien waivers and a one-year warranty with no details.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Line up equal scopes</li><li>Mark legal terms as confirm locally</li><li>Require written warranty details</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="written-scope-only">
+
+    <figure class="hero">
+      <img src="photos/015-pexels.jpg" alt="A one-page scope: kitchen only, no gas move, cabinets listed by count.">
+      <div class="hero-label">
+<span class="day">Day 11</span>        <h3>Nothing is in the job unless it is written</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Unexpected concealed condition: extra electrical was done on a handshake.</p>
+    </div>
+
+    <p class="principle">Change orders in writing, except the urgent-safety path in the execution chapter.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a signed or saved scope, payment schedule, and change-order rule. Routine changes wait for written approval. That is not a reason to leave an active leak or a fire risk until a cooling-off period ends — see Day 19.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Save the scope</li><li>Save the payment schedule</li><li>Point to the change-order rule</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Paying extra cash on site for &#39;while we are here&#39; with no note.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Save the scope</li><li>Save the payment schedule</li><li>Point to the change-order rule</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="materials-and-appliances">
+  <div class="chapter-opener">
+    <img src="photos/016-pexels.jpg" alt="A range spec sheet next to a tape measure on the existing opening.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Kitchen pieces have to fit this kitchen</h2>
+<p>Nominal cabinet width is not a fit. Manufacturer installation instructions, clearances, fuel type, ventilation, and delivery path decide. Recirculating hoods are not the same as ducted exhaust.</p>    </div>
+  </div>
+
+  <article class="unit" id="lead-times-are-kitchen-lead-times">
+
+    <figure class="hero">
+      <img src="photos/017-pexels.jpg" alt="A roster of sink, faucet, and appliance models with lead times.">
+      <div class="hero-label">
+<span class="day">Day 12</span>        <h3>Order against the kitchen sequence, not a mood board</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Materials delivery problem: the sink arrived after the countertop was templated to a different bowl.</p>
+    </div>
+
+    <p class="principle">One roster. Long-lead items first. Substitutions need a written change.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a kitchen materials roster — item, model, quantity, lead time, backup source, who accepts delivery. Do not mix bathroom vanities into this list.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>List every kitchen item</li><li>Mark long-lead orders</li><li>Name the backup source</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Buying a &#39;kitchen look&#39; faucet that needs a hole the sink does not have.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>List every kitchen item</li><li>Mark long-lead orders</li><li>Name the backup source</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="appliance-compatibility">
+
+    <figure class="hero">
+      <img src="photos/018-pexels.jpg" alt="A checklist: width, depth, height, fuel, vent, water, door swing.">
+      <div class="hero-label">
+<span class="day">Day 13</span>        <h3>Compatibility is more than width</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Kitchen measurement error: a 30-inch range was ordered for a 30-inch opening that ignored handle clearance and gas connection.</p>
+    </div>
+
+    <p class="principle">Fit the opening, the utilities, the vent, and the service access.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: for each appliance — dimensions and manufacturer clearances; electrical supply and circuit requirements (documented, installed by a qualified person); gas or other fuel if applicable; ventilation and exhaust type (ducted vs recirculating); water and drain connections; countertop and cabinet cutouts; door swing and service access; manufacturer install rules; delivery path and packaging inspection; warranty conditions and whether authorized install is required.</p>
+      <figure class="diagram">
+        <img src="figures/D009.svg" alt="Appliance compatibility fields">
+<figcaption>Nominal width is one field, not the decision.</figcaption>      </figure>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Measure the real opening</li><li>Match fuel and vent type</li><li>Check door swing and service access</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Assuming a matching nominal width is a complete fit.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Measure the real opening</li><li>Match fuel and vent type</li><li>Check door swing and service access</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="delivery-cutoff">
+
+    <figure class="hero">
+      <img src="photos/019-pexels.jpg" alt="An unopened box photographed, model number matching the roster.">
+      <div class="hero-label">
+<span class="day">Day 14</span>        <h3>Delivery and procurement verification before anyone installs</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Materials delivery problem: the wrong dishwasher model was accepted because the box was the right color.</p>
+    </div>
+
+    <p class="principle">Wrong, damaged, or incomplete goods do not go into the opening.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: correct product and model; quantity and dimensions; visible damage; accessories and install parts; compatibility with the approved design; warranty and invoice kept; storage and protection; confirmation the install date still works.</p>
+      <figure class="diagram">
+        <img src="figures/D013.svg" alt="Delivery cutoff">
+<figcaption>Do not install a maybe.</figcaption>      </figure>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Match model to the roster</li><li>Photograph damage before the driver leaves</li><li>Hold install if parts are missing</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Signing for a crushed carton to keep the crew busy.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Match model to the roster</li><li>Photograph damage before the driver leaves</li><li>Hold install if parts are missing</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="kitchen-sequence">
+  <div class="chapter-opener">
+    <img src="photos/020-pexels.jpg" alt="A kitchen with cabinets still in boxes, utilities marked, no open walls unsupervised.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>A kitchen sequence, not a general-house sequence</h2>
+<p>Bathroom and living-room stories in older notes were process examples. This chapter is kitchen only. The order below is a planning aid. Actual order depends on design, existing conditions, and applicable requirements. It is not a method statement for every site.</p>    </div>
+  </div>
+
+  <article class="unit" id="twelve-step-kitchen">
+
+    <figure class="hero">
+      <img src="photos/021-pexels.jpg" alt="A numbered list on the wall: permissions, measure, buy, isolate, demo.">
+      <div class="hero-label">
+<span class="day">Day 15</span>        <h3>Kitchen execution in twelve planning steps</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Inspection hold point: drywall closed before the rough plumbing check.</p>
+    </div>
+
+    <p class="principle">Do not close walls or set cabinets on unverified rough work.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: this kitchen&#39;s sequence, with N/A where a step does not apply, not a copied bathroom story.</p>
+      <figure class="diagram">
+        <img src="figures/D007.svg" alt="Kitchen sequence — planning aid">
+<figcaption>Site conditions can change the order. Do not skip gated trades.</figcaption>      </figure>
+      <p>1) Scope, permissions, utility identification. 2) Appliance and fixture measurements. 3) Procurement and delivery verification. 4) Isolation of electrical, water, and gas by qualified personnel where required. 5) Demolition and waste. 6) Inspection of concealed conditions. 7) Rough plumbing and electrical by qualified people. 8) Inspection and testing before closing walls or installing cabinetry. 9) Wall, floor, and backsplash prep. 10) Cabinets and countertops. 11) Fixture and appliance connections by the people the manufacturer and local rules require. 12) Functional testing, punch list, handover.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Number the steps for this kitchen</li><li>Mark N/A honestly</li><li>Put a hold before closing walls</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Following a living-room paint sequence and skipping kitchen rough-in checks.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Number the steps for this kitchen</li><li>Mark N/A honestly</li><li>Put a hold before closing walls</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="concealed-before-close">
+
+    <figure class="hero">
+      <img src="photos/022-pexels.jpg" alt="An open kitchen wall photographed before insulation, permit tag visible.">
+      <div class="hero-label">
+<span class="day">Day 16</span>        <h3>Look, then close</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Unexpected concealed condition: scorched sheathing behind a range outlet.</p>
+    </div>
+
+    <p class="principle">If you cannot see it later, photograph it now and get the right eyes on it.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a concealed-conditions pass — photos of opened walls, who assessed wiring, pipes, and structure, and a written go or Hold before cover-up.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Photograph open walls</li><li>Get the named professional&#39;s go</li><li>Hold cabinets if Hold</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Closing because the inspector&#39;s window was inconvenient.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Photograph open walls</li><li>Get the named professional&#39;s go</li><li>Hold cabinets if Hold</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="daily-site-log">
+
+    <figure class="hero">
+      <img src="photos/023-pexels.jpg" alt="A log page: date, trades, hold points, photos.">
+      <div class="hero-label">
+<span class="day">Day 17</span>        <h3>One daily kitchen log</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Budget worksheet: three notebooks duplicated the same leak and still missed the cost.</p>
+    </div>
+
+    <p class="principle">One template. Weekly budget review reads this log; it does not replace it.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a blank log with fields — date and work area; people and trades; work completed; materials delivered and used; inspections or hold points; safety issues; damage or unexpected findings; photos; hours; costs incurred; blockers and next actions; responsible person.</p>
+      <figure class="diagram">
+        <img src="figures/D015.svg" alt="Daily kitchen log fields">
+<figcaption>One row per day. Do not run a second unofficial log.</figcaption>      </figure>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Print or duplicate the fields</li><li>Fill today&#39;s row</li><li>Attach photos</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>A group chat as the only record.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Print or duplicate the fields</li><li>Fill today&#39;s row</li><li>Attach photos</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="hidden-change-risk">
+  <div class="chapter-opener">
+    <img src="photos/024-pexels.jpg" alt="A red Hold card on a wet subfloor.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Stops, changes, and risks that are not décor</h2>
+<p>Green on a heat map does not make a safety hazard acceptable. Cost impact and safety impact are different ratings. Unresolved high-severity hazards stay gated regardless of the number.</p>    </div>
+  </div>
+
+  <article class="unit" id="hidden-conditions-protocol">
+
+    <figure class="hero">
+      <img src="photos/025-pexels.jpg" alt="A photographed wet layer, work stopped, a call in progress.">
+      <div class="hero-label">
+<span class="day">Day 18</span>        <h3>Hidden conditions protocol</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Unexpected concealed condition: blackened wiring in a kitchen soffit.</p>
+    </div>
+
+    <p class="principle">Stop. Photograph. Protect. Get the right professional. Do not price it as a casual extra.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: the protocol on site — stop work; photograph and document; protect the area and prevent further damage; get an appropriate professional assessment; decide whether safety, code, schedule, or cost is affected; record the scope change and who pays; get written approval before non-emergency extra work.</p>
+      <figure class="diagram">
+        <img src="figures/D008.svg" alt="Hidden conditions — stop first">
+<figcaption>Non-emergency extras wait for written approval.</figcaption>      </figure>
+      <p>Examples: concealed leaks, bad substrate, damaged wiring, unexpected pipe routes, structural concerns.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Stop and photograph</li><li>Call the right trade</li><li>Do not proceed without the written path</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Tiling over a soft spot to keep the calendar.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Stop and photograph</li><li>Call the right trade</li><li>Do not proceed without the written path</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="change-orders-and-emergencies">
+
+    <figure class="hero">
+      <img src="photos/026-pexels.jpg" alt="A change-order form next to an emergency record pad.">
+      <div class="hero-label">
+<span class="day">Day 19</span>        <h3>Written changes, with an urgent-safety exception</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Inspection hold point: a burst supply line during demo.</p>
+    </div>
+
+    <p class="principle">Routine waits. Imminent harm does not wait for a cooling-off period.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: three buckets. Routine change: written approval before work. Urgent protective action: immediate action to prevent injury, active water damage, fire risk, or other imminent harm, then prompt notice and documentation. Regulated correction: follows the professional, inspection, or authority requirements.</p>
+      <figure class="diagram">
+        <img src="figures/D010.svg" alt="Three kinds of change">
+<figcaption>Emergencies are narrow. They are not a style upgrade.</figcaption>      </figure>
+      <p>Urgent record: description, reason, who authorized, work performed, cost, follow-up inspection. Then fold it into the budget as a documented change.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Label the change type</li><li>If urgent, record the six fields</li><li>Bring it into the budget the same day</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Using &#39;emergency&#39; to add a skylight.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Label the change type</li><li>If urgent, record the six fields</li><li>Bring it into the budget the same day</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="heat-map-means-something">
+
+    <figure class="hero">
+      <img src="photos/027-pexels.jpg" alt="A risk list with owner, due date, and separate safety column.">
+      <div class="hero-label">
+<span class="day">Day 20</span>        <h3>Heat-map scores have definitions</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Budget worksheet: a live-wire risk scored green because it felt unlikely this week.</p>
+    </div>
+
+    <p class="principle">Likelihood and impact are 1 to 5 with words. Safety is not averaged into cheap.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: each kitchen risk with likelihood 1 (rare) to 5 (expected this project), impact 1 (nuisance cost or delay) to 5 (injury, fire, major water, legal stop), owner, due date. Cost and safety are separate. If safety is high, treat it as red even when likelihood is low.</p>
+      <figure class="diagram">
+        <img src="figures/D011.svg" alt="Heat map is not a safety stamp">
+<figcaption>High severity stays gated even if the product is a small number.</figcaption>      </figure>
+      <p>When a risk moves from green to yellow or red: add a control, a date, and a person. Unresolved high-severity hazards: restrict the area and get professional help. A green box is not acceptance of a shock or gas hazard.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Define 1–5 in your log</li><li>Split cost vs safety</li><li>Assign owner and date</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Leaving a gas-flex concern green because the number was four.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Define 1–5 in your log</li><li>Split cost vs safety</li><li>Assign owner and date</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="test-and-close">
+  <div class="chapter-opener">
+    <img src="photos/028-pexels.jpg" alt="A kitchen punch list, appliances still unplugged until the qualified person says so.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Test what you can. Do not fake the rest</h2>
+<p>A plug-in tester is not a full electrical inspection. Air at a hood grille is not proof of a legal exhaust system. Water-heater settings are not the same as tap temperature. Do not adjust a water heater just to chase a number from this book.</p>    </div>
+  </div>
+
+  <article class="unit" id="functional-tests-without-myths">
+
+    <figure class="hero">
+      <img src="photos/029-pexels.jpg" alt="A notepad: tap feel, tester limits, hood type written down.">
+      <div class="hero-label">
+<span class="day">Day 21</span>        <h3>Functional checks without false comfort</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Final punch-list discovery: a tissue &#39;passed&#39; on a recirculating hood that never had a path outside.</p>
+    </div>
+
+    <p class="principle">Record what you observed. Do not certify the house.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a test sheet that states limits. Hot water: comfort and scald risk depend on the system, local rules, and who uses the sink. Do not raise or lower the water heater yourself solely because a 120°F target was missed. Tap temperature is not the heater setting. Ask a qualified person if adjustment or replacement is needed.</p>
+      <figure class="diagram">
+        <img src="figures/D016.svg" alt="What these tests do not prove">
+<figcaption>Observation is not a certificate.</figcaption>      </figure>
+      <p>Electrical: a plug-in tester can catch some wiring errors on that receptacle. It does not prove every safety condition. It does not replace required inspection. Stop on suspected faults, heat, damage, or missing protection — Day 8.</p>
+      <p>Ventilation: kitchen exhaust is not a bathroom fan. Recirculating hoods filter and return air; they are not ducted exhaust. Airflow at the grille does not prove duct route, discharge, or required performance. Check the installed type against the plan and the manufacturer&#39;s instructions.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Write heater vs tap as unknown unless measured by a qualified person</li><li>Log tester limits</li><li>Name hood type</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Calling the kitchen safe because a tissue stuck to the hood and a tester showed two lights.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Write heater vs tap as unknown unless measured by a qualified person</li><li>Log tester limits</li><li>Name hood type</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="closeout-binder">
+
+    <figure class="hero">
+      <img src="photos/030-pexels.jpg" alt="A binder: serial numbers, shutoffs, photos of open walls.">
+      <div class="hero-label">
+<span class="day">Day 22</span>        <h3>A kitchen closeout binder documents records, not &#39;proof of compliance&#39;</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Punch-list discovery: no one knew the dishwasher serial or the shutoff under the sink.</p>
+    </div>
+
+    <p class="principle">The binder holds what you have. It does not prove every rule was met.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: appliance models and serials; warranty registration if you choose to register; approved changes and final scope; photos of concealed services; shutoff locations; cleaning and maintenance from the makers; contractor and trade contacts; invoices and payments; inspection or approval documents you actually received.</p>
+      <figure class="diagram">
+        <img src="figures/D012.svg" alt="Kitchen closeout contents">
+<figcaption>Records on file, not a blanket compliance stamp.</figcaption>      </figure>
+      <p>Do not label the binder proof of compliance. It documents available approvals and records.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Collect serials</li><li>File photos of concealed work</li><li>Store invoices and any approval papers</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Writing &#39;compliant&#39; on the cover because a permit card was photocopied.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Collect serials</li><li>File photos of concealed work</li><li>Store invoices and any approval papers</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="weekly-budget-review">
+
+    <figure class="hero">
+      <img src="photos/031-pexels.jpg" alt="A one-page review: planned, actual, variance, EAC, leftover reserve.">
+      <div class="hero-label">
+<span class="day">Day 23</span>        <h3>Weekly budget review, in plain words</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Budget worksheet: the reserve was spent on nicer hardware in week two.</p>
+    </div>
+
+    <p class="principle">Variance is planned minus actual. EAC is the current forecast to finish.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: weekly budget review (not a corporate CFO meeting) — spent to date, variance by kitchen category, remaining contingency, EAC versus cap, stop if EAC will break the cap.</p>
+      <p>Estimate at Completion means your current forecast of total cost if you continue as now. If that forecast exceeds the cap, rescope. The reserve is not a shopping fund.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Compute variance by category</li><li>Compute EAC</li><li>Protect the reserve</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Calling the project fine because cash remained while EAC was already over.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Compute variance by category</li><li>Compute EAC</li><li>Protect the reserve</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="two-budget-stories">
+  <div class="chapter-opener">
+    <img src="photos/032-pexels.jpg" alt="Two columns: paint-and-hardware versus qualified plumbing and electrical.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Two kitchen budget stories, both labeled illustrations</h2>
+<p>Use separate examples for a cosmetic refresh and a systems remodel. Neither number is a quote.</p>    </div>
+  </div>
+
+  <article class="unit" id="cosmetic-versus-systems">
+
+    <figure class="hero">
+      <img src="photos/033-pexels.jpg" alt="Two lists: hardware and paint vs range, hood, and a plumber.">
+      <div class="hero-label">
+<span class="day">Day 24</span>        <h3>Cosmetic refresh versus systems remodel</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Budget worksheet: one 10,000 USD line tried to fund both a cosmetic refresh and a gas-range swap.</p>
+    </div>
+
+    <p class="principle">If gated work is in scope, the illustration cap may be too small. Raise the cap in writing or cut the gated work.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: pick one story. Cosmetic: paint, hardware, lighting replacements that do not need new circuits, maybe a qualified person swapping like-for-like devices. Systems: moving water or gas, new circuits, cabinets, counters — priced with real local quotes, contingency still inside the cap.</p>
+      <p>The 8,000–12,000 USD band in older notes was an illustration for a modest refresh, not a universal remodel budget, and not rupees. Replace it with current local quotes.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Choose cosmetic or systems</li><li>Re-run Day 2 math</li><li>Get quotes before calling it feasible</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Forcing a gas relocation into a cosmetic cap.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Choose cosmetic or systems</li><li>Re-run Day 2 math</li><li>Get quotes before calling it feasible</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="bid-sheet-kitchen">
+  <div class="chapter-opener">
+    <img src="photos/034-pexels.jpg" alt="Three bids with the same appliance list.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>The kitchen bid sheet</h2>
+<p>Equal scope or it is not a comparison.</p>    </div>
+  </div>
+
+  <article class="unit" id="fill-the-bid-sheet">
+
+    <figure class="hero">
+      <img src="photos/035-pexels.jpg" alt="A matrix: price, exclusions, permit owner, warranty text.">
+      <div class="hero-label">
+<span class="day">Day 25</span>        <h3>Fill the bid sheet for this kitchen only</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Contractor bid example: one bid included haul-away; two did not.</p>
+    </div>
+
+    <p class="principle">Lowest price with missing haul-away is not lowest.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: completed bid comparison for the frozen kitchen scope. Confirm locally any payment or lien language. Go back to Days 9–11 before signing.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Equalize exclusions</li><li>Name permit owner</li><li>Read the warranty paragraph</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Picking a bid that omitted the hood because the number looked friendly.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Equalize exclusions</li><li>Name permit owner</li><li>Read the warranty paragraph</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="handover-kitchen">
+  <div class="chapter-opener">
+    <img src="photos/036-pexels.jpg" alt="A used kitchen after a real cooking night, punch items taped to a cabinet.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Live in the kitchen, then stop buying</h2>
+<p>A punch list is for this kitchen. Do not start a bathroom with leftover contingency.</p>    </div>
+  </div>
+
+  <article class="unit" id="punch-and-live">
+
+    <figure class="hero">
+      <img src="photos/037-pexels.jpg" alt="A list: drip, door rub, missing outlet plate, unread serials.">
+      <div class="hero-label">
+<span class="day">Day 26</span>        <h3>Punch list after a real cooking session</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Final punch-list discovery: the refrigerator door hit the island on the first grocery load.</p>
+    </div>
+
+    <p class="principle">Use the kitchen as you will use it. Then list defects.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: punch list from cooking, cleaning, and opening every door. Include appliance serials still missing from the binder. Unresolved high-severity items stay restricted.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Cook one meal</li><li>Open every door</li><li>File remaining Holds</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Signing off because the paint matched.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Cook one meal</li><li>Open every door</li><li>File remaining Holds</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="stop-buying">
+
+    <figure class="hero">
+      <img src="photos/038-pexels.jpg" alt="A closed binder on a clear counter, no extra cart in the browser.">
+      <div class="hero-label">
+<span class="day">Day 27</span>        <h3>Handover, then stop</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Punch-list discovery: leftover contingency was treated as a backsplash fund.</p>
+    </div>
+
+    <p class="principle">If the kitchen works and Holds are closed or scheduled, stop.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: leftover reserve stays reserve until punch items that are actually required are done. Do not invent a second room. Confirm renter restoration notes if you do not own the place.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Close the punch or schedule it</li><li>Keep leftover as leftover</li><li>File restoration notes if you rent</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Starting a bathroom with kitchen leftover money.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Close the punch or schedule it</li><li>Keep leftover as leftover</li><li>File restoration notes if you rent</li></ul>
+    </div>
+
+  </article>
+</section>
+
+<section class="closing">
+  <img class="closing-photo" src="photos/001-pexels.jpg" alt="A printed budget cap circled, contingency listed as a reserved line inside it.">
+  <p class="kicker">30 Day Spaces</p>
+  <div class="rule"></div>
+  <h2>Your next room starts here</h2>
+  <p class="blurb">More room kits and measured layouts — same series language, same clear numbers. This book helps readers plan a kitchen refresh against a hard cap. It does not interpret code, replace a licensed trade, or guarantee a price, permit, or damage-free rental.</p>
+<p class="author">Akarsh Priyadarshan</p></section>
+
+</body>
+</html>

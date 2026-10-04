@@ -1,0 +1,2709 @@
+{
+  "slug": "child-proof-showpiece-setup",
+  "title": "Child Proof Showpiece Setup",
+  "subtitle": "",
+  "tagline": "Stabilize showpieces without mistaking putty, straps, or a toddler test for childproofing.",
+  "author": "Akarsh Priyadarshan",
+  "series": "30 Day Spaces",
+  "closing_headline": "Your next room starts here",
+  "closing_blurb": "Decor stabilization is not furniture anchoring. Furniture anchoring is not childproofing. Museum putty is not anti-tip hardware. A passed toddler test does not certify safety. Manufacturer installation instructions take priority over this book. This book is not a substitute for childproofing.",
+  "accent_hex": "#1E5F6B",
+  "units": "imperial",
+  "cover": {
+    "query": "compact Indian apartment scale, one window light, teak/linen/plaster textures, magazine styling, photorealistic, no people, no text, no watermark",
+    "flux_prompt": "full-bleed establishing shot of a stylish living room with a toddler-friendly design",
+    "alt": "Child Proof Showpiece Setup",
+    "source": "openai",
+    "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\cover.jpg",
+    "credit": "Cover illustration",
+    "ai_generated": true,
+    "provider_id": "pexels:15915124"
+  },
+  "designed_cover": true,
+  "chapters": [
+    {
+      "slug": "weekend-action-plan-the-48-hour-roadmap",
+      "title": "Weekend Action Plan: The 48-Hour Roadmap",
+      "intro": "This book is not a substitute for childproofing. Decorative anchoring is not furniture anchoring. Museum putty is not a substitute for anti-tip hardware. Supervision is not a substitute for eliminating hazards. A toddler test cannot certify safety. Manufacturer installation instructions take priority. US consumer-safety guidance recommends securing top-heavy furniture and TVs to the wall. Cordless window coverings are the preferred option where young children are present. Use the 48-hour plan to stabilize showpieces only after those boundaries are clear.",
+      "opener": {
+        "query": "compact Indian apartment scale, one window light, teak/linen/plaster textures, magazine styling, photorealistic, no people, no text, no watermark",
+        "flux_prompt": "full-bleed establishing shot of a stylish living room with a toddler-friendly design",
+        "alt": "A styled room with child-accessible hazards removed, not a certified childproof space.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\001-pexels.jpg",
+        "credit": "Photo by dh tang on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:15915124"
+      },
+      "sections": [
+        {
+          "slug": "friday-evening-prep-and-quick-wins",
+          "title": "Friday Evening: Prep and Quick Wins",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "compact Indian apartment scale, one window light, teak/linen/plaster textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "a cozy living room with a coffee table and safe decor",
+            "alt": "a close-up of the coffee table with quick wins in action",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\001-pexels.jpg",
+            "credit": "Photo by dh tang on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:15915124"
+          },
+          "scenario": "In a 1BHK apartment in Pune, Priya has a 9-foot living room filled with delicate decor. With a toddler on the move, she needs to child-proof her space quickly. She sets aside the evening to prepare her home for the weekend.",
+          "principle": "Furniture and TVs first. Windows next. Decor putty last.",
+          "body": [
+            "Today's output: a hazard list in three columns — furniture/TV, windows/cords, decor.",
+            "Walk the home at child height. Note dressers, bookcases, media consoles, and TVs that need manufacturer-approved anti-tip or TV-anchoring hardware. Note blinds, shades, continuous-loop cords, inner cords, curtain and drapery cords, and window-covering chains. Move cribs and climbable furniture away from windows. Tying a cord higher is not a safety method.",
+            "Then list small parts: coins, beads, stones, crystals, tiny figurines, magnets, button batteries, loose hardware. Age band matters: 0–12 months mouth and grab; 1–3 years climb, pull, open drawers, use a drawer as a step; 3–5 years climb more sophisticated furniture and work latches.",
+            "At 5 p.m., Priya writes down her three design words: modern, cozy, and functional. She defines her safety thresholds, ensuring no items under 42 inches can tip over and that there are no small parts within reach.",
+            "By 6 p.m., she conducts a Heat Map pass, placing red sticky notes on the coffee table and lower shelves, yellow on the bedside table, and green on the high shelves. She assigns risk scores based on tip and pull risks, circling the top five surfaces that need immediate attention.",
+            "By 7 p.m., she gathers her Weekend Toolkit, which includes museum putty, gel pads, removable wall strips, and corner guards. She reviews cure times for her adhesives, ensuring anything needing hours to set is scheduled for overnight curing.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Three layers, never mixed",
+              "caption": "Styling cannot replace child-safety hardware.",
+              "values": [
+                "Stops a vase from sliding",
+                "Stops a dresser, bookcase, console, or TV from tipping",
+                "Removes or blocks cords, batteries, choke items, windows, outlets",
+                "Not a substitute for the layers above"
+              ],
+              "labels": [
+                "Decor stabilization",
+                "Furniture and TV anchoring",
+                "Childproofing / hazard removal",
+                "This book"
+              ],
+              "minimum": null,
+              "spec_id": "D020",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D020.svg"
+            },
+            {
+              "kind": "table",
+              "title": "STOP and remove the object if",
+              "caption": "A failed check is a definite problem. A passed check does not certify safety.",
+              "values": [
+                "Furniture rocks or an anchor pulls away",
+                "A shelf flexes or adhesive damages the surface",
+                "An object or cord can be pulled into a child",
+                "Glass can be reached or furniture can be climbed",
+                "You cannot verify the mount, or the maker conflicts with this book"
+              ],
+              "labels": [
+                "Rock or pulled anchor",
+                "Flex or adhesive damage",
+                "Pull-in or accessible cord",
+                "Glass or climb",
+                "Unknown mount or maker conflict"
+              ],
+              "minimum": null,
+              "spec_id": "D021",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D021.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Age bands change the hazard",
+              "caption": "Height bands are not one toddler.",
+              "values": [
+                "Reach, grab, mouth, crib and window-covering cords",
+                "Climb, pull, open drawers, reach higher, use a drawer as a step",
+                "More sophisticated climbing, latches, previously high objects"
+              ],
+              "labels": [
+                "About 0 to 12 months",
+                "About 1 to 3 years",
+                "About 3 to 5 years"
+              ],
+              "minimum": null,
+              "spec_id": "D026",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D026.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Write down three design words and set safety thresholds.",
+              "minutes": null
+            },
+            {
+              "text": "Conduct a Heat Map pass with sticky notes on surfaces.",
+              "minutes": null
+            },
+            {
+              "text": "Gather supplies for the Weekend Toolkit.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Friday is spent on putty while the dresser is free-standing. Cause: decor treated as childproofing. Fix: furniture and window cords before vignettes.",
+          "checklist": [
+            "Write three design words",
+            "Set safety thresholds",
+            "Conduct Heat Map pass",
+            "Gather Weekend Toolkit supplies"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "saturday-morning-focus-on-high-impact-surfaces",
+          "title": "Saturday Morning: Focus on High Impact Surfaces",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "compact Indian apartment scale, one window light, teak/linen/plaster textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "an elevated shelf with decor safely out of reach",
+            "alt": "a coffee table with a stylish tray arrangement",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\003-pexels.jpg",
+            "credit": "Photo by Sharath G. on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7672060"
+          },
+          "scenario": "In her Pune apartment, Priya starts her Saturday morning by focusing on the high-risk surfaces identified the previous evening. She aims to elevate her decor while ensuring safety for her toddler.",
+          "principle": "Elevate focal points to adult eye level while protecting lower zones.",
+          "body": [
+            "At 8 a.m., Priya begins with the Edit and Elevate phase. She removes items from the coffee table that cannot be made safe and moves her favorite vase to a high shelf, ensuring it remains a focal point.",
+            "By 9 a.m., she encloses lower zones using clear domes and trays. She places a tray on the coffee table with a heavy book and a low plant, creating a visually appealing yet toddler-friendly arrangement.",
+            "At 10:30 a.m., Priya anchors remaining items using museum putty and gel pads. She applies small beads of putty to the base of her decor, ensuring they are secure before leaving them to set.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Remove unsafe items from lower surfaces.",
+              "minutes": null
+            },
+            {
+              "text": "Move star pieces to adult eye level.",
+              "minutes": null
+            },
+            {
+              "text": "Enclose delicate decor with clear domes.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Over anchoring fragile finishes can cause damage. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [
+            "Edit unsafe items",
+            "Elevate decor to high surfaces",
+            "Enclose lower zones with protective measures"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "saturday-afternoon-exchanges-and-secondary-zones",
+          "title": "Saturday Afternoon: Exchanges and Secondary Zones",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "compact Indian apartment scale, one window light, teak/linen/plaster textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "a dining table set with enclosed candles",
+            "alt": "an entryway console with safely arranged decor",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\004-pexels.jpg",
+            "credit": "Photo by Sharath G. on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7672060"
+          },
+          "scenario": "As the afternoon sun streams into her Pune apartment, Priya focuses on exchanging materials and securing her dining room and kitchen perimeter for safety.",
+          "principle": "Maintain color, material, and silhouette continuity when exchanging materials.",
+          "body": [
+            "At 1 p.m., Priya replaces glass items with acrylic alternatives that match the original's silhouette and color. She swaps a glass bowl for an acrylic trough, ensuring it fits seamlessly into her design narrative.",
+            "By 2 p.m., she runs the Heat Map on her entryway, enclosing bowls for keys and moving sharp items off the console. She clips lamp cords to the legs of furniture to prevent tripping hazards.",
+            "At 3 p.m., in the dining room, she encloses candles in trays and replaces taper candles with enclosed hurricanes, ensuring safety while maintaining elegance."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Exchange fragile materials for resilient ones.",
+              "minutes": null
+            },
+            {
+              "text": "Secure entryway items and clip cords.",
+              "minutes": null
+            },
+            {
+              "text": "Enclose dining room decor for safety.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Inconsistent swaps can disrupt the design story. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [
+            "Replace glass with acrylic",
+            "Secure entryway items",
+            "Enclose dining room decor"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "sunday-morning-adhesive-set-and-toddler-test",
+          "title": "Sunday morning: cure, then a limited toddler test",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "compact Indian apartment scale, one window light, teak/linen/plaster textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "a living room with decor safely secured",
+            "alt": "a close-up of a toddler-friendly decor arrangement",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\004-pexels.jpg",
+            "credit": "Photo by Sharath G. on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7672060"
+          },
+          "scenario": "On Sunday morning, Priya conducts a thorough check of her newly arranged spaces, ensuring everything is secure and toddler-friendly before her final walkthrough.",
+          "principle": "A failed test = definite problem. A passed test does not certify safety.",
+          "body": [
+            "Today's output: after the manufacturer's cure time, a limited stress check — not a safety certificate.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal. If an object shifts during the first stress check, do not add more adhesive. Remove it, inspect the surface, confirm compatibility, and reinstall according to the product instructions — or take the object out of the accessible zone.",
+            "Push and pull tests are screening only. A child can pull from other directions, climb, use a drawer as a step, grab a cord, pull an object toward themselves, and interact when you are not immediately beside them. Tip-overs can happen quickly even when a caregiver is nearby. Use the STOP list: rock, pulled anchor, shelf flex, reachable cord or glass, climbable furniture, unknown mount, or a manufacturer conflict with this book — remove the object."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "STOP and remove the object if",
+              "caption": "A failed check is a definite problem. A passed check does not certify safety.",
+              "values": [
+                "Furniture rocks or an anchor pulls away",
+                "A shelf flexes or adhesive damages the surface",
+                "An object or cord can be pulled into a child",
+                "Glass can be reached or furniture can be climbed",
+                "You cannot verify the mount, or the maker conflicts with this book"
+              ],
+              "labels": [
+                "Rock or pulled anchor",
+                "Flex or adhesive damage",
+                "Pull-in or accessible cord",
+                "Glass or climb",
+                "Unknown mount or maker conflict"
+              ],
+              "minimum": null,
+              "spec_id": "D030",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D030.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Check the adhesion of putties and gels.",
+              "minutes": null
+            },
+            {
+              "text": "Conduct the toddler test on key items.",
+              "minutes": null
+            },
+            {
+              "text": "Evaluate safe failure modes for decor.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: you photographed a 'pass' and left a climbable shelf. Cause: the test was treated as certification. Fix: STOP list.",
+          "checklist": [
+            "Cure per the maker",
+            "Failed test = remove",
+            "Passed test ≠ safe"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "sunday-afternoon-refinement-and-photography",
+          "title": "Sunday Afternoon: Refinement and Photography",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "compact Indian apartment scale, one window light, teak/linen/plaster textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "a beautifully styled living room ready for a toddler",
+            "alt": "a final shot of the living room with decor adjustments",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\006-pexels.jpg",
+            "credit": "Photo by 世品 苏 on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:9426231"
+          },
+          "scenario": "As the weekend winds down, Priya takes time to refine her decor and capture the results of her hard work in her Pune apartment.",
+          "principle": "Photography reveals clutter and weak spots; adjust until balanced.",
+          "body": [
+            "At noon, Priya adjusts her compositions at adult eye level, ensuring that the elevated decor harmonizes with the lower zones. She adds color and texture notes that echo materials below.",
+            "By 1 p.m., she conducts a floor and cord sweep, clipping or concealing any visible cords and adding felt pads under heavy items to protect surfaces.",
+            "At 2 p.m., she photographs her work from both adult and toddler eye levels, looking for any clutter or weak spots that need adjustment."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Adjust decor for harmony and balance.",
+              "minutes": null
+            },
+            {
+              "text": "Conduct a floor and cord sweep.",
+              "minutes": null
+            },
+            {
+              "text": "Photograph the final arrangement.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Forgetting to photograph can lead to missed opportunities for improvement. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [
+            "Adjust decor for balance",
+            "Sweep for cords and clutter",
+            "Photograph final arrangements"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "the-5e-method-edit-elevate-enclose-anchor-and-exchange",
+      "title": "The 5E Method: Edit, Elevate, Enclose, Anchor, And Exchange",
+      "intro": "Edit means hazard removal, not a prettier pile. Elevate is not 'heavy items high.' Enclose is not a lock if it can be opened. Anchor means the right layer: putty for decor slide, mechanical hardware for furniture and TVs. Exchange glass for safer materials after the climb/pull tree says the object may stay.",
+      "opener": {
+        "query": "Living room with curated decor, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+        "flux_prompt": "Full-bleed shot of a stylish living room showcasing a well-arranged console and coffee table, emphasizing the balance of safety and aesthetics.",
+        "alt": "A styled room with child-accessible hazards removed, not a certified childproof space.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\007-pexels.jpg",
+        "credit": "Photo by Martín Rivera on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:16197203"
+      },
+      "sections": [
+        {
+          "slug": "edit-clarify-the-story-and-remove-hazards",
+          "title": "Edit, Clarify The Story And Remove Hazards",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "Close-up of a coffee table with a mix of decorative items, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A detailed view of the coffee table showing the editing process, with some items tagged for removal.",
+            "alt": "An alternative angle of the coffee table highlighting the staging area.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\008-pexels.jpg",
+            "credit": "Photo by Ken Mwaura on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:29003507"
+          },
+          "scenario": "In a 1BHK in Pune, resident Priya has a low coffee table cluttered with glass vases and decorative items. She needs to ensure safety for her toddler while maintaining her design aesthetic.",
+          "principle": "Can they climb it, choke on it, or pull a cord — before you style it.",
+          "body": [
+            "Today's output: objects sorted by the decision tree, plus a choke/battery/magnet pile that leaves the room.",
+            "Can the child climb or pull it? Yes → mechanical anchoring or remove access. Can it break, cut, choke, or burn? Yes → remove from the accessible zone. Can it simply slide or fall? Yes → appropriate stabilization. Only then style.",
+            "Choking and ingestion are their own category: coins, beads, decorative stones, crystals, tiny figurines, detachable parts, magnets, button and coin batteries, small candle accessories, loose hardware, decorative balls, miniature pots, removable caps. Batteries and magnets are not 'small decor.'",
+            "Begin by assessing each item on your surfaces with four critical questions: Is it unsafe if pulled, tipped, or dropped? Consider items like glass vases or sharp metal sculptures that could pose a risk. Next, determine if the item is unanchorable on its current surface; for instance, a slick marble top may not hold certain decorative pieces securely.",
+            "Identify irreplaceable items such as family heirlooms or signed art that must be treated with care. These should either be elevated to a higher location or enclosed to protect them from curious hands. Lastly, consider essential items that anchor your design story; these should be kept but may require a strategy for safety.",
+            "Create a small staging area nearby to test combinations of items. This allows you to visualize how to maintain your design intent while removing hazards. By sorting items by risk category, you can protect your style while ensuring safety."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Furniture vs decor decision",
+              "caption": "Climb or pull first. Then break/cut/choke/burn. Then slide.",
+              "values": [
+                "Mechanical anchor or remove access",
+                "Remove from the accessible zone",
+                "Stabilize only after the two above are no",
+                "Style only after hazards are gone"
+              ],
+              "labels": [
+                "Can the child climb or pull it",
+                "Can it break, cut, choke, or burn",
+                "Can it slide or fall",
+                "Otherwise"
+              ],
+              "minimum": null,
+              "spec_id": "D023",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D023.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Choking, batteries, and magnets",
+              "caption": "These are not merely small decorative objects.",
+              "values": [
+                "Coins, beads, stones, crystals, tiny figurines",
+                "Detachable parts, decorative balls, mini pots, loose hardware",
+                "Button and coin batteries",
+                "Loose magnets",
+                "Small candle accessories, removable caps"
+              ],
+              "labels": [
+                "Small parts",
+                "Loose bits",
+                "Batteries",
+                "Magnets",
+                "Accessories"
+              ],
+              "minimum": null,
+              "spec_id": "D025",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D025.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: a crystal bowl of beads looks 'styled' on the coffee table. Cause: choke items treated as texture. Fix: remove.",
+          "checklist": [
+            "Assess each item using the four questions: unsafe, unanchorable, irreplaceable, essential.",
+            "Create a staging area for items that need to be relocated or removed.",
+            "Sort items by risk category to maintain design intent."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "elevate-plan-sightlines-and-height-bands",
+          "title": "Elevate, Plan Sightlines And Height Bands",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "Living room corner with elevated decor, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "An angle showing the high zone with elevated items, emphasizing the layered heights.",
+            "alt": "A view from the mid zone highlighting the arrangement of sturdy items.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\009-pexels.jpg",
+            "credit": "Photo by Kübra Arslaner on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8235834"
+          },
+          "scenario": "In a Bengaluru rental, Rohan has a living room with a load-bearing wall and a mix of low and high furniture. He needs to elevate certain items to ensure safety without losing visual appeal.",
+          "principle": "Height bands help sightlines. They do not make heavy loose objects safe.",
+          "body": [
+            "Today's output: adult sightline plus age-band reach — without storing hazards 'up high' as the plan.",
+            "Heavy, fragile, and hazardous loose objects stay out of child-accessible areas. Do not simply move them higher. A heavy object that is mechanically fixed to the wall is a different case from a heavy object sitting on a shelf.",
+            "Establish three height bands for your decor: the low zone (floor to knee height), mid zone (knee to chest height), and high zone (chest to eye level and above). For Rohan, this means moving fragile items like glass sculptures to the high zone, such as a mantel or upper shelves, while using the low zone for sturdy items like lidded baskets and books.",
+            "Layer heights within the mid and high zones to maintain visual interest. Sit and stand in various spots in the room to view the arrangement from different angles, ensuring that the eye is drawn through the space without creating focal points at child height.",
+            "The goal is to create a focal path that leads the eye through the room, enhancing the overall aesthetic while keeping fragile items out of reach."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: a stone sculpture went to the top shelf 'for safety' and can still be pulled. Cause: high ≠ secure. Fix: remove or enclose.",
+          "checklist": [
+            "Define three height bands: low, mid, and high zones.",
+            "Relocate fragile pieces to high zones while maintaining sightlines.",
+            "Layer heights to create visual interest throughout the space."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "enclose-frame-beauty-with-gentle-boundaries",
+          "title": "Enclose, Frame Beauty With Gentle Boundaries",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "Decorative items enclosed in a tray, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A detailed view of a tray with enclosed items, emphasizing the visual boundaries.",
+            "alt": "An angle showing the cloche over a delicate item.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\010-pexels.jpg",
+            "credit": "Photo by Canshotz on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:37863107"
+          },
+          "scenario": "In a Mumbai flat with a window on only one side, Neha wants to add visual boundaries to her decor without making the space feel closed off.",
+          "principle": "Enclosures should frame beauty, not restrict it.",
+          "body": [
+            "Use enclosures like cloches, acrylic boxes, or trays to create visual perimeters for your decor. For Neha, a clear cloche over a delicate sculpture can raise its perceived value while discouraging touch. A tray can signal that items should not be moved, adding an edge that increases friction between items and the surface.",
+            "Match the enclosure material to your style language. If Neha's palette leans towards warm wood and linen, a rattan tray will blend seamlessly. The enclosure should feel like a frame around art, enhancing the visual appeal without feeling like a barricade.",
+            "Aim for one strong boundary per cluster of items rather than multiple small enclosures, which can clutter the visual space."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Over-enclosing can make a room feel blocked; use enclosures as frames instead of barriers. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [
+            "Select appropriate enclosures that match your style language.",
+            "Aim for one strong boundary per grouping of items.",
+            "Use trays to signal boundaries without closing off the space."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "anchor-stabilize-with-reversible-methods",
+          "title": "Anchor, Stabilize With Reversible Methods",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "Decorative items anchored on a console, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A close-up of an anchored decorative item, showcasing the stability methods used.",
+            "alt": "An angle showing the anchoring process in action.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\011-pexels.jpg",
+            "credit": "Photo by Mikhail Nilov on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6707631"
+          },
+          "scenario": "In a 1BHK in Pune, Sameer has tall decorative items on his console that need to be secured to prevent tipping.",
+          "principle": "Putty for decor slide. Straps and maker hardware for furniture. Never as substitutes.",
+          "body": [
+            "Today's output: each object labeled decor-stabilize, furniture-anchor, or remove.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal. Museum putty and gel are not anti-tip hardware. If the maker of the furniture or TV requires mechanical anchoring, adhesives are out.",
+            "To anchor items securely, use adhesives and non-slip materials tailored to the weight of the items and the surface finish. For Sameer, museum putty or gel can be used to secure small to medium objects on smooth surfaces like lacquered wood. Non-slip silicone dots can be placed under the bases of taller items to increase friction and stability.",
+            "For taller pieces, consider using a discreet strap to secure them to a wall stud or the back of a shelf. This adds an additional layer of safety without being visually obtrusive. Stack anchoring layers by using a tray for boundaries, putty under the item, and a hidden strap for top-heavy pieces.",
+            "Always test the removability of adhesives on inconspicuous areas to avoid damage. The goal is to ensure stability now while keeping the option for clean removal later."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Anchoring the wrong surface can lead to damage; always test compatibility first. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [
+            "Use appropriate adhesives and non-slip materials for anchoring.",
+            "Test removability on inconspicuous areas before full application.",
+            "Stack anchoring layers for maximum stability."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "exchange-swap-materials-while-preserving-aesthetic",
+          "title": "Exchange, Swap Materials While Preserving Aesthetic",
+          "day_label": "Day 5",
+          "hero": {
+            "query": "Acrylic vase replacing a glass one, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A side-by-side comparison of the original glass vase and the new acrylic version, emphasizing the aesthetic match.",
+            "alt": "An angle showing the exchange process in action.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\012-pexels.jpg",
+            "credit": "Photo by Cup of  Couple on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8015580"
+          },
+          "scenario": "In a Bengaluru apartment, Aditi wants to replace fragile decor items with safer alternatives while maintaining her design aesthetic.",
+          "principle": "Exchanges should preserve the visual language of the space.",
+          "body": [
+            "Some items may need to be exchanged for safer alternatives. For Aditi, this means replacing a glass vase with an acrylic one that mimics its shape and color. This way, she retains the aesthetic appeal without the risk of shattering. Similarly, thin ceramic vessels can be swapped for resin alternatives that offer similar textures and colors.",
+            "When making exchanges, focus on maintaining the design language by matching color, sheen, and silhouette closely. If the original item was a tall, smoky glass vase, look for an acrylic version in a similar tint to ensure continuity in style.",
+            "Successful exchanges keep the story of your decor intact at a glance, allowing you to enjoy your space without compromising on safety."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Ignoring the visual language during exchanges can lead to mismatched decor. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [
+            "Identify items that need to be exchanged for safety.",
+            "Match color, sheen, and silhouette closely with new items.",
+            "Ensure the story of your decor remains consistent with exchanges."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "materials-and-adhesives-museum-putty-safety-straps-and-shatt",
+      "title": "Materials And Adhesives: Museum Putty, Safety Straps, And Shatter-Resistant Alternatives",
+      "intro": "CARE tells you which product might be compatible. It does not tell you to use adhesive as a safety anchor. Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal — every time. When not to use adhesive is as important as which product to pick.",
+      "opener": {
+        "query": "interior of a modern Indian apartment with a well-decorated living room showcasing various decorative items securely anchored",
+        "flux_prompt": "full-bleed shot of a stylish living room with a mix of textures and colors, featuring a lacquered shelf with ceramics and a tall bookshelf with safety straps",
+        "alt": "A styled room with child-accessible hazards removed, not a certified childproof space.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\013-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:7535031"
+      },
+      "sections": [
+        {
+          "slug": "understanding-the-care-matrix",
+          "title": "Understanding the CARE Matrix",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "close-up of the CARE Matrix applied to various surfaces in an apartment",
+            "flux_prompt": "detailed shot of a checklist with the CARE Matrix, surrounded by various materials and adhesives",
+            "alt": "a visual representation of the CARE Matrix with examples of compatible materials.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\014-pexels.jpg",
+            "credit": "Photo by RDNE Stock project on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5591907"
+          },
+          "scenario": "In a 1BHK apartment in Pune, resident Anjali is looking to secure her decorative items while maintaining the aesthetic of her living space. She uses the CARE Matrix to evaluate her surfaces and objects before applying any adhesives.",
+          "principle": "CARE is a filter. Manufacturer instructions are the rule.",
+          "body": [
+            "Today's output: CARE notes plus a written do-not-use list for this room.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal. Formulations differ. Do not use adhesive on unstable furniture, loose or climbable shelves, tip-capable pieces, damaged/peeling/dusty/greasy/raw/porous or unknown surfaces, objects whose failure could cause serious injury, or anything the manufacturer says needs a mechanical anchor.",
+            "Compatibility is key; match the product to the surface and finish. For example, use museum putty on sealed wood, but avoid it on raw wood or porous stone that can absorb oils.",
+            "Anchor strength is crucial; choose products based on the weight and height of the object, as well as the likelihood of tugging. Small figurines on stable shelves need different anchors than tall vases near edges.",
+            "Removability is essential, especially in rentals. Prefer reversible products and techniques, planning for clean release and residue management."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "When not to use adhesive",
+              "caption": "Follow the specific product manufacturer's weight, surface, cure, and removal instructions.",
+              "values": [
+                "Unstable furniture",
+                "Loose or climbable shelves",
+                "Anything that can tip",
+                "Damaged, peeling, dusty, greasy, raw, or unknown paint",
+                "Failure could cause serious injury",
+                "The maker requires a mechanical anchor"
+              ],
+              "labels": [
+                "Furniture",
+                "Shelves",
+                "Tip-over",
+                "Bad surface",
+                "Injury if it fails",
+                "Maker requires screws"
+              ],
+              "minimum": null,
+              "spec_id": "D024",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D024.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: more putty after a shift. Cause: failure treated as under-dose. Fix: remove, inspect, remake per the product — or take it away.",
+          "checklist": [
+            "Evaluate surface compatibility using the CARE Matrix.",
+            "Identify the weight and height of objects to determine anchor strength.",
+            "Consider the removability of products for future changes."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "choosing-the-right-adhesives",
+          "title": "Choosing the Right Adhesives",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "various adhesive products displayed on a shelf",
+            "flux_prompt": "a curated display of museum putty, gel, and adhesive strips on a clean surface",
+            "alt": "a close-up of museum gel and putty in use under decorative items.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\015-pexels.jpg",
+            "credit": "Photo by Sergey  Meshkov on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8478408"
+          },
+          "scenario": "In her Bengaluru rental, Priya wants to display her collection of glass figurines safely. She considers using museum gel and removable adhesive strips to secure them without damaging her walls.",
+          "principle": "Match the maker's surface list. Then stay inside decor stabilization.",
+          "body": [
+            "Today's output: one product per object, copied from the package, not from memory.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal. Museum putty, gel, and strips are not interchangeable safety ratings.",
+            "Museum putty is best for small to medium objects on stable surfaces like sealed wood and painted shelves. It offers immediate tack with a firm press but should be avoided on raw wood or porous stone.",
+            "Museum gel is ideal for glass or glossy surfaces, forming a suction-style bond that is less likely to stain. It should be placed under bases to avoid dust attraction.",
+            "Removable adhesive strips are strong and renter-friendly, perfect for lightweight frames and corner guards. They require smooth, clean, and fully cured paint for optimal adhesion."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Using putty on porous surfaces can leave oil marks and damage the finish. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [
+            "Copy the maker's surface list",
+            "Copy cure time",
+            "Do-not-use list checked"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "anchoring-heavy-items",
+          "title": "Anchoring Heavy Items",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "a tall bookshelf anchored to a wall with safety straps",
+            "flux_prompt": "a side view of a tall bookshelf secured with anti-tip straps, showcasing decorative items safely displayed",
+            "alt": "a close-up of the anti-tip strap installation on the bookshelf.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\016-pexels.jpg",
+            "credit": "Photo by Line Knipst on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:19714663"
+          },
+          "scenario": "In her Mumbai flat, Riya has a tall bookshelf near her children's play area. She needs to secure it to prevent tipping while keeping the design elegant.",
+          "principle": "Top-heavy furniture and TVs need manufacturer-approved mechanical anchoring to the wall.",
+          "body": [
+            "Today's output: every dresser, bookcase, media console, and TV marked for hardware — or removed from the child's zone.",
+            "Decor putty does not secure a dresser. US consumer-safety guidance recommends securing top-heavy furniture and TVs to the wall and following the furniture and TV manufacturers. Install anti-tip and TV-anchoring hardware as those makers specify. A strap on the console does not replace anchoring the television itself.",
+            "For tall or heavy items, mechanical anchors like anti-tip straps are necessary. Connect the top of the bookshelf to the wall, aiming for studs or using well-rated toggles if studs are out of reach.",
+            "L brackets can discreetly secure bases for plinths or console tops, ensuring they remain visually appealing. For rentals, choose straps with adhesive pads paired with micro screws only into wood furniture.",
+            "If drilling is not an option, place the tall piece inside a wider tray or enclosure and add non-slip mats for added stability.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: a strapped console with a free-standing TV. Cause: furniture treated as the only tip-over. Fix: anchor the TV too.",
+          "checklist": [
+            "Install anti-tip straps to wall studs for heavy items.",
+            "Use L brackets for discreet anchoring of bases.",
+            "Consider non-slip mats for additional stability."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "using-non-slip-mats-and-discs",
+          "title": "Using Non-Slip Mats and Discs",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "non-slip mats displayed under decorative vases on a table",
+            "flux_prompt": "a clean table setting with non-slip mats discreetly placed under vases, showcasing a polished look",
+            "alt": "a close-up of a non-slip mat under a decorative item.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\017-pexels.jpg",
+            "credit": "Photo by 🇻🇳🇻🇳Nguyễn Tiến Thịnh 🇻🇳🇻🇳 on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:31553230"
+          },
+          "scenario": "In her Noida apartment, Meera wants to display her favorite vases on a glass table. She decides to use non-slip mats to prevent them from sliding off.",
+          "principle": "Non-slip mats provide friction without visible bulk, enhancing safety and aesthetics.",
+          "body": [
+            "Thin silicone mats or discreet clear discs can be placed under bases to prevent sliding. They work well under lamps, vases, and domes, providing added security without detracting from the design.",
+            "Pairing non-slip mats with museum putty or gel can offer dual security, ensuring that even heavier items remain stable on surfaces.",
+            "Avoid using thick foams that can look clumsy or trap dust around display edges, as they can detract from the overall aesthetic.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Using thick mats can create visual clutter and detract from the design. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [
+            "Select thin silicone or clear PVC discs for non-slip support.",
+            "Pair non-slip mats with putty or gel for added security.",
+            "Avoid thick foams that can trap dust and look clumsy."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "sightline-strategy-visual-height-and-the-adult-eye-level-for",
+      "title": "Sightline Strategy: Visual Height And The Adult Eye-Level Formula",
+      "intro": "This chapter focuses on how to style your home decor at adult eye level while keeping lower surfaces calm and uninviting for children. By implementing the right sightline strategy, you can create a visually appealing space that is also safe for curious little hands.",
+      "opener": {
+        "query": "interior of a modern Indian apartment, living room with a console and artwork, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+        "flux_prompt": "full-bleed shot of a stylish living room with a console and artwork at adult eye level",
+        "alt": "A styled room with child-accessible hazards removed, not a certified childproof space.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\018-pexels.jpg",
+        "credit": "Photo by Donald Tong on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:189333"
+      },
+      "sections": [
+        {
+          "slug": "understanding-eye-level",
+          "title": "Understanding Eye Level",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "interior of a Pune apartment, living room with marked eye level on the wall, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "full-bleed shot of a marked wall showing eye level measurement in a stylish living room",
+            "alt": "close-up of a wall with painter's tape marking the eye level measurement",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\019-pexels.jpg",
+            "credit": "Photo by HONG SON on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:34574611"
+          },
+          "scenario": "In a 1BHK apartment in Pune, resident Priya measures her eye level to style her living room. Standing at 5'5\", she finds her pupil height to be 60 inches. She marks this point on the wall to guide her decor placement.",
+          "principle": "Establishing the adult eye level helps in placing focal pieces effectively.",
+          "body": [
+            "Begin by measuring your adult eye level. Stand in the room where you will style and have another adult measure from the floor to your pupil height. Average the measurements and subtract about four inches to encourage a comfortable downward viewing angle. Mark that point on the wall with painter tape; this becomes your center line for focal art and major vignettes.",
+            "For most households, centering focal objects between 57 and 62 inches from the floor suits adult standing sightlines. Many galleries hang art at 57 inches to the center, aligning with average standing eye level. Adjust the midpoint based on your household median height; if most adult viewers are taller, set it closer to 60 or 62 inches, and if shorter, aim closer to 57 or 58 inches.",
+            "This center line will guide your placement of key pieces, ensuring they are visually accessible to adults while remaining out of reach for children."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Many Galleries Hang Art At 57 Inches",
+              "caption": "Many galleries hang art at 57 inches to the center, aligning with average standing eye level.",
+              "values": [
+                "57 inch"
+              ],
+              "labels": [
+                "Note"
+              ],
+              "minimum": null,
+              "spec_id": "D007",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D007.svg"
+            },
+            {
+              "kind": "table",
+              "title": "We Set The Adult Eye Level Center",
+              "caption": "We set the adult eye level center at 60 inches.",
+              "values": [
+                "60 inch"
+              ],
+              "labels": [
+                "Note"
+              ],
+              "minimum": null,
+              "spec_id": "D012",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D012.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Key Takeaways Adult Eye Level, Typically Around",
+              "caption": "Key Takeaways: Adult eye level, typically around 57 to 62 inches to center, should guide your primary focal placements.",
+              "values": [
+                "57 to 62 inch"
+              ],
+              "labels": [
+                "Note"
+              ],
+              "minimum": null,
+              "spec_id": "D014",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D014.svg"
+            },
+            {
+              "kind": "table",
+              "title": "The Mid Grab Zone",
+              "caption": "The Mid Grab Zone, roughly 29 to 42 inches, reaches preschoolers.",
+              "values": [
+                "29 to 42 inch"
+              ],
+              "labels": [
+                "Note"
+              ],
+              "minimum": null,
+              "spec_id": "D003",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D003.svg"
+            },
+            {
+              "kind": "table",
+              "title": "The Low Grab Zone",
+              "caption": "The Low Grab Zone, up to about 28 inches, covers crawler and toddler reach.",
+              "values": [
+                "28 inch"
+              ],
+              "labels": [
+                "Note"
+              ],
+              "minimum": null,
+              "spec_id": "D004",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D004.svg"
+            },
+            {
+              "kind": "table",
+              "title": "The Careful Band, Around 43 To 54",
+              "caption": "The Careful Band, around 43 to 54 inches, is visible and sometimes reachable by older kids.",
+              "values": [
+                "43 to 54 inch"
+              ],
+              "labels": [
+                "Note"
+              ],
+              "minimum": null,
+              "spec_id": "D005",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D005.svg"
+            },
+            {
+              "kind": "table",
+              "title": "The Safe Eye Band, From 55 To",
+              "caption": "The Safe Eye Band, from 55 to 66 inches, is prime for adult eye level.",
+              "values": [
+                "55 to 66 inch"
+              ],
+              "labels": [
+                "Note"
+              ],
+              "minimum": null,
+              "spec_id": "D006",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D006.svg"
+            },
+            {
+              "kind": "table",
+              "title": "If Most Adult Viewers Are Taller, Set",
+              "caption": "If most adult viewers are taller, set a center closer to 60 or 62 inches.",
+              "values": [
+                "62 inch"
+              ],
+              "labels": [
+                "Note"
+              ],
+              "minimum": null,
+              "spec_id": "D008",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D008.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Ignoring the average eye level can lead to poorly placed focal points that are either too high or too low for adult viewers. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "mapping-grab-zone-bands",
+          "title": "Mapping Grab Zone Bands",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "interior of a Pune apartment, console with painter's tape marking grab zones, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "full-bleed shot of a console with marked Grab Zone Bands in a stylish living room",
+            "alt": "close-up of painter's tape marking the Grab Zone Bands on a wall behind a console",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\020-pexels.jpg",
+            "credit": "Photo by ClickerHappy on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:3619317"
+          },
+          "scenario": "In her Pune apartment, Priya notes that her console sits at 30 inches. She uses painter's tape to mark the Grab Zone Bands on the wall behind it, ensuring she understands the reach of her toddler.",
+          "principle": "Understanding Grab Zone Bands helps in organizing lower surfaces to minimize child access to delicate items.",
+          "body": [
+            "Divide the vertical space into practical bands that reflect kid reach. The Low Grab Zone, up to about 28 inches, covers crawler and toddler reach. The Mid Grab Zone, roughly 29 to 42 inches, reaches preschoolers. The Careful Band, around 43 to 54 inches, is visible and sometimes reachable by older kids. The Safe Eye Band, from 55 to 66 inches, is prime for adult eye level.",
+            "Map each surface against these Grab Zone Bands. For example, if your console top lives in the Mid Grab Zone, the objects on it should be sturdy and simple at the front, while fragile details should be reserved for the back third, where curious fingers have to reach farther. If your mantel sits in the Careful Band, you can introduce more intricate pieces, elevating the crown elements into the Safe Eye Band.",
+            "This strategic mapping allows you to create a visually appealing arrangement while keeping delicate items out of reach."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "The Low Grab Zone",
+              "caption": "The Low Grab Zone, up to about 28 inches, covers crawler and toddler reach.",
+              "values": [
+                "28 inch"
+              ],
+              "labels": [
+                "Note"
+              ],
+              "minimum": null,
+              "spec_id": "D031",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D031.svg"
+            },
+            {
+              "kind": "table",
+              "title": "The Careful Band, Around 43 To 54",
+              "caption": "The Careful Band, around 43 to 54 inches, is visible and sometimes reachable by older kids.",
+              "values": [
+                "43 to 54 inch"
+              ],
+              "labels": [
+                "Note"
+              ],
+              "minimum": null,
+              "spec_id": "D032",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D032.svg"
+            },
+            {
+              "kind": "table",
+              "title": "The Safe Eye Band, From 55 To",
+              "caption": "The Safe Eye Band, from 55 to 66 inches, is prime for adult eye level.",
+              "values": [
+                "55 to 66 inch"
+              ],
+              "labels": [
+                "Note"
+              ],
+              "minimum": null,
+              "spec_id": "D033",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D033.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Failing to recognize the height of surfaces can lead to placing delicate items within reach of children. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "creating-the-sightline-ladder",
+          "title": "Creating the Sightline Ladder",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "interior of a Pune apartment, console arranged with a sightline ladder, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "full-bleed shot of a console styled with a Sightline Ladder arrangement",
+            "alt": "close-up of a console with a tall vase, medium lamp, and low stack of books",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\021-pexels.jpg",
+            "credit": "Photo by Anisha Deb on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:36195703"
+          },
+          "scenario": "In her Pune living room, Priya arranges her console decor by creating a Sightline Ladder. She places a tall vase at the back, a medium lamp in the middle, and a low stack of books in front.",
+          "principle": "The Sightline Ladder encourages the eye to travel upward, creating a visually dynamic arrangement.",
+          "body": [
+            "Build a stepped height, depth, and visual weight within a vignette so the eye naturally climbs. Start with a modest base element, step up to a medium piece, then crown the grouping with a taller focal. This layering creates a visual climb that draws eyes upward, away from grab zones.",
+            "For instance, if your console is 30 inches high, place a tall vase slightly back, a medium lamp in the middle, and a low stack of books at the front. This arrangement not only looks appealing but also discourages children from reaching for items that are visually anchored above their reach.",
+            "Layering depth is essential; the tallest piece should sit slightly back to create a sense of height and stability."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "A Console Might Sit At 30 Inches",
+              "caption": "A console might sit at 30 inches.",
+              "values": [
+                "30 inch"
+              ],
+              "labels": [
+                "Note"
+              ],
+              "minimum": null,
+              "spec_id": "D010",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D010.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Creating a flat arrangement with all items at the same height can attract children's attention and curiosity. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "applying-the-vignette-triangle-and-rule-of-thirds",
+          "title": "Applying the Vignette Triangle and Rule of Thirds",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "interior of a Pune apartment, mantel styled with a vignette triangle, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "full-bleed shot of a mantel styled using the Vignette Triangle and Rule of Thirds",
+            "alt": "close-up of a mantel with a large landscape frame, medium vase, and open center space",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\021-pexels.jpg",
+            "credit": "Photo by Anisha Deb on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:36195703"
+          },
+          "scenario": "Priya styles her mantel in her Pune apartment using the Vignette Triangle and Rule of Thirds. She places a large landscape frame at one third, a medium vase at another, and leaves the center open.",
+          "principle": "Using triangles and thirds creates balance and reduces visual clutter, making arrangements feel intentional.",
+          "body": [
+            "Compose three main elements that form a triangle and align them within a thirds grid across a surface. This creates balance and negative space, which reduces tactile appeal and makes the arrangement read as finished.",
+            "For example, divide your mantel into thirds. Place your tallest piece in one of the outer thirds, not dead center. Anchor the opposite outer third with a medium piece. Fill the center third with the lowest piece, leaving negative space around it. This arrangement feels artful and intentional, minimizing symmetry that can encourage kids to touch.",
+            "Aim for a third of each surface to remain visually open. This negative space not only protects your decor but also enhances the overall aesthetic."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Placing the tallest piece dead center can create a stiff look and invite alignment fuss. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "living-room-templates-mantels-media-consoles-coffee-tables-a",
+      "title": "Living Room Templates: Mantels, Media Consoles, Coffee Tables, And Bookshelves",
+      "intro": "This chapter provides practical templates for styling living room surfaces, ensuring both aesthetic appeal and safety. By applying the 5E Method and the Adult Eye-Level Formula, you will learn how to effectively organize and anchor your living room decor, making it both beautiful and functional.",
+      "opener": {
+        "query": "living room decor, mantel styling, media console organization, coffee table arrangement, bookshelf design, natural light, warm tones, cozy atmosphere",
+        "flux_prompt": "full-bleed shot of a well-styled living room featuring a mantel, media console, coffee table, and bookshelf, showcasing a harmonious blend of decor and functionality",
+        "alt": "A styled room with child-accessible hazards removed, not a certified childproof space.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\023-pexels.jpg",
+        "credit": "Photo by hello aesthe on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:15558114"
+      },
+      "sections": [
+        {
+          "slug": "mantel-template",
+          "title": "Mantel Template",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "elegant mantel decor, warm lighting, art piece, heavy candlesticks, natural textures",
+            "flux_prompt": "a close-up of a well-styled mantel featuring a large art piece, heavy candlesticks, and a low bowl on a tray, with soft lighting",
+            "alt": "a side view of the mantel showcasing the symmetry and balance of the decor.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\024-pexels.jpg",
+            "credit": "Photo by Michael Gattorna on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5151955"
+          },
+          "scenario": "In a 1BHK apartment in Pune, resident Priya struggles with her narrow 6-foot mantel that feels cluttered with small frames and trinkets. She decides to simplify the decor to create a more balanced look.",
+          "principle": "A well-styled mantel should have a strong focal point and anchored ends to achieve visual balance.",
+          "body": [
+            "To style your mantel effectively, start with one focal piece, such as a piece of art or a mirror, that is roughly two-thirds the width of the mantel. This creates a strong visual anchor. Next, add two end accents, like heavy candlesticks or sculptural vases, to balance the ends. Finally, include a medium layer, such as a low bowl or a set of three small objects grouped on a tray, to add depth without overcrowding.",
+            "Spacing is crucial. Center the focal piece and ensure there is 3 to 5 inches of air from the mantel edge to each end accent. Create a Sightline Ladder by placing the tallest item in the center and stepping down toward the ends. Keep smaller objects grouped together with at least 2 inches of breathing space between them to avoid a cluttered appearance.",
+            "For anchoring, use museum putty under the end accents and the tray. If your focal piece is a mirror or art, secure it with wall anchors rated for its weight and add anti-tip hardware to prevent it from falling.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Confirm 2 Inches Clearance Around The Tray",
+              "caption": "Confirm 2 Inches Clearance Around The Tray",
+              "values": [
+                "2 inch"
+              ],
+              "labels": [
+                "Note"
+              ],
+              "minimum": null,
+              "spec_id": "D015",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D015.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Select a focal piece for the mantel that is two-thirds its width.",
+              "minutes": null
+            },
+            {
+              "text": "Add two end accents and one medium layer on a tray.",
+              "minutes": null
+            },
+            {
+              "text": "Center the focal piece and leave 3 to 5 inches of space on either side.",
+              "minutes": null
+            },
+            {
+              "text": "Create a Sightline Ladder with the tallest piece in the center.",
+              "minutes": null
+            },
+            {
+              "text": "Anchor items using museum putty or wall anchors.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Avoid overcrowding the mantel with too many small items, which can lead to visual clutter and safety hazards. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [
+            "Choose a focal piece that fits the mantel's width.",
+            "Ensure 3 to 5 inches of space from the edges for end accents.",
+            "Group smaller items with at least 2 inches of space between them.",
+            "Use museum putty to anchor decor pieces."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "media-console-template",
+          "title": "Media Console Template",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "minimalist media console, organized cables, low decor, warm lighting, sleek design",
+            "flux_prompt": "a clean media console with a low soundbar, squat bowls on either end, and concealed cables, illuminated by soft light",
+            "alt": "a side view of the media console showcasing the low-profile decor and cable management.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\025-pexels.jpg",
+            "credit": "Photo by Eskoala A on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:23471276"
+          },
+          "scenario": "In a compact rental in Bengaluru, Ravi faces the challenge of a media console that attracts curious cats and visible cables. He aims for a clean, organized look that minimizes distractions.",
+          "principle": "Anchor the TV, the console, and the cables. Remotes are climbing bait.",
+          "body": [
+            "Today's output: TV hardware, console anti-tip, cable path, no climb incentives on the top.",
+            "Anchor the television even when it sits on furniture, using the TV and furniture manufacturers' hardware. Check stand compatibility. Route TV cables so they are not pull loops. Remotes, soundbars, consoles, and controllers on the top can invite climbing — store them off the climb path. Wall-mounted TVs still need maker-rated mounts, verified wall structure, and no climbable furniture underneath. Objects around the TV stay low and non-chokable, or they leave.",
+            "Begin by selecting one center element, such as a soundbar or framed artwork, that is kept low and stable on the console. This ensures that the focus remains on the screen and not on decorative items. Flank this with two low decor pieces, like squat bowls or sturdy boxes, placed toward the ends of the console to create balance without overwhelming the space.",
+            "To maintain safety, leave the top surface mostly clear in front of screens or speakers. Position decor pieces toward the ends, ensuring they are at least 4 inches away from the edges to reduce the risk of tipping. The height of decor should also be lower than the bottom of the screen to keep sightlines unobstructed and visually appealing.",
+            "For anchoring, apply museum putty under each decor piece to prevent movement. Use cable raceways or paintable covers along the wall to conceal cables, tying any excess coil behind the console. If the console is tall or children may climb, add anti-tip straps for additional safety.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Select a low center element for the media console.",
+              "minutes": null
+            },
+            {
+              "text": "Place decor pieces toward the ends, keeping them 4 inches from the edges.",
+              "minutes": null
+            },
+            {
+              "text": "Ensure decor height is lower than the screen bottom.",
+              "minutes": null
+            },
+            {
+              "text": "Use museum putty for stability and conceal cables with raceways.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: styled bowls in front of an unanchored TV. Cause: decor-centric media wall. Fix: TV hardware first.",
+          "checklist": [
+            "TV anchored per maker",
+            "Console anti-tip if climbable",
+            "Cables not loops",
+            "Remotes off the top"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "coffee-table-template",
+          "title": "Coffee Table Template",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "stylish coffee table arrangement, large tray, decorative books, sculptural object, cozy lighting",
+            "flux_prompt": "a beautifully arranged coffee table with a large tray containing books, a sculptural object, and a lidded jar, bathed in warm light",
+            "alt": "a top-down view of the coffee table showcasing the arrangement and spacing.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\026-pexels.jpg",
+            "credit": "Photo by Wolf  Art on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:20130609"
+          },
+          "scenario": "In a Mumbai flat with a 4-foot coffee table, Neha wants to create a stylish yet safe arrangement that keeps her decorative items secure from her young children.",
+          "principle": "Coffee tables should use trays to enclose decor and prevent items from being easily grabbed.",
+          "body": [
+            "Start with a large tray measuring 14 to 20 inches, featuring a raised edge and a non-slip bottom. This will serve as the foundation for your coffee table arrangement. Inside the tray, place two sturdy styling books and one sculptural object made of metal or stone that is not fragile. Additionally, include one enclosed element, such as a lidded jar or box, to keep smaller items secure.",
+            "Maintain a clean composition by keeping everything inside the tray, except for a single weighted bowl or planter positioned at the opposite corner. Ensure there is at least 2 inches of space between objects in the tray to avoid a cluttered look. Position the tray off-center, aligned with the Rule of Thirds, to guide the eye across the table.",
+            "For anchoring, use non-slip mats under the tray, then apply museum putty under the sculptural object and the jar to prevent movement. If the table has a slick finish, consider adding a microcrystalline wax coating for additional grip.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Select a large tray with a raised edge for the coffee table.",
+              "minutes": null
+            },
+            {
+              "text": "Place two styling books and a sculptural object inside the tray.",
+              "minutes": null
+            },
+            {
+              "text": "Add a lidded jar or box for enclosed storage.",
+              "minutes": null
+            },
+            {
+              "text": "Position the tray off-center according to the Rule of Thirds.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Avoid using fragile items on the coffee table that can easily be grabbed by children. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [
+            "Choose a large tray with a non-slip bottom.",
+            "Ensure 2 inches of space between objects in the tray.",
+            "Position the tray off-center for visual interest.",
+            "Use museum putty to secure items on the tray."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "bookshelf-template",
+          "title": "Bookshelf Template",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "organized bookshelf, zoned decor, warm lighting, textured materials",
+            "flux_prompt": "a well-zoned bookshelf featuring art, sturdy vessels, and kid-friendly baskets, illuminated by soft light",
+            "alt": "a close-up of the top zone of the bookshelf showcasing framed art and heavy bookends.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\027-pexels.jpg",
+            "credit": "Photo by quang vinh on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:35723198"
+          },
+          "scenario": "In a spacious 2BHK in Delhi, Aditi has a tall bookshelf that has become a climbing gym for her toddlers. She needs to rezone her shelves for safety and organization.",
+          "principle": "Bookshelves should be zoned to keep fragile items high, durable decor at mid-level, and kid-friendly pieces below.",
+          "body": [
+            "Begin by creating a zone plan for your bookshelf. The top zone should feature focal art, framed prints secured to the back, heavy bookends, and closed boxes to prevent access. The middle zone can hold decorative books, sturdy vessels, and sculptural pieces that pass the Pull Test, ensuring they are stable and secure. The lower zone should be dedicated to baskets with lids, board books, large puzzle boxes, and soft display items that are safe for children.",
+            "When arranging items, follow the Rule of Thirds across each shelf. Create one cluster, one negative space, and one low anchor to maintain visual interest. Keep books in sets of 3 to 7, facing a few forward with stands at mid-level, but never in the lower zone to avoid climbing risks. Maintain at least 1 inch from the shelf edges for every object to reduce the risk of items falling.",
+            "For anchoring, use museum putty under bookends and vessels. For framed pieces inside shelves, add small brackets or screws at the frame bottom to prevent sliding. Install anti-tip straps on tall bookcases and secure them to studs for added safety.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Create a zone plan for the bookshelf with top, middle, and lower zones.",
+              "minutes": null
+            },
+            {
+              "text": "Place fragile items in the top zone and durable decor in the middle.",
+              "minutes": null
+            },
+            {
+              "text": "Use baskets for kid-friendly items in the lower zone.",
+              "minutes": null
+            },
+            {
+              "text": "Anchor items with putty and install anti-tip straps.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Avoid placing fragile items within reach of children, which can lead to accidents. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [
+            "Zone the bookshelf into top, middle, and lower sections.",
+            "Keep fragile items high and durable decor at mid-level.",
+            "Use baskets for toys and books in the lower zone.",
+            "Anchor items securely to prevent tipping."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "dining-room-templates-buffets-sideboards-tables-and-display-",
+      "title": "Dining Room Templates: Buffets, Sideboards, Tables, And Display Cabinets",
+      "intro": "The dining room is where food and conversation meet, where birthdays and quiet Tuesdays share the same table. It is also where curious hands can undo your styling in seconds. In this chapter, you will learn how to create dining spaces that look refined and feel calm, yet pass the toddler test every day. The goal is not to hide your favorite pieces. The goal is to display them confidently with smart placement, thoughtful enclosure, and reversible safeguards.",
+      "opener": {
+        "query": "Dining room with a table set for a family meal, natural light from one window, textured runner, simple centerpiece, no people, no text.",
+        "flux_prompt": "A full-bleed shot of a well-styled dining room featuring a buffet and a dining table, showcasing textures of wood and linen, with a focus on the arrangement of decor and lighting.",
+        "alt": "A styled room with child-accessible hazards removed, not a certified childproof space.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\028-pexels.jpg",
+        "credit": "Photo by tazzmanian studios insta on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:37518005"
+      },
+      "sections": [
+        {
+          "slug": "buffets-and-sideboards",
+          "title": "Buffets And Sideboards",
+          "day_label": "Day One Afternoon, Style Buffets And Sideboards",
+          "hero": {
+            "query": "Buffet styled with a textured runner, elevated centerpiece, and anchored ends, natural light from one window, no people, no text.",
+            "flux_prompt": "A close-up of a buffet showcasing the arrangement of decor with a focus on textures and stability.",
+            "alt": "A side view of the buffet displaying the layered decor and clear silicone mats.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\029-pexels.jpg",
+            "credit": "Photo by Matheus Bertelli on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:16120224"
+          },
+          "scenario": "In a 1BHK apartment in Pune, Riya and her husband often host family dinners. Their buffet is a focal point in their small dining area, and they want it to be both functional and stylish, especially with their toddler around.",
+          "principle": "Buffets and sideboards thrive on elevated focal pieces, anchored ends, and tactile safe accents set on grip-friendly surfaces.",
+          "body": [
+            "Buffets and sideboards are ideal for symmetrical or balanced asymmetrical styling. Your anchors live at the ends, your focal piece sits slightly elevated at the center, and tactile safe accents fill the middle. Choose a sculpture, a medium vase with a wide stable base, or an artful bowl on a stand as your elevated focal point. Elevate it on a stable riser or stack of large hardcover books with grip pads between layers. This keeps small hands less interested and draws adult eyes upward.",
+            "Place candlesticks, heavy sculptures, or lidded jars at both ends of the buffet. Use museum putty under bases to resist nudges. If you love taper candles, keep them unlit during family meals, and swap to flameless candles for ambiance. A textured runner with a non-slip backing creates friction under everything. Add clear silicone mats under individual pieces to improve stability without changing the look.",
+            "In the mid zone, use durable items that feel good to touch, such as carved wood beads in a shallow bowl or a stone sphere. These satisfy curiosity but do not invite movement. If you display a small gallery frame, use an acrylic front and add a discreet putty dot at the bottom edge.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Overcrowding the buffet with too many small pieces can make it look cluttered and toy-like. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [
+            "Choose a stable elevated focal point.",
+            "Ensure anchors are placed four inches from the ends.",
+            "Add tactile safe accents in the middle.",
+            "Use a textured runner with non-slip backing.",
+            "Test with a gentle tug to ensure stability."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "table-centerpieces",
+          "title": "Table Centerpieces",
+          "day_label": "Day One Evening, Craft Table Centerpiece",
+          "hero": {
+            "query": "Dining table with a low-profile centerpiece, natural light from one window, simple and elegant design, no people, no text.",
+            "flux_prompt": "A top-down view of a dining table showcasing the centerpiece arrangement with a focus on the low profile and enclosed elements.",
+            "alt": "A side view of the table displaying the centerpiece and its modular components.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\030-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4829066"
+          },
+          "scenario": "In a compact rental in Bengaluru, Anil and Priya often have friends over for dinner. Their dining table, which also serves as a workspace, needs a centerpiece that is both beautiful and practical, especially with their young children around.",
+          "principle": "Table centerpieces work best when low profile, enclosed, and modular so you can move them as one unit.",
+          "body": [
+            "Meal time centers have two jobs. They must look beautiful, and they must stay out of the way. The best formula uses a low profile composition with enclosed elements and flexible modules. Start with a tray or narrow runner that defines the footprint of your centerpiece. Build a composition that is no higher than six inches, using a shallow vase with a frog insert for flowers, a closed cloche over a small sculpture, or a lidded jar that hides matches or napkin rings.",
+            "Enclosed elements such as glass cloches, acrylic domes, and lidded bowls invite admiration while removing the grab impulse. The enclosure signals to children that this is not a toy. If you prefer aerodynamic simplicity, consider a long narrow bowl filled with art objects that sit below eye level. Make it a modular set; three items that can slide together or separate allow for quick reconfiguration. When food arrives, move the entire centerpiece as one unit.",
+            "Favor ovals and rounds over spiky or sharp forms. Labored shapes attract play, while organic shapes signal calm. During daily use, keep the centerpiece at the center of the table, and during a big dinner, shift it to a side console."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Using overly tall centerpieces can block sightlines and invite grabs from curious children. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [
+            "Create a low profile core on a tray or runner.",
+            "Include at least one enclosed element.",
+            "Ensure the total height is no more than six inches.",
+            "Test the reach radius from a seated position.",
+            "Practice moving the centerpiece as a unit."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "display-cabinets-and-hutches",
+          "title": "Display Cabinets And Hutches",
+          "day_label": "Day Two Morning, Secure Display Cabinets",
+          "hero": {
+            "query": "Display cabinet showcasing heirloom china, natural light from one window, elegant arrangement, no people, no text.",
+            "flux_prompt": "A close-up of a display cabinet focusing on the arrangement of items and safety features like latches and grip pads.",
+            "alt": "A side view of the cabinet displaying lower shelves with durable items.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\031-pexels.jpg",
+            "credit": "Photo by Tito Zzzz on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:35387554"
+          },
+          "scenario": "In a Mumbai flat with limited space, Meera has a display cabinet that showcases her collection of heirloom china. With a toddler visiting often, she needs to ensure that her display is both beautiful and safe.",
+          "principle": "Display cabinets should use enclosure, reversible latches, anchors, and lightweight swaps for lower shelves.",
+          "body": [
+            "Cabinets elevate your collections. With enclosure and anchors, you can spotlight heirlooms and keep them safe. Use cabinet doors as the first layer of protection. If your doors open easily, add reversible latches on the inside to deter little hands while allowing adults to open them without tools. Choose magnetic catch upgrades with soft close for quiet operation.",
+            "Place grip pads under display stands and heavier objects. For plates on stands, use small putty dots at contact points. For stacked bowls, insert felt discs to reduce friction and wobble. Swap lower shelf glass or ceramic for acrylic, resin, wood, or metal. Acrylic pitchers, stackable wood bowls, and brushed metal vases give the same posture as glass without the break risk. Save true crystal for upper shelves behind doors.",
+            "Keep the bottom shelf composed of books, woven baskets, or sculptural metal pieces. These are visually interesting and safe. Avoid items that light up or make noise, as those are magnets for play. Use adult eye level to set focal items on the second shelf up, keeping the most valuable pieces up top and using lower shelves for texture and form rather than intricate detail.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Ignoring chair pull zones can lead to decor snagging when chairs are moved. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [
+            "Install reversible latches if needed.",
+            "Adjust shelves for optimal sightlines.",
+            "Anchor stands and stack items securely.",
+            "Compose lower shelves with visually interesting items.",
+            "Audit the display cabinet for fragile pieces."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "implementation-strategy",
+          "title": "Implementation Strategy",
+          "day_label": "Day Two Evening, Final Sweep And Test",
+          "hero": {
+            "query": "Dining room set up for a family gathering, natural light from one window, elegant and functional arrangement, no people, no text.",
+            "flux_prompt": "A wide shot of the dining room prepared for guests, showcasing the centerpiece and overall decor.",
+            "alt": "A close-up of the dining table set with a low-profile centerpiece and surrounding decor.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\032-pexels.jpg",
+            "credit": "Photo by Hồng Quang Official on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:35245974"
+          },
+          "scenario": "In a small apartment in Pune, a couple prepares their dining room for a family gathering. They want to ensure everything is secure and visually appealing before guests arrive.",
+          "principle": "Host ready kits make transitions fast. Store a tray, a runner, and durable swaps nearby.",
+          "body": [
+            "Use this weekend plan to transform your dining room without losing style. Start by clearing the buffet, sideboard, table, and cabinet. Wipe surfaces and check for wobble. Group items by material and create stacks of glass, ceramic, metal, wood, and acrylic. Set aside fragile pieces for upper positions later. Measure your surface widths and identify chair pull zones, placing a piece of painter tape where chair backs typically stop.",
+            "In the afternoon, lay down a textured runner with a non-slip backing and add silicone mats under planned anchor points. Build the template with anchors at ends, an elevated focal point at center, and tactile safe accents in the middle. Test with a gentle tug to ensure everything stays in place. Check clearance by pulling chairs back and forward to ensure they do not snag the ends.",
+            "In the evening, create your low profile core on a tray or runner. Set an enclosed element, such as a cloche or lidded bowl, plus one organic form. Test the reach radius by sitting in a chair at child height. If items feel tempting within reach, either enclose more or lower the overall height. Rehearse moving the entire centerpiece as one unit to ensure it fits neatly for hosting mode."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Failing to test the reach radius can lead to accidents with curious children. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [
+            "Clear and clean all surfaces in the dining area.",
+            "Group items by material for organization.",
+            "Measure surfaces and mark chair pull zones.",
+            "Lay down a textured runner with non-slip backing.",
+            "Create a low profile centerpiece with enclosed elements."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "entryway-and-hallway-templates-consoles-shelves-and-statemen",
+      "title": "Entryway And Hallway Templates: Consoles, Shelves, And Statement Pieces",
+      "intro": "Your entryway and hallway set the tone for your entire home. These are the high traffic, habit forming spaces where children learn to move, reach, and test what they can take. If you have ever watched a vase tremble when the front door swings open, or seen keys scatter down a corridor, you know that the first impression needs both beauty and resilience. In this chapter, you will style these pathways with intention, guiding eyes upward, protecting showpieces, and shaping routines that keep clutter contained.",
+      "opener": {
+        "query": "Entryway with a console table, wall-mounted shelves, and decorative elements, natural light from one window, minimalist decor, photorealistic, no people, no text, no watermark.",
+        "flux_prompt": "A full-bleed shot of a stylish entryway featuring a console table, wall art, and decorative elements, emphasizing height and organization.",
+        "alt": "A styled room with child-accessible hazards removed, not a certified childproof space.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\033-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:7214737"
+      },
+      "sections": [
+        {
+          "slug": "console-table-template",
+          "title": "Console Table Template",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "Stylish console table with a mirror and decorative items, natural light from one window, minimalist decor, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A close-up of a well-organized console table with a mirror, decorative items, and a clean surface.",
+            "alt": "A different angle of the console table showcasing the decorative elements and their arrangement.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\034-pexels.jpg",
+            "credit": "Photo by Mizzu  Cho on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6910692"
+          },
+          "scenario": "Nora lives in a prewar apartment in Mumbai with a narrow entryway. Her console table was cluttered with keys and mail, making it difficult to navigate through the space. By applying the console table template, she elevated the focal point with a mirror at adult eye level and organized the surface to reduce clutter.",
+          "principle": "Elevate the focal point to draw attention upward and create a sense of space.",
+          "body": [
+            "Place a mirror or framed artwork centered at adult eye level, typically around 55 inches from the floor. If your ceiling is low, keep the top line of the composition about two-thirds of the wall height to avoid visual crowding.",
+            "Position stable decor at each end of the console to create a visual frame that discourages wandering hands. Use heavy-based lamps or tall sculptural vases, applying museum putty under each base for stability.",
+            "The middle of the console should invite use but control it. Use a lidded bowl for keys, a shallow tray for mail, and a low, wide planter with artificial stems to provide texture without fragile parts.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Measure the height of the console and the placement of the mirror or art piece to ensure it aligns with adult eye level.",
+              "minutes": null
+            },
+            {
+              "text": "Secure end pieces with museum putty to prevent movement.",
+              "minutes": null
+            },
+            {
+              "text": "Organize the center of the console with functional yet decorative items like trays and lidded bowls.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Placing small objects near the front edge invites grabbing and clutter. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [
+            "Measure the height for the mirror or art piece.",
+            "Secure end pieces with museum putty.",
+            "Organize the center with functional items."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "floating-or-wall-shelf-template",
+          "title": "Floating or Wall Shelf Template",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "Floating shelves with lightweight decor, natural light from one window, minimalist styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A view of floating shelves with decorative items, emphasizing their height and organization.",
+            "alt": "An alternative angle showcasing the shelves and their arrangement.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\035-pexels.jpg",
+            "credit": "Photo by Cats Coming on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:763147"
+          },
+          "scenario": "Priya lives in a rented duplex in Bengaluru with delicate plaster walls. She wanted to add floating shelves for decor but was concerned about drilling. By following the floating shelf template, she managed to install shelves securely without damaging the walls.",
+          "principle": "Climbable shelves need mechanical fixing or they leave the accessible zone.",
+          "body": [
+            "Today's output: either mechanical anchors into the correct substrate, or no shelf in the grab zone.",
+            "If a shelf can be climbed, pulled, or used as a handhold, do not rely on adhesive mounting alone. Use manufacturer-approved mechanical fixing appropriate to the wall, or remove the shelf from the child's accessible zone. In hallways, keep path width; shallow depth does not make adhesive safe.",
+            "In hallways, allow at least 36 inches for the path. In narrow corridors, keep shelf depth under 6 to 8 inches and mount shelves at least 42 inches above the floor to prevent accidental brushing by hands.",
+            "If a shelf can be climbed, pulled, or used as a handhold, do not rely on adhesive mounting alone. Use manufacturer-approved mechanical fixing appropriate to the wall substrate, or remove the shelf from the child's accessible zone. A shelf's rated load is not enough: wall material, paint, adhesive condition, geometry, load distribution, dynamic loads, and a child pulling or climbing all change the outcome.",
+            "Concealed brackets keep a clean look but can allow vibration. Add discrete L braces under the shelf ends near the wall, secured into studs where possible.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Decide: mechanical mount or remove from the accessible zone.",
+              "minutes": null
+            },
+            {
+              "text": "Keep hallway path clear.",
+              "minutes": null
+            },
+            {
+              "text": "No adhesive-only on a climbable shelf.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: renter used adhesive brackets 'rated for the weight' and a child hung on the shelf. Cause: rating treated as child load. Fix: mechanical or remove.",
+          "checklist": [
+            "Climb/pull? mechanical or remove",
+            "Maker wall type",
+            "No adhesive-only in grab zone"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "drop-zone-organization",
+          "title": "Drop Zone Organization",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "Organized drop zone with a key box and mail sorter, natural light from one window, minimalist decor, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A close-up of a well-organized drop zone with a key box and mail sorter, emphasizing functionality.",
+            "alt": "An alternative view showcasing the drop zone and its organization.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\036-pexels.jpg",
+            "credit": "Photo by Jan van der Wolf on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:39088230"
+          },
+          "scenario": "Marcus and Alia live in a suburban apartment in Pune with two active children. Their entryway was cluttered with shoes and bags. By implementing the drop zone organization principles, they created a functional and tidy space.",
+          "principle": "Define zones to keep daily items organized and out of sight.",
+          "body": [
+            "Keys and wallets should go in a lidded container on the console. Mail can be sorted in a vertical file inside the nearest cabinet or on a wall-mounted slim sorter inside a closet.",
+            "Choose opaque baskets, trays with lids, and boxes with simple closures to discourage rummaging. Avoid open bowls filled with shiny items that may attract children.",
+            "Establish routines by placing a small note card inside the lid of the key box with a reminder to return keys here. Over time, kids will stop seeing keys as interesting because they are no longer visible."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Install a lidded key box on the console for easy access.",
+              "minutes": null
+            },
+            {
+              "text": "Add a slim mail sorter inside a cabinet or closet, labeled for organization.",
+              "minutes": null
+            },
+            {
+              "text": "Use opaque containers to hide daily items and reduce clutter.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Overstuffing the drop zone encourages rummaging and clutter. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [
+            "Install a lidded key box on the console.",
+            "Add a slim mail sorter inside a cabinet.",
+            "Use opaque containers to hide daily items."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "bedrooms-and-nurseries-nightstands-dressers-shelving-and-sof",
+      "title": "Bedrooms And Nurseries: Nightstands, Dressers, Shelving, And Soft Goods",
+      "intro": "Transform your bedrooms and nurseries into serene retreats that prioritize safety and style. This chapter guides you through the essential elements of nightstands, dressers, shelving, and soft goods, ensuring that your spaces are both beautiful and secure.",
+      "opener": {
+        "query": "A serene bedroom with soft textures, warm lighting, and a well-organized nightstand, showcasing safety and style in a compact Indian apartment.",
+        "flux_prompt": "A full-bleed shot of a beautifully styled bedroom, highlighting a low-profile nightstand with a secured lamp and clear cord management.",
+        "alt": "A styled room with child-accessible hazards removed, not a certified childproof space.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\037-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:5998133"
+      },
+      "sections": [
+        {
+          "slug": "understanding-bedroom-risks",
+          "title": "Understanding Bedroom Risks",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "A cozy bedroom corner with a well-organized nightstand, showcasing safety features and soft textures, illuminated by warm light.",
+            "flux_prompt": "A close-up of a nightstand with a securely anchored lamp, clear of clutter, and with organized cords hidden from view.",
+            "alt": "A beautifully styled dresser with enclosed accents and balanced decor, demonstrating safety and aesthetic harmony.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\038-pexels.jpg",
+            "credit": "Photo by Ron Lach on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:10387560"
+          },
+          "scenario": "In a 1BHK apartment in Pune, Riya navigates her 9-foot living room at night, where her toddler often wanders. She realizes the need to secure small objects and cords that could pose risks.",
+          "principle": "Bedrooms concentrate small, reachable objects and cords near bodies, making safety a priority.",
+          "body": [
+            "Plants around young children: toxic species, soil, fertilizer, decorative stones, stakes, hanging planters, heavy pots, trailing vines, water reservoirs — not generic styling. Pets plus children: food and water bowls, litter, chewable decor, pet toys mixed with decorative objects, plants, cords, and low furniture both can use. Separate the two systems.",
+            "Bedrooms and nurseries can become risky environments due to the presence of small, reachable objects and cords. Nightstands often hold lamps, remotes, and chargers, while dressers can invite climbing. This is particularly concerning in spaces where movement is slow and dim, such as during nighttime routines or early morning wake-ups.",
+            "Common hazards include lamp cords that loop across surfaces, picture frames that slide, and baby monitor cables that hang. Even seemingly sturdy decor can become a playground for curious toddlers. A small tug on a cable can topple a light fixture, and an uneven display can invite climbing, creating a serene appearance that belies hidden dangers.",
+            "To mitigate these risks, it is essential to plan the layout of your bedroom or nursery thoughtfully. By understanding the potential hazards and addressing them proactively, you can create a space that is both visually appealing and safe for children."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Ignoring the potential hazards of small objects and cords can lead to accidents in bedrooms and nurseries. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "the-rest-and-reach-method",
+          "title": "The Rest And Reach Method",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "A well-organized nursery shelf with soft goods and safe decor, demonstrating the Rest And Reach Method in action.",
+            "flux_prompt": "A view of a nursery shelf with fabric books and plush toys, arranged to discourage reaching and encourage safety.",
+            "alt": "A beautifully styled nightstand with a lamp positioned safely, showcasing the principles of the Rest And Reach Method.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\039-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7045855"
+          },
+          "scenario": "In a Bengaluru rental, Anil struggles with a load-bearing wall that restricts furniture placement. He learns to apply the Rest And Reach Method to create a safe and functional bedroom layout.",
+          "principle": "The Rest And Reach Method aligns styling with how bodies move in bedrooms and nurseries.",
+          "body": [
+            "The Rest And Reach Method is a framework that helps you organize your bedroom or nursery into four distinct zones: Sleep Zone, Reach Zone, Display Zone, and Device Zone. Each zone has specific guidelines to ensure safety and functionality while maintaining aesthetic appeal.",
+            "The Sleep Zone includes the bed edge and immediate nightstand area, where items should be low-profile and anchored. In the Reach Zone, surfaces accessible to standing children or sitting adults should have displays that are enclosed or framed, with even weight distribution. The Display Zone features eye-level accents that are out of reach of children, while the Device Zone is designated for baby monitors, sound machines, and chargers, which should be placed out of reach and have secured cords.",
+            "By applying the 5E Method—edit, elevate, enclose, anchor, and exchange—to each zone, you can create a calm and secure environment. Edit down to essentials, elevate the look with balanced compositions, enclose delicate items, anchor decor with museum putty, and exchange glass for acrylic to enhance safety.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Failing to define zones in the bedroom can lead to clutter and increased risk of accidents. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "nightstand-vignettes-that-resist-grabs",
+          "title": "Nightstand Vignettes That Resist Grabs",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "A nightstand styled with minimal decor, featuring a securely anchored lamp and organized cords, in a softly lit Mumbai bedroom.",
+            "flux_prompt": "A close-up of a nightstand with a clear surface and a single tray for essentials, emphasizing safety and simplicity.",
+            "alt": "A beautifully arranged nightstand with an acrylic photo frame and a securely placed lamp.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\040-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7609119"
+          },
+          "scenario": "In a Mumbai flat with a window on only one side, Priya designs her nightstand to be both functional and safe for her young child, incorporating the principles of low-profile decor.",
+          "principle": "Nightstands thrive on low-profile, anchored decor with clean cord paths.",
+          "body": [
+            "Nightstands are essential for daily essentials, which is why they require a strong safety plan. Start with the lamp: choose one with a heavy base and wide footprint, and place it toward the back corner of the nightstand, opposite the bed. This positioning minimizes the chance of a child reaching for it. Apply museum putty under the base to secure it, and run the cord behind the nightstand, down its back leg, and into a floor-level channel to avoid visible loops that invite pulling.",
+            "Keep the top surface of the nightstand clear. Use a single tray for small items like rings and lip balm, positioned toward the rear and pressed into putty for stability. Avoid tall sculptures or stacked books that create grabbing towers, and if you want to include a framed photo, opt for acrylic with rounded edges, positioned against the wall and anchored with gel adhesive.",
+            "Effective cable management is crucial. If your nightstand has a back panel, use a cable grommet, or route wires under the piece with adhesive clips. Any cord slack should be kept inside a small fabric pouch attached to the underside of the nightstand, keeping it off the floor and out of sight.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Leaving cords visible on the nightstand surface can create a pulling hazard for children. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "dressers-that-stand-strong-and-style-high",
+          "title": "Dressers That Stand Strong And Style High",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "A styled dresser with a balanced display of enclosed accents and a securely mounted mirror, showcasing safety and style in a Chennai apartment.",
+            "flux_prompt": "A view of a dresser with a symmetrical arrangement of decor, emphasizing safety features and aesthetic appeal.",
+            "alt": "A beautifully organized dresser top with a lidded box and a low faux plant, demonstrating safe styling.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\041-pexels.jpg",
+            "credit": "Photo by rishi raj khare on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:17125475"
+          },
+          "scenario": "In a rented apartment in Chennai, Ravi faces the challenge of styling a dresser while ensuring it remains safe for his young children. He applies the anti-tip strategies outlined in this chapter.",
+          "principle": "Dressers need anti-tip straps, balanced weight toward the back, and enclosed accents that live above reach.",
+          "body": [
+            "Dressers pose a significant tip-over risk, particularly in bedrooms and nurseries. The Consumer Product Safety Commission advises anchoring any furniture that could tip. To do this, install anti-tip straps that connect the dresser to wall studs or approved anchors, using two straps across the top edge to spread the load. Ensure that drawers close evenly; if the dresser rocks, shim the rear legs to level it before anchoring.",
+            "When styling the top of the dresser, discourage climbing by placing heavier items at the back center. If using a mirror, mount it to the wall rather than resting it on the dresser. For artwork, hang it with discreet reinforcement, such as additional wall hooks hidden behind the frame. Keep the display symmetrical to reduce the urge for children to reach for items.",
+            "Opt for enclosed accents to enhance safety. A lidded box for jewelry is safer than a shallow dish, and acrylic frames or shadow boxes present photographs without the risk of glass shattering. If you want to add greenery, choose a low faux plant that won't shed and anchor the pot with putty. Avoid candles unless they are battery-powered and placed away from the edge.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Failing to anchor dressers can lead to dangerous tip-over incidents, especially in homes with children. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "nursery-shelves-and-soft-goods-that-charm-safely",
+          "title": "Nursery Shelves And Soft Goods That Charm Safely",
+          "day_label": "Day 5",
+          "hero": {
+            "query": "A nursery shelf beautifully arranged with soft goods and secure decor, showcasing safety and charm in a Hyderabad apartment.",
+            "flux_prompt": "A close-up of a nursery shelf featuring fabric books and plush toys, arranged for safety and visual appeal.",
+            "alt": "A well-organized shelf with acrylic frames and soft sculptures, emphasizing safety in nursery decor.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\042-pexels.jpg",
+            "credit": "Photo by Krishna Kids  Photography on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:32921520"
+          },
+          "scenario": "In a small apartment in Hyderabad, Aditi curates her nursery shelves to be both charming and safe for her baby, utilizing soft materials and secure arrangements.",
+          "principle": "Soft goods in reach. Heavy, fragile, and choke items out of reach — not merely higher.",
+          "body": [
+            "Today's output: a nursery shelf with fabric and plush only in the accessible band.",
+            "Do not place heavier pieces high and centered as a safety rule. Heavy loose objects falling from height are worse. Keep heavy, fragile, and hazardous loose objects out of child-accessible areas. Soft books and plush may occupy the visible band. Heirlooms go in a closed enclosure the child cannot open, or they leave the room.",
+            "Nursery shelves should carry charm and delight while ensuring safety. Curate items like fabric books, plush sculptures, and acrylic frames that are inviting yet safe to touch. Floating ledges are excellent for displaying books and lightweight art; mount them at adult shoulder height to avoid toddler head level.",
+            "To enhance safety, enclose each piece by overlapping edges slightly, making it difficult for tiny hands to isolate one item. Use a low-profile lip on the ledge to reduce the risk of items sliding off. For frames, choose acrylic with screw pack corners and add a small amount of putty at the bottom edge to keep them fixed yet removable for refresh.",
+            "Do not move heavy, fragile, or hazardous loose objects higher as if height were childproofing. Keep those objects out of child-accessible areas, or use a locked enclosure. Distinguish heavy fixed objects from heavy loose objects, fragile objects, and small chokable objects. Use repetition to create visual rhythm, alternating between fabric spines in one hue, plush figures, and acrylic frames. This pattern not only adds visual interest but also discourages picking. Display heirloom decor behind a clear acrylic box on a higher shelf, with a plush piece at the front to draw attention away.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: a ceramic on the top nursery ledge 'out of reach.' Cause: height as childproofing. Fix: remove the ceramic.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "devices-cords-and-light-that-behave",
+          "title": "Devices, cords, lights — and window cords",
+          "day_label": "Day 6",
+          "hero": {
+            "query": "A nursery setup with a securely mounted baby monitor and organized cords, demonstrating effective safety measures in a Kolkata apartment.",
+            "flux_prompt": "A close-up of a sound machine and baby monitor mounted securely, with hidden cords and a clean aesthetic.",
+            "alt": "A well-organized nightstand with remote controls stored safely and a lamp positioned securely.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\043-pexels.jpg",
+            "credit": "Photo by https://kaboompics.com/ on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4964280"
+          },
+          "scenario": "In a Kolkata apartment, Neha learns to manage her baby monitor and sound machine cords effectively while ensuring they remain out of reach of her toddler.",
+          "principle": "Device cords and window-covering cords are both strangulation and pull hazards.",
+          "body": [
+            "Today's output: cordless window preference, furniture off the window, device cords enclosed, electrical limits.",
+            "Windows: the hidden cord hazard. Cordless blinds and shades are the preferred solution where young children are present. Move furniture and cribs away from windows. Never rely on tying a cord higher. Treat continuous-loop cords, inner cords, curtain and drapery cords, and accessible chains as hazards. Window access is also a fall hazard.",
+            "Electrical: accessible outlets, power strips, extension cords, overloaded sockets, loose plugs, damaged cables, chargers, cable loops, adapters, and heat-producing devices. Do not hide a night light behind furniture if that presses the plug, traps the cord, blocks ventilation, or prevents inspection. Follow the device manufacturer's clearance. Heat, candles, incense, oil diffusers, aroma burners, lamps, chargers, and hot drinks are a fire/heat category — 'looks stable' is not 'cannot burn.'",
+            "Baby monitors and sound machines are essential in nurseries, but they introduce cables that can attract curious hands. Position devices at least three feet from the crib edge, either high on a wall shelf or on a tall dresser. Route cords down the back with adhesive clips and use a cord cover channel along the wall, painted to match for a seamless look.",
+            "Keep any slack coiled and enclosed in a Velcro wrap inside a small pouch mounted behind the furniture. If your monitor requires angle adjustment, use a wall mount with a secure tilt mechanism and add a safety tether for redundancy to ensure it stays in place.",
+            "Remote controls should be kept out of reach in bedrooms. For adult rooms, attach a magnetic pocket to the side of the nightstand to store remotes after use. In nurseries, place remotes inside a lidded basket on a higher shelf. Ensure that lighting is warm but guarded, with night lights only where the manufacturer allows clearance and ventilation — not pressed behind furniture, not trapping cords, and still inspectable, and lamps featuring heavy bases and covered bulbs to prevent accidental contact.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Windows: the hidden cord hazard",
+              "caption": "Cordless coverings are the preferred option where young children are present.",
+              "values": [
+                "Preferred where young children are present",
+                "Not a safety method",
+                "Keep furniture and cribs away from windows",
+                "Inner cords, loops, drapery pulls, chains",
+                "Falls as well as strangulation"
+              ],
+              "labels": [
+                "Cordless blinds and shades",
+                "Tying a cord higher",
+                "Crib and furniture placement",
+                "Continuous-loop and inner cords",
+                "Window access"
+              ],
+              "minimum": null,
+              "spec_id": "D022",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D022.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Electrical at child height",
+              "caption": "Hiding a plug behind furniture is not a safety plan.",
+              "values": [
+                "Cover or block accessible outlets per the product",
+                "Rated strips; do not overload with heat tools",
+                "Avoid as a permanent child-area solution",
+                "No crush, no trap, no sharp bend",
+                "Inspect; follow maker clearance and heat limits",
+                "Loops are pull toys"
+              ],
+              "labels": [
+                "Outlets",
+                "Power strips",
+                "Extension cords",
+                "Cables",
+                "Night lights and chargers",
+                "Monitors and lamps"
+              ],
+              "minimum": null,
+              "spec_id": "D027",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D027.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: monitor cords are covered and the blind loop still hangs over the crib. Cause: device cords only. Fix: windows.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "how-to-put-it-into-practice-this-weekend",
+          "title": "How To Put It Into Practice This Weekend",
+          "day_label": "Day 7",
+          "hero": {
+            "query": "A well-organized bedroom after a weekend reset, showcasing safety features and a serene aesthetic in a Delhi apartment.",
+            "flux_prompt": "A full view of a beautifully styled bedroom with organized nightstands and secured decor, reflecting a successful weekend reset.",
+            "alt": "A close-up of a nursery shelf after a weekend refresh, featuring soft goods and secure arrangements.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\044-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7614617"
+          },
+          "scenario": "In a compact apartment in Delhi, Vikram plans a weekend reset of his bedroom and nursery to enhance safety and style, following the outlined steps.",
+          "principle": "You can complete these resets over one weekend with a structured plan.",
+          "body": [
+            "Friday: furniture/TV list, window-covering list, choke/battery/magnet sweep — not putty first.",
+            "Saturday: manufacturer anti-tip and TV hardware, then cordless or inaccessible window coverings, then device cords and electrical inspection. Afternoon: soft nursery swaps. Do not move heavy loose objects higher.",
+            "Sunday: maker cure times, limited toddler test (fail = remove; pass ≠ certify), STOP list, photograph optional.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Rushing the weekend reset without proper planning can lead to overlooked safety measures and clutter. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [
+            "Furniture and TV hardware",
+            "Window cords",
+            "Choke/battery/magnet",
+            "Limited toddler test"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "troubleshooting-and-maintenance-rental-ready-and-grandparent",
+      "title": "Troubleshooting And Maintenance: Rental-Ready And Grandparent-Ready Playbook",
+      "intro": "This chapter provides practical strategies for maintaining a stylish yet safe home environment, particularly in rental and family settings. It outlines a systematic approach to troubleshooting common issues, ensuring that your decor remains both beautiful and functional.",
+      "opener": {
+        "query": "interior of a stylish Indian apartment with child-friendly decor, natural light from one window, teak and linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+        "flux_prompt": "full-bleed shot of a well-decorated living room in an Indian apartment, showcasing a blend of elegance and child safety features",
+        "alt": "A styled room with child-accessible hazards removed, not a certified childproof space.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\045-pexels.jpg",
+        "credit": "Photo by Mariam Unbeatable on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:33426155"
+      },
+      "sections": [
+        {
+          "slug": "real-life-wear-tear-and-surprise-visits",
+          "title": "Child visiting for one weekend: fifteen things first",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "interior of a stylish Indian apartment with a vintage console, natural light from one window, teak and linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "angle showing the vintage console with decor, highlighting the use of museum putty for safety",
+            "alt": "close-up of the console decor with putty applied beneath vases",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\046-pexels.jpg",
+            "credit": "Photo by Andranik Paradyan on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:38323542"
+          },
+          "scenario": "Problem: grandchildren arrive Friday. Room: a home that is not usually child-occupied. Decision: fifteen checks before toys come out.",
+          "principle": "A visit is furniture, windows, choke items, and heat — not a styling session.",
+          "body": [
+            "Today's output: a one-weekend visitor card.",
+            "Do these first: (1) anti-tip dressers, bookcases, consoles; (2) anchor TVs; (3) cordless or inaccessible window coverings; (4) move cribs/beds/chairs off windows; (5) choke/battery/magnet sweep; (6) medicines and cleaners up and closed; (7) outlets and strips; (8) no extension-cord runways; (9) night lights with maker clearance, not crushed behind furniture; (10) candles/incense/diffusers off or out; (11) hot drinks off low tables; (12) plants, soil, stones, hanging planters; (13) pet food, water, litter, chew toys separated from decor; (14) limited toddler test — fail removes the object; (15) STOP list posted. Putty on a vase is optional after that list.",
+            "If an object shifts after humidity or guests, do not add more adhesive. Remove, inspect, follow the product, or take it away. A passed push test still does not certify safety.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "STOP and remove the object if",
+              "caption": "A failed check is a definite problem. A passed check does not certify safety.",
+              "values": [
+                "Furniture rocks or an anchor pulls away",
+                "A shelf flexes or adhesive damages the surface",
+                "An object or cord can be pulled into a child",
+                "Glass can be reached or furniture can be climbed",
+                "You cannot verify the mount, or the maker conflicts with this book"
+              ],
+              "labels": [
+                "Rock or pulled anchor",
+                "Flex or adhesive damage",
+                "Pull-in or accessible cord",
+                "Glass or climb",
+                "Unknown mount or maker conflict"
+              ],
+              "minimum": null,
+              "spec_id": "D034",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D034.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Windows: the hidden cord hazard",
+              "caption": "Cordless coverings are the preferred option where young children are present.",
+              "values": [
+                "Preferred where young children are present",
+                "Not a safety method",
+                "Keep furniture and cribs away from windows",
+                "Inner cords, loops, drapery pulls, chains",
+                "Falls as well as strangulation"
+              ],
+              "labels": [
+                "Cordless blinds and shades",
+                "Tying a cord higher",
+                "Crib and furniture placement",
+                "Continuous-loop and inner cords",
+                "Window access"
+              ],
+              "minimum": null,
+              "spec_id": "D035",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D035.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: putty on vases, unanchored TV, looping blind cord. Cause: surprise-visit styling. Fix: the fifteen.",
+          "checklist": [
+            "Furniture and TV",
+            "Windows",
+            "Choke and batteries",
+            "Heat and pets",
+            "STOP list"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "the-reset-and-record-cycle",
+          "title": "The Reset And Record Cycle",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "interior of a stylish Indian apartment with a living room setup for children, natural light from one window, teak and linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "angle showing the living room with decor adjustments made for safety",
+            "alt": "close-up of the Toddler Test being applied to decor",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\047-pexels.jpg",
+            "credit": "Photo by Waqar Hassan on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:38290266"
+          },
+          "scenario": "In a rented flat in Bengaluru, Riya prepares for a weekend visit from her grandchildren. She needs to ensure her decor is both stylish and safe for the little ones.",
+          "principle": "A systematic approach to maintenance keeps your home beautiful and safe.",
+          "body": [
+            "Riya understands the importance of the Reset And Record cycle. She starts by spotting issues in her living room, noting any wobble or scuffs on her furniture. She captures quick notes on her phone to keep track of what needs attention.",
+            "Next, she assesses the stability of her decor using the Toddler Test. Kneeling down, she gently pulls and pushes on her decorative pieces to ensure they are secure. Riya finds that one of her framed pictures is slightly askew and needs to be adjusted.",
+            "Riya then fixes the issues by reapplying putty where necessary and cleaning around the anchored decor. She dusts with a soft brush and wipes gently with a barely damp microfiber cloth, ensuring not to disturb any anchored items.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Skipping the assessment step can lead to unnoticed safety risks. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [
+            "Document any changes made during the reset process.",
+            "Use the Toddler Test to evaluate decor stability regularly.",
+            "Keep a record of maintenance activities and updates."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "fixes-for-adhesives-surfaces-finishes-and-swaps",
+          "title": "Fixes For Adhesives, Surfaces, Finishes, And Swaps",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "interior of a stylish Indian apartment with humidity considerations, natural light from one window, teak and linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "angle showing the use of museum putty on decor in a humid environment",
+            "alt": "close-up of adhesive application process",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\048-pexels.jpg",
+            "credit": "Photo by Natalia Walusiak on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:14043671"
+          },
+          "scenario": "In a Mumbai flat with a window on only one side, Anjali faces challenges with her decor as the humidity affects her adhesive solutions.",
+          "principle": "Proper adhesive application is crucial for maintaining decor stability.",
+          "body": [
+            "Anjali realizes that her decorative items are not adhering properly due to the humidity in her Mumbai apartment. She decides to troubleshoot her adhesive issues using museum putty and removable adhesive pads. Anjali knows that if a piece lifts easily, she should not push harder; instead, she removes it, cleans the surfaces, and reapplies the adhesive.",
+            "She cleans both the item base and surface with a mild soapy solution, rinses, and dries them fully to ensure maximum adhesion. Anjali warms the putty between her fingers to make it pliable and rolls pea-sized pieces to set at the four corners of each base.",
+            "After pressing down firmly for ten seconds, she leaves the items undisturbed for an hour to cure. Anjali also checks the temperature of the room, ensuring it is stable before applying adhesive pads, as cool or humid conditions can weaken their bond.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Applying adhesive in cold or humid conditions can lead to failure. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [
+            "Ensure surfaces are clean before applying adhesives.",
+            "Warm putty to improve pliability and adhesion.",
+            "Test adhesive bonds before placing heavy items."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "photography-that-proves-safe-beauty",
+          "title": "Photography That Proves Safe Beauty",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "interior of a stylish Indian apartment with a focus on safety features, natural light from one window, teak and linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "angle showing the living room setup with safety features highlighted in the photography",
+            "alt": "close-up of safety features in decor documentation",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\049-pexels.jpg",
+            "credit": "Photo by Dmitry Zvolskiy on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:2082090"
+          },
+          "scenario": "Vikram, a host in a short-term rental in Chennai, needs to take photos that highlight the safety and style of his decor for potential guests.",
+          "principle": "Clear documentation through photography enhances guest trust and helps maintain decor consistency.",
+          "body": [
+            "Vikram prepares to take photos of his living room setup to showcase on his rental listing. He knows that shooting at adult eye level will highlight clean lines and enclosed groupings. He sets up his camera to capture the entire room, ensuring that all safety features are visible.",
+            "He also takes close-up shots of key anchors, such as the straps behind his dresser and the putty under his vase base. In the captions for his photos, Vikram mentions safety features in simple language, like 'Anchored decor on console, child-friendly materials, cords concealed.'",
+            "By documenting his decor in this way, Vikram boosts guest trust and creates a visual record that helps him replicate setups later. He understands that what gets documented gets managed, ensuring his home remains both beautiful and safe.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Neglecting to document safety features can lead to misunderstandings with guests. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [
+            "Take wide shots at adult eye level to capture the overall decor.",
+            "Include close-ups of safety features in your photos.",
+            "Document any changes made to the decor after swaps."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "weekend-toolkit-and-shopping-list-guide",
+      "title": "Weekend Toolkit And Shopping List Guide",
+      "intro": "This guide organizes what to buy, how much to prepare, and when to stage, so you can create childproof showpiece arrangements without losing style over one weekend.",
+      "opener": {
+        "query": "aerial view of a well-organized toolkit for home decor, natural light, wooden textures, minimalist style",
+        "flux_prompt": "full-bleed image of a neatly arranged toolkit with various home decor items and tools",
+        "alt": "A styled room with child-accessible hazards removed, not a certified childproof space.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\050-pexels.jpg",
+        "credit": "Photo by Alfredo Marco Pradil on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:14367086"
+      },
+      "sections": [
+        {
+          "slug": "purpose-and-benefits",
+          "title": "Purpose and Benefits",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "a well-organized shopping list for home decor, natural light, wooden textures, minimalist style",
+            "flux_prompt": "full-bleed image of a shopping list with tools and materials for home decor",
+            "alt": "a detailed shopping list laid out on a table with tools and decor items",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\051-pexels.jpg",
+            "credit": "Photo by Cup of  Couple on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7303999"
+          },
+          "scenario": "In a 1BHK apartment in Pune, Priya wants to childproof her living space while maintaining its aesthetic appeal. She realizes that a well-planned shopping trip can save her time and effort over the weekend.",
+          "principle": "A well-organized shopping plan saves time and enhances safety.",
+          "body": [
+            "This guide is designed to help you save time with a single trip plan, ensuring that you have everything you need before you start decorating. By preparing in advance, you can avoid last-minute fixes and rushed anchoring, which often lead to mistakes.",
+            "Matching products to their weight, surface, and removability is crucial for renter-friendly results. This ensures that your decor remains intact and safe for children, reducing the risk of tip, slip, or pull by small hands.",
+            "By using clear, low-profile solutions, you can preserve the aesthetics of your home while ensuring safety. This balance is essential for creating a stylish yet functional living space."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Neglecting to plan can lead to disorganized shopping and unsafe installations. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "how-to-use",
+          "title": "How to Use",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "a detailed pre-measure worksheet with tools, natural light, wooden textures, minimalist style",
+            "flux_prompt": "full-bleed image of a pre-measure worksheet with tools and decor items laid out on a table",
+            "alt": "a close-up of a pre-measure worksheet with measurements and notes",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\052-pexels.jpg",
+            "credit": "Photo by Jahra Tasfia Reza on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:38835539"
+          },
+          "scenario": "In her Bengaluru rental with a load-bearing wall, Riya prepares to childproof her space. She knows that using the pre-measure worksheet on Friday will streamline her Saturday preparations.",
+          "principle": "Preparation is key to an efficient staging process.",
+          "body": [
+            "Start by completing the pre-measure worksheet on Friday evening. This will help you identify the surfaces you need to work with, including the mantel, console, coffee table, bookshelf, and more. Measure the width, depth, and edge clearance of each surface to ensure that your decor fits perfectly.",
+            "Once you have your measurements, use the selection template to choose the appropriate adhesives and anchors based on the weight and surface of your decor items. This step is crucial for ensuring that everything stays securely in place, especially in a rental where damage must be avoided.",
+            "On Saturday, shop with the checklist and brand tiers you filled in. This organized approach will save you time and help you avoid impulse purchases that may not fit your needs.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Failing to measure surfaces can lead to poor placement and unsafe decor arrangements. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "renter-friendly-checklist",
+          "title": "Renter Friendly Checklist",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "a checklist for childproofing decor in a nursery, natural light, wooden textures, minimalist style",
+            "flux_prompt": "full-bleed image of a checklist for childproofing decor in a nursery",
+            "alt": "a close-up of a checklist for childproofing decor with tools and materials laid out",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\053-pexels.jpg",
+            "credit": "Photo by Ivan S on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8101739"
+          },
+          "scenario": "In her Mumbai flat with a window on only one side, Neha is ready to childproof her nursery. She refers to the renter-friendly checklist to ensure she uses the right products.",
+          "principle": "Choosing reversible products is essential for renters.",
+          "body": [
+            "Prioritize using reversible products such as putty, gel, and strips. These options allow you to secure your decor without causing permanent damage to the walls or surfaces, which is crucial in a rental situation.",
+            "Utilize trays, acrylic boxes, and cloches to contain decor and protect small parts. This not only enhances the aesthetic appeal but also ensures that small items are out of reach of children, making the space safer.",
+            "Before applying any adhesive, mark placements with painter's tape. This step helps visualize the arrangement and ensures that you are satisfied with the layout before making it permanent.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Overlooking the importance of using reversible products can lead to costly damages in a rental. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [
+            "Use reversible products like putty and gel.",
+            "Contain small decor inside cloches or acrylic boxes.",
+            "Mark placements with painter's tape before adhesion."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "staging-and-cure-timeline",
+          "title": "Staging and Cure Timeline",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "a timeline for staging decor in a living room, natural light, wooden textures, minimalist style",
+            "flux_prompt": "full-bleed image of a timeline for staging decor in a living room",
+            "alt": "a close-up of a timeline for staging decor with tools and materials laid out",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\054-pexels.jpg",
+            "credit": "Photo by Jonathan Borba on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5570222"
+          },
+          "scenario": "After cleaning surfaces in her Pune apartment, Priya is ready to stage her living room. She follows the staging and cure timeline to ensure everything is set correctly.",
+          "principle": "Respecting cure times is crucial for successful installations.",
+          "body": [
+            "On Friday evening, clean all surfaces with isopropyl alcohol to ensure they are free of dust and oils. Allow them to dry fully before proceeding with the staging process. This step is essential for optimal adhesion of your decor items.",
+            "On Saturday morning, place painter's tape on the surfaces to mark where you want to position your decor. Pre-cut strips and pre-portion putty will save you time later in the day.",
+            "By midday, apply adhesives and anchors according to the weight ratings specified for each product. Remember to wait for the minimum cure times, which typically range from 1 to 24 hours, before styling your decor. This patience will ensure that everything stays securely in place.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Styling before the cure time ends can lead to items falling or shifting. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "room-by-room-vignette-planner-worksheet",
+      "title": "Room-By-Room Vignette Planner",
+      "intro": "Transform your living spaces with thoughtful vignettes that are both stylish and safe. This chapter provides a comprehensive guide to planning and executing beautiful surface arrangements in your home, ensuring that your decor is not only visually appealing but also child-friendly.",
+      "opener": {
+        "query": "A beautifully styled living room vignette featuring a coffee table with artful arrangements, soft lighting, and a cozy atmosphere.",
+        "flux_prompt": "Full-bleed shot of a stylish living room with a well-arranged coffee table, showcasing textures like linen and wood, illuminated by natural light from a single window.",
+        "alt": "A styled room with child-accessible hazards removed, not a certified childproof space.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\007-pexels.jpg",
+        "credit": "Photo by Martín Rivera on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:16197203"
+      },
+      "sections": [
+        {
+          "slug": "purpose-and-benefits",
+          "title": "Purpose and Benefits",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "A cozy living room vignette with a coffee table styled with books, a vase, and a decorative bowl, all arranged thoughtfully.",
+            "flux_prompt": "A well-lit living room vignette showcasing a coffee table with a balanced arrangement of decor items, emphasizing textures and colors.",
+            "alt": "An inviting living room corner featuring a coffee table with carefully curated decor.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\056-pexels.jpg",
+            "credit": "Photo by https://kaboompics.com/ on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7607459"
+          },
+          "scenario": "In her 1BHK apartment in Pune, Priya wants to create a safe yet stylish living room vignette that showcases her favorite decor pieces without risking her toddler's safety.",
+          "principle": "Pre-planning your vignette reduces risks and enhances visual balance.",
+          "body": [
+            "This worksheet helps you protect little hands while showcasing showpieces. It reduces tip, pull, and shatter risks and ensures visual balance. Pre-planning cuts setup time, which supports a one weekend transformation.",
+            "By identifying potential hazards and planning accordingly, you can create a space that is both beautiful and functional. This approach allows you to enjoy your decor without constant worry about safety.",
+            "The benefits of using this worksheet extend beyond safety; they also include a more cohesive and visually appealing arrangement that can elevate the overall aesthetic of your home."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Neglecting to consider the safety of delicate items in reach of children. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "how-to-use-the-worksheet",
+          "title": "How to Use the Worksheet",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "A neatly organized console table with a mix of decorative items, framed photos, and plants, all styled according to the worksheet.",
+            "flux_prompt": "A well-styled console table vignette with a focus on balance and safety, featuring various textures and colors.",
+            "alt": "A console table arrangement highlighting decorative elements and visual balance.",
+            "source": "mock",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\057-mock.jpg",
+            "credit": "",
+            "ai_generated": false,
+            "provider_id": "mock:88799b4f6d4606f4:0"
+          },
+          "scenario": "In her Bengaluru rental, Aditi has a load-bearing wall that limits her furniture placement. She uses the worksheet to plan her console table arrangement effectively.",
+          "principle": "Using the worksheet allows for efficient planning and execution of your vignette.",
+          "body": [
+            "Print one page per surface and gather measurements and a list of candidate objects. For each surface, list key showpieces, identify risks, and assign 5E actions to ensure safety and aesthetic appeal.",
+            "Sketch your composition using techniques like the triangle, rule of thirds, and sightline ladders. This helps in visualizing the arrangement before actual placement, making adjustments easier.",
+            "Choose appropriate adhesives and set height bands to ensure that all items are securely placed and at safe heights, particularly when children are present.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Failing to sketch the composition can lead to an unbalanced arrangement. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "tips-for-success",
+          "title": "Tips for Success",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "A dining room buffet styled with a statement bowl and anchored decor, showcasing a harmonious arrangement.",
+            "flux_prompt": "A dining room buffet vignette that balances aesthetics and safety, featuring a mix of decorative and functional items.",
+            "alt": "A stylish dining buffet arrangement highlighting safety and visual appeal.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\058-pexels.jpg",
+            "credit": "Photo by Jonathan Borba on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:36933463"
+          },
+          "scenario": "In her Mumbai flat, Meera is preparing for a family gathering and wants to ensure her dining room buffet is both stylish and safe for children.",
+          "principle": "Layering and thoughtful arrangements enhance visual appeal while maintaining safety.",
+          "body": [
+            "Start with fewer objects, then layer them gradually to avoid overcrowding. This approach allows you to focus on each piece and how it contributes to the overall composition.",
+            "Using odd numbers for groupings supports triangle balance, making the arrangement visually pleasing. This technique can be applied to various surfaces throughout your home.",
+            "Test adhesives on an inconspicuous spot to avoid damage to your furniture's finish. This precaution ensures that your decor remains intact while providing the necessary support.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Overloading surfaces can lead to a cluttered look and increased risk of accidents. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "common-mistakes",
+          "title": "Common Mistakes",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "A cluttered shelf with items precariously placed, highlighting the risks of poor arrangement.",
+            "flux_prompt": "A shelf vignette that illustrates common mistakes in decor placement, emphasizing the need for safety and balance.",
+            "alt": "An overloaded shelf arrangement showcasing potential hazards.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\059-pexels.jpg",
+            "credit": "Photo by Lany-Jade Mondou on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:11703557"
+          },
+          "scenario": "Ravi, living in a compact 1BHK in Pune, realizes he has placed delicate items within reach of his young children, leading to potential hazards.",
+          "principle": "Awareness of common mistakes can prevent accidents and enhance decor safety.",
+          "body": [
+            "Placing delicate items within reach of children is a common mistake that can lead to accidents. Always consider the height and accessibility of your decor when arranging vignettes.",
+            "Ignoring setback from edges can result in items falling off surfaces. Ensure that all items are set back from the front lip of tables and shelves to minimize this risk.",
+            "Overloading shelves without proper anchors can lead to instability. Always assess the weight of your items and choose appropriate adhesives or anchors to secure them.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Forgetting to map weight to adhesive choice can lead to items falling or breaking. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "next-steps",
+          "title": "Next Steps",
+          "day_label": "Day 5",
+          "hero": {
+            "query": "A neatly organized workspace with completed worksheets and decor items ready for installation, showcasing preparation for the weekend.",
+            "flux_prompt": "A workspace filled with planning materials and decor items, emphasizing the importance of preparation in the vignette process.",
+            "alt": "An organized planning area with worksheets and decor pieces ready for styling.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\060-pexels.jpg",
+            "credit": "Photo by Jessika Arraes on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:11578781"
+          },
+          "scenario": "On a Friday evening, Neha decides to complete her worksheets for each surface in her apartment, preparing for a weekend of decor transformation.",
+          "principle": "Following a structured plan ensures a smooth execution of your vignette arrangements.",
+          "body": [
+            "Complete worksheets for each surface on Friday evening to have a clear plan for your decor transformation. This preparation sets the stage for a successful weekend.",
+            "On Saturday morning, shop or gather anchors and enclosures as needed. Having all materials ready will streamline the installation process.",
+            "Install and place your items on Saturday afternoon, conducting toddler tests and fine-tuning the arrangements on Sunday to ensure safety and aesthetic appeal."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Not saving completed pages with photos can hinder future updates and seasonal refreshes. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "toddler-test-and-safety-audit-checklist",
+      "title": "Toddler Test And Safety Audit Checklist",
+      "intro": "A failed test is a definite problem. A passed test does not certify safety. This checklist cannot childproof a room. Use it after furniture hardware, window cords, and choke/battery removal.",
+      "opener": {
+        "query": "stock photo of a stylish living room with toddler-safe decor, natural light, warm colors, no people",
+        "flux_prompt": "full-bleed shot of a well-styled living room featuring toddler-safe elements, soft textures, and organized decor",
+        "alt": "A styled room with child-accessible hazards removed, not a certified childproof space.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\061-pexels.jpg",
+        "credit": "Photo by Olya Afanasyeva on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:25785901"
+      },
+      "sections": [
+        {
+          "slug": "purpose-and-benefits",
+          "title": "Purpose and Benefits",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "stock photo of a toddler-friendly living room setup with elevated decor, natural light, soft textures, no people",
+            "flux_prompt": "full-bleed shot of a toddler-safe living room with organized decor and elevated focal pieces",
+            "alt": "toddler-friendly living room with stylish decor and safety measures in place",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\062-pexels.jpg",
+            "credit": "Photo by https://kaboompics.com/ on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4964283"
+          },
+          "scenario": "In a 1BHK apartment in Pune, resident Neha wants to ensure her living room is safe for her 2-year-old son. She uses the checklist to confirm that her decor is toddler-proof while maintaining a stylish look.",
+          "principle": "Screening, not certification. This book is not a substitute for childproofing.",
+          "body": [
+            "Today's output: a log that records fails as removals, not as 'needs more putty.'",
+            "The checklist does not mean a display is toddler-proof. Children pull from other directions, climb, open drawers, grab cords, and act when you are not beside them.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "STOP and remove the object if",
+              "caption": "A failed check is a definite problem. A passed check does not certify safety.",
+              "values": [
+                "Furniture rocks or an anchor pulls away",
+                "A shelf flexes or adhesive damages the surface",
+                "An object or cord can be pulled into a child",
+                "Glass can be reached or furniture can be climbed",
+                "You cannot verify the mount, or the maker conflicts with this book"
+              ],
+              "labels": [
+                "Rock or pulled anchor",
+                "Flex or adhesive damage",
+                "Pull-in or accessible cord",
+                "Glass or climb",
+                "Unknown mount or maker conflict"
+              ],
+              "minimum": null,
+              "spec_id": "D036",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D036.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Age bands change the hazard",
+              "caption": "Height bands are not one toddler.",
+              "values": [
+                "Reach, grab, mouth, crib and window-covering cords",
+                "Climb, pull, open drawers, reach higher, use a drawer as a step",
+                "More sophisticated climbing, latches, previously high objects"
+              ],
+              "labels": [
+                "About 0 to 12 months",
+                "About 1 to 3 years",
+                "About 3 to 5 years"
+              ],
+              "minimum": null,
+              "spec_id": "D037",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D037.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: a pass box is ticked and a button battery is still in a remote on the table. Cause: test replaced a sweep. Fix: sweep first.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "how-to-use-the-checklist",
+          "title": "How to Use the Checklist",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "stock photo of a checklist being used in a living room, natural light, organized decor, no people",
+            "flux_prompt": "full-bleed shot of a living room with a visible checklist and toddler-safe decor",
+            "alt": "checklist being utilized in a stylish living room setting",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\063-pexels.jpg",
+            "credit": "Photo by https://kaboompics.com/ on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4506243"
+          },
+          "scenario": "In her Bengaluru rental, Riya prints the checklist for her living room, which has a load-bearing wall. She methodically works through the surfaces to ensure everything is secure for her active toddler.",
+          "principle": "Fail = remove or mechanically fix per the maker. Pass = still not certified.",
+          "body": [
+            "Visual scan first: climbable furniture, TVs, window cords, outlets, small parts, heat. Then a limited push/pull on decor only after cure time. If it shifts, do not add adhesive; remove, inspect, follow the product, or take it out of the zone.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: three-second push 'passed' a lamp with a looped cord. Cause: the test ignored the cord. Fix: cords are a fail even if the base holds.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "main-content-the-checklist",
+          "title": "Main Content: The Checklist",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "stock photo of a living room checklist in action, natural light, cozy decor, no people",
+            "flux_prompt": "full-bleed shot of a living room with a checklist in use and toddler-safe decor",
+            "alt": "living room checklist being utilized with stylish decor",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\064-pexels.jpg",
+            "credit": "Photo by Oleg Melevych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:12212553"
+          },
+          "scenario": "In a Mumbai flat with a window on only one side, Amit reviews his living room surfaces using the checklist to ensure safety for his toddler while maintaining an inviting atmosphere.",
+          "principle": "Identifying and securing surfaces is crucial for toddler safety.",
+          "body": [
+            "On the page, print STOP conditions at the top. Then furniture/TV hardware, window coverings, electrical, choke/battery/magnet, plants, pets, then decor stabilization. Age-band the room: mouthing, climbing, latches.",
+            "Begin by identifying each surface in the room and noting them down. Define a tray or base for small items to prevent them from becoming loose hazards. Conduct a visual scan to remove cords and eliminate dangling elements within toddler reach.",
+            "Next, group small loose items in a lidded box or under a cloche to keep them secure. Confirm that there are no sharp edges at lower levels where toddlers can reach.",
+            "Perform the push tests: for the edge push test, apply a firm two-finger push for three seconds, three times. If the item stays in place, it passes; if it slides or lifts, it fails. Repeat this for the midpoint push test and conduct pull tests to ensure stability."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "cleaning-routine-and-weekly-refresh",
+          "title": "Cleaning Routine and Weekly Refresh",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "stock photo of a cleaning routine in a living room, natural light, organized decor, no people",
+            "flux_prompt": "full-bleed shot of a living room during a cleaning routine with toddler-safe decor",
+            "alt": "cleaning routine in a stylish living room setting",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\065-pexels.jpg",
+            "credit": "Photo by SHVETS production on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7513103"
+          },
+          "scenario": "Sita, living in a compact 1BHK in Delhi, incorporates the cleaning routine into her weekly schedule to maintain a safe environment for her toddler.",
+          "principle": "Regular cleaning and maintenance are essential for ongoing safety.",
+          "body": [
+            "To maintain the safety of your decor, hold bases while dusting with a dry microfiber cloth. Avoid soaking contact points to prevent damage to surfaces and ensure that items remain secure.",
+            "If you need to reapply adhesives, clean the surfaces with a light alcohol wipe, let them dry, and then apply the adhesive. This ensures a strong bond and prevents items from shifting.",
+            "As part of your weekly refresh, remember to re-press gels or putty after a quick surface prep and retest any item that was moved. Record the results in your safety log to keep track of your home’s safety status.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "sightline-and-height-calculator-template",
+      "title": "Sightline And Height Calculator Template",
+      "intro": "Bonus Material Title and Overview Sightline and Height Calculator Template. A printable, fill in tool to plan display heights and compositions that stay beautiful and child safe, finished in a weekend. Purpose and Benefits Anchors decisions to actual eye levels for your household. Maps safe zones so showpieces stay out of little hands without looking sparse.",
+      "opener": {
+        "query": "small indian apartment interior minimalist daylight editorial",
+        "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK apartment interior, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+        "alt": "A calm apartment interior",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\066-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:6890400"
+      },
+      "sections": [
+        {
+          "slug": "sightline-and-height-calculator-template",
+          "title": "Sightline And Height Calculator Template",
+          "day_label": "Part 13",
+          "hero": {
+            "query": "small indian apartment interior minimalist daylight editorial",
+            "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK apartment interior, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+            "alt": "A calm apartment interior",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\photos\\066-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6890400"
+          },
+          "scenario": "",
+          "principle": "",
+          "body": [
+            "Bonus Material Title and Overview Sightline and Height Calculator Template. A printable, fill in tool to plan display heights and compositions that stay beautiful and child safe, finished in a weekend. Purpose and Benefits Anchors decisions to actual eye levels for your household. Maps safe zones so showpieces stay out of little hands without looking sparse.",
+            "Speeds up styling with clear position guides, spacing prompts, and anchoring choices. How to Use Print one sheet per room or surface. Measure seated and standing eye levels for primary viewers. Mark child reach and mobility level, crawler, walker, climber. Fill the height bands, then plan composition with the triangle and ladder guides. Note vantage points, select scale, set spacing, then choose anchors.",
+            "Execute, adjust, and check from each view. Main Content, Template Sections 1) Measurements Worksheet Room surface, console, mantel, shelf, table: __ Primary viewers, names and heights: __ Seated eye level, tallest adult, cm or in: __ Seated eye level, shortest adult, cm or in: __ Standing eye level, tallest adult, cm or in: __ Standing eye level, shortest adult, cm or in: __ Child reach height, standing flat feet, cm or in: __ Child mobility, crawler, walker, climber: __",
+            "Red band, high risk, floor to child reach plus 5 to 10 cm, write exact, __ Amber band, caution, from end of red band to seated adult eye level range, __ Green band, ideal focal zone, between seated and standing adult eye level range, __ Ceiling clearance limit, leave top margin, __",
+            "Three anchors, left, center, right. Heights, L, C, R, ___ Visual weight notes, heavy, medium, light: __ Negative space gap targets, small items 5 to 8 cm, medium 8 to 12 cm, large 12 to 20 cm, choose: __",
+            "Item list in ascending height, 1, 2, 3, 4, Check ladder flow left to right or symmetrical. Balance check, heavy items not all on one side.",
+            "Surface width, __. Tallest item target, 60 to 80 percent of wall height above surface, write chosen, __ Center anchor width, 30 to 50 percent of surface width, chosen, __ Pairing rule, one tall, one mid, one low, confirm, yes or no: ___",
+            "Entry view height alignment passes through center anchor, yes or adjust: ___ Sofa view, seated eye line intersects focal, yes or adjust: ___ Dining chair view, reflection glare avoided, yes or adjust: ___ Hallway pass through, profile reads balanced, yes or adjust: ___",
+            "Museum putty under small objects Clear adhesive strips for light frames Safety screws or brackets for heavy items Cord concealment complete Edge guards where needed",
+            "Console with toddler. Child reach 70 cm. Red band to 75 cm. Center art bottom at 95 cm, inside green band. Left lamp 120 cm, right sculpture 90 cm on riser. Museum putty on sculpture, cord clipped. Mantel with preschooler. Red band to 85 cm. Green band 95 to 145 cm. Triangle, left tall vase 130 cm, center mirror bottom 105 cm, right stack of books 95 cm with acrylic cover. All items anchored.",
+            "Tips for Success Blue tape your planned heights before placing. Photograph from each vantage point and adjust. Mix materials, one durable item in red or amber band if it invites touch. Leave breathing room. Keep at least one clean gap.",
+            "Follow the specific product manufacturer's instructions for weight, surface, cure time, and removal."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Triangle, Left Tall Vase 130 Cm, Center",
+              "caption": "Triangle, left tall vase 130 cm, center mirror bottom 105 cm, right stack of books 95 cm with acrylic cover.",
+              "values": [
+                "130 cm",
+                "105 cm",
+                "95 cm"
+              ],
+              "labels": [
+                "Note"
+              ],
+              "minimum": null,
+              "spec_id": "D016",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D016.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Left Lamp 120 Cm, Right Sculpture 90",
+              "caption": "Left lamp 120 cm, right sculpture 90 cm on riser.",
+              "values": [
+                "120 cm",
+                "90 cm"
+              ],
+              "labels": [
+                "Note"
+              ],
+              "minimum": null,
+              "spec_id": "D017",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D017.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Center Art Bottom At 95 Cm, Inside",
+              "caption": "Center art bottom at 95 cm, inside green band.",
+              "values": [
+                "95 cm"
+              ],
+              "labels": [
+                "Note"
+              ],
+              "minimum": null,
+              "spec_id": "D018",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Child Proof Showpiece Setup\\figures\\D018.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Crowding the center anchor. Ignoring seated sightlines. Placing all heavy items on one side. Skipping anchors on anything within child reach. Next Steps Complete one template per room. Install in priority order. Use this with the main ebook's weekend plan to batch measuring, then styling, then anchoring. Keep templates for easy refreshes as children grow. Cause: styling was treated as childproofing. Fix: furniture and TV hardware, window cords, then decor — maker instructions first.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    }
+  ]
+}

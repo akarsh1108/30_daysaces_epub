@@ -1,0 +1,2414 @@
+{
+  "slug": "instant-kitchen-pest-detection",
+  "title": "Instant Kitchen Pest Detection",
+  "subtitle": "",
+  "tagline": "Measured layouts and calm surfaces for Indian apartments.",
+  "author": "Akarsh Priyadarshan",
+  "series": "30 Day Spaces",
+  "closing_headline": "Your next room starts here",
+  "closing_blurb": "More room kits, declutter sprints, and measured layouts for Indian apartments — same series language, same clear numbers.",
+  "accent_hex": "#1E5F6B",
+  "units": "imperial",
+  "cover": {
+    "query": "modern bright kitchen cabinets pantry natural light no people",
+    "flux_prompt": "full-bleed shot of a modern apartment kitchen with cabinets, sink, and window light, no people",
+    "alt": "Instant Kitchen Pest Detection",
+    "source": "pexels",
+    "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\000-pexels.jpg",
+    "credit": "Photo by HONG SON on Pexels",
+    "ai_generated": false,
+    "provider_id": "pexels:34558064"
+  },
+  "designed_cover": false,
+  "chapters": [
+    {
+      "slug": "foundations-of-kitchen-pest-risk-and-behavior",
+      "title": "Foundations Of Kitchen Pest Risk And Behavior",
+      "intro": "Your kitchen is a magnet for tiny opportunists. Food residues, moisture, warmth, and shelter create a micro-ecosystem most people miss until it is visible. Pests follow resources in patterns you can learn to read, which means detection can be faster than their ability to establish. This book is written for residential kitchens. Café and food-service premises can have different legal and inspection requirements; they are illustrations only, not the standard here. By the end of this chapter you will map risk zones, observe behavior-based clues, and set a baseline.",
+      "opener": {
+        "query": "kitchen interior, warm lighting, organized shelves, no people, no text, no watermark",
+        "flux_prompt": "full-bleed image of a well-organized kitchen with visible risk zones marked subtly",
+        "alt": "A home kitchen with visible food and moisture edges, no people.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\001-pexels.jpg",
+        "credit": "Photo by Ty Nguyễn on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:32327373"
+      },
+      "sections": [
+        {
+          "slug": "understanding-kitchen-pest-behavior",
+          "title": "Understanding Kitchen Pest Behavior",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "kitchen corner with pest risk zones, warm light, no people, no text, no watermark",
+            "flux_prompt": "image of a kitchen corner with visible risk zones highlighted subtly",
+            "alt": "kitchen corner with food residues and moisture sources",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\002-pexels.jpg",
+            "credit": "Photo by Dua'a Al-Amad on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:35478560"
+          },
+          "scenario": "In a 1BHK apartment in Pune, resident Aditi notices crumbs accumulating near her refrigerator. She often finds small specks that she dismisses as normal kitchen debris. After reading about pest behavior, she decides to observe the area more closely.",
+          "principle": "Pests are not random; they follow predictable patterns that can be observed.",
+          "body": [
+            "Most infestations start small, then accelerate out of sight. Early activity is quiet, concentrated near food or moisture, and easily mistaken for normal kitchen debris. If you only react to large signs, like seeing a cockroach in daylight or fruit flies hovering over a bin, you are already late. Delay increases costs in spoiled inventory, sanitization time, and potential food safety risks.",
+            "Pests enter through specific routes, foraging along walls and edges, nesting in warm voids, and visiting the same resource points. The first indicators are subtle, such as a pepper-like speck near the refrigerator gasket or a faint vinegar scent near the fruit bowl. Without a simple framework, you will either miss true indicators or waste time chasing false positives.",
+            "Behavior-based observation uses patterns, not guesswork. Instead of asking if a speck is a pest, you ask if multiple small indicators align in place and time. This approach allows you to focus on the traces pests leave while they travel and feed."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Ignoring small signs can lead to larger infestations.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "mapping-risk-zones",
+          "title": "Mapping Risk Zones",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "kitchen layout sketch with marked risk zones, warm light, no people, no text, no watermark",
+            "flux_prompt": "image of a hand-drawn kitchen layout with risk zones highlighted",
+            "alt": "sketch of a kitchen layout with marked hot zones",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\003-pexels.jpg",
+            "credit": "Photo by Ron Lach on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:9616961"
+          },
+          "scenario": "In her small kitchen, Aditi sketches a simple layout of her space, marking areas like the sink, refrigerator, and pantry. She identifies potential hot zones where pests might thrive.",
+          "principle": "Mapping your kitchen helps identify risk zones that require tailored monitoring.",
+          "body": [
+            "Today's output: a risk map of hot zones — under and behind appliances, sink cabinets, trash, pantry, ceiling-wall junctions, floor-wall edges — drawn without dismantling the kitchen.",
+            "Common entries include gaps at doors and windows, vents, drains, packages, and utility penetrations. Watch protected edges. The void behind a refrigerator is a hot zone because it is warm and crumb-rich, not because you must drag the fridge out today.",
+            "Do not dismantle appliances, electrical equipment, sealed building cavities, or plumbing solely to investigate pest activity. Observe, document, monitor, escalate. Renters: if limited under-sink access blocks a look, log it and report the defect instead of forcing the cabinet apart."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Pulling a packed appliance or opening a sealed cavity just to look.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "timing-your-scans",
+          "title": "Timing Your Scans",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "kitchen during evening scan, warm light, no people, no text, no watermark",
+            "flux_prompt": "image of a kitchen being scanned in the evening with lights off",
+            "alt": "kitchen at night with a flashlight illuminating potential pest areas",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\004-pexels.jpg",
+            "credit": "Photo by Lisa Fotios on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:1599495"
+          },
+          "scenario": "Aditi sets a schedule for her pest scans, planning to check her kitchen during peak activity times for different pests.",
+          "principle": "Timing your scans increases the likelihood of detecting pest activity.",
+          "body": [
+            "Timing matters because many pests are crepuscular or nocturnal, and some are daytime foragers. Cockroaches are most active in darkness, with peaks in the first hours after lights off. Ants vary, but many kitchen problems show the most movement during daylight and early evening.",
+            "Plan two five-minute scans per day. One in early evening for ants and pantry moth adults, and one at night with lights off for roaches and rodents. Add a brief morning scan for fruit flies and drain flies near sinks and fruit bowls.",
+            "By scheduling brief scans when each group is most likely to reveal movement or fresh residues, you can catch early signs of infestations before they escalate."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Not scanning at the right times can lead to missed pest activity.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "the-micro-signs-signal-map-what-to-look-for-every-day",
+      "title": "The Micro-Signs Signal Map: What To Look For Every Day",
+      "intro": "Understanding the subtle signs of pests in your kitchen is crucial for early detection and prevention. This chapter provides a detailed framework for identifying micro signs that can indicate pest activity, helping you maintain a clean and safe kitchen environment.",
+      "opener": {
+        "query": "kitchen pest detection, micro signs, cluttered kitchen, bright lighting, pest prevention tools",
+        "flux_prompt": "full-bleed image of a well-organized kitchen with bright lighting highlighting various areas for pest inspection",
+        "alt": "A kitchen counter staged for a close look at specks and seams.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\001-pexels.jpg",
+        "credit": "Photo by Ty Nguyễn on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:32327373"
+      },
+      "sections": [
+        {
+          "slug": "understanding-micro-signs",
+          "title": "Understanding Micro Signs",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "kitchen pest signs, inspection tools, bright lighting, clean surfaces",
+            "flux_prompt": "image of a kitchen countertop with a high lumen flashlight, white index card, and lint roller arranged for pest inspection",
+            "alt": "a close-up of a kitchen sink area with dark specks on the surface",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\006-pexels.jpg",
+            "credit": "Photo by Meaghan on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:36128264"
+          },
+          "scenario": "In a 1BHK apartment in Pune, resident Priya notices small dark specks near her kitchen sink. She recalls reading about micro signs and decides to investigate further.",
+          "principle": "Micro signs are often subtle and easily overlooked, but they can indicate pest activity.",
+          "body": [
+            "Today's output: one suspected sign checked against a false-signs list before you treat anything.",
+            "Micro-signs are early and easy to miss. Dark specks near a sink might be cockroach droppings — or coffee grounds, pepper, or grease. Check color, shape, location, and whether a second sign agrees.",
+            "Use a white card and a bright beam. Require more than one corroborating indicator before you escalate, unless the sign is already high-risk (live rodent, gnawing on wiring, droppings you cannot rule out as rodent)."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Things that can look like pest evidence",
+              "caption": "One crumb is not a confirmed infestation. Corroborate before you treat.",
+              "values": [
+                "Not always droppings",
+                "Not always frass",
+                "Not always a run",
+                "Not always a leak from pests",
+                "Not always webbing",
+                "Not always a nest",
+                "Not always infestation indoors",
+                "Need a second sign, unless high-risk"
+              ],
+              "labels": [
+                "Food crumbs",
+                "Coffee or pepper particles",
+                "Grease marks",
+                "Condensation",
+                "Dust and small fibers",
+                "Drain residue or appliance debris",
+                "Normal insects outside the kitchen",
+                "Rule before escalating"
+              ],
+              "minimum": null,
+              "spec_id": "D015",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D015.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Treating pepper specks as proof and opening a bait.",
+          "checklist": [
+            "Name the sign",
+            "Rule out the false-sign list",
+            "Look for a second indicator"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "the-importance-of-verification-tools",
+          "title": "The Importance of Verification Tools",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "kitchen inspection tools, high lumen flashlight, inspection mirror, clean kitchen",
+            "flux_prompt": "image of a kitchen with a high lumen flashlight illuminating dark corners, an inspection mirror placed strategically for viewing",
+            "alt": "a close-up of a lint roller and white index card on a kitchen counter, ready for use",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\007-pexels.jpg",
+            "credit": "Photo by ThisIsEngineering on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:3862621"
+          },
+          "scenario": "In a compact Bengaluru rental with limited under-sink access, Ravi is concerned after a faint musty smell.",
+          "principle": "Verification tools are essential for confirming the presence of micro signs quickly and accurately.",
+          "body": [
+            "Today's output: a flashlight-and-mirror check of reachable edges, plus a note of what you could not see.",
+            "A high-lumen beam on the sink line and appliance kick plates can show frass or rub marks. A mirror can show the front of a gap without moving a heavy appliance.",
+            "If the cavity is sealed, electrical, or a plumber's joint, stop. Observe, document, monitor, escalate. Limited under-sink access is a renter fact, not a reason to dismantle the trap."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Opening a sealed cavity because a smell was unexplained.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "identifying-clusters-of-signs",
+          "title": "Identifying Clusters of Signs",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "kitchen pantry inspection, pest clusters, bright lighting, clean surfaces",
+            "flux_prompt": "image of a pantry with light illuminating webbing and dark specks, highlighting areas of concern",
+            "alt": "a close-up of pantry shelves with flour containers and visible webbing in the corners",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\008-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7418382"
+          },
+          "scenario": "In a Mumbai flat with a window on only one side, Neha finds herself frequently checking her pantry after noticing a few tiny flight patterns near the light.",
+          "principle": "Clusters of signs provide a stronger indication of pest activity than isolated instances.",
+          "body": [
+            "Neha observes tiny flight patterns near her pantry light, which could indicate the presence of fruit flies. She recalls that these patterns often appear in warm, moist areas, especially near food sources. To confirm, she inspects the pantry for other signs.",
+            "While checking, Neha finds faint webbing in the corners of her pantry shelves, along with a musty odor. These signs, when combined, suggest a higher likelihood of pest activity. The presence of multiple indicators in the same area creates a stronger signal than a single observation.",
+            "A cluster is stronger than an isolated speck. Still, do not throw food or apply a chemical until contamination is actually plausible. When contamination cannot be reliably ruled out, follow applicable food-safety guidance rather than trying to salvage questionable food."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Overlooking clusters can lead to missed opportunities for early intervention.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "daily-and-weekly-routines-for-pest-detection",
+          "title": "Daily and Weekly Routines for Pest Detection",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "apartment kitchen inspection tools, organized workspace, natural light, no people",
+            "flux_prompt": "image of a home kitchen with inspection tools laid out, ready for a thorough check",
+            "alt": "a close-up of a checklist pinned on a kitchen wall, highlighting daily and weekly inspection tasks",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\009-pexels.jpg",
+            "credit": "Photo by 🇻🇳🇻🇳 Việt Anh Nguyễn 🇻🇳🇻🇳 on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:33890292"
+          },
+          "scenario": "In a compact Delhi apartment kitchen, Arun sets a weekly deeper look after a few daily-scan notes. This is a household kitchen, not a café.",
+          "principle": "Establishing regular routines helps maintain vigilance against pest activity.",
+          "body": [
+            "Today's output: a weekly deeper pass on the same zones as the daily scan. Check the fridge kick plate for warmth and frass, the dishwasher door seam for condensation, and rub marks around the oven.",
+            "Use a lint roller on corners and seams, then transfer the pickup to a white card. Compare it with yesterday's card instead of guessing.",
+            "A café or stall might follow extra food-service rules. Skip those unless you actually run a licensed kitchen; this book stays residential."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Neglecting to follow a routine can lead to increased pest activity and potential infestations.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "the-five-minute-daily-scan-routine",
+      "title": "The Five-Minute Daily Scan Routine",
+      "intro": "This chapter introduces a simple, five-minute routine designed to help you catch early signs of pest activity in your kitchen. By establishing a daily habit, you can maintain visibility and prevent infestations before they escalate.",
+      "opener": {
+        "query": "kitchen interior, high lumen flashlight on countertop, organized cleaning tools, soft morning light, photorealistic, no people, no text, no watermark",
+        "flux_prompt": "full-bleed shot of a well-organized kitchen with cleaning tools ready for the daily scan",
+        "alt": "A flashlight and card ready for a short kitchen scan.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\010-pexels.jpg",
+        "credit": "Photo by cottonbro studio on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:6927198"
+      },
+      "sections": [
+        {
+          "slug": "understanding-the-problem",
+          "title": "Understanding the Problem",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "kitchen entryway, flashlight illuminating floor edges, soft morning light, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "angle showing the entry and trash zone of a kitchen, highlighting potential pest hotspots",
+            "alt": "close-up of the trash bin area with clear signs of inspection.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\011-pexels.jpg",
+            "credit": "Photo by Kaiya Inouye on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:35449993"
+          },
+          "scenario": "In a 1BHK apartment in Pune, Riya often finds herself rushing through her busy mornings, leaving her kitchen unchecked. Without a consistent inspection routine, she misses early signs of pest activity, leading to a growing concern about potential infestations.",
+          "principle": "Consistent inspections prevent blind spots and decision drift.",
+          "body": [
+            "Many kitchens aim to monitor for pests, but inspections are frequently sporadic and reactive. Riya's busy schedule means she often forgets to check her kitchen until she notices something alarming, like droppings or damage. This lack of routine creates blind spots that can lead to bigger problems.",
+            "Without a simple system, inspections become haphazard. Riya might check the trash one day but skip the pantry the next, missing critical signs of pest activity. Over time, this inconsistency erodes her confidence in her ability to manage her kitchen's cleanliness and safety.",
+            "Decision drift is another issue. Riya may see a few droppings one day and none the next, causing her to forget about the earlier signs. This lack of documentation leads to delayed actions, allowing potential infestations to worsen."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Ignoring the need for a structured routine leads to missed signals and delayed action.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "the-five-pass-routine",
+          "title": "The Five Pass Routine",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "kitchen sink area, high lumen flashlight illuminating drain, soft evening light, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "view of the sink and drain area during inspection, highlighting potential pest signals",
+            "alt": "close-up of the under-sink cabinet with inspection tools laid out.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\012-pexels.jpg",
+            "credit": "Photo by Zulfugar Karimov on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:34295401"
+          },
+          "scenario": "In a shared kitchen in Bengaluru, the team of four has struggled with inconsistent checks. They decide to implement the five-minute scan routine to ensure all areas are covered daily.",
+          "principle": "A structured five-pass routine ensures thorough coverage of high-risk zones.",
+          "body": [
+            "The Five Minute Daily Scan Routine consists of five one-minute passes that cover the kitchen's highest risk zones: entry and trash, sink and drains, pantry and dry storage, appliances and floor edges, and ceiling wall junctions and corners. Each pass targets specific signals that may indicate pest activity, allowing the team to focus their attention effectively.",
+            "The core cadence of this routine is PACE: Prepare, Assess, Capture, Evaluate. The team prepares their tools and sets a timer, then assesses each area for signs of pests. They capture their findings with photos and notes, and finally evaluate the severity of any signs they find. This structure helps them produce consistent data and reduces the chance of missing critical signals.",
+            "Timing is crucial. The team decides to conduct their scans in the early morning before the kitchen gets busy. This timing allows them to catch any overnight activity, such as droppings or frass, before the day begins."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Failing to follow the PACE structure can lead to inconsistent data collection and missed signals.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "implementing-the-routine",
+          "title": "Implementing the Routine",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "pantry shelves, flashlight highlighting potential pest signs, soft morning light, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "image of pantry shelves being inspected, showcasing potential pest activity",
+            "alt": "close-up of packaging damage and residues found during inspection.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\013-pexels.jpg",
+            "credit": "Photo by Campio Saez on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:19337913"
+          },
+          "scenario": "In a Mumbai apartment kitchen, Meera posts a five-zone route near the sink and runs the scan at the last wipe-down of the day.",
+          "principle": "Implementation of a fixed route enhances consistency and data reliability.",
+          "body": [
+            "Today's output: a staged caddy and a drawn five-zone route. Flashlight, inspection mirror, wipes, white index card, lint roller, and a five-minute timer.",
+            "Use the same order every day. Prepare, assess, capture, evaluate. Log date, time, and findings so the next day is not a memory test.",
+            "Do not pull out appliances or open sealed cavities solely to hunt for pests. Observe, document, monitor, then escalate."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Not logging findings can lead to confusion and missed opportunities for action.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "common-pitfalls-and-solutions",
+          "title": "Common Pitfalls and Solutions",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "kitchen floor edges, flashlight illuminating potential pest signs, soft evening light, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "view of kitchen floor edges being inspected, highlighting potential pest hotspots",
+            "alt": "close-up of fine residues collected during inspection.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\010-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6927198"
+          },
+          "scenario": "In a food truck operating in Chennai, the owner faces challenges due to limited space and varying workloads. They implement the five-minute routine but encounter common pitfalls.",
+          "principle": "Awareness of common pitfalls can enhance the effectiveness of the routine.",
+          "body": [
+            "Rushing past hotspots is a frequent issue. The owner realizes that skimming without aiming the flashlight along edges leads to missed residues. They remind themselves to aim slightly off-axis and move the beam slowly to catch everything.",
+            "Poor lighting can hide fine particles. The owner invests in a high lumen flashlight and ensures local lights are turned on during inspections to avoid shadows. This adjustment significantly improves their ability to see potential signs of pest activity.",
+            "Skipping floor edges is another common mistake. The owner learns to treat floor edges as priority surfaces during Pass One and Pass Four, ensuring that they do not overlook critical areas where micro signs often gather."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Ignoring common pitfalls can lead to ineffective inspections and missed signals.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "key-takeaways-and-action-items",
+          "title": "Child and pet safety before any trap",
+          "day_label": "Day 5",
+          "hero": {
+            "query": "shared kitchen area, cleaning tools organized, soft morning light, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "image of a shared kitchen with cleaning tools ready for the daily scan",
+            "alt": "close-up of the organized caddy with inspection tools.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\015-pexels.jpg",
+            "credit": "Photo by Thomas  balabaud on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:36303748"
+          },
+          "scenario": "In a shared kitchen in Delhi, multiple tenants are responsible for maintaining cleanliness. They adopt the five-minute routine to improve compliance and visibility.",
+          "principle": "Place nothing a child or pet can reach, eat, or trip on.",
+          "body": [
+            "Today's output: a child-and-pet safety pass on the kitchen floor plan, completed before you put out a monitor, glue board, bait, snap trap, or sensor.",
+            "Keep traps and bait inaccessible to children and pets. Do not place bait beside food or water bowls. Secure loose cords and sensor hardware. Avoid exposed traps in walking areas. Follow the product's own instructions for pet and child exposure. If accidental exposure occurs, follow the product label and emergency guidance and seek appropriate medical or veterinary help.",
+            "The five-minute scan still matters: fixed route, log, habit loop. Safety sits in front of detection hardware, not after a 72-hour plan."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Child and pet safety",
+              "caption": "Complete this pass before the monitors chapter. Product labels still win.",
+              "values": [
+                "Out of reach and locked if the product says so",
+                "Never next to bowls",
+                "Tape or route them out of traffic",
+                "Not in walking lines or under toddler hands",
+                "The label, not a kitchen myth",
+                "Label plus medical or veterinary help"
+              ],
+              "labels": [
+                "Traps and bait",
+                "Food and water bowls",
+                "Cords and sensor hardware",
+                "Exposed traps",
+                "Pet and child exposure",
+                "If exposure happens"
+              ],
+              "minimum": null,
+              "spec_id": "D006",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D006.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Putting a glue board where a cat walks or a bait next to a bowl.",
+          "checklist": [
+            "Walk the floor as a child or pet would",
+            "Move bowls away from any bait plan",
+            "Secure cords before hardware goes down"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "low-cost-monitors-and-diy-traps-that-work",
+      "title": "Low-cost monitors and DIY detection tools",
+      "intro": "This chapter is about detection and monitoring, not guaranteed eradication. Low-cost tools help you see activity early. A catch does not mean the infestation is over. Child and pet safety from the previous section still applies: inaccessible bait and traps, no bait by bowls, no exposed glue in walking lines. Label every device as detection, monitoring, or control before you place it.",
+      "opener": {
+        "query": "kitchen with various DIY traps and monitors, natural light, clean surfaces, no people",
+        "flux_prompt": "full-bleed shot of a well-organized kitchen with traps placed strategically",
+        "alt": "Monitors along a kitchen edge, kept off the prep surface and out of a walking line.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\016-pexels.jpg",
+        "credit": "Photo by cottonbro studio on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:8720260"
+      },
+      "sections": [
+        {
+          "slug": "understanding-your-kitchen-s-pest-zones",
+          "title": "Understanding Your Kitchen's Pest Zones",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "kitchen layout sketch with marked zones",
+            "flux_prompt": "illustration of a kitchen with numbered zones marked for traps",
+            "alt": "detailed view of a kitchen layout with pest zones highlighted",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\003-pexels.jpg",
+            "credit": "Photo by Ron Lach on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:9616961"
+          },
+          "scenario": "Ravi lives in a 1BHK apartment in Pune with a compact kitchen. He often notices small insects near his trash bin and sink. To tackle this, he decides to map out his kitchen zones and identify potential trap placements.",
+          "principle": "Mapping your kitchen zones helps in strategic placement of traps.",
+          "body": [
+            "Start by sketching your kitchen layout, identifying five key zones: entry and trash, sink and drains, pantry and dry storage, appliances and floor edges, and ceiling wall junctions and corners. For Ravi, this means marking the area around his trash bin and sink as high-priority zones for pest activity.",
+            "Next, number the corners and edges where traps can be discreetly placed. For example, Ravi can place traps along the edges of his trash bin and behind the sink where moisture often attracts pests.",
+            "This initial mapping sets the foundation for effective monitoring, ensuring traps are placed where pests are likely to travel."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Neglecting to map out the kitchen can lead to ineffective trap placement.",
+          "checklist": [
+            "Sketch your kitchen zones",
+            "Identify potential trap positions along edges and corners",
+            "Number corners and edges for easy reference"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "selecting-the-right-monitors",
+          "title": "Selecting the Right Monitors",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "various pest monitors displayed in a kitchen setting",
+            "flux_prompt": "photo of selected monitors in a kitchen environment",
+            "alt": "close-up of different types of pest monitors arranged on a countertop",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\018-pexels.jpg",
+            "credit": "Photo by Kampus Production on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8949861"
+          },
+          "scenario": "Priya, living in a small Bengaluru rental, is concerned about pantry moths. She decides to select appropriate monitors for her kitchen based on the zones she identified.",
+          "principle": "Choosing the right monitors ensures effective pest detection without attracting them to food areas.",
+          "body": [
+            "Today's output: one device per zone, each labeled detection/monitoring or control, placed away from food-contact surfaces and out of child and pet reach.",
+            "Entry and trash: a fruit-fly bottle or vinegar dish is detection and, in a limited fruit-fly situation, light control — not a roach or rodent solution. Sink: a vinegar station and a sticky monitor behind a pipe you can reach. Pantry: a pheromone trap high on a shelf (detection/monitoring) and a sticky monitor on the floor if children and pets cannot reach it.",
+            "Do not use one method as if it worked for every pest. Snap traps and bait stations are control devices. Follow the label. Never apply a pesticide to food, utensils, or a food-contact surface contrary to the label."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Tool and primary role",
+              "caption": "Detection is not control. Control is not a guarantee.",
+              "values": [
+                "Detection / monitoring",
+                "Detection / monitoring",
+                "Limited fruit-fly detection / control",
+                "Control",
+                "Control",
+                "Observation",
+                "Root-cause detection"
+              ],
+              "labels": [
+                "Pheromone trap",
+                "Sticky monitor",
+                "Vinegar trap",
+                "Bait station",
+                "Snap trap",
+                "Camera",
+                "Moisture sensor"
+              ],
+              "minimum": null,
+              "spec_id": "D013",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D013.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Calling every DIY trap a solution that works.",
+          "checklist": [
+            "Select one monitor type for each zone",
+            "Gather materials for DIY builds",
+            "Ensure monitors are placed away from food prep areas"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "effective-placement-strategies",
+          "title": "Effective Placement Strategies",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "kitchen with traps placed strategically along edges and corners",
+            "flux_prompt": "image of a well-organized kitchen with traps in effective positions",
+            "alt": "detailed view of traps placed in a kitchen setting",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\019-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6076850"
+          },
+          "scenario": "Anjali, who lives in a Mumbai flat with limited space, needs to place her traps effectively to avoid clutter while ensuring they are functional.",
+          "principle": "Strategic placement of traps maximizes their effectiveness while minimizing disruption in the kitchen.",
+          "body": [
+            "Today's output: monitors on edges and corners, off prep surfaces, inaccessible to children and pets, spaced so they do not cluster into one unreadable pile.",
+            "Glue boards along floor edges and behind appliances you can see without dismantling them. A roach station, if the product is labeled for that use, stays in a tight warm gap — not on a cutting board.",
+            "Keep devices off food-preparation surfaces. Do not place bait beside bowls. If a walking line would hit a glue board, it is in the wrong place."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Placing traps too close to food can lead to contamination and ineffective monitoring.",
+          "checklist": [
+            "Place along edges first",
+            "Keep off food-contact surfaces",
+            "Recheck child and pet reach"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "monitoring-and-responding-to-data",
+          "title": "Monitoring and Responding to Data",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "logbook with pest monitoring data",
+            "flux_prompt": "photo of a pest monitoring log with data entries",
+            "alt": "close-up of a pest log with calculations and notes",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\020-pexels.jpg",
+            "credit": "Photo by Connor Scott McManus on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:17616803"
+          },
+          "scenario": "In her shared kitchen, Meera notices an increase in pest activity after a week of monitoring. She needs to analyze the data from her traps to decide on the next steps.",
+          "principle": "Regular monitoring and data analysis help in timely responses to pest activity.",
+          "body": [
+            "Today's output: a catch log and an example household trigger, not a universal infestation number.",
+            "Log trap type, location, date, catches, and a catch-per-trap-night snapshot if you want one. A roach snapshot above an example household trigger — such as 0.2 in one compact kitchen using that trap type — is a prompt to clean, confirm, and follow the 72-hour initial response. It is not a scientific infestation threshold.",
+            "Calibrate any number to pest species, kitchen size, baseline activity, trap type, placement, season, severity, and residential versus food-service standards. Absence of a catch is not proof of eradication."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Treating 0.2 as a law that fits every kitchen.",
+          "checklist": [
+            "Log catches and calculate CRI weekly",
+            "Set thresholds for action",
+            "Adjust monitoring strategy based on data"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "smart-sensor-and-camera-integration-for-early-alerts",
+      "title": "Smart Sensor And Camera Integration For Early Alerts",
+      "intro": "This chapter focuses on enhancing your kitchen's pest detection capabilities through the integration of smart sensors and compact cameras. By strategically placing these devices, you can catch signs of pest activity early, ensuring a proactive approach to pest management.",
+      "opener": {
+        "query": "Compact kitchen with smart sensors and cameras, soft evening light, textures of wood and metal, photorealistic, no people, no text, no watermark.",
+        "flux_prompt": "Full-bleed shot of a modern kitchen equipped with smart sensors and cameras, showcasing their strategic placement.",
+        "alt": "A compact kitchen with a low-angle camera aimed at the floor edge.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\021-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:7019027"
+      },
+      "sections": [
+        {
+          "slug": "understanding-your-kitchen-s-pest-pathways",
+          "title": "Understanding Your Kitchen's Pest Pathways",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "Pest pathways marked in a kitchen, soft evening light, textures of wood and metal, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A close-up shot of floor edges and appliance bases in a kitchen, highlighting potential pest pathways.",
+            "alt": "Detailed view of a kitchen floor edge with sensors positioned.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\022-pexels.jpg",
+            "credit": "Photo by Alexey Demidov on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:12306338"
+          },
+          "scenario": "Ravi lives in a 1BHK apartment in Pune with a compact kitchen. He has noticed occasional pest activity but wants to prevent infestations before they start. By understanding pest pathways, he can effectively place his sensors and cameras.",
+          "principle": "Identify and monitor key pest pathways to enhance detection.",
+          "body": [
+            "Pests like rodents and cockroaches often travel along predictable paths, such as floor edges and behind appliances. In Ravi's kitchen, placing sensors along these pathways can provide early alerts to any movement. For instance, a motion sensor can be positioned near the baseboards where pests are likely to travel after dark.",
+            "Additionally, moisture and temperature sensors can be placed under the sink and near appliances that generate heat. This setup will help Ravi detect leaks or warm areas that attract pests, allowing him to act before an infestation occurs.",
+            "By mapping out these pathways and placing sensors accordingly, Ravi can create a layered listening system that captures pest activity effectively."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Ignoring the importance of strategic placement can lead to missed alerts and pest infestations.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "choosing-the-right-sensors-and-cameras",
+          "title": "Choosing the Right Sensors and Cameras",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "Selection of smart sensors and cameras in a kitchen, soft evening light, textures of wood and metal, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "An organized display of selected sensors and cameras on a kitchen counter.",
+            "alt": "Close-up of a compact camera and sensors ready for installation.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\023-pexels.jpg",
+            "credit": "Photo by Jordan Benton on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:9181686"
+          },
+          "scenario": "Anjali, in a compact Bengaluru rental with limited under-sink access, wants devices that fit the kitchen she can actually reach.",
+          "principle": "Select sensors and cameras based on specific pest behaviors and kitchen layout.",
+          "body": [
+            "Today's output: a short device list plus a privacy rule. Use the narrowest field of view necessary to monitor the kitchen and disable audio when it is unnecessary.",
+            "Low-angle cameras on floor edges and trash can help. Do not aim them at bedrooms, bathrooms, or other private areas. Tell household members. Warn guests. Do not record audio unless you have a specific reason and everyone who can be recorded is informed. For cloud cameras, know who can view the feed and when you will delete recordings.",
+            "A humidity sensor under the sink is useful if you can place it without opening sealed plumbing. Vibration on a trash lid can catch disturbance — and also a roommate. Expect false alerts."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Camera privacy rule",
+              "caption": "Narrow view. Kitchen only. Audio off unless it is necessary.",
+              "values": [
+                "Out of bounds",
+                "Tell them the camera exists",
+                "Warn them",
+                "Off unless truly needed",
+                "Who can see it, when it is deleted",
+                "Kitchen floor and trash, not faces at the table"
+              ],
+              "labels": [
+                "Bedrooms, bathrooms, private rooms",
+                "Household members",
+                "Guests",
+                "Audio recording",
+                "Cloud cameras and retention",
+                "Field of view"
+              ],
+              "minimum": null,
+              "spec_id": "D017",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D017.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "A wide camera with audio on in a shared home.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "configuring-alerts-and-filters",
+          "title": "Configuring Alerts and Filters",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "Kitchen alert configuration setup, soft evening light, textures of wood and metal, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A close-up of a smartphone displaying alert settings for kitchen sensors.",
+            "alt": "Detailed view of alert settings on a smart device.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\024-pexels.jpg",
+            "credit": "Photo by Bruno Curly on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:16868080"
+          },
+          "scenario": "Deepak, who lives in a Mumbai flat with a window on only one side, faces challenges with noise and false alerts. He needs to configure his sensors to minimize distractions while maximizing effectiveness.",
+          "principle": "Set up alerts and filters to reduce false positives and focus on meaningful signals.",
+          "body": [
+            "Deepak can start by establishing quiet hours for his sensors, setting them to only alert during times when pests are most active, typically between 11 p.m. and 5 a.m. This will significantly reduce the number of unnecessary notifications he receives during the day when he is busy.",
+            "He should also adjust the sensitivity settings on his motion sensors to avoid alerts triggered by minor movements or reflections from shiny surfaces. By creating motion zones that exclude these areas, Deepak can ensure that only significant movements are captured.",
+            "Batching alerts is another effective strategy. Instead of receiving multiple notifications for every small event, Deepak can configure his system to send a summary every ten minutes, allowing him to focus on patterns rather than individual alerts.",
+            "Sensors fail and lie. Low battery, Wi-Fi loss, a blocked lens, dust, humidity-sensor drift, pets, HVAC airflow, shadows, and missed notifications are common. Physically verify before you treat an alert as confirmed pest activity."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Failing to set filters can lead to alert fatigue, causing important notifications to be overlooked.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "integrating-alerts-with-daily-logs",
+          "title": "Integrating Alerts with Daily Logs",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "Daily operational logs integrated with sensor alerts, soft evening light, textures of wood and metal, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A workspace with a logbook and a smartphone displaying sensor alerts.",
+            "alt": "Close-up of a logbook with sensor event entries.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\025-pexels.jpg",
+            "credit": "Photo by Jan van der Wolf on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:15780139"
+          },
+          "scenario": "Sita lives in a Delhi apartment and wants sensor alerts next to her kitchen log, not a café operations file.",
+          "principle": "Combine sensor alerts with daily logs for comprehensive pest monitoring.",
+          "body": [
+            "Today's output: each alert tagged with time, device, and zone in the same household log you already keep.",
+            "If a motion alert fires near the trash, check whether the bin was just moved, a pet walked by, or a previous alert cluster exists. A sensor is a prompt to look, not proof of a pest.",
+            "This book is for residential kitchens. A café log may have extra legal fields; do not copy those unless they apply to you."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Neglecting to log sensor events can result in missed patterns and ineffective pest management strategies.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "reviewing-and-scoring-alerts",
+          "title": "Reviewing and Scoring Alerts",
+          "day_label": "Day 5",
+          "hero": {
+            "query": "Pest alert scoring system in a kitchen, soft evening light, textures of wood and metal, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A visual representation of a scoring system for pest alerts.",
+            "alt": "Close-up of a scoring sheet with pest alert evaluations.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\024-pexels.jpg",
+            "credit": "Photo by Bruno Curly on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:16868080"
+          },
+          "scenario": "Karan, living in a small apartment in Hyderabad, wants to develop a scoring system for his alerts to prioritize actions based on evidence.",
+          "principle": "Create a scoring system to prioritize pest alerts and actions.",
+          "body": [
+            "Today's output: a confidence score that still requires a physical look. A high score is a reason to inspect, not a reason to spray.",
+            "Example weights — a floor-edge motion clip might score higher than a humidity blip — are household aids. Recalibrate. Pets, HVAC, and light shifts can copy pest motion.",
+            "If the score is high, verify in the room: look, use the flashlight, check the monitor. If you cannot confirm, log it as unverified. Do not open a pesticide because a phone buzzed."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Sensor failure and false alerts",
+              "caption": "Verify in the room before you treat a notification as a pest.",
+              "values": [
+                "Dead or dying power",
+                "Dropped events",
+                "No picture, still alerting",
+                "Drift, not a leak",
+                "Motion that is not a pest",
+                "Air and light copying motion",
+                "You never saw the ping",
+                "Required before treatment"
+              ],
+              "labels": [
+                "Low battery",
+                "Wi-Fi loss",
+                "Camera obstruction or dust",
+                "Humidity sensor drift",
+                "Pets",
+                "HVAC airflow, shadows, light shifts",
+                "Missed notifications",
+                "Physical verification"
+              ],
+              "minimum": null,
+              "spec_id": "D014",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D014.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Spraying because a humidity ping arrived at 2 a.m.",
+          "checklist": [
+            "Score the alert",
+            "Walk to the zone",
+            "Treat only what you can confirm"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "food-storage-and-sanitation-hardening",
+      "title": "Food Storage And Sanitation Hardening",
+      "intro": "This chapter focuses on hardening your kitchen's storage and sanitation to enhance early detection of pests. By removing attractants and habitats, you can ensure that weak signals stand out, allowing for timely intervention before infestations occur.",
+      "opener": {
+        "query": "kitchen pantry with organized airtight containers, one window light, teak textures, magazine styling, photorealistic",
+        "flux_prompt": "full-bleed shot of a well-organized kitchen pantry with airtight containers and a clean countertop",
+        "alt": "Airtight dry-goods containers on a clean pantry shelf.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\027-pexels.jpg",
+        "credit": "Photo by RDNE Stock project on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:8581016"
+      },
+      "sections": [
+        {
+          "slug": "why-cluttered-storage-and-wet-corners-mask-signals",
+          "title": "Why Cluttered Storage And Wet Corners Mask Signals",
+          "day_label": "Day One",
+          "hero": {
+            "query": "organized kitchen pantry with airtight containers, one window light, teak textures, magazine styling, photorealistic",
+            "flux_prompt": "angle shot of a pantry with labeled airtight containers and a clean countertop",
+            "alt": "close-up of airtight containers with labels",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\027-pexels.jpg",
+            "credit": "Photo by RDNE Stock project on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8581016"
+          },
+          "scenario": "Ravi lives in a 1BHK apartment in Pune with a small kitchen. His pantry is cluttered with open bags of flour and rice, leading to frequent pest sightings. After learning about hardening, he decides to reorganize his pantry to improve pest detection.",
+          "principle": "A clean and organized storage space enhances early detection of pest activity.",
+          "body": [
+            "Today's output: clutter and standing moisture named as signal-maskers, without a single humidity number as a guarantee.",
+            "Open bags and damp corners hide the difference between a crumb and a dropping. Cockroaches last longer without food than without water, so leaks matter more than a perfect percentage on a cheap meter.",
+            "Keep indoor humidity in a reasonable range for your climate, building, and equipment, and address persistent moisture or condensation. The pest-control principle is eliminating persistent moisture, not making every kitchen hit an exact number."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Moisture, not a magic humidity number",
+              "caption": "Persistent damp is the pest resource. An exact percent is not.",
+              "values": [
+                "Reasonable for your climate and kit",
+                "Fix it; do not average it away",
+                "A habitat even when the room feels fine",
+                "Report it; do not ignore it",
+                "Not a universal kitchen target"
+              ],
+              "labels": [
+                "Indoor humidity",
+                "Persistent moisture or condensation",
+                "A wet cabinet base",
+                "A leak you cannot reach",
+                "A printed 40–50 percent rule"
+              ],
+              "minimum": null,
+              "spec_id": "D001",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D001.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Ignoring the clutter in the pantry and not addressing moisture issues can lead to pest infestations.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "storage-that-starves-pests-of-food-and-shelter",
+          "title": "Storage That Starves Pests Of Food And Shelter",
+          "day_label": "Day Two",
+          "hero": {
+            "query": "neatly organized pantry with airtight containers, one window light, teak textures, magazine styling, photorealistic",
+            "flux_prompt": "close-up of airtight containers with labels and a clean countertop",
+            "alt": "wide shot of a pantry with organized containers",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\027-pexels.jpg",
+            "credit": "Photo by RDNE Stock project on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8581016"
+          },
+          "scenario": "Anjali, in a compact Bengaluru rental with shared kitchen storage, struggles with pantry pests and wants incoming food quarantined from the established stock.",
+          "principle": "Airtight storage prevents pests from accessing food and reduces the risk of infestations.",
+          "body": [
+            "Today's output: dry goods in rigid, gasketed containers you will actually close, plus a new-package inspection before anything joins the pantry.",
+            "Inspect packaging, seams, and folds. Look for holes, gnaw marks, or webbing. Store susceptible dry goods in containers the pest cannot enter. Do not mix a questionable new package with established stock. If an infestation shows up, record the suspected source — store, trip, gift bag — so the next shop is not a repeat.",
+            "Decant if that is how you keep a seal. Label and rotate. This is especially useful after travel and for pantry moths and other stored-product pests."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "New food entering the kitchen",
+              "caption": "Do not park a suspect bag against clean stock.",
+              "values": [
+                "Before it shelves",
+                "Favorite moth hiding places",
+                "Holes, gnaws, silk",
+                "Sealed, dry, pest-tight if you can",
+                "Quarantine first",
+                "Store, trip, or gift — write it down"
+              ],
+              "labels": [
+                "Inspect packaging",
+                "Check seams and folds",
+                "Damaged wrap or webbing",
+                "Store susceptible dry goods",
+                "Do not mix with established stock",
+                "Record suspected source"
+              ],
+              "minimum": null,
+              "spec_id": "D018",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D018.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Tipping a travel snack bag straight into the flour bin.",
+          "checklist": [
+            "Inspect new dry goods",
+            "Quarantine damaged packs",
+            "Decant only into a seal you trust"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "moisture-control-and-drain-care",
+          "title": "Moisture Control And Drain Care",
+          "day_label": "Day Three",
+          "hero": {
+            "query": "under sink area with moisture sensor and waterproof mat, one window light, teak textures, magazine styling, photorealistic",
+            "flux_prompt": "angle shot of under sink area with moisture sensor and waterproof mat",
+            "alt": "close-up of moisture sensor under sink",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\030-pexels.jpg",
+            "credit": "Photo by Richard REVEL on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:32648221"
+          },
+          "scenario": "Sita, who lives in a Mumbai flat with a window on only one side, faces moisture issues under her sink. She decides to install moisture sensors and waterproof mats to manage leaks effectively.",
+          "principle": "Controlling moisture is crucial for preventing pest habitats.",
+          "body": [
+            "Today's output: a reachable leak check and a drain clean you can do without modifying plumbing you do not own.",
+            "A moisture sensor under the sink is useful if it sits on a tray, not inside a sealed joint. A lipped waterproof mat catches drips. Renters report slow leaks; they do not take the trap apart unless the lease and a qualified person say so.",
+            "Clean drains with a brush. Use an enzyme or gel only if the product is labeled for that drain. Do not mix drain chemicals. Persistent moisture, not a 40–50 percent slogan, is the pest resource."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Pouring a second drain product on top of the first.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "the-sanitation-cycle-that-leaves-no-micro-habitat",
+          "title": "The Sanitation Cycle That Leaves No Micro Habitat",
+          "day_label": "Day Four",
+          "hero": {
+            "query": "clean kitchen with sanitation supplies, one window light, teak textures, magazine styling, photorealistic",
+            "flux_prompt": "angle shot of a clean kitchen with sanitation supplies visible",
+            "alt": "close-up of sanitation supplies on a clean countertop",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\031-pexels.jpg",
+            "credit": "Photo by 开 心 on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:31751888"
+          },
+          "scenario": "Vikram, who shares a small kitchen with his roommates in a Pune apartment, implements a sanitation cycle to keep their kitchen clean and pest-free.",
+          "principle": "A consistent sanitation cycle eliminates micro habitats that support pests.",
+          "body": [
+            "Vikram established a five-step sanitation cycle in his kitchen: scrape, wash, rinse, sanitize, and dry. He trained his roommates on this process, ensuring everyone knew the importance of cleaning before sanitizing. This cycle helps maintain a clean environment, reducing the risk of pest infestations.",
+            "After each meal, Vikram scrapes food debris into compost or trash before adding water. This dry scraping minimizes water use and splash, making the cleaning process more efficient. He then uses hot, soapy water and friction to wash surfaces, replacing the water when it becomes cloudy.",
+            "Finally, Vikram applies the correct dilution of sanitizer, allowing surfaces to remain wet for the specified contact time before air drying. By following this sanitation cycle, he ensures that no micro habitats are left behind, making it harder for pests to establish themselves."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Sanitizing dirty surfaces without cleaning first will not effectively reduce pest populations.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "logging-thresholds-and-decision-trees",
+      "title": "Logging, Thresholds, And Decision Trees",
+      "intro": "This chapter bridges observation and decision-making in kitchen management. It provides a structured approach to logging data, defining thresholds for action, and utilizing decision trees to ensure timely responses to pest activity.",
+      "opener": {
+        "query": "kitchen interior, organized logs, clipboard on wall, natural light, clean surfaces, no people",
+        "flux_prompt": "full-bleed image of a well-organized kitchen with logs and monitoring tools visible",
+        "alt": "A clipboard log in a home kitchen.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\032-pexels.jpg",
+        "credit": "Photo by Cup of  Couple on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:7303999"
+      },
+      "sections": [
+        {
+          "slug": "structured-logs-for-effective-monitoring",
+          "title": "Structured Logs for Effective Monitoring",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "kitchen logs on clipboard, natural light, organized space, no people",
+            "flux_prompt": "image of a clipboard with logs in a well-lit kitchen, emphasizing neatness and accessibility",
+            "alt": "close-up of logs with handwritten entries and a pen nearby",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\033-pexels.jpg",
+            "credit": "Photo by ommy on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:36894979"
+          },
+          "scenario": "In a 1BHK apartment in Pune, Riya, a home chef, has noticed occasional pest activity in her small kitchen. To manage this, she sets up structured logs to capture essential details about sightings and traps.",
+          "principle": "Structured logs align with detection routines and kitchen layouts.",
+          "body": [
+            "Riya creates four distinct logs: Sightings Log, Trap Catch Log, Sensor Alert Log, and Sanitation Task Log. Each log captures vital information such as date, time, zone, pest type, and notes, ensuring quick entries that can be easily referenced.",
+            "The Sightings Log includes fields for date and time, zone (like prep or dry storage), pest type (ant, roach, etc.), count, and a note for additional context. This log helps Riya track pest activity effectively.",
+            "Riya places these logs on a clipboard near her kitchen door, ensuring they are accessible for quick updates. This setup encourages consistent logging, which is crucial for identifying patterns in pest activity."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Failing to log sightings consistently can lead to missed patterns and delayed action.",
+          "checklist": [
+            "Create a Sightings Log",
+            "Establish a Trap Catch Log",
+            "Set up a Sensor Alert Log",
+            "Implement a Sanitation Task Log"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "defining-effective-thresholds",
+          "title": "Example household trigger thresholds",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "apartment kitchen notes on a wall, natural light, organized, no people",
+            "flux_prompt": "image of a home kitchen with pest-monitoring notes, emphasizing cleanliness",
+            "alt": "Household threshold notes on a kitchen wall, not a café pass.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\034-pexels.jpg",
+            "credit": "Photo by Rodrigo Simoes on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:11209666"
+          },
+          "scenario": "In a compact Bengaluru rental with limited under-sink access, Anil keeps getting fruit flies in a home kitchen. He writes example household triggers, then calibrates them.",
+          "principle": "Numbers are household examples. Calibrate them. They are not laboratory infestation limits.",
+          "body": [
+            "Today's output: written example household trigger thresholds, labeled as examples, plus the list of what you will calibrate.",
+            "An example: three adult fruit-fly sightings in one day may trigger extra drain cleaning and 72-hour verification monitoring. An example: one confirmed cockroach sighting may trigger sticky monitors and a vacuum of a reachable appliance base. A roach catch-rate snapshot used in one compact kitchen is not a universal scientific threshold.",
+            "Calibrate to pest species, kitchen size, baseline activity, trap type, trap placement, season, severity, and whether food-service or residential standards apply. This book uses residential standards. A Delhi café example in an older draft is not your action level."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Calibrate every threshold",
+              "caption": "Example household triggers only. Not a universal infestation number.",
+              "values": [
+                "Ants are not rodents",
+                "A studio is not a canteen",
+                "What 'normal' already was",
+                "Glue, pheromone, and snap are not equal",
+                "An edge catch is not a counter catch",
+                "Warm weeks change pressure",
+                "One scout is not a nest",
+                "Home rules are not café rules"
+              ],
+              "labels": [
+                "Pest species",
+                "Kitchen size",
+                "Baseline activity",
+                "Trap type",
+                "Trap placement",
+                "Season",
+                "Severity",
+                "Residential vs food-service"
+              ],
+              "minimum": null,
+              "spec_id": "D010",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D010.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Copying 0.2 or 'three flies' into a different kitchen as science.",
+          "checklist": [
+            "Label numbers as examples",
+            "Write your calibration list",
+            "Keep rodent rules outside the number game"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "utilizing-decision-trees-for-action",
+          "title": "Utilizing Decision Trees for Action",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "decision tree on wall in kitchen, natural light, organized, no people",
+            "flux_prompt": "image of a decision tree diagram posted in a kitchen, highlighting clarity and structure",
+            "alt": "close-up of decision tree with clear steps and criteria",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\035-pexels.jpg",
+            "credit": "Photo by Cup of  Couple on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7303796"
+          },
+          "scenario": "In a Mumbai flat with a window on only one side, Meera uses a decision tree so a single ant and a live rodent do not get the same response.",
+          "principle": "Decision trees standardize actions based on detected signals.",
+          "body": [
+            "Today's output: a posted flow — Detect, Confirm, Classify, Act, Verify — plus a rodent branch that skips DIY control.",
+            "Confirm with a photo or a second look. Classify the pest and the zone. Ants, pantry moths, and fruit flies can stay in a household playbook. A live rodent, gnawing on wiring, a nest, or activity in multiple rooms is professional assessment.",
+            "Do not dismantle appliances, electrical equipment, sealed building cavities, or plumbing solely to investigate. Observe, document, monitor, escalate."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Treating a rodent like an ant trail.",
+          "checklist": [
+            "Post Detect / Confirm / Classify / Act / Verify",
+            "Add a rodent escalation branch",
+            "Write the do-not-dismantle rule next to the tree"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "implementing-trend-analysis-and-weekly-reviews",
+          "title": "Implementing Trend Analysis and Weekly Reviews",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "kitchen with trend analysis charts, natural light, organized, no people",
+            "flux_prompt": "image of a kitchen with trend analysis charts displayed, emphasizing data-driven management",
+            "alt": "close-up of trend analysis charts on a wall in a kitchen, showcasing pest activity over time",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\036-pexels.jpg",
+            "credit": "Photo by Rafael Minguet Delgado on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:38654744"
+          },
+          "scenario": "In a Chennai apartment kitchen, Ravi uses a weekly review so one fruit fly does not trigger a chemical response.",
+          "principle": "Trend analysis helps avoid overreactions to isolated events.",
+          "body": [
+            "Today's output: a three-day moving average and a household Composite Risk Index used as a snapshot, not a laboratory grade.",
+            "Score sightings, trap catches, sensor alerts, and sanitation misses. Calibrate the score to pest species, kitchen size, baseline, trap type and placement, season, and whether you are in a home — not a food-service standard.",
+            "A café or restaurant can have different action levels. Do not import those numbers into a household kitchen."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Ignoring trends can lead to missed opportunities for proactive management.",
+          "checklist": [
+            "Calculate a three-day moving average",
+            "Write that CRI numbers are household examples",
+            "Review the week against last week"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "the-72-hour-rapid-response-playbook",
+      "title": "72-hour initial response and verification playbook",
+      "intro": "When a monitor lights up, a trap catches more than usual, or a scan finds a real sign, start a short containment clock. That window is 72 hours of initial response and verification, not a guaranteed infestation-resolution period. A few ants may quiet quickly. Pantry pests may need much longer monitoring. Cockroach activity may continue after the first intervention. Rodent problems can require professional intervention from the first confirmed sign. Structural moisture cannot necessarily be fixed in 72 hours.",
+      "opener": {
+        "query": "kitchen pest control, organized containment, food safety measures, indoor monitoring, ambient light, clean surfaces",
+        "flux_prompt": "full-bleed shot of a well-organized kitchen with sealed containers and monitoring equipment in place, natural light from a window",
+        "alt": "Sealed containers and monitors in a home kitchen during an initial 72-hour check.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\037-pexels.jpg",
+        "credit": "Photo by Matilda Wormwood on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:4099083"
+      },
+      "sections": [
+        {
+          "slug": "phase-one-assess-and-contain-hour-0-to-6",
+          "title": "Phase One: Assess and Contain (Hour 0 to 6)",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "kitchen pest control, organized containment, food safety measures, indoor monitoring, ambient light, clean surfaces",
+            "flux_prompt": "full-bleed shot of a well-organized kitchen with sealed containers and monitoring equipment in place, natural light from a window",
+            "alt": "close-up of sealed food containers and traps in a kitchen setting.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\037-pexels.jpg",
+            "credit": "Photo by Matilda Wormwood on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4099083"
+          },
+          "scenario": "In a 1BHK apartment in Pune, Riya notices a few ants near her kitchen sink. She recalls her threshold of seeing one ant as a trigger to act. At 8 a.m., she starts the clock.",
+          "principle": "Containment protects food safety in the first 24 hours.",
+          "body": [
+            "Today's output: food isolated, trash sealed, extra monitors in the signal zone, and a rodent check that can stop DIY immediately.",
+            "Move open food into sealed containers or the refrigerator. Do not try to salvage what you cannot reliably rule out as contaminated — follow applicable food-safety guidance instead. Seal trash. Add monitors near the signal. Aim cameras at floor edges you already agreed were privacy-safe.",
+            "Rodent escalation rule: get professional assessment if a live rodent is seen inside the kitchen, fresh droppings keep appearing, gnawing occurs around electrical wiring, activity is in multiple rooms, a nest or nesting material is found, or activity persists after initial containment. Do not handle rodent droppings, urine contamination, or a dead rodent casually. Use appropriate protective measures. If contamination is significant, use professional cleanup."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Rodent escalation rule",
+              "caption": "Rodents are not ants. Do not handle droppings or a carcass casually.",
+              "values": [
+                "Professional assessment now",
+                "Professional assessment now",
+                "Professional assessment now",
+                "Professional assessment now",
+                "Professional assessment now",
+                "Professional assessment now",
+                "Protective measures; pro cleanup if significant"
+              ],
+              "labels": [
+                "Live rodent inside the kitchen",
+                "Fresh droppings still appearing",
+                "Gnawing near electrical wiring",
+                "Activity in multiple rooms",
+                "Nest or nesting material found",
+                "Activity after containment",
+                "Droppings, urine, or a dead rodent"
+              ],
+              "minimum": null,
+              "spec_id": "D008",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D008.svg"
+            },
+            {
+              "kind": "table",
+              "title": "When food leaves the kitchen",
+              "caption": "If contamination cannot be ruled out, do not improvise a salvage.",
+              "values": [
+                "Keep if intact; still inspect",
+                "Usually discard; clean the zone",
+                "Do not use the contents",
+                "Do not salvage; escalate cleanup",
+                "Isolate; follow food-safety guidance",
+                "If pests reached it, do not guess",
+                "Clean before any food returns"
+              ],
+              "labels": [
+                "Sealed, unopened, undamaged pack",
+                "Open food exposed to insects",
+                "Packaging with holes or gnaw marks",
+                "Food with droppings or urine",
+                "Pantry goods with suspected infestation",
+                "Refrigerated food exposed to pests",
+                "Food-contact surfaces"
+              ],
+              "minimum": null,
+              "spec_id": "D011",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D011.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Log the trigger event noting the sighting of ants.",
+              "minutes": null
+            },
+            {
+              "text": "Isolate food by sealing open items and refrigerating them.",
+              "minutes": null
+            },
+            {
+              "text": "Seal trash and compost, moving bins away from prep zones.",
+              "minutes": null
+            },
+            {
+              "text": "Increase trap density by adding traps near the sink.",
+              "minutes": null
+            },
+            {
+              "text": "Adjust cameras for better visibility of floor edges.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Bagging rodent droppings with a bare hand, or keeping gnawed rice.",
+          "checklist": [
+            "Isolate or discard food by the tree",
+            "Run the rodent rule",
+            "Add monitors without blocking a walking line"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "phase-two-confirm-and-intensify-monitoring-hour-6-to-24",
+          "title": "Phase Two: Confirm and Intensify Monitoring (Hour 6 to 24)",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "kitchen pest control, monitoring traps, pest identification tools, indoor lighting, clean surfaces",
+            "flux_prompt": "full-bleed shot of traps and monitoring devices set up in a kitchen, natural light highlighting the area",
+            "alt": "close-up of a trap with an ant caught, alongside monitoring logs.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\037-pexels.jpg",
+            "credit": "Photo by Matilda Wormwood on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4099083"
+          },
+          "scenario": "By 2 p.m., Riya checks her traps and finds one ant caught. She decides to intensify her monitoring efforts.",
+          "principle": "Confirmation beats guesswork.",
+          "body": [
+            "Today's output: traps read, hot zone mapped, pest class confirmed if you can do so without dismantling the room.",
+            "Keep food isolated. Identification is a flashlight and a reachable check, not a teardown of the dishwasher. Covering a drain to see what emerges is a monitor, not a chemical.",
+            "If you now have rodent signs, stop the ant-style playbook and follow the rodent escalation rule. 72 hours is still only verification time.",
+            "Do not dismantle appliances, electrical equipment, sealed cavities, or plumbing solely to investigate. Observe, document, monitor, escalate."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Check traps and sensors at 6 hours, noting any catches.",
+              "minutes": null
+            },
+            {
+              "text": "Map catches to identify hot zones.",
+              "minutes": null
+            },
+            {
+              "text": "Use identification tests to confirm pest types.",
+              "minutes": null
+            },
+            {
+              "text": "Document findings in your log with photos.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Moving traps too soon can lead to missed trends; keep them in place for at least 48 hours.",
+          "checklist": [
+            "Check traps and monitors at 6, 12, and 24 hours.",
+            "Map catches to refine hot zones.",
+            "Use identification tests to confirm sources.",
+            "Document findings with timestamps and photos."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "phase-three-targeted-interventions-hour-24-to-48",
+          "title": "Phase Three: Targeted Interventions (Hour 24 to 48)",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "kitchen pest control, targeted interventions, pest bait stations, clean surfaces, ambient light",
+            "flux_prompt": "full-bleed shot of a kitchen with bait stations strategically placed, natural light illuminating the area",
+            "alt": "close-up of nonrepellent bait stations set up in a kitchen.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\040-pexels.jpg",
+            "credit": "Photo by Vladyslav Dukhin on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:19445084"
+          },
+          "scenario": "At 10 a.m., Riya notices a decrease in ant activity but decides to take targeted action to eliminate the source.",
+          "principle": "The label is the law of the product. DIY stops when the pest or the chemical is beyond you.",
+          "body": [
+            "Today's output: a chemical-safety pass, then a labeled, pest-specific step — or a call to a professional.",
+            "Chemical safety rule: use only products legally registered or approved for the intended pest and location, and follow the product label exactly. Never apply pesticides to food, food-contact surfaces, utensils, or areas contrary to the label. Do not mix pest-control chemicals or improvise concentrations.",
+            "Stop DIY treatment and call a professional when you cannot identify the pest, a rodent rule has triggered, activity is rising or spreading, a chemical step would require expertise or equipment you do not have, a nest sits in an inaccessible cavity, wiring may be involved, or the label's required use is not possible in your kitchen (children, pets, food surfaces, rental limits)."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Chemical safety rule",
+              "caption": "The label wins. Mixing is not a kitchen hack.",
+              "values": [
+                "Registered or approved for this pest and place",
+                "Exactly, including waiting times",
+                "Never, unless the label says that surface",
+                "Do not",
+                "Do not invent a stronger mix",
+                "If the label job is beyond you",
+                "If rodents, wiring, nests, or spread"
+              ],
+              "labels": [
+                "Legal product",
+                "Follow the label",
+                "Food, utensils, food-contact surfaces",
+                "Mix pest-control chemicals",
+                "Improvised concentration",
+                "Stop DIY treatment",
+                "Professional, not a second bait brand"
+              ],
+              "minimum": null,
+              "spec_id": "D005",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D005.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Choose pest-specific plays based on confirmed signals.",
+              "minutes": null
+            },
+            {
+              "text": "Apply minimal effective treatments to remove the source.",
+              "minutes": null
+            },
+            {
+              "text": "Maintain increased monitoring and document every intervention.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Pouring leftover cleaner into a bait or spraying a counter 'lightly.'",
+          "checklist": [
+            "Read the full label",
+            "Confirm the pest and the site match the product",
+            "Stop if a rodent or safety rule has triggered"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "phase-four-verify-and-de-escalate-hour-48-to-72",
+          "title": "Phase four: verify — 72 hours is not eradication",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "kitchen pest control, verification process, monitoring logs, clean surfaces, ambient light",
+            "flux_prompt": "full-bleed shot of a kitchen with monitoring logs and traps, natural light highlighting the area",
+            "alt": "close-up of monitoring logs and traps showing successful results.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\041-pexels.jpg",
+            "credit": "Photo by Mikhail Nilov on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8093415"
+          },
+          "scenario": "By 8 a.m., Riya reviews her traps and sensor logs, looking for signs of success before returning to normal operations.",
+          "principle": "Quiet for 72 hours is not proof the infestation is gone.",
+          "body": [
+            "Today's output: a yes/no on each success line, then either a careful de-escalation or a longer watch / professional call.",
+            "De-escalate only when success criteria are actually met: no new confirmed sightings; no new confirmed droppings, frass, or gnawing; trap captures trending to zero; no new activity in the previously affected zone; food and moisture attractants corrected; entry points addressed where practical; no unresolved leak or sanitation issue.",
+            "Absence of evidence during 72 hours does not automatically prove eradication. Pantry pests, cockroaches, rodents, and moisture problems often outlast this window. Keep at least one extra monitor into the following week."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Success criteria before de-escalation",
+              "caption": "All of these, plus no rodent-rule trigger. 72 hours is not a cure clock.",
+              "values": [
+                "Required",
+                "Required",
+                "Required",
+                "Required",
+                "Required",
+                "Where you are allowed to act",
+                "Required",
+                "Not proof of eradication"
+              ],
+              "labels": [
+                "No new confirmed sightings",
+                "No new droppings, frass, or gnawing",
+                "Trap captures trending to zero",
+                "No new activity in that zone",
+                "Food and moisture attractants fixed",
+                "Entry points addressed if practical",
+                "No unresolved leak or sanitation issue",
+                "Quiet for 72 hours"
+              ],
+              "minimum": null,
+              "spec_id": "D009",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D009.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Review trap catches and sensor logs for downward trends.",
+              "minutes": null
+            },
+            {
+              "text": "Perform a focused audit of root causes and close gaps.",
+              "minutes": null
+            },
+            {
+              "text": "De-escalate monitoring density once success criteria are met.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Declaring victory because the glue board was empty for two nights.",
+          "checklist": [
+            "Tick each success line honestly",
+            "Keep one extra monitor",
+            "Escalate if any rodent line is true"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "long-term-prevention-and-seasonal-strategies",
+      "title": "Long-Term Prevention And Seasonal Strategies",
+      "intro": "This chapter shifts your focus from emergency response to long-term prevention. You will learn how to stay ahead of seasonal pressures, keep your kitchen envelope tight, and keep your detection window wide open before pests establish.",
+      "opener": {
+        "query": "kitchen with pest prevention measures, natural light, clean surfaces, organized storage",
+        "flux_prompt": "full-bleed shot of a well-organized kitchen with pest prevention measures in place, showcasing a clean and inviting space",
+        "alt": "A tidy kitchen staged for prevention, not a spray fog.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\008-pexels.jpg",
+        "credit": "Photo by cottonbro studio on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:7418382"
+      },
+      "sections": [
+        {
+          "slug": "environment-hardening",
+          "title": "Environment Hardening",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "kitchen door with a tight seal, natural light, clean surfaces",
+            "flux_prompt": "close-up of a kitchen door with a new door sweep installed, showcasing a tight seal and clean surroundings",
+            "alt": "close-up of a window screen being inspected for tears",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\043-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8146334"
+          },
+          "scenario": "Ravi lives in a 1BHK apartment in Pune with a small kitchen. He notices ants entering through a gap under the front door. After reading about environment hardening, he decides to inspect his door sweeps and thresholds.",
+          "principle": "Renters clean, document, and ask. They do not rebuild the envelope by default.",
+          "body": [
+            "Today's output: a renter-boundary list and a moisture check that does not depend on hitting a printed humidity percent.",
+            "You can usually clean and dry surfaces, organize food, use removable monitors, document activity, use temporary non-damaging measures where appropriate, and report leaks and building defects. Ask the landlord or property management before permanent caulking, door or threshold modifications, plumbing changes, wall penetrations, structural sealing, exterior modifications, or appliance and service-panel work.",
+            "If you own the unit or you have written permission, inspect door sweeps and screens, and seal only with products meant for that gap. Keep indoor humidity in a reasonable range for your climate, building, and equipment, and chase persistent moisture or condensation. The number on a hobby meter is not a pest-control guarantee."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Renter boundary",
+              "caption": "Ask before you alter the building. Removable monitors are usually fine.",
+              "values": [
+                "Usually yes",
+                "Usually yes",
+                "Usually yes",
+                "Usually yes",
+                "With permission",
+                "With permission",
+                "With permission",
+                "With permission"
+              ],
+              "labels": [
+                "Clean, dry, organize food",
+                "Removable monitors",
+                "Document and photograph",
+                "Report leaks and defects",
+                "Permanent caulk or foam",
+                "Door, threshold, or sweep changes",
+                "Plumbing, walls, exterior",
+                "Appliance or service-panel changes"
+              ],
+              "minimum": null,
+              "spec_id": "D012",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D012.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Humidity without a fake target",
+              "caption": "Kill persistent damp. Do not chase one printed percent.",
+              "values": [
+                "Fit climate, building, equipment",
+                "The actual pest resource",
+                "Worth a sensor and a report",
+                "Not a universal kitchen law"
+              ],
+              "labels": [
+                "A reasonable indoor range",
+                "Persistent moisture or condensation",
+                "A cabinet that stays wet",
+                "A 40–50 percent slogan"
+              ],
+              "minimum": null,
+              "spec_id": "D002",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D002.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Foaming a utility gap in a rental and calling it a 40–50 percent humidity fix.",
+          "checklist": [
+            "Circle what you may do without asking",
+            "Write the landlord request for the rest",
+            "Note any standing damp"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "exterior-sanitation",
+          "title": "Exterior Sanitation",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "exterior trash area with clean bins, natural light, organized landscaping",
+            "flux_prompt": "wide shot of a clean exterior trash area with organized landscaping and lidded bins, showcasing a pest-free environment",
+            "alt": "close-up of a well-maintained trash bin area with no debris",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\044-pexels.jpg",
+            "credit": "Photo by Haberdoedas Photography on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:33215586"
+          },
+          "scenario": "Anita lives in a Bengaluru apartment building. She can keep her own bin area clean; she cannot rebuild the compound.",
+          "principle": "Managing the surroundings reduces pest introductions.",
+          "body": [
+            "Today's output: what you can actually control outside a home kitchen — lidded bins, dry pad, no food left beside the door — plus a note of what is the building's job.",
+            "Ask before you change shared drains, landscaping, or exterior walls. Renters report leaks and bin defects; they do not assume a right to rebuild the envelope.",
+            "Indoors, keep drains mechanically clean. Use a product only if it is labeled for that drain and that use. Do not mix chemicals."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Neglecting to clean the area around trash bins can attract pests.",
+          "checklist": [
+            "Use lidded trash bins",
+            "Trim vegetation around the building",
+            "Keep exterior drains clear"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "seasonal-risk-anticipation",
+          "title": "Seasonal Risk Anticipation",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "kitchen during monsoon season, natural light filtering through a window, organized storage",
+            "flux_prompt": "shot of a kitchen during monsoon season with light filtering through a window, showcasing organized storage and pest prevention measures",
+            "alt": "close-up of a moisture sensor placed in a cabinet",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\045-pexels.jpg",
+            "credit": "Photo by Souranshi Fashion and  Lifestyle Magazine on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7148841"
+          },
+          "scenario": "Meera lives in a Mumbai flat with a window on only one side. She plans for the upcoming monsoon season by adjusting her pest prevention strategies.",
+          "principle": "Adjusting ahead of seasonal changes helps manage pest pressure.",
+          "body": [
+            "Seasonality changes detection windows. When average night temperatures rise above 70 degrees Fahrenheit, expect faster cycles for pantry moths and cockroaches. Increase sticky monitor density near dry goods by one or two units and reduce the replacement interval from four weeks to two weeks. During cold snaps, move snap traps closer to door thresholds and utility chases where rodents seek warmth.",
+            "After long humid spells, widen your daily scan around under sink areas and along baseboards near appliances. Look for condensation rings or smell for mustiness. Place a temporary moisture sensor in any cabinet that has stayed damp for more than a day to catch moisture issues early.",
+            "After travel, inspect new dry goods before they join the pantry: packaging, seams, damage, webbing. Quarantine questionable packs. Do not mix them with established stock. Record the suspected source if an infestation appears. Snap traps, if you use them at all, are control devices — child- and pet-inaccessible, labeled for that pest, never a casual hallway placement."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Failing to adjust pest control measures seasonally can lead to infestations.",
+          "checklist": [
+            "Increase monitor density in warm months",
+            "Widen daily scans after humid spells",
+            "Plan for holiday-related pest risks"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "operational-discipline",
+          "title": "Operational Discipline",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "home kitchen checklist on a counter, natural light, organized workspace, no people",
+            "flux_prompt": "shot of an apartment kitchen during a self-audit, organized workspace, no people",
+            "alt": "A household checklist beside a kitchen sink, not a restaurant pass.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\046-pexels.jpg",
+            "credit": "Photo by Mikhail Nilov on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8093926"
+          },
+          "scenario": "Suresh lives in a Chennai apartment and schedules envelope checks he is allowed to do, plus one professional review if activity repeats.",
+          "principle": "Scheduled tasks create a disciplined prevention rhythm.",
+          "body": [
+            "Today's output: a calendar for scans, monitor replacement, and a stop-DIY date if the same problem returns.",
+            "Walk only the envelope you are allowed to touch. Test what you own — bin lids, gaskets, removable monitors. Ask before caulk, door sweeps, or exterior work.",
+            "A licensed pest professional is an audit and, when needed, a treatment the label and the law allow. It is not a commitment to spray on a schedule."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Skipping scheduled audits can lead to unnoticed pest risks.",
+          "checklist": [
+            "Schedule quarterly audits",
+            "Plan for an annual pro inspection",
+            "Create a budget for prevention measures"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "when-diy-stops",
+          "title": "When DIY stops",
+          "day_label": "Day 5",
+          "hero": {
+            "query": "apartment kitchen door gap and a notebook, natural light, no people",
+            "flux_prompt": "shot of an apartment kitchen during a self-audit, organized workspace, no people",
+            "alt": "A kitchen door gap photographed for a landlord, monitors still on the floor edge.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\043-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8146334"
+          },
+          "scenario": "After a second week of the same kitchen activity, Priya in a Pune 1BHK stops adding bait and calls a professional with her log.",
+          "principle": "Detection can stay DIY. Some control cannot.",
+          "body": [
+            "Today's output: a go/no-go list kept with the dashboard of this kitchen. Stop DIY and escalate when any line is true.",
+            "Stop DIY and escalate when: rodents are confirmed; activity is increasing despite intervention; activity occurs in multiple rooms; there is suspected contamination; a nest is suspected in an inaccessible cavity; electrical wiring may be affected; structural moisture is involved; the pest cannot be confidently identified; the problem repeatedly returns; or a chemical intervention would require expertise the reader does not have.",
+            "Bring logs, photos, and product names. Do not improvise a stronger mix while you wait."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Stop DIY and escalate when",
+              "caption": "This page sits before seasonal maintenance habits, not instead of them.",
+              "values": [
+                "Escalate",
+                "Escalate",
+                "Escalate",
+                "Escalate",
+                "Escalate",
+                "Escalate",
+                "Escalate",
+                "Escalate"
+              ],
+              "labels": [
+                "Rodents confirmed",
+                "Activity increasing anyway",
+                "Activity in multiple rooms",
+                "Suspected contamination",
+                "Nest in an inaccessible cavity",
+                "Wiring or structural moisture",
+                "Pest not identified, or it returns",
+                "Chemical step beyond your skill"
+              ],
+              "minimum": null,
+              "spec_id": "D016",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D016.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Tick every stop-DIY line",
+              "minutes": null
+            },
+            {
+              "text": "Call with logs and photos",
+              "minutes": null
+            },
+            {
+              "text": "Leave remaining bait on-label or remove it",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Adding a second unlabeled chemical because the first weekend failed.",
+          "checklist": [
+            "Tick every stop-DIY line",
+            "Call with logs and photos",
+            "Leave remaining bait on-label or remove it"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "five-minute-daily-scan-checklist",
+      "title": "Five-Minute Daily Scan Checklist",
+      "intro": "This chapter provides a comprehensive guide to conducting a quick daily scan of your kitchen to prevent pest infestations. By following this checklist, you can establish a routine that helps you identify potential issues early and maintain a clean environment.",
+      "opener": {
+        "query": "kitchen interior, overhead shot, natural light, clean surfaces, organized tools, no people, no text, no watermark",
+        "flux_prompt": "full-bleed image of a well-organized kitchen with scanning tools neatly arranged on the counter, one window light illuminating the space",
+        "alt": "Scan tools arranged on a kitchen counter.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\032-pexels.jpg",
+        "credit": "Photo by Cup of  Couple on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:7303999"
+      },
+      "sections": [
+        {
+          "slug": "purpose-and-benefits",
+          "title": "Purpose and Benefits",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "kitchen scanning tools, flashlight, mirror, white card, organized caddy, no people, no text, no watermark",
+            "flux_prompt": "image of scanning tools arranged neatly in a caddy, with a soft light illuminating the items, showcasing their importance in the scanning process",
+            "alt": "alternative angle of the caddy with tools, focusing on the flashlight and mirror.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\049-pexels.jpg",
+            "credit": "Photo by dada _design on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:12292645"
+          },
+          "scenario": "In a 1BHK apartment in Pune, resident Priya conducts her daily scan in the kitchen, which is prone to pest activity due to its proximity to the entry points.",
+          "principle": "Early detection prevents infestations from taking hold.",
+          "body": [
+            "Conducting a daily scan helps you spot pest activity within minutes. This checklist standardizes what to check, ensuring you don’t miss any indicators. By building this habit, you keep risks low and responses fast, which is crucial in a small kitchen space.",
+            "The checklist is designed to highlight exact micro signs of pest activity, prompting you to use specific tools for effective scanning. This proactive approach is essential for maintaining a clean and pest-free environment, especially in an apartment where space is limited.",
+            "By dedicating just five minutes each day to this routine, you can significantly reduce the chances of infestations, making it easier to manage your kitchen and maintain hygiene."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "how-to-use-the-checklist",
+          "title": "How to Use the Checklist",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "kitchen zones, scanning process, organized layout, natural light, no people, no text, no watermark",
+            "flux_prompt": "image showing different zones of a kitchen with clear labels, illuminated by natural light, emphasizing the scanning process",
+            "alt": "close-up of a zone being scanned with tools in use.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\034-pexels.jpg",
+            "credit": "Photo by Rodrigo Simoes on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:11209666"
+          },
+          "scenario": "In a compact Bengaluru rental with limited under-sink access, Ramesh scans before dinner prep and logs what he cannot see.",
+          "principle": "Consistency in scanning leads to effective pest management.",
+          "body": [
+            "To effectively use the checklist, set a specific daily scan time, ideally at the start of your day or before dinner preparation. This consistency helps you remember to check each zone regularly, which is crucial in a small kitchen where pests can easily hide.",
+            "Gather your tools before starting: a flashlight, a small mirror, a white card or paper, and your phone camera. These tools will assist you in identifying micro signs of pest activity and documenting your findings.",
+            "Follow the zones outlined in the checklist, spending approximately 60 seconds on each. Use the SCAN loop: See, Confirm, Act, Note. Tick 'Yes' or 'No' for activity, capture one photo per zone, and add a brief note to keep track of any findings."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "main-content-the-checklist-template",
+          "title": "Main Content: The Checklist Template",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "kitchen zones checklist, organized layout, natural light, no people, no text, no watermark",
+            "flux_prompt": "image of a checklist template laid out on a kitchen counter, with tools and notes nearby, emphasizing the scanning process",
+            "alt": "close-up of a checklist in use, with a focus on notes and photos.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\010-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6927198"
+          },
+          "scenario": "In a Mumbai flat with a window on only one side, Meera performs her daily scan, focusing on entry points and hidden areas where pests might enter.",
+          "principle": "Thorough scanning of all zones is essential for effective pest control.",
+          "body": [
+            "The checklist is divided into five key zones, each requiring a focused 60-second scan. Start with Zone 1: Entry Points, where you check doors, windows, and vents. Use a flashlight at a low angle to spot droppings, fine dust piles, webbing, and light leaks. Document any findings with a quick note and photo reference.",
+            "Next, move to Zone 2: Dry Storage and Pantry. Use a mirror for back corners and a white card behind jars to reveal movement. Look for signs like frass, shed skins, and tiny beetles. Again, note any activity and take a photo for your records.",
+            "Continue to Zone 3: Prep Surfaces and Appliances, using the flashlight under edges and a mirror under appliances. Check for grease tracks, crumb clusters, and egg cases. Document your findings as you go, ensuring you have a clear record of any pest activity.",
+            "Do not dismantle appliances or plumbing to complete a zone. If you cannot see it without taking the kitchen apart, tick 'not accessible,' photograph the blocker, and escalate instead of forcing it."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "tips-for-success",
+          "title": "Tips for Success",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "kitchen scanning tools, organized caddy, natural light, no people, no text, no watermark",
+            "flux_prompt": "image of a well-organized caddy with scanning tools, illuminated by natural light, showcasing the importance of preparation",
+            "alt": "close-up of the caddy with tools, emphasizing their role in the scanning process.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\052-pexels.jpg",
+            "credit": "Photo by Mike Bird on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:211760"
+          },
+          "scenario": "In a small apartment kitchen, one person runs the daily scan with a caddy that stays off the food-prep surface.",
+          "principle": "Proper training and tool usage enhance the effectiveness of the scanning routine.",
+          "body": [
+            "Using the flashlight at a low angle can reveal textures and signs of pest activity that might otherwise go unnoticed. This technique is particularly useful in areas with shadows or poor lighting, such as behind appliances or in corners.",
+            "Placing the white card behind items helps to reveal movement and contrast, making it easier to spot any signs of pests. This simple trick can significantly improve your chances of catching issues early.",
+            "Keep all your scanning tools organized in one caddy near the checklist. This not only saves time but also ensures that everyone involved in the scanning process knows where to find the necessary tools."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "common-mistakes",
+          "title": "Common Mistakes",
+          "day_label": "Day 5",
+          "hero": {
+            "query": "kitchen pest signs, common mistakes, natural light, no people, no text, no watermark",
+            "flux_prompt": "image illustrating common pest signs in a kitchen, with clear labels and notes, emphasizing the importance of thorough checks",
+            "alt": "close-up of pest signs in a kitchen, highlighting the need for careful scanning.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\053-pexels.jpg",
+            "credit": "Photo by Oliver Wagenblatt on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:34088549"
+          },
+          "scenario": "In a shared apartment in Chennai, roommates often skip zones during their scans, leading to missed pest signs.",
+          "principle": "Avoiding common mistakes is crucial for effective pest control.",
+          "body": [
+            "One common mistake is skipping one zone during the scan. Each zone is important and can harbor different signs of pest activity. Ensure that every zone is checked thoroughly to avoid missing critical indicators of infestations.",
+            "Another mistake is scanning too quickly. Take your time to thoroughly inspect each area, as rushing can lead to overlooked signs. Remember, the goal is to identify any potential issues before they escalate.",
+            "Cleaning before documenting findings can also lead to problems. Always take notes and photos of any activity before cleaning, as this documentation is essential for tracking pest issues over time."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "next-steps",
+          "title": "Next Steps",
+          "day_label": "Day 6",
+          "hero": {
+            "query": "kitchen tracking results, organized notes, natural light, no people, no text, no watermark",
+            "flux_prompt": "image of a tracking log with notes and results from daily scans, emphasizing the importance of documentation",
+            "alt": "close-up of a tracking log with highlighted findings.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\054-pexels.jpg",
+            "credit": "Photo by Lily  Lili on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:37172943"
+          },
+          "scenario": "After a week of daily scans, Anjali in her Pune apartment logs her results and sets thresholds for escalation based on her findings.",
+          "principle": "Tracking results helps in managing pest control effectively.",
+          "body": [
+            "After completing your daily scans, log your results in the main ebook tracking pages. This will help you identify patterns and determine if there are any recurring issues that need to be addressed.",
+            "Set thresholds for escalation based on your findings. If you record two 'Yes' events in the same zone within seven days, follow the ebook's immediate action plan and monitoring schedule. This proactive approach ensures that you address potential infestations before they become serious problems.",
+            "Scheduling weekly deep scans is also essential. These comprehensive checks will help you maintain a pest-free environment and ensure that any issues are caught early."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "symptom-to-signal-matrix-template",
+      "title": "Symptom-To-Signal Matrix for Kitchen Pest Management",
+      "intro": "This chapter provides a comprehensive guide to using the Symptom-To-Signal Matrix Template for effective pest management in your kitchen. By identifying early signals of pest activity, you can take proactive measures to prevent infestations.",
+      "opener": {
+        "query": "Kitchen with organized pest management supplies, natural light, clean surfaces, no people.",
+        "flux_prompt": "A well-lit kitchen with a clean countertop displaying pest management tools like sticky traps and a filled Symptom-To-Signal Matrix Template on the fridge.",
+        "alt": "A kitchen with a matrix template and monitors in view.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\055-pexels.jpg",
+        "credit": "Photo by Matilda Wormwood on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:4097278"
+      },
+      "sections": [
+        {
+          "slug": "purpose-and-benefits-of-the-matrix",
+          "title": "Purpose and Benefits of the Matrix",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "Pest management supplies on a kitchen counter, natural light, organized space, no people.",
+            "flux_prompt": "A close-up of a filled Symptom-To-Signal Matrix Template on a kitchen counter, with pest management supplies in the background.",
+            "alt": "A filled Symptom-To-Signal Matrix Template with a clean kitchen backdrop.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\056-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7418503"
+          },
+          "scenario": "In a 1BHK apartment in Pune, Neha often finds crumbs on her kitchen counter but isn't sure if they indicate a pest problem. Using the Symptom-To-Signal Matrix helps her identify early signs of pests before they become a larger issue.",
+          "principle": "The matrix helps pinpoint early pest signals before an infestation occurs.",
+          "body": [
+            "The Symptom-To-Signal Matrix is designed to standardize daily and weekly reviews of your kitchen for consistency. By utilizing this template, you can effectively reduce guesswork through symptom to pest mapping, allowing for quicker identification of potential issues.",
+            "This systematic approach not only speeds up decision-making with clear thresholds and actions but also helps in maintaining a pest-free kitchen environment. Regular use of the matrix can lead to early detection of pests, which is crucial in preventing larger infestations.",
+            "By mapping observed symptoms to likely pests, locations, and severity tiers, you can ensure that you are always prepared to take the necessary actions when signs of pests are detected."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "how-to-use-the-symptom-to-signal-matrix",
+          "title": "How to Use the Symptom-To-Signal Matrix",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "Kitchen with a filled Symptom-To-Signal Matrix Template on the fridge, natural light, organized space, no people.",
+            "flux_prompt": "A filled Symptom-To-Signal Matrix Template on a fridge, with kitchen cleaning supplies nearby.",
+            "alt": "A filled Symptom-To-Signal Matrix Template with a clean kitchen backdrop.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\033-pexels.jpg",
+            "credit": "Photo by ommy on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:36894979"
+          },
+          "scenario": "Ravi, living in a compact Bengaluru rental with limited under-sink access, decides to conduct a thorough kitchen scan after noticing some odd smells. He prints the matrix and prepares to fill it out during his inspection.",
+          "principle": "Follow a structured approach to effectively use the matrix during kitchen scans.",
+          "body": [
+            "To begin, print or load the Symptom-To-Signal Matrix Template. Place copies in accessible locations such as on the fridge or within your cleaning caddy for easy reference during your scans.",
+            "During each scan, fill out one row per symptom cluster you observe. Use the provided legend to rate the severity of each symptom, which will help you prioritize your actions based on the level of pest activity detected.",
+            "After documenting the symptoms, run the listed verification steps to confirm your findings. Set monitors as recommended and note any triggers that may indicate an escalation in pest activity.",
+            "Cross-check the false-signs list before you escalate a single speck. Clusters still need a second indicator unless a rodent or contamination rule has already triggered."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "understanding-severity-tiers-and-actions",
+          "title": "Understanding Severity Tiers and Actions",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "Pest management tools in a pantry, natural light, organized space, no people.",
+            "flux_prompt": "A pantry shelf with pest management tools and a filled Symptom-To-Signal Matrix Template, showcasing the severity tier classification.",
+            "alt": "A pantry shelf with a filled Symptom-To-Signal Matrix Template and pest management tools.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\058-pexels.jpg",
+            "credit": "Photo by ready made on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:3847411"
+          },
+          "scenario": "In a Mumbai flat with a window on only one side, Priya discovers droppings in her pantry. She uses the matrix to classify the severity of the signs and determine her next steps.",
+          "principle": "Classifying symptoms into severity tiers helps prioritize actions based on pest activity.",
+          "body": [
+            "The matrix includes a compact legend that categorizes symptoms into three severity tiers: Tier 1 indicates early traces with a single minor sign and no movement, Tier 2 signifies active signs with repeated evidence or visible activity, and Tier 3 denotes urgent situations with multiple zones affected or high counts.",
+            "When Priya identifies droppings in her pantry, she rates this as Tier 2 based on the frequency and location of the signs. This classification prompts her to take immediate action to prevent further pest activity.",
+            "Each tier has specific verification steps and recommended monitors. For example, if the severity is rated Tier 2, Priya would set sticky traps and a camera clip to monitor the situation closely."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "common-mistakes-to-avoid",
+          "title": "Common Mistakes to Avoid",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "Kitchen with pest management tools and a filled Symptom-To-Signal Matrix Template, natural light, organized space, no people.",
+            "flux_prompt": "A kitchen corner with pest management tools and a filled Symptom-To-Signal Matrix Template, highlighting common mistakes to avoid.",
+            "alt": "A kitchen corner with a filled Symptom-To-Signal Matrix Template and pest management tools.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\059-pexels.jpg",
+            "credit": "Photo by ready made on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:3847520"
+          },
+          "scenario": "Anjali, who lives in a compact 1BHK in Pune, often overlooks early signs of pests. After a recent infestation, she learns about common mistakes to avoid while using the matrix.",
+          "principle": "Avoiding common mistakes ensures effective pest management and timely interventions.",
+          "body": [
+            "One of the most common mistakes is ignoring single early traces of pest activity. Anjali realizes that even minor signs can escalate quickly if not addressed promptly. By using the matrix consistently, she can track these early indicators and take action before they become a larger problem.",
+            "Another frequent error is mixing old residue with fresh signals. Anjali learns to log photos and differentiate between old and new signs, which is crucial for accurate assessments and timely responses.",
+            "Additionally, placing monitors too far from areas of activity can hinder effective pest management. Anjali now ensures that her traps and sensors are strategically positioned based on the findings documented in her matrix."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "72-hour-rapid-response-worksheet",
+      "title": "72-hour initial response and verification worksheet",
+      "intro": "Use this worksheet for the first 72 hours of containment and verification. It is not a promise that every pest problem ends in 72 hours. Close the incident only when success criteria are met; escalate on the rodent and stop-DIY lines even on hour one.",
+      "opener": {
+        "query": "stock photo of a modern Indian kitchen with pest control tools, one window light, clean surfaces, neutral colors, photorealistic, no people, no text, no watermark",
+        "flux_prompt": "full-bleed image of a well-organized kitchen with pest control supplies neatly arranged on a countertop",
+        "alt": "A kitchen worksheet beside sealed containers and a monitor, not a spray kit.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\060-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:8146317"
+      },
+      "sections": [
+        {
+          "slug": "0-to-6-hours-contain-and-confirm",
+          "title": "0 to 6 Hours: Contain and Confirm",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "stock photo of a clean kitchen sink area with pest control traps, one window light, bright and airy, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "image of a close-up of a kitchen sink with pest control measures in place, light streaming in from a window",
+            "alt": "image of a tidy kitchen countertop with pest control supplies arranged neatly",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\061-pexels.jpg",
+            "credit": "Photo by Alesha on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:13009887"
+          },
+          "scenario": "In a 1BHK apartment in Pune, resident Anjali detected small ants near her kitchen sink. She immediately began the containment process by removing exposed food and wiping down surfaces.",
+          "principle": "Act swiftly to contain the problem and confirm the presence of pests.",
+          "body": [
+            "Today's output: a filled 0–6, 6–24, 24–48, and 48–72 log that treats 72 hours as verification, not a cure.",
+            "Hour 0–6: isolate or discard food by the disposal tree; seal trash; place child- and pet-safe monitors; photograph. Run the rodent rule before any bait. Do not handle rodent droppings or a carcass casually.",
+            "Hour 6–24: count captures, map the hot zone, identify if you can without dismantling appliances. Hour 24–48: only labeled products for that pest and place; never on food-contact surfaces; never mixed. Hour 48–72: de-escalate only on the success list. Quiet monitors are not eradication. Go professional on live rodents, daytime cockroaches in a home that cannot contain them, rising counts, multiple rooms, or wiring/moisture you cannot legally fix."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "72 hours is verification",
+              "caption": "Initial containment clock. Not a guaranteed resolution period.",
+              "values": [
+                "May quiet fast",
+                "Often needs a longer watch",
+                "May continue after first steps",
+                "Professional, often from the first sign",
+                "Not a 72-hour repair",
+                "Not proof of eradication"
+              ],
+              "labels": [
+                "A few ants",
+                "Pantry pests",
+                "Cockroach activity",
+                "Rodents",
+                "Structural moisture",
+                "No catches for 72 hours"
+              ],
+              "minimum": null,
+              "spec_id": "D003",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D003.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Worksheet go / no-go",
+              "caption": "Any rodent line or stop-DIY line beats a tidy 72-hour form.",
+              "values": [
+                "Call now",
+                "Call now",
+                "Call now",
+                "Stay on monitors; do not declare victory",
+                "Only if success criteria are all true"
+              ],
+              "labels": [
+                "Live rodent or fresh droppings",
+                "Gnawing near wiring",
+                "Multiple rooms or a nest",
+                "Flat or rising trend",
+                "De-escalate"
+              ],
+              "minimum": null,
+              "spec_id": "D004",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\figures\\D004.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Remove exposed food and store sealed.",
+              "minutes": null
+            },
+            {
+              "text": "Wipe crumbs, grease, and sticky residues.",
+              "minutes": null
+            },
+            {
+              "text": "Place intercept monitors near detection point.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Closing the worksheet because 72 hours passed.",
+          "checklist": [
+            "Remove exposed food",
+            "Wipe surfaces",
+            "Place monitors",
+            "Adjust sensors"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "roi-and-cost-savings-guide",
+      "title": "ROI And Cost Savings Guide",
+      "intro": "This guide helps you quantify the financial benefits of early pest detection in your kitchen. By using simple formulas and a structured approach, you can demonstrate tangible savings and justify your monitoring investments.",
+      "opener": {
+        "query": "kitchen pest detection tools, minimalist kitchen, natural light, clean surfaces, no people",
+        "flux_prompt": "full-bleed image of a modern Indian kitchen with pest detection tools displayed on a counter, natural light streaming in from a window",
+        "alt": "A household notebook of monitor costs, not a café ledger.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\032-pexels.jpg",
+        "credit": "Photo by Cup of  Couple on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:7303999"
+      },
+      "sections": [
+        {
+          "slug": "purpose-and-benefits",
+          "title": "Purpose and Benefits",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "kitchen pest monitoring system, clean kitchen, natural light, no people",
+            "flux_prompt": "image of a well-organized kitchen with pest monitoring tools on display, natural light highlighting the space",
+            "alt": "a close-up of pest monitoring tools in a clean kitchen setting",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\035-pexels.jpg",
+            "credit": "Photo by Cup of  Couple on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7303796"
+          },
+          "scenario": "Ravi lives in a 1BHK apartment in Pune. He recently invested in a pest monitoring system after noticing ants in his kitchen. By using this guide, he can track his savings and justify the cost of the monitoring system.",
+          "principle": "Early detection translates into financial savings.",
+          "body": [
+            "This guide helps you translate early warnings into clear financial outcomes. By documenting detection events, you can show tangible savings that justify your monitoring investment. The goal is to prioritize actions that deliver the most value and build a record that proves the system pays for itself over time.",
+            "Understanding the benefits of early detection is crucial. It not only helps in avoiding infestations but also in quantifying the financial impact of pest activity. By capturing data on each detection, you can create a compelling case for the effectiveness of your monitoring system.",
+            "Ultimately, this guide empowers you to take control of your kitchen environment, ensuring that you can enjoy your space without the worry of pest-related issues."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Failing to recognize the long-term financial benefits of early pest detection can lead to unnecessary costs.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "how-to-use",
+          "title": "How to Use",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "pest detection log, kitchen workspace, natural light, no people",
+            "flux_prompt": "image of a kitchen workspace with a pest detection log and tools laid out, natural light illuminating the area",
+            "alt": "a close-up of a pest detection log on a kitchen counter",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\064-pexels.jpg",
+            "credit": "Photo by J MAD on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:12001920"
+          },
+          "scenario": "Priya, a resident of a small rental in Bengaluru, has been using a pest monitoring system for a few months. She diligently logs each detection event, noting the date, location, and pest type, which helps her estimate potential savings.",
+          "principle": "Consistent data collection leads to accurate savings estimates.",
+          "body": [
+            "To effectively use this guide, start by capturing each detection event. Note the date, location, and pest type observed. This information is crucial for understanding the impact of early detection on your kitchen's health and finances.",
+            "Next, estimate what would have happened without early detection. Use average past outcomes or conservative assumptions to fill out the worksheet provided. This will help you calculate potential savings and ROI accurately.",
+            "Log your results monthly and validate them with receipts and photos. Reviewing trends quarterly allows you to adjust your monitoring strategies based on the data collected."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Neglecting to log detection events can lead to inaccurate savings calculations.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "main-content",
+          "title": "Main Content",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "kitchen calculations, clean kitchen, natural light, no people",
+            "flux_prompt": "image of a kitchen table with calculation sheets and pest monitoring tools, natural light flooding the space",
+            "alt": "a close-up of calculation sheets and pest monitoring tools on a kitchen table",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\035-pexels.jpg",
+            "credit": "Photo by Cup of  Couple on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7303796"
+          },
+          "scenario": "In her Mumbai flat, Anjali faced a fruit fly issue in her small kitchen. By applying the formulas outlined in this guide, she calculated her savings after preventing a larger infestation.",
+          "principle": "Accurate calculations reveal the true cost savings from pest monitoring.",
+          "body": [
+            "Utilizing simple formulas is key to understanding your savings. For example, Avoided Food Loss equals the quantity at risk times the price per unit. This means if you have 6 cereal boxes at risk priced at 4 each, your avoided food loss is 24.",
+            "Next, calculate Avoided Replacement Cost, which includes containers, packaging, and cleaning supplies that would have been needed. For Anjali, this amounted to 18 for sealed containers and cleaning supplies.",
+            "Finally, consider Avoided Downtime Cost, which includes extra meal costs and time spent cleaning. If Anjali had to eat out for two meals at 18 each plus two hours of cleaning at 15 per hour, her total downtime cost would be 66. Adding this to her Avoided Service Fees gives a comprehensive view of her total savings."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Overlooking the cumulative effect of various cost savings can lead to underestimating the benefits of monitoring.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "tips-for-success",
+          "title": "Tips for Success",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "home kitchen monitoring tools, natural light, no people",
+            "flux_prompt": "image of a clean apartment kitchen with pest monitoring tools",
+            "alt": "Household monitoring tools on a clean kitchen counter.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Instant Kitchen Pest Detection\\photos\\066-pexels.jpg",
+            "credit": "Photo by Kenneth Surillo on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:9420809"
+          },
+          "scenario": "Suresh uses the same household log to keep estimates honest. This is a home kitchen, not a Delhi café operation.",
+          "principle": "Implementing best practices enhances monitoring effectiveness.",
+          "body": [
+            "To maximize the benefits of your pest monitoring system, use conservative estimates when calculating potential savings. This maintains credibility and ensures that your calculations are realistic.",
+            "Validate your findings with dated photos and receipts. Documenting both what happened and what you avoided is essential for building a strong case for your monitoring investment.",
+            "Additionally, separate one-time costs from recurring costs to get a clearer picture of your financial situation. Regularly updating local fee ranges and reviewing losses from past seasons will help refine your assumptions and improve your monitoring strategy."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Failing to validate assumptions with real data can lead to inaccurate savings projections.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    }
+  ]
+}

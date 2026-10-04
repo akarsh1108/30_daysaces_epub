@@ -1,0 +1,300 @@
+{
+  "title": "Premium Garage Showroom",
+  "units": "imperial",
+  "outputs": {
+    "pdf": "build\\Premium Garage Showroom\\premium-garage-showroom.pdf",
+    "cover": "build\\Premium Garage Showroom\\cover.pdf",
+    "epub": "build\\Premium Garage Showroom\\premium-garage-showroom.epub",
+    "epub_preview": "build\\Premium Garage Showroom\\epub-preview.html"
+  },
+  "ai_generated_images": 1,
+  "kdp_ai_disclosure_required": true,
+  "images": [
+    {
+      "query": "premium residential two-car garage with bikes on a wall, no people, no text",
+      "source": "openai",
+      "credit": "Cover illustration generated for this edition.",
+      "ai": true,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\cover.jpg"
+    },
+    {
+      "query": "luxury cars in residential garage showroom residential garage showroom 1",
+      "source": "pexels",
+      "credit": "Photo by Dextar Studio ™ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\001-pexels.jpg"
+    },
+    {
+      "query": "organized two car garage interior cabinets residential garage showroom 2",
+      "source": "pexels",
+      "credit": "Photo by Peter  Vang on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\002-pexels.jpg"
+    },
+    {
+      "query": "sports car in home garage epoxy floor residential garage showroom 3",
+      "source": "pexels",
+      "credit": "Photo by Maheshwar Reddy on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\003-pexels.jpg"
+    },
+    {
+      "query": "home garage wall cabinets parked car residential garage showroom 1",
+      "source": "pexels",
+      "credit": "Photo by Matheus Bertelli on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\006-pexels.jpg"
+    },
+    {
+      "query": "motorcycle in residential garage interior residential garage showroom 2",
+      "source": "pexels",
+      "credit": "Photo by aboodi vesakaran on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\007-pexels.jpg"
+    },
+    {
+      "query": "villa garage interior two cars cabinets residential garage showroom 1",
+      "source": "pexels",
+      "credit": "Photo by Renee Razumov on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\011-pexels.jpg"
+    },
+    {
+      "query": "luxury garage tiled floor parked cars residential garage showroom 4",
+      "source": "pexels",
+      "credit": "Photo by Emre Aslihak on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\014-pexels.jpg"
+    },
+    {
+      "query": "cars parked inside home garage interior residential garage showroom 0",
+      "source": "pexels",
+      "credit": "Photo by Matheus Bertelli on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\015-pexels.jpg"
+    },
+    {
+      "query": "luxury cars in residential garage showroom residential garage showroom 1",
+      "source": "pexels",
+      "credit": "Photo by Jae Park on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\016-pexels.jpg"
+    },
+    {
+      "query": "garage showroom luxury vehicles indoor residential garage showroom 0",
+      "source": "pexels",
+      "credit": "Photo by FBO Media on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\020-pexels.jpg"
+    },
+    {
+      "query": "bicycle storage in home garage slatwall residential garage showroom 3",
+      "source": "pexels",
+      "credit": "Photo by Kağan Karatay on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\023-pexels.jpg"
+    },
+    {
+      "query": "garage door interior residential car residential garage showroom 4",
+      "source": "pexels",
+      "credit": "Photo by athul santhosh on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\024-pexels.jpg"
+    },
+    {
+      "query": "premium home garage LED lighting cars residential garage showroom 0",
+      "source": "pexels",
+      "credit": "Photo by Tima Miroshnichenko on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\025-pexels.jpg"
+    },
+    {
+      "query": "detailing garage home not factory cars residential garage showroom 2",
+      "source": "pexels",
+      "credit": "Photo by Matheus Bertelli on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\027-pexels.jpg"
+    },
+    {
+      "query": "organized garage workbench car interior residential garage showroom 3",
+      "source": "pexels",
+      "credit": "Photo by Renee Razumov on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\028-pexels.jpg"
+    },
+    {
+      "query": "cars parked inside home garage interior residential garage showroom 0",
+      "source": "pexels",
+      "credit": "Photo by Matheus Bertelli on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\030-pexels.jpg"
+    },
+    {
+      "query": "sports car in home garage epoxy floor residential garage showroom 3",
+      "source": "pexels",
+      "credit": "Photo by Luke Miller on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\033-pexels.jpg"
+    },
+    {
+      "query": "clean residential garage interior with car residential garage showroom 4",
+      "source": "pexels",
+      "credit": "Photo by Hendra Yuwana on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\034-pexels.jpg"
+    },
+    {
+      "query": "home garage wall cabinets parked car residential garage showroom 1",
+      "source": "pexels",
+      "credit": "Photo by Erik Mclean on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\036-pexels.jpg"
+    }
+  ],
+  "figures": [
+    {
+      "spec_id": "D001",
+      "kind": "table",
+      "title": "Two-car fit sheet",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D001.svg"
+    },
+    {
+      "spec_id": "D002",
+      "kind": "table",
+      "title": "The labeled bay is not the usable bay",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D002.svg"
+    },
+    {
+      "spec_id": "D003",
+      "kind": "plan",
+      "title": "Walking route, verified",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D003.svg"
+    },
+    {
+      "spec_id": "D004",
+      "kind": "elevation",
+      "title": "Illustrative compact sedan sizes",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D004.svg"
+    },
+    {
+      "spec_id": "D005",
+      "kind": "table",
+      "title": "Illustrative midsize SUV sizes",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D005.svg"
+    },
+    {
+      "spec_id": "D007",
+      "kind": "plan",
+      "title": "Paper fit versus parked-car test",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D007.svg"
+    },
+    {
+      "spec_id": "D009",
+      "kind": "table",
+      "title": "Larger vehicles may not fit two-abreast",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D009.svg"
+    },
+    {
+      "spec_id": "D010",
+      "kind": "table",
+      "title": "Door opening is a test, not a rule",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D010.svg"
+    },
+    {
+      "spec_id": "D028",
+      "kind": "plan",
+      "title": "Bikes versus door swing",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D028.svg"
+    },
+    {
+      "spec_id": "D029",
+      "kind": "elevation",
+      "title": "Height follows the door travel",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D029.svg"
+    },
+    {
+      "spec_id": "D030",
+      "kind": "table",
+      "title": "Mount decisions",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D030.svg"
+    },
+    {
+      "spec_id": "D031",
+      "kind": "plan",
+      "title": "Handlebars and walking path",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D031.svg"
+    },
+    {
+      "spec_id": "D032",
+      "kind": "elevation",
+      "title": "Stagger only if it still lifts safely",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D032.svg"
+    },
+    {
+      "spec_id": "D033",
+      "kind": "table",
+      "title": "Layout options, not a universal plan",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D033.svg"
+    },
+    {
+      "spec_id": "D034",
+      "kind": "plan",
+      "title": "Light the walking and parking grid",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D034.svg"
+    },
+    {
+      "spec_id": "D035",
+      "kind": "table",
+      "title": "Task light is for work, not sparkle",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D035.svg"
+    },
+    {
+      "spec_id": "D036",
+      "kind": "plan",
+      "title": "Both parking spaces, not one spotlight",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D036.svg"
+    },
+    {
+      "spec_id": "D037",
+      "kind": "table",
+      "title": "Layer 1 — ambient only",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D037.svg"
+    },
+    {
+      "spec_id": "D038",
+      "kind": "table",
+      "title": "Layer 2 — ambient plus task",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D038.svg"
+    },
+    {
+      "spec_id": "D039",
+      "kind": "table",
+      "title": "Layer 3 — add accent last",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D039.svg"
+    },
+    {
+      "spec_id": "D040",
+      "kind": "elevation",
+      "title": "Aim off the windshield",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D040.svg"
+    },
+    {
+      "spec_id": "D041",
+      "kind": "table",
+      "title": "Controls fail safe",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D041.svg"
+    },
+    {
+      "spec_id": "D044",
+      "kind": "elevation",
+      "title": "Bike retrieval with both cars in",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D044.svg"
+    },
+    {
+      "spec_id": "D045",
+      "kind": "table",
+      "title": "Illustrative lighting tries, not code",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D045.svg"
+    }
+  ]
+}

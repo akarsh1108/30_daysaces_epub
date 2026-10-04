@@ -1,0 +1,2533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Stylish TV Area</title>
+<style>@font-face{font-family:&#34;Source Serif 4&#34;;font-weight:400;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/SourceSerif4-400.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;Source Serif 4&#34;;font-weight:700;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/SourceSerif4-700.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;Fraunces&#34;;font-weight:600;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/Fraunces-600.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;Fraunces&#34;;font-weight:700;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/Fraunces-700.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;DM Sans&#34;;font-weight:400;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/DMSans-400.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;DM Sans&#34;;font-weight:700;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/DMSans-700.woff&#34;) format(&#34;woff&#34;);}
+/* 6x9 KDP magazine interior — WeasyPrint-safe (no absolute overlays / bleed pages).
+   Cover + chapter openers + heroes are STACKED blocks so text never overlaps images.
+   Shared across every book in the series: change this file once, all titles update. */
+
+@page {
+  size: 6in 9in;
+  margin: 0.7in 0.6in 0.7in 0.65in;
+  @top-left {
+    content: string(series-name);
+    font: 7.5pt &#34;DM Sans&#34;, sans-serif;
+    color: #9AA0A2;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  @bottom-center {
+    content: counter(page);
+    font: 8.5pt &#34;DM Sans&#34;, sans-serif;
+    color: #9AA0A2;
+  }
+}
+@page cover {
+  margin: 0;
+  @top-left { content: none; }
+  @bottom-center { content: none; }
+}
+@page front {
+  @top-left { content: none; }
+  @bottom-center { content: none; }
+}
+@page closing {
+  @top-left { content: none; }
+  @bottom-center { content: none; }
+}
+
+:root {
+  --ink: #141816;
+  --paper: #FFFFFF;
+  --accent: #1E5F6B;
+  --accent-deep: #0F3D45;
+  --mist: #F3F6F6;
+  --muted: #7A8285;
+  --red: #C8442B;
+  --serif: &#34;Source Serif 4&#34;, &#34;DejaVu Serif&#34;, Georgia, serif;
+  --display: &#34;Fraunces&#34;, &#34;Source Serif 4&#34;, Georgia, serif;
+  --sans: &#34;DM Sans&#34;, &#34;DejaVu Sans&#34;, sans-serif;
+}
+
+html {
+  font-family: var(--serif);
+  font-size: 10.5pt;
+  line-height: 1.48;
+  color: var(--ink);
+  background: var(--paper);
+}
+body { margin: 0; }
+p { margin: 0 0 0.65em; orphans: 3; widows: 3; }
+img { max-width: 100%; display: block; }
+a { color: inherit; text-decoration: none; }
+
+.series-mark { string-set: series-name content(); display: none; }
+
+/* ========== COVER (shared series template) ========== */
+.cover {
+  page: cover;
+  page-break-after: always;
+  page-break-inside: avoid;
+  width: 6in;
+  height: 9in;
+  overflow: hidden;
+  background: var(--accent-deep);
+}
+.cover-photo {
+  width: 6in;
+  height: 5.35in;
+  object-fit: cover;
+  display: block;
+}
+.cover.cover-designed {
+  background: #111;
+}
+.cover.cover-designed .cover-photo {
+  width: 6in;
+  height: 9in;
+  object-fit: cover;
+}
+.cover-panel {
+  width: 6in;
+  height: 3.65in;
+  box-sizing: border-box;
+  background: var(--accent-deep);
+  color: #fff;
+  padding: 0.38in 0.5in 0.35in;
+}
+.cover-panel .series {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #B7D4D8;
+  margin: 0 0 0.16in;
+}
+.cover-panel .rule {
+  width: 0.9in;
+  height: 2.5pt;
+  background: #fff;
+  margin: 0 0 0.18in;
+}
+.cover-panel h1 {
+  font-family: var(--display);
+  font-size: 26pt;
+  line-height: 1.05;
+  font-weight: 700;
+  margin: 0 0 0.14in;
+  color: #fff;
+}
+.cover-panel .tagline {
+  font-size: 10.5pt;
+  line-height: 1.35;
+  color: #D7E6E8;
+  margin: 0 0 0.4in;
+  max-width: 4.6in;
+}
+.cover-panel .author {
+  font-family: var(--sans);
+  font-size: 10pt;
+  color: #fff;
+  margin: 0;
+  border-top: 0.5pt solid rgba(255,255,255,0.28);
+  padding-top: 0.16in;
+}
+
+/* ========== FRONT MATTER ========== */
+.title-page {
+  page: front;
+  page-break-after: always;
+  padding-top: 1.6in;
+}
+.title-page .mast {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.35in;
+}
+.title-page .rule {
+  width: 1in;
+  height: 2.5pt;
+  background: var(--accent);
+  margin: 0 0 0.3in;
+}
+.title-page h1 {
+  font-family: var(--display);
+  font-size: 28pt;
+  line-height: 1.08;
+  margin: 0 0 0.25in;
+  font-weight: 700;
+}
+.title-page .subtitle {
+  font-size: 12pt;
+  color: #3A4244;
+  margin: 0 0 1.2in;
+  max-width: 4.4in;
+}
+.title-page .author {
+  font-family: var(--sans);
+  font-size: 10pt;
+  color: var(--muted);
+}
+
+.copyright {
+  page: front;
+  page-break-after: always;
+  font-family: var(--sans);
+  font-size: 8pt;
+  line-height: 1.45;
+  color: #555;
+  padding-top: 4.8in;
+}
+.copyright .credits { color: var(--muted); margin-top: 0.4em; }
+
+.toc {
+  page: front;
+  page-break-after: always;
+}
+.toc .kicker {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.12in;
+}
+.toc h2 {
+  font-family: var(--display);
+  font-size: 24pt;
+  margin: 0 0 0.35in;
+  font-weight: 700;
+}
+.toc ol { list-style: none; padding: 0; margin: 0; }
+.toc &gt; ol &gt; li {
+  margin: 0 0 0.45em;
+  font-size: 10.5pt;
+  padding-bottom: 0.28em;
+  border-bottom: 0.4pt solid #E4E8E9;
+}
+.toc &gt; ol &gt; li &gt; a { font-family: var(--display); font-weight: 600; }
+.toc a::after {
+  content: leader(&#34; . &#34;) target-counter(attr(href url), page);
+  font-family: var(--sans);
+  font-size: 8pt;
+  color: var(--muted);
+  font-weight: 400;
+}
+.toc ol ol {
+  margin: 0.15em 0 0;
+  font-size: 9pt;
+  color: #4A5254;
+}
+.toc ol ol li { margin: 0 0 0.12em; border: none; padding: 0; }
+.toc ol ol a { font-family: var(--serif); font-weight: 400; }
+
+/* ========== CHAPTER ========== */
+.chapter { page-break-before: always; }
+
+.chapter-opener {
+  page-break-before: always;
+  page-break-after: always;
+  page-break-inside: avoid;
+  margin: 0;
+  background: var(--accent-deep);
+}
+.chapter-opener img {
+  width: 100%;
+  height: 4.6in;
+  object-fit: cover;
+  display: block;
+}
+.chapter-opener .opener-text {
+  background: var(--accent-deep);
+  color: #fff;
+  padding: 0.32in 0.05in 0.35in;
+}
+.chapter-opener .chap-kicker {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #B7D4D8;
+  margin: 0 0 0.12in;
+}
+.chapter-opener h2 {
+  font-family: var(--display);
+  font-size: 20pt;
+  line-height: 1.12;
+  margin: 0 0 0.12in;
+  font-weight: 700;
+  color: #ffffff;
+}
+.chapter-opener p {
+  font-size: 9.5pt;
+  line-height: 1.4;
+  color: #D7E6E8;
+  margin: 0;
+}
+
+.chapter-title {
+  font-family: var(--display);
+  font-size: 24pt;
+  line-height: 1.1;
+  margin: 0.6in 0 0.22in;
+  font-weight: 700;
+}
+.intro {
+  font-size: 11pt;
+  color: #333;
+  margin-bottom: 0.4in;
+  border-left: 3pt solid var(--accent);
+  padding-left: 0.16in;
+}
+
+/* ========== UNIT ========== */
+.unit { page-break-before: always; }
+.chapter &gt; .unit:first-of-type { page-break-before: auto; }
+
+.unit-head { margin: 0 0 0.25in; }
+.day {
+  display: block;
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 5pt;
+}
+.unit h3, .hero h3 {
+  font-family: var(--display);
+  font-size: 17pt;
+  line-height: 1.15;
+  margin: 0;
+  font-weight: 700;
+}
+
+/* Hero: image then caption strip UNDER it — never overlays */
+.hero {
+  margin: 0 0 0.28in;
+  page-break-inside: avoid;
+  background: var(--mist);
+}
+.hero img {
+  width: 100%;
+  height: 3.15in;
+  object-fit: cover;
+  display: block;
+}
+.hero .hero-label {
+  padding: 0.16in 0.18in 0.18in;
+}
+.hero .day { color: var(--accent); }
+.hero h3 { color: var(--ink); font-size: 16pt; }
+
+.scenario {
+  background: var(--mist);
+  border-top: 2.5pt solid var(--accent);
+  padding: 0.16in 0.18in 0.18in;
+  margin: 0 0 0.25in;
+}
+.scenario .label {
+  font-family: var(--sans);
+  font-size: 7.5pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.08in;
+}
+.scenario p {
+  font-size: 10pt;
+  font-style: italic;
+  color: #2A3234;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.principle {
+  font-family: var(--display);
+  font-size: 13.5pt;
+  line-height: 1.28;
+  font-weight: 600;
+  margin: 0.05in 0 0.28in;
+  color: var(--accent-deep);
+  padding: 0.08in 0 0.08in 0.18in;
+  border-left: 3pt solid var(--accent);
+}
+
+.body-copy p { font-size: 10.5pt; }
+
+figure.diagram {
+  margin: 0.18in 0 0.28in;
+  page-break-inside: avoid;
+  background: var(--mist);
+  padding: 0.1in;
+}
+figure.diagram img {
+  width: 100%;
+  display: block;
+  background: #fff;
+}
+figure.diagram figcaption {
+  font-family: var(--sans);
+  font-size: 8pt;
+  color: var(--muted);
+  line-height: 1.35;
+  margin-top: 5pt;
+}
+
+.steps, .checklist, .mistake {
+  page-break-inside: avoid;
+  margin: 0.25in 0;
+}
+.steps h4, .checklist h4, .mistake h4 {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0 0 7pt;
+  font-weight: 700;
+}
+.steps {
+  background: var(--mist);
+  padding: 0.16in 0.18in;
+}
+.steps ol {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  counter-reset: step;
+}
+.steps li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 1.4em;
+  margin: 0 0 6pt;
+  font-size: 10pt;
+}
+.steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: var(--sans);
+  font-size: 8.5pt;
+  font-weight: 700;
+  color: var(--accent);
+}
+.steps em {
+  color: var(--muted);
+  font-style: normal;
+  font-family: var(--sans);
+  font-size: 8pt;
+}
+
+.mistake {
+  background: #F8EEEB;
+  padding: 0.16in 0.18in;
+  border-left: 3pt solid var(--red);
+}
+.mistake h4 { color: var(--red); }
+.mistake p { margin: 0; font-size: 9.8pt; }
+
+.checklist ul { list-style: none; padding: 0; margin: 0; }
+.checklist li {
+  padding-left: 1.4em;
+  position: relative;
+  margin: 0 0 5pt;
+  font-size: 10pt;
+}
+.checklist li::before {
+  content: &#34;&#34;;
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  width: 0.7em;
+  height: 0.7em;
+  border: 1.2pt solid var(--accent);
+}
+
+/* ========== LAST PAGE (shared series closer) ========== */
+.closing {
+  page: closing;
+  page-break-before: always;
+  padding-top: 0;
+}
+.closing-photo {
+  width: 100%;
+  height: 3.2in;
+  object-fit: cover;
+  display: block;
+  margin: 0 0 0.45in;
+}
+.closing .kicker {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.16in;
+}
+.closing .rule {
+  width: 1in;
+  height: 2.5pt;
+  background: var(--accent);
+  margin: 0 0 0.25in;
+}
+.closing h2 {
+  font-family: var(--display);
+  font-size: 24pt;
+  line-height: 1.1;
+  margin: 0 0 0.2in;
+}
+.closing .blurb {
+  font-size: 11.5pt;
+  line-height: 1.4;
+  color: #333;
+  max-width: 4.5in;
+  margin: 0 0 0.7in;
+}
+.closing .author {
+  margin-top: 0.9in;
+  font-family: var(--sans);
+  font-size: 9.5pt;
+  color: var(--muted);
+}
+</style>
+</head>
+<body>
+<span class="series-mark">30 Day Spaces</span>
+
+<section class="cover cover-designed">
+  <img class="cover-photo" src="cover.jpg" alt="A living-room TV wall with a media console, a mounted screen, and simple furnishings. No people or text.">
+</section>
+
+<section class="title-page">
+  <p class="mast">30 Day Spaces</p>
+  <div class="rule"></div>
+  <h1>Stylish TV Area</h1>
+<p class="subtitle">A stylish TV area with practical child-safety measures</p><p class="author">Akarsh Priyadarshan</p></section>
+
+<section class="copyright">
+  <p>© 2026 Akarsh Priyadarshan. All rights reserved.</p>
+  <p>Interior designed for Amazon KDP print (6 × 9 in) and Kindle.</p>
+  <p>1 interior image in this book
+     was generated with AI tools and reviewed by the author.
+     All diagrams were drawn from the measurements in the text.</p>
+<p class="credits">Photographs: Photo by Max Vakhtbovych on Pexels; Photo by cottonbro studio on Pexels; Photo by Annushka  Ahuja on Pexels; Photo by Keegan Checks on Pexels; Photo by Guto Castro on Pexels; Photo by Jan van der Wolf on Pexels; Photo by Ann H on Pexels; Photo by Ruslan Alekso on Pexels; Photo by Engin Akyurt on Pexels; Photo by Josh Sorenson on Pexels; Photo by Diana ✨ on Pexels; Photo by Oleg Melevych on Pexels; Photo by HONG SON on Pexels; Photo by Han on Pexels; Photo by Ansar Muhammad on Pexels; Photo by Justin Rieta on Pexels; Photo by Patrick on Pexels; Photo by Naveen Sahu on Pexels; Photo by S3T Koncepts on Pexels; Photo by Ron Lach on Pexels; Photo by Liva  Kitchens And Interiors on Pexels; Photo by yair elgazar on Pexels; Photo by Andrey Matveev on Pexels.</p></section>
+
+<section class="toc">
+  <p class="kicker">Inside this book</p>
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#foundations-of-a-stylish-tv-area-with-child-safety-measures">Foundations of a stylish TV area with child-safety measures</a>
+      <ol><li><a href="#defining-your-safety-vision">Write a brief that includes the safety limits</a></li><li><a href="#choosing-mounting-or-a-stand">Choose a support, then plan both anchors</a></li><li><a href="#setting-height-and-clearance-targets">Set height by comfort and reach, not a universal number</a></li><li><a href="#establishing-the-safety-zone">Assess reach and climbing instead of a fixed buffer</a></li></ol>
+    </li>
+    <li><a href="#room-and-wall-assessment-layouts-sightlines-and-traffic-flow">Room and wall assessment: Layouts, sightlines, and traffic flow</a>
+      <ol><li><a href="#assessing-layout-for-comfort-and-safety">Map seating, sightlines, and viewing comfort</a></li><li><a href="#understanding-wall-types-and-mounting-options">Identify the wall without relying on a knock test</a></li><li><a href="#mapping-traffic-flow-and-toddler-routes">Map traffic, windows, and climbing routes</a></li><li><a href="#finalizing-your-plan-for-tv-height-and-cable-routing">Flag fireplaces, heat, and cable routes</a></li></ol>
+    </li>
+    <li><a href="#choosing-the-right-media-unit-secure-stylish-and-functional">Choosing the right media unit: Geometry, load, and ventilation</a>
+      <ol><li><a href="#understanding-stability">Treat low and wide as a starting geometry, not a safety system</a></li><li><a href="#integrated-venting-and-signal-paths">Match the cabinet to the equipment, not a two-inch rule</a></li><li><a href="#neat-closed-storage">Use closed storage for access control, then check heat and reach</a></li><li><a href="#tested-anchor-readiness-and-load">Confirm the unit can be anchored and can carry the TV</a></li></ol>
+    </li>
+    <li><a href="#anchoring-media-furniture-methods-hardware-and-invisible-ins">Anchoring the TV and the furniture: Two separate jobs</a>
+      <ol><li><a href="#understanding-the-importance-of-anchoring">Separate TV stability from furniture stability</a></li><li><a href="#choosing-the-right-hardware">Match hardware to the wall substrate</a></li><li><a href="#installation-techniques-for-safety">Install as instructed — and do not force a pull test</a></li><li><a href="#maintenance-and-inspection">Keep anchors inspectable after the room is styled</a></li></ol>
+    </li>
+    <li><a href="#cord-management-mastery-hide-route-and-contain">Cord management: Plan, protect, contain, and inspect</a>
+      <ol><li><a href="#understanding-the-risks-of-exposed-cords">Treat cords as pull, heat, and damage hazards — not as clutter</a></li><li><a href="#the-four-layer-pathway-framework">Use four layers: Plan, protect, contain, inspect</a></li><li><a href="#designing-the-end-to-end-pathway">Keep in-wall work inside electrical rules</a></li><li><a href="#choosing-containment-components-with-confidence">Use raceways as organizers, not as a child-safety system</a></li><li><a href="#your-checklist-for-the-week-ahead">Cord checklist: length, strain, and power ratings</a></li></ol>
+    </li>
+    <li><a href="#anchoring-decor-and-accessories-beauty-without-risk">Anchoring decor and accessories: Objects are not furniture</a>
+    </li>
+    <li><a href="#rental-friendly-tv-areas-low-damage-options-and-installation-li">Rental-friendly TV areas: Low-damage options and installation limits</a>
+      <ol><li><a href="#understanding-the-deposit-dilemma">Put safety ahead of a no-hole preference</a></li><li><a href="#the-no-holes-full-control-method">Use no-drill methods only inside their real limits</a></li><li><a href="#deep-dive-into-landlord-safe-components">Choose components by ratings and permission, not by ‘landlord-safe’ labels</a></li><li><a href="#step-by-step-rental-setup-plan">Walk the rental decision tree before you buy</a></li></ol>
+    </li>
+    <li><a href="#budget-sourcing-and-weekend-implementation-plan">Budget, sourcing, and an optional weekend sequence</a>
+      <ol><li><a href="#understanding-the-importance-of-weekend-execution">Buy safety hardware before decor</a></li><li><a href="#the-priority-spending-framework">Use a complete USD example, then verify locally</a></li><li><a href="#the-weekend-sequence-that-keeps-you-on-track">Optional weekend sequence — not a mandatory program</a></li></ol>
+    </li>
+    <li><a href="#maintenance-inspection-and-age-based-updates">Maintenance, inspection, and growing-child updates</a>
+      <ol><li><a href="#rhythm-one-weekly-glance">Weekly glance: look, do not tug</a></li><li><a href="#rhythm-two-monthly-wipe">Monthly clean with product-specific methods</a></li><li><a href="#rhythm-three-quarterly-pull-test">Quarterly inspection without a forceful pull test</a></li><li><a href="#rhythm-four-seasonal-adjustments">Seasonal changes need a fresh risk pass</a></li><li><a href="#rhythm-five-annual-audit">Annual audit: measure again, do not reuse last year’s assumptions</a></li></ol>
+    </li>
+    <li><a href="#weekend-implementation-checklist">Optional weekend implementation checklist</a>
+      <ol><li><a href="#purpose-and-benefits">What this optional checklist is for</a></li><li><a href="#how-to-use-the-checklist">How to use the three optional passes</a></li><li><a href="#main-content-pre-project-measurements">Pass 1: Fill the measurement sheet before you buy</a></li><li><a href="#day-2-installation-sequence">Pass 2: Install both anchors, then protect cables</a></li><li><a href="#day-3-styling-and-maintenance">Pass 3: Style without undoing the safety work</a></li></ol>
+    </li>
+    <li><a href="#room-and-wall-assessment-worksheet">Worksheets: Measurements, reach, decisions, and inventory</a>
+      <ol><li><a href="#assessing-your-room">TV and furniture measurement sheet</a></li><li><a href="#determining-tv-size-and-height">Installation decision worksheet</a></li><li><a href="#planning-clearances-and-pathways">Reach-and-climb assessment</a></li></ol>
+    </li>
+    <li><a href="#rental-friendly-no-drill-methods-guide">Rental methods: Permission, reversibility, and hard limits</a>
+      <ol><li><a href="#planning-your-layout">Layout still has to pass the reach-and-climb list</a></li><li><a href="#choosing-the-right-mount">Freestanding support is still an installation</a></li><li><a href="#bracing-and-stabilizing-your-setup">Bracing two unanchored objects is not a complete system</a></li><li><a href="#effective-cord-management">Rental cord routes still have to be protected and inspectable</a></li></ol>
+    </li>
+  </ol>
+</section>
+
+<section class="chapter" id="foundations-of-a-stylish-tv-area-with-child-safety-measures">
+  <div class="chapter-opener">
+    <img src="photos/001-pexels.jpg" alt="Living room with a TV wall, media console, and simple furnishings. No people or text.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Foundations of a stylish TV area with child-safety measures</h2>
+<p>This book is organized as a reference guide with optional implementation sequences. You can read it from beginning to end or use the assessment, installation, rental, and maintenance sections independently. About the examples: this book is written for renters and homeowners in the United States. Some scenarios use apartments in Indian cities as illustrations of planning decisions. They do not define the book’s market, building codes, product availability, or budget. Prices are USD. Measurements are inches first. No room arrangement is completely childproof. The recommendations in this book are intended to reduce foreseeable risks, not eliminate them. Children’s abilities change quickly, so caregivers should reassess reach, climbing routes, cords, furniture stability, and equipment access regularly. This chapter defines the safety principles used in the rest of the book: TV stability, furniture stability, cable protection, and child reachability are four separate problems. Later chapters apply those principles; they do not repeat the full explanation.</p>    </div>
+  </div>
+
+  <article class="unit" id="defining-your-safety-vision">
+
+    <figure class="hero">
+      <img src="photos/002-pexels.jpg" alt="Living-room TV area with furniture and lighting. No people or text.">
+      <div class="hero-label">
+<span class="day">Core guide</span>        <h3>Write a brief that includes the safety limits</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a 1BHK apartment in Pune, Anjali wants a calm living room that still works for her toddler. The city name is an illustration. The safety questions are the same in a US rental: what can tip, what can be pulled, and what can be climbed.</p>
+    </div>
+
+    <p class="principle">A design brief is useful only if it names both the look you want and the risks you will not accept.</p>
+
+    <div class="body-copy">
+      <p>No room arrangement is completely childproof. The recommendations in this book are intended to reduce foreseeable risks, not eliminate them. Children’s abilities change quickly, so caregivers should reassess reach, climbing routes, cords, furniture stability, and equipment access regularly.</p>
+      <figure class="diagram">
+        <img src="figures/D001.svg" alt="Four separate safety questions">
+<figcaption>Treat each risk on its own. A clear floor does not replace anchoring.</figcaption>      </figure>
+      <p>Write three sentences for mood, color, and materials. Then write four non-negotiables: the TV must be secured to its support; the furniture must be anchored if it can tip; cords must be protected from pulling, chewing, crushing, and heat; climbing aids near the TV must be removed. Hidden cords are not automatically safe.</p>
+      <p>Share the brief with anyone who shops, installs, or rearranges the room. A stylish TV area with practical child-safety measures is the goal. A childproof guarantee is not.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Write the mood, color, and material sentences.</li><li>List the four non-negotiables: TV support, furniture stability, cords, climbing routes.</li><li>Note renter or owner, wall uncertainty, and whether a fireplace or heat source is present.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: the brief names a color palette but skips anchoring, treats hidden cables as finished safety work, or assumes a low console will keep a toddler safe.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Limitation statement read: no room is completely childproof</li><li>Four risk types named: TV, furniture, cords, reach</li><li>Renter or owner noted</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="choosing-mounting-or-a-stand">
+
+    <figure class="hero">
+      <img src="photos/003-pexels.jpg" alt="Living-room TV area with furniture and lighting. No people or text.">
+      <div class="hero-label">
+<span class="day">Core guide</span>        <h3>Choose a support, then plan both anchors</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a family room in Bengaluru, Ravi and Priya have a 55-inch TV. They are choosing between a wall mount and a stand. Either choice still requires a complete stability plan.</p>
+    </div>
+
+    <p class="principle">Mounting and a stand are both valid. Neither is safe until the TV and the furniture are secured as required.</p>
+
+    <div class="body-copy">
+      <p>There are two separate stability questions: (1) Can the TV itself tip, slide, or fall from its support? (2) Can the furniture tip, slide, or pull away from the wall? Address both risks using compatible, manufacturer-approved hardware and installation methods. Follow the TV, mount, furniture, and anti-tip hardware instructions.</p>
+      <p>A mount’s stated weight capacity is only one compatibility check. Confirm the TV’s VESA pattern, dimensions, mounting orientation, wall structure, fasteners, clearance requirements, and installation instructions before purchasing.</p>
+      <p>If you use a stand, a low, wide unit may offer a more stable starting geometry, but stability depends on dimensions, weight distribution, construction, floor condition, TV placement, and anchoring. Do not treat shape alone as a substitute for anti-tip protection. Anchor the furniture to a suitable structural point using hardware appropriate for the wall substrate and the manufacturer’s instructions. Do not assume that two studs are available, correctly positioned, or sufficient for every furniture and anchor configuration.</p>
+      <p>Stop and obtain qualified help if you cannot identify the wall structure; you are unsure where electrical wiring or plumbing runs; the TV is unusually heavy or large; the mount cannot be attached according to its instructions; the wall is damaged or unstable; the installation requires structural reinforcement; you cannot verify the hardware’s suitability; or you are working above a fireplace or another heat-producing feature.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Decide wall-mount, freestanding stand, or both — then write how the TV is secured and how the furniture is secured.</li><li>Collect TV weight with and without stand, VESA pattern, and furniture load rating.</li><li>If the wall or hardware is uncertain, stop and get qualified help.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: the furniture is anchored but the TV is not secured to it; the TV is strapped to a unit that can still tip; or the reader assumes two wood studs will be present and correctly aligned.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>TV-support method named</li><li>Furniture-anchor method named</li><li>Professional-help boundary reviewed</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="setting-height-and-clearance-targets">
+
+    <figure class="hero">
+      <img src="photos/004-pexels.jpg" alt="alternate view of a living room with TV height considerations">
+      <div class="hero-label">
+<span class="day">Core guide</span>        <h3>Set height by comfort and reach, not a universal number</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a Mumbai flat, Meera wants a comfortable view and a safer setup for her toddler. A higher screen is not automatically out of reach, and a lower screen is not automatically safer.</p>
+    </div>
+
+    <p class="principle">Choose TV height from seated eye level, viewing comfort, furniture placement, and climbing routes — not from a fixed bottom-edge range.</p>
+
+    <div class="body-copy">
+      <p>Choose the TV height by considering seated eye level, viewing comfort, furniture placement, and the child’s ability to reach or climb toward the screen. Do not use mounting height as a substitute for anchoring the TV and furniture. Follow the TV mount manufacturer’s installation requirements and assess the complete room for climbing and reach hazards.</p>
+      <figure class="diagram">
+        <img src="figures/D002.svg" alt="Height and ventilation checks">
+<figcaption>Comfort, reach, and manufacturer clearances are separate checks. Height is not a substitute for anchoring.</figcaption>      </figure>
+      <p>A practical method: (1) measure seated eye height; (2) mark the approximate screen position with painter’s tape; (3) sit in the normal viewing position; (4) check neck comfort and sightlines; (5) check whether nearby furniture creates a climbing route; (6) confirm that the final installation can be securely anchored. Use your actual seated eye height rather than relying on a universal number. A 42-inch figure may be used as an example, but furniture height, body size, posture, and seating position vary.</p>
+      <p>Choose a viewing height that is comfortable and compatible with the child-safety plan. A lower TV is not automatically safer, and a higher TV is not automatically out of reach. Secure the TV and furniture, remove climbing aids, manage cords, and evaluate reachability from nearby surfaces.</p>
+      <p>Check the television manufacturer’s installation instructions for ventilation, wall clearance, orientation, and surrounding obstructions. Do not assume that a two-inch gap is sufficient. Choose a cabinet that provides the ventilation and clearance specified for the equipment installed inside it. A rear opening alone does not guarantee adequate airflow.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Measure seated eye height at the usual viewing seat.</li><li>Tape a mock screen on the wall and sit in the normal position.</li><li>Check neck comfort, glare, climbing routes, and whether the chosen height can be anchored.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: the reader mounts to a 36–48 inch bottom edge because it sounded child-safe, then discovers neck strain, a climbable console, or a gap that does not match the manufacturer’s ventilation instructions.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Actual seated eye height recorded</li><li>Tape mock-up checked from the sofa</li><li>Manufacturer ventilation instructions located</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="establishing-the-safety-zone">
+
+    <figure class="hero">
+      <img src="photos/005-pexels.jpg" alt="Living-room TV wall with a media console and furnishings. No people or text.">
+      <div class="hero-label">
+<span class="day">Core guide</span>        <h3>Assess reach and climbing instead of a fixed buffer</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a compact 1BHK in Pune, Anjali wants the TV area to stay usable while her toddler explores. A taped 18–24 inch band would look tidy on a floor plan and still miss the stool that becomes a step.</p>
+    </div>
+
+    <p class="principle">A clear area is a planning tool. It does not replace anchoring, cord protection, or a reach-and-climb review.</p>
+
+    <div class="body-copy">
+      <p>Create a clear area around the TV unit by removing stools, poufs, low tables, and other objects that could become climbing aids. The required clearance depends on the furniture, TV placement, room layout, and the child’s ability to reach or climb. Evaluate the complete setup rather than relying on a fixed 18–24-inch buffer.</p>
+      <figure class="diagram">
+        <img src="figures/D009.svg" alt="Reach-and-climb snapshot">
+<figcaption>Reassess as the child grows. A clear area does not replace anchoring.</figcaption>      </figure>
+      <p>A clear area does not replace anchoring. A TV and its supporting furniture must be secured according to the manufacturer’s instructions and the installation conditions.</p>
+      <p>Use a rug as a visual boundary only if it lies flat, has a compatible non-slip pad where appropriate, and does not obstruct walkways. Do not use a low bench or other climbable furniture as a child-safety barrier unless its placement and stability have been assessed.</p>
+      <p>Reassess the room as the child grows. A setup that is inaccessible today may become reachable within a few months.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Remove stools, poufs, low tables, and toys that create a step toward the TV.</li><li>Walk the reach-and-climb worksheet in the worksheets chapter.</li><li>Confirm both TV and furniture anchors are still part of the plan.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: a low bench is used as a ‘boundary’; a cord is hidden but still reachable; or the reader treats a painted buffer on the floor as a sufficient safety zone.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Climbing aids listed and removed or relocated</li><li>Rug checked for slip and trip</li><li>Anchoring still on the plan</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="room-and-wall-assessment-layouts-sightlines-and-traffic-flow">
+  <div class="chapter-opener">
+    <img src="photos/006-pexels.jpg" alt="Living room with a TV wall, media console, and simple furnishings. No people or text.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Room and wall assessment: Layouts, sightlines, and traffic flow</h2>
+<p>This is the assessment chapter. Measure the room, identify the wall, map traffic, and flag heat sources before you buy a mount or a console. Do not identify wall type by knocking alone. Do not treat a viewing-distance range as a universal rule. About the examples: this book is written for renters and homeowners in the United States. Some scenarios use apartments in Indian cities as illustrations of planning decisions. They do not define the book’s market, building codes, product availability, or budget. Prices are USD. Measurements are inches first.</p>    </div>
+  </div>
+
+  <article class="unit" id="assessing-layout-for-comfort-and-safety">
+
+    <figure class="hero">
+      <img src="photos/007-pexels.jpg" alt="A Pune living room with a sofa and marked screen area, emphasizing safety and comfort.">
+      <div class="hero-label">
+<span class="day">Assessment</span>        <h3>Map seating, sightlines, and viewing comfort</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Ravi lives in a 1BHK in Pune with a 9-foot living-room wall. He wants a TV area that is comfortable for adults and harder for a toddler to turn into a climbing course.</p>
+    </div>
+
+    <p class="principle">Viewing comfort is tested from the actual seat. Published distance ranges are starting points, not guarantees.</p>
+
+    <div class="body-copy">
+      <p>Use the manufacturer or reputable viewing-distance guidance as a starting point, then test the proposed position from the actual seating location. Viewing comfort varies with screen size, resolution, content, and personal preference. A 55-inch TV with a 7–11 foot seating range can be used as an illustrative example; it is not a universal comfort standard.</p>
+      <p>Tape the proposed screen on the wall. Sit in the primary adult seat. Check neck comfort, glare, and whether children would look sharply upward for long periods. Ensure that furniture changes made for viewing do not create a climbing route and that the viewing position does not obstruct normal traffic.</p>
+      <p>Maintain clear, usable paths between doors, seating, and frequently used areas. Check the actual furniture dimensions, door swings, mobility needs, and the people using the room. Do not rely on one fixed clearance number for every layout.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Measure seat-to-wall distance and seated eye height.</li><li>Tape the screen outline and sit in the usual seat.</li><li>Note glare, neck comfort, child viewing angle, and walkway conflicts.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: a 7–11 foot rule is applied to every 55-inch TV; the tape mock-up is skipped; or a new ottoman added for ‘better viewing’ becomes a step.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Seat-to-screen distance recorded</li><li>Tape mock-up checked by an adult and, if relevant, a child</li><li>Walkways still usable</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="understanding-wall-types-and-mounting-options">
+
+    <figure class="hero">
+      <img src="photos/008-pexels.jpg" alt="A close-up of a Bengaluru living room wall, emphasizing the stud finder and plaster texture.">
+      <div class="hero-label">
+<span class="day">Assessment</span>        <h3>Identify the wall without relying on a knock test</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Anjali’s Bengaluru rental has plaster that does not match a simple drywall story. A hollow or solid knock would not tell her whether a mount can be installed.</p>
+    </div>
+
+    <p class="principle">Wall sound is a rough clue at best. It cannot confirm structure or a safe mounting point.</p>
+
+    <div class="body-copy">
+      <p>Use the building information, visual inspection, appropriate detection tools, and the mount manufacturer’s requirements to identify the wall construction. Do not rely on knocking alone to determine whether a wall can support a TV.</p>
+      <p>If the wall structure or utility locations are uncertain, stop before drilling and consult a qualified installer or building professional.</p>
+      <p>Use the stud finder as one part of the assessment, not as proof of a safe mounting point. Confirm the wall construction, stud position, mount hole pattern, TV weight, and hardware requirements. Check for hidden wiring and plumbing before drilling. If the mount cannot be installed according to its instructions, use a different mounting method or obtain professional help. Stud finders can produce false positives or false negatives. Metal studs require different mounting methods. Stud spacing varies. The mount’s hole pattern may not align with available studs. Mounting into drywall alone is not automatically sufficient for a heavy TV.</p>
+      <p>Do not place ordinary extension cords, power strips, or non-rated cables inside walls. Use wiring and cable assemblies approved for in-wall installation and follow applicable electrical requirements. Power wiring and low-voltage signal wiring may have different installation rules. Do not cut or modify electrical wiring to create a concealed route. Electrical requirements vary by location, installation type, and building conditions. Do not modify outlets, wiring, or circuits based solely on this book. Consult a qualified electrician when electrical work is required.</p>
+      <p>Stop and obtain qualified help if you cannot identify the wall structure; you are unsure where electrical wiring or plumbing runs; the TV is unusually heavy or large; the mount cannot be attached according to its instructions; the wall is damaged or unstable; the installation requires structural reinforcement; you cannot verify the hardware’s suitability; or you are working above a fireplace or another heat-producing feature.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Record wall finish, any building documents, and outlet locations.</li><li>Use detection tools as one input; do not drill from a single beep.</li><li>If structure or utilities are uncertain, stop.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: the TV is mounted because the wall ‘sounded hollow’; the mount holes do not hit suitable structure; or ordinary power cords are planned for an in-wall path.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Wall construction still a hypothesis until confirmed</li><li>Utilities flagged before any drilling</li><li>Professional-help boundary reviewed</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="mapping-traffic-flow-and-toddler-routes">
+
+    <figure class="hero">
+      <img src="photos/009-pexels.jpg" alt="A detailed view of a Mumbai living room with marked pathways and toddler safety considerations.">
+      <div class="hero-label">
+<span class="day">Assessment</span>        <h3>Map traffic, windows, and climbing routes</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Sita’s Mumbai flat has a window on one side. She needs the TV wall to work with glare, window operation, and a toddler who treats low furniture as a staircase.</p>
+    </div>
+
+    <p class="principle">Traffic, egress, glare, and climbing are room problems. They are not solved by one placement rule.</p>
+
+    <div class="body-copy">
+      <p>Draw a simple map: doors, windows, heating equipment, walkways, the TV, the console, cord paths, power strips, and objects a child can climb or pull. Observe how the child actually moves.</p>
+      <p>Evaluate window placement for glare, heat, operation, child access, and emergency egress. Do not block a required exit or prevent the window from being used safely. Choose the TV location based on the complete room layout rather than a universal rule against placing furniture beneath a window.</p>
+      <p>Use a rug as a visual boundary only if it lies flat, has a compatible non-slip pad where appropriate, and does not obstruct walkways. Do not use a low bench or other climbable furniture as a child-safety barrier unless its placement and stability have been assessed.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Sketch doors, windows, heat sources, walkways, TV, console, and cord paths.</li><li>Mark climbing aids and pullable objects.</li><li>Check that windows and required exits still work.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: a low bench defines the TV ‘zone’; a console under a window blocks egress; or a walkway is planned with one universal clearance number.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Room map started</li><li>Window and egress checked</li><li>Climbing aids listed</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="finalizing-your-plan-for-tv-height-and-cable-routing">
+
+    <figure class="hero">
+      <img src="photos/010-pexels.jpg" alt="A well-styled family room with a focus on TV height and safety considerations.">
+      <div class="hero-label">
+<span class="day">Assessment</span>        <h3>Flag fireplaces, heat, and cable routes</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Vikram’s family room has a central fireplace. He measured a seated eye height of about 42 inches — a useful personal measurement, not a universal target — and still needs to know whether the fireplace wall can take a TV at all.</p>
+    </div>
+
+    <p class="principle">Do not assume a fireplace wall is suitable for a TV. Heat, construction, and cable routing are separate checks.</p>
+
+    <div class="body-copy">
+      <p>Do not assume that a fireplace wall is suitable for TV mounting. Follow the fireplace manufacturer’s required clearances and the TV manufacturer’s installation instructions. If heat exposure, wall construction, or cable routing is uncertain, obtain qualified advice before installation. Do not improvise a heat test. Mantel depth, heat deflection, warranty limits, masonry or framing, and hidden services all matter. Avoid a universal clearance number above a fireplace.</p>
+      <p>Provide the clearances, airflow, and ventilation specified by each device manufacturer. Do not stack or enclose equipment in a way that blocks vents or traps heat. Heat-generating equipment includes AV receivers, game consoles, streaming devices, power adapters, network equipment, soundbars, amplifiers, and media hubs — always model-specific.</p>
+      <p>The goal is not simply to hide cords. Route them so they are protected from pulling, chewing, crushing, heat, sharp edges, and accidental disconnection while remaining accessible for inspection and maintenance.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>If a fireplace or other heat source is present, stop and collect both manufacturers’ instructions.</li><li>List every heat-generating device and its ventilation notes.</li><li>Sketch power and signal paths separately.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: a TV is planned above a fireplace from a magazine photo; heat testing is improvised with a hand; or cables are routed toward the heat source to keep them out of sight.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Fireplace or heat source yes/no recorded</li><li>Device list started</li><li>Cable path not crossing heat or sharp edges</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="choosing-the-right-media-unit-secure-stylish-and-functional">
+  <div class="chapter-opener">
+    <img src="photos/011-pexels.jpg" alt="Living room with a TV wall, media console, and simple furnishings. No people or text.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Choosing the right media unit: Geometry, load, and ventilation</h2>
+<p>This is the furniture chapter. Geometry helps. It does not replace anti-tip protection, a load rating, or manufacturer ventilation. Closed storage is not automatically safer.</p>    </div>
+  </div>
+
+  <article class="unit" id="understanding-stability">
+
+    <figure class="hero">
+      <img src="photos/012-pexels.jpg" alt="close-up of a media unit&#39;s base and legs, emphasizing stability features">
+      <div class="hero-label">
+<span class="day">Furniture</span>        <h3>Treat low and wide as a starting geometry, not a safety system</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Ravi and Priya need a media unit that can take a TV and survive two curious children. A short, wide credenza is on the shortlist — and still needs a full stability plan.</p>
+    </div>
+
+    <p class="principle">A low, wide unit may offer a more stable starting geometry, but shape is not a substitute for anti-tip protection.</p>
+
+    <div class="body-copy">
+      <p>A low, wide unit may offer a more stable starting geometry, but stability depends on the unit’s dimensions, weight distribution, construction, floor condition, TV placement, and anchoring. A unit can still tip if it is shallow, the TV is heavy or placed near the front, drawers are pulled out, a child climbs, the floor is uneven, the back panel is weak, or doors and shelves create steps.</p>
+      <figure class="diagram">
+        <img src="figures/D005.svg" alt="Console geometry is a starting point">
+<figcaption>Example shopping ranges, not universal safety measurements. Anchoring is still required.</figcaption>      </figure>
+      <p>Use published dimension ranges only as shopping examples. A 20–28 inch height or 18–22 inch depth can describe one common living-room console; they are not universal child-safety measurements. Check the furniture manufacturer’s load rating for the TV base, whether an anti-tip kit is included, whether the kit matches the wall, and whether the unit has a structural attachment point.</p>
+      <figure class="diagram">
+        <img src="figures/D003.svg" alt="What still tips a low, wide unit">
+<figcaption>Shape does not replace anti-tip protection.</figcaption>      </figure>
+      <p>Footprint, plinth or braced legs, and a stiff back panel matter more than a brand name. You will still treat furniture anchoring as a separate requirement in the next chapter.</p>
+      <figure class="diagram">
+        <img src="figures/D006.svg" alt="Example console, not a template">
+<figcaption>One household chose a 24-inch-tall, 20-inch-deep credenza. Copy the checks, not the inches.</figcaption>      </figure>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Record unit height, depth, width, and TV placement (front vs back of the top).</li><li>Read the load rating and anti-tip kit notes.</li><li>Note drawers, shelves, and whether they can become climbing steps.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: a low, wide console is treated as tip-proof; the TV sits on the front edge; or drawers become a ladder because child locks were skipped.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Geometry recorded as a starting point only</li><li>Load rating and anti-tip kit checked</li><li>Climbing features on the unit listed</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="integrated-venting-and-signal-paths">
+
+    <figure class="hero">
+      <img src="photos/013-pexels.jpg" alt="angle shot of a media unit with remote control access and cable ports">
+      <div class="hero-label">
+<span class="day">Furniture</span>        <h3>Match the cabinet to the equipment, not a two-inch rule</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Meera’s Bengaluru rental needs a console that can hide a receiver and a console without cooking them. A rear cutout looks like ventilation and may not be.</p>
+    </div>
+
+    <p class="principle">Closed storage can hide clutter. It must still meet each device’s ventilation and access needs.</p>
+
+    <div class="body-copy">
+      <p>Follow the manufacturer’s clearance and ventilation requirements for every device. Do not enclose heat-generating equipment in a tight cabinet or block its ventilation openings. If the manufacturer specifies minimum clearances, use those requirements rather than a universal distance.</p>
+      <figure class="diagram">
+        <img src="figures/D004.svg" alt="Device inventory (no generic clearance numbers)">
+<figcaption>Heat output and ventilation are model-specific. Copy the manufacturer’s instructions, not a universal gap.</figcaption>      </figure>
+      <p>Choose a cabinet that provides the ventilation and clearance specified for the equipment installed inside it. A rear opening alone does not guarantee adequate airflow.</p>
+      <p>Closed storage can reduce visual clutter and limit access to some items, but it must be designed for the equipment inside. Check ventilation, cable routing, remote-signal requirements, access for maintenance, and the manufacturer’s clearances before enclosing devices. Closed cabinets can trap heat, restrict remotes, block vents, hide damaged cables, and encourage tangled routes.</p>
+      <p>Heat-generating equipment includes AV receivers, game consoles, streaming devices, power adapters, network equipment, soundbars, amplifiers, and media hubs. Do not stack or enclose equipment in a way that blocks vents or traps heat. Keep power supplies ventilated.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>List each device and find its ventilation notes.</li><li>Check rear openings, side vents, and shelf spacing against those notes.</li><li>Confirm remote or app control still works with doors closed.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: a rear opening is treated as enough airflow; devices are stacked; or a universal two-inch gap is used instead of the manufacturer’s instructions.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Device inventory started</li><li>No generic clearance number used</li><li>Remote path checked</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="neat-closed-storage">
+
+    <figure class="hero">
+      <img src="photos/014-pexels.jpg" alt="close-up of a drawer with soft close mechanism and child lock">
+      <div class="hero-label">
+<span class="day">Furniture</span>        <h3>Use closed storage for access control, then check heat and reach</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Anjali’s Mumbai flat needs remotes and controllers out of a toddler’s first grab, without turning the cabinet into a sealed oven.</p>
+    </div>
+
+    <p class="principle">Closed storage limits some access. It does not make the cabinet childproof or automatically well ventilated.</p>
+
+    <div class="body-copy">
+      <p>Put remotes, controllers, and small accessories in doors or drawers that latch if that matches how your household actually uses the room. Soft-close hardware can reduce slammed fingers; it is not a lock. Check whether a child can still open the door and whether shelves inside become climbing steps once the door is open.</p>
+      <p>Keep glass, ceramic, sharp, heavy, and small objects out of the child’s reach. For homes with young children, assess whether decorative objects can be pulled, thrown, broken, swallowed, or used as climbing aids.</p>
+      <p>Maintain device-sensor paths and manufacturer clearances while you conceal cables. If enclosing the equipment conflicts with ventilation or access, change the cabinet or the equipment location — do not ‘solve’ heat by leaving the door ajar as a habit.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Assign closed storage for remotes and small objects.</li><li>Add latches only where they match the furniture and do not create a new climb.</li><li>Recheck ventilation after doors are closed.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: closed doors are treated as childproof; heat-generating gear is sealed in; or open baskets of remotes sit at toddler height ‘just for now.’</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Small objects and remotes have a home</li><li>Doors checked as possible climbing features</li><li>Closed-door heat check done</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="tested-anchor-readiness-and-load">
+
+    <figure class="hero">
+      <img src="photos/015-pexels.jpg" alt="close-up of back panel with anchor points and solid rails">
+      <div class="hero-label">
+<span class="day">Furniture</span>        <h3>Confirm the unit can be anchored and can carry the TV</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Suresh is shopping for a console in a Pune 1BHK. The listing says ‘anti-tip ready.’ That claim does not replace the installation instructions.</p>
+    </div>
+
+    <p class="principle">An anti-tip claim on a product page is not an installation plan.</p>
+
+    <div class="body-copy">
+      <p>Check whether the furniture manufacturer provides an anti-tip kit; whether the kit is compatible with the wall; whether the furniture has an appropriate structural attachment point; whether the unit needs to be attached to studs or another suitable structure; whether the furniture can support the TV base; whether drawers can be opened by a child; and whether shelves create climbing steps.</p>
+      <figure class="diagram">
+        <img src="figures/D016.svg" alt="Furniture anti-tip readiness">
+<figcaption>A product’s anti-tip claim does not replace checking its installation instructions.</figcaption>      </figure>
+      <p>Inspect the back panel. A thin cardboard back may not be a structural attachment point. Look for rails, a solid top rail, or the attachment locations named in the furniture instructions. Do not assume two studs will line up with those points.</p>
+      <p>If the unit cannot be secured safely, choose a different unit or a different TV support. Do not buy a console because it looks low and wide and hope the next chapter will fix it.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Read the anti-tip kit and load-rating documents before purchase.</li><li>Find the structural attachment point on the furniture.</li><li>Match that point to a suitable wall structure — or change the plan.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: the kit is tossed; the strap is screwed into a thin back panel; or the TV base exceeds the top’s load rating.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Anti-tip kit documented</li><li>Attachment point found</li><li>TV load vs furniture rating checked</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="anchoring-media-furniture-methods-hardware-and-invisible-ins">
+  <div class="chapter-opener">
+    <img src="photos/016-pexels.jpg" alt="Living room with a TV wall, media console, and simple furnishings. No people or text.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Anchoring the TV and the furniture: Two separate jobs</h2>
+<p>This is the mounting and furniture-anchoring chapter. There are two separate stability questions: (1) Can the TV itself tip, slide, or fall from its support? (2) Can the furniture tip, slide, or pull away from the wall? Address both risks using compatible, manufacturer-approved hardware and installation methods. Follow the TV, mount, furniture, and anti-tip hardware instructions. Wood-stud mounting is only one wall condition. Stop and obtain qualified help if you cannot identify the wall structure; you are unsure where electrical wiring or plumbing runs; the TV is unusually heavy or large; the mount cannot be attached according to its instructions; the wall is damaged or unstable; the installation requires structural reinforcement; you cannot verify the hardware’s suitability; or you are working above a fireplace or another heat-producing feature.</p>    </div>
+  </div>
+
+  <article class="unit" id="understanding-the-importance-of-anchoring">
+
+    <figure class="hero">
+      <img src="photos/016-pexels.jpg" alt="close-up of the anchoring hardware used behind a media unit.">
+      <div class="hero-label">
+<span class="day">Mounting</span>        <h3>Separate TV stability from furniture stability</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Priya likes her media unit. Her toddler uses drawers as steps. Anchoring the cabinet would not, by itself, keep the TV on top of it.</p>
+    </div>
+
+    <p class="principle">Securing the furniture does not secure the TV. Securing the TV does not secure the furniture.</p>
+
+    <div class="body-copy">
+      <p>There are two separate stability questions: (1) Can the TV itself tip, slide, or fall from its support? (2) Can the furniture tip, slide, or pull away from the wall? Address both risks using compatible, manufacturer-approved hardware and installation methods. Follow the TV, mount, furniture, and anti-tip hardware instructions.</p>
+      <p>Unanchored furniture can look stable until a drawer becomes a step or a child pulls the top edge. Adjacent furniture can create a ladder. A heavy TV on a weak or unsuitable wall is still unsafe. A strap rated for one setup may not be suitable for another.</p>
+      <p>A product’s anti-tip claim does not replace checking its installation instructions. If you cannot identify the wall, locate utilities, or attach the hardware as instructed, stop. Stop and obtain qualified help if you cannot identify the wall structure; you are unsure where electrical wiring or plumbing runs; the TV is unusually heavy or large; the mount cannot be attached according to its instructions; the wall is damaged or unstable; the installation requires structural reinforcement; you cannot verify the hardware’s suitability; or you are working above a fireplace or another heat-producing feature.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Write the TV-support method and the furniture-anchor method as two lines.</li><li>Note wall construction and any uncertainty.</li><li>If either line is ‘hope,’ change the setup or get help.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: the furniture is anchored but the TV is free on top; the TV is strapped to a unit that can still walk away from the wall; or adjacent stools complete a climb.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Two stability questions answered</li><li>Wall uncertainty flagged</li><li>Adjacent climbing furniture listed</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="choosing-the-right-hardware">
+
+    <figure class="hero">
+      <img src="photos/018-pexels.jpg" alt="close-up of flexible straps and rigid brackets used for anchoring.">
+      <div class="hero-label">
+<span class="day">Mounting</span>        <h3>Match hardware to the wall substrate</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Arjun’s Bengaluru rental may be masonry in one wall and a different assembly in another. A wood-stud strap kit is not automatically the right product.</p>
+    </div>
+
+    <p class="principle">Hardware must match the wall substrate, the furniture, the TV, and the manufacturer’s instructions.</p>
+
+    <div class="body-copy">
+      <p>Anchor the furniture to a suitable structural point using hardware appropriate for the wall substrate and the manufacturer’s instructions. Do not assume that two studs are available, correctly positioned, or sufficient for every furniture and anchor configuration. If a later example uses two wood studs, treat it as an example — not a universal rule.</p>
+      <p>Wood studs: mount hardware must match stud size, spacing, and mount requirements. Metal studs: may require a specifically designed mounting method and structural reinforcement. Concrete or masonry: requires appropriate anchors, substrate verification, and load calculations. Plaster over lath: requires careful identification of the supporting structure. Drywall without suitable structural support: do not assume ordinary anchors can support the TV and mount. Do not provide yourself a generic anchor size as a universal solution.</p>
+      <p>Flexible straps, rigid brackets, and cleats are different tools. Choose the type named in the furniture or anti-tip instructions, with a load rating that matches this setup. A mount’s stated weight capacity is only one compatibility check. Confirm VESA pattern, dimensions, orientation, wall structure, fasteners, clearance, cable bend, maintenance access, and whether the mount can support the TV’s center of gravity.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Name the wall condition: wood stud, metal stud, masonry, plaster, or unknown.</li><li>Select hardware named for that condition and this furniture or mount.</li><li>If unknown, stop.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: drywall anchors are used because they are in the junk drawer; metal studs are treated like wood; or weight capacity is the only mount check.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Wall condition named</li><li>Hardware matches that condition</li><li>VESA and orientation checked if wall-mounting</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="installation-techniques-for-safety">
+
+    <figure class="hero">
+      <img src="photos/019-pexels.jpg" alt="close-up of the installation tools and techniques for anchoring a media unit.">
+      <div class="hero-label">
+<span class="day">Mounting</span>        <h3>Install as instructed — and do not force a pull test</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Meera is ready to attach straps in a small Mumbai living room. She wants a way to know the install worked without yanking the TV off the wall.</p>
+    </div>
+
+    <p class="principle">Follow the installation instructions. Do not perform a forceful pull test on a TV or furniture unit.</p>
+
+    <div class="body-copy">
+      <p>Map a load path only after the wall structure is identified. On the furniture, use the structural attachment points named by the manufacturer — often a top rail or specified brace — not a thin decorative back.</p>
+      <p>Use the fasteners specified for that wall. Do not drill based only on a detector reading. If the mount’s hole pattern does not align with suitable structure, change the method or get professional help. Stop and obtain qualified help if you cannot identify the wall structure; you are unsure where electrical wiring or plumbing runs; the TV is unusually heavy or large; the mount cannot be attached according to its instructions; the wall is damaged or unstable; the installation requires structural reinforcement; you cannot verify the hardware’s suitability; or you are working above a fireplace or another heat-producing feature.</p>
+      <p>Inspect the anchor points, straps, brackets, fasteners, and furniture connection points according to the manufacturer’s instructions. Do not perform a forceful pull test on a TV or furniture unit. If you notice movement, looseness, damage, or an unexplained gap, stop using the setup as necessary and correct the issue using the appropriate installation method.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Dry-fit hardware against the actual wall and furniture.</li><li>Install only with the specified fasteners and locations.</li><li>Inspect for snug, undamaged connections — do not yank the TV.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: holes are drilled from a stud-finder beep; a ‘tug test’ is used as proof; or the strap is installed into cardboard backing.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Instructions in hand during install</li><li>No forceful pull test</li><li>Connections inspected for movement or damage</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="maintenance-and-inspection">
+
+    <figure class="hero">
+      <img src="photos/020-pexels.jpg" alt="close-up of inspection tools and methods for maintaining a securely anchored media unit.">
+      <div class="hero-label">
+<span class="day">Mounting</span>        <h3>Keep anchors inspectable after the room is styled</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Ravi’s Chennai apartment looks finished. The straps disappeared behind baskets — and so did any way to see whether they are still doing their job.</p>
+    </div>
+
+    <p class="principle">An anchor you cannot inspect is a plan you cannot maintain.</p>
+
+    <div class="body-copy">
+      <p>Keep a path to straps, brackets, and fasteners. If styling makes inspection impossible, change the styling. Document hardware types, locations, and the date of the last visual check.</p>
+      <p>Reinspect the setup after moving furniture, replacing equipment, changing cable routes, or noticing impact, movement, or damage. Do not assume that an earlier installation remains safe after the load or configuration changes.</p>
+      <p>The maintenance chapter later in this book is the schedule. This chapter’s job is to make that schedule possible.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Photograph fastener locations before you conceal them.</li><li>Leave an inspection path.</li><li>Write the next visual-check date.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: baskets block the straps; the TV is swapped and the old mount is assumed to fit; or a moved console is left unanchored ‘until the weekend.’</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Inspection path exists</li><li>Hardware photographed</li><li>Reinspect triggers understood</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="cord-management-mastery-hide-route-and-contain">
+  <div class="chapter-opener">
+    <img src="photos/021-pexels.jpg" alt="Living room with a TV wall, media console, and simple furnishings. No people or text.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Cord management: Plan, protect, contain, and inspect</h2>
+<p>This is the cord chapter. The goal is not simply to hide cords. Route them so they are protected from pulling, chewing, crushing, heat, sharp edges, and accidental disconnection while remaining accessible for inspection and maintenance. Electrical requirements vary by location, installation type, and building conditions. Do not modify outlets, wiring, or circuits based solely on this book. Consult a qualified electrician when electrical work is required.</p>    </div>
+  </div>
+
+  <article class="unit" id="understanding-the-risks-of-exposed-cords">
+
+    <figure class="hero">
+      <img src="photos/022-pexels.jpg" alt="Living-room TV area with furniture and lighting. No people or text.">
+      <div class="hero-label">
+<span class="day">Cords</span>        <h3>Treat cords as pull, heat, and damage hazards — not as clutter</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a 1BHK in Pune, Riya’s media wall looks styled until a toddler finds a loop of power cable. Hiding that loop behind the console would not, by itself, make it safe.</p>
+    </div>
+
+    <p class="principle">Concealment can improve appearance. A hidden cable may still be reachable, pinched, overheated, or installed incorrectly.</p>
+
+    <div class="body-copy">
+      <p>The goal is not simply to hide cords. Route them so they are protected from pulling, chewing, crushing, heat, sharp edges, and accidental disconnection while remaining accessible for inspection and maintenance.</p>
+      <p>A hidden cable may still be accessible to a child, pinched behind furniture, damaged by bending, pulled under tension, trapped near a heat source, installed in a way that violates electrical requirements, or difficult to inspect or replace.</p>
+      <p>Keep outlets and power strips inaccessible where practical. Use suitable outlet protection where appropriate. Do not cover outlets in a way that creates overheating or access problems. Do not place loose adapters or power bricks where children can pull them. Keep cords secured without creating tension on plugs. Do not recommend a generic outlet cover to yourself without checking compatibility with the outlet.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>List every power brick, strip, and dangling loop a child could reach.</li><li>Note pinch points behind the console and at door swings.</li><li>Mark any cable near heat or a sharp cabinet edge.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: the cable path is hidden but still reachable; a power brick sits on the floor; or an outlet is covered in a way that traps heat.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Reachable cords listed</li><li>Power bricks off the floor and out of pull range where practical</li><li>Outlet protection considered without blocking heat</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="the-four-layer-pathway-framework">
+
+    <figure class="hero">
+      <img src="photos/023-pexels.jpg" alt="close-up of a gaming console with organized cords and a clean look">
+      <div class="hero-label">
+<span class="day">Cords</span>        <h3>Use four layers: Plan, protect, contain, inspect</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Anil is adding a game console in a Bengaluru apartment. He wants one method that does not dump every cable into the same hot, overfilled raceway.</p>
+    </div>
+
+    <p class="principle">Four layers keep the work in order. They do not require every cable to share one containment system.</p>
+
+    <div class="body-copy">
+      <p>Layer 1 — Plan: identify each device, its power and signal connections, the route length, and how you will move or service the equipment. Sketch two paths: wall outlet → power protection → media console → device; and TV → HDMI or other signal cable → console or source. Do not force power and signal through the same containment if that creates heat, signal, or installation problems.</p>
+      <p>Layer 2 — Protect: avoid pinch points, sharp edges, heat, tension, and excessive bending. Keep cords away from children’s reach. Avoid cables stretched tightly between devices. Avoid sharp bends near connectors. Leave enough slack for safe maintenance. Do not coil cables tightly around heat-generating equipment. Keep excess cable away from children’s reach. Avoid placing cables where furniture movement can crush them.</p>
+      <p>Layer 3 — Contain: select compatible raceways, clips, sleeves, or channels. Check the load and adhesive limitations. Avoid creating a new trip or climb hazard.</p>
+      <p>Layer 4 — Inspect: check plugs and cables, adhesive and fasteners, and that devices remain ventilated. Reassess after furniture movement or equipment changes.</p>
+      <p>Follow the power strip or surge protector’s ratings and manufacturer instructions. Avoid overloading outlets, connecting power strips in series, or using extension cords as permanent wiring. If the equipment load or electrical condition is uncertain, consult a qualified electrician. Do not use a surge protector as a substitute for adequate circuit capacity. Inspect cords for damage. Keep power supplies ventilated. Electrical requirements vary by location, installation type, and building conditions. Do not modify outlets, wiring, or circuits based solely on this book. Consult a qualified electrician when electrical work is required.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Draw the power path and the signal path as two lines.</li><li>Mark pinch, heat, reach, and door-swing conflicts.</li><li>Choose containment only after those conflicts are named.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: every cable is stuffed into one raceway; power strips are daisy-chained; or an extension cord becomes permanent wiring because it looked tidy.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Power path sketched</li><li>Signal path sketched</li><li>No series-connected power strips in the plan</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="designing-the-end-to-end-pathway">
+
+    <figure class="hero">
+      <img src="photos/024-pexels.jpg" alt="close-up of a desk with organized cords and a clean workspace">
+      <div class="hero-label">
+<span class="day">Cords</span>        <h3>Keep in-wall work inside electrical rules</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Priya wants a clean wall in a Mumbai flat. The tempting shortcut is to push ordinary cables into a wall cavity.</p>
+    </div>
+
+    <p class="principle">A concealed route is not automatically a legal or safe route.</p>
+
+    <div class="body-copy">
+      <p>Do not place ordinary extension cords, power strips, or non-rated cables inside walls. Use wiring and cable assemblies approved for in-wall installation and follow applicable electrical requirements. Power wiring and low-voltage signal wiring may have different installation rules. Do not cut or modify electrical wiring to create a concealed route.</p>
+      <p>Electrical requirements vary by location, installation type, and building conditions. Do not modify outlets, wiring, or circuits based solely on this book. Consult a qualified electrician when electrical work is required.</p>
+      <p>If the wall structure or utility locations are uncertain, stop before drilling. Stop and obtain qualified help if you cannot identify the wall structure, locate wiring or plumbing, attach the mount as instructed, or verify the hardware.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Decide surface routing versus in-wall routing.</li><li>If in-wall, use only rated assemblies and qualified electrical work.</li><li>If you cannot verify that, keep the route on the surface and protect it.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: an ordinary extension cord is fished into a wall; a power strip is hidden in a cavity; or wiring is cut to ‘make a hole work.’</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>In-wall vs surface decided</li><li>No ordinary power cord planned inside a wall</li><li>Electrician flagged if power wiring must move</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="choosing-containment-components-with-confidence">
+
+    <figure class="hero">
+      <img src="photos/021-pexels.jpg" alt="close-up of adhesive raceways installed on a wall for cord management">
+      <div class="hero-label">
+<span class="day">Cords</span>        <h3>Use raceways as organizers, not as a child-safety system</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Ravi is in a Chennai rental and likes adhesive raceways because they promise easy removal. Removal results are not a promise, and a raceway is not automatically child-safe.</p>
+    </div>
+
+    <p class="principle">A raceway organizes and protects cables; it does not automatically make a route child-safe.</p>
+
+    <div class="body-copy">
+      <p>A raceway organizes and protects cables; it does not automatically make a route child-safe. Check the product’s capacity, attachment method, removal limitations, and placement. Keep cable paths away from climbing routes, door movement, heat, and sharp edges. Raceways must be appropriately sized. Cables must not be crushed. The raceway should not create a tripping hazard. Adhesive may fail with heat, dust, texture, or humidity. A child may still pull on the raceway. Install according to the product’s weight and cable limits. Do not route cables across door hinges or moving furniture.</p>
+      <p>Some raceways are marketed as removable, but removal results depend on the adhesive, wall finish, paint condition, installation duration, temperature, and removal method. Follow the manufacturer’s instructions and test a small hidden area. Do not assume that removal will leave the wall undamaged.</p>
+      <p>Removability and residue depend on the product, surface, temperature, load, installation time, and removal method. Check the manufacturer’s instructions and test an inconspicuous area. Do not rely on adhesive pads as the sole safety system for heavy, sharp, breakable, or climbable objects.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Size the raceway to the cable bundle without crushing.</li><li>Test adhesive in a hidden spot.</li><li>Keep the run off climbing routes and out of door swings.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: an overfilled raceway crushes cables; adhesive fails in heat; or the raceway itself becomes a pull handle.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Capacity checked</li><li>Adhesive tested</li><li>Removal damage not assumed to be zero</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="your-checklist-for-the-week-ahead">
+
+    <figure class="hero">
+      <img src="photos/026-pexels.jpg" alt="close-up of a living room with organized cords and a stylish finish">
+      <div class="hero-label">
+<span class="day">Cords</span>        <h3>Cord checklist: length, strain, and power ratings</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Meera in a Delhi 1BHK is ready to buy parts. She will not use a surge protector as proof that the circuit is adequate.</p>
+    </div>
+
+    <p class="principle">Buy containment after the route, the load, and the child-reach picture are clear.</p>
+
+    <div class="body-copy">
+      <p>Measure each run. Avoid cables stretched tightly between devices. Leave slack for maintenance. Do not coil leftover cable on a hot device. Keep extra length out of reach and out of furniture-crush zones.</p>
+      <p>Follow the power strip or surge protector’s ratings and manufacturer instructions. Avoid overloading outlets, connecting power strips in series, or using extension cords as permanent wiring.</p>
+      <p>Add child-accessible outlet protection only with compatible products. Do not cover outlets in a way that creates overheating.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Measure routes and note service slack.</li><li>Confirm strip ratings against the actual devices.</li><li>Place the strip where a child cannot pull plugs — if that is not possible, change the layout.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: slack is stuffed behind a hot receiver; strips are chained; or the surge protector is treated as extra circuit capacity.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Routes measured</li><li>No daisy-chained strips</li><li>Outlet and brick access reviewed</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="anchoring-decor-and-accessories-beauty-without-risk">
+  <div class="chapter-opener">
+    <img src="photos/027-pexels.jpg" alt="A calm apartment interior">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Anchoring decor and accessories: Objects are not furniture</h2>
+<p>This is the decor chapter. Furniture anchoring reduces the risk of a cabinet, shelf, or console tipping. Object anchoring secures items placed on or attached to furniture — frames, lamps, speakers, small electronics, vases, plants. The hardware, load, surface, and failure modes differ. Securing a decorative object does not secure the furniture supporting it. Evaluate the stability of the furniture separately. No room arrangement is completely childproof. The recommendations in this book are intended to reduce foreseeable risks, not eliminate them.</p>    </div>
+  </div>
+
+  <article class="unit" id="anchoring-decor-and-accessories-beauty-without-risk">
+
+    <figure class="hero">
+      <img src="photos/027-pexels.jpg" alt="A calm apartment interior">
+      <div class="hero-label">
+<span class="day">Decor</span>        <h3>Secure objects separately from the furniture that holds them</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>A family living room has a glass vase, a leaning frame, and a loose soundbar on a console. Museum putty on the vase would not make the console safe to climb.</p>
+    </div>
+
+    <p class="principle">Securing a decorative object does not secure the furniture supporting it.</p>
+
+    <div class="body-copy">
+      <p>Furniture anchoring is for the cabinet, shelf, or console. Object anchoring is for what sits on it. Do both when both risks exist. Hardware that holds a frame will not hold a tipping credenza.</p>
+      <figure class="diagram">
+        <img src="figures/D007.svg" alt="Furniture anchoring vs object anchoring">
+<figcaption>Different hardware, loads, and failure modes.</figcaption>      </figure>
+      <p>For homes with young children, assess whether decorative objects can be pulled, thrown, broken, swallowed, or used as climbing aids. Place fragile, sharp, heavy, or small objects outside the child’s reach and secure larger items where appropriate. Glass vases, ceramic objects, heavy pieces, sharp-edged frames, floor-standing mirrors, small objects that can be swallowed, lamp cords, and objects at the console edge all need a decision: relocate, enclose, or secure with hardware that matches the load.</p>
+      <figure class="diagram">
+        <img src="figures/D008.svg" alt="Wall conditions for any mount or shelf">
+<figcaption>Do not treat a generic anchor size as a universal solution.</figcaption>      </figure>
+      <p>Removability and residue depend on the product, surface, temperature, load, installation time, and removal method. Check the manufacturer’s instructions and test an inconspicuous area. Do not rely on adhesive pads as the sole safety system for heavy, sharp, breakable, or climbable objects. These products can damage paint, leave residue, stain finishes, fail under heat, fail on dusty or textured surfaces, lose adhesion, damage veneer, or become accessible to children if they detach.</p>
+      <figure class="diagram">
+        <img src="figures/D010.svg" alt="Fireplace and heat-source caution">
+<figcaption>Do not assume a fireplace wall is suitable. Do not use a universal clearance.</figcaption>      </figure>
+      <p>Soundbars and speakers have their own mounts, weight limits, and cable paths. Confirm VESA or manufacturer compatibility. Do not treat a ‘rated toggle’ as a universal answer for every wall. Keep ventilation and sensor paths clear. Follow the manufacturer’s clearance and ventilation requirements for every device. Do not enclose heat-generating equipment in a tight cabinet or block its ventilation openings.</p>
+      <figure class="diagram">
+        <img src="figures/D011.svg" alt="Adhesive pads are not a universal removable product">
+<figcaption>Residue, damage, and failure depend on product, surface, heat, and time.</figcaption>      </figure>
+      <p>Plants soften a wall. They are not barriers. A tall planter can be a climb. Trailing vines can be a pull. Offset shelves so they do not read as a ladder. Closed, latched storage is for remotes and small accessories — then recheck heat if devices share that cabinet.</p>
+      <figure class="diagram">
+        <img src="figures/D012.svg" alt="Breakable and pullable decor">
+<figcaption>Place fragile, sharp, heavy, or small objects outside the child’s reach.</figcaption>      </figure>
+      <p>Reach changes with the child. A 36-inch or 48-inch tape mark can help you see today’s surfaces; it is not a permanent safety rating. Reassess as mobility changes. Do not use those marks as a claim that everything above them is out of reach.</p>
+      <figure class="diagram">
+        <img src="figures/D013.svg" alt="VESA examples, not a shopping rule">
+<figcaption>200 × 200 mm and 400 × 300 mm are examples of patterns. Confirm the TV and mount.</figcaption>      </figure>
+      <figure class="diagram">
+        <img src="figures/D014.svg" alt="Post-event inspection triggers">
+<figcaption>Do not assume an earlier installation remains safe after the load or layout changes.</figcaption>      </figure>
+      <figure class="diagram">
+        <img src="figures/D015.svg" alt="Safety spend vs styling spend">
+<figcaption>Do not remove required anchoring to stay within a styling budget.</figcaption>      </figure>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>List every object on and beside the console: fragile, sharp, heavy, small, or climbable.</li><li>Decide relocate, enclose, or secure — with hardware that matches the load.</li><li>Confirm the furniture itself is still on the anchoring plan.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: gel pads are treated as enough for a heavy lamp; aligned shelves become a ladder; or a soundbar sits loose because the room already ‘looks child-safe.’</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Furniture vs object anchoring distinguished</li><li>Glass, ceramic, sharp, heavy, and small items decided</li><li>Adhesive not used as the only system for heavy or climbable objects</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="rental-friendly-tv-areas-low-damage-options-and-installation-li">
+  <div class="chapter-opener">
+    <img src="photos/029-pexels.jpg" alt="Living room with a TV wall, media console, and simple furnishings. No people or text.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Rental-friendly TV areas: Low-damage options and installation limits</h2>
+<p>This is the rental chapter. Reversible products can still damage paint, leave residue, violate a lease, or fail under load. Use ‘landlord-safe’ only for a particular written permission or restoration process — not as a universal product promise. No-drill methods are suitable only when the complete product and furniture setup remains safe without drilling. Do not use a no-drill approach as a substitute for required structural anchoring. If a TV or furniture unit cannot be secured safely under the rental restrictions, choose a different setup or obtain written permission for an appropriate installation.</p>    </div>
+  </div>
+
+  <article class="unit" id="understanding-the-deposit-dilemma">
+
+    <figure class="hero">
+      <img src="photos/030-pexels.jpg" alt="a close-up of the freestanding TV stand with weighted base and removable raceways in a chic rental living room">
+      <div class="hero-label">
+<span class="day">Rental</span>        <h3>Put safety ahead of a no-hole preference</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Aditi’s Pune rental pits a security deposit against a toddler and a TV. Avoiding every mark is not the same as a safe setup.</p>
+    </div>
+
+    <p class="principle">Prioritize a secure TV and furniture setup over avoiding every hole or mark.</p>
+
+    <div class="body-copy">
+      <p>No-drill methods are suitable only when the complete product and furniture setup remains safe without drilling. Do not use a no-drill approach as a substitute for required structural anchoring. If a TV or furniture unit cannot be secured safely under the rental restrictions, choose a different setup or obtain written permission for an appropriate installation.</p>
+      <p>Separate three categories. No-drill decorative setup: lightweight decor and reversible styling. Freestanding TV stand with a suitable anti-tip solution: TV and furniture only when the complete setup is secured appropriately. Wall-mounted TV: requires suitable structural attachment and manufacturer-compliant installation.</p>
+      <p>Do not market an unsecured freestanding TV to yourself as a safe solution simply because it avoids wall damage. If anchoring is required, ask for written permission. If permission is refused and a safe alternative does not exist, change the equipment or the room plan.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Read the lease for alteration rules.</li><li>Name which of the three setup categories you actually have.</li><li>If structural anchoring is required, request written permission.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: a no-drill stand is called child-safe because it protects the deposit; or permission is skipped because the product box said removable.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Lease notes recorded</li><li>Setup category named</li><li>Safety ranked above zero marks</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="the-no-holes-full-control-method">
+
+    <figure class="hero">
+      <img src="photos/031-pexels.jpg" alt="a detailed view of the removable raceways and freestanding stand in a chic rental living room">
+      <div class="hero-label">
+<span class="day">Rental</span>        <h3>Use no-drill methods only inside their real limits</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Aditi likes a freestanding VESA stand. The stand still has to hold this TV on this floor, with this child, and with a real anti-tip method.</p>
+    </div>
+
+    <p class="principle">A no-drill method is a constraint. It is not a safety rating.</p>
+
+    <div class="body-copy">
+      <p>A freestanding stand can be appropriate when the TV is secured to the stand as instructed, the stand is stable on the actual floor, cords are protected, and any required anti-tip connection is compatible with the rental rules. If that chain breaks, the method is not available for this room.</p>
+      <p>Removable raceways and wraps can organize cables. They do not automatically make the route child-safe, and they may still mark paint. Test a hidden area. Document the existing wall and floor before you start.</p>
+      <p>Pressure-mounted barriers and furniture placement can change access. They can also become climbing aids or trip hazards. Assess them as furniture, not as a childproof gate.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Confirm the TV-to-stand hardware matches this TV.</li><li>Check the stand on the actual floor, including rugs and unevenness.</li><li>If an anti-tip connection needs a wall, go back to permission.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: the stand is VESA-compatible but unsecured; a tension gate becomes a ladder; or adhesive raceways are promised to leave zero marks.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>TV secured to the stand</li><li>Floor stability checked</li><li>Wall permission status written down</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="deep-dive-into-landlord-safe-components">
+
+    <figure class="hero">
+      <img src="photos/021-pexels.jpg" alt="a view of the media console with concealed weights and non-marking straps for added stability">
+      <div class="hero-label">
+<span class="day">Rental</span>        <h3>Choose components by ratings and permission, not by ‘landlord-safe’ labels</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Aditi is shopping products marketed as removable and renter-friendly. Those words are marketing until the instructions, the wall, and the lease agree.</p>
+    </div>
+
+    <p class="principle">A product is not safe solely because it is marketed as child-friendly or renter-friendly.</p>
+
+    <div class="body-copy">
+      <p>Verify weight ratings, anti-tip instructions, and whether the product needs a wall connection after all. A broad base helps friction; it does not replace a required strap.</p>
+      <p>Linking a stand to a heavy console with non-marking straps only helps if both pieces stay put and the straps are used as instructed. A heavy console that is itself unanchored is not a foundation.</p>
+      <p>Some raceways are marketed as removable, but removal results depend on the adhesive, wall finish, paint condition, installation duration, temperature, and removal method. Do not assume removal will leave the wall undamaged. Avoid promising current availability of a named product in every US region; use categories and verify ratings locally.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Write the product category, rating, and whether a wall connection is required.</li><li>Test adhesives in a hidden area.</li><li>Keep receipts and instructions for move-out and for safety.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: ‘renter-friendly’ is treated as a safety listing; residue is a surprise at move-out; or two unanchored pieces are strapped to each other and called done.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Ratings verified</li><li>Adhesive tested</li><li>Availability and instructions checked locally</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="step-by-step-rental-setup-plan">
+
+    <figure class="hero">
+      <img src="photos/033-pexels.jpg" alt="a close-up of Aditi documenting her setup process with photos and notes">
+      <div class="hero-label">
+<span class="day">Rental</span>        <h3>Walk the rental decision tree before you buy</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Aditi documents the room for her lease file. Documentation helps restoration. It does not make an unsecured TV acceptable.</p>
+    </div>
+
+    <p class="principle">Work the decision tree in order. Safety first, then reversibility.</p>
+
+    <div class="body-copy">
+      <p>1. Can the TV be safely secured using an approved freestanding setup? 2. Does the furniture manufacturer provide an anti-tip method? 3. Is the TV secured to the stand? 4. Is the unit stable on the actual floor? 5. Are cords inaccessible and protected? 6. Does the lease allow the proposed installation? 7. If anchoring is required, can the landlord provide written permission? 8. If not, is there a safer alternative?</p>
+      <p>Photograph existing walls, floors, and outlets before you start. Restore with the product’s removal method, not with improvised solvents. If permission is granted, keep it in writing with the hardware list.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Answer the eight decision-tree questions in writing.</li><li>Take before photos.</li><li>Do not buy a mount or stand that fails question 1, 3, or 4.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: before photos are skipped; the lease is unread; or a refused permission is ignored because the weekend is already booked.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Decision tree completed</li><li>Before photos stored</li><li>Written permission or a safer alternative</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="budget-sourcing-and-weekend-implementation-plan">
+  <div class="chapter-opener">
+    <img src="photos/034-pexels.jpg" alt="Living room with a TV wall, media console, and simple furnishings. No people or text.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Budget, sourcing, and an optional weekend sequence</h2>
+<p>This is the budget chapter. Core safety costs are not optional styling upgrades. The weekend sequence later in this chapter is optional — not a mandatory day-by-day program. All prices are illustrative USD estimates, not live quotes. Actual costs vary by retailer, region, product specification, shipping, tax, installation, and availability. Verify current pricing and product instructions before purchasing.</p>    </div>
+  </div>
+
+  <article class="unit" id="understanding-the-importance-of-weekend-execution">
+
+    <figure class="hero">
+      <img src="photos/034-pexels.jpg" alt="Living-room TV area with furniture and lighting. No people or text.">
+      <div class="hero-label">
+<span class="day">Budget</span>        <h3>Buy safety hardware before decor</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Riya’s Pune 1BHK is an illustration. The spending order is the same in a US apartment: anchors and cable protection before baskets.</p>
+    </div>
+
+    <p class="principle">Do not remove required anchoring or safety hardware to stay within a styling budget. Reduce decorative purchases first.</p>
+
+    <div class="body-copy">
+      <p>Core safety costs include appropriate anchoring hardware, suitable mounting hardware, safe cable management, required installation assistance, and compatible anti-tip equipment. Optional aesthetic costs include decorative panels, baskets, artwork, styling objects, accent lighting, and decorative storage.</p>
+      <p>Fragmented shopping — decor first, measurements later — is how cords stay exposed and returns pile up. Measure, then buy the safety items, then furniture that can accept those items, then styling.</p>
+      <p>All prices are illustrative USD estimates, not live quotes. Actual costs vary by retailer, region, product specification, shipping, tax, installation, and availability. Verify current pricing and product instructions before purchasing. The TV itself is excluded from the example table unless you add it. Professional installation is excluded unless you add it. Tax and delivery are shown as an allowance, not a quote. Furniture anchoring hardware is included as its own line.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>List core safety items before any decor list.</li><li>Decide whether professional installation belongs in the budget.</li><li>Do not cut the safety list to fund styling.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: the console is purchased and the anti-tip kit is skipped to keep a throw-pillow budget; or live website prices are treated as this book’s quotes.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Safety list written first</li><li>TV included or excluded — stated</li><li>Installer included or excluded — stated</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="the-priority-spending-framework">
+
+    <figure class="hero">
+      <img src="photos/034-pexels.jpg" alt="Living-room TV area with furniture and lighting. No people or text.">
+      <div class="hero-label">
+<span class="day">Budget</span>        <h3>Use a complete USD example, then verify locally</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Vikram and Neha in a Bengaluru rental are an illustration. They shop US-style categories: console, anti-tip kit, cord management, optional mount — at illustrative USD prices.</p>
+    </div>
+
+    <p class="principle">An example total is a planning envelope. It is not a quote and not a claim that those products exist on every aisle.</p>
+
+    <div class="body-copy">
+      <p>All prices are illustrative USD estimates, not live quotes. Actual costs vary by retailer, region, product specification, shipping, tax, installation, and availability. Verify current pricing and product instructions before purchasing.</p>
+      <p>Example envelope, TV excluded, professional installation excluded: media console about $180; anti-tip hardware about $25; cord-management components about $40; cable protection about $20; optional mounting hardware about $60; decorative items about $50; delivery and tax allowance about $45; planning total about $420. Quantities and unit prices will differ. Verify ratings and instructions before purchasing. Do not imply a product is safe solely because it is marketed as child-friendly or renter-friendly.</p>
+      <p>Shop generic product categories at US retailers you actually use. Avoid promising current availability. If the wall or the TV requires a qualified installer, that cost is in addition to this envelope.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Copy the example lines into your own sheet and replace every price.</li><li>Mark safety lines as non-cuttable.</li><li>Add installer or TV lines only if they apply.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: the $420 figure is treated as a national average; or decorative items are bought and the anti-tip line is deleted.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Local prices filled in</li><li>Safety lines intact</li><li>Availability verified</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="the-weekend-sequence-that-keeps-you-on-track">
+
+    <figure class="hero">
+      <img src="photos/037-pexels.jpg" alt="Living-room TV area with furniture and lighting. No people or text.">
+      <div class="hero-label">
+<span class="day">Optional weekend implementation</span>        <h3>Optional weekend sequence — not a mandatory program</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Ananya plans a weekend in a Mumbai flat. She can also spread the same tasks across weeknights. Order matters more than the calendar label.</p>
+    </div>
+
+    <p class="principle">This sequence is optional. Skip any day label that does not match how you actually work.</p>
+
+    <div class="body-copy">
+      <p>Suggested order, not a required Saturday: measure and tape first; dry-fit hardware without drilling; install only when the wall and instructions agree; route cables; style last. If permission or structure is missing, stop.</p>
+      <p>Inspect connections visually. Do not perform a forceful pull test on a TV or furniture unit. If you notice movement, looseness, or damage, stop using the setup as necessary and correct it with the appropriate method.</p>
+      <p>Photograph the finished fastener locations and keep receipts, spec sheets, and any written landlord permission together.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Measure and tape before opening hardware.</li><li>Dry-fit, then install only as instructed.</li><li>Inspect — do not yank — then style.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: drilling starts before the tape mock-up; a tug test is used as quality control; or styling hides straps that have not been photographed.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Sequence treated as optional</li><li>No forceful pull test</li><li>Documents stored</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="maintenance-inspection-and-age-based-updates">
+  <div class="chapter-opener">
+    <img src="photos/038-pexels.jpg" alt="Living room with a TV wall, media console, and simple furnishings. No people or text.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Maintenance, inspection, and growing-child updates</h2>
+<p>This is the maintenance schedule. Inspect according to manufacturer instructions. Do not perform a forceful pull test. Reassess reach as the child grows. Follow the cleaning instructions for each surface and product rather than one household formula.</p>    </div>
+  </div>
+
+  <article class="unit" id="rhythm-one-weekly-glance">
+
+    <figure class="hero">
+      <img src="photos/039-pexels.jpg" alt="A close-up of the media unit highlighting the anchored decor and hidden cables.">
+      <div class="hero-label">
+<span class="day">Maintenance schedule</span>        <h3>Weekly glance: look, do not tug</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Anjali in a Pune 1BHK dusts the console and glances for new loops, shifted frames, and gaps that were not there last week.</p>
+    </div>
+
+    <p class="principle">A weekly look catches change. It is not a structural test.</p>
+
+    <div class="body-copy">
+      <p>While you clean, look for cables that have migrated into reach, objects that have moved to an edge, adhesive that is lifting, and furniture that sits differently on the floor. If something looks loose, stop casual use of that part of the setup and inspect it properly — do not prove the problem by pulling harder.</p>
+      <figure class="diagram">
+        <img src="figures/D018.svg" alt="Weekly visual scan">
+<figcaption>Look for change. Do not yank the TV or the furniture.</figcaption>      </figure>
+      <p>Reassess the room as the child grows. A setup that is inaccessible today may become reachable within a few months.</p>
+      <figure class="diagram">
+        <img src="figures/D019.svg" alt="Child-safety reassessment snapshot">
+<figcaption>Reach changes. Height numbers here are reminders to look, not a permanent rating.</figcaption>      </figure>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Look for new cord loops and edge-placed objects.</li><li>Note any lifted adhesive or new gaps.</li><li>Write one follow-up if anything changed.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: a weekly ‘wiggle the TV’ habit is treated as maintenance; or a new stool is left in front of the console because it arrived mid-week.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Visual scan done</li><li>No forceful tug</li><li>New climbing objects noted</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="rhythm-two-monthly-wipe">
+
+    <figure class="hero">
+      <img src="photos/040-pexels.jpg" alt="Close-up of a microfiber cloth cleaning the media unit.">
+      <div class="hero-label">
+<span class="day">Maintenance schedule</span>        <h3>Monthly clean with product-specific methods</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Riya’s Bengaluru rental has mixed finishes: a screen, a veneer, and an adhesive raceway. One soap mix is not a universal cleaner.</p>
+    </div>
+
+    <p class="principle">Follow the cleaning instructions for each surface. Moisture in electronics, outlets, seams, or adhesive joints is a separate hazard.</p>
+
+    <div class="body-copy">
+      <p>Follow the cleaning instructions for each surface, adhesive, screen, furniture finish, and cable-management product. Do not assume that a cleaning solution is compatible with every material. Use only the method recommended by the manufacturer, and prevent moisture from entering electronics, outlets, seams, or adhesive joints.</p>
+      <p>A damp microfiber cloth and mild soap appear in many furniture guides; they are not approved for every screen, every adhesive, or every veneer. Ammonia, vinegar, citrus, and oil-based cleaners can damage some finishes and some adhesives — check the product, do not apply a blanket ban or a blanket recipe.</p>
+      <p>While you clean, look at latch function, lifted pads, and cable slack that has crept into reach.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Clean each surface with its own approved method.</li><li>Keep liquids off screens, outlets, and adhesive joints.</li><li>Note any lifted raceway or pad for replacement.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: one homemade cleaner is used on the TV, the putty, and the wood; or spray is aimed at the screen and runs into the bezel.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Manufacturer cleaning notes used</li><li>No liquid into electronics or outlets</li><li>Adhesive edges checked</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="rhythm-three-quarterly-pull-test">
+
+    <figure class="hero">
+      <img src="photos/041-pexels.jpg" alt="Living-room TV wall with a media console and furnishings. No people or text.">
+      <div class="hero-label">
+<span class="day">Maintenance schedule</span>        <h3>Quarterly inspection without a forceful pull test</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Priya used to yank the top corners of the TV every three months. That habit is not in this book.</p>
+    </div>
+
+    <p class="principle">Inspect. Do not perform a forceful pull test on a TV or furniture unit.</p>
+
+    <div class="body-copy">
+      <p>Inspect the anchor points, straps, brackets, fasteners, and furniture connection points according to the manufacturer’s instructions. Do not perform a forceful pull test on a TV or furniture unit. If you notice movement, looseness, damage, or an unexplained gap, stop using the setup as necessary and correct the issue using the appropriate installation method.</p>
+      <p>Open one section of cable containment if the product allows. Look for damage, pinch, heat, or overloaded strips. Close it as instructed. Follow the power strip or surge protector’s ratings. Avoid overloading outlets or connecting strips in series.</p>
+      <p>Reinspect after moving furniture, replacing the TV, a climb or a pulled cable, wall repair or paint, impact, a detached raceway, seasonal layout changes, or a new device.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Visually inspect every accessible fastener and strap.</li><li>Look for movement or gaps without yanking.</li><li>Correct problems with the proper method, or get help.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: a quarterly yank is treated as a safety test; or a loose bracket is ignored because the TV has not fallen yet.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>No forceful pull test</li><li>Fasteners inspected</li><li>Post-event triggers reviewed</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="rhythm-four-seasonal-adjustments">
+
+    <figure class="hero">
+      <img src="photos/042-pexels.jpg" alt="Close-up of anchored decor and safety measures in the festive setup.">
+      <div class="hero-label">
+<span class="day">Maintenance schedule</span>        <h3>Seasonal changes need a fresh risk pass</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Meera adds holiday lighting in a Pune apartment. Extra cords and extra objects change the room that was assessed in spring.</p>
+    </div>
+
+    <p class="principle">Temporary decor is a configuration change. Reinspect rather than assuming last season’s setup still holds.</p>
+
+    <div class="body-copy">
+      <p>Reinspect the setup after moving furniture, replacing equipment, changing cable routes, or noticing impact, movement, or damage. Holiday objects, extra lighting, and guest furniture are all configuration changes.</p>
+      <p>Follow the power strip or surge protector’s ratings and manufacturer instructions. Avoid overloading outlets, connecting power strips in series, or using extension cords as permanent wiring. Uncoil extension cords if you use them temporarily, inspect them for damage, and do not treat them as a lasting circuit. Electrical requirements vary by location, installation type, and building conditions. Do not modify outlets, wiring, or circuits based solely on this book. Consult a qualified electrician when electrical work is required.</p>
+      <p>Brief other caregivers on where remotes live and which objects were relocated for guests.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>List every new object, cord, and seat.</li><li>Check load on strips without chaining them.</li><li>Restore or re-anchor after the event.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: extra lights overload a strip; a guest pouf stays as a climb; or an extension cord remains after the holiday.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>New objects listed</li><li>No daisy-chained strips</li><li>Temporary cords not left as permanent wiring</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="rhythm-five-annual-audit">
+
+    <figure class="hero">
+      <img src="photos/043-pexels.jpg" alt="Living-room TV area with furniture and lighting. No people or text.">
+      <div class="hero-label">
+<span class="day">Maintenance schedule</span>        <h3>Annual audit: measure again, do not reuse last year’s assumptions</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Kavya photographs the TV wall once a year in Bengaluru. The photos are a record. The child’s reach will still need a live check.</p>
+    </div>
+
+    <p class="principle">Rebuild the measurement sheet annually. Adhesive products and children both age.</p>
+
+    <div class="body-copy">
+      <p>Photograph anchors, locks, and cable paths. Re-measure seated eye height, seat-to-screen distance, and the current climbing picture. Review receipts and instructions for parts that may need replacement. Adhesive life varies by product, climate, and cleaning — do not treat a one-to-three-year guess as a rating.</p>
+      <figure class="diagram">
+        <img src="figures/D017.svg" alt="Annual child-safety reassessment">
+<figcaption>Reassess reach, climbing, cords, and furniture after a year of growth and room changes.</figcaption>      </figure>
+      <p>Has the child’s reach changed? Has climbing started? Are new stools, toys, or furniture nearby? Are cords still inaccessible? Is the TV still secure? Is the media unit still stable? Have adhesive mounts loosened? Are new devices present? Are decorative objects still appropriate? Has the furniture been moved?</p>
+      <figure class="diagram">
+        <img src="figures/D025.svg" alt="Annual configuration check">
+<figcaption>Do not assume last year’s installation remains safe after load or layout changes.</figcaption>      </figure>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Photograph and re-measure.</li><li>Walk the child-safety reassessment list.</li><li>Replace products that have failed or that the manufacturer says to replace.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: last year’s tape outline is reused after a new sofa; or aged adhesive is left because it ‘still looks stuck.’</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Photos updated</li><li>Reassessment list walked</li><li>Failed adhesives replaced</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="weekend-implementation-checklist">
+  <div class="chapter-opener">
+    <img src="photos/044-pexels.jpg" alt="Living room with a TV wall, media console, and simple furnishings. No people or text.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Optional weekend implementation checklist</h2>
+<p>This is an optional weekend implementation, not a required program. Use it if you want a three-pass order: assess and shop, install and inspect, style and document. Core-guide chapters still govern the safety rules. No room arrangement is completely childproof. The recommendations in this book are intended to reduce foreseeable risks, not eliminate them.</p>    </div>
+  </div>
+
+  <article class="unit" id="purpose-and-benefits">
+
+    <figure class="hero">
+      <img src="photos/045-pexels.jpg" alt="Living-room TV wall with a media console and furnishings. No people or text.">
+      <div class="hero-label">
+<span class="day">Optional weekend implementation</span>        <h3>What this optional checklist is for</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Priya wants a single weekend list for a Pune 1BHK. She can also use the same list across two Saturdays.</p>
+    </div>
+
+    <p class="principle">The checklist executes the plan. It does not replace manufacturer instructions or professional help.</p>
+
+    <div class="body-copy">
+      <p>You will confirm measurements, buy the safety items first, install only as instructed, protect cables without treating concealment as safety, and document the result. A tidy look is a side effect, not the proof that the room is childproof.</p>
+      <p>If the wall, the lease, or the hardware is uncertain, stop. Stop and obtain qualified help if you cannot identify the wall structure, locate wiring or plumbing, attach the mount as instructed, or verify the hardware.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Skim the four core risks: TV, furniture, cords, reach.</li><li>Decide whether this weekend is even possible.</li><li>Keep manufacturer instructions in the room while you work.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: the checklist is used as permission to skip the wall-assessment chapter; or ‘hide cords’ is checked while a pull loop remains.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Optional status understood</li><li>Instructions in the room</li><li>Stop conditions reviewed</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="how-to-use-the-checklist">
+
+    <figure class="hero">
+      <img src="photos/045-pexels.jpg" alt="A close-up of the checklist with highlighted sections for clarity.">
+      <div class="hero-label">
+<span class="day">Optional weekend implementation</span>        <h3>How to use the three optional passes</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Arjun’s Bengaluru rental may block drilling. Pass 1 must catch that before a mount is purchased.</p>
+    </div>
+
+    <p class="principle">Work in order. Pause at every stop condition.</p>
+
+    <div class="body-copy">
+      <p>Pass 1: assess and shop. Pass 2: install and inspect. Pass 3: style and document. If you rent, complete the rental decision tree before pass 2.</p>
+      <p>Write measurements on the worksheets in the next chapter. Do not drill from memory.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Schedule the three passes or spread them.</li><li>Complete the rental tree if you rent.</li><li>Pause when structure or permission is missing.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: shopping happens before wall type is known; or pass 2 starts without written permission where the lease requires it.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Pass order accepted</li><li>Rental tree done if renting</li><li>Worksheets printed or copied</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="main-content-pre-project-measurements">
+
+    <figure class="hero">
+      <img src="photos/047-pexels.jpg" alt="A stylish living room setup with a focus on measurement tools.">
+      <div class="hero-label">
+<span class="day">Optional weekend implementation</span>        <h3>Pass 1: Fill the measurement sheet before you buy</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Meera records TV weight, VESA, wall type, eye height, and outlet locations in a Mumbai flat.</p>
+    </div>
+
+    <p class="principle">If a line on the measurement sheet is blank, do not guess it at the store.</p>
+
+    <div class="body-copy">
+      <p>Record TV model, screen size, weight with and without stand, VESA, width and height, stand width and depth, media-unit load rating, wall type, structural-support locations, seated eye height, seating-to-screen distance, cable lengths, outlet locations, window and door locations, fireplace or heat-source location, and furniture anchoring points.</p>
+      <p>Do not fill ventilation with a universal gap. Copy the manufacturer’s clearance notes. Do not identify wall type by knocking alone.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Fill the measurement sheet in the worksheets chapter.</li><li>Copy manufacturer clearances, not a two-inch rule.</li><li>Shop only after the sheet is complete enough to buy the right hardware.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: weight is estimated; wall type is guessed from sound; or ventilation is entered as ‘2 inches’ from memory.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>TV weights recorded</li><li>Wall still unconfirmed if uncertain</li><li>No universal clearance entered</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="day-2-installation-sequence">
+
+    <figure class="hero">
+      <img src="photos/048-pexels.jpg" alt="Living-room TV wall with a media console and furnishings. No people or text.">
+      <div class="hero-label">
+<span class="day">Optional weekend implementation</span>        <h3>Pass 2: Install both anchors, then protect cables</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Rohan installs in a Pune 1BHK. He treats TV straps and furniture straps as two jobs.</p>
+    </div>
+
+    <p class="principle">Anchor the furniture. Secure the TV to its support. Then route cables so they stay protected and inspectable.</p>
+
+    <div class="body-copy">
+      <p>Follow each manufacturer’s sequence. Dry-fit first. Do not drill from a single detector reading. Do not perform a forceful pull test when you are done. Inspect for movement, looseness, or damage.</p>
+      <p>Route power and signal so they are protected from pulling, chewing, crushing, heat, and sharp edges, and so you can still inspect them. A closed raceway is not a completed safety check.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Install furniture anchoring as specified.</li><li>Secure the TV to the stand or mount as specified.</li><li>Route cables; inspect; do not yank.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: only the console is strapped; cables are pinched in a snap cover; or a tug test is used as a finish-line ritual.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Both stability jobs done</li><li>Cables protected and inspectable</li><li>No forceful pull test</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="day-3-styling-and-maintenance">
+
+    <figure class="hero">
+      <img src="photos/029-pexels.jpg" alt="Living-room TV area with furniture and lighting. No people or text.">
+      <div class="hero-label">
+<span class="day">Optional weekend implementation</span>        <h3>Pass 3: Style without undoing the safety work</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Anjali styles a Bengaluru apartment last so baskets do not hide unphotographed straps.</p>
+    </div>
+
+    <p class="principle">Styling is last. If a decorative object fights an anchor, inspection path, or climb assessment, the object moves.</p>
+
+    <div class="body-copy">
+      <p>Stabilize remaining objects with hardware that matches the load, or relocate them. Do not rely on adhesive pads as the sole system for heavy, sharp, breakable, or climbable objects.</p>
+      <p>Photograph fastener locations, cord paths, and the room. Store instructions and any written permission. Set the first weekly glance date.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Style only after photos of fasteners exist.</li><li>Remove any new climbing aid you just introduced.</li><li>File documents.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: a new bench is added as a ‘boundary’; gel pads hold a heavy lamp; or straps disappear behind decor with no photo.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Fasteners photographed</li><li>Climbing aids rechecked</li><li>Documents filed</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="room-and-wall-assessment-worksheet">
+  <div class="chapter-opener">
+    <img src="photos/050-pexels.jpg" alt="Living room with a TV wall, media console, and simple furnishings. No people or text.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Worksheets: Measurements, reach, decisions, and inventory</h2>
+<p>This is the reference-checklist chapter. Copy the tables into a notebook. Numbers that appear here as examples are labeled as examples. Manufacturer instructions override them.</p>    </div>
+  </div>
+
+  <article class="unit" id="assessing-your-room">
+
+    <figure class="hero">
+      <img src="photos/051-pexels.jpg" alt="alternative angle of the living room showing marked TV location with tools scattered around.">
+      <div class="hero-label">
+<span class="day">Reference checklist</span>        <h3>TV and furniture measurement sheet</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Ravi gathers a tape, painter’s tape, a detector, and the TV manual in a Pune 1BHK. The sheet is for his room, not a copied case study.</p>
+    </div>
+
+    <p class="principle">Write the actual values. Leave a line blank rather than inventing a universal number.</p>
+
+    <div class="body-copy">
+      <p>Fill: TV model; screen size; weight without stand; weight with stand; VESA dimensions; TV width and height; stand width and depth; media-unit load rating; wall type; stud or structural-support locations; seated eye height; seating-to-screen distance; cable lengths; outlet locations; window and door locations; fireplace or heat-source location; furniture anchoring points.</p>
+      <figure class="diagram">
+        <img src="figures/D020.svg" alt="Measurement sheet fields">
+<figcaption>Fill actual values. Examples in other figures are not this room.</figcaption>      </figure>
+      <p>On a simple room diagram mark: TV, furniture, child-accessible objects, climbing aids, cord paths, power strips, doors, windows, heating equipment, walkways, and potential anchor locations. You should not have to invent this map from scratch — copy the list onto a floor outline.</p>
+      <figure class="diagram">
+        <img src="figures/D021.svg" alt="More measurement fields">
+<figcaption>Wall type is identified with documents, inspection, and tools — not knocking alone.</figcaption>      </figure>
+      <p>Use seated eye height and viewing distance from this room. A 65-inch TV, a 40-inch eye height, or an 18-inch outlet height may appear in examples; they are not targets.</p>
+      <figure class="diagram">
+        <img src="figures/D022.svg" alt="Illustrative USD shopping example">
+<figcaption>Estimates only. TV and professional installation excluded. Verify locally.</figcaption>      </figure>
+      <figure class="diagram">
+        <img src="figures/D023.svg" alt="Safety-risk map checklist">
+<figcaption>Mark each item on a simple room outline.</figcaption>      </figure>
+      <figure class="diagram">
+        <img src="figures/D024.svg" alt="Example only — do not copy as a target">
+<figcaption>A case-study 55-inch TV and a 36-inch seated eye height are illustrations.</figcaption>      </figure>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Copy the field list into a notebook and fill it.</li><li>Sketch the safety-risk map from the bullet list.</li><li>Attach manufacturer clearance notes instead of a generic gap.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: example inches from a case study are copied as if they were this room; or wall type is filled in as ‘hollow, so drywall.’</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Measurement fields filled or marked unknown</li><li>Risk map sketched</li><li>Unknown wall flagged</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="determining-tv-size-and-height">
+
+    <figure class="hero">
+      <img src="photos/051-pexels.jpg" alt="alternative angle of the living room showing the TV size outline with tools scattered around.">
+      <div class="hero-label">
+<span class="day">Reference checklist</span>        <h3>Installation decision worksheet</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Ravi has a 9-foot seat-to-wall distance and a seated eye height of 40 inches in this illustration. He still has to answer whether wall mounting is necessary at all.</p>
+    </div>
+
+    <p class="principle">Height and size come after the installation method is possible and permitted.</p>
+
+    <div class="body-copy">
+      <p>Answer: Is wall mounting necessary? Is a freestanding setup safer or more practical? Can the wall support the selected mount? Can the furniture be anchored appropriately? Can the TV be secured to the furniture? Are the required hardware and instructions available? Are hidden utilities accounted for? Does the lease permit the installation? Is professional help needed? Does the final setup remain safe after cable routing?</p>
+      <figure class="diagram">
+        <img src="figures/D026.svg" alt="Installation decision worksheet">
+<figcaption>Stop on any unknown that affects structure, utilities, or the lease.</figcaption>      </figure>
+      <p>Use your actual seated eye height rather than a universal number. Test adult seating, child viewing angle, glare, climbing routes, and traffic. Tape the screen and sit.</p>
+      <figure class="diagram">
+        <img src="figures/D027.svg" alt="More decision questions">
+<figcaption>Professional help is a valid outcome.</figcaption>      </figure>
+      <p>A mount’s stated weight capacity is only one compatibility check. Confirm VESA, dimensions, orientation, wall structure, fasteners, and instructions before purchasing.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Answer the decision questions in writing.</li><li>Tape and sit before you buy a mount height.</li><li>Stop if any required ‘yes’ is actually ‘unknown.’</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: center height is set to eye level minus 2–4 inches as if that were a code; or a 65-inch outline is taped with no wall-structure answer.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Decision worksheet completed</li><li>Tape mock-up done</li><li>Unknowns listed</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="planning-clearances-and-pathways">
+
+    <figure class="hero">
+      <img src="photos/026-pexels.jpg" alt="alternative angle of the living room showing clearances around the TV and seating.">
+      <div class="hero-label">
+<span class="day">Reference checklist</span>        <h3>Reach-and-climb assessment</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Ravi sketches walkways in a Pune apartment. He will not use a three-foot rule as if it applied to every body and every doorway.</p>
+    </div>
+
+    <p class="principle">Clearances come from this room’s doors, furniture, and people. Climbing comes from this child’s reach.</p>
+
+    <div class="body-copy">
+      <p>Maintain clear, usable paths between doors, seating, and frequently used areas. Check actual furniture dimensions, door swings, and mobility needs. If you write a numeric clearance, label it as a planning example and state the assumptions.</p>
+      <figure class="diagram">
+        <img src="figures/D028.svg" alt="Reach-and-climb worksheet">
+<figcaption>Reassess as the child grows. A clear area does not replace anchoring.</figcaption>      </figure>
+      <p>Reach-and-climb worksheet (yes/no): Can the child reach the TV from the sofa? Climb from a stool, pouf, table, or toy? Pull on a cord? Open drawers or cabinet doors? Pull a decorative object down? Reach a power strip or adapter? Climb onto the media console? Access a sharp or breakable item? Can the furniture tip if pulled or climbed?</p>
+      <p>Reassess the room as the child grows. A setup that is inaccessible today may become reachable within a few months.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Walk the yes/no reach-and-climb list.</li><li>Sketch real walkways without a universal width.</li><li>Fix any ‘yes’ that is actually a hazard before styling.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: a 12-inch floor gap is treated as ventilation; a three-foot walkway is copied from another apartment; or a 30-inch ‘toddler reach zone’ is treated as a permanent rating.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Nine reach questions answered</li><li>Walkways checked in this room</li><li>Reassessment date set</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="rental-friendly-no-drill-methods-guide">
+  <div class="chapter-opener">
+    <img src="photos/054-pexels.jpg" alt="Living room with a TV wall, media console, and simple furnishings. No people or text.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Rental methods: Permission, reversibility, and hard limits</h2>
+<p>This is a rental reference, not a second copy of the core safety chapters. No-drill methods are suitable only when the complete product and furniture setup remains safe without drilling. Do not use a no-drill approach as a substitute for required structural anchoring. If a TV or furniture unit cannot be secured safely under the rental restrictions, choose a different setup or obtain written permission for an appropriate installation. Some raceways are marketed as removable; do not assume removal leaves the wall undamaged.</p>    </div>
+  </div>
+
+  <article class="unit" id="planning-your-layout">
+
+    <figure class="hero">
+      <img src="photos/055-pexels.jpg" alt="Living-room TV area with furniture and lighting. No people or text.">
+      <div class="hero-label">
+<span class="day">Rental</span>        <h3>Layout still has to pass the reach-and-climb list</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Riya wants a corner TV in a Pune 1BHK. A rug and a coffee table would not automatically create a safe buffer.</p>
+    </div>
+
+    <p class="principle">Placement can reduce access. It cannot replace required anchoring.</p>
+
+    <div class="body-copy">
+      <p>Keep traffic from cutting through the screen-to-seat line when you can. Evaluate windows for glare, heat, operation, child access, and egress. Do not block a required exit.</p>
+      <p>Use a rug as a visual boundary only if it lies flat, has a compatible non-slip pad where appropriate, and does not obstruct walkways. Do not use a low bench or coffee table as a child-safety barrier unless placement and stability have been assessed — those objects are common climbing aids.</p>
+      <p>No room arrangement is completely childproof. The recommendations in this book are intended to reduce foreseeable risks, not eliminate them.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Sketch the corner or wall option on the risk map.</li><li>Remove climbable ‘boundaries.’</li><li>Confirm egress and window operation.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: a coffee table is used as a toddler fence; or a corner TV still has a pullable cord on the open side.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Climbing aids not used as barriers</li><li>Egress clear</li><li>Reach list walked for this layout</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="choosing-the-right-mount">
+
+    <figure class="hero">
+      <img src="photos/003-pexels.jpg" alt="A side view of the TV mount with the load-bearing wall in the background.">
+      <div class="hero-label">
+<span class="day">Rental</span>        <h3>Freestanding support is still an installation</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Neha needs a 50-inch TV in a Bengaluru rental. ‘No drill’ on a product page does not mean the complete setup is safe without a wall connection.</p>
+    </div>
+
+    <p class="principle">Choose a stand or mount only if the complete setup can be secured as instructed under this lease.</p>
+
+    <div class="body-copy">
+      <p>No-drill methods are suitable only when the complete product and furniture setup remains safe without drilling. Do not use a no-drill approach as a substitute for required structural anchoring. If a TV or furniture unit cannot be secured safely under the rental restrictions, choose a different setup or obtain written permission for an appropriate installation.</p>
+      <p>Confirm TV weight, VESA, stand or mount ratings, floor condition, and whether anti-tip hardware requires a wall. Follow the manufacturer’s installation instructions. If the product cannot be used as instructed, pick another product or get permission and help.</p>
+      <p>Do not assume ordinary drywall anchors, or a no-drill claim, can support a heavy TV.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Write TV weight and the support’s rating.</li><li>Note whether a wall connection is required anyway.</li><li>Stop if the lease and the instructions conflict.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: a no-drill mount is bought for a TV that the instructions say must be structurally attached; or load rating is guessed from screen size.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Weight vs rating recorded</li><li>Wall connection yes/no recorded</li><li>Instructions match the lease</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="bracing-and-stabilizing-your-setup">
+
+    <figure class="hero">
+      <img src="photos/057-pexels.jpg" alt="An angle showing the mount&#39;s connection to the heavy media console.">
+      <div class="hero-label">
+<span class="day">Rental</span>        <h3>Bracing two unanchored objects is not a complete system</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Arjun wants to strap a stand to a bookshelf in a Mumbai flat so he can avoid drilling. If both can move, the strap only ties the accident together.</p>
+    </div>
+
+    <p class="principle">Anti-tip methods must match the manufacturer and the actual masses and wall rules in the room.</p>
+
+    <div class="body-copy">
+      <p>Non-marring straps and pads can be part of a specified system. They are not a generic workaround. A gentle push is not a substitute for the inspection method in the product instructions, and it is not a forceful pull test.</p>
+      <p>If the furniture manufacturer’s anti-tip method needs a wall, return to written permission. Do not use a no-drill approach as a substitute for required structural anchoring.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Use only the anti-tip method specified for these products.</li><li>Check the floor and the actual masses.</li><li>Request permission if a wall connection is required.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: two movable pieces are strapped together; or a push test is taken as proof of child safety.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Specified anti-tip method used</li><li>Both masses cannot freely walk</li><li>Permission status current</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="effective-cord-management">
+
+    <figure class="hero">
+      <img src="photos/058-pexels.jpg" alt="A wider shot showing the TV area with organized cords and a tidy appearance.">
+      <div class="hero-label">
+<span class="day">Rental</span>        <h3>Rental cord routes still have to be protected and inspectable</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Meera wants adhesive raceways in a Delhi studio. Pets and children can still pull a neat-looking channel.</p>
+    </div>
+
+    <p class="principle">Removable containment is still containment. It is not automatically child-safe or damage-free.</p>
+
+    <div class="body-copy">
+      <p>A raceway organizes and protects cables; it does not automatically make a route child-safe. Some raceways are marketed as removable, but removal results depend on the adhesive, wall finish, paint, time, temperature, and method. Test a hidden area. Do not assume the wall will be undamaged.</p>
+      <p>Keep slack out of reach and out of crush zones. Do not leave dangling cords as a compromise for reversibility. Do not put ordinary extension cords inside walls.</p>
+      <p>Electrical requirements vary by location, installation type, and building conditions. Do not modify outlets, wiring, or circuits based solely on this book. Consult a qualified electrician when electrical work is required.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Test adhesive in a hidden spot.</li><li>Keep pull loops off the floor and off climbing routes.</li><li>Plan inspection access.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Where this goes wrong: ‘easy removal’ is treated as zero damage; or a tidy raceway is left within a child’s pull.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Adhesive tested</li><li>Cords protected, not only hidden</li><li>No in-wall power cord</li></ul>
+    </div>
+
+  </article>
+</section>
+
+<section class="closing">
+  <img class="closing-photo" src="photos/001-pexels.jpg" alt="Living room with a TV wall, media console, and simple furnishings. No people or text.">
+  <p class="kicker">30 Day Spaces</p>
+  <div class="rule"></div>
+  <h2>Your next room starts here</h2>
+  <p class="blurb">More room kits and measured layouts — same series language, same clear numbers. A stylish TV area can reduce foreseeable risks; it cannot eliminate them.</p>
+<p class="author">Akarsh Priyadarshan</p></section>
+
+</body>
+</html>

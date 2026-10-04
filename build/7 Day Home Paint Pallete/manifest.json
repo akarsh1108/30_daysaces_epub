@@ -1,0 +1,628 @@
+{
+  "title": "7 Day Home Paint Palette",
+  "units": "imperial",
+  "outputs": {
+    "pdf": "build\\7 Day Home Paint Pallete\\7-day-home-paint-pallete.pdf",
+    "cover": "build\\7 Day Home Paint Pallete\\cover.pdf",
+    "epub": "build\\7 Day Home Paint Pallete\\7-day-home-paint-pallete.epub",
+    "epub_preview": "build\\7 Day Home Paint Pallete\\epub-preview.html"
+  },
+  "ai_generated_images": 1,
+  "kdp_ai_disclosure_required": true,
+  "images": [
+    {
+      "query": "7 day home paint palette designed cover",
+      "source": "openai",
+      "credit": "",
+      "ai": true,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\cover.jpg"
+    },
+    {
+      "query": "natural light in an Indian apartment, warm and cool lighting contrasts, soft white and bright white paper stress test setup, no people, no text",
+      "source": "pexels",
+      "credit": "Photo by Elle Hughes on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\001-pexels.jpg"
+    },
+    {
+      "query": "Pune apartment living room with natural light, warm and cool lighting contrasts, no people, no text",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\002-pexels.jpg"
+    },
+    {
+      "query": "artificial lighting setup in a Pune apartment, focus on bulb types and fixtures, no people, no text",
+      "source": "pexels",
+      "credit": "Photo by Sergey  Meshkov on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\003-pexels.jpg"
+    },
+    {
+      "query": "surface influences in a Pune apartment, honey oak flooring and glossy tiles, no people, no text",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\004-pexels.jpg"
+    },
+    {
+      "query": "problem zones in a Pune apartment, focus on lighting and color shifts, no people, no text",
+      "source": "pexels",
+      "credit": "Photo by Amanuel Flores on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\005-pexels.jpg"
+    },
+    {
+      "query": "interior of an Indian apartment with well-lit walls showcasing various color swatches, soft natural light, neutral furnishings, no people",
+      "source": "pexels",
+      "credit": "Photo by Sami Raad on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\006-pexels.jpg"
+    },
+    {
+      "query": "interior of a Pune apartment showcasing a warm beige wall against honey oak flooring, soft natural light",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\007-pexels.jpg"
+    },
+    {
+      "query": "a Bengaluru apartment table setup with paint chips and control colors, natural light filtering in",
+      "source": "pexels",
+      "credit": "Photo by Andrew N on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\008-pexels.jpg"
+    },
+    {
+      "query": "a Mumbai bathroom with various white paint samples, showcasing the testing process under different lights",
+      "source": "pexels",
+      "credit": "Photo by Tima Miroshnichenko on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\009-pexels.jpg"
+    },
+    {
+      "query": "a Pune living room with color samples against honey oak flooring and furniture, showcasing harmony",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\010-pexels.jpg"
+    },
+    {
+      "query": "interior design color palette, Indian apartment, natural light, modern decor, minimalist style",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\011-pexels.jpg"
+    },
+    {
+      "query": "color swatches, Indian apartment decor, modern design, natural light",
+      "source": "pexels",
+      "credit": "Photo by Yan Krukau on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\012-pexels.jpg"
+    },
+    {
+      "query": "modern kitchen and living room, Indian apartment, color palette, natural light",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\013-pexels.jpg"
+    },
+    {
+      "query": "interior trim and ceiling colors, Indian apartment, natural light",
+      "source": "pexels",
+      "credit": "Photo by Souranshi Fashion and  Lifestyle Magazine on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\014-pexels.jpg"
+    },
+    {
+      "query": "accent wall colors, Indian apartment, modern decor",
+      "source": "pexels",
+      "credit": "Photo by Liva  Kitchens And Interiors on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\015-pexels.jpg"
+    },
+    {
+      "query": "large paint samples, controlled lighting, interior wall, color testing, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Ron Lach on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\016-pexels.jpg"
+    },
+    {
+      "query": "large paint samples, wall application, natural light, interior design, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Ron Lach on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\017-pexels.jpg"
+    },
+    {
+      "query": "consistent lighting, paint testing, interior wall, color observation, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Beyzanur K. on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\018-pexels.jpg"
+    },
+    {
+      "query": "color ranking, interior design, paint samples, living space, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\019-pexels.jpg"
+    },
+    {
+      "query": "color testing foam boards, neutral backdrop, natural light, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Jahra Tasfia Reza on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\020-pexels.jpg"
+    },
+    {
+      "query": "color testing setup with foam boards, neutral backdrop, natural light, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Jahra Tasfia Reza on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\021-pexels.jpg"
+    },
+    {
+      "query": "color boards in different lighting conditions, corner testing, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Shamshir Lall on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\022-pexels.jpg"
+    },
+    {
+      "query": "documenting paint color tests, evening light, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Heather Green on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\023-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a color sampling setup with foam boards, paint samples, and painter's tape in a well-lit Indian apartment",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\024-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a well-organized color sampling station with foam boards and paint samples",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\025-pexels.jpg"
+    },
+    {
+      "query": "stock photo of painted foam boards drying in a well-lit room",
+      "source": "pexels",
+      "credit": "Photo by Felicity Tai on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\026-pexels.jpg"
+    },
+    {
+      "query": "stock photo of labeled color samples on foam boards",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\027-pexels.jpg"
+    },
+    {
+      "query": "stock photo of color samples displayed on a neutral backdrop in a room",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\028-pexels.jpg"
+    },
+    {
+      "query": "A well-lit living room with various paint samples displayed on boards, showing different colors under natural light.",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\029-pexels.jpg"
+    },
+    {
+      "query": "A close-up of paint boards with notes on painter's tape, illuminated by soft evening light.",
+      "source": "pexels",
+      "credit": "Photo by Andrew N on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\030-pexels.jpg"
+    },
+    {
+      "query": "A side-by-side comparison of paint samples in a dimly lit living room, showcasing their differences.",
+      "source": "pexels",
+      "credit": "Photo by Ron Lach on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\031-pexels.jpg"
+    },
+    {
+      "query": "A well-organized workspace with paint boards and notes, ready for final decisions.",
+      "source": "pexels",
+      "credit": "Photo by RDNE Stock project on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\032-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a well-lit kitchen with bright trim and quartz countertops, showcasing color contrasts in natural light",
+      "source": "pexels",
+      "credit": "Photo by Curtis Adams on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\033-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a kitchen with different trim colors against quartz countertops, natural light highlighting color differences",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\034-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a living room with color samples and a white buffer, showcasing the importance of proper testing",
+      "source": "pexels",
+      "credit": "Photo by Sami Raad on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\035-pexels.jpg"
+    },
+    {
+      "query": "interior color testing setup, natural light, small Indian apartment, color swatches, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\036-pexels.jpg"
+    },
+    {
+      "query": "color testing setup in a corner, natural light, small Indian apartment, color swatches, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\037-pexels.jpg"
+    },
+    {
+      "query": "color documentation setup, natural light, small Indian apartment, color swatches, notes, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Shivansh  Sharma on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\038-pexels.jpg"
+    },
+    {
+      "query": "anchor neutral color comparison, natural light, small Indian apartment, color swatches, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by ION  Photography on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\039-pexels.jpg"
+    },
+    {
+      "query": "large color boards, natural light, neutral backdrop, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Tara Winstead on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\040-pexels.jpg"
+    },
+    {
+      "query": "color boards, natural light, neutral backdrop, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Arturo Añez. on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\041-pexels.jpg"
+    },
+    {
+      "query": "color boards with sheen strips, natural light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Jakub Zerdzicki on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\042-pexels.jpg"
+    },
+    {
+      "query": "color boards in different lighting, natural light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Shamshir Lall on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\043-pexels.jpg"
+    },
+    {
+      "query": "interior trim and ceiling finishes, neutral tones, Indian apartment, natural light, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Hello Pipcke on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\044-pexels.jpg"
+    },
+    {
+      "query": "neutral trim finishes, soft whites, Indian apartment, evening light, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Sharath G. on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\045-pexels.jpg"
+    },
+    {
+      "query": "soft ceiling finishes, matte textures, Indian apartment, natural light, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\046-pexels.jpg"
+    },
+    {
+      "query": "door finishes, cohesive color schemes, Indian apartment, natural light, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by RAJESH KUMAR    VERMA on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\047-pexels.jpg"
+    },
+    {
+      "query": "playroom finishes, eggshell sheen, Indian apartment, natural light, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\048-pexels.jpg"
+    },
+    {
+      "query": "A full-bleed shot of a well-coordinated open concept living space with visible transitions between rooms, showcasing a harmonious color palette and accent placements.",
+      "source": "pexels",
+      "credit": "Photo by Keegan Checks on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\049-pexels.jpg"
+    },
+    {
+      "query": "A detailed floor plan sketch showing sightlines between a living room and dining area, with clear markings of vantage points and shared walls.",
+      "source": "pexels",
+      "credit": "Photo by SHVETS production on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\050-pexels.jpg"
+    },
+    {
+      "query": "A beautifully styled hallway featuring a warm beige anchor neutral, leading into the living room, with soft lighting highlighting the color.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\051-pexels.jpg"
+    },
+    {
+      "query": "A serene bedroom featuring a deep blue accent wall behind the bed, styled with complementary decor that echoes the accent color.",
+      "source": "pexels",
+      "credit": "Photo by HONG SON on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\052-pexels.jpg"
+    },
+    {
+      "query": "interior of a modern Indian apartment with a finalized color palette, natural light, minimalistic decor, soft textures",
+      "source": "pexels",
+      "credit": "Photo by Liva  Kitchens And Interiors on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\053-pexels.jpg"
+    },
+    {
+      "query": "Pune apartment with color boards against walls, natural light, wooden furniture",
+      "source": "pexels",
+      "credit": "Photo by Anisha Deb on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\054-pexels.jpg"
+    },
+    {
+      "query": "Mumbai flat with trim and ceiling colors being tested against walls, natural light",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\055-pexels.jpg"
+    },
+    {
+      "query": "Bengaluru rental with sheen samples applied to walls, natural light",
+      "source": "pexels",
+      "credit": "Photo by The Juggle Studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\056-pexels.jpg"
+    },
+    {
+      "query": "Chennai apartment with a color palette document on a table, natural light",
+      "source": "pexels",
+      "credit": "Photo by Liva  Kitchens And Interiors on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\057-pexels.jpg"
+    },
+    {
+      "query": "interior of an Indian apartment with various paint colors on walls, natural light, textures of plaster and wood, no people",
+      "source": "pexels",
+      "credit": "Photo by Turgay Koca on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\058-pexels.jpg"
+    },
+    {
+      "query": "interior of a Pune apartment with a focus on a painted wall, natural light, textures of plaster and wood",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\059-pexels.jpg"
+    },
+    {
+      "query": "Bengaluru apartment living room with warm lighting, showcasing a cozy atmosphere",
+      "source": "pexels",
+      "credit": "Photo by Donald Tong on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\060-pexels.jpg"
+    },
+    {
+      "query": "Mumbai hallway with painted walls and trim, showcasing different sheens",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\061-pexels.jpg"
+    },
+    {
+      "query": "Delhi apartment with strong colored drapes and neutral walls",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\062-pexels.jpg"
+    },
+    {
+      "query": "interior of a modern Indian apartment with freshly painted walls, one window light, showcasing a palette of colors, clean lines, and organized paint cans",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\063-pexels.jpg"
+    },
+    {
+      "query": "organized paint cans labeled with colors and sheen in a Pune apartment",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\064-pexels.jpg"
+    },
+    {
+      "query": "paint cans organized by room with clear labels in a Pune apartment",
+      "source": "pexels",
+      "credit": "Photo by Karl Solano on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\066-pexels.jpg"
+    },
+    {
+      "query": "a well-organized painting schedule on a wall planner in a Pune apartment",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\067-pexels.jpg"
+    },
+    {
+      "query": "a close-up of freshly painted walls being inspected in a Pune apartment",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\068-pexels.jpg"
+    },
+    {
+      "query": "photograph of a well-lit Indian apartment interior showcasing various light sources and textures, soft natural light from a window, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Andranik Paradyan on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\069-pexels.jpg"
+    },
+    {
+      "query": "photograph of a Pune apartment living room with morning light streaming in, showcasing various light fixtures and surfaces",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\070-pexels.jpg"
+    },
+    {
+      "query": "photograph of a Bengaluru apartment with a load-bearing wall, showcasing different lighting conditions throughout the day",
+      "source": "pexels",
+      "credit": "Photo by Muhamad Guruh Budi Hartono on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\071-pexels.jpg"
+    },
+    {
+      "query": "A well-organized workspace with color samples, lighting controls, and a notepad, showcasing the process of color evaluation.",
+      "source": "pexels",
+      "credit": "Photo by Fiona Murray on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\074-pexels.jpg"
+    },
+    {
+      "query": "A workspace with color samples, lighting controls, and a notepad, showcasing the process of color evaluation.",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\075-pexels.jpg"
+    },
+    {
+      "query": "A workspace with large paint samples and control colors, illuminated by both natural and artificial light.",
+      "source": "pexels",
+      "credit": "Photo by Ron Lach on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\076-pexels.jpg"
+    },
+    {
+      "query": "A workspace with large color samples and a camera, showcasing the documentation process.",
+      "source": "pexels",
+      "credit": "Photo by 祝 鹤槐 on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\078-pexels.jpg"
+    },
+    {
+      "query": "A workspace with color samples and lighting setups, illustrating common mistakes in color evaluation.",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\079-pexels.jpg"
+    },
+    {
+      "query": "large color testing boards in a well-lit Indian apartment, neutral background, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by Curtis Adams on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\080-pexels.jpg"
+    },
+    {
+      "query": "large color testing boards in a well-lit Indian apartment, neutral background, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by Curtis Adams on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\081-pexels.jpg"
+    },
+    {
+      "query": "paint boards in a neutral testing area, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\082-pexels.jpg"
+    },
+    {
+      "query": "paint boards with elimination notes, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by Magda Ehlers on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\083-pexels.jpg"
+    },
+    {
+      "query": "color testing boards with notes and observations, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\084-pexels.jpg"
+    },
+    {
+      "query": "interior of a modern Indian apartment with neutral walls, showcasing various trim and ceiling colors, natural light from a window, no people, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Curtis Adams on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\085-pexels.jpg"
+    },
+    {
+      "query": "a detailed view of a color compatibility check in a Bengaluru apartment, natural light, no people, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Aditya Oberai on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\087-pexels.jpg"
+    },
+    {
+      "query": "a workspace with finalized color decisions and paint samples ready for painters in a Mumbai apartment, natural light, no people, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\photos\\088-pexels.jpg"
+    }
+  ],
+  "figures": [
+    {
+      "spec_id": "D001",
+      "kind": "plan",
+      "title": "Foam Boards Or Poster Boards Around 24",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\figures\\D001.svg"
+    },
+    {
+      "spec_id": "D002",
+      "kind": "table",
+      "title": "Gather Materials, Four To Six Foam Or",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\figures\\D002.svg"
+    },
+    {
+      "spec_id": "D010",
+      "kind": "table",
+      "title": "Before paint, in this order",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\figures\\D010.svg"
+    },
+    {
+      "spec_id": "D011",
+      "kind": "table",
+      "title": "Quantity from the can, not a rule of thumb",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\7 Day Home Paint Pallete\\figures\\D011.svg"
+    }
+  ]
+}

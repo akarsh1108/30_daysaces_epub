@@ -1,0 +1,2118 @@
+{
+  "slug": "balcony-zen-in-10-days",
+  "title": "Balcony Zen in 10 Days",
+  "subtitle": "",
+  "tagline": "A 10-day system for a usable urban balcony — with load, wind, and stop-use limits named.",
+  "author": "Akarsh Priyadarshan",
+  "series": "30 Day Spaces",
+  "closing_headline": "Your next room starts here",
+  "closing_blurb": "This plan cannot soundproof an open balcony, guarantee privacy, or make an unsafe railing safe. Do not guess the load. Do not treat 12 inches beside a railing as a certified safety minimum. Wind-safe is not the same as heavy. Follow building rules and the product manufacturer.",
+  "accent_hex": "#1E5F6B",
+  "units": "imperial",
+  "cover": {
+    "query": "balcony with plants and soft lighting, evening light, no people",
+    "flux_prompt": "full-bleed shot of a serene balcony with soft furnishings, plants, and warm lighting",
+    "alt": "Balcony Zen in 10 Days",
+    "source": "openai",
+    "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\cover.jpg",
+    "credit": "Cover illustration",
+    "ai_generated": true,
+    "provider_id": "pexels:15180445"
+  },
+  "designed_cover": true,
+  "chapters": [
+    {
+      "slug": "orientation-and-your-10-day-plan",
+      "title": "Orientation And Your 10-Day Plan",
+      "intro": "This is a repeatable system: Audit → Design → Test → Install → Live → Maintain. The numbered Days 1–10 in the middle of the book are the only day sequence. Later chapters are a toolkit after Day 10, not a second Day 1. Do not guess balcony load. Twelve inches beside a railing is a movement buffer, not a certified safety minimum. This plan cannot soundproof an open balcony.",
+      "opener": {
+        "query": "balcony with plants and soft lighting, evening light, no people",
+        "flux_prompt": "full-bleed shot of a serene balcony with soft furnishings, plants, and warm lighting",
+        "alt": "A small apartment balcony set up as a usable retreat.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\001-pexels.jpg",
+        "credit": "Photo by Yusuf Çelik on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:15180445"
+      },
+      "sections": [
+        {
+          "slug": "define-your-intention",
+          "title": "Define Your Intention",
+          "day_label": "Day 0",
+          "hero": {
+            "query": "balcony with calming elements, evening light, no people",
+            "flux_prompt": "photorealistic shot of a balcony designed for meditation, soft textures, and plants",
+            "alt": "serene balcony with cushions and a small table for tea",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\001-pexels.jpg",
+            "credit": "Photo by Yusuf Çelik on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:15180445"
+          },
+          "scenario": "Riya, living in a 1BHK in Pune, wants to create a calming space on her 30 square foot balcony for her evening meditation practice. She decides her intention is a 10-minute evening practice for stress relief with soft lighting and herb scent.",
+          "principle": "Usable micro-retreat first. Styling after the balcony is still a balcony.",
+          "body": [
+            "Decide what Zen means for you. Silent sitting, breathwork, gentle stretching, or guided audio all have different needs. Choose a realistic session length, for example, 10 minutes, and a consistent time of day. Write one sentence that guides every decision. For instance, a 10-minute evening practice for stress relief with soft lighting and herb scent. This short statement prevents overcomplication and stops impulse purchases that do not serve your practice.",
+            "Having a clear intention helps you focus on what is essential for your space. It acts as a guiding principle for all your design choices, ensuring that every element contributes to your goal of creating a calming environment. Without this clarity, you risk overcomplicating your design and making unnecessary purchases that do not align with your needs.",
+            "By defining your intention, you set the stage for a thoughtful and cohesive design process. This clarity will help you navigate choices regarding furniture, decor, and layout, ensuring that your balcony becomes a true retreat."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "The balcony cycle",
+              "caption": "Decor is the last step, not the first.",
+              "values": [
+                "Measure, documents, drains, railing, egress",
+                "Zones, privacy trade-offs, plant and seat sketch",
+                "Wind, load, wet floor, stop-use",
+                "Only what passed the tests",
+                "Sit, then leave when conditions fail",
+                "4R plus the scorecard"
+              ],
+              "labels": [
+                "Audit",
+                "Design",
+                "Test",
+                "Install",
+                "Live",
+                "Maintain"
+              ],
+              "minimum": null,
+              "spec_id": "D010",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D010.svg"
+            },
+            {
+              "kind": "table",
+              "title": "What this 10-day plan cannot do",
+              "caption": "An open balcony stays an open balcony.",
+              "values": [
+                "It cannot soundproof an open balcony or eliminate traffic noise",
+                "It cannot guarantee privacy",
+                "It cannot fix a severe structural problem or an unsafe railing",
+                "It cannot stand in for building-approved modifications"
+              ],
+              "labels": [
+                "Noise",
+                "Privacy",
+                "Structure",
+                "Approvals"
+              ],
+              "minimum": null,
+              "spec_id": "D015",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D015.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: you bought a screen on Day 0. Cause: decor before audit. Fix: documents, drains, railing, then shopping.",
+          "checklist": [
+            "Write your intention statement and set your practice time."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "audit-noise-and-privacy",
+          "title": "Audit Noise And Privacy",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "balcony with sound-absorbing elements, evening light, no people",
+            "flux_prompt": "photorealistic shot of a balcony with plants and sound-absorbing textiles",
+            "alt": "calm balcony with privacy screens and soft lighting",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\003-pexels.jpg",
+            "credit": "Photo by Francesco Ungaro on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:10984786"
+          },
+          "scenario": "Vikram, in a 40 square foot west-facing flat in Mumbai, conducts a noise and privacy audit on his balcony during the evening rush hour. He notes the sound of traffic and the view into neighboring apartments.",
+          "principle": "A simple audit of noise, privacy, and orientation reveals high-impact moves.",
+          "body": [
+            "Spend two minutes at four time points: morning rush, midday lull, evening peak, and late night. Note sources like traffic, HVAC, alley activity, and conversation. Use a free decibel app to capture a baseline at your planned practice time. Record how exposed you feel. Which directions have direct sightlines into your balcony? Where do you instinctively turn your body to feel private? These observations direct barrier placement and privacy moves later.",
+            "Understanding the noise levels and privacy concerns of your balcony is crucial for creating a peaceful environment. By identifying peak noise times and sources, you can take targeted actions to mitigate disturbances. This might involve adding sound-absorbing materials or strategically placing plants to block sightlines.",
+            "Your observations will inform your design choices, helping you create a space that feels more private and serene. This proactive approach ensures that your balcony becomes a refuge from the hustle and bustle of city life."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Ignoring noise and privacy can lead to discomfort and underuse of the space. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [
+            "Observe noise and privacy at two time points and record a baseline decibel reading."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "measure-your-space",
+          "title": "Measure the space and know the load",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "balcony with measuring tools and sketches, natural light, no people",
+            "flux_prompt": "photorealistic shot of a balcony with measuring tape and sketches on the floor",
+            "alt": "organized balcony with clear measurements and planning tools",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\004-pexels.jpg",
+            "credit": "Photo by Ron Lach on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:9617366"
+          },
+          "scenario": "Anjali, living in a 1BHK in Bengaluru, measures her 50 square foot balcony, noting the door swing and the position of railings and drain covers to ensure a clear path.",
+          "principle": "Do not guess the allowable load. Ask, read, or leave heavy items off.",
+          "body": [
+            "Today's output: a sketch plus a written load note — documents, landlord, or 'unknown, keep light and spread out.'",
+            "Measure length, width, door swing, railing posts, and drain covers. Mark a clear path from door to seat. Load is not a casual estimate: check building, HOA, society, or lease papers where they exist; ask the landlord or property manager. Account for people plus furniture plus planters plus water plus stored items. Do not concentrate several heavy planters in one small area. Never attach something to a railing unless the railing, the product manufacturer, and the building rules permit it. If the limit is unknown, stay light, spread weight, and skip hanging loads.",
+            "Leave 18 to 24 inches for leg clearance as a planning range. Keep drains visible on the sketch so you never cover them."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Know the balcony load — do not guess",
+              "caption": "People + furniture + planters + water + stored items.",
+              "values": [
+                "Building, HOA, society, or lease papers if they exist",
+                "Ask the landlord or property manager",
+                "Never assume the railing can take a rod, screen, planter, or hanger",
+                "Do not pile heavy planters in one patch",
+                "Attach to a railing only if the railing, maker, and building allow it"
+              ],
+              "labels": [
+                "Documents",
+                "Ask",
+                "Railing is not an anchor",
+                "Spread load",
+                "Permission"
+              ],
+              "minimum": null,
+              "spec_id": "D011",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D011.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: three wet ceramic pots in one corner because the tiles 'looked thick.' Cause: guessed the load. Fix: ask or lighten.",
+          "checklist": [
+            "Sketch doors, rails, drains, path",
+            "Write how you know the load — or that you don't",
+            "No unapproved railing attachments"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "choose-an-anchor",
+          "title": "Choose An Anchor",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "balcony with a meditation cushion and plants, soft lighting, no people",
+            "flux_prompt": "photorealistic shot of a balcony with a meditation cushion and calming elements",
+            "alt": "serene balcony with a defined anchor for meditation",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\005-pexels.jpg",
+            "credit": "Photo by Anastasia Sidorova on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:24736921"
+          },
+          "scenario": "Suresh, in a 1BHK in Chennai, decides to use a meditation cushion as the anchor for his 40 square foot balcony, placing it in the quietest corner with the best natural light.",
+          "principle": "One anchor creates immediate calm and organizes your layout.",
+          "body": [
+            "One focal point creates immediate calm. It can be a meditation cushion and mat, a low bench, a vertical privacy screen paired with greenery, or a soft rug that defines the zone. Place the anchor in the quietest corner with the best natural light at your practice time. Let other elements serve that anchor. If your seat is the anchor, lighting and scent should frame it. If a screen is the anchor, choose plants and textiles that complement its height and texture.",
+            "Choosing an anchor helps streamline your design process by providing a central element around which all other components revolve. This focus not only enhances the aesthetic appeal of your balcony but also reinforces its purpose as a calming retreat.",
+            "Your anchor should be positioned thoughtfully to maximize comfort and tranquility. This strategic placement will help you create a space that feels cohesive and inviting."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Failing to choose an anchor can lead to a disorganized and unfocused space. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [
+            "Choose an anchor element that organizes your layout and signals calm."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "day-1-quiet-the-noise",
+      "title": "Day 1: Quiet The Noise",
+      "intro": "Layer rugs and seats to change how the balcony feels. Do not expect a 10-day kit to soundproof an open edge or to erase traffic. Absorption, scattering, masking, and visual screening are different jobs.",
+      "opener": {
+        "query": "urban balcony, soft textures, calming atmosphere, no people, no text, no watermark",
+        "flux_prompt": "full-bleed establishing shot of a serene balcony with soft furnishings and plants, natural light",
+        "alt": "A small apartment balcony set up as a usable retreat.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\006-pexels.jpg",
+        "credit": "Photo by Liuuu _61 on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:35399292"
+      },
+      "sections": [
+        {
+          "slug": "understanding-your-noise-sources",
+          "title": "Understanding Your Noise Sources",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "urban balcony, sound identification, calming atmosphere, no people, no text, no watermark",
+            "flux_prompt": "angle showing a balcony with sound sources marked, soft furnishings, and plants, natural light",
+            "alt": "a close-up of sound sources on a balcony, highlighting traffic noise and reflections.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\007-pexels.jpg",
+            "credit": "Photo by Mariya Eskina on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:39255195"
+          },
+          "scenario": "Ravi lives in a 1BHK apartment in Pune, where his balcony faces a busy street. He often finds it difficult to meditate due to the constant noise from traffic and street vendors. Today, he will identify the main sources of noise affecting his balcony.",
+          "principle": "Note the loud side. Do not treat dB app deltas as universal thresholds.",
+          "body": [
+            "Urban balconies inherit noise from traffic, alley activity, and mechanical equipment. You cannot control those sources. The mistake many people make is trying to block everything at once or chasing a big number on a decibel meter. Most noise is not easily blocked without heavy construction. Meditation depends more on the character of sound than on absolute silence. Hard reflections from concrete and glass create sharp edges that agitate the nervous system, even when volume is moderate. The challenge is to reduce harshness, interrupt direct paths, and introduce a steady, gentle layer that makes irregular sounds fade into the background.",
+            "Start by identifying dominant directions. Is the loudest side the front street, a side alley, or overhead mechanicals? Stand at your planned seat and sweep your head slowly. Notice where sound gets sharper. Mark that side with a piece of painter's tape. Next, measure a baseline with a decibel app at your planned meditation time. A phone decibel app is a rough notebook, not a lab. Perceived change depends on the source, frequency, and the room. Dense balcony foliage is visual screening and a little scattering — it will not block traffic like a wall. Record a number if you like, then trust whether you can sit. Even when numbers shift modestly, better sound texture can make calm much easier."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: you expected 10 dB and quit. Cause: open-balcony physics. Fix: sit if the texture is kinder; don't chase a wall.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "layering-for-absorption",
+          "title": "Layering for Absorption",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "urban balcony, soft textures, calming atmosphere, no people, no text, no watermark",
+            "flux_prompt": "angle showing a balcony with soft textiles and plants, natural light",
+            "alt": "close-up of soft furnishings on a balcony, highlighting textures.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\006-pexels.jpg",
+            "credit": "Photo by Liuuu _61 on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:35399292"
+          },
+          "scenario": "Anjali lives in a Bengaluru rental with a load-bearing wall that creates an echo in her balcony area. She wants to soften the sound and create a more peaceful environment for her yoga practice.",
+          "principle": "Absorbing high frequencies with soft surfaces reduces harsh echoes and improves sound quality.",
+          "body": [
+            "Hard surfaces reflect and brighten noise. Soft, porous materials absorb high frequencies and cut reverberation. Place an outdoor rated rug under or near your seat to define the zone and swallow sharp sound. Add cushions and a plush throw to soften your immediate environment. If you have a wall or solid railing, hang a textile panel to reduce reflections. Use no drill hooks, adhesive anchors, or a tension rod. Fabrics such as olefin and acrylic are both UV resistant and quick to dry, so they hold up outdoors. For an elegant touch, add a woven privacy screen or a bamboo panel against a reflective surface. This breaks up straight lines and reduces flutter echoes from glass or painted concrete.",
+            "The goal is to create a defined zone that feels inviting and calming. Anjali can start by measuring her balcony space and selecting a rug that fits well, ideally around 5x7 feet. She should also consider adding cushions in muted colors to enhance the soothing atmosphere. By layering these soft textures, she will notice a significant reduction in echo and a more pleasant sound environment."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Neglecting to use outdoor-rated materials can lead to wear and tear. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "creating-barriers",
+          "title": "Creating Barriers",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "urban balcony, noise barriers, calming atmosphere, no people, no text, no watermark",
+            "flux_prompt": "angle showing a balcony with staggered barriers and plants, natural light",
+            "alt": "close-up of a freestanding screen and planters on a balcony.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\009-pexels.jpg",
+            "credit": "Photo by Enric Cruz López on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:9989544"
+          },
+          "scenario": "Meera's Mumbai flat has a window on only one side, exposing her balcony to noise from a nearby construction site. She needs to create barriers to interrupt the sound path.",
+          "principle": "A screen is a sightline and a sail. Tension rods are not a safety barrier.",
+          "body": [
+            "Today's output: one noise-side note and one wind note on the same object.",
+            "If you hang a textile, use only hardware within the manufacturer's intended application, on suitable surfaces. A tension rod is not a guard, not a fall restraint, and wind load is not the same as a static indoor load. Do not exceed the maker's rating. Do not clip a rod to a railing unless that railing and the building allow it.",
+            "You do not need thick, permanent walls to get benefit. A partial, well-placed vertical element can interrupt the path and create a quieter micro zone. Use a freestanding lattice screen, a bamboo roll attached to a freestanding base, or two tall planters that form a slim barrier. Place them on the side where sound is most dominant, not necessarily directly in front of your seat. Stagger two vertical elements rather than lining them up. Staggering creates micro shadows, small zones behind each element where sound levels feel lower and edges soften.",
+            "If overhead mechanicals are the issue, raise a curtain panel on a tension rod above your seat to intercept sound arriving from above. If lateral noise leaks from a side alley, slide a narrow screen close to that railing edge. Tall planters can screen a sightline and change how the balcony feels. They are not a noise wall. In wind they are also a load and a sail — spread them, and bring screens in when gusts are strong."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: a rod and curtain became a sail in a gust. Cause: renter-safe treated as wind-safe. Fix: take it down in strong wind.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "masking-noise",
+          "title": "Masking Noise",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "urban balcony, water feature, calming atmosphere, no people, no text, no watermark",
+            "flux_prompt": "angle showing a balcony with a small fountain and soft furnishings, natural light",
+            "alt": "close-up of a water feature on a balcony.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\010-pexels.jpg",
+            "credit": "Photo by suzukii xingfu on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:698319"
+          },
+          "scenario": "Karan lives in a flat in Chennai with a noisy street below. He wants to create a peaceful atmosphere for evening relaxation.",
+          "principle": "A fountain is outdoor water plus electricity. Optional, not default.",
+          "body": [
+            "Today's output: either skip water, or a fountain that is environment-rated with a stop-use rule.",
+            "Use only equipment explicitly rated for the environment. Follow its electrical requirements. Keep connections protected from water. Stop if cords, housings, or plugs are damaged. Watch splash onto other electrics, pump failure, standing water, mosquitoes, slippery floors, drainage, children and pets, tipping, rain overflow, and biofilm. A compact fountain on a tray is not enough by itself. Power it off and empty it when you leave in storms.",
+            "A gentle, steady sound can make irregular city noise recede. A small water feature with a circulating pump creates soothing white noise that is both natural and pleasant. Place it away from railing edges and ensure it is stable and splash safe. Keep it on a tray or mat to catch drips. If you prefer wind music, choose soft toned bamboo chimes and hang them out of direct wind to avoid clatter. For night sessions, a compact rechargeable white noise device at low volume can do the job without disturbing neighbors. The goal is a level just enough to smooth peaks, never so loud that it becomes the center of attention.",
+            "Karan can start by selecting a small fountain that fits his balcony space, ideally one that is around 12 to 18 inches in height. He should place it on a stable surface, ensuring it is not too close to the railing. Additionally, he can hang bamboo chimes in a corner where they won’t be disturbed by strong winds. This combination will help create a serene atmosphere, allowing him to unwind after a long day."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: the pump sat in rain next to a strip. Cause: 'outdoor vibe' beat rating. Fix: indoor the electrics; empty the bowl.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "day-2-create-privacy-without-blocking-light",
+      "title": "Create Privacy Without Blocking Light",
+      "intro": "Every privacy layer trades some mix of visibility, airflow, daylight, weight, wind, and maintenance. You will not keep all of them. Choose the trade-off your balcony actually needs.",
+      "opener": {
+        "query": "balcony privacy solutions, natural light, airy materials, urban setting, no people, no text, no watermark",
+        "flux_prompt": "full-bleed shot of a balcony with sheer curtains and plants, soft morning light, clean lines, inviting atmosphere",
+        "alt": "A small apartment balcony set up as a usable retreat.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\011-pexels.jpg",
+        "credit": "Photo by Jan van der Wolf on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:15508726"
+      },
+      "sections": [
+        {
+          "slug": "start-with-a-quick-sightline-map",
+          "title": "Start With A Quick Sightline Map",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "balcony sightline mapping, painter tape, urban balcony, no people, no text, no watermark",
+            "flux_prompt": "shot of a balcony with marked sightlines using painter tape, soft natural light, inviting atmosphere",
+            "alt": "alternative angle showing the balcony with marked sightlines and elements for privacy",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\012-pexels.jpg",
+            "credit": "Photo by Jan van der Wolf on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:16517952"
+          },
+          "scenario": "Maya lives on the fourth floor of a 1BHK in Pune with a narrow balcony facing a busy courtyard. She feels exposed to the opposite building's windows and a stairwell where people glance up. To address this, she sits where she plans to meditate and maps her sightlines with painter tape, marking the left and right edges of each exposure on her railing.",
+          "principle": "Mapping sightlines helps identify where privacy is needed.",
+          "body": [
+            "Sit where you plan to meditate. Look outward and scan like a camera lens. Identify where exactly you feel eyes could land on you, whether it's the window across, the balcony above, or the walkway below that angles up. Mark the left and right edges of each exposure with tape on your railing or wall. This simple exercise converts vague discomfort into precise targets, allowing you to concentrate your efforts effectively.",
+            "Once you have marked the sightlines, you can begin to think about how to interrupt or soften those paths. The goal is to create a sense of privacy without blocking the essential elements of light and air that make your balcony enjoyable. By knowing where the eyes are likely to fall, you can strategically place elements that provide a sense of seclusion without feeling closed in.",
+            "This mapping exercise is crucial because it helps you visualize the areas that need attention. It sets the foundation for the next steps in creating a private yet bright retreat."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Failing to accurately identify sightlines can lead to ineffective privacy solutions. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "choose-light-passing-privacy",
+          "title": "Choose Light Passing Privacy",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "airy privacy elements, perforated screens, bamboo lattice, urban balcony, no people, no text, no watermark",
+            "flux_prompt": "shot of a balcony featuring light passing privacy elements like sheer curtains and perforated screens, soft evening light, inviting atmosphere",
+            "alt": "alternative angle showing the balcony with plants and privacy elements in place",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\013-pexels.jpg",
+            "credit": "Photo by Iurii Bannov on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:38639032"
+          },
+          "scenario": "Carlos has a larger balcony in Bengaluru with a neighbor directly to his right. He feels uncomfortable with the direct line of sight and decides to create privacy without sacrificing light. He selects a narrow perforated screen and a slim trellis with a jasmine vine to soften the view.",
+          "principle": "More privacy surface can mean more wind. Assess both before you buy a screen.",
+          "body": [
+            "Today's output: sightline coverage versus wind exposure, written as a trade-off, not a promise.",
+            "Before adding curtains, lattice, bamboo, tall planters, or perforated screens, ask what the layer will catch in a gust. A solution that works visually may be unstable in strong wind. Lightweight for floor load is not the same as stable.",
+            "Solid walls can solve privacy issues but often steal serenity. Instead, select elements that turn clear views into gentle blurs. Sheer curtains soften outlines while allowing brightness to filter through. Perforated metal screens break sightlines with small holes that glow, creating a visual barrier without complete obstruction. Bamboo lattice and wicker panels introduce texture without darkness, enhancing the overall aesthetic of the space.",
+            "A powerful tactic is to pair two complementary pieces. For example, place one airy curtain panel near your seat and one tall planter positioned at the dominant sightline. This combination creates a layered effect that fools the eye without making the space feel closed in. The goal is to maintain a bright, breathable retreat that feels private at your seat.",
+            "When selecting your privacy elements, consider how they interact with the existing light. The right combination can transform your balcony into a serene escape while still allowing the sun and breeze to flow through."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: full-height bamboo and a blocked breeze. Cause: privacy without a wind budget. Fix: shorter, open, or removable.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "apply-privacy-without-shade",
+          "title": "Apply Privacy Without Shade",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "high balcony privacy solutions, gauzy curtains, urban setting, no people, no text, no watermark",
+            "flux_prompt": "shot of a high-rise balcony with lattice and gauzy curtains, soft afternoon light, inviting atmosphere",
+            "alt": "alternative angle showing the balcony with elevated privacy elements and plants",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\014-pexels.jpg",
+            "credit": "Photo by Melike on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:39364161"
+          },
+          "scenario": "Priya lives in a high-rise flat in Mumbai that is overlooked from above. To enhance her privacy without blocking the light, she decides to use a tall lattice on a freestanding base and a gauzy curtain attached to a tension rod.",
+          "principle": "Positioning elements higher than eye level helps maintain light while providing privacy.",
+          "body": [
+            "To achieve privacy without sacrificing light, place elements higher than eye level and slightly offset. If the exposure is above, raise a curtain or trellis on a tension rod behind your seat, then tilt it toward the direction of the eyes. If the exposure is lateral, set a narrow screen on the side to block direct eye contact without obstructing the entire view. This approach allows for intentional gaps that permit breezes and sunlight to flow through.",
+            "By sculpting partial discontinuity, you give your brain the cue that you are not directly visible, while still enjoying daylight and air. This method creates a sense of safety and comfort, allowing you to relax and focus on your meditation practice.",
+            "Remember to balance the placement of these elements with the overall aesthetic of your balcony. The goal is to create a harmonious space that feels both private and inviting."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Blocking the entire railing creates a cave-like atmosphere, reducing the willingness to practice meditation. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "balance-light-over-the-day",
+          "title": "Balance Light Over The Day",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "balcony light adjustment, urban setting, no people, no text, no watermark",
+            "flux_prompt": "shot of a balcony with adjustable privacy elements, soft morning light, inviting atmosphere",
+            "alt": "alternative angle showing the balcony with light adjustments in place",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\015-pexels.jpg",
+            "credit": "Photo by Clam Lo on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6850991"
+          },
+          "scenario": "In her Pune apartment, Maya notices that her east-facing balcony glows in the morning but becomes harsh in the late afternoon. To maintain comfort, she adjusts her privacy elements throughout the day.",
+          "principle": "Adjusting privacy elements based on the time of day enhances both light and privacy.",
+          "body": [
+            "Different orientations have different needs. For example, east-facing spaces glow in the morning, so one sheer panel may be enough to provide privacy while allowing light to filter through. However, west-facing spaces can become harsh in the late afternoon, necessitating gauzy curtains that soften glare while still admitting light.",
+            "If you notice your space feeling dim, consider reducing the density of your privacy elements, sliding them laterally, or choosing lighter fabrics and more open lattice designs. The aim is to create a bright, breathable retreat that feels private at your seat, regardless of the time of day.",
+            "Regularly testing the brightness and airflow at your usual meditation time will help you fine-tune your setup for optimal comfort and privacy."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Ignoring the orientation of your balcony can lead to discomfort during different times of the day. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "day-3-map-your-micro-layout-and-measurements",
+      "title": "Day 3: Map Your Micro-Layout And Measurements",
+      "intro": "You have softened the sound and created privacy that preserves light. Now you will shape the physical stage where your daily pause will actually happen. Today is about precision. Inches matter in a small balcony. When you place your seat, side surface, and vertical elements deliberately, the space feels larger, calmer, and easier to use.",
+      "opener": {
+        "query": "Compact balcony layout with a low bench, side table, and tall planter, natural light, no people, no text, no watermark.",
+        "flux_prompt": "A full-bleed shot of a small balcony with a low bench, side table, and tall planter, showcasing a serene atmosphere.",
+        "alt": "A small apartment balcony set up as a usable retreat.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\016-pexels.jpg",
+        "credit": "Photo by 虎 曼 on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:30963921"
+      },
+      "sections": [
+        {
+          "slug": "defining-your-zones",
+          "title": "Defining Your Zones",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "Compact balcony layout with a low cushion, side table, and tall planter, natural light, no people, no text, no watermark.",
+            "flux_prompt": "A serene corner of a balcony featuring a low cushion and tall planter, with soft natural light.",
+            "alt": "A cozy balcony setup with a low cushion and side table.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\017-pexels.jpg",
+            "credit": "Photo by Ayşegül  Aytören on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:39220968"
+          },
+          "scenario": "Riya lives in a 1BHK apartment in Pune with a 30 square foot balcony. She wants to create a calming meditation space but struggles with the clutter of her potted plants and a small table.",
+          "principle": "A three zone plan organizes small spaces for comfort and clarity.",
+          "body": [
+            "Start by defining three zones in your balcony: the seat or mat zone, the side surface zone, and the vertical element zone. Each zone serves a distinct purpose, ensuring that your meditation space is both functional and inviting.",
+            "For Riya, the seat zone is crucial. She decides on a low cushion that fits comfortably in the corner, allowing her to enjoy the view while feeling secure. This placement respects the need for comfort and a sense of being held by boundaries.",
+            "Next, she measures clearances around her chosen seat. Riya ensures that there is at least 18 to 24 inches in front of her seat, allowing her legs to stretch without obstruction from the railing or planters."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Precise Clearances, 18 To 24 Inches In",
+              "caption": "Precise clearances create ease and safety.",
+              "values": [
+                "18 to 24 inch",
+                "12 inch"
+              ],
+              "labels": [
+                "Note"
+              ],
+              "minimum": null,
+              "spec_id": "D008",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D008.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Reserve 18 To 24 Inches In Front",
+              "caption": "Reserve 18 to 24 inches in front of the seat so your legs and feet are not pressed against a railing or planter.",
+              "values": [
+                "18 to 24 inch"
+              ],
+              "labels": [
+                "Note"
+              ],
+              "minimum": null,
+              "spec_id": "D002",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D002.svg"
+            },
+            {
+              "kind": "table",
+              "title": "A Seat Depth Between 14 And 18",
+              "caption": "Aim for a seat depth between 14 and 18 inches if you use a bench or chair. Maintain at least 12 inches of open floor adjacent to the railing so you can move safely and so nothing risks tipping outward.",
+              "values": [
+                "18 inch"
+              ],
+              "labels": [
+                "Note"
+              ],
+              "minimum": "12 inches",
+              "spec_id": "D003",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D003.svg"
+            },
+            {
+              "kind": "table",
+              "title": "It Should Be Within Easy Reach, Generally",
+              "caption": "It should be within easy reach, generally within 12 to 18 inches of your hand when seated, but not in the primary path you use to enter and exit. Confirm a minimum of 18 inches of leg room in front.",
+              "values": [
+                "12 to 18 inch"
+              ],
+              "labels": [
+                "Note"
+              ],
+              "minimum": "18 inches",
+              "spec_id": "D005",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D005.svg"
+            },
+            {
+              "kind": "table",
+              "title": "A Small Table Or Tray Within Easy",
+              "caption": "Place a small table or tray within easy reach of your dominant hand, generally 12 to 18 inches away.",
+              "values": [
+                "12 to 18 inch"
+              ],
+              "labels": [
+                "Note"
+              ],
+              "minimum": null,
+              "spec_id": "D007",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D007.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Ignoring the need for clear zones can lead to a cluttered and uncomfortable space. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "testing-seat-orientations",
+          "title": "Testing Seat Orientations",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "Compact balcony with a diagonal cushion orientation, natural light, no people, no text, no watermark.",
+            "flux_prompt": "A cozy balcony corner with a cushion angled towards a view, soft lighting.",
+            "alt": "A diagonal seating arrangement on a small balcony.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\018-pexels.jpg",
+            "credit": "Photo by Jan van der Wolf on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:20332246"
+          },
+          "scenario": "Vikram has a 40 square foot balcony in Bengaluru that faces a busy street. He wants to ensure his meditation space feels private and calm.",
+          "principle": "Testing different seat orientations helps find the best balance of comfort and privacy.",
+          "body": [
+            "Vikram decides to test three different seat orientations to find the most comfortable position. He starts by placing his cushion perpendicular to the railing, which feels straightforward but lacks privacy.",
+            "After sitting for two minutes, he notes the noise from the street and the amount of light hitting his face. He rates his comfort and privacy on a scale of one to five, finding this orientation lacking.",
+            "Next, he rotates the cushion to a diagonal position facing his favorite view. This orientation provides a better balance of openness and shelter, as one shoulder is aligned with the wall, offering a sense of privacy."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Reserve 18 To 24 Inches In Front",
+              "caption": "Reserve 18 to 24 inches in front for leg room.",
+              "values": [
+                "18 to 24 inch"
+              ],
+              "labels": [
+                "Note"
+              ],
+              "minimum": null,
+              "spec_id": "D020",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D020.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Failing to test different orientations can result in a less comfortable seating arrangement. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "placing-side-surfaces",
+          "title": "Placing Side Surfaces",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "Compact balcony with a small folding table beside a cushion, natural light, no people, no text, no watermark.",
+            "flux_prompt": "A small balcony featuring a side table next to a cushion, with soft natural light.",
+            "alt": "A side table positioned for easy access on a balcony.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\019-pexels.jpg",
+            "credit": "Photo by Engin Akyurt on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:10911585"
+          },
+          "scenario": "Anjali's 50 square foot balcony in Mumbai has a load-bearing wall. She needs to find a side surface that fits without blocking her entry.",
+          "principle": "Side surfaces should be within easy reach but not obstruct the primary path.",
+          "body": [
+            "Anjali selects a small folding table that can double as a side surface for her tea and a place to set her phone. She places it within 12 to 18 inches of her seat, ensuring it is easily reachable without obstructing her entry and exit path.",
+            "She measures the distance to confirm that the table is outside her primary path, allowing her to move freely without bumping into it. This placement respects the flow of the space while providing functionality.",
+            "Anjali also considers the height of the table, ensuring it is lower than her gaze line to avoid feeling like a barrier in her meditation space."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "A Small Table Or Tray Within Easy",
+              "caption": "A small table or tray within easy reach.",
+              "values": [
+                "12 to 18 inch"
+              ],
+              "labels": [
+                "Note"
+              ],
+              "minimum": null,
+              "spec_id": "D021",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D021.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Placing side surfaces in the main entry path can create daily annoyances. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "positioning-vertical-elements",
+          "title": "Positioning Vertical Elements",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "Compact balcony with tall planters and a sheer curtain, natural light, no people, no text, no watermark.",
+            "flux_prompt": "A balcony featuring tall planters and a sheer curtain, creating a serene atmosphere.",
+            "alt": "Vertical elements positioned for privacy on a balcony.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\020-pexels.jpg",
+            "credit": "Photo by Huy Phan on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:30386993"
+          },
+          "scenario": "Karan has a 36 square foot balcony in Delhi that feels exposed. He wants to add vertical elements for privacy without blocking light.",
+          "principle": "Railings are guards, not furniture frames.",
+          "body": [
+            "Today's output: verticals off the railing unless approved; climbables not used as steps to the guard.",
+            "Do not use the railing as a structural anchor unless approved. Do not park climbable seats or planters where a child can step up. Do not let objects project through or over the railing. Do not hang unsecured gear the wind can carry outside. Do not reduce required guard height or create hazardous openings. Do not hang heavy planters or screens on the rail without the right approval.",
+            "Keeping about 12 inches of open floor beside the railing is a planning buffer so you can move and so objects are less likely to sit on the edge. It is not a universal certified minimum. Building rules and the as-built guard govern."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Railing limits",
+              "caption": "Twelve inches of open floor is a planning buffer, not a certified guard rule.",
+              "values": [
+                "Not a structural anchor unless approved",
+                "No climbable steps next to the guard",
+                "Nothing projecting through or over unless rules allow",
+                "Wind can take unsecured objects off the balcony",
+                "Do not lower required guard height or invent hazardous gaps"
+              ],
+              "labels": [
+                "No unapproved attachments",
+                "No climbable furniture at the rail",
+                "No over-rail hang",
+                "Secure or bring inside",
+                "Keep the guard as built"
+              ],
+              "minimum": null,
+              "spec_id": "D012",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D012.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: a bench against the rail 'for the view.' Cause: furniture as a step. Fix: pull it back or take it inside.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "day-4-design-with-light",
+      "title": "Day 4: Design With Light",
+      "intro": "Light changes how your nervous system feels in seconds. On a city balcony, it can either sharpen edges and amplify stress, or soften the scene until your breath naturally slows. Today, you will shape both daylight and evening illumination so your balcony cues calm at a glance. The goal is not complex wiring or permanent fixtures. You will use simple, renter safe tools to transform how your space looks and feels from sunrise to night.",
+      "opener": {
+        "query": "Balcony with soft lighting, sheer curtains, warm lanterns, evening glow, photorealistic, no people, no text, no watermark.",
+        "flux_prompt": "Full-bleed shot of a serene balcony at dusk, showcasing layered warm lighting and soft textures.",
+        "alt": "A small apartment balcony set up as a usable retreat.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\021-pexels.jpg",
+        "credit": "Photo by Siarhei Nester on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:18877312"
+      },
+      "sections": [
+        {
+          "slug": "chart-the-sun",
+          "title": "Chart The Sun",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "Pune balcony with sunlight patterns, soft curtains, serene atmosphere, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "Close-up of sunlight hitting a balcony seat, showcasing reflections and glare.",
+            "alt": "A balcony in Pune with soft morning light.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\022-pexels.jpg",
+            "credit": "Photo by Diana ✨ on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:2004317"
+          },
+          "scenario": "In her 1BHK in Pune, Priya enjoys morning meditation on her balcony but struggles with harsh sunlight reflecting off nearby buildings. She sits for two minutes at different times of the day to observe where the sun hits her face and the reflections that cause discomfort.",
+          "principle": "Understanding sunlight patterns is crucial for effective light management.",
+          "body": [
+            "Summer balcony check: flooring and metal rails can burn; concrete stores heat; bring water; shorten sits in peak sun; keep ventilation. Glare control is not heat safety. Stop if you feel dizzy, nauseous, or overheated.",
+            "Sit on your chosen seat at three times—morning, midday, and evening—for two minutes each. Notice where the sun lands on your eyes and cheeks. Watch for reflected glare off neighboring windows and metal railings. Note the pattern of shadows. If your practice is at dawn, you might need minimal diffusion and more warmth in the evening. If you sit after work, prioritizing warm glow and reducing city glare is key.",
+            "By observing these patterns, you can identify the angles where glare strikes the most. For example, if the low west sun is a problem, you will want to focus on diffusing that angle specifically. This awareness allows you to create a more comfortable environment for relaxation and meditation.",
+            "Make a note of your preferred practice time and the quality of light during those moments. This will guide your adjustments in daylight and evening illumination."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Failing to observe sunlight patterns can lead to ineffective lighting adjustments. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "adjust-daylight",
+          "title": "Adjust Daylight",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "Bengaluru balcony with sheer curtains, soft light, inviting atmosphere, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "View of a Bengaluru balcony with sheer curtains diffusing sunlight.",
+            "alt": "A balcony in Bengaluru with soft, diffused light.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\022-pexels.jpg",
+            "credit": "Photo by Diana ✨ on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:2004317"
+          },
+          "scenario": "In a Bengaluru rental with a load-bearing wall, Rohan finds that the afternoon sun creates a harsh glare on his balcony. He decides to install sheer curtains to soften the light without blocking his view.",
+          "principle": "Soften glare with renter-safe diffusion rather than heavy darkening.",
+          "body": [
+            "Sheers on a tension rod only if the rod is used as the maker intends, on suitable surfaces, not as a barrier, and not to hold anything that could fall from height. Wind load is not indoor static load. Take fabric down in severe wind.",
+            "City balconies rarely need blackouts; they need softening. Sheer curtains or lightweight shades create a calm, pearly quality that keeps the space open. Install sheers on tension rods mounted in a doorway or between rail and wall, or hang them from a freestanding frame that aligns with the strongest beam. Do not cover everything; only shield the angle that hits your eyes. Leave narrow gaps so sunbeams move and the view remains alive.",
+            "If your balcony door throws harsh reflections, use a clear removable window film rated to reduce glare and ultraviolet without blocking all light. Confirm building rules, then apply a single panel at eye height. This alone can turn a blinding noon into a pleasant glow.",
+            "By adjusting daylight effectively, you can create a more inviting atmosphere that encourages you to use your balcony more often, even during the day."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Using heavy curtains can darken the space too much, making it feel closed off. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "layer-warm-night-light",
+          "title": "Layer Warm Night Light",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "Mumbai balcony with warm lighting, cozy atmosphere, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "Evening shot of a Mumbai balcony with warm lanterns and string lights.",
+            "alt": "A balcony in Mumbai with warm, inviting lighting.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\024-pexels.jpg",
+            "credit": "Photo by Ali Durmuş on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:35522218"
+          },
+          "scenario": "In a Mumbai flat with a window on only one side, Aditi practices yoga in the evenings. She finds that harsh overhead lights disrupt her calm. She decides to layer warm lighting for a soothing atmosphere.",
+          "principle": "Layer warm color temperature lighting to support relaxation and circadian rhythm.",
+          "body": [
+            "At night, the nervous system responds to color temperature and brightness. Research indicates that blue-enriched light, which is more common in cool white bulbs, can make you feel alert and can reduce melatonin in the evening. To invite calm, use warm white around 2200 to 2700 K. Think candlelight, not office light.",
+            "Create a small hierarchy of light sources. Choose one primary lantern near your seat. Place it slightly behind and to the side so it casts a soft pool without shining into your eyes. Add a single run of string lights along the top rail, under an overhead beam, or tracing your privacy screen. Keep it one line, not crisscross patterns, for visual simplicity.",
+            "If you like flicker, use a flameless LED candle near your feet or on the side surface. Keep lights below eye level when possible to avoid direct glare. This setup will create a warm, inviting space that feels safe and comforting."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Using bright, cool lights can disrupt the calming atmosphere you want to create. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "match-for-coherence",
+          "title": "Match For Coherence",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "Pune balcony with cohesive lighting fixtures, natural textiles, warm ambiance, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "Stylized shot of a Pune balcony showcasing matching lighting and textiles.",
+            "alt": "A balcony in Pune with cohesive design elements.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\025-pexels.jpg",
+            "credit": "Photo by Valeria Drozdova on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:38220870"
+          },
+          "scenario": "In her compact apartment in Pune, Neha wants her balcony to feel cohesive. She decides to choose lighting fixtures that match in style and finish to create a harmonious look.",
+          "principle": "Consistent finishes and clean lines reduce visual noise and make your balcony feel cohesive.",
+          "body": [
+            "Choose one finish family for your lighting fixtures. Matte black reads minimal and modern. Natural bamboo brings warmth. Soft white blends quietly with walls. Two cohesive pieces look better than five mismatched ones. Pair lighting with natural textiles, like a woven seat cushion or cotton throw, to amplify the warmth.",
+            "This coherence not only enhances the aesthetic appeal of your balcony but also invites you to spend more time there. A well-coordinated space feels more intentional and comfortable, encouraging relaxation and mindfulness.",
+            "Ensure that your fixtures are labeled for outdoor use, as even covered balconies face moisture and temperature swings. This will prolong the life of your lighting and keep your space safe."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Using mismatched fixtures can create visual clutter and detract from the calming atmosphere. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "day-5-scent-and-greenery-for-instant-calm",
+      "title": "Day 5: Scent And Greenery For Instant Calm",
+      "intro": "In this chapter, we explore how to transform your urban balcony into a calming oasis using scent and greenery. By incorporating aromatic plants and thoughtful design, you can create a serene space that invites relaxation and rejuvenation.",
+      "opener": {
+        "query": "A serene balcony with aromatic plants, soft lighting, and a calming atmosphere, showcasing a blend of greenery and natural textures.",
+        "flux_prompt": "A full-bleed image of a balcony adorned with aromatic plants, featuring resin planters, pebbles, and a cozy seating area bathed in soft, natural light.",
+        "alt": "A small apartment balcony set up as a usable retreat.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\026-pexels.jpg",
+        "credit": "Photo by Zeynep Sude  Emek on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:20484052"
+      },
+      "sections": [
+        {
+          "slug": "creating-your-calm-plant-stack",
+          "title": "Creating Your Calm Plant Stack",
+          "day_label": "Day 5",
+          "hero": {
+            "query": "A balcony with aromatic herbs and a tall grass, showcasing a serene seating area with soft lighting and natural textures.",
+            "flux_prompt": "A close-up of aromatic plants like lavender and rosemary in lightweight resin planters, with pebbles and a cozy seating area in the background.",
+            "alt": "A serene balcony scene with aromatic plants and a comfortable seating arrangement.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\027-pexels.jpg",
+            "credit": "Photo by liiChun film on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:38970856"
+          },
+          "scenario": "Nina lives in a south-facing third-floor apartment in Pune with a small balcony that gets strong sunlight. She wants to create a calming space to unwind after work.",
+          "principle": "A well-structured plant stack can enhance your balcony's tranquility.",
+          "body": [
+            "Start with aromatic anchors by selecting two or three herbs or scented plants that thrive in full sun. For Nina, compact lavender and upright rosemary are ideal choices, as they love the heat and require minimal watering. Position these plants within arm's reach of her seating area to ensure she can easily activate their calming scents.",
+            "Next, introduce a living screen to provide gentle privacy and soften the harsh edges of the city. Nina can choose a tall grass like miscanthus, which sways beautifully in the breeze, to add movement and visual interest. This layer not only enhances the aesthetic but also creates a sense of enclosure.",
+            "Finally, select lightweight containers with proper drainage to protect her balcony surface. Resin planters are perfect as they are easy to lift and resist weather damage. Nina should place these planters on small feet to allow for drainage and prevent staining her balcony floor."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Overcrowding the balcony with too many plants can create a chaotic look and feel. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [
+            "Select two or three aromatic plants suited to your light and climate.",
+            "Choose one tall and one mid-height plant to form a partial living screen.",
+            "Arrange planters with proper drainage, trays, and stable positions."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "selecting-the-right-plants-and-containers",
+          "title": "Selecting the Right Plants and Containers",
+          "day_label": "Day 5",
+          "hero": {
+            "query": "A shaded balcony with aromatic herbs in lightweight containers, showcasing a serene and inviting atmosphere.",
+            "flux_prompt": "A view of a shaded balcony with mint and lemon balm in lightweight planters, surrounded by natural textures and soft lighting.",
+            "alt": "A peaceful balcony scene with aromatic plants and a cozy seating area.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\028-pexels.jpg",
+            "credit": "Photo by Gundula Vogel on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:28240607"
+          },
+          "scenario": "Malik lives in a rented apartment in Bengaluru with a shaded balcony that faces an inner courtyard. He wants to create a calming space without overwhelming maintenance.",
+          "principle": "Lightweight for structure is not the same as stable in wind. Check children and pets.",
+          "body": [
+            "Today's output: plant list plus a stability note plus a toxicity note if children or pets use the balcony.",
+            "Choose plants appropriate for children and pets if they have access. This is not a botanical manual — check the species before you buy. Lightweight composite planters help the slab; they can still blow. Size them for the plant, keep them stable, off narrow ledges, not on the railing without approval, and draining into trays that do not overflow into drains or the balcony below.",
+            "For Malik's shaded balcony, he can select mint, lemon balm, and thyme as his aromatic anchors. These herbs thrive in partial shade and will provide a refreshing scent without requiring constant attention. A mid-height scented pelargonium can add a touch of color and fragrance, enhancing the overall atmosphere.",
+            "When it comes to containers, Malik should opt for lightweight composite planters with drainage holes. These will be easy to lift and will prevent water damage to his balcony. By placing the planters on feet or small blocks, he can ensure proper drainage and protect the floor from stains.",
+            "To maintain a cohesive look, Malik should choose planters that share a similar finish. This will create a calming visual palette, allowing the greenery to be the focal point of the space. He can also use a high-quality potting mix to ensure healthy plant growth."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: a light pot went over the rail in a gust. Cause: lightweight read as 'safe.' Fix: wider base, lower, or inside.",
+          "checklist": [
+            "Choose lightweight containers with drainage holes.",
+            "Select plants that thrive in your balcony's light conditions.",
+            "Ensure planters are placed on feet or blocks for drainage."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "establishing-your-scent-ritual",
+          "title": "Establishing Your Scent Ritual",
+          "day_label": "Day 5",
+          "hero": {
+            "query": "A balcony scene with aromatic plants and a calming scent ritual setup, showcasing natural textures and soft lighting.",
+            "flux_prompt": "A close-up of aromatic plants with a scented bracelet and a calming atmosphere, inviting relaxation.",
+            "alt": "A serene balcony with aromatic plants and a calming scent ritual.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\029-pexels.jpg",
+            "credit": "Photo by Mumtahina Tanni on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7427487"
+          },
+          "scenario": "Priya lives in a Mumbai flat with a narrow balcony and is concerned about weight limits. She wants to create a calming space without compromising her safety.",
+          "principle": "A simple scent ritual can enhance your relaxation experience on the balcony.",
+          "body": [
+            "To create a calming atmosphere, Priya can establish a simple scent ritual before each session. She should brush the leaves of her aromatic anchors, like lavender or rosemary, and take three slow breaths. This practice will help her shift into a more relaxed state and signal her body to unwind.",
+            "If Priya prefers to use essential oils, she should choose gentle, meditation-friendly options like lavender or bergamot. A small amount, such as one or two drops on a porous stone, is sufficient to create a pleasant aroma without overwhelming her neighbors.",
+            "Additionally, Priya can consider using a cedar or sandalwood bead bracelet to hold scent lightly. This personal anchor can be held during her first breaths, allowing her to enjoy the calming effects of scent without drifting into the surrounding area."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Neglecting to create a scent ritual can lead to a missed opportunity for relaxation. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [
+            "Establish a simple scent ritual before each session.",
+            "Use gentle essential oils or natural materials for scent.",
+            "Practice deep breathing to enhance relaxation."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "day-6-7-seating-textures-and-comfort",
+      "title": "Seating, Textures, And Comfort",
+      "intro": "After enhancing your balcony with privacy, light, and greenery, it's time to focus on comfort. The right seating and tactile elements can transform your balcony into a welcoming retreat, encouraging you to return daily without hesitation.",
+      "opener": {
+        "query": "Balcony with comfortable seating, soft textiles, and greenery, natural light, no people, no text, no watermark.",
+        "flux_prompt": "A full-bleed shot of a cozy balcony setup featuring a low bench, soft cushions, and a woven rug, with plants in the background.",
+        "alt": "A small apartment balcony set up as a usable retreat.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\030-pexels.jpg",
+        "credit": "Photo by Beyzaa Yurtkuran on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:13609741"
+      },
+      "sections": [
+        {
+          "slug": "choosing-the-right-seat",
+          "title": "Choosing the Right Seat",
+          "day_label": "Day 6",
+          "hero": {
+            "query": "Cozy balcony with a zafu and zabuton, soft textiles, and plants, natural light, no people, no text, no watermark.",
+            "flux_prompt": "A close-up of the zafu and zabuton setup on the balcony, with a soft throw nearby.",
+            "alt": "A view of the balcony showing the zafu and zabuton in a serene setting.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\031-pexels.jpg",
+            "credit": "Photo by Aniket Suryawanshi on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:32397386"
+          },
+          "scenario": "In her 1BHK apartment in Pune, Meera has a small balcony with a concrete floor. She struggles to find a comfortable seating option that accommodates her height and allows her to meditate without discomfort. After testing various options, she decides to elevate her zafu by 2 centimeters and pair it with a zabuton for knee support.",
+          "principle": "Use a posture that feels stable and comfortable. This is not medical advice.",
+          "body": [
+            "Today's output: a seat you can leave quickly on the egress path.",
+            "Use a posture that feels stable and comfortable; stop or adjust if you feel pain, numbness, or dizziness. Knees near hip height is a comfort starting point, not a prescription.",
+            "For floor seating, a zafu on a base mat can lower your sightline and create a grounding effect. Pair it with a zabuton or a thick folded mat to protect your knees. Ensure that your knees are at or slightly below hip level to reduce strain and promote a neutral spine alignment.",
+            "If you prefer a low bench, it can help reduce hip flexion and is ideal if cross-legged sitting is uncomfortable. Kneel with your shins on a soft mat, keeping your pelvis slightly forward and shoulders relaxed. Test your comfort for five minutes to ensure your knees and ankles feel supported.",
+            "A compact chair with a firm seat is suitable for longer sessions. Add a small lumbar pillow to maintain the natural curve of your lower back. Ensure your feet are grounded on a stable surface and avoid overly soft cushions that may cause slumping."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Test various seating options for five minutes each.",
+              "minutes": null
+            },
+            {
+              "text": "Select the option that provides relaxed stability and comfort.",
+              "minutes": null
+            },
+            {
+              "text": "Pair your chosen seat with the appropriate base pad or lumbar support.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Choosing an overly plush cushion can lead to knee strain and poor posture. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [
+            "Test three seating options for five minutes each.",
+            "Choose a primary seat based on comfort and support.",
+            "Pair with the right base pad or lumbar support."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "enhancing-comfort-with-textiles",
+          "title": "Enhancing Comfort with Textiles",
+          "day_label": "Day 6",
+          "hero": {
+            "query": "Balcony with a woven rug, soft throw, and plants, natural light, no people, no text, no watermark.",
+            "flux_prompt": "A detailed shot of the layered textures on the balcony, highlighting the rug and throw.",
+            "alt": "An angle showing the balcony with the rug and throw in a serene setting.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\031-pexels.jpg",
+            "credit": "Photo by Aniket Suryawanshi on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:32397386"
+          },
+          "scenario": "In a shared apartment in Mumbai, Riya has a balcony that feels too cold and hard. She decides to add a woven rug and a soft throw to create a more inviting atmosphere for her meditation practice.",
+          "principle": "Layering textures can enhance comfort and create a calming environment.",
+          "body": [
+            "Ground your balcony with layered textures to create a warm and inviting space. A woven rug under your seat, a soft throw over your lap, and a wooden or bamboo side surface can add tactile richness.",
+            "Aim for a restrained palette of three textures: one dominant and two supportive. Too many patterns can create visual noise, so keep it simple. The softest element should be within reach to activate calm and comfort.",
+            "Building on previous days, position aromatic plants near your seating area to enhance the sensory experience. Lightly brushing the leaves can serve as a pre-sit ritual that prepares your mind for relaxation."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Add a woven rug to soften the balcony floor.",
+              "minutes": null
+            },
+            {
+              "text": "Introduce a soft throw and one standout tactile cushion in a calm color.",
+              "minutes": null
+            },
+            {
+              "text": "Ensure that textiles do not overcrowd the space.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Overcrowding the space with too many textiles can create visual clutter and reduce comfort. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [
+            "Layer textures with a woven rug and soft throw.",
+            "Limit to one or two essential cushions.",
+            "Ensure textiles are arranged without crowding the space."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "floor-treatments-and-stability",
+          "title": "Floor Treatments and Stability",
+          "day_label": "Day 7",
+          "hero": {
+            "query": "Balcony with interlocking tiles and outdoor rug, natural light, no people, no text, no watermark.",
+            "flux_prompt": "A wide shot of the balcony showcasing the interlocking tiles and outdoor rug.",
+            "alt": "An angle showing the balcony with tiles and rug in a serene setting.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\033-pexels.jpg",
+            "credit": "Photo by Jan van der Wolf on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:30742339"
+          },
+          "scenario": "In a windy high-rise in Bengaluru, Arjun faces challenges with his balcony flooring. He opts for interlocking tiles to create a stable surface that can withstand the gusts while providing comfort for his meditation practice.",
+          "principle": "Renter-safe floor upgrades can enhance safety and comfort.",
+          "body": [
+            "Never block balcony drainage outlets. Do not sit planters on drains. Verify load from documents or the manager before tiles or stored water. Avoid concentrating weight.",
+            "Interlocking deck tiles can create a level, warm floor without the need for drilling, compensating for mild unevenness and improving safety. Always verify the balcony's weight limits before installation and avoid blocking drainage paths.",
+            "Outdoor rugs can add softness and absorb sound, making the space feel more inviting. Choose quick-drying materials with a breathable underlay to prevent moisture from being trapped underneath. Non-slip rug pads are essential for safety, and it's wise to test edge security by shifting your weight at the boundaries.",
+            "Keep in mind that urban balconies can funnel wind, so choose cushions with ties or store them when not in use. A slim storage bench or compact bin can protect items from rain and sun, ensuring your textiles remain clean and dry."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Install interlocking tiles to create a stable floor surface.",
+              "minutes": null
+            },
+            {
+              "text": "Add an outdoor rug for softness and sound absorption.",
+              "minutes": null
+            },
+            {
+              "text": "Set up a compact storage solution for cushions and textiles.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: tiles over the drain 'looked flush' and rain ponded. Cause: comfort floor beat the building drain. Fix: uncover it.",
+          "checklist": [
+            "Verify balcony weight limits before installing tiles.",
+            "Use non-slip rug pads for safety.",
+            "Ensure a storage solution is in place for cushions."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "day-8-renter-safe-upgrades-and-weatherproofing",
+      "title": "Renter-Safe Upgrades And Weatherproofing",
+      "intro": "Your balcony has grown calmer with sound softening, privacy layers, seating, and textures. Today, you make it trustworthy. Renter safe upgrades and weatherproofing turn a pleasant nook into a sanctuary that stays dependable in sun, wind, and rain. That feeling of assurance, knowing your space will be ready when you need it, reduces friction and protects your investment.",
+      "opener": {
+        "query": "balcony with seating, sound softening elements, privacy layers, natural light, no people, no text, no watermark",
+        "flux_prompt": "full-bleed establishing shot of a serene balcony with seating and greenery",
+        "alt": "A small apartment balcony set up as a usable retreat.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\034-pexels.jpg",
+        "credit": "Photo by Shivansh  Sharma on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:20390613"
+      },
+      "sections": [
+        {
+          "slug": "secure-without-drilling",
+          "title": "Secure Without Drilling",
+          "day_label": "Day 8",
+          "hero": {
+            "query": "Pune balcony with tension rods, sheer curtains, and sandbag weights, natural light, no people, no text, no watermark",
+            "flux_prompt": "photorealistic balcony with sheer curtains and planters",
+            "alt": "Pune balcony with tension rods and sheer curtains",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\035-pexels.jpg",
+            "credit": "Photo by Zülfü Demir📸 on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:33839793"
+          },
+          "scenario": "In a 1BHK flat in Pune, resident Anjali wants to hang sheer curtains without damaging her walls. She uses a tension rod between two walls and adhesive hooks for tiebacks, ensuring her curtains stay in place during wind.",
+          "principle": "No-drill is not automatically wind-safe or railing-safe.",
+          "body": [
+            "Today's output: hardware used only as its manufacturer describes.",
+            "Tension rods: intended application only; suitable surfaces; not a safety barrier; not a restraint for something that could fall from height; do not exceed the load rating; wind is not a static indoor test. Adhesive hooks and zip-ties follow the same maker limits. A push test that passes does not certify a monsoon gust. If an object has a large vertical face, can catch wind, can topple, or can become airborne, remove it in strong wind rather than piling on weight."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Wind-safe is not the same as heavy",
+              "caption": "A heavy planter can still become a hazard. A screen is a sail.",
+              "values": [
+                "Remove it in strong wind rather than adding more weight",
+                "Bamboo, lattice, curtains, umbrellas, hanging decor",
+                "Lightweight furniture, cushions, mats",
+                "Tension rods: maker's use only, not a barrier, not a fall restraint"
+              ],
+              "labels": [
+                "Large vertical face, can topple or fly",
+                "Privacy layers",
+                "Loose comfort",
+                "Rods"
+              ],
+              "minimum": null,
+              "spec_id": "D014",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D014.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: sandbags in the planter and the screen still walked. Cause: weight as a sail fix. Fix: take the screen down.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "aqua-management",
+          "title": "Water, drains, and do not send it next door",
+          "day_label": "Day 8",
+          "hero": {
+            "query": "Mumbai balcony with elevated rug, planters on trays, natural light, no people, no text, no watermark",
+            "flux_prompt": "photorealistic balcony with elevated rug and planters on trays",
+            "alt": "Mumbai balcony with elevated rug and planters",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\036-pexels.jpg",
+            "credit": "Photo by Janhavi Amin on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:14790100"
+          },
+          "scenario": "In a rainy Mumbai flat, resident Rohan struggles with dampness on his balcony rug. He elevates the rug with breathable underlay and uses trays under his planters to manage water effectively.",
+          "principle": "Drainage is a building system. Never block balcony outlets.",
+          "body": [
+            "Today's output: drains clear; trays that cannot overflow into the outlet or the neighbor.",
+            "Never block balcony drainage outlets. Do not place planters on drains. Do not let trays overflow into drainage. Inspect drains before monsoon or heavy rain. Remove leaves. Do not modify drainage or redirect water toward other balconies. Do not send planter drainage, AC condensate, fountain splash, cleaning or mop water, rain thrown by screens, or dripping textiles onto someone else.",
+            "If you use a fountain, environment-rated equipment only, electrical connections kept dry, off and emptied in rain, watch mosquitoes, slip, children, pets, and overflow."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: a saucer overflowed into the neighbor's drying rack. Cause: your tray, their ceiling. Fix: empty trays; keep drains open.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "flexible-wind-control",
+          "title": "Flexible Wind Control",
+          "day_label": "Day 8",
+          "hero": {
+            "query": "Bengaluru balcony with tall plants against a wall, tied back curtains, natural light, no people, no text, no watermark",
+            "flux_prompt": "photorealistic balcony with tall plants and secured curtains",
+            "alt": "Bengaluru balcony with tall plants and curtains",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\037-pexels.jpg",
+            "credit": "Photo by 女子 正真 on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:37882293"
+          },
+          "scenario": "In a Bengaluru rental with a load-bearing wall, resident Priya needs to secure her lightweight decor during windy days. She places her tall plants against the wall and ties back her curtains to minimize movement.",
+          "principle": "Wind-safe ≠ heavy. Remove sails.",
+          "body": [
+            "Today's output: a bring-inside list for screens, curtains, umbrellas, cushions, mats, hanging decor, lightweight chairs.",
+            "Corners and walls can reduce grab on a tall object. They do not make a bamboo screen safe in severe wind. If it can catch wind, topple, or fly, remove it. Do not wait for 'more weight' to fail first."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: you added a second sandbag in a thunderstorm. Cause: stay-and-weight. Fix: leave the balcony; objects inside.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "seasonal-protection",
+          "title": "Seasonal Protection",
+          "day_label": "Day 8",
+          "hero": {
+            "query": "Chennai balcony with storage bin for cushions, natural light, no people, no text, no watermark",
+            "flux_prompt": "photorealistic balcony with storage solutions and seasonal prep",
+            "alt": "Chennai balcony with storage for seasonal items",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\038-pexels.jpg",
+            "credit": "Photo by Digital Buggu on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:167534"
+          },
+          "scenario": "In a Chennai flat, resident Karthik prepares for the monsoon by storing his cushions and using a quick deploy plan to protect his balcony setup.",
+          "principle": "Seasonal prep and a quick deploy checklist make weather response fast.",
+          "body": [
+            "Seasonal protection is essential for maintaining your balcony setup. Store, insulate, or cover items with a quick deploy plan. Keep a small storage bin ready, and a checklist near the door. This ensures that you can quickly respond to changing weather conditions without hassle.",
+            "Karthik's balcony was often exposed to heavy rains during the monsoon season. To prepare, he labeled a bin for his cushions and throws, ensuring they could be stored quickly when storms approached.",
+            "Additionally, he created a checklist card to keep near the door, detailing the steps to secure his balcony in under three minutes."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Forgetting to prepare for seasonal changes can lead to damage to outdoor items. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "day-9-10-rituals-safety-and-maintenance",
+      "title": "Rituals, Safety, And Maintenance",
+      "intro": "Transform your balcony into a sanctuary that invites daily use through simple rituals, safety checks, and a maintenance routine. This chapter focuses on creating a calm space that remains inviting amidst the hustle of city life.",
+      "opener": {
+        "query": "A serene balcony setup with cushions, plants, and soft lighting, showcasing a peaceful urban retreat, one window light, teak textures, photorealistic styling.",
+        "flux_prompt": "Full-bleed shot of a cozy balcony with plants, cushions, and warm lighting, capturing the essence of a calming urban sanctuary.",
+        "alt": "A small apartment balcony set up as a usable retreat.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\005-pexels.jpg",
+        "credit": "Photo by Anastasia Sidorova on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:24736921"
+      },
+      "sections": [
+        {
+          "slug": "establishing-your-habit-loop",
+          "title": "Establishing Your Habit Loop",
+          "day_label": "Day 9",
+          "hero": {
+            "query": "A close-up of a habit loop card with a warm cup of tea on a balcony table, soft evening light, teak textures, photorealistic styling.",
+            "flux_prompt": "A cozy balcony corner with a habit loop card, warm lighting, and a cup of tea, inviting relaxation.",
+            "alt": "A serene balcony scene with a habit loop card and a warm drink, capturing the essence of calm.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\040-pexels.jpg",
+            "credit": "Photo by Arturo Añez. on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:15111350"
+          },
+          "scenario": "Maya lives in a 1BHK in Pune, where her balcony overlooks a busy street. After dinner, she steps out for ten minutes of box breathing, enjoying a warm herbal tea as her reward. She reflects on her calm each evening, adjusting her lantern brightness and brushing lavender before sitting down.",
+          "principle": "Creating a habit loop encourages daily engagement with your balcony.",
+          "body": [
+            "To establish a habit loop, start with a reliable trigger linked to your daily routine. For Maya, her trigger is stepping outside after dinner. Write this trigger on a card and place it near your door to remind you to engage with your balcony regularly.",
+            "Next, define a simple action that can be completed in a short time frame. Maya chooses ten minutes of box breathing, which is manageable and effective. The key is to keep the action brief to ensure consistency, even on busy days.",
+            "Finally, select a small reward that reinforces the habit. Maya enjoys a warm cup of herbal tea after her breathing session. This reward should feel like a gentle seal rather than a grand prize, encouraging you to repeat the action daily."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Write your habit loop card: Trigger, Action, Reward, Reflection.",
+              "minutes": null
+            },
+            {
+              "text": "Place the card near your door handle for easy access.",
+              "minutes": null
+            },
+            {
+              "text": "Practice the habit loop daily to build consistency.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Overcomplicating the habit loop with too many actions or rewards. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [
+            "Choose a reliable trigger for your balcony time.",
+            "Define a simple action to engage with your space.",
+            "Select a small reward to reinforce your practice."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "pre-sit-reset-ritual",
+          "title": "Pre Sit Reset Ritual",
+          "day_label": "Day 9",
+          "hero": {
+            "query": "A balcony scene showing cushions, plants, and a lantern, beautifully arranged for relaxation, soft evening light, photorealistic styling.",
+            "flux_prompt": "A cozy balcony setup with cushions and plants, emphasizing the pre sit reset ritual.",
+            "alt": "A serene balcony corner with cushions and a lantern, inviting relaxation.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\041-pexels.jpg",
+            "credit": "Photo by Boris Hamer on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:27595988"
+          },
+          "scenario": "Luis lives in a Bengaluru rental with a load-bearing wall that limits his balcony space. He has developed a quick pre sit reset routine that includes straightening cushions, brushing plant leaves, releasing curtains, and setting his lantern to a warm glow before he sits down to relax.",
+          "principle": "A quick pre sit reset primes your space and mind for relaxation.",
+          "body": [
+            "The pre sit reset is a simple, sixty-second routine that prepares your balcony for use. For Luis, this includes four key actions: straightening cushions, brushing leaves, releasing curtains, and adjusting the lantern to a warm glow. These small gestures signal to your nervous system that this space is for restoration.",
+            "By practicing this reset, you reduce friction and decision fatigue. When you step outside and know the four moves by heart, you can leave the stress of the day behind and embrace relaxation.",
+            "If your balcony collects dust or pollen, consider adding a quick wipe of the table and a sweep of the rug edge to your reset routine. This keeps your space inviting and fresh."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Practice your pre sit reset twice today.",
+              "minutes": null
+            },
+            {
+              "text": "Straighten cushions, brush leaves, release curtains, and set the lantern glow.",
+              "minutes": null
+            },
+            {
+              "text": "Add one additional task if needed, like a quick wipe or rug edge sweep.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Neglecting to perform the pre sit reset consistently, leading to a cluttered space. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [
+            "Straighten cushions before sitting down.",
+            "Brush plant leaves to keep them healthy.",
+            "Release curtains from ties to create an inviting atmosphere."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "safety-and-neighbor-care",
+          "title": "Safety and Neighbor Care",
+          "day_label": "Day 9",
+          "hero": {
+            "query": "A balcony safety checklist with plants and LED candles, soft evening light, photorealistic styling.",
+            "flux_prompt": "A cozy balcony setup with a safety checklist, emphasizing safety and security.",
+            "alt": "A serene balcony scene with plants and LED candles, showcasing a safe environment.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\042-pexels.jpg",
+            "credit": "Photo by Daniil Kondrashin on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:30420679"
+          },
+          "scenario": "Priya and Arjun live in a Mumbai flat with a window on only one side. They run a safety checklist every evening, ensuring that their balcony is secure for their small child. They check the stability of screens and planters, keep pathways clear, and ensure that their LED candles are safely positioned away from fabrics.",
+          "principle": "Shake tests are screening. Stop-use beats a stubborn sit.",
+          "body": [
+            "Today's output: evening checks plus a posted leave-the-balcony list.",
+            "Gently check screens and planters. Clear the egress path. LED over open flame unless building and local rules allow candles or incense — when uncertain, use LED. Ash, embers in wind, flame plus curtains, combustible mats, and any fuel or flammable liquid storage are out of scope for a zen kit."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "When to leave the balcony",
+              "caption": "Preparation is not enough in these conditions.",
+              "values": [
+                "Lightning or thunderstorm",
+                "Severe wind; objects acting as sails",
+                "Flooding, blocked drains, slippery floor",
+                "Damaged railing, cracks, falling debris",
+                "Electrical gear in water; smoke or fire nearby",
+                "Loose screens or planters; extreme heat"
+              ],
+              "labels": [
+                "Storms",
+                "Wind",
+                "Water underfoot",
+                "Structure",
+                "Electrics and fire",
+                "Loose gear or heat"
+              ],
+              "minimum": null,
+              "spec_id": "D013",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D013.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Run a quick safety checklist every evening.",
+              "minutes": null
+            },
+            {
+              "text": "Shake screens and planters gently to check stability.",
+              "minutes": null
+            },
+            {
+              "text": "Ensure pathways are clear and rug edges are flat.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: a real candle under a curtain 'just for five minutes.' Cause: ritual beat the lease. Fix: LED.",
+          "checklist": [
+            "Confirm screens and planters are stable with gentle shakes.",
+            "Keep pathways clear and rug edges flat.",
+            "Verify string lights and cords are tidy and secure."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "the-4r-maintenance-cycle",
+          "title": "The 4R Maintenance Cycle",
+          "day_label": "Day 10",
+          "hero": {
+            "query": "A balcony maintenance checklist with plants and cushions, soft evening light, photorealistic styling.",
+            "flux_prompt": "A cozy balcony setup with a maintenance checklist, emphasizing upkeep and care.",
+            "alt": "A serene balcony scene with plants and cushions, showcasing a well-maintained environment.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\043-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7534300"
+          },
+          "scenario": "Maya, now accustomed to her balcony routine, sets aside Sunday afternoons for her 4R Maintenance Cycle. She reviews her space, refreshes surfaces, repairs any minor issues, and replaces worn items, ensuring her balcony remains a sanctuary amidst the busy Pune streets.",
+          "principle": "A regular maintenance cycle keeps your space reliable and inviting.",
+          "body": [
+            "The 4R Maintenance Cycle consists of Review, Refresh, Repair, and Replace. Maya schedules this cycle for Sunday afternoons, making it a part of her weekly routine. During the Review step, she stands in the doorway and scans her balcony, noting what feels off and what feels good.",
+            "Next, she moves to the Refresh step, where she wipes surfaces, fluffs cushions, brushes plants, and empties trays or saucers. This keeps her space looking fresh and inviting.",
+            "In the Repair step, Maya addresses small issues like tightening ties, resealing fabric or wood, and fixing loose hooks. Finally, she replaces worn items with simple, budget-friendly swaps, ensuring her balcony remains a comfortable retreat."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Schedule your 4R Cycle for a specific day and time each week.",
+              "minutes": null
+            },
+            {
+              "text": "Review your space for any issues or delights.",
+              "minutes": null
+            },
+            {
+              "text": "Refresh surfaces and address minor repairs as needed.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Neglecting maintenance, leading to a gradual decline in the balcony's inviting atmosphere. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [
+            "List Review, Refresh, Repair, Replace on a single card.",
+            "Choose a weekly day and time for your maintenance cycle.",
+            "Add two monthly checkpoints for noise readings and sit log summaries."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "safety-and-maintenance-checklist",
+      "title": "Toolkit: safety and maintenance (after the 10-day plan)",
+      "intro": "This chapter is a toolkit. It is not another Day 1. Use it after the main 10-day sequence. It cannot soundproof the balcony or certify the railing.",
+      "opener": {
+        "query": "balcony meditation retreat, serene atmosphere, plants, cushions, natural light",
+        "flux_prompt": "full-bleed shot of a well-maintained balcony with plants and cushions, soft natural light filtering through, no people, photorealistic",
+        "alt": "A small apartment balcony set up as a usable retreat.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\009-pexels.jpg",
+        "credit": "Photo by Enric Cruz López on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:9989544"
+      },
+      "sections": [
+        {
+          "slug": "weekly-safety-and-stability-checks",
+          "title": "Weekly Safety and Stability Checks",
+          "day_label": "Toolkit",
+          "hero": {
+            "query": "balcony safety check, rug stability, natural light",
+            "flux_prompt": "photorealistic shot of a balcony with a focus on rug edges and vertical elements, soft light, no people, no text, no watermark",
+            "alt": "close-up of balcony rug edges and vertical elements",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\045-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8142972"
+          },
+          "scenario": "In her 1BHK in Pune, Anjali notices her balcony rug has started to lift at the corners. During her weekly check, she tests the stability of the vertical elements and confirms that the door swings freely. She also checks the rug edges for trip hazards and smooths them out as needed.",
+          "principle": "Regular checks prevent trip hazards and ensure safety.",
+          "body": [
+            "Confirm drains are open. Confirm nothing is using the railing as an unapproved anchor. Confirm climbables are not steps to the guard. Then wobble-check verticals. If it fails, remove it — do not only add weight.",
+            "Test all vertical elements such as screens, curtains, and trellises for any wobble. If you notice any instability, tighten ties or add weight to secure them. Confirm that your egress is clear; the door should swing freely without obstruction from rugs or objects.",
+            "Inspect rug edges and tile interlocks for potential trip hazards. Smooth or reseat any lifted edges to prevent accidents. Verify the stability of your seating and check the condition of cushions, replacing any worn pads to maintain comfort and safety."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Ignoring small wobble that becomes a tipping risk. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [
+            "Test vertical elements for stability.",
+            "Confirm egress is clear.",
+            "Check rug edges for trip hazards.",
+            "Verify seating stability and cushion condition."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "electrical-and-lighting-safety",
+          "title": "Electrical and Lighting Safety",
+          "day_label": "Toolkit",
+          "hero": {
+            "query": "balcony lighting safety, warm ambiance, natural light",
+            "flux_prompt": "photorealistic shot of a balcony with warm lighting, focus on string lights and lanterns, soft light, no people, no text, no watermark",
+            "alt": "close-up of string lights and electrical setup",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\046-pexels.jpg",
+            "credit": "Photo by Rahib Yaqubov on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:14793966"
+          },
+          "scenario": "Rajesh, living in a Bengaluru rental with a load-bearing wall, conducts his weekly electrical safety check. He inspects the string lights and lanterns, ensuring they are securely attached and the wiring is intact. He routes the cords along the edges to avoid tripping hazards.",
+          "principle": "Outdoor-rated, dry connections, no overloaded strips. A cord on the edge can still get wet.",
+          "body": [
+            "Today's output: an electrical no-list posted by the door.",
+            "Use outdoor-rated lights and extension equipment if you use any. Keep plugs and adapters off wet floors. Do not run indoor strips or damaged insulation outside. Do not charge devices outdoors unless the maker allows it; bring rechargeable gear inside to charge when instructions require it. Watch water near equipment, overloaded outlets, and GFCI/RCD protection where it applies. Routing a cord along an edge is not weatherproofing. A qualified person handles anything beyond a simple plug-in you already own."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: a power strip under the mat in the rain. Cause: edge-route as a plan. Fix: unplug; indoors.",
+          "checklist": [
+            "Outdoor-rated or unplug",
+            "No wet adapters",
+            "No indoor strip outside",
+            "Charge indoors if the maker says so"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "fire-and-scent-safety",
+          "title": "Fire and Scent Safety",
+          "day_label": "Toolkit",
+          "hero": {
+            "query": "balcony fire safety, LED candles, calming scents",
+            "flux_prompt": "photorealistic shot of a balcony with LED candles and essential oils, soft light, no people, no text, no watermark",
+            "alt": "close-up of candles and essential oils on a balcony",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\047-pexels.jpg",
+            "credit": "Photo by Yan Krukau on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7233913"
+          },
+          "scenario": "Meera, who lives in a compact Mumbai flat with a window on only one side, checks her balcony for fire safety. She prefers LED candles for ambiance and ensures that any real candles are placed in heavy holders away from fabrics. She also checks her essential oils to ensure they are at a low concentration.",
+          "principle": "Building rules first. When uncertain, LED.",
+          "body": [
+            "Before candles, incense, or any open flame, check building, landlord, and local fire rules. Many apartments forbid open flame on balconies. When uncertain, use LED. Do not store fuel. Watch incense ash and embers in wind, flame next to curtains, and combustible mats.",
+            "When using candles, prefer LED options for safety. If you choose to use real candles, ensure they are placed in heavy, stable holders and positioned away from any fabrics or flammable materials. This minimizes the risk of fire hazards.",
+            "Use gentle essential oils at low concentrations to create a calming atmosphere. Avoid strong incense that may drift into neighboring spaces and cause complaints. Store lighters and matches safely, and never leave flames unattended."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: incense on a windy edge. Cause: scent ritual. Fix: skip flame; sit without it.",
+          "checklist": [
+            "Prefer LED candles for safety.",
+            "Ensure real candles are in stable holders.",
+            "Use essential oils at low concentrations.",
+            "Store lighters and matches safely."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "weather-preparation-and-quick-deploy",
+          "title": "Weather prep — and when to leave",
+          "day_label": "Toolkit",
+          "hero": {
+            "query": "balcony weather preparation, storm readiness, natural light",
+            "flux_prompt": "photorealistic shot of a balcony prepared for a storm, cushions stored, soft light, no people, no text, no watermark",
+            "alt": "close-up of storage bin and secured curtains",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\048-pexels.jpg",
+            "credit": "Photo by Renan Almeida on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:13658673"
+          },
+          "scenario": "Suresh, who has a small balcony in his 1BHK in Pune, prepares for an incoming storm. He stages a storage bin to quickly protect cushions and throws, ties back the curtains, and powers off the fountain to prevent water damage.",
+          "principle": "Preparation for weather changes protects your space.",
+          "body": [
+            "Today's output: a bring-in bin plus the leave-the-balcony list.",
+            "Leave for lightning, severe wind, flooding, a slippery floor, a damaged railing, loose screens or planters, electrics in water, smoke or fire, cracks or falling debris, and extreme heat. Preparing cushions is not a reason to stay. Turn fountains off and empty them. Take sails inside.",
+            "Before storms, stage a storage bin or bench to quickly store cushions and throws. Secure curtains with tiebacks to prevent them from flapping in the wind, and turn off any fountains to avoid water damage.",
+            "After storms, air out textiles, wipe down surfaces, and check for water pooling under planters. This routine helps prevent stains and mildew, ensuring your balcony remains a serene retreat."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "When to leave the balcony",
+              "caption": "Preparation is not enough in these conditions.",
+              "values": [
+                "Lightning or thunderstorm",
+                "Severe wind; objects acting as sails",
+                "Flooding, blocked drains, slippery floor",
+                "Damaged railing, cracks, falling debris",
+                "Electrical gear in water; smoke or fire nearby",
+                "Loose screens or planters; extreme heat"
+              ],
+              "labels": [
+                "Storms",
+                "Wind",
+                "Water underfoot",
+                "Structure",
+                "Electrics and fire",
+                "Loose gear or heat"
+              ],
+              "minimum": null,
+              "spec_id": "D022",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D022.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: you tied the curtain and sat through thunder. Cause: weather prep as permission. Fix: go inside.",
+          "checklist": [
+            "Stage a storage bin for quick protection.",
+            "Secure curtains with tiebacks.",
+            "Turn off fountains before storms.",
+            "Air textiles and wipe surfaces after storms."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "monthly-review-and-4r-cycle",
+          "title": "Monthly Review and 4R Cycle",
+          "day_label": "Toolkit",
+          "hero": {
+            "query": "balcony monthly review, serene atmosphere, natural light",
+            "flux_prompt": "photorealistic shot of a balcony during a monthly review, fresh plants and cushions, soft light, no people, no text, no watermark",
+            "alt": "close-up of plants and cushions during a review",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\024-pexels.jpg",
+            "credit": "Photo by Ali Durmuş on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:35522218"
+          },
+          "scenario": "Nisha conducts her monthly review in her Bengaluru apartment. She notes glare and noise issues, refreshes the plants, and replaces a worn-out cushion to enhance her balcony experience.",
+          "principle": "Regular reviews maintain a harmonious space.",
+          "body": [
+            "Score the balcony 1–5: noise comfort, privacy, daylight, seating, visual calm, scent, greenery, wind resilience, weather readiness, ease of maintenance. Write baseline, Day 10, and what you will change next. That is the ending of the 10-day system — not another numbered day.",
+            "At the beginning of each month, conduct a 4R cycle: Review, Refresh, Repair, and Replace. Start by noting any glare, noise, clutter, and wins from the previous month. This helps you identify areas that need attention.",
+            "Refresh your space by wiping surfaces, fluffing cushions, brushing plants, and emptying trays. Reset your layout to enhance the flow and functionality of your balcony.",
+            "Repair any issues such as tightening hooks, resealing fabrics or wood, and replacing worn ties. Finally, replace tired textiles or failing lights with budget-friendly upgrades to keep your space inviting."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "10-day balcony scorecard",
+              "caption": "Rate 1 to 5. Baseline, Day 10, then what you will change.",
+              "values": [
+                "Noise comfort",
+                "Privacy",
+                "Daylight comfort",
+                "Seating comfort",
+                "Visual calm",
+                "Scent and greenery",
+                "Wind and weather readiness",
+                "Ease of maintenance"
+              ],
+              "labels": [
+                "Noise",
+                "Privacy",
+                "Daylight",
+                "Seat",
+                "Calm",
+                "Plants",
+                "Weather",
+                "Upkeep"
+              ],
+              "minimum": null,
+              "spec_id": "D016",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\figures\\D016.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Ignoring small issues that can escalate over time. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [
+            "Review glare, noise, and clutter.",
+            "Refresh surfaces and plants.",
+            "Repair any loose items or damages.",
+            "Replace worn textiles or lights."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "10-day-micro-task-planner-and-tracker",
+      "title": "Toolkit: micro-task planner (after Day 10)",
+      "intro": "A tracker for the same 10 days you already met. It does not restart the program at a new Day 1.",
+      "opener": {
+        "query": "A serene balcony space with potted plants, soft lighting, and an inviting outdoor rug, showcasing a calming retreat atmosphere.",
+        "flux_prompt": "Full-bleed shot of a tranquil balcony, featuring lush greenery, a comfortable seating area, and warm evening light.",
+        "alt": "A small apartment balcony set up as a usable retreat.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\026-pexels.jpg",
+        "credit": "Photo by Zeynep Sude  Emek on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:20484052"
+      },
+      "sections": [
+        {
+          "slug": "purpose-and-benefits",
+          "title": "Purpose and Benefits",
+          "day_label": "Toolkit",
+          "hero": {
+            "query": "A cozy balcony corner with a small table, a potted plant, and a soft throw, illuminated by warm evening light.",
+            "flux_prompt": "A close-up shot of a balcony corner, featuring a small table with a calming setup, potted plants, and soft textures.",
+            "alt": "A peaceful balcony scene with a focus on greenery and soft furnishings.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\046-pexels.jpg",
+            "credit": "Photo by Rahib Yaqubov on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:14793966"
+          },
+          "scenario": "Riya lives in a 1BHK in Pune with a small balcony. She often feels overwhelmed by the noise from the street below. This planner helps her create a peaceful retreat amidst the chaos.",
+          "principle": "Breaking tasks into micro-actions fosters clarity and momentum.",
+          "body": [
+            "This planner provides clarity and momentum by breaking the journey into manageable actions. Even on busy days, you can complete tiny tasks that contribute to your overall goal of transforming your balcony.",
+            "By using this structured approach, you will see progress through check marks and notes, which increases motivation. The template encourages you to focus on the senses that shape calm: sound, light, scent, touch, and greenery.",
+            "The planner is designed to be renter-friendly, allowing for swaps and portable upgrades. Pairing tasks with brief meditation sits helps you build a calming habit while enhancing your space."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Skipping observations can lead to missed learning opportunities for future tasks. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "how-to-use-the-planner",
+          "title": "How to Use the Planner",
+          "day_label": "Toolkit",
+          "hero": {
+            "query": "A balcony workspace with a planner open, tools laid out, and a calming atmosphere created by soft lighting and greenery.",
+            "flux_prompt": "A flat lay of an open planner on a balcony table, surrounded by tools and materials for balcony transformation.",
+            "alt": "An organized balcony workspace with a focus on planning and preparation.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\052-pexels.jpg",
+            "credit": "Photo by Teona Swift on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6912829"
+          },
+          "scenario": "Vikram, a tenant in a Bengaluru apartment, uses the planner to tackle his balcony's lack of privacy. He sets aside 30 minutes each evening to work on his tasks.",
+          "principle": "Setting realistic intentions and tracking progress keeps you focused and motivated.",
+          "body": [
+            "To begin, print ten daily pages or duplicate the template digitally. Each morning or evening, choose one intention and set a realistic time window of 20 to 30 minutes for your tasks.",
+            "List two to four micro tasks that align with your intention. Gather the necessary materials, complete the tasks, and then record your observations and one adjustment for the next day. Celebrate a small win to keep your motivation high.",
+            "Midweek, complete the weekly overview to identify barriers and brainstorm solutions. Track your spending and sourcing in the materials tracker, and log your ritual sits daily to build a calming habit."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Overloading tasks can lead to frustration; focus on two actions for better results. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "daily-page-template",
+          "title": "Daily Page Template",
+          "day_label": "Toolkit",
+          "hero": {
+            "query": "A detailed view of a daily page filled out with tasks, observations, and notes, set against a backdrop of a balcony in soft evening light.",
+            "flux_prompt": "A close-up of a filled-out daily page template, showcasing tasks and observations with a calming balcony scene in the background.",
+            "alt": "An organized daily planner page with notes and tasks, surrounded by greenery.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\053-pexels.jpg",
+            "credit": "Photo by Walls.io on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:15595295"
+          },
+          "scenario": "Anjali, who lives in a Mumbai flat with a window on only one side, uses the daily page template to enhance her balcony's light and scent.",
+          "principle": "Utilizing a structured template helps track progress and maintain focus on sensory improvements.",
+          "body": [
+            "Each daily page includes sections for your intention, micro tasks, materials, time window, observations, adjustments, and wins. For example, on Day 1, if your intention is noise, you might list tasks like placing an outdoor rug and testing a decibel app.",
+            "Record your observations about what changed in your space, such as how sound felt softer underfoot. Make one adjustment for the next day based on your findings, like adding a fabric panel for additional sound dampening.",
+            "At the end of the week, complete the weekly overview to assess your progress and identify any barriers you faced. This structured approach ensures you stay focused on improving your balcony experience."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Ignoring weather conditions can hinder your progress; always plan for shade and wind adjustments. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "tips-for-success",
+          "title": "Tips for Success",
+          "day_label": "Toolkit",
+          "hero": {
+            "query": "A cozy balcony setup with a planner, a cup of tea, and soft lighting, creating an inviting atmosphere for reflection.",
+            "flux_prompt": "A serene balcony scene featuring a planner, a cup of tea, and warm lighting, inviting relaxation and reflection.",
+            "alt": "A calming balcony space with a focus on relaxation and planning.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\054-pexels.jpg",
+            "credit": "Photo by Alina Vilchenko on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:3363111"
+          },
+          "scenario": "Suresh, living in a compact apartment in Chennai, keeps his planner near the door for quick updates and reminders.",
+          "principle": "Small, consistent actions lead to significant improvements over time.",
+          "body": [
+            "Keep your planner near your door for quick updates and easy access. This way, you can jot down observations or tasks as they come to mind, ensuring you stay on track with your goals.",
+            "Set phone reminders tied to your chosen triggers, such as sunset or post-dinner, to help you remember to take your ritual sits. This consistency builds a calming habit over time.",
+            "Favor small steps; consistent micro wins are more effective than attempting large projects all at once. Measure sound with a free phone app to establish a baseline for your improvements."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Waiting for perfect conditions can stall progress; start with small actions today. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "common-mistakes",
+          "title": "Common Mistakes",
+          "day_label": "Toolkit",
+          "hero": {
+            "query": "A balcony with various materials laid out, illustrating the common mistakes of planning and execution in a home project.",
+            "flux_prompt": "A detailed shot of a balcony workspace with materials and tools, highlighting the importance of planning and measuring.",
+            "alt": "An organized balcony space with a focus on materials and planning.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\055-pexels.jpg",
+            "credit": "Photo by Ivan S on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4458193"
+          },
+          "scenario": "Meera, a resident of a 1BHK in Noida, reflects on her balcony project and realizes she made several common mistakes along the way.",
+          "principle": "Awareness of common pitfalls can enhance your planning and execution.",
+          "body": [
+            "One common mistake is skipping observations, which can lead to lost learning opportunities for future tasks. Always take a moment to reflect on what changes occurred after each task.",
+            "Another mistake is buying materials before measuring, which can lead to fit issues and wasted time. Always measure your space before purchasing items to ensure they will work.",
+            "Overloading tasks can also be counterproductive; focus on two to four actions per session to maintain clarity and effectiveness in your efforts."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Skipping observations can lead to missed learning opportunities for future tasks. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "curated-shopping-lists-and-budget-swaps",
+      "title": "Toolkit: shopping lists (after Day 10)",
+      "intro": "Planning, sourcing, and final setup — not a second calendar.",
+      "opener": {
+        "query": "compact Indian balcony with plants, warm lighting, serene atmosphere, no people, no text, no watermark",
+        "flux_prompt": "full-bleed shot of a serene balcony retreat with plants and soft lighting",
+        "alt": "A small apartment balcony set up as a usable retreat.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\024-pexels.jpg",
+        "credit": "Photo by Ali Durmuş on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:35522218"
+      },
+      "sections": [
+        {
+          "slug": "planning-your-balcony-retreat",
+          "title": "Planning",
+          "day_label": "Planning",
+          "hero": {
+            "query": "compact balcony with bamboo screen, warm lighting, serene atmosphere, no people, no text, no watermark",
+            "flux_prompt": "full-bleed shot of a balcony with bamboo screen and warm lighting",
+            "alt": "serene balcony with plants and soft textures",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\057-pexels.jpg",
+            "credit": "Photo by Beyzaa Yurtkuran on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:13362500"
+          },
+          "scenario": "Ravi lives in a 1BHK in Pune with a 10-foot balcony. He measures the space, noting the weight limits and sun direction, which is predominantly afternoon sun. He also checks the rail type to ensure it can support his planned installations.",
+          "principle": "Accurate measurements are essential for a successful balcony setup.",
+          "body": [
+            "Measure. Write how you know the load, or that you will keep things light and spread. Identify railing type without assuming it can hold a tension rod. Pick budget bands after the audit.",
+            "Begin by measuring your balcony's length and width, noting the weight limits and sun direction. For Ravi, this means understanding how the afternoon sun will affect the space and what materials will withstand it.",
+            "Next, identify the type of railing you have. This will dictate the kind of hardware you can use for installations. In Ravi's case, he has a metal railing that must not be treated as a tension-rod post unless the railing, the rod maker, and the building allow it.",
+            "Once you have these details, you can select a tier for each category: noise and privacy, lighting, seating and textiles, scent and greenery, and renter safe hardware. Choose from budget, mid-range, or premium options."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Measure your balcony and note weight limits, sun direction, and rail type.",
+              "minutes": null
+            },
+            {
+              "text": "Pick one tier per category: budget, mid-range, or premium.",
+              "minutes": null
+            },
+            {
+              "text": "Order compact items that arrive within 5 to 7 days.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Failing to measure accurately can lead to unsuitable purchases. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [
+            "Noise and Privacy tier selected, budget, mid-range, or premium",
+            "Lighting tier selected",
+            "Seating and Textiles tier selected",
+            "Scent and Greenery tier selected",
+            "Renter safe hardware tier selected",
+            "One aesthetic accent chosen after fundamentals",
+            "Outdoor ratings checked, UV resistance verified",
+            "Measurements confirmed, compact sizes prioritized",
+            "Finishes aligned, natural, matte, or soft tones"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "selecting-your-materials",
+          "title": "Sourcing",
+          "day_label": "Sourcing",
+          "hero": {
+            "query": "Bengaluru balcony with bamboo screen, warm lanterns, serene atmosphere, no people, no text, no watermark",
+            "flux_prompt": "full-bleed shot of a Bengaluru balcony with bamboo screen and lanterns",
+            "alt": "Bengaluru balcony with plants and warm lighting",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\058-pexels.jpg",
+            "credit": "Photo by rao qingwei on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:16783095"
+          },
+          "scenario": "Ananya, living in a Bengaluru rental with a load-bearing wall, chooses materials that are lightweight yet effective for sound and privacy control. She opts for a bamboo roll screen and sheer curtains to maintain her view while reducing noise.",
+          "principle": "Choosing the right materials can enhance privacy and comfort without compromising aesthetics.",
+          "body": [
+            "Privacy materials are wind materials. Lightweight floor load still needs a stable base. Environment-rated electrics only.",
+            "For noise and privacy, Ananya selects a bamboo roll screen on a freestanding base as her primary barrier. This option is lightweight and easy to install without damaging the walls, which is crucial given her rental constraints.",
+            "She complements this with tension rods and quality sheer curtains. The sheer curtains allow light to filter through while providing a level of privacy from the street below. Ananya’s choice reflects a smart swap, as she prioritizes functionality without overspending.",
+            "In terms of lighting, she chooses rechargeable outdoor lanterns that provide a warm glow without the need for hardwiring. This is particularly beneficial for her rental, where alterations are limited."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Select noise and privacy materials based on your balcony's constraints.",
+              "minutes": null
+            },
+            {
+              "text": "Consider lightweight options that are renter-friendly.",
+              "minutes": null
+            },
+            {
+              "text": "Choose lighting that enhances ambiance without permanent installation.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Opting for heavy materials that are difficult to install in a rental. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [
+            "Selected materials for noise and privacy",
+            "Lighting tier selected",
+            "Compact sizes prioritized",
+            "Outdoor ratings checked"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "finalizing-your-setup",
+          "title": "Final setup",
+          "day_label": "Final setup",
+          "hero": {
+            "query": "Mumbai balcony with self-watering planters, compact fountain, serene atmosphere, no people, no text, no watermark",
+            "flux_prompt": "full-bleed shot of a Mumbai balcony with plants and fountain",
+            "alt": "Mumbai balcony with serene plants and textures",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Balcony Zen in 10 Days\\photos\\036-pexels.jpg",
+            "credit": "Photo by Janhavi Amin on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:14790100"
+          },
+          "scenario": "Meera, who resides in a Mumbai flat with a window on only one side, completes her balcony setup by adding greenery and scent. She chooses self-watering planters for her herbs, ensuring they thrive in the limited sunlight.",
+          "principle": "Incorporating greenery enhances the retreat feel and contributes to a calming atmosphere.",
+          "body": [
+            "Meera selects self-watering planters for her balcony herbs, which include lavender and rosemary. These plants not only add a pleasant aroma but also require minimal maintenance, making them ideal for her busy lifestyle.",
+            "To enhance the aesthetic, she incorporates a compact fountain that provides soothing water sounds, further insulating her from the city noise. This choice aligns with her goal of creating a serene retreat.",
+            "Finally, she places her plants strategically near the seating area to maximize the sensory experience. The combination of scent, sound, and visual appeal creates a cohesive and calming environment."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Add greenery that suits your balcony's light conditions.",
+              "minutes": null
+            },
+            {
+              "text": "Choose self-watering options for ease of maintenance.",
+              "minutes": null
+            },
+            {
+              "text": "Position plants to enhance both scent and visual appeal.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Neglecting to consider sunlight exposure for plant selection. Cause: the balcony was treated like an indoor room. Fix: load, railing, wind, drains — then sit.",
+          "checklist": [
+            "Selected plants and planters",
+            "Compact fountain chosen",
+            "Plants positioned for optimal scent and aesthetics"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    }
+  ]
+}

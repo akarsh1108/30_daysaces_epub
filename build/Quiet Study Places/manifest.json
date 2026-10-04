@@ -1,0 +1,432 @@
+{
+  "title": "Quiet Study Places",
+  "units": "imperial",
+  "outputs": {
+    "pdf": "build\\Quiet Study Places\\quiet-study-places.pdf",
+    "cover": "build\\Quiet Study Places\\cover.pdf",
+    "epub": "build\\Quiet Study Places\\quiet-study-places.epub",
+    "epub_preview": "build\\Quiet Study Places\\epub-preview.html"
+  },
+  "ai_generated_images": 1,
+  "kdp_ai_disclosure_required": true,
+  "images": [
+    {
+      "query": "quiet study desk with fabric panel and lamp, no people, no text",
+      "source": "openai",
+      "credit": "Cover illustration generated for this edition.",
+      "ai": true,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\cover.jpg"
+    },
+    {
+      "query": "quiet study space, natural light, warm textures, elegant decor, minimal clutter",
+      "source": "pexels",
+      "credit": "Photo by 开 心 on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\001-pexels.jpg"
+    },
+    {
+      "query": "quiet study corner, elegant decor, warm lighting, minimal clutter",
+      "source": "pexels",
+      "credit": "Photo by Berna on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\002-pexels.jpg"
+    },
+    {
+      "query": "workspace goals, measuring tools, quiet study area",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\003-pexels.jpg"
+    },
+    {
+      "query": "acoustic panel installation, elegant decor, clean lines",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\004-pexels.jpg"
+    },
+    {
+      "query": "acoustic study space, compact Indian apartment, soft lighting, wood textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\005-pexels.jpg"
+    },
+    {
+      "query": "acoustic study space, compact Indian apartment, soft lighting, wood textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by ready made on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\008-pexels.jpg"
+    },
+    {
+      "query": "interior design, compact Indian apartment, study corner with natural light, warm wood textures, soft textiles, no people",
+      "source": "pexels",
+      "credit": "Photo by 女子 正真 on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\009-pexels.jpg"
+    },
+    {
+      "query": "interior design, compact Indian apartment, study corner with natural light, warm wood textures, soft textiles, no people",
+      "source": "pexels",
+      "credit": "Photo by Charlotte May on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\012-pexels.jpg"
+    },
+    {
+      "query": "small indian apartment interior minimalist daylight editorial",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\014-pexels.jpg"
+    },
+    {
+      "query": "interior of a stylish Indian apartment with acoustic panels installed, soft natural light from a single window, warm wood and fabric textures, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Mathias Reding on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\016-pexels.jpg"
+    },
+    {
+      "query": "close-up of a wall with different paint finishes and textures, soft natural light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Turgay Koca on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\017-pexels.jpg"
+    },
+    {
+      "query": "interior of a Bengaluru apartment with a load-bearing wall, showcasing a compression system for acoustic panels, soft natural light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\018-pexels.jpg"
+    },
+    {
+      "query": "stylish Mumbai apartment with acoustic panels securely mounted, showcasing load distribution techniques, soft natural light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\019-pexels.jpg"
+    },
+    {
+      "query": "interior of a stylish study with fabric-wrapped acoustic panels and wood slat decor, natural light, warm tones, no people",
+      "source": "pexels",
+      "credit": "Photo by Walter Cunha on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\020-pexels.jpg"
+    },
+    {
+      "query": "close-up of fabric-wrapped acoustic panel with clean edges and hidden fasteners, natural light, textured fabric",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\021-pexels.jpg"
+    },
+    {
+      "query": "interior view of a well-lit workspace with a partially assembled fabric-wrapped panel frame, natural light, wood textures",
+      "source": "pexels",
+      "credit": "Photo by Thirdman on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\022-pexels.jpg"
+    },
+    {
+      "query": "workspace set up for cutting acoustic materials, safety gear visible, natural light",
+      "source": "pexels",
+      "credit": "Photo by Infinity lifespaces on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\024-pexels.jpg"
+    },
+    {
+      "query": "acoustic measurement tools, smartphone apps, home study, quiet environment, natural light, wooden desk, sound panels, minimalist decor",
+      "source": "pexels",
+      "credit": "Photo by Mateusz Dach on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\025-pexels.jpg"
+    },
+    {
+      "query": "acoustic measurement setup, smartphone, study desk, pink noise, sound level meter, natural light",
+      "source": "pexels",
+      "credit": "Photo by ThisIsEngineering on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\026-pexels.jpg"
+    },
+    {
+      "query": "clap test setup, smartphone recording, study environment, sound reflections, acoustic treatment",
+      "source": "pexels",
+      "credit": "Photo by ThisIsEngineering on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\027-pexels.jpg"
+    },
+    {
+      "query": "acoustic paneling, modern study, warm tones, no people",
+      "source": "pexels",
+      "credit": "Photo by Masood Aslami on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\030-pexels.jpg"
+    },
+    {
+      "query": "textured fabrics, modern office, warm lighting, no people",
+      "source": "pexels",
+      "credit": "Photo by Alexandra Irimia on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\031-pexels.jpg"
+    },
+    {
+      "query": "small indian apartment interior minimalist daylight editorial",
+      "source": "pexels",
+      "credit": "Photo by Anisha Deb on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\034-pexels.jpg"
+    },
+    {
+      "query": "acoustic panels installation, modern Indian apartment, soft natural light, minimalist decor",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\037-pexels.jpg"
+    },
+    {
+      "query": "acoustic panel installation options, clean modern design, natural light, minimalist decor",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\photos\\038-pexels.jpg"
+    }
+  ],
+  "figures": [
+    {
+      "spec_id": "D001",
+      "kind": "table",
+      "title": "What panels can and cannot do",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D001.svg"
+    },
+    {
+      "spec_id": "D038",
+      "kind": "plan",
+      "title": "Body first, panels around the desk",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D038.svg"
+    },
+    {
+      "spec_id": "D025",
+      "kind": "table",
+      "title": "First action by noise source",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D025.svg"
+    },
+    {
+      "spec_id": "D029",
+      "kind": "table",
+      "title": "What panels can do for that source",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D029.svg"
+    },
+    {
+      "spec_id": "D030",
+      "kind": "table",
+      "title": "Noise source diagnosis, page one",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D030.svg"
+    },
+    {
+      "spec_id": "D031",
+      "kind": "table",
+      "title": "Noise source diagnosis, page two",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D031.svg"
+    },
+    {
+      "spec_id": "D032",
+      "kind": "table",
+      "title": "What this book will not teach you to build",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D032.svg"
+    },
+    {
+      "spec_id": "D002",
+      "kind": "table",
+      "title": "Treat, then test, then maybe add",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D002.svg"
+    },
+    {
+      "spec_id": "D026",
+      "kind": "table",
+      "title": "Cores compared, none universally best",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D026.svg"
+    },
+    {
+      "spec_id": "D035",
+      "kind": "table",
+      "title": "Before cutting mineral wool or fiberglass",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D035.svg"
+    },
+    {
+      "spec_id": "D034",
+      "kind": "table",
+      "title": "Before ordering a panel core",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D034.svg"
+    },
+    {
+      "spec_id": "D040",
+      "kind": "table",
+      "title": "Maintenance checks, not a rigid clean cycle",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D040.svg"
+    },
+    {
+      "spec_id": "D022",
+      "kind": "table",
+      "title": "Placement order",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D022.svg"
+    },
+    {
+      "spec_id": "D003",
+      "kind": "table",
+      "title": "Do not treat coverage as a spec",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D003.svg"
+    },
+    {
+      "spec_id": "D005",
+      "kind": "plan",
+      "title": "Desk-centered, not wall-centered",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D005.svg"
+    },
+    {
+      "spec_id": "D006",
+      "kind": "table",
+      "title": "Living-room desk",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D006.svg"
+    },
+    {
+      "spec_id": "D007",
+      "kind": "table",
+      "title": "Bed-side desk",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D007.svg"
+    },
+    {
+      "spec_id": "D008",
+      "kind": "elevation",
+      "title": "First reflections from the chair",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D008.svg"
+    },
+    {
+      "spec_id": "D009",
+      "kind": "elevation",
+      "title": "Keep lights and panels from fighting",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D009.svg"
+    },
+    {
+      "spec_id": "D010",
+      "kind": "table",
+      "title": "Dining-table study",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D010.svg"
+    },
+    {
+      "spec_id": "D012",
+      "kind": "table",
+      "title": "Mounting methods and their real risks",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D012.svg"
+    },
+    {
+      "spec_id": "D036",
+      "kind": "table",
+      "title": "Mounting-load worksheet",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D036.svg"
+    },
+    {
+      "spec_id": "D037",
+      "kind": "table",
+      "title": "Overhead and second-retention checks",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D037.svg"
+    },
+    {
+      "spec_id": "D023",
+      "kind": "table",
+      "title": "Stop before you hang",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D023.svg"
+    },
+    {
+      "spec_id": "D033",
+      "kind": "table",
+      "title": "Ceiling-cloud do-not-proceed",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D033.svg"
+    },
+    {
+      "spec_id": "D016",
+      "kind": "table",
+      "title": "Name every dimension",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D016.svg"
+    },
+    {
+      "spec_id": "D013",
+      "kind": "table",
+      "title": "Fabric extra is not acoustic data",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D013.svg"
+    },
+    {
+      "spec_id": "D014",
+      "kind": "table",
+      "title": "Joints change the cut",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D014.svg"
+    },
+    {
+      "spec_id": "D015",
+      "kind": "table",
+      "title": "Slat rhythm is visual, not a spec",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D015.svg"
+    },
+    {
+      "spec_id": "D024",
+      "kind": "table",
+      "title": "Slat panel decision",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D024.svg"
+    },
+    {
+      "spec_id": "D027",
+      "kind": "table",
+      "title": "Before and after study scorecard",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D027.svg"
+    },
+    {
+      "spec_id": "D028",
+      "kind": "table",
+      "title": "Budget formulas",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D028.svg"
+    },
+    {
+      "spec_id": "D041",
+      "kind": "table",
+      "title": "Record for every budget line",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D041.svg"
+    },
+    {
+      "spec_id": "D039",
+      "kind": "table",
+      "title": "Lighting checks beyond glare",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D039.svg"
+    },
+    {
+      "spec_id": "D017",
+      "kind": "table",
+      "title": "Selection fields that must exist",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D017.svg"
+    },
+    {
+      "spec_id": "D018",
+      "kind": "table",
+      "title": "Docs before SKU",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D018.svg"
+    },
+    {
+      "spec_id": "D019",
+      "kind": "table",
+      "title": "Example A is an example",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D019.svg"
+    },
+    {
+      "spec_id": "D020",
+      "kind": "table",
+      "title": "Thicker is not automatically better bass",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D020.svg"
+    },
+    {
+      "spec_id": "D021",
+      "kind": "table",
+      "title": "Large panel hold",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Quiet Study Places\\figures\\D021.svg"
+    }
+  ]
+}

@@ -1,0 +1,490 @@
+{
+  "title": "Family Terrace Blueprint",
+  "units": "imperial",
+  "outputs": {
+    "pdf": "build\\Family Terrace Blueprint\\family-terrace-blueprint.pdf",
+    "cover": "build\\Family Terrace Blueprint\\cover.pdf",
+    "epub": "build\\Family Terrace Blueprint\\family-terrace-blueprint.epub",
+    "epub_preview": "build\\Family Terrace Blueprint\\epub-preview.html"
+  },
+  "ai_generated_images": 0,
+  "kdp_ai_disclosure_required": false,
+  "images": [
+    {
+      "query": "A spacious terrace with a safe guard system, inviting seating areas, and lush greenery, bathed in soft afternoon light.",
+      "source": "pexels",
+      "credit": "Photo by Matheus Bertelli on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\000-pexels.jpg"
+    },
+    {
+      "query": "A cozy terrace with a bistro set and soft cushions, surrounded by greenery, illuminated by warm evening light.",
+      "source": "pexels",
+      "credit": "Photo by yun zhu on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\002-pexels.jpg"
+    },
+    {
+      "query": "compact rental terrace with a guard and simple furniture, soft natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by Edoardo Colombo on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\003-pexels.jpg"
+    },
+    {
+      "query": "A serene terrace with a dining area and gardening space, bathed in warm evening light, showcasing a harmonious design.",
+      "source": "pexels",
+      "credit": "Photo by Ahmet ÇÖTÜR on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\004-pexels.jpg"
+    },
+    {
+      "query": "small indian apartment interior minimalist daylight editorial",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\005-pexels.jpg"
+    },
+    {
+      "query": "Pune terrace design, safety compliance, guard height, natural light, textured surfaces",
+      "source": "pexels",
+      "credit": "Photo by Alfredo Marco Pradil on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\007-pexels.jpg"
+    },
+    {
+      "query": "full-bleed shot of a serene terrace with kid-friendly furnishings and materials, natural light, soft textures",
+      "source": "pexels",
+      "credit": "Photo by Dmitry Zvolskiy on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\008-pexels.jpg"
+    },
+    {
+      "query": "a detailed view of a kid-safe material matrix spreadsheet, with highlighted ratings and notes, natural light",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\009-pexels.jpg"
+    },
+    {
+      "query": "a close-up of various flooring samples on a terrace, showcasing textures and colors, natural light",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\010-pexels.jpg"
+    },
+    {
+      "query": "a display of various metal finishes and coatings under natural light, emphasizing smooth textures",
+      "source": "pexels",
+      "credit": "Photo by Karina Badura on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\011-pexels.jpg"
+    },
+    {
+      "query": "a beautifully arranged terrace with kid-friendly furniture, textiles, and planters, natural light",
+      "source": "pexels",
+      "credit": "Photo by myHQ-Workspaces on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\012-pexels.jpg"
+    },
+    {
+      "query": "small indian dining minimalist daylight editorial",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\013-pexels.jpg"
+    },
+    {
+      "query": "A serene terrace layout with integrated furniture and greenery, showcasing a small family-friendly space with a focus on safety and visual calm.",
+      "source": "pexels",
+      "credit": "Photo by AJ  Ahamad on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\015-pexels.jpg"
+    },
+    {
+      "query": "A compact balcony layout featuring a slim storage bench, round bistro table, and play rug, all under soft evening light.",
+      "source": "pexels",
+      "credit": "Photo by Jan van der Wolf on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\016-pexels.jpg"
+    },
+    {
+      "query": "A medium terrace layout featuring a dining area, lounging cluster, and play corner, all harmoniously integrated.",
+      "source": "pexels",
+      "credit": "Photo by Denys Gromov on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\017-pexels.jpg"
+    },
+    {
+      "query": "A spacious rooftop layout with distinct zones for dining, lounging, and play, all designed for family interaction and safety.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\018-pexels.jpg"
+    },
+    {
+      "query": "terrace organization, clutter-free storage, family-friendly design, Indian apartment terrace, natural light, neutral colors, outdoor living",
+      "source": "pexels",
+      "credit": "Photo by Berna on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\019-pexels.jpg"
+    },
+    {
+      "query": "integrated storage solutions, built-in benches, vertical cabinets, Pune terrace design",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\020-pexels.jpg"
+    },
+    {
+      "query": "organized micro zones, labeled bins, Bengaluru terrace design",
+      "source": "pexels",
+      "credit": "Photo by Aditya Oberai on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\021-pexels.jpg"
+    },
+    {
+      "query": "safe and visually calm storage, Mumbai terrace design, neutral finishes",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\022-pexels.jpg"
+    },
+    {
+      "query": "A well-designed terrace with layered safety features, inviting decor, and functional storage, bathed in soft evening light.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\023-pexels.jpg"
+    },
+    {
+      "query": "A terrace in Bengaluru showcasing the three phases of implementation with clear safety and storage features.",
+      "source": "pexels",
+      "credit": "Photo by Jayanth Muppaneni on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\025-pexels.jpg"
+    },
+    {
+      "query": "A budget-friendly terrace renovation plan with clear cost tiers and safety features.",
+      "source": "pexels",
+      "credit": "Photo by Thirdman on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\026-pexels.jpg"
+    },
+    {
+      "query": "A well-organized procurement plan for terrace materials with vendor quotes and specifications.",
+      "source": "pexels",
+      "credit": "Photo by Ivan S on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\027-pexels.jpg"
+    },
+    {
+      "query": "terrace safety compliance, outdoor space, design standards, natural light, textured surfaces",
+      "source": "pexels",
+      "credit": "Photo by Enric Cruz López on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\028-pexels.jpg"
+    },
+    {
+      "query": "compact rental terrace with notes and a measuring tape, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by N Sopyan on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\030-pexels.jpg"
+    },
+    {
+      "query": "Mumbai terrace safety standards, guard height, child safety, natural light, textured surfaces",
+      "source": "pexels",
+      "credit": "Photo by Leo Sacchi on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\031-pexels.jpg"
+    },
+    {
+      "query": "Pune compliance folder, terrace design documentation, safety standards, natural light, textured surfaces",
+      "source": "pexels",
+      "credit": "Photo by Beyzaa Yurtkuran on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\032-pexels.jpg"
+    },
+    {
+      "query": "terrace maintenance, seasonal refresh, urban apartment, Pune, sunlight filtering through trees, clean surfaces, organized space",
+      "source": "pexels",
+      "credit": "Photo by Anisha Deb on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\033-pexels.jpg"
+    },
+    {
+      "query": "urban terrace maintenance, Pune, organized space, clean surfaces, vibrant plants",
+      "source": "pexels",
+      "credit": "Photo by Manolya İzgi Gezgin on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\034-pexels.jpg"
+    },
+    {
+      "query": "Bengaluru terrace inspection, safety checks, organized space, clean surfaces",
+      "source": "pexels",
+      "credit": "Photo by Pavel Danilyuk on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\035-pexels.jpg"
+    },
+    {
+      "query": "Mumbai terrace cleaning routine, organized space, clean surfaces, inviting atmosphere",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\037-pexels.jpg"
+    },
+    {
+      "query": "Delhi terrace seasonal storage, organized space, clean surfaces, vibrant plants",
+      "source": "pexels",
+      "credit": "Photo by Ty Nguyễn on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\038-pexels.jpg"
+    },
+    {
+      "query": "terrace safety compliance checklist, outdoor space, natural light, clean lines, minimal clutter, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Sami  Abdullah on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\040-pexels.jpg"
+    },
+    {
+      "query": "guard heights on terrace, natural light, clean lines, minimal clutter, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Jan van der Wolf on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\042-pexels.jpg"
+    },
+    {
+      "query": "clear egress paths on terrace, natural light, clean lines, minimal clutter, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\043-pexels.jpg"
+    },
+    {
+      "query": "terrace layout templates, small medium large spaces, zone planning, circulation paths, safety setbacks, furniture footprints, integration points, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Engin Akyurt on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\045-pexels.jpg"
+    },
+    {
+      "query": "Pune terrace layout, family-friendly design, safety setbacks, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Heather Green on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\046-pexels.jpg"
+    },
+    {
+      "query": "Bengaluru narrow terrace layout, social gathering design, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by HRIDYAKSH GEJWAL on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\047-pexels.jpg"
+    },
+    {
+      "query": "Mumbai large terrace layout, family gathering design, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Uday Ahir on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\048-pexels.jpg"
+    },
+    {
+      "query": "A vibrant terrace makeover with soft textiles, plants, and a cozy seating area, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Namfon Sasimaporn on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\049-pexels.jpg"
+    },
+    {
+      "query": "A cozy terrace with a soft play area, plants, and a stylish seating arrangement, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Ayşegül  Aytören on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\050-pexels.jpg"
+    },
+    {
+      "query": "A well-organized terrace preparation scene with measuring tools, shopping lists, and safety audit notes, one window light, plaster textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by DS stories on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\051-pexels.jpg"
+    },
+    {
+      "query": "A detailed schedule laid out on a table with time blocks and tasks for the weekend makeover, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Ann H on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\052-pexels.jpg"
+    },
+    {
+      "query": "A shopping cart filled with materials and tools for a terrace makeover, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by David Brown on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\053-pexels.jpg"
+    },
+    {
+      "query": "A tidy terrace with organized storage solutions and a defined play area, one window light, plaster textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Turgay Koca on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\054-pexels.jpg"
+    },
+    {
+      "query": "A beautifully styled terrace showcasing light textiles and soft plants, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Dương Nhân on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\055-pexels.jpg"
+    },
+    {
+      "query": "A checklist of common mistakes to avoid during a terrace makeover, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\photos\\056-pexels.jpg"
+    }
+  ],
+  "figures": [
+    {
+      "spec_id": "D001",
+      "kind": "table",
+      "title": "Guard openings and climb",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D001.svg"
+    },
+    {
+      "spec_id": "D002",
+      "kind": "table",
+      "title": "Screens are wind sails",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D002.svg"
+    },
+    {
+      "spec_id": "D008",
+      "kind": "table",
+      "title": "Before you modify a terrace",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D008.svg"
+    },
+    {
+      "spec_id": "D010",
+      "kind": "table",
+      "title": "Do not DIY when the task involves",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D010.svg"
+    },
+    {
+      "spec_id": "D029",
+      "kind": "table",
+      "title": "Planter safety",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D029.svg"
+    },
+    {
+      "spec_id": "D024",
+      "kind": "table",
+      "title": "Pet terrace safety",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D024.svg"
+    },
+    {
+      "spec_id": "D009",
+      "kind": "table",
+      "title": "Primary Pathways From Doors Should Be 36",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D009.svg"
+    },
+    {
+      "spec_id": "D011",
+      "kind": "table",
+      "title": "24 Inches Behind Each Dining Chair For",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D011.svg"
+    },
+    {
+      "spec_id": "D012",
+      "kind": "table",
+      "title": "Coffee Tables 16 To 18 Inches From",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D012.svg"
+    },
+    {
+      "spec_id": "D013",
+      "kind": "table",
+      "title": "Provide 18 Inches Between Loungers For Side",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D013.svg"
+    },
+    {
+      "spec_id": "D028",
+      "kind": "table",
+      "title": "Terrace load warning",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D028.svg"
+    },
+    {
+      "spec_id": "D023",
+      "kind": "table",
+      "title": "Open-flame boundary",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D023.svg"
+    },
+    {
+      "spec_id": "D027",
+      "kind": "table",
+      "title": "Portable vs permanent shade",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D027.svg"
+    },
+    {
+      "spec_id": "D020",
+      "kind": "table",
+      "title": "We Recommended A 60 Inch Built In",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D020.svg"
+    },
+    {
+      "spec_id": "D019",
+      "kind": "table",
+      "title": "Many Under Table Boxes Can Be 10",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D019.svg"
+    },
+    {
+      "spec_id": "D022",
+      "kind": "table",
+      "title": "Terrace electrical safety",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D022.svg"
+    },
+    {
+      "spec_id": "D018",
+      "kind": "table",
+      "title": "Terrace water-management checklist",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D018.svg"
+    },
+    {
+      "spec_id": "D021",
+      "kind": "table",
+      "title": "Waterproofing is not crack paint",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D021.svg"
+    },
+    {
+      "spec_id": "D025",
+      "kind": "table",
+      "title": "Standing water and pests",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D025.svg"
+    },
+    {
+      "spec_id": "D031",
+      "kind": "table",
+      "title": "Recurring terrace log",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D031.svg"
+    },
+    {
+      "spec_id": "D026",
+      "kind": "table",
+      "title": "Wind-event checklist",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D026.svg"
+    },
+    {
+      "spec_id": "D030",
+      "kind": "table",
+      "title": "Before and after heavy rain",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D030.svg"
+    },
+    {
+      "spec_id": "D032",
+      "kind": "table",
+      "title": "When severe weather is expected",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Family Terrace Blueprint\\figures\\D032.svg"
+    }
+  ]
+}

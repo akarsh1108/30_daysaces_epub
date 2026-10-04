@@ -1,0 +1,1880 @@
+{
+  "slug": "conversation-ready-drawing-room",
+  "title": "Conversation Ready Drawing Room",
+  "subtitle": "",
+  "tagline": "One measurement language for a drawing room that talks — and still works on a Tuesday.",
+  "author": "Akarsh Priyadarshan",
+  "series": "30 Day Spaces",
+  "closing_headline": "Your next room starts here",
+  "closing_blurb": "Seat rotation is not conversation angle. Zone diameter is not seat-to-seat distance. Walkway width is not coffee-table reach. All numbers in this book are planning ranges, not universal ergonomic or architectural standards. Conversation geometry must not make everyday living harder.",
+  "accent_hex": "#1E5F6B",
+  "units": "imperial",
+  "cover": {
+    "query": "A cozy drawing room with a sofa and chairs arranged for conversation, soft lighting, and a warm atmosphere.",
+    "flux_prompt": "A full-bleed shot of a well-arranged drawing room featuring a focal point, comfortable seating, and inviting decor.",
+    "alt": "Conversation Ready Drawing Room",
+    "source": "openai",
+    "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\cover.jpg",
+    "credit": "Cover illustration",
+    "ai_generated": true,
+    "provider_id": "pexels:17023045"
+  },
+  "designed_cover": true,
+  "chapters": [
+    {
+      "slug": "diagnose-your-room-for-conversation-flow",
+      "title": "Diagnose Your Room for Conversation Flow",
+      "intro": "Use one measurement language for the whole book. Seat-to-seat distance is front edge to front edge. Conversation-zone diameter is the overall size of the social cluster. Walkway clearance is clear floor between furniture edges. Seat rotation is how far a chair turns from its original wall-facing position. Conversation angle is the angle between two seats' viewing directions. Those two angles are different and must not be confused. Numbers are planning ranges, not standards. Conversation optimization should improve the room without making everyday living harder — television, reading, cleaning, entry, serving, and being alone still have to work. If anyone uses a mobility aid or has reduced mobility, prioritize that person's clearance over the ranges here.",
+      "opener": {
+        "query": "A cozy drawing room with a sofa and chairs arranged for conversation, soft lighting, and a warm atmosphere.",
+        "flux_prompt": "A full-bleed shot of a well-arranged drawing room featuring a focal point, comfortable seating, and inviting decor.",
+        "alt": "A conversation-ready drawing room, photographed empty.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\001-pexels.jpg",
+        "credit": "Photo by Matheus Bertelli on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:17023045"
+      },
+      "sections": [
+        {
+          "slug": "center-the-focal-anchor",
+          "title": "Primary focal, secondary focal, social anchor",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "A drawing room with a large window as the focal point, soft furnishings, and minimal clutter.",
+            "flux_prompt": "A cozy corner of the drawing room with the window framed by soft curtains, inviting light, and a neatly arranged bookshelf.",
+            "alt": "A close-up of the window area with soft lighting and decorative elements.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\002-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7587782"
+          },
+          "scenario": "Problem: split attention. Room: Pune 1BHK, nine by eleven feet. Before: sofa faces a bright window while a busy bookshelf fights for the other wall. Decision: window is primary focal; bookshelf is secondary and quieted; coffee table is the social anchor; rug marks the cluster. Result: guests look at people first, then the view.",
+          "principle": "TV, window, fireplace, and art are visual focals. The coffee table is the social anchor. The rug is a spatial boundary.",
+          "body": [
+            "Today's output: one primary focal point, one optional secondary, one social anchor, and a rug boundary.",
+            "Primary focal point: what people naturally look toward — often a window, fireplace, art, or television. Secondary focal point: supporting interest that must not steal the group. Social / functional anchor: the object people arrange around, usually the coffee table or ottoman. Rug: spatial boundary, not a focal point.",
+            "Stand at the entry. Note what captures the gaze. Sit on the sofa. If you must pivot more than a quarter turn to see the primary focal, the seating is fighting the room. Conversation geometry still has to leave the television usable if the household actually watches it, and the kitchen path must stay a real walkway."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Which system to use, in order",
+              "caption": "Every later idea sits under this stack.",
+              "values": [
+                "Walkways, pinch points, cords, trip edges, mobility needs",
+                "Seat-to-seat, rotation, conversation angle, zone diameter",
+                "Primary / secondary focal, then the social anchor",
+                "Ambient, task, social, accent; clap test",
+                "Everyday, movie, hosting, cleaning",
+                "After the room works"
+              ],
+              "labels": [
+                "1. Safety and circulation",
+                "2. Seating relationship",
+                "3. Focal point",
+                "4. Lighting and acoustics",
+                "5. Hosting scenarios",
+                "6. Styling"
+              ],
+              "minimum": null,
+              "spec_id": "D035",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D035.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Three kinds of 'anchor'",
+              "caption": "A TV is not a coffee table. A rug is not a fireplace.",
+              "values": [
+                "What people naturally look toward",
+                "Supporting visual interest",
+                "What people physically sit around",
+                "Spatial boundary under the cluster"
+              ],
+              "labels": [
+                "Primary focal point",
+                "Secondary focal point",
+                "Social / functional anchor",
+                "Rug"
+              ],
+              "minimum": null,
+              "spec_id": "D034",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D034.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Measurement language used in this book",
+              "caption": "Planning ranges, not universal standards.",
+              "values": [
+                "Front edge of one seat to the front edge of the other",
+                "Overall diameter of the social cluster",
+                "Clear floor between furniture edges",
+                "How far a chair turns from its wall-facing start",
+                "Angle between the viewing directions of two seats",
+                "Seat front edge to coffee-table edge"
+              ],
+              "labels": [
+                "Seat-to-seat distance",
+                "Conversation-zone diameter",
+                "Walkway clearance",
+                "Seat rotation",
+                "Conversation angle",
+                "Coffee-table reach"
+              ],
+              "minimum": null,
+              "spec_id": "D030",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D030.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: guests stare at the TV while you talk. Cause: the social anchor was treated as a focal, or two visual focals were given equal power. Fix: name primary, secondary, and social anchor out loud, then sit-test.",
+          "checklist": [
+            "Name the primary focal",
+            "Name the social anchor",
+            "Confirm the everyday TV or window still works"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "angles-the-triangular-conversation-set",
+          "title": "Angles, The Triangular Conversation Set",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "A triangular seating arrangement in a living room, with soft lighting and a welcoming atmosphere.",
+            "flux_prompt": "An inviting view of the triangular seating arrangement, highlighting the soft textures and warm lighting.",
+            "alt": "A close-up of the seating area showing the angles between chairs.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\003-pexels.jpg",
+            "credit": "Photo by Gerdiephotography G on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:34909557"
+          },
+          "scenario": "Problem: interview seating. Room: Bengaluru rental, ten by twelve feet. Before: two chairs square-on to the sofa. Decision: rotate each chair 15–30° from the wall; set conversation angle near 100° to the sofa. Result: glances, not stare-downs.",
+          "principle": "Seat rotation (15–30° from the wall-facing start) is not the conversation angle (often 90–120° between two seats' viewing directions).",
+          "body": [
+            "Today's output: one rotation number and one conversation-angle number, labeled as different.",
+            "Seat rotation: how far a chair turns from its original wall-facing position. Planning range: about 15–30°. Templates that show 15°, 22°, or 30° are examples of rotation, not a sacred set.",
+            "Conversation angle: the angle between the viewing directions of two seats. For a pair, a planning range is about 90–120°, with about 100° to the sofa as one worked example. Do not read 15–30° and 90–120° as competing versions of the same instruction."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Two angles, never mixed",
+              "caption": "Seat rotation and conversation angle are different measurements.",
+              "values": [
+                "Turn from the original wall-facing position",
+                "Angle between two seats' facing directions",
+                "A chair toed in from the wall",
+                "Two chairs open toward each other",
+                "Do not treat them as the same number"
+              ],
+              "labels": [
+                "Seat rotation",
+                "Conversation angle",
+                "Typical rotation start",
+                "Typical pair conversation angle",
+                "Rule"
+              ],
+              "minimum": null,
+              "spec_id": "D032",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D032.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Planning ranges (starting points)",
+              "caption": "Furniture and rooms vary. Measure, then test by sitting.",
+              "values": [
+                "About six to eight feet",
+                "About eight to twelve feet",
+                "Thirty to forty-eight inches",
+                "Thirty-six to fifty-four inches",
+                "Sixty to eighty-four inches",
+                "Thirty-six inches preferred; thirty compact",
+                "Twenty-four to thirty, short pinch only",
+                "Fifteen to thirty degrees from wall-facing",
+                "Ninety to one-twenty degrees between views",
+                "Sixteen to twenty inches from the seat edge"
+              ],
+              "labels": [
+                "Intimate zone diameter",
+                "Casual zone diameter",
+                "Pairs, seat-to-seat",
+                "Trios, seat-to-seat",
+                "Group circles, seat-to-seat",
+                "Everyday walkway",
+                "Pinch point",
+                "Seat rotation",
+                "Conversation angle",
+                "Coffee-table reach"
+              ],
+              "minimum": null,
+              "spec_id": "D031",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D031.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: you rotated 20° and still feel square-on. Cause: you used rotation as if it were conversation angle. Fix: measure both; they are different.",
+          "checklist": [
+            "Write rotation and conversation angle as two lines",
+            "Keep the coffee table below the sightline",
+            "Do not square seats face-to-face unless you want an interview"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "flow-the-movement-map",
+          "title": "Flow, The Movement Map",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "A living room with clear pathways around the seating area, inviting conversation.",
+            "flux_prompt": "A view of the living room showcasing the clear flow of movement around the seating arrangement.",
+            "alt": "A close-up of the seating area with unobstructed pathways.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\004-pexels.jpg",
+            "credit": "Photo by Lupita Moreno on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8782754"
+          },
+          "scenario": "Problem: the kitchen path cuts the talk. Room: Mumbai 1BHK, eight by ten feet. Before: walkway between sofa and table. Decision: scoop the path behind seat backs at 36 inches, accept 30 at one door pinch. Result: talk survives a glass of water.",
+          "principle": "Preferred everyday path 36 inches; compact 30 inches; 24–30 inches only as a short pinch, never the main route.",
+          "body": [
+            "Today's output: one everyday loop taped on the floor, labeled preferred / compact / pinch.",
+            "Walkway clearance is clear floor between furniture edges — not seat-to-seat distance and not coffee-table reach. If the path between two facing seats is the only way to the kitchen, conversation 'won' and living lost. Reroute or move a seat.",
+            "If anyone uses a mobility aid or has reduced mobility, use that person's clearance. The ranges in this book are not accessibility standards."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Walkway hierarchy",
+              "caption": "Twenty-four inches is never the primary everyday route.",
+              "values": [
+                "Preferred everyday path",
+                "Acceptable compact path",
+                "Short pinch only, never the main route",
+                "If someone uses a mobility aid, use their clearance instead"
+              ],
+              "labels": [
+                "Thirty-six inches",
+                "Thirty inches",
+                "Twenty-four to thirty inches",
+                "Household override"
+              ],
+              "minimum": null,
+              "spec_id": "D033",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D033.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: guests sidestep through the cluster. Cause: the everyday route is a 24-inch pinch used as a highway. Fix: 36 preferred, 30 compact, 24 only for a short pinch.",
+          "checklist": [
+            "Tape the everyday path",
+            "Measure the pinch and keep it short",
+            "Do not send the kitchen route between faces"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "envelope-light-and-sound",
+          "title": "Envelope, Light And Sound",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "A living room with soft lighting and textiles that enhance comfort.",
+            "flux_prompt": "A cozy corner of the living room with warm lighting, soft textiles, and inviting decor.",
+            "alt": "A close-up of the lighting setup in the living room.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\005-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6580377"
+          },
+          "scenario": "Problem: faces look tired and voices bounce. Room: Chennai 1BHK. Before: one overhead and bare walls. Decision: social lamps at seated face height; clap test; one rug. Result: faces readable, less ring.",
+          "principle": "Ambient, task, social, and accent light. Good-enough sound: clap once in the center; if it rings, add soft surface.",
+          "body": [
+            "Today's output: a lighting stack (ambient / task / social / accent) and one clap-test note.",
+            "Ambient is general room light. Task is reading, games, or serving. Social is warmer, lower light on the conversation zone. Accent is art or shelf light. During hosting, social light leads; ambient drops; task stays on the serving surface; accent stays quiet.",
+            "Clap test: stand in the center and clap once. If you hear a noticeable ring or echo, add or adjust a soft surface — rug, drape, throw — near the bounce. That is a practical 'good enough,' not a laboratory acoustic rating. This book does not claim a soundproof room."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: the clap still rings after one throw pillow. Cause: the hard floor and window are doing the work. Fix: rug or drape first, then restack light as ambient / task / social / accent.",
+          "checklist": [
+            "Name the four light jobs",
+            "Clap once in the center",
+            "Do not call the room soundproof"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "the-48-hour-action-plan",
+      "title": "The canonical 48-hour protocol",
+      "intro": "This is the only 48-hour protocol in the book. Later checklists reprint it; they do not invent a second plan. Day 1 sets circulation, seating relationship, and focals. Day 2 sets light, sound, host loop, and a live test. Use the measurement legend. Do not tighten the everyday path below 30 inches to 'win' conversation.",
+      "opener": {
+        "query": "interior of a cozy Indian living room, natural light from one window, soft textures, warm colors, no people",
+        "flux_prompt": "full-bleed shot of a well-arranged living room with a coffee table at the center, surrounded by seating",
+        "alt": "A conversation-ready drawing room, photographed empty.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\006-pexels.jpg",
+        "credit": "Photo by Andranik Paradyan on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:38323542"
+      },
+      "sections": [
+        {
+          "slug": "day-1-setting-the-stage",
+          "title": "Day 1: Setting the Stage",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "interior of a Pune apartment living room, natural light, cozy arrangement, no people",
+            "flux_prompt": "a well-styled living room with a focus on seating arrangement, coffee table, and rug alignment",
+            "alt": "a different angle showcasing the room's layout and natural light.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\007-pexels.jpg",
+            "credit": "Photo by Subham Majumder on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:3614082"
+          },
+          "scenario": "Problem: sofa-to-TV, chairs on the walls. Room: Pune 1BHK. Before: no path behind seats. Decision: clear pinch points, rotate seats 15–30° from the wall, set coffee-table reach at 16–20 inches. Result: two people can talk without blocking the door.",
+          "principle": "Safety and circulation first, then seating relationship, then focal.",
+          "body": [
+            "Today's output: photos, a taped 36-inch preferred path (30 compact), seats rotated, table within reach.",
+            "Rotate seats 15–30° from their wall-facing start — that is seat rotation, not conversation angle. Then sit and check whether the pair's viewing directions open to about 90–120°. Coffee-table reach is 16–20 inches from the seat front edge, not a 30–36 inch walkway number.",
+            "Sit test: can two people see each other without a sharp neck turn, and can someone still walk to the kitchen without cutting between their faces? If conversation geometry blocks the everyday route, undo it."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Clear and reset the room perimeter (5 minutes)",
+              "minutes": null
+            },
+            {
+              "text": "Capture baseline photos (3 minutes)",
+              "minutes": null
+            },
+            {
+              "text": "Reposition anchors (15 minutes)",
+              "minutes": null
+            },
+            {
+              "text": "Rotate primary seats (10 minutes)",
+              "minutes": null
+            },
+            {
+              "text": "Sit test primary pair (5 minutes)",
+              "minutes": null
+            },
+            {
+              "text": "Walk loop test (5 minutes)",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: beautiful triangle, trapped door. Cause: conversation beat circulation. Fix: restore the everyday path first.",
+          "checklist": [
+            "Clear stray furniture from walkways",
+            "Take baseline photos from four angles",
+            "Align the rug with the conversation triangle",
+            "Rotate chairs towards the center",
+            "Conduct sit tests for eye contact"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "day-2-fine-tuning-and-final-adjustments",
+          "title": "Day 2: Fine-Tuning and Final Adjustments",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "Bengaluru studio apartment interior, cozy seating arrangement, natural light, no people",
+            "flux_prompt": "a well-arranged studio living space with a focus on conversation zones and pathways",
+            "alt": "a different angle highlighting the cozy atmosphere and functional layout.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\008-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5998063"
+          },
+          "scenario": "In a compact studio in Bengaluru, Ravi wanted to create a welcoming space for friends to gather without feeling cramped. He followed the plan to optimize his layout.",
+          "principle": "Light, clap test, host loop kitchen → serve → guests → collect → kitchen.",
+          "body": [
+            "Today's output: social lamps on, clap test noted, host loop walked both ways, pinch labeled if it exists.",
+            "Keep 30–36 inches behind seats when that space is the everyday path. A 24-inch gap is allowed only as a short pinch, never as the main circulation. Add a rug or drape if the clap rings.",
+            "Walk the host loop twice: kitchen to serving surface to guests, then collection back to the kitchen. The return trip is where small rooms go chaotic."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Fine-tune angles (10 minutes)",
+              "minutes": null
+            },
+            {
+              "text": "Create dedicated paths (20 minutes)",
+              "minutes": null
+            },
+            {
+              "text": "Soften acoustics (15 minutes)",
+              "minutes": null
+            },
+            {
+              "text": "Set host-ready cues (15 minutes)",
+              "minutes": null
+            },
+            {
+              "text": "Test a four-person mix (15 minutes)",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: dirty plates stack on the coffee table. Cause: no collection path. Fix: the same loop, reversed.",
+          "checklist": [
+            "Rotate seats for comfort",
+            "Ensure thirty to thirty-six inch buffers behind seating",
+            "Add soft furnishings to reduce echo",
+            "Place coasters and throws for hosting",
+            "Test seating arrangements with additional guests"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "map-conversation-zones-and-movement-loops",
+      "title": "Mapping Conversation Zones and Movement Loops",
+      "intro": "A conversation zone has a diameter (how large the cluster is) and seat-to-seat distances (how far fronts sit). Do not use 6–8 feet and 30–48 inches as if they measured the same thing. Movement loops belong to safety and circulation, which outrank seating relationship.",
+      "opener": {
+        "query": "small Indian apartment living room, natural light from one window, warm tones, inviting seating arrangement, no people, no text, no watermark",
+        "flux_prompt": "full-bleed image of a well-designed conversation area in a small Indian apartment, showcasing a central rug, seating arrangements, and movement pathways",
+        "alt": "A conversation-ready drawing room, photographed empty.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\006-pexels.jpg",
+        "credit": "Photo by Andranik Paradyan on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:38323542"
+      },
+      "sections": [
+        {
+          "slug": "understanding-the-importance-of-conversation-zones",
+          "title": "Understanding the Importance of Conversation Zones",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "inviting seating arrangement in a small Indian living room, natural light, warm colors, no people, no text, no watermark",
+            "flux_prompt": "image of a cozy conversation zone with a central coffee table and surrounding seating, showcasing the layout",
+            "alt": "a view of the seating arrangement from a different angle, emphasizing the conversation zones",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\010-pexels.jpg",
+            "credit": "Photo by ธันยกร ไกรสร on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:10376397"
+          },
+          "scenario": "Problem: door-to-sofa is a runway. Room: Pune 1BHK. Before: no social anchor. Decision: coffee table as social anchor; pair seat-to-seat 30–48 inches; whole cluster inside an intimate zone about 6–8 feet across. Result: voices carry without a shout, and knees do not clash.",
+          "principle": "Zone diameter and seat-to-seat distance are different measurements.",
+          "body": [
+            "Today's output: one zone-diameter number and one seat-to-seat number, both labeled.",
+            "Intimate conversation-zone diameter (planning range): about 6–8 feet — the overall cluster. Casual zone diameter: about 8–12 feet. Seat-to-seat, front edge to front edge: pairs about 30–48 inches; trios about 36–54 inches; group circles about 60–84 inches.",
+            "A pair 36 inches apart can sit inside a 7-foot zone. That is consistent. Treating 6–8 feet as if it were the gap between two chair fronts is how the old pages contradicted 30–48 inches."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: chairs are 7 feet apart and you have to raise your voice. Cause: zone diameter used as seat-to-seat. Fix: pull fronts into the pair or trio band.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "creating-movement-loops",
+          "title": "Creating Movement Loops",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "movement pathways in a small Indian apartment, natural light, clear circulation paths, no people, no text, no watermark",
+            "flux_prompt": "image showing a well-defined movement loop around a conversation area, emphasizing the flow of traffic",
+            "alt": "a different angle of the movement loop, highlighting the entry and exit points",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\011-pexels.jpg",
+            "credit": "Photo by Aditya Oberai on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:35114454"
+          },
+          "scenario": "Problem: guests walk through talk. Room: Bengaluru rental, a wall you cannot move. Before: straight bisect. Decision: curve behind backs; 36-inch preferred. Result: chat stays seated.",
+          "principle": "Loops go around clusters. Everyday width follows the walkway hierarchy.",
+          "body": [
+            "Today's output: one loop that never bisects two faces.",
+            "Tape a path that passes behind seat backs and along rug edges. Preferred 36 inches. Compact 30 inches. A 24–30 inch pinch is only for a short squeeze at a door or column — not the route you use all day.",
+            "If the only path to the kitchen is between two seats, seating relationship is over-optimized. Move a seat."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: every refill splits the group. Cause: loop through the social anchor. Fix: behind backs, not between faces.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "incorporating-anchors-pivots-and-perches",
+          "title": "Incorporating Anchors, Pivots, and Perches",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "comfortable seating arrangement with perches in a small Indian living room, natural light, inviting atmosphere, no people, no text, no watermark",
+            "flux_prompt": "image of a conversation zone featuring an anchor, pivot, and perches, showcasing the layout",
+            "alt": "a close-up view of the anchor and pivot seat arrangement, emphasizing comfort and accessibility",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\010-pexels.jpg",
+            "credit": "Photo by ธันยกร ไกรสร on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:10376397"
+          },
+          "scenario": "In a Mumbai flat with a window on only one side, Neha wants to create a welcoming space for gatherings. She needs to strategically place her anchor, pivot, and perches to maximize comfort and connection.",
+          "principle": "Coffee table = social anchor. Pivot = view of entry. Perches live in the casual zone, not the pair band.",
+          "body": [
+            "Today's output: social anchor, one pivot seat, perches parked outside the pair band.",
+            "Place seats so fronts sit in the right seat-to-seat band. Perches (stools, benches) belong in the casual zone diameter (about 8–12 feet), not in the 30–48 inch pair gap, or the core becomes a crowd.",
+            "The pivot watches the door without sitting in the everyday walkway."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: drop-in guests stand in the walkway. Cause: no perch outside the core. Fix: one stool in the casual zone.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "optimize-sightlines-angles-and-focal-points",
+      "title": "Optimize Sightlines, Angles, and Focal Points",
+      "intro": "This chapter is seating relationship plus focal point plus lighting — layers 2, 3, and 4. It is not a second 48-hour protocol. Use the canonical 48-hour chapter to sequence the work.",
+      "opener": {
+        "query": "small indian apartment interior minimalist daylight editorial",
+        "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK apartment interior, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+        "alt": "A calm apartment interior",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\013-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:6890400"
+      },
+      "sections": [
+        {
+          "slug": "optimize-sightlines-angles-and-focal-points",
+          "title": "Optimize Sightlines, Angles, and Focal Points",
+          "day_label": "Part 4",
+          "hero": {
+            "query": "small indian apartment interior minimalist daylight editorial",
+            "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK apartment interior, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+            "alt": "A calm apartment interior",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\013-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6890400"
+          },
+          "scenario": "",
+          "principle": "Rotation 15–30° from the wall. Conversation angle is a different number. Heights and light are planning ranges.",
+          "body": [
+            "Today's output: primary focal named, seats rotated, corridor of faces clear, lamps in the social layer.",
+            "Seat rotation: 15–30° from the wall-facing start. Conversation angle: the opening between viewing directions (pairs often about 90–120°). Intimate zone diameter about 6–8 feet; casual about 8–12 feet. Seat-to-seat stays in the pair / trio / group bands. Coffee-table reach 16–20 inches from the seat edge. Table height about 16–18 inches. Seat height neighborhood about 16–20 inches, with about 2 inches of mismatch as a planning tolerance. Floor lamps often about 48–60 inches; table lamps about 26–30 inches. These are starting points.",
+            "Lighting stack: ambient (general), task (reading / game / serving), social (warm lower light on faces), accent (art). Hosting: social on, ambient down, task on the serving surface, accent quiet. Keep the face corridor empty from knee height to head height.",
+            "Case — TV and fireplace: Problem: two visual focals. Decision: TV remains usable as primary or secondary on purpose; coffee table stays the social anchor; sofa rotation about 20°; one chair conversation-angle toward the group. Result: watchers and talkers share the room. Case — window silhouette: rotate off the glare; add social light. Case — long room: do not use an 8–12 foot seat-to-seat gap for a pair; use zone diameter for the room length and pull a micro-cluster into the pair band.",
+            "Do not run a second hour-by-hour plan here. When the geometry works, lock tape marks and stop."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Heights and light (planning ranges)",
+              "caption": "Starting points. Sit and look.",
+              "values": [
+                "About two inches of mismatch",
+                "About sixteen to twenty inches",
+                "About sixteen to eighteen inches",
+                "About forty-eight to sixty inches",
+                "About twenty-six to thirty inches"
+              ],
+              "labels": [
+                "Seat-height band",
+                "Typical seat height",
+                "Coffee-table height",
+                "Floor lamp",
+                "Table lamp"
+              ],
+              "minimum": null,
+              "spec_id": "D036",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D036.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: perfect triangle, unwatchable TV. Cause: conversation beat everyday living. Fix: keep the household's real primary focal usable.",
+          "checklist": [
+            "Label rotation vs conversation angle",
+            "Keep the everyday TV or window usable",
+            "Social light on faces, not behind heads"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "align-traffic-paths-and-tune-acoustics",
+      "title": "Align Traffic Paths and Tune Acoustics",
+      "intro": "Layer 1: safety and circulation. Layer 4: lighting and acoustics. Walkway hierarchy is 36 / 30 / pinch. The clap test is the good-enough acoustic target.",
+      "opener": {
+        "query": "Compact Indian apartment living room with soft textiles, natural light from one window, and a cozy arrangement of furniture, no people, no text.",
+        "flux_prompt": "A full-bleed image of a well-arranged compact living room with a clear traffic path, soft rugs, and acoustic elements like curtains and cushions.",
+        "alt": "A conversation-ready drawing room, photographed empty.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\015-pexels.jpg",
+        "credit": "Photo by Lisa Fotios on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:1631918"
+      },
+      "sections": [
+        {
+          "slug": "movement-loops",
+          "title": "Movement Loops",
+          "day_label": "Day One Morning",
+          "hero": {
+            "query": "Compact Indian apartment living room with a clear traffic path, soft rugs, and acoustic elements like curtains and cushions.",
+            "flux_prompt": "A well-arranged compact living room with a clear traffic path and soft acoustic elements.",
+            "alt": "A cozy living room with a rug anchoring the seating area.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\016-pexels.jpg",
+            "credit": "Photo by Liva  Kitchens And Interiors on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:33452539"
+          },
+          "scenario": "In a 1BHK apartment in Pune, resident Priya struggles with her living room layout. The sofa and chairs are arranged awkwardly, forcing guests to navigate through tight spaces. By creating movement loops, she can enhance the flow of her space.",
+          "principle": "Preferred 36 inches. Compact 30. Pinch 24–30 only where short and unavoidable.",
+          "body": [
+            "Today's output: a taped loop with three labels: preferred, compact, pinch.",
+            "If a path cuts between two chairs, rotate one seat or move the rug. Do not call a 24-inch alley your everyday route even if a tray can squeeze through.",
+            "Mobility override: if a household member needs more clearance than 36 inches, that need wins."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Walkway hierarchy",
+              "caption": "Twenty-four inches is never the primary everyday route.",
+              "values": [
+                "Preferred everyday path",
+                "Acceptable compact path",
+                "Short pinch only, never the main route",
+                "If someone uses a mobility aid, use their clearance instead"
+              ],
+              "labels": [
+                "Thirty-six inches",
+                "Thirty inches",
+                "Twenty-four to thirty inches",
+                "Household override"
+              ],
+              "minimum": null,
+              "spec_id": "D050",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D050.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: hips bump the table on the daily kitchen run. Cause: 24 inches used as the main path. Fix: restore 30–36.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "buffer-rings",
+          "title": "Buffer Rings",
+          "day_label": "Day One Afternoon",
+          "hero": {
+            "query": "Bengaluru rental living room with a clear buffer zone behind seating, soft textiles, and natural light.",
+            "flux_prompt": "A cozy living room with ample space behind the seating area, inviting and comfortable.",
+            "alt": "A well-arranged living room with clear buffer zones.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\017-pexels.jpg",
+            "credit": "Photo by Josh Sorenson on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:36363109"
+          },
+          "scenario": "In a Bengaluru rental, Rohan finds his accent chair feels cramped against the wall. By establishing buffer rings, he can create a more comfortable seating arrangement.",
+          "principle": "The space behind seats is walkway clearance, measured furniture edge to wall or next edge.",
+          "body": [
+            "Today's output: 36 inches behind the chair that faces the everyday path; less only on a dead corner.",
+            "Buffer rings are psychological and physical. They are not a second width system. Use the same 36 / 30 / pinch hierarchy."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: a passerby brushes a shoulder. Cause: the chair sits in the walkway. Fix: pull it onto the rug, keep the path.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "entry-zones",
+          "title": "Entry Zones",
+          "day_label": "Day One Evening",
+          "hero": {
+            "query": "Mumbai flat living room with a welcoming entry zone, soft textiles, and a cozy atmosphere.",
+            "flux_prompt": "A well-arranged living room with a clear entry zone that invites guests in.",
+            "alt": "A cozy entry area with a bench and soft decor.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\018-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6527037"
+          },
+          "scenario": "In a Mumbai flat, Neha's entryway leads directly into her living room, causing guests to interrupt conversations. By creating an entry zone, she can improve the flow of arrivals.",
+          "principle": "Entry zones beside backs reduce social pressure for arrivals.",
+          "body": [
+            "The first thirty seconds of a guest's arrival can set the tone for the entire visit. If your door opens directly onto seating, guests may feel pressured to interrupt ongoing conversations. To alleviate this, relocate a chair or rotate the seating arrangement so that the entry zone is beside a seat back rather than in front of it. If space allows, consider adding a console table or a narrow bench near the door to create a designated hello zone.",
+            "In Neha's flat, she can reposition her sofa and chairs to create a more welcoming entry area. By placing a small bench near the door, guests can pause to leave their coats and bags, allowing for a smoother transition into the living room. This adjustment will help guests feel more comfortable and reduce the pressure of entering a conversation directly.",
+            "By establishing a clear entry zone, Neha can enhance the overall experience for her guests, making them feel more at ease as they arrive and settle into the space."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: arrivals walk into faces. Cause: door opens onto the dialogue axis. Fix: entry beside a seat back.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "host-pathway",
+          "title": "Host Pathway",
+          "day_label": "Day Two Morning",
+          "hero": {
+            "query": "Chennai living room with a clear host pathway, soft textiles, and a cozy atmosphere.",
+            "flux_prompt": "A well-arranged living room with a clear host pathway for serving.",
+            "alt": "A cozy living room with a designated serving area.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\019-pexels.jpg",
+            "credit": "Photo by DARKMODE CINEMA on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:29120627"
+          },
+          "scenario": "Problem: snack service splits talk. Room: Chennai compact drawing room. Before: coffee table as staging. Decision: sideboard at the cluster edge; loop behind backs both ways. Result: plates leave as they arrived.",
+          "principle": "Kitchen → serving surface → guests → collection → kitchen. Never between eyes.",
+          "body": [
+            "Today's output: one host loop walked empty-handed, then with a tray, then with dirty dishes.",
+            "Serving is only half. Collection is where small drawing rooms fail. Map kitchen to a serving surface that is not the coffee table, then to guests, then the same path back. Keep the dialogue axis empty.",
+            "Felt pads and coasters reduce clatter. They do not make a path wide enough. Measure the walkway."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: the coffee table becomes a canteen. Cause: no return loop. Fix: collection uses the same behind-backs path.",
+          "checklist": [
+            "Walk serve",
+            "Walk collect",
+            "Keep the coffee table for hands, not plating"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "acoustic-ladder",
+          "title": "Acoustic Ladder",
+          "day_label": "Day Two Afternoon",
+          "hero": {
+            "query": "Kolkata apartment living room with soft textiles, rugs, and acoustic elements that enhance sound quality.",
+            "flux_prompt": "A cozy living room with soft acoustic elements and inviting decor.",
+            "alt": "A well-arranged living room with acoustic enhancements.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\020-pexels.jpg",
+            "credit": "Photo by Jubair Bin Iqbal on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5168859"
+          },
+          "scenario": "In a Kolkata apartment, Meera's living room has hard surfaces that amplify sound. By implementing an acoustic ladder, she can create a more pleasant listening environment.",
+          "principle": "Clap once in the center. Ring → add or adjust a soft surface. Stop when speech is easy.",
+          "body": [
+            "Today's output: clap-test result, then the smallest soft-surface change that removes the ring.",
+            "The acoustic ladder (rug, drape, fabric, books) is optional detail. The good-enough test is the clap. If the clap is already dull, do not keep adding foam 'for conversation.' Over-softening can make the room feel dead; this is a comfort heuristic, not a studio spec."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: you keep buying throws and the clap still rings. Cause: the floor and glass are untreated. Fix: rug or lined drape.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "rugs-as-signals",
+          "title": "Rugs As Signals",
+          "day_label": "Day Two Evening",
+          "hero": {
+            "query": "Hyderabad flat living room with a well-sized rug that anchors the seating area and guides movement.",
+            "flux_prompt": "A cozy living room with a properly sized rug that enhances the space.",
+            "alt": "A well-arranged living room with a large rug anchoring the seating area.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\021-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6438748"
+          },
+          "scenario": "In a small flat in Hyderabad, Sita's rug is too small, causing confusion about movement in her living room. By choosing the right rug size, she can guide guests effectively.",
+          "principle": "Rugs bound the cluster. A rug edge on a major circulation route is a trip hazard.",
+          "body": [
+            "Today's output: front legs on the rug; no rug edge across the everyday path; pad checked.",
+            "Never allow a rug edge to become a trip hazard on a major circulation route. Use a pad. Flatten curling corners. Stop sliding. Confirm door clearance so the door does not catch the rug. The rug is a spatial signal, not décor on the runway."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: a toe catches the runner by the kitchen door. Cause: rug used as a walkway marker on the main route. Fix: move the edge off the path or skip the runner.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "room-shape-playbooks-square-rectangular-and-open-concept",
+      "title": "Room Shape Playbooks: Square, Rectangular, and Open-Concept",
+      "intro": "This chapter explores how to optimize your living space layout based on the shape of your room. By applying specific design strategies, you can enhance conversation flow and comfort without the need for new furniture.",
+      "opener": {
+        "query": "Square, rectangular, and open-concept room layouts in Indian apartments, natural light, cozy textures, no people, no text, no watermark.",
+        "flux_prompt": "Full-bleed shot of a well-designed living room showcasing square, rectangular, and open-concept layouts, with natural light streaming in from windows.",
+        "alt": "A conversation-ready drawing room, photographed empty.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\022-pexels.jpg",
+        "credit": "Photo by Faruk Tokluoğlu on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:8123019"
+      },
+      "sections": [
+        {
+          "slug": "square-rooms-symmetry-packs",
+          "title": "Square Rooms: Symmetry Packs",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "Cozy square living room layout with a central coffee table, natural light, soft textures, no people, no text, no watermark.",
+            "flux_prompt": "A well-styled square living room with a coffee table at the center, two chairs angled inward, and a sofa facing them.",
+            "alt": "An inviting square room with a balanced seating arrangement.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\023-pexels.jpg",
+            "credit": "Photo by Stephen Leonardi on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:18559634"
+          },
+          "scenario": "In a 12-foot by 12-foot square room in Pune, resident Priya struggled with her seating arrangement. Her sofa faced the wall, with two chairs pushed against the side walls, making conversations feel distant and awkward.",
+          "principle": "Symmetry stabilizes square rooms by creating balanced seating triangles around a clear anchor.",
+          "body": [
+            "Start with a social anchor (coffee table or ottoman), not a visual focal unless they coincide. Sofa faces the anchor. Two chairs toe in with a seat rotation of about 15–30° from the walls.",
+            "For this trio, seat-to-seat (front to front) sits in the 36–54 inch band. The whole cluster should still fit an intimate zone diameter of about 6–8 feet. Seven feet between chair front and sofa front is too far for a trio — that number was a zone-diameter leftover.",
+            "Coffee-table reach: 16–20 inches from each seat edge. If a fireplace is offset, it can be the primary focal without being the social anchor."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: chairs feel miles from the sofa in a 12-foot square. Cause: 7-foot seat-to-seat. Fix: pull into the trio band.",
+          "checklist": [
+            "Identify the central anchor in your square room.",
+            "Arrange the sofa facing the anchor and place two chairs to form a triangle.",
+            "Angle the chairs inward to promote conversation.",
+            "Maintain appropriate distances between seating points."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "rectangular-rooms-zone-ladders",
+          "title": "Rectangular Rooms: Zone Ladders",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "Stylish rectangular living room with a television and seating clusters, natural light, cozy textures, no people, no text, no watermark.",
+            "flux_prompt": "A well-organized rectangular living room with distinct seating clusters and a television as the focal point.",
+            "alt": "An inviting rectangular room with a comfortable seating arrangement.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\024-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8089187"
+          },
+          "scenario": "In a 12-foot by 18-foot rectangular rental in Bengaluru, Raj's long sofa faced the television, with a single chair in the far corner. This arrangement made conversations feel strained and distant.",
+          "principle": "Zone ladders distribute interest and break the tunnel effect in rectangular rooms.",
+          "body": [
+            "Primary cluster near the visual focal, but the coffee table remains the social anchor. Sofa on the long wall; chairs in the trio seat-to-seat band, not an 8-foot face-off. Eight to twelve feet is casual zone diameter for the length of the room, not the gap between two people who should talk.",
+            "A secondary perch cluster halfway down the room lives in the casual zone. Leave 30–36 inches of walkway between clusters — that is circulation, not conversation distance.",
+            "Keep the everyday TV usable if the household watches it. Conversation-ready does not mean TV-hostile."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: two people shout across a rectangle. Cause: zone diameter used as seat-to-seat. Fix: a micro-cluster in the pair band.",
+          "checklist": [
+            "Identify the focal anchor in your rectangular room.",
+            "Arrange the main cluster near the anchor and add a secondary perch.",
+            "Position perpendicular elements to break the tunnel effect.",
+            "Maintain adequate spacing for movement."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "open-concept-spaces-conversation-ribbons",
+          "title": "Open Concept Spaces: Conversation Ribbons",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "Chic open-concept living area with a sectional and defined conversation zones, natural light, cozy textures, no people, no text, no watermark.",
+            "flux_prompt": "A beautifully arranged open-concept living area with a sectional sofa and clear pathways between zones.",
+            "alt": "An inviting open-concept space with a well-defined seating arrangement.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\025-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8089158"
+          },
+          "scenario": "In a spacious open-concept living-dining-kitchen area in Mumbai, Aditi found her sectional sofa near the large windows, but traffic cut through the center, disrupting conversations.",
+          "principle": "Conversation ribbons help define seating clusters and pathways in open concept spaces.",
+          "body": [
+            "A conversation ribbon is a cluster with a social anchor, not a styling strip. Coffee-table reach stays 16–20 inches from seat edges. The outer edge of the ribbon must leave a walkway: 36 preferred, 30 compact, never a 24-inch everyday route into the kitchen.",
+            "Open plans still need Everyday / Movie / Hosting / Cleaning modes. Do not freeze the ribbon for guests and make weeknight circulation worse.",
+            "Prevent sound and attention bleed by aligning seat backs toward adjacent functions. If the dining table is behind the seating cluster, keep the chair backs facing that direction to signal that conversation should remain within the ribbon."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Avoid letting open concept ribbons float without edges; shape the ribbon with low elements and lighting cues to define the space. Cause: a measurement or layer was mixed. Fix: use the legend — circulation first, then seats, then focal.",
+          "checklist": [
+            "Identify the main anchor in your open concept space.",
+            "Shape the seating into a U around the anchor.",
+            "Ensure pathways around the seating are clear and wide enough.",
+            "Align seat backs toward adjacent functions to maintain focus."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "no-buy-methods-and-small-large-space-solutions",
+      "title": "No-Buy Methods and Small/Large Space Solutions",
+      "intro": "Transform your drawing room without spending a cent. This chapter provides practical, measurement-free strategies to optimize seating arrangements for both small and large spaces, ensuring conversations flow smoothly and guests feel comfortable.",
+      "opener": {
+        "query": "compact Indian apartment living room, natural light from one window, minimalist decor, warm tones, photorealistic",
+        "flux_prompt": "A full-bleed image showcasing a cozy, well-arranged living room in a compact Indian apartment, featuring a sofa, a couple of chairs, and a small table, all bathed in soft natural light.",
+        "alt": "A conversation-ready drawing room, photographed empty.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\026-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:6970062"
+      },
+      "sections": [
+        {
+          "slug": "understanding-the-problem",
+          "title": "Understanding the Problem",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "Pune apartment living room, natural light, cozy arrangement, warm textures, photorealistic",
+            "flux_prompt": "A detailed view of the living room showing the repositioned armchair facing the sofa, creating a welcoming seating area.",
+            "alt": "A close-up of the seating arrangement highlighting the cozy atmosphere.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\027-pexels.jpg",
+            "credit": "Photo by Anisha Deb on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:36195703"
+          },
+          "scenario": "In a 1BHK apartment in Pune, resident Priya found her living room cramped with a sofa against the longest wall and a single armchair in the corner. Conversations felt strained as the chair faced the television instead of the sofa, leading to awkward pauses.",
+          "principle": "Most rooms default to showroom placement, which can hinder conversation flow.",
+          "body": [
+            "The default arrangement of sofas lining walls and chairs drifting into corners may appear orderly, but it often disrupts the natural flow of conversation. In Priya's case, the armchair's position meant that guests were too far apart to engage comfortably, leading to strained interactions.",
+            "To remedy this, it’s essential to recognize that the core challenge lies in distance and direction. Seats should face each other within a friendly arc to facilitate eye contact and conversation. In small rooms, the fear of crowding can prevent necessary adjustments, while large rooms often feel like lobbies due to excessive spacing.",
+            "By understanding these dynamics, you can begin to see how simple adjustments can create a more inviting atmosphere. Priya's living room could benefit from a few strategic moves to enhance social interaction without the need for new purchases."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: the chair faces the TV and the sofa. Cause: no named primary. Fix: pick Everyday vs Hosting.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "implementing-the-flow-without-buying-framework",
+          "title": "Implementing the Flow Without Buying Framework",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "Bengaluru rental living room, load-bearing wall, cozy arrangement, warm textures, photorealistic",
+            "flux_prompt": "An angle showing the sofa and chair arrangement with the trunk as an anchor, highlighting the inviting atmosphere.",
+            "alt": "A close-up of the trunk serving as a compact anchor.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\028-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8089269"
+          },
+          "scenario": "In a Bengaluru rental, Rohan faced a load-bearing wall that limited his options for furniture placement. He needed to create a welcoming space for friends without buying new furniture.",
+          "principle": "The Flow Without Buying framework allows you to shape your room using four categories of moves: swaps, rotates, anchors, and connectors.",
+          "body": [
+            "Rohan began by swapping his most comfortable chair, which was originally positioned for television viewing, with a lighter chair near the sofa. This simple swap allowed the comfortable chair to become a central piece for conversation, facing the sofa within a gentle arc.",
+            "Next, Rohan made a slight rotation of the sofa to angle it toward the chair. This adjustment, even if minor, significantly changed the room's energy. He tested the angle by placing a book under one leg of the sofa temporarily to see if the new arrangement felt warmer and more inviting.",
+            "Finally, he defined a compact anchor using a low trunk placed between the sofa and the chair. This anchor not only created a focal point but also encouraged conversations to flow more naturally, as it kept voices close and engaged."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: you shopped for a new chair. Cause: skipped the no-buy loop. Fix: rotate and reroute first.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "creating-clusters-in-large-spaces",
+          "title": "Creating Clusters in Large Spaces",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "Mumbai family lounge, spacious arrangement, warm textures, photorealistic",
+            "flux_prompt": "A view showcasing the two clusters in the lounge, connected by a runner and lamps, highlighting the social atmosphere.",
+            "alt": "A close-up of the side table and lamp in the cluster.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\029-pexels.jpg",
+            "credit": "Photo by Sakshi Maheshwari on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:23073439"
+          },
+          "scenario": "In a spacious suburban family lounge in Mumbai, the layout felt disjointed with a sofa set and two tall wing chairs spread too far apart, leading to fragmented conversations among family members.",
+          "principle": "In large rooms, creating multiple clusters connected visually prevents conversation scatter.",
+          "body": [
+            "To address the issue, the family decided to create two distinct clusters. The first cluster consisted of the sofa, one wing chair, and an ottoman as the anchor. The second cluster featured a loveseat, a bench, and a side table as its anchor. This arrangement allowed for more intimate gatherings without losing the overall cohesion of the room.",
+            "Connecting the clusters visually was crucial. The family used a long runner to bridge the two areas, along with strategically placed lamps at face height to enhance sightlines. This visual thread helped unify the space, making it feel like one social scene rather than a waiting area.",
+            "By moving the tall wing chairs closer to the walls, they reduced visual blockage and created a more inviting atmosphere. The result was a lively gathering space where adults could converse in one cluster while teens enjoyed their own space in the other."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: a huge room with one distant pair. Cause: one cluster asked to fill the floor. Fix: a second casual-zone perch.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "final-adjustments-and-testing",
+          "title": "Final Adjustments and Testing",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "Delhi compact studio living room, inviting arrangement, warm textures, photorealistic",
+            "flux_prompt": "A cozy corner of the studio with the throw and tray set up, showcasing the inviting atmosphere.",
+            "alt": "A close-up of the side table with coasters.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\030-pexels.jpg",
+            "credit": "Photo by Ayşegül  Aytören on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:39335058"
+          },
+          "scenario": "After rearranging her living room in a compact city studio in Delhi, Neha wanted to ensure that her new layout encouraged comfortable conversations and a welcoming atmosphere for guests.",
+          "principle": "Subtle cues and supportive surfaces enhance the inviting nature of your space.",
+          "body": [
+            "Neha began by placing side tables within easy reach of each primary seat. She used the elbow drop test to ensure that each table was positioned correctly, allowing guests to comfortably set down drinks and personal items without leaning awkwardly.",
+            "To further enhance the inviting atmosphere, she added subtle cues. A folded throw draped over a chair arm signaled to guests that the seat was available, while a tray with coasters on the anchor provided a shared space for drinks. Neha also turned on lamps at face height to create a warm, flattering light that encouraged longer conversations.",
+            "Finally, she invited a friend over for a short chat to test the new arrangement. Observing where their eyes drifted and how easily they could reach for items helped Neha make micro-adjustments to angles and distances, ensuring that the space felt comfortable and engaging."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: it looked fine empty. Cause: no sit/walk/clap. Fix: three tests with real bodies.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "host-ready-scenarios-and-ongoing-maintenance",
+      "title": "Host-Ready Scenarios and Ongoing Maintenance",
+      "intro": "Layer 5: hosting scenarios. The switchboard has four household modes first — Everyday, Movie/TV, Hosting, Cleaning — then the party types (intimate, games, mixed-age). Hosting must not destroy Tuesday night.",
+      "opener": {
+        "query": "cozy drawing room setup, warm lighting, soft textures, inviting atmosphere",
+        "flux_prompt": "full-bleed shot of a well-arranged drawing room with a sofa, two chairs, and a low table, illuminated by warm lamps",
+        "alt": "A conversation-ready drawing room, photographed empty.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\031-pexels.jpg",
+        "credit": "Photo by Nicholas Derio Palacios on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:13806234"
+      },
+      "sections": [
+        {
+          "slug": "intimate-chats-anchored-triangle-and-warm-lamp-line",
+          "title": "Intimate Chats: Anchored Triangle And Warm Lamp Line",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "intimate chat setup, warm lamp glow, cozy atmosphere",
+            "flux_prompt": "photo of an anchored triangle setup with a sofa, two chairs, and a low table, warm lighting",
+            "alt": "alternative angle showing the cozy arrangement with a focus on the warm lamps.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\032-pexels.jpg",
+            "credit": "Photo by Valentin Ilas on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:34705934"
+          },
+          "scenario": "Riya and Amit live in a 1BHK in Pune with a 9-foot living room. They want to create a cozy space for intimate conversations with friends.",
+          "principle": "An anchored triangle layout fosters rich conversations.",
+          "body": [
+            "To create an anchored triangle, start with a stable anchor like a sofa or a deep chair. Position two additional seats to form a triangle, ensuring they face inward at slight angles. This arrangement encourages easy conversation without the distraction of a dominant screen. Aim for equal seat height to avoid anyone feeling elevated above the others, and keep a small side table within reach of each seat for drinks and phones.",
+            "Layering the warm lamp line is essential for creating a flattering atmosphere. Place a lamp behind the anchor seat and another near the smaller chair, dimming them to a gentle level. If overhead lighting is present, keep it off or very low to maintain a cozy ambiance. Ensure clear sightlines between each seat, pushing tall decor to the edges so that everyone can see each other's eyes without straining.",
+            "Riya and Amit can use a simple plant or a stack of books as a soft focus point on the low table. This setup not only enhances the conversation but also makes the room feel inviting and warm."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: lamps silhouette faces. Cause: light behind heads. Fix: social light beside faces.",
+          "checklist": [
+            "Arrange seating in an anchored triangle",
+            "Ensure equal seat heights",
+            "Dim lamps for warm lighting",
+            "Maintain clear sightlines"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "game-nights-stable-surface-and-equal-sightlines",
+          "title": "Game Nights: Stable Surface And Equal Sightlines",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "game night setup, vibrant atmosphere, cozy lighting",
+            "flux_prompt": "photo of a game night setup with a central coffee table, chairs angled towards it, and warm lighting",
+            "alt": "alternative angle showing players engaging around the game table.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\033-pexels.jpg",
+            "credit": "Photo by Yan Krukau on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:9069213"
+          },
+          "scenario": "Vikram hosts a game night in his Bengaluru rental, which has a load-bearing wall that limits furniture placement.",
+          "principle": "A stable surface with equal sightlines enhances game night enjoyment.",
+          "body": [
+            "For game nights, the most stable surface should be at the center of the arrangement. Vikram can use a coffee table as the game surface, ensuring that it is positioned to allow each player natural elbow space and clear access to cards or boards. The key is to maintain equal distances between seats, allowing everyone to engage without feeling cramped.",
+            "To facilitate interaction, angle chairs slightly toward the center while keeping views across the table open. This setup encourages banter and quick comments, making the game more enjoyable. Adding small aids like a low ottoman can provide extra seating or a place to set snacks, enhancing comfort during longer games.",
+            "Lighting is crucial during game nights. Vikram should use two or three lamps that provide ample light without glare. If overhead light is available, it should be diffused to avoid harshness. Snacks should be kept at arm's length on a narrow console or nesting tables to prevent clutter on the game surface."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: cards live under snack bowls. Cause: coffee table doing two jobs. Fix: side trays.",
+          "checklist": [
+            "Position stable surface at the center",
+            "Angle chairs for equal sightlines",
+            "Use bright but gentle lighting",
+            "Keep snacks off the game surface"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "mixed-age-gatherings-perches-pivot-seat-and-traffic-protecti",
+          "title": "Mixed Age Gatherings: Perches, Pivot Seat, And Traffic Protection",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "mixed age gathering setup, cozy and inviting, layered lighting",
+            "flux_prompt": "photo of a mixed-age gathering setup with a pivot seat, perches, and a clear pathway",
+            "alt": "alternative angle showing the family enjoying the gathering.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\034-pexels.jpg",
+            "credit": "Photo by Newman Photographs on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:31107438"
+          },
+          "scenario": "Anjali invites her family over to her Mumbai flat, which has a window on only one side, for a mixed-age gathering.",
+          "principle": "Flexible seating and clear pathways accommodate diverse age groups.",
+          "body": [
+            "For gatherings that include toddlers, teens, adults, and elders, Anjali should start with a pivot seat that offers a broad view of the room. This could be a corner chair that can face the main cluster or rotate toward play on the rug. Adding perches like stools or ottomans along the edges allows guests to drop in for a quick chat without committing to a deep seat.",
+            "It's important to keep one clear path from the entry to the main seating area. Anjali can use a runner or a low shelf to visually guide guests while minimizing traffic through the main conversation area. This layout helps maintain a comfortable flow and prevents interruptions during conversations.",
+            "Lighting should be layered to accommodate various activities. A gentle pool of light on the rug helps parents keep an eye on younger guests, while warm side lighting supports conversation. Sound softeners like a folded throw over a noisy tray and a rug with some pile can help reduce echo, ensuring that small voices are heard."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: toys in the walkway. Cause: play mixed into circulation. Fix: play on the rug, path kept.",
+          "checklist": [
+            "Use a pivot seat for visibility",
+            "Add perches for flexible seating",
+            "Maintain clear pathways",
+            "Layer lighting for different activities"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "implementation-strategy-build-your-scenario-switchboard",
+          "title": "Scenario switchboard: household modes first",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "hosting switchboard setup, organized and efficient, inviting atmosphere",
+            "flux_prompt": "photo of a well-organized hosting area with labeled scenarios and movable items",
+            "alt": "alternative angle showing the setup process in action.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\035-pexels.jpg",
+            "credit": "Photo by Alpha En on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:28461035"
+          },
+          "scenario": "Neha wants to create a switchboard for her small apartment in Delhi to streamline hosting.",
+          "principle": "Everyday, Movie/TV, Hosting, Cleaning — then chats, games, mixed-age.",
+          "body": [
+            "Today's output: four household modes on a card, plus optional party overlays.",
+            "Everyday mode: circulation and the real primary focal (often the TV) win. Movie/TV mode: seats may square more toward the screen; keep a compact walkway. Hosting mode: triangle, social light, host loop. Cleaning mode: paths open, rug corners flat, cords off the floor.",
+            "Intimate chats, game nights, and mixed-age gatherings are overlays on Hosting, not a second operating system. Mark five movable pieces. Store them near the room."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Switchboard modes",
+              "caption": "Household modes first. Party types are overlays.",
+              "values": [
+                "Circulation and the real Tuesday focal",
+                "Screen-first, walkway still compact-or-better",
+                "Triangle, social light, serve-and-collect loop",
+                "Open paths, flat rug, cords off the floor"
+              ],
+              "labels": [
+                "Everyday",
+                "Movie / TV",
+                "Hosting",
+                "Cleaning"
+              ],
+              "minimum": null,
+              "spec_id": "D037",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D037.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: the 'hosting' layout is still up on Wednesday. Cause: no Everyday mode. Fix: tape marks for Tuesday.",
+          "checklist": [
+            "Label Everyday / Movie / Hosting / Cleaning",
+            "Then chats, games, mixed-age if you host those",
+            "Mark five movable pieces"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "48-hour-action-checklist",
+      "title": "Printable 48-hour checklist",
+      "intro": "This is the canonical 48-hour protocol as tick boxes. It is not a second plan. If a number here disagrees with the measurement legend, the legend wins.",
+      "opener": {
+        "query": "interior of a cozy Indian drawing room, natural light from one window, soft textures, warm color palette, no people",
+        "flux_prompt": "full-bleed shot of a well-arranged drawing room with a focal point, showcasing seating and decor",
+        "alt": "A conversation-ready drawing room, photographed empty.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\036-pexels.jpg",
+        "credit": "Photo by Lucian Petrean on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:3987481"
+      },
+      "sections": [
+        {
+          "slug": "day-1-flow-foundations",
+          "title": "Day 1 ticks: circulation, seats, focals",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "cozy drawing room setup, natural light from one window, warm textures, no people",
+            "flux_prompt": "full-bleed shot of a drawing room with seating arranged for conversation, showcasing focal point and decor",
+            "alt": "a close-up of a seating arrangement with a coffee table at the correct distance.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\037-pexels.jpg",
+            "credit": "Photo by Waqar Hassan on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:38290266"
+          },
+          "scenario": "Ravi lives in a 1BHK apartment in Pune with a 9-foot living room. He often finds conversations with friends awkward due to the seating arrangement. Following the 48-hour action checklist, he aims to improve the flow without buying new furniture.",
+          "principle": "One protocol. Measure with the legend.",
+          "body": [
+            "Today's output: Day 1 ticks. Do not invent extra hours.",
+            "Scan doors, glare, bottlenecks. Name primary focal, secondary focal, social anchor. Rotate seats 15–30° from the wall-facing start. Set conversation angle by sitting, not by reusing the rotation number. Coffee-table reach 16–20 inches from the seat edge. Pair seat-to-seat 30–48 inches. Walk test on the everyday path: 36 preferred, 30 compact. Do not use 60–84 inches for a two-person cluster — that band is for group circles.",
+            "Mini tests: sit (eye contact without a sharp neck turn), walk (kitchen path not between faces), voice (soft speech carries inside the zone diameter)."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Day 1 measurements",
+              "caption": "Pairs are not group circles.",
+              "values": [
+                "Sixteen to twenty inches from the seat edge",
+                "Thirty to forty-eight inches front to front",
+                "Thirty-six preferred, thirty compact",
+                "Fifteen to thirty degrees from the wall"
+              ],
+              "labels": [
+                "Coffee-table reach",
+                "Pair seat-to-seat",
+                "Everyday walkway",
+                "Seat rotation"
+              ],
+              "minimum": null,
+              "spec_id": "D038",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D038.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Conduct a discovery scan of the room.",
+              "minutes": null
+            },
+            {
+              "text": "Choose a primary focal point for conversation.",
+              "minutes": null
+            },
+            {
+              "text": "Rotate main seats toward the focal point.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: two chairs sit 72 inches apart 'because the old checklist said 60–84.' Cause: group-circle band used for a pair. Fix: pull into 30–48 inches.",
+          "checklist": [
+            "Conduct a discovery scan of the room.",
+            "Choose a primary focal point for conversation.",
+            "Rotate main seats toward the focal point."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "day-2-polishing-and-cues",
+          "title": "Day 2 ticks: light, clap, host loop",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "drawing room with defined traffic flow, warm textures, natural light, no people",
+            "flux_prompt": "full-bleed shot of a drawing room with a clear traffic loop and inviting seating arrangement",
+            "alt": "a close-up of a side table within fingertip reach of a seat.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\038-pexels.jpg",
+            "credit": "Photo by Oleg Melevych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:12212553"
+          },
+          "scenario": "Ravi continues his work on the drawing room in Pune, focusing on refining the arrangement for better conversation flow. He aims to make the space more inviting for his guests during weekend gatherings.",
+          "principle": "Polishing the arrangement enhances comfort and accessibility.",
+          "body": [
+            "Today's output: Day 2 ticks. Same protocol as the canonical chapter.",
+            "Carve the loop. Clap test. Social lamps on faces, not behind heads. Host loop both directions. Quick swaps of lamp, rug, or side table only to hit the legend — not a new geometry.",
+            "If a door or window pinch exists, keep it short and labeled. It is not permission to run the whole room at 24 inches."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Walkway hierarchy",
+              "caption": "Twenty-four inches is never the primary everyday route.",
+              "values": [
+                "Preferred everyday path",
+                "Acceptable compact path",
+                "Short pinch only, never the main route",
+                "If someone uses a mobility aid, use their clearance instead"
+              ],
+              "labels": [
+                "Thirty-six inches",
+                "Thirty inches",
+                "Twenty-four to thirty inches",
+                "Household override"
+              ],
+              "minimum": null,
+              "spec_id": "D051",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D051.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Define a clear traffic loop from the door to each seat.",
+              "minutes": null
+            },
+            {
+              "text": "Add soft furnishings to reduce echo.",
+              "minutes": null
+            },
+            {
+              "text": "Lower tall decor that obstructs sightlines.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Day 2 undoes Day 1 paths. Cause: polishing treated as a second layout. Fix: polish light and sound only.",
+          "checklist": [
+            "Define a clear traffic loop from the door to each seat.",
+            "Add soft furnishings to reduce echo.",
+            "Lower tall decor that obstructs sightlines."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "before-and-after-layout-templates",
+      "title": "Print, sketch, measure, test",
+      "intro": "These pages are blank working sheets. Print them, sketch the room, write the legend numbers, then move furniture. They are not finished layouts to copy.",
+      "opener": {
+        "query": "drawing room layout, seating arrangement, conversation-friendly design, natural light, cozy textures",
+        "flux_prompt": "full-bleed image of a well-arranged drawing room with a focus on seating and conversation areas, showcasing natural light and inviting textures",
+        "alt": "A conversation-ready drawing room, photographed empty.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\039-pexels.jpg",
+        "credit": "Photo by aksinfo7 universe on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:36676788"
+      },
+      "sections": [
+        {
+          "slug": "purpose-and-benefits",
+          "title": "Blank sheet: before",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "drawing room layout, cozy seating, inviting atmosphere, natural light",
+            "flux_prompt": "image of a cozy drawing room layout with inviting seating and natural light, emphasizing conversation-friendly design",
+            "alt": "a well-arranged drawing room showcasing comfortable seating and clear pathways for conversation",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\031-pexels.jpg",
+            "credit": "Photo by Nicholas Derio Palacios on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:13806234"
+          },
+          "scenario": "Ravi lives in a 1BHK apartment in Pune with a small 9-foot living room. He often finds that guests feel awkward during gatherings. By using the layout templates, he aims to create a more inviting space for conversation.",
+          "principle": "Print → sketch → measure → test.",
+          "body": [
+            "Today's output: a before sketch with doors, windows, and furniture blocks.",
+            "On paper, draw the room outline. Mark door swings. Mark the everyday path as a hatched walkway. Write three labels: primary focal, social anchor, pinch (if any). Do not decorate the sheet."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Before-sheet prompts",
+              "caption": "Fill this on paper. The figure is a prompt, not a plan.",
+              "values": [
+                "Outline walls, doors, windows",
+                "Hatch the everyday walkway",
+                "Box the social anchor",
+                "Star the primary focal",
+                "Write pinch width if it exists"
+              ],
+              "labels": [
+                "Room",
+                "Circulation",
+                "Social anchor",
+                "Primary focal",
+                "Pinch"
+              ],
+              "minimum": null,
+              "spec_id": "D039",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D039.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: you moved furniture before measuring. Cause: the 'template' was read as a picture. Fix: sketch and tape first.",
+          "checklist": [
+            "Print or copy a grid",
+            "Sketch before",
+            "Write legend numbers on the page"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "how-to-use-the-templates",
+          "title": "Blank sheet: walkway and rotation",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "drawing room layout, seating arrangement, clear pathways, cozy textures",
+            "flux_prompt": "image of a drawing room with marked walkway paths and seating arrangements, emphasizing clear navigation and comfort",
+            "alt": "a drawing room layout with clear pathways and comfortable seating arrangements",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\039-pexels.jpg",
+            "credit": "Photo by aksinfo7 universe on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:36676788"
+          },
+          "scenario": "Anjali, living in a Bengaluru rental with a load-bearing wall, needs to optimize her seating arrangement for her drawing room. She uses the templates to visualize the best layout for her space.",
+          "principle": "Templates provide a structured approach to layout design.",
+          "body": [
+            "Today's output: walkway masks at 36 / 30 / pinch, and rotation arcs — not conversation-angle arcs.",
+            "Lay tape for preferred 36 inches and compact 30 inches. Mark a short pinch only where the door or a column forces it. Seat rotation overlays are 15°, 22°, or 30° from the wall-facing start. They are not 90–120° conversation angles."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Walkway hierarchy",
+              "caption": "Twenty-four inches is never the primary everyday route.",
+              "values": [
+                "Preferred everyday path",
+                "Acceptable compact path",
+                "Short pinch only, never the main route",
+                "If someone uses a mobility aid, use their clearance instead"
+              ],
+              "labels": [
+                "Thirty-six inches",
+                "Thirty inches",
+                "Twenty-four to thirty inches",
+                "Household override"
+              ],
+              "minimum": null,
+              "spec_id": "D052",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D052.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Two angles, never mixed",
+              "caption": "Seat rotation and conversation angle are different measurements.",
+              "values": [
+                "Turn from the original wall-facing position",
+                "Angle between two seats' facing directions",
+                "A chair toed in from the wall",
+                "Two chairs open toward each other",
+                "Do not treat them as the same number"
+              ],
+              "labels": [
+                "Seat rotation",
+                "Conversation angle",
+                "Typical rotation start",
+                "Typical pair conversation angle",
+                "Rule"
+              ],
+              "minimum": null,
+              "spec_id": "D053",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D053.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: overlay says 22° and the pair still feels like an interview. Cause: rotation overlay used as conversation angle. Fix: sit and check the viewing directions.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "main-content-templates-and-worksheets",
+          "title": "Blank sheet: after and sit-test",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "drawing room layout, furniture arrangement, natural light, cozy atmosphere",
+            "flux_prompt": "image of a drawing room layout with marked furniture placements and angles, showcasing natural light and inviting textures",
+            "alt": "a drawing room layout with furniture arranged for optimal conversation and light",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\042-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7745991"
+          },
+          "scenario": "Deepak is rethinking his Mumbai flat's drawing room, which has a window on only one side. He uses the templates to sketch out a new layout that maximizes light and conversation.",
+          "principle": "Detailed templates facilitate effective planning and execution.",
+          "body": [
+            "Today's output: an after sketch plus sit / walk / clap results.",
+            "Sketch the new blocks. Write seat-to-seat for each pair. Write zone diameter. Write walkway at the tightest everyday point. Sit in every seat. If everyday living got worse, the after sketch fails even if the triangle looks pretty."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Planning ranges (starting points)",
+              "caption": "Furniture and rooms vary. Measure, then test by sitting.",
+              "values": [
+                "About six to eight feet",
+                "About eight to twelve feet",
+                "Thirty to forty-eight inches",
+                "Thirty-six to fifty-four inches",
+                "Sixty to eighty-four inches",
+                "Thirty-six inches preferred; thirty compact",
+                "Twenty-four to thirty, short pinch only",
+                "Fifteen to thirty degrees from wall-facing",
+                "Ninety to one-twenty degrees between views",
+                "Sixteen to twenty inches from the seat edge"
+              ],
+              "labels": [
+                "Intimate zone diameter",
+                "Casual zone diameter",
+                "Pairs, seat-to-seat",
+                "Trios, seat-to-seat",
+                "Group circles, seat-to-seat",
+                "Everyday walkway",
+                "Pinch point",
+                "Seat rotation",
+                "Conversation angle",
+                "Coffee-table reach"
+              ],
+              "minimum": null,
+              "spec_id": "D054",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D054.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: the after photo looks calm and the kitchen path is gone. Cause: styling beat layer 1. Fix: restore circulation.",
+          "checklist": [
+            "Seat-to-seat written",
+            "Walkway written",
+            "Sit, walk, clap"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "conversation-flow-mapping-worksheet",
+      "title": "Conversation Flow Mapping for Indian Apartments",
+      "intro": "City names are illustrations. Use the same measurement legend. The 24-inch walkway in older diagrams was a pinch, not a standard.",
+      "opener": {
+        "query": "A cozy drawing room in a Pune apartment with a 9-foot living room, featuring a sofa, two chairs, and a coffee table, illuminated by warm lighting.",
+        "flux_prompt": "Full-bleed image of a well-arranged drawing room with defined seating zones, soft textures, and inviting lighting.",
+        "alt": "A conversation-ready drawing room, photographed empty.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\043-pexels.jpg",
+        "credit": "Photo by Donald Tong on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:189333"
+      },
+      "sections": [
+        {
+          "slug": "mapping-your-space",
+          "title": "Mapping Your Space",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "A well-defined seating area in a Pune apartment, showcasing a sofa and chairs arranged for optimal conversation flow, with soft lighting and decorative elements.",
+            "flux_prompt": "A cozy drawing room with a warm color palette, featuring a plush rug and inviting seating arrangement.",
+            "alt": "An inviting seating arrangement with a focus on comfort and conversation.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\044-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6920628"
+          },
+          "scenario": "Ravi lives in a 1BHK in Pune with a 9-foot living room. He wants to create a welcoming environment for his friends during game nights. By mapping out his space, he can identify key areas for seating and movement.",
+          "principle": "Map focals and the social anchor before you rotate anything.",
+          "body": [
+            "Today's output: furniture list, primary focal, social anchor, everyday path.",
+            "Walk at guest eye height. A stool used as a pivot is seating relationship, not circulation. If you buffer a walkway at 24 inches, label it a short pinch and keep the main route at 30–36."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "24 inches is a pinch",
+              "caption": "Never the primary everyday circulation route.",
+              "values": [
+                "Allowed only as a short squeeze",
+                "Compact everyday path",
+                "Preferred everyday path"
+              ],
+              "labels": [
+                "Twenty-four to thirty inches",
+                "Thirty inches",
+                "Thirty-six inches"
+              ],
+              "minimum": null,
+              "spec_id": "D040",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D040.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: the worksheet still says 'buffer 24 inches' next to the kitchen. Cause: pinch used as the main aisle. Fix: relabel.",
+          "checklist": [
+            "Walk the room at guest eye level",
+            "List all furniture and movable pieces",
+            "Identify focal points and seating zones"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "seating-angles-and-proximity",
+          "title": "Seating Angles and Proximity",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "A Bengaluru rental living room with a well-planned seating arrangement, showcasing angles and proximity for comfortable conversation.",
+            "flux_prompt": "An inviting living space with a focus on seating angles, featuring warm lighting and decorative accents.",
+            "alt": "A cozy arrangement that emphasizes conversation and comfort.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\045-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7546319"
+          },
+          "scenario": "Neha, living in a compact Bengaluru rental, wants to ensure her guests can engage comfortably during gatherings. She focuses on seating angles and proximity bands to facilitate conversation.",
+          "principle": "90–120° is conversation angle. 15–30° is seat rotation. 30–48 inches is pair seat-to-seat.",
+          "body": [
+            "Today's output: two angle numbers and one seat-to-seat number for each pair.",
+            "For pairs, conversation angle (viewing directions) is often about 90–120°, with about 100° to the sofa as one example. That is not seat rotation. Rotate each chair 15–30° from the wall, then sit to confirm the conversation angle.",
+            "Seat-to-seat, front to front: pairs 30–48 inches; trios 36–54 inches; group circles 60–84 inches. Intimate zone diameter 6–8 feet and casual 8–12 feet describe the cluster size, not the gap between two chair fronts."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Two angles, never mixed",
+              "caption": "Seat rotation and conversation angle are different measurements.",
+              "values": [
+                "Turn from the original wall-facing position",
+                "Angle between two seats' facing directions",
+                "A chair toed in from the wall",
+                "Two chairs open toward each other",
+                "Do not treat them as the same number"
+              ],
+              "labels": [
+                "Seat rotation",
+                "Conversation angle",
+                "Typical rotation start",
+                "Typical pair conversation angle",
+                "Rule"
+              ],
+              "minimum": null,
+              "spec_id": "D055",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D055.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Planning ranges (starting points)",
+              "caption": "Furniture and rooms vary. Measure, then test by sitting.",
+              "values": [
+                "About six to eight feet",
+                "About eight to twelve feet",
+                "Thirty to forty-eight inches",
+                "Thirty-six to fifty-four inches",
+                "Sixty to eighty-four inches",
+                "Thirty-six inches preferred; thirty compact",
+                "Twenty-four to thirty, short pinch only",
+                "Fifteen to thirty degrees from wall-facing",
+                "Ninety to one-twenty degrees between views",
+                "Sixteen to twenty inches from the seat edge"
+              ],
+              "labels": [
+                "Intimate zone diameter",
+                "Casual zone diameter",
+                "Pairs, seat-to-seat",
+                "Trios, seat-to-seat",
+                "Group circles, seat-to-seat",
+                "Everyday walkway",
+                "Pinch point",
+                "Seat rotation",
+                "Conversation angle",
+                "Coffee-table reach"
+              ],
+              "minimum": null,
+              "spec_id": "D056",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D056.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: you set 100° and also 20° and cannot tell which is 'right.' Cause: mixed angle systems. Fix: label both.",
+          "checklist": [
+            "Arrange seating at preferred angles",
+            "Ensure proximity bands are respected",
+            "Test the seating arrangement with friends"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "creating-movement-loops",
+          "title": "Creating Movement Loops",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "A Mumbai apartment living room designed for smooth movement, featuring clear pathways and a welcoming atmosphere.",
+            "flux_prompt": "A well-arranged living space with defined movement paths, soft textures, and inviting lighting.",
+            "alt": "An organized layout that promotes easy movement and conversation.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\046-pexels.jpg",
+            "credit": "Photo by Souranshi Fashion and  Lifestyle Magazine on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7148779"
+          },
+          "scenario": "In a Mumbai flat with a window on only one side, Aditi needs to create clear pathways for movement during her gatherings. She focuses on establishing entry and host paths that avoid cutting through seating areas.",
+          "principle": "Entry, host serve, host collect. No dead ends. No path between paired faces.",
+          "body": [
+            "Today's output: three sketched paths — entry, serve, collect.",
+            "Entry to a perch or host station. Kitchen → serving surface → guests → collection → kitchen. If a loop dead-ends, people reverse through the cluster."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: guests reverse through knees with dirty plates. Cause: no collect path. Fix: draw the return before the party.",
+          "checklist": [
+            "Sketch entry and host paths",
+            "Ensure pathways are clear",
+            "Test movement loops during gatherings"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "weekly-reset-checklist",
+          "title": "Weekly reset: measurable checks",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "A well-maintained drawing room in a Delhi apartment, showcasing a cozy and inviting atmosphere with fresh textiles and organized seating.",
+            "flux_prompt": "A beautifully arranged living space with a focus on comfort and conversation, featuring soft textures and warm lighting.",
+            "alt": "An inviting drawing room ready for gatherings.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\047-pexels.jpg",
+            "credit": "Photo by RAJESH KUMAR    VERMA on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8236023"
+          },
+          "scenario": "After hosting several gatherings, Priya in a 1BHK in Delhi wants to maintain her optimized conversation flow. She uses a weekly reset checklist to ensure her space remains inviting and functional.",
+          "principle": "A reset is a pass/fail list, not a vibe.",
+          "body": [
+            "Today's output: seven yes/no checks. If any fail, that is the only work this week.",
+            "Is the main walkway clear at 30–36 inches (pinch labeled if it exists)? Can every seat see at least one other seat? Have any pieces drifted off their marks? Is the rug still aligned, corners flat, not on the main route? Are serving surfaces clear? Are cords a trip hazard? Is the entry path clear?",
+            "Lighting and textiles can refresh after the checks pass. Cleaning mode is part of the switchboard, not a mood."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Weekly reset checks",
+              "caption": "Yes or no. Not 'tidier.'",
+              "values": [
+                "Thirty to thirty-six inches on the everyday path",
+                "Every seat sees at least one other",
+                "Feet still on the marks",
+                "Corners flat, edge off the main route",
+                "Not a second cupboard",
+                "No trip lines",
+                "Door to first seat is obvious"
+              ],
+              "labels": [
+                "Main walkway clear",
+                "Seat sees a seat",
+                "No drift",
+                "Rug safe",
+                "Serving surfaces clear",
+                "Cords",
+                "Entry path"
+              ],
+              "minimum": null,
+              "spec_id": "D041",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D041.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: you fluffed pillows and the walkway is still 24 inches. Cause: reset was styling. Fix: measure the path.",
+          "checklist": [
+            "Walkway",
+            "Sight between seats",
+            "Drift",
+            "Rug",
+            "Serving",
+            "Cords",
+            "Entry"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,431 @@
+{
+  "title": "Conversation Ready Drawing Room",
+  "units": "imperial",
+  "outputs": {
+    "pdf": "build\\Conversation Ready Drawing Room\\conversation-ready-drawing-room.pdf",
+    "cover": "build\\Conversation Ready Drawing Room\\cover.pdf",
+    "epub": "build\\Conversation Ready Drawing Room\\conversation-ready-drawing-room.epub",
+    "epub_preview": "build\\Conversation Ready Drawing Room\\epub-preview.html"
+  },
+  "ai_generated_images": 1,
+  "kdp_ai_disclosure_required": true,
+  "images": [
+    {
+      "query": "A cozy drawing room with a sofa and chairs arranged for conversation, soft lighting, and a warm atmosphere.",
+      "source": "openai",
+      "credit": "Cover illustration",
+      "ai": true,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\cover.jpg"
+    },
+    {
+      "query": "A cozy drawing room with a sofa and chairs arranged for conversation, soft lighting, and a warm atmosphere.",
+      "source": "pexels",
+      "credit": "Photo by Matheus Bertelli on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\001-pexels.jpg"
+    },
+    {
+      "query": "A drawing room with a large window as the focal point, soft furnishings, and minimal clutter.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\002-pexels.jpg"
+    },
+    {
+      "query": "A triangular seating arrangement in a living room, with soft lighting and a welcoming atmosphere.",
+      "source": "pexels",
+      "credit": "Photo by Gerdiephotography G on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\003-pexels.jpg"
+    },
+    {
+      "query": "A living room with clear pathways around the seating area, inviting conversation.",
+      "source": "pexels",
+      "credit": "Photo by Lupita Moreno on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\004-pexels.jpg"
+    },
+    {
+      "query": "A living room with soft lighting and textiles that enhance comfort.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\005-pexels.jpg"
+    },
+    {
+      "query": "interior of a cozy Indian living room, natural light from one window, soft textures, warm colors, no people",
+      "source": "pexels",
+      "credit": "Photo by Andranik Paradyan on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\006-pexels.jpg"
+    },
+    {
+      "query": "interior of a Pune apartment living room, natural light, cozy arrangement, no people",
+      "source": "pexels",
+      "credit": "Photo by Subham Majumder on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\007-pexels.jpg"
+    },
+    {
+      "query": "Bengaluru studio apartment interior, cozy seating arrangement, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\008-pexels.jpg"
+    },
+    {
+      "query": "inviting seating arrangement in a small Indian living room, natural light, warm colors, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by ธันยกร ไกรสร on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\010-pexels.jpg"
+    },
+    {
+      "query": "movement pathways in a small Indian apartment, natural light, clear circulation paths, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Aditya Oberai on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\011-pexels.jpg"
+    },
+    {
+      "query": "small indian apartment interior minimalist daylight editorial",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\013-pexels.jpg"
+    },
+    {
+      "query": "Compact Indian apartment living room with soft textiles, natural light from one window, and a cozy arrangement of furniture, no people, no text.",
+      "source": "pexels",
+      "credit": "Photo by Lisa Fotios on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\015-pexels.jpg"
+    },
+    {
+      "query": "Compact Indian apartment living room with a clear traffic path, soft rugs, and acoustic elements like curtains and cushions.",
+      "source": "pexels",
+      "credit": "Photo by Liva  Kitchens And Interiors on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\016-pexels.jpg"
+    },
+    {
+      "query": "Bengaluru rental living room with a clear buffer zone behind seating, soft textiles, and natural light.",
+      "source": "pexels",
+      "credit": "Photo by Josh Sorenson on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\017-pexels.jpg"
+    },
+    {
+      "query": "Mumbai flat living room with a welcoming entry zone, soft textiles, and a cozy atmosphere.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\018-pexels.jpg"
+    },
+    {
+      "query": "Chennai living room with a clear host pathway, soft textiles, and a cozy atmosphere.",
+      "source": "pexels",
+      "credit": "Photo by DARKMODE CINEMA on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\019-pexels.jpg"
+    },
+    {
+      "query": "Kolkata apartment living room with soft textiles, rugs, and acoustic elements that enhance sound quality.",
+      "source": "pexels",
+      "credit": "Photo by Jubair Bin Iqbal on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\020-pexels.jpg"
+    },
+    {
+      "query": "Hyderabad flat living room with a well-sized rug that anchors the seating area and guides movement.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\021-pexels.jpg"
+    },
+    {
+      "query": "Square, rectangular, and open-concept room layouts in Indian apartments, natural light, cozy textures, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Faruk Tokluoğlu on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\022-pexels.jpg"
+    },
+    {
+      "query": "Cozy square living room layout with a central coffee table, natural light, soft textures, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Stephen Leonardi on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\023-pexels.jpg"
+    },
+    {
+      "query": "Stylish rectangular living room with a television and seating clusters, natural light, cozy textures, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\024-pexels.jpg"
+    },
+    {
+      "query": "Chic open-concept living area with a sectional and defined conversation zones, natural light, cozy textures, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\025-pexels.jpg"
+    },
+    {
+      "query": "compact Indian apartment living room, natural light from one window, minimalist decor, warm tones, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\026-pexels.jpg"
+    },
+    {
+      "query": "Pune apartment living room, natural light, cozy arrangement, warm textures, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Anisha Deb on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\027-pexels.jpg"
+    },
+    {
+      "query": "Bengaluru rental living room, load-bearing wall, cozy arrangement, warm textures, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\028-pexels.jpg"
+    },
+    {
+      "query": "Mumbai family lounge, spacious arrangement, warm textures, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Sakshi Maheshwari on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\029-pexels.jpg"
+    },
+    {
+      "query": "Delhi compact studio living room, inviting arrangement, warm textures, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Ayşegül  Aytören on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\030-pexels.jpg"
+    },
+    {
+      "query": "cozy drawing room setup, warm lighting, soft textures, inviting atmosphere",
+      "source": "pexels",
+      "credit": "Photo by Nicholas Derio Palacios on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\031-pexels.jpg"
+    },
+    {
+      "query": "intimate chat setup, warm lamp glow, cozy atmosphere",
+      "source": "pexels",
+      "credit": "Photo by Valentin Ilas on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\032-pexels.jpg"
+    },
+    {
+      "query": "game night setup, vibrant atmosphere, cozy lighting",
+      "source": "pexels",
+      "credit": "Photo by Yan Krukau on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\033-pexels.jpg"
+    },
+    {
+      "query": "mixed age gathering setup, cozy and inviting, layered lighting",
+      "source": "pexels",
+      "credit": "Photo by Newman Photographs on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\034-pexels.jpg"
+    },
+    {
+      "query": "hosting switchboard setup, organized and efficient, inviting atmosphere",
+      "source": "pexels",
+      "credit": "Photo by Alpha En on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\035-pexels.jpg"
+    },
+    {
+      "query": "interior of a cozy Indian drawing room, natural light from one window, soft textures, warm color palette, no people",
+      "source": "pexels",
+      "credit": "Photo by Lucian Petrean on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\036-pexels.jpg"
+    },
+    {
+      "query": "cozy drawing room setup, natural light from one window, warm textures, no people",
+      "source": "pexels",
+      "credit": "Photo by Waqar Hassan on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\037-pexels.jpg"
+    },
+    {
+      "query": "drawing room with defined traffic flow, warm textures, natural light, no people",
+      "source": "pexels",
+      "credit": "Photo by Oleg Melevych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\038-pexels.jpg"
+    },
+    {
+      "query": "drawing room layout, seating arrangement, conversation-friendly design, natural light, cozy textures",
+      "source": "pexels",
+      "credit": "Photo by aksinfo7 universe on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\039-pexels.jpg"
+    },
+    {
+      "query": "drawing room layout, furniture arrangement, natural light, cozy atmosphere",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\042-pexels.jpg"
+    },
+    {
+      "query": "A cozy drawing room in a Pune apartment with a 9-foot living room, featuring a sofa, two chairs, and a coffee table, illuminated by warm lighting.",
+      "source": "pexels",
+      "credit": "Photo by Donald Tong on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\043-pexels.jpg"
+    },
+    {
+      "query": "A well-defined seating area in a Pune apartment, showcasing a sofa and chairs arranged for optimal conversation flow, with soft lighting and decorative elements.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\044-pexels.jpg"
+    },
+    {
+      "query": "A Bengaluru rental living room with a well-planned seating arrangement, showcasing angles and proximity for comfortable conversation.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\045-pexels.jpg"
+    },
+    {
+      "query": "A Mumbai apartment living room designed for smooth movement, featuring clear pathways and a welcoming atmosphere.",
+      "source": "pexels",
+      "credit": "Photo by Souranshi Fashion and  Lifestyle Magazine on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\046-pexels.jpg"
+    },
+    {
+      "query": "A well-maintained drawing room in a Delhi apartment, showcasing a cozy and inviting atmosphere with fresh textiles and organized seating.",
+      "source": "pexels",
+      "credit": "Photo by RAJESH KUMAR    VERMA on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\photos\\047-pexels.jpg"
+    }
+  ],
+  "figures": [
+    {
+      "spec_id": "D035",
+      "kind": "table",
+      "title": "Which system to use, in order",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D035.svg"
+    },
+    {
+      "spec_id": "D034",
+      "kind": "table",
+      "title": "Three kinds of 'anchor'",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D034.svg"
+    },
+    {
+      "spec_id": "D030",
+      "kind": "table",
+      "title": "Measurement language used in this book",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D030.svg"
+    },
+    {
+      "spec_id": "D032",
+      "kind": "table",
+      "title": "Two angles, never mixed",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D032.svg"
+    },
+    {
+      "spec_id": "D031",
+      "kind": "table",
+      "title": "Planning ranges (starting points)",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D031.svg"
+    },
+    {
+      "spec_id": "D033",
+      "kind": "table",
+      "title": "Walkway hierarchy",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D033.svg"
+    },
+    {
+      "spec_id": "D036",
+      "kind": "table",
+      "title": "Heights and light (planning ranges)",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D036.svg"
+    },
+    {
+      "spec_id": "D050",
+      "kind": "table",
+      "title": "Walkway hierarchy",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D050.svg"
+    },
+    {
+      "spec_id": "D037",
+      "kind": "table",
+      "title": "Switchboard modes",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D037.svg"
+    },
+    {
+      "spec_id": "D038",
+      "kind": "table",
+      "title": "Day 1 measurements",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D038.svg"
+    },
+    {
+      "spec_id": "D051",
+      "kind": "table",
+      "title": "Walkway hierarchy",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D051.svg"
+    },
+    {
+      "spec_id": "D039",
+      "kind": "table",
+      "title": "Before-sheet prompts",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D039.svg"
+    },
+    {
+      "spec_id": "D052",
+      "kind": "table",
+      "title": "Walkway hierarchy",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D052.svg"
+    },
+    {
+      "spec_id": "D053",
+      "kind": "table",
+      "title": "Two angles, never mixed",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D053.svg"
+    },
+    {
+      "spec_id": "D054",
+      "kind": "table",
+      "title": "Planning ranges (starting points)",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D054.svg"
+    },
+    {
+      "spec_id": "D040",
+      "kind": "table",
+      "title": "24 inches is a pinch",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D040.svg"
+    },
+    {
+      "spec_id": "D055",
+      "kind": "table",
+      "title": "Two angles, never mixed",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D055.svg"
+    },
+    {
+      "spec_id": "D056",
+      "kind": "table",
+      "title": "Planning ranges (starting points)",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D056.svg"
+    },
+    {
+      "spec_id": "D041",
+      "kind": "table",
+      "title": "Weekly reset checks",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Conversation Ready Drawing Room\\figures\\D041.svg"
+    }
+  ]
+}

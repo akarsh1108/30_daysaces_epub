@@ -1,0 +1,1050 @@
+{
+  "slug": "shared-bathroom-harmony",
+  "title": "Shared Bathroom Harmony",
+  "subtitle": "A practical guide to sharing a bathroom fairly, keeping wet zones safer, and organizing a rental you do not own",
+  "tagline": "Fair storage, safer wet zones, and renter-safe setups for shared US bathrooms.",
+  "author": "Akarsh Priyadarshan",
+  "series": "30 Day Spaces",
+  "closing_headline": "Your next room starts here",
+  "closing_blurb": "More room kits and measured layouts — same series language, same clear numbers. This book helps two people share a bathroom with clearer zones, safer wet-area habits, and removable storage. It does not replace electrical, plumbing, mold, or medical advice, and it does not guarantee a damage-free rental.",
+  "accent_hex": "#1E5F6B",
+  "units": "imperial",
+  "cover": {
+    "query": "calm shared bathroom with two organized zones, natural light, no people, no text",
+    "flux_prompt": "full-bleed designed cover of a shared bathroom with two clear storage zones, natural light, no people, no text",
+    "alt": "A calm shared bathroom with two organized storage zones, a clear walking path, and no people or text.",
+    "source": "openai",
+    "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\cover.jpg",
+    "credit": "Cover illustration generated for this edition.",
+    "ai_generated": true,
+    "provider_id": "openai:shared-bathroom-harmony-cover"
+  },
+  "designed_cover": true,
+  "chapters": [
+    {
+      "slug": "shared-bathroom-mindset-and-fairness-fundamentals",
+      "title": "Before you begin",
+      "intro": "This book is a practical organization guide for two people sharing a bathroom in a home they may not own. It is not a building-code manual, an electrical guide, a medical text, or a mold-remediation protocol. Example dimensions are illustrations for compact US rentals, not product specifications or required clearances. Measure your room. Follow manufacturer instructions for every appliance, organizer, adhesive, and cleaner. Some scenarios use apartments in Indian cities as compact-rental illustrations. They do not define the market. Prices, when mentioned, are in US dollars. Measurements are in inches. Bathroom receptacles in many US homes are required to have GFCI protection, but you cannot assume an outlet is protected just because it is in a bathroom. Do not operate electrical appliances with wet hands. Do not use a damaged cord, cracked plug, or appliance that sparks, overheats, or trips a breaker repeatedly. Do not run an extension cord across a wet floor or into the shower zone. A heat-resistant mat does not make a hot tool safe. Cool the tool according to its instructions before storing it. Stop and escalate. Do not open outlets, modify wiring, or attempt electrical repairs. GFCI testing and electrical protection depend on the actual installation and applicable local requirements; this book cannot confirm that an outlet is protected. If an outlet, cord, appliance, or protection condition is uncertain — including suspected faults, missing protection, damaged receptacles, repeated tripping, or unclear installation — stop using the setup and consult a qualified electrician. Appliance manufacturer instructions and local electrical rules take precedence over this book's storage suggestions. Organizing a bathroom does not replace cleaning or maintenance. Moisture, poor ventilation, and damp textiles can encourage mold and mildew. Inspect grout, caulk lines, corners, the underside of bath mats, and the backs of stored items. Keep wet sponges, loofahs, and cleaning tools from sitting in standing water. Ventilation and drying reduce moisture exposure; they do not guarantee mold prevention. Do not cover persistent mold with bins, mats, or paint, and do not treat reorganization as a fix. Routine wiping of soap film on a washable surface is not mold remediation. Report leaks, persistent dampness, a failed fan, stained building materials, or recurring growth to the landlord or property manager. For extensive or recurring mold, follow guidance from a qualified professional and pause the organization project until the moisture source is addressed. The product label, pharmacist, or prescribing clinician determines where a medicine belongs. A bathroom is not automatically suitable. If a product requires a temperature, light, or humidity limit, follow that instruction rather than a generic shelf or container from this book. Keep original packaging unless a pharmacist or the label directs otherwise. For unused or expired medicines, use a local pharmacy or authorized take-back program; do not flush or trash them unless that product's guidance says to. Identify which solutions are removable and which need landlord permission. Product compatibility depends on the surface, the load, and the manufacturer's instructions. Adhesive that holds on one tile can stain, pull glaze, or leave residue on another. When drilling or adhesive mounting is prohibited, use freestanding, tension, or over-the-door storage that does not alter the building. Fairness is not a promise that every shelf can be identical. First protect essential daily access, then assign personal storage, then agree where overflow lives. If the total volume still exceeds the available space, the solution is a reduction, a relocation, or a change in the storage plan. Work in this order: inventory first (Days 4–7), then measure (Days 8–10), then apply those records. Later days use the piles and numbers you already made. They do not restart the pull-out or the tape measure unless a field is blank or the room has changed.",
+      "opener": {
+        "query": "shared bathroom with organized zones, natural light, clean lines, neutral tones",
+        "flux_prompt": "full-bleed shot of a well-organized shared bathroom featuring clear zones for two residents, natural light illuminating the space, minimalistic decor, and cohesive storage solutions",
+        "alt": "A shared bathroom with two distinct storage zones and a clear path between sink and shower.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\001-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:8089072"
+      },
+      "sections": [
+        {
+          "slug": "when-an-equal-split-fails",
+          "title": "When an equal split is the wrong answer",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "shared bathroom with defined zones, natural light, organized storage",
+            "flux_prompt": "shot of a shared bathroom with clear zones for Riya and Aarav, showcasing organized products and personal space",
+            "alt": "Two small personal kits on a shared vanity with a clear center for shared soap and a waste bin.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\002-pexels.jpg",
+            "credit": "Photo by Đỗ Huy Hoàng on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:10847190"
+          },
+          "scenario": "In a compact hall bath in a Pune 1BHK, used here as a small-rental illustration, Riya keeps six daily products. Aarav keeps a full grooming kit, backups, and two hair tools. Splitting every shelf fifty-fifty still leaves Aarav overflowing the counter and Riya feeling crowded.",
+          "principle": "Protect daily access first, then assign personal storage, then park overflow. Identical shelves are not always fair.",
+          "body": [
+            "Today's output: a one-page note that lists each person's essential daily items, each person's extra volume, and whether the bathroom can hold both without a reduction.",
+            "A fifty-fifty split sounds rational and still fails. Volume is not the same as need. One person may have a medical cream, a longer hair routine, or mobility equipment that requires more reachable space. The other person may only need a small daily kit. Equal square inches can hide unequal access.",
+            "Name three buckets before you move anything: shared essentials (soap, toilet paper, a hand towel set, a waste liner), personal daily products, and overflow. Shared essentials keep a protected home even when personal collections grow. Personal daily products get the next-best reach. Overflow does not get the prime tray just because it exists.",
+            "If the bathroom cannot hold both collections, fairness is a decision, not a rearrangement. Reduce duplicates, move backups to a bedroom closet or hall linen shelf, or agree that one person stores the larger kit elsewhere. Do not keep arguing about equal shelf counts while bottles sit on the floor."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "When storage is not enough",
+              "caption": "Decision order when two collections exceed the bathroom.",
+              "values": [
+                "Protect shared daily access",
+                "Assign personal daily storage",
+                "Park overflow outside prime zones",
+                "Reduce or relocate the rest"
+              ],
+              "labels": [
+                "First",
+                "Second",
+                "Third",
+                "If still over capacity"
+              ],
+              "minimum": null,
+              "spec_id": "F001",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\figures\\F001.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "List each person's five daily-must items.",
+              "minutes": null
+            },
+            {
+              "text": "List overflow that does not need to live in the bathroom.",
+              "minutes": null
+            },
+            {
+              "text": "Write one sentence: keep, relocate, or reduce.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Treating identical shelf counts as fairness while one person still cannot reach daily items and the other still leaves bottles on the floor.",
+          "checklist": [
+            "Daily-must list for each person",
+            "Overflow list",
+            "Keep / relocate / reduce decision"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "fairness-triangle-applied-once",
+          "title": "Volume, visibility, and access in one room",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "shared bathroom with organized zones, natural light, clear visibility",
+            "flux_prompt": "view of a shared bathroom with defined visibility zones for Priya and Karan, showcasing organized products and personal space",
+            "alt": "A small vanity with one shared tray and two small personal zones, not a fifty-fifty wall of bottles.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\003-pexels.jpg",
+            "credit": "Photo by https://kaboompics.com/ on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4210315"
+          },
+          "scenario": "Priya wants a nearly empty counter. Karan wants two products visible so he does not forget them. Their Bengaluru rental, used as a compact-layout illustration, has one 22-inch vanity and one shallow drawer.",
+          "principle": "Use volume, visibility, and access once as a decision tool, then apply them to a real conflict instead of restating the idea.",
+          "body": [
+            "Today's output: three written rules — how much each person may leave out, which items must be reachable in one motion, and which items must stay concealed.",
+            "Volume is the cubic space a collection actually occupies, including backups. Measure the drawer interior and the usable counter rectangle. If Karan's kit is 1.5 times Priya's, give him more cubic space in a deeper or less visible zone, not more counter frontage.",
+            "Visibility is a style and a memory aid. Agree on a cap: one shared tray, plus at most one personal item each on the counter. Concealed storage can still be fair if both people can open it without moving the other person's things.",
+            "Access is the morning test. The person who gets ready first should not have to lift a stack. The person with reduced reach should not be assigned the lowest, deepest bin as their 'equal' share. If both people want the same prime corner, time-share it or split it by task, not by whoever unpacked first."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Cap visible counter items at one shared tray plus one personal item each.",
+              "minutes": null
+            },
+            {
+              "text": "Assign the easiest reach to daily-must items, not to the largest collection.",
+              "minutes": null
+            },
+            {
+              "text": "If both want the same prime spot, write a two-week trial instead of declaring a winner.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Giving the largest collection the best reach because it 'needs more room,' while daily-must items for the other person disappear behind it.",
+          "checklist": [
+            "Counter cap written",
+            "Reach rule written",
+            "Prime-spot trial named"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "shared-harmony-charter",
+          "title": "Write the working agreement",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "shared bathroom with a clear charter, organized zones, natural light",
+            "flux_prompt": "shot of a shared bathroom with a visible Shared Harmony Charter, showcasing organized products and personal space",
+            "alt": "A short handwritten bathroom agreement clipped inside a cabinet door.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\004-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5137556"
+          },
+          "scenario": "Neha and Vikram share a Mumbai hall bath, used here as a tight wet-room illustration, with guests every other weekend. They need a short agreement that covers weekdays, guests, and what happens when one person refuses to reduce a collection.",
+          "principle": "A usable agreement names essential access, personal zones, overflow, a trial period, and a review date.",
+          "body": [
+            "Today's output: a half-page agreement with five lines — purpose, shared essentials, personal zones, overflow rule, and a two-week review date.",
+            "Purpose is operational: both people can complete a weekday routine without moving the other person's items, the walking path stays clear, and wet tools dry instead of sitting in a puddle. Style comes later.",
+            "If one person refuses to reduce belongings, do not freeze the project. Protect shared essentials and the walking path anyway. Give the larger collection the overflow location outside the bathroom, or a clearly marked personal bin that may not sit on the counter. Temporary guest kits get a labeled bag that leaves after the visit.",
+            "Keep the agreement boring and specific. 'Be considerate' is not a rule. 'No bottles on the shower floor' and 'hair tools cool on the mat, then go in the caddy' are rules you can check in thirty seconds."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Write the five-line agreement.",
+              "minutes": null
+            },
+            {
+              "text": "Add one guest rule and one refusal-to-reduce rule.",
+              "minutes": null
+            },
+            {
+              "text": "Photograph the counter and shower as the starting baseline.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Writing a style manifesto before agreeing where overflow goes when the bathroom is already full.",
+          "checklist": [
+            "Five-line agreement",
+            "Guest rule",
+            "Review date"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "two-person-inventory-and-declutter-method",
+      "title": "Two-person inventory",
+      "intro": "Pull everything out once. Classify it. Decide what may stay in a humid room. Do not buy organizers during this chapter.",
+      "opener": {
+        "query": "A clean, organized bathroom space with two distinct zones for personal items, showcasing a clear separation of ownership and accessibility.",
+        "flux_prompt": "Full-bleed shot of a well-organized bathroom with two distinct areas for Person A and Person B, featuring neutral colors and textures like teak and linen.",
+        "alt": "Bathroom products laid out on towels in shared, personal, temporary, and discard groups.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\005-pexels.jpg",
+        "credit": "Photo by Curtis Adams on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:36777570"
+      },
+      "sections": [
+        {
+          "slug": "shared-personal-temporary-discard",
+          "title": "Four labels before any organizer",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "A cluttered bathroom cabinet with various personal care products spilling out, emphasizing the chaos of mixed ownership.",
+            "flux_prompt": "A close-up shot of a disorganized bathroom cabinet filled with various products, showcasing the clutter and confusion.",
+            "alt": "Four labeled piles of bathroom products on towels, not yet in bins.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\006-pexels.jpg",
+            "credit": "Photo by Andy Coffie on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8832936"
+          },
+          "scenario": "Anjali and Rohan open a packed cabinet in a small US rental and cannot tell which bottles are shared, whose nearly empty shampoo is whose, or why a third person's leftover hotel soaps are still there.",
+          "principle": "Every item is shared, personal, temporary, or leaving. 'Neither of ours' is a real category.",
+          "body": [
+            "Today's output: four piles — shared, personal A, personal B, temporary/discard — with a side pile for items that belong to neither resident.",
+            "Shared means both people use it on purpose: hand soap, toilet paper, a basic cleaner, maybe one body wash if you actually share it. Personal means only one person uses it. Temporary means a guest kit, a sample, or a product in use for a short treatment. Discard means expired, rancid, leaking, or unused on purpose.",
+            "Items that belong to neither person — leftover from a previous roommate, unlabeled hotel bottles, mystery cords — leave the bathroom this week. Do not store them 'just in case' in the prime drawer.",
+            "Work on towels on the floor or on a table outside the bathroom if the room is too small. Keep medicines and chemicals in their original packaging while you sort. Do not pour unknowns together."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Inventory classes",
+              "caption": "Use these four labels before buying a single container.",
+              "values": [
+                "Both use it on purpose",
+                "One person only",
+                "Guest, sample, short treatment",
+                "Expired, leaking, unused"
+              ],
+              "labels": [
+                "Shared",
+                "Personal",
+                "Temporary",
+                "Discard"
+              ],
+              "minimum": null,
+              "spec_id": "F002",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\figures\\F002.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Clear one surface and pull one zone at a time.",
+              "minutes": null
+            },
+            {
+              "text": "Tag each item shared, personal, temporary, or discard.",
+              "minutes": null
+            },
+            {
+              "text": "Bag 'neither of ours' for return, trash, or building disposal rules.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Sorting by product type first and never deciding ownership, so duplicates return to the same shelf.",
+          "checklist": [
+            "Four piles complete",
+            "Neither-of-ours bag",
+            "No new organizers purchased"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "duplicates-and-almost-empty",
+          "title": "Duplicates, almost-empty bottles, and gifts",
+          "day_label": "Day 5",
+          "hero": {
+            "query": "A well-organized bathroom counter with neatly labeled categories for skincare, haircare, and dental products.",
+            "flux_prompt": "A beautifully organized bathroom counter showcasing neatly labeled categories for shared and personal items, with a focus on clarity and accessibility.",
+            "alt": "One active bottle in a shower niche and a labeled backup bin under a sink.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\007-pexels.jpg",
+            "credit": "Photo by https://kaboompics.com/ on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4888740"
+          },
+          "scenario": "Priya finds three conditioners. Sameer finds two almost-empty face washes and a gift set neither of them likes. They want a rule that does not require a debate for every bottle.",
+          "principle": "One active product per personal category in the bathroom. Backups live elsewhere. Almost-empty bottles finish or leave.",
+          "body": [
+            "Today's output: a duplicate log with one active item per category per person, one backup location, and a decision for each gift set.",
+            "Duplicates: keep one open product in the bathroom. Park at most one backup in a labeled overflow bin if it fits. Extra backups go to a closet outside the wet room. If two people share a formula, keep one open bottle in the shared zone, not two half-used twins.",
+            "Almost-empty: if less than about a week's use remains, finish it this week or discard it according to the label. Do not keep a crusted last inch 'to be thrifty' in the prime niche.",
+            "Unused gifts and unopened backups: if nobody will use them in the next month, move them out or give them away. Rarely used products that someone refuses to discard get a dated overflow bin. If they are still untouched at the review date, they leave the bathroom even if they stay in the apartment."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Keep one active item per personal category in the bathroom.",
+              "minutes": null
+            },
+            {
+              "text": "Move extra backups out of the wet room.",
+              "minutes": null
+            },
+            {
+              "text": "Date the 'refuses to discard' bin and set a review.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Keeping every backup in the shower because it was on sale, then blaming the niche for being too small.",
+          "checklist": [
+            "Duplicate log",
+            "Almost-empty plan",
+            "Dated overflow for refused discards"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "expiry-humidity-medicines",
+          "title": "Expiry, humidity, and medicines",
+          "day_label": "Day 6",
+          "hero": {
+            "query": "A bathroom counter with a clear display of daily essentials, alongside a designated area for expired items and hazardous waste.",
+            "flux_prompt": "A well-organized bathroom counter featuring daily essentials prominently displayed, with a separate area for expired products and hazardous waste, emphasizing safety and accessibility.",
+            "alt": "Medicines in original boxes set aside from humid bathroom shelves.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\008-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7418503"
+          },
+          "scenario": "Neha finds expired sunscreen, a cloudy toner, and a prescription cream stored next to the shower. Vikram wants those items 'handy' even though the labels say to keep them dry.",
+          "principle": "Label, pharmacist, or prescriber decides storage. The bathroom is not the default.",
+          "body": [
+            "Today's output: a medicine list that follows each product's own storage instruction, plus a take-back plan for anything unused or expired.",
+            "The product label, pharmacist, or prescribing clinician determines where a medicine belongs. A bathroom is not automatically suitable. If a product requires a temperature, light, or humidity limit, follow that instruction rather than a generic shelf or container from this book. Keep original packaging unless a pharmacist or the label directs otherwise. For unused or expired medicines, use a local pharmacy or authorized take-back program; do not flush or trash them unless that product's guidance says to.",
+            "Process: read each label. If it lists refrigerate, protect from light, keep dry, or a temperature range, store it that way. Do not move every medicine to one 'better' room or one bathroom shelf because this chapter mentioned humidity. Some products may stay in a bathroom if the label allows it; many should not.",
+            "Expired cosmetics and toiletries are separate from medicines. Check dates and condition, and follow local disposal rules for those items. Do not dump chemicals down the sink as a decluttering method."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Read each medicine label for temperature, light, and humidity limits.",
+              "minutes": null
+            },
+            {
+              "text": "Keep original packaging unless a pharmacist or the label directs otherwise.",
+              "minutes": null
+            },
+            {
+              "text": "Take unused or expired medicines to a pharmacy or authorized take-back program.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Decanting medicines into matching jars, or moving every bottle to one generic 'dry shelf' this book invented.",
+          "checklist": [
+            "Each medicine matched to its label",
+            "No universal bathroom shelf",
+            "Take-back plan for unused doses"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "inventory-record",
+          "title": "Photograph the keepers",
+          "day_label": "Day 7",
+          "hero": {
+            "query": "A neatly organized set of labeled bins ready for mapping, showcasing the results of a successful declutter.",
+            "flux_prompt": "A collection of neatly labeled bins organized by person and frequency, ready for the next stage of space mapping in a well-maintained bathroom.",
+            "alt": "Labeled temporary boxes of sorted bathroom items, still not in purchased organizers.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\009-pexels.jpg",
+            "credit": "Photo by Blue Bird on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7217846"
+          },
+          "scenario": "Aditi and Karan have sorted the room. They need a record so the next Target run does not restock products they already own.",
+          "principle": "A short inventory prevents repurchase. It is a photo plus counts, not a spreadsheet hobby.",
+          "body": [
+            "Today's output: photos of each keep pile plus a count of active items, backups, and shared consumables.",
+            "Photograph each category on a towel: dental, face, hair, body, shaving, menstrual products, first aid, cleaning. Write counts in a shared note: active, backup, shared. Add refill thresholds later in the labeling chapter; today only capture what exists.",
+            "Pack keepers into temporary boxes labeled by person and shared. Do not buy matching acrylic yet. You still have to measure the cabinet around the plumbing.",
+            "If a product is in dispute, it stays in a 'trial' box for the two-week review, not on the counter."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Photograph keep piles by category.",
+              "minutes": null
+            },
+            {
+              "text": "Record active vs backup counts.",
+              "minutes": null
+            },
+            {
+              "text": "Park disputed items in a dated trial box.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Shopping for organizers the same afternoon, before the vanity and shower have been measured.",
+          "checklist": [
+            "Photos saved",
+            "Counts recorded",
+            "Temporary boxes only"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "space-mapping-and-zoning-blueprint-space-mapping-and-zoning-",
+      "title": "Measure the bathroom first",
+      "intro": "Measure first, buy second. Record interior width, depth, and usable height — not only the cabinet's outside size. Check door swing, fixture access, and the space needed to remove a container together. Example dimensions in this chapter are illustrations, not universal minimum clearances. Accessibility needs differ between people and rooms; a height that works for one person may be unusable for another. Zoning comes after the tape measure, not before the shopping cart.",
+      "opener": {
+        "query": "bathroom layout with organized zones, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+        "flux_prompt": "full-bleed shot of a well-organized bathroom with designated zones for each resident's items",
+        "alt": "A tape measure on a narrow vanity drawer with the interior width marked.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\010-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:6238611"
+      },
+      "sections": [
+        {
+          "slug": "measure-vanity-and-plumbing",
+          "title": "Vanity, drawers, and the pipes",
+          "day_label": "Day 8",
+          "hero": {
+            "query": "organized bathroom with designated zones, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "aerial view of a well-organized bathroom with clear zones for each resident's items",
+            "alt": "Tape measure across a vanity drawer interior, not the cabinet face.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\011-pexels.jpg",
+            "credit": "Photo by Peter  Vang on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:35618210"
+          },
+          "scenario": "Priya's US rental vanity looks 'about two feet wide' until she measures: 24 inches outside, 21.5 inches of usable drawer width after the slides, and a 4-inch pipe cluster that kills the center of the under-sink cabinet.",
+          "principle": "Record interiors, obstacles, and removal space. Exterior width is not the storage you can use, and sample inches are not a code minimum.",
+          "body": [
+            "Today's output: interior measurements for the vanity, each drawer, and both under-sink pockets, plus a note that door or drawer still closes with a test object inside.",
+            "Example, illustrative only — not a minimum and not your cabinet: a narrow hall vanity might be 24 inches wide and 18 inches deep outside, with a drawer interior about 21 inches by 14 inches by 4 inches. A wider-looking counter might be 36 inches with no drawers. Measure the opening you can actually use, including slides, pipes, and hinges.",
+            "Measure around plumbing as a U-shape: left pocket, right pocket, and the blocked center. Photograph the pipes. Storage must leave shutoff valves reachable. If a trap or supply line is dripping, stop organizing and tell the landlord or a plumber.",
+            "Check together: interior fit, door or drawer swing in the room, and the extra space to pull the loaded container out. A bin can match the empty box and still fail once it has a lid, a handle, or a person who cannot kneel."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Illustrative compact vanity",
+              "caption": "Illustrative example only. Not a minimum clearance. Measure your cabinet.",
+              "values": [
+                "24 in exterior width",
+                "21.5 in drawer interior width",
+                "14 in drawer depth",
+                "4 in drawer interior height",
+                "7 in and 9 in under-sink pockets"
+              ],
+              "labels": [
+                "Illustrative vanity width",
+                "Illustrative drawer width",
+                "Illustrative drawer depth",
+                "Illustrative drawer height",
+                "Illustrative pipe pockets"
+              ],
+              "minimum": null,
+              "spec_id": "F003",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\figures\\F003.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Measure vanity exterior, then each drawer interior (W × D × H).",
+              "minutes": null
+            },
+            {
+              "text": "Sketch pipes and measure left and right usable pockets.",
+              "minutes": null
+            },
+            {
+              "text": "Test door or drawer close and removal space with a stand-in object.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Treating the illustrative 24-inch vanity as a required size, or buying from the outside width alone.",
+          "checklist": [
+            "Interior numbers",
+            "Pipe sketch with two pockets",
+            "Close-and-remove test"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "measure-shower-doors-outlets",
+          "title": "Shower, door swing, and outlets",
+          "day_label": "Day 9",
+          "hero": {
+            "query": "compact bathroom with vertical storage solutions, one window light, plaster textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "angled view of a compact bathroom showcasing vertical storage solutions and a load-bearing wall",
+            "alt": "Bathroom floor plan sketch with door swing, shower stall, and outlet marks.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\012-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8089259"
+          },
+          "scenario": "Rohan maps a stall. An illustrative case, not a standard: a 32-by-32-inch stall, a textured floor, a glass door that swings into the towel path, and one outlet on the sink wall. Your stall will differ.",
+          "principle": "Storage that blocks a door, a standing space, or a safe appliance path is not storage.",
+          "body": [
+            "Today's output: shower interior, any niche or corner, door-swing overlay, walking-path pinch point, and outlet locations noted as wet-side or dry-side — without treating any of those numbers as a universal minimum.",
+            "Measure shower width, depth, and any built-in niche. Record the floor type. Leave standing space clear. Bottles on the floor are a slip problem, not extra storage.",
+            "Trace the door swing with the door open and closed. Check that overlay together with fixture access and the space needed to remove a caddy. A hanging organizer can fit the door and still hit the toilet.",
+            "Mark outlets on the sketch. Treat splash range as a constraint. Do not plan a cord across the walking path. If you cannot tell whether protection is adequate, use Stop and escalate — do not open the outlet to investigate."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Measure shower interior and any niche or corner.",
+              "minutes": null
+            },
+            {
+              "text": "Mark door swing and the walking path from door to sink to shower.",
+              "minutes": null
+            },
+            {
+              "text": "Note outlet locations relative to water and walking paths.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Copying the 32-inch stall example as a required size, or planning floor bottles in the standing space.",
+          "checklist": [
+            "Shower numbers",
+            "Door-swing note",
+            "Outlet sketch"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "measure-first-buy-second",
+          "title": "Measure first, buy second",
+          "day_label": "Day 10",
+          "hero": {
+            "query": "shared bathroom with clearly defined zones, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "view of a shared bathroom with clearly defined zones for each resident's items",
+            "alt": "Product box dimensions written next to a cabinet opening measurement.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\013-pexels.jpg",
+            "credit": "Photo by Mathias Reding on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:9280422"
+          },
+          "scenario": "Neha is about to add a $12 over-toilet shelf and a $25 drawer set. The tape measure says the toilet tank is 8.5 inches from the wall and the drawer set is 10 inches deep.",
+          "principle": "Fit includes handles, lids, removal clearance, and the manufacturer's listed dimensions.",
+          "body": [
+            "Today's output: a buy/wait list. Nothing is purchased until the number on the product page is smaller than the usable opening, including removal clearance.",
+            "For each candidate container, write: intended location, measured opening, product W × D × H, extra space to grab and lift, lid or handle overhang, removable or fixed, and a yes/no. If any field is blank, the answer is no.",
+            "Check three things together before a yes: the container fits the interior, the door or drawer can still swing past fixtures, and you can remove the loaded container. A bin can fit the cabinet and still block the toilet or trap a person who needs more clearance.",
+            "If wall space is almost zero, the shopping list should start with freestanding and in-cabinet pieces, not with adhesive hooks. Renter rules come next chapter.",
+            "Accessibility differs. If either person cannot reach, bend, or see into that location, the measurement can be perfect and the purchase still wrong."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "For each want-to-buy item, compare listed size to usable opening.",
+              "minutes": null
+            },
+            {
+              "text": "Add handle, lid, and removal clearance.",
+              "minutes": null
+            },
+            {
+              "text": "Mark buy, wait, or skip.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Ordering a matching set because the finish is right, then returning half of it because the lids need two extra inches.",
+          "checklist": [
+            "Buy/wait list",
+            "Clearance included",
+            "No impulse set"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "the-space-mapping-blueprint",
+      "title": "Renter-safe mounting",
+      "intro": "Identify which solutions are removable and which need landlord permission. Product compatibility depends on the surface, the load, and the manufacturer's instructions. Adhesive that holds on one tile can stain, pull glaze, or leave residue on another. When drilling or adhesive mounting is prohibited, use freestanding, tension, or over-the-door storage that does not alter the building. This chapter is a decision tree, not a catalog of hooks.",
+      "opener": {
+        "query": "stock photo of a small bathroom with organized shelves and clear zones, natural light from one window, soft textures like linen and plaster",
+        "flux_prompt": "full-bleed image of a well-organized bathroom with labeled zones and neatly arranged items",
+        "alt": "Freestanding bathroom storage beside a tiled wall with no drilled holes.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\014-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:7546552"
+      },
+      "sections": [
+        {
+          "slug": "removable-or-permission",
+          "title": "Removable, permission, or skip",
+          "day_label": "Day 11",
+          "hero": {
+            "query": "stock photo of a bathroom with clearly labeled zones and organized shelves, natural light from one window, soft textures like linen and plaster",
+            "flux_prompt": "full-bleed image of a bathroom with organized zones and clear labeling",
+            "alt": "Freestanding bathroom shelf used instead of drilled tile anchors.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\005-pexels.jpg",
+            "credit": "Photo by Curtis Adams on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:36777570"
+          },
+          "scenario": "Asha wants a shower caddy and a medicine-cabinet expansion in a US rental that forbids holes in tile. Her roommate wants 'whatever holds the most.'",
+          "principle": "Sort every mounting idea into removable, needs permission, or skip. Load and surface matter more than the product photo.",
+          "body": [
+            "Today's output: a three-column list of storage ideas — removable, landlord permission, skip.",
+            "Removable usually includes freestanding shelves, over-the-toilet units that do not screw down, tension rods used only as the manufacturer allows, over-the-door hooks that do not crush the door, and in-drawer organizers. Even these can scuff floors or trap moisture; use pads and check the finish.",
+            "Permission typically includes drilling tile, stud-mounted bars, replacing a mirror, and any electrical work. Adhesive is not automatically renter-safe. It can fail in steam, drop glass, or pull paint. Read the product's surface list. Painted drywall, textured plaster, and cheap tile are common failure surfaces.",
+            "Skip anything that blocks the shutoff valves, the access panel, the GFCI reset, or the walking path. Skip homemade mounting that the manufacturer did not specify."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Renter mounting tree",
+              "caption": "Start at the top. Stop when the answer is no.",
+              "values": [
+                "Use freestanding or in-cabinet first",
+                "Read surface and load limits",
+                "Ask landlord before holes",
+                "Skip if path, valves, or electrical blocked"
+              ],
+              "labels": [
+                "No wall needed?",
+                "Manufacturer allows this surface?",
+                "Lease allows alteration?",
+                "Still blocking a wet path?"
+              ],
+              "minimum": null,
+              "spec_id": "F004",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\figures\\F004.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "List every mounting idea you are tempted to use.",
+              "minutes": null
+            },
+            {
+              "text": "Mark removable, permission, or skip.",
+              "minutes": null
+            },
+            {
+              "text": "Photograph existing damage so you are not blamed for it later.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Treating 'no-drill' on a product title as a guarantee that your tile, paint, and steam level will release cleanly.",
+          "checklist": [
+            "Three-column list",
+            "Existing-damage photos",
+            "Access panels left clear"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "adhesive-damage",
+          "title": "Adhesive residue and failed hooks",
+          "day_label": "Day 12",
+          "hero": {
+            "query": "stock photo of a bathroom with organized zones and labeled items, natural light from one window, soft textures like linen and plaster",
+            "flux_prompt": "full-bleed image of a bathroom with clear zones and organized items",
+            "alt": "Adhesive hook package instructions beside a tiled wall, unused until the surface is confirmed.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\005-pexels.jpg",
+            "credit": "Photo by Curtis Adams on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:36777570"
+          },
+          "scenario": "Priya's previous adhesive hooks left gray halos on rental tile. She wants a method that does not add a new halo.",
+          "principle": "Follow the product's install and removal instructions. Heat, solvents, and scraping can damage glazes. When unsure, do not apply.",
+          "body": [
+            "Today's output: a written install/removal plan for any adhesive you still intend to use, or a decision to use zero adhesive.",
+            "Clean and dry the surface as the manufacturer specifies. Steam rooms and freshly used showers are bad install conditions. Weight ratings assume correct surface, cure time, and load direction. A caddy full of wet bottles is heavier than the empty product photo.",
+            "Removal: use only the method on the package. If residue remains, stop before sanding or mystery solvents. Ask the landlord before using anything that can dull grout or paint. Photograph after removal.",
+            "If the lease bans adhesive and drilling, the answer is freestanding storage, a tension shelf only where the manufacturer allows that use, or storing more items outside the bathroom."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Read install, surface, load, and removal text on the package.",
+              "minutes": null
+            },
+            {
+              "text": "Weigh the loaded use case, not the empty caddy.",
+              "minutes": null
+            },
+            {
+              "text": "Choose zero adhesive if the lease or the surface is unclear.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Pulling a 'damage-free' strip off painted drywall in one yank because the listing used that phrase.",
+          "checklist": [
+            "Package instructions saved",
+            "Loaded-weight check",
+            "Zero-adhesive fallback"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "no-wall-space-move-out",
+          "title": "No wall space, and move-out",
+          "day_label": "Day 13",
+          "hero": {
+            "query": "stock photo of a well-maintained bathroom with organized zones and labels, natural light from one window, soft textures like linen and plaster",
+            "flux_prompt": "full-bleed image of a well-organized bathroom with clear zones and labels",
+            "alt": "A slim cart and under-sink bins used because the walls cannot take hardware.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\017-pexels.jpg",
+            "credit": "Photo by Curtis Adams on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4940614"
+          },
+          "scenario": "Neha's bathroom has one short wall of tile, a window, and a door. There is almost no legal place to hang a cabinet. She also needs a move-out list for twelve months from now.",
+          "principle": "When walls are unusable, storage becomes furniture, drawers, and rooms next door. Plan the reverse of every attachment on day one.",
+          "body": [
+            "Today's output: a no-wall storage plan plus a move-out checklist with every attachment you still intend to use.",
+            "No-wall options: a slim rolling cart that parks beside the vanity if the walking path stays clear; stacked drawers that fit the measured under-sink pockets; a mirrored medicine cabinet already in the room, reorganized rather than replaced; a labeled caddy that lives on a bedroom dresser and travels in for hair styling.",
+            "Move-out: remove organizers, adhesive, and over-the-door hooks; check for moisture under bins and mats; replace damaged liners; photograph empty surfaces; note any remaining residue for the landlord conversation. Keep original hardware in a bag if you swapped a shower head or toilet seat with permission.",
+            "Do not wait until the last day to discover rust rings from a metal caddy or a black rectangle under a bath mat."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Pick no-wall storage that keeps the walking path clear.",
+              "minutes": null
+            },
+            {
+              "text": "Write a reverse-install step for every attachment.",
+              "minutes": null
+            },
+            {
+              "text": "Add a monthly moisture check under mats and bins.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Building a wall of hooks in the only dry patch of paint, then treating move-out as a future problem.",
+          "checklist": [
+            "No-wall plan",
+            "Move-out reverse list",
+            "Moisture-check reminder"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "rooms-within-a-room-mapping-every-zone",
+      "title": "Vanity and drawer scenarios",
+      "intro": "The vanity is usually the most contested surface. Use the scenario that matches your cabinet. Do not buy organizers until the dimensions from Chapter 3 are on paper.",
+      "opener": {
+        "query": "small Indian bathroom with shared items, neutral colors, organized storage, natural light, no people",
+        "flux_prompt": "full-bleed shot of a compact bathroom with organized shared spaces and neutral tones",
+        "alt": "A narrow single-sink vanity with one drawer slightly open.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\014-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:7546552"
+      },
+      "sections": [
+        {
+          "slug": "single-sink-one-drawer",
+          "title": "One sink, one small drawer",
+          "day_label": "Day 14",
+          "hero": {
+            "query": "compact bathroom layout sketch, neutral tones, organized zones, no people",
+            "flux_prompt": "aerial view of a small bathroom layout with marked zones for shared and personal items",
+            "alt": "One shallow vanity drawer split into two daily lanes and a small shared front tray.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\014-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7546552"
+          },
+          "scenario": "Priya and a roommate share a 24-inch-wide vanity with one shallow drawer and a crowded counter. Both want the drawer for daily items.",
+          "principle": "The small drawer holds daily-must items in two lanes. Backups do not get a vote.",
+          "body": [
+            "Today's output: a drawer map — left lane, right lane, shared front tray — with a list of what is banned from the drawer.",
+            "Store there: each person's top daily items that fit upright or in a shallow tray — dental kit, daily face products, contact case if the label allows a bathroom, one small grooming tool. Split the drawer by adjustable dividers only after you measure interior width.",
+            "Do not store there: backups, hair tools, cleaning chemicals, medicines that must stay dry, or anything that forces the drawer to jam. If capacity is insufficient, daily-must items stay; extras move to a bedroom or under-sink pocket.",
+            "Access: both people should open the drawer without unloading it. Shared tiny tools sit in a front tray. If one person needs more volume, they get under-sink volume, not a larger share of this drawer."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Small-drawer split",
+              "caption": "What belongs in a single shallow shared drawer.",
+              "values": [
+                "Daily-must only",
+                "Tiny shared tools",
+                "Backups and tools",
+                "Chemicals and heat tools"
+              ],
+              "labels": [
+                "Left and right lanes",
+                "Front tray",
+                "Not in this drawer",
+                "Never in this drawer"
+              ],
+              "minimum": null,
+              "spec_id": "F005",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\figures\\F005.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Measure the drawer interior and choose two lanes only if both fit.",
+              "minutes": null
+            },
+            {
+              "text": "Place daily-must items only.",
+              "minutes": null
+            },
+            {
+              "text": "Write the ban list on a note inside the cabinet.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Filling the only drawer with backups because they were on sale, then leaving daily items on the counter.",
+          "checklist": [
+            "Drawer map",
+            "Ban list",
+            "Backups relocated"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "wide-counter-no-drawers",
+          "title": "Wide counter, almost no drawers",
+          "day_label": "Day 15",
+          "hero": {
+            "query": "organized vanity drawers with adjustable inserts, neutral colors, no people",
+            "flux_prompt": "close-up of a well-organized vanity drawer with labeled compartments",
+            "alt": "A wide vanity with two small trays and a large empty stretch of counter around the sink.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\020-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6333743"
+          },
+          "scenario": "Riya has 36 inches of counter, no drawers, and a medicine cabinet that is already full. Products spread to look 'organized' and still eat the sink edge.",
+          "principle": "A wide counter is not permission to display a collection. Use two small trays and hide the rest.",
+          "body": [
+            "Today's output: a counter cap — two trays or one divided tray — and an overflow home for everything else.",
+            "Store on the counter: shared soap, a toothbrush cup if you use one, and one tray each for items used every morning. Leave a dry landing zone beside the sink so wet hands are not fishing in a product pile.",
+            "Do not store on the counter: backups, cardboard, hair tools, and anything that cannot tolerate splashes. If you have no personal cabinet, use a labeled lidded box on a nearby dresser or a measured under-sink bin.",
+            "Split access by tray, not by claiming half the stone. If capacity is still short, reduce visible items before buying a second tier that blocks the mirror."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Place two small trays or one divided tray.",
+              "minutes": null
+            },
+            {
+              "text": "Move everything else off the counter.",
+              "minutes": null
+            },
+            {
+              "text": "Keep a clear splash zone around the basin.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Lining the full 36 inches with products because the counter 'finally has room.'",
+          "checklist": [
+            "Counter cap",
+            "Splash zone clear",
+            "Off-counter overflow named"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "plumbing-eats-undersink",
+          "title": "Plumbing occupies the cabinet",
+          "day_label": "Day 16",
+          "hero": {
+            "query": "under-sink storage with risers and labeled bins, neutral colors, no people",
+            "flux_prompt": "organized under-sink area with clear labels and moisture-safe bins",
+            "alt": "Two small bins flanking sink plumbing, with the shutoff valves still visible.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\021-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6591427"
+          },
+          "scenario": "Sameer's under-sink cabinet is a U around a bulky trap. A single plastic tub does not close the door.",
+          "principle": "Apply the Day 8 pocket numbers. Do not start a new measuring session.",
+          "body": [
+            "Today's output: a bin choice for each Day 8 under-sink pocket, smaller than that pocket including grab space. Remeasure only if those numbers were never written down.",
+            "Store there: weekly extras, sealed backups in water-resistant bins, and a small shared cleaning caddy if chemicals stay upright in original bottles and cannot contaminate personal care items. Use a removable liner.",
+            "Do not store there: open cardboard, loose batteries, hair tools, or a bin that blocks shutoff valves. Medicines belong only if that product's label allows a damp cabinet — most will not. If the cabinet is wet, report the leak; do not organize around it.",
+            "If both pockets still cannot hold the collections, overflow leaves the bathroom."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Open the Day 8 pocket numbers.",
+              "minutes": null
+            },
+            {
+              "text": "Choose two bins smaller than those pockets, including grab space.",
+              "minutes": null
+            },
+            {
+              "text": "Confirm valves and the door still work.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Remeasuring the same pipes, or forcing a full-width unit onto a center drain.",
+          "checklist": [
+            "Bins matched to Day 8 pockets",
+            "Valve access",
+            "Door closes"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "narrow-medicine-cabinet",
+          "title": "Two people, one narrow medicine cabinet",
+          "day_label": "Day 17",
+          "hero": {
+            "query": "organized linen closet with labeled stacks and bins, neutral colors, no people",
+            "flux_prompt": "neatly arranged linen closet with clearly labeled sections",
+            "alt": "A narrow medicine cabinet with daily items only and the door able to close.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\022-pexels.jpg",
+            "credit": "Photo by RDNE Stock project on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8581052"
+          },
+          "scenario": "A couple shares one 14-inch-wide medicine cabinet with three shelves. Both want eye-level.",
+          "principle": "Eye-level is for daily-must items, split by shelf or by left/right. The cabinet is not a pharmacy archive.",
+          "body": [
+            "Today's output: a shelf assignment — who gets which shelf or which side — and a list of items that must leave the cabinet.",
+            "Store there: daily face and dental items that fit the shelf depth. Measure depth and door clearance with the tallest bottle you intend to keep. If the door hits the bottle, the bottle does not belong there.",
+            "Do not store there: first-aid bulk, backups, or any medicine whose label, pharmacist, or prescriber keeps it elsewhere. A cabinet named 'medicine' is still a humid box. Sensitive non-medicine products can use an opaque bin if both people agree not to rummage.",
+            "If the cabinet cannot hold both daily kits, one kit moves to the drawer or a personal caddy. Equal frustration is not a plan."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Measure shelf depth and door clearance with the tallest bottle.",
+              "minutes": null
+            },
+            {
+              "text": "Assign shelves or left/right sides.",
+              "minutes": null
+            },
+            {
+              "text": "Remove anything that needs humidity-controlled storage.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Decanting everything into matching bottles that are taller than the shelf so the door never shuts.",
+          "checklist": [
+            "Shelf map",
+            "Door-clearance test",
+            "Humidity-sensitive items removed"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "deep-drawers-open-shelves",
+          "title": "Deep drawers and open shelves",
+          "day_label": "Day 18",
+          "hero": {
+            "query": "organized shower space with waterproof labels, neutral colors, no people",
+            "flux_prompt": "well-arranged shower niche with clear labels and accessible items",
+            "alt": "A lift-out tray at the front of a deep vanity drawer.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Shared Bathroom Harmony\\photos\\023-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6436770"
+          },
+          "scenario": "A deep bottom drawer swallows items. An open-shelf vanity shows every mismatched bottle to anyone who walks in.",
+          "principle": "Deep storage needs a pull-forward tray. Open shelves need a privacy and splash plan, not more display.",
+          "body": [
+            "Today's output: a front/back map for the deep drawer, and a conceal-or-reduce plan for open shelves.",
+            "Deep drawer: daily items in a front tray you can lift out. Occasional items behind it in a second tray. Nothing loose at the back. If bending is hard for either person, this drawer is the wrong home for daily-must items — move those up.",
+            "Open shelves: use closed bins for personal and sensitive products. Shared soap can stay visible. Do not line open shelves with small bottles that splash will knock down.",
+            "No dedicated personal storage in the room: give each person a lidded caddy that lives on a bedroom shelf and parks on the counter only during use. That is a valid shared-bathroom design."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Put a lift-out tray at the front of any deep drawer.",
+              "minutes": null
+            },
+            {
+              "text": "Move daily-must items up if bending is difficult.",
+              "minutes": null
+            },
+            {
+              "text": "Hide personal products on open shelves inside opaque bins.",
+              "minutes": null
+            }
+          ],

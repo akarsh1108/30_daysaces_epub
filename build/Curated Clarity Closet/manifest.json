@@ -1,0 +1,403 @@
+{
+  "title": "Curated Clarity Closet",
+  "units": "imperial",
+  "outputs": {
+    "pdf": "build\\Curated Clarity Closet\\curated-clarity-closet.pdf",
+    "cover": "build\\Curated Clarity Closet\\cover.pdf",
+    "epub": "build\\Curated Clarity Closet\\curated-clarity-closet.epub",
+    "epub_preview": "build\\Curated Clarity Closet\\epub-preview.html"
+  },
+  "ai_generated_images": 1,
+  "kdp_ai_disclosure_required": true,
+  "images": [
+    {
+      "query": "calm compact closet with hanging clothes and a care label, no people, no text",
+      "source": "openai",
+      "credit": "Cover illustration generated for this edition.",
+      "ai": true,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\cover.jpg"
+    },
+    {
+      "query": "organized closet with neatly folded clothes and clear bins, soft natural light, minimalist aesthetic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Pavel Danilyuk on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\001-pexels.jpg"
+    },
+    {
+      "query": "A cozy, well-lit living space with a neatly organized closet, showcasing a variety of clothing in a harmonious color palette.",
+      "source": "pexels",
+      "credit": "Photo by Plastic Lines on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\002-pexels.jpg"
+    },
+    {
+      "query": "A well-organized closet featuring soft knits and breathable fabrics, illuminated by natural light, showcasing a cozy and practical aesthetic.",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\003-pexels.jpg"
+    },
+    {
+      "query": "A neatly organized closet with a clear color palette, showcasing a variety of clothing options, well-lit with natural light.",
+      "source": "pexels",
+      "credit": "Photo by Ali Babajahdi on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\004-pexels.jpg"
+    },
+    {
+      "query": "color palette, closet organization, fabric swatches, neutral colors, accent colors, daylight testing, Indian apartment styling",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\005-pexels.jpg"
+    },
+    {
+      "query": "moodboard with fashion inspirations, neutral colors, textures, casual and formal outfits, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Yuliya Duzhaya on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\006-pexels.jpg"
+    },
+    {
+      "query": "a stylish outfit display featuring Minimal Modern and Soft Classic elements, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Connor Scott McManus on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\007-pexels.jpg"
+    },
+    {
+      "query": "a neatly organized rule sheet with style guidelines, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by DS stories on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\008-pexels.jpg"
+    },
+    {
+      "query": "a stylish display of five complete outfits laid out for review, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Ron Lach on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\009-pexels.jpg"
+    },
+    {
+      "query": "palette board, fabric swatches, color organization",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\010-pexels.jpg"
+    },
+    {
+      "query": "daylight testing, color swatches, wardrobe organization",
+      "source": "pexels",
+      "credit": "Photo by George Milton on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\011-pexels.jpg"
+    },
+    {
+      "query": "neutral colors, wardrobe essentials, fabric swatches",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\012-pexels.jpg"
+    },
+    {
+      "query": "mid tones, accent colors, wardrobe styling",
+      "source": "pexels",
+      "credit": "Photo by Anna Shvets on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\013-pexels.jpg"
+    },
+    {
+      "query": "prints, metal accessories, wardrobe organization",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\014-pexels.jpg"
+    },
+    {
+      "query": "An organized Fit Profile document displayed on a desk, with measurements and notes clearly visible, illuminated by soft, natural light.",
+      "source": "pexels",
+      "credit": "Photo by Ron Lach on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\015-pexels.jpg"
+    },
+    {
+      "query": "A well-curated wardrobe with a focus on proportions and fit, showcasing various outfits in a compact Indian apartment setting, with natural light streaming through a single window, highlighting textures like linen and plaster.",
+      "source": "pexels",
+      "credit": "Photo by Anisha Deb on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\016-pexels.jpg"
+    },
+    {
+      "query": "A close-up of a neatly organized wardrobe section, highlighting different fabric textures and colors, with natural light enhancing the visual appeal.",
+      "source": "pexels",
+      "credit": "Photo by Shannon Deans on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\017-pexels.jpg"
+    },
+    {
+      "query": "An organized layout of a Fit Map, showcasing different fit preferences for various clothing categories, with natural light illuminating the space.",
+      "source": "pexels",
+      "credit": "Photo by Sheldon Li on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\018-pexels.jpg"
+    },
+    {
+      "query": "A visually appealing Silhouette Grid displayed on a wall or board, with various outfit combinations highlighted, bathed in soft, natural light.",
+      "source": "pexels",
+      "credit": "Photo by Jan van der Wolf on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\019-pexels.jpg"
+    },
+    {
+      "query": "A well-lit Try On Lab setup featuring a mirror, clothing items, and a phone at hip height for taking photos, showcasing the testing process.",
+      "source": "pexels",
+      "credit": "Photo by Ron Lach on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\020-pexels.jpg"
+    },
+    {
+      "query": "A well-organized closet with neatly arranged clothes, showcasing a variety of outfits, natural light streaming through a window, minimalist decor, and a touch of greenery.",
+      "source": "pexels",
+      "credit": "Photo by Ron Lach on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\021-pexels.jpg"
+    },
+    {
+      "query": "Photograph of a stylishly arranged outfit equation board with visual examples of Core, Elevated, and Off Duty outfits, natural light highlighting the textures.",
+      "source": "pexels",
+      "credit": "Photo by Andrea Piacquadio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\022-pexels.jpg"
+    },
+    {
+      "query": "Photograph of a neatly organized micro capsule wardrobe, highlighting versatile pieces in a small space with natural light.",
+      "source": "pexels",
+      "credit": "Photo by Saad Bin  Hasan on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\023-pexels.jpg"
+    },
+    {
+      "query": "Photograph of a stylish calendar with a 30-day outfit rotation plan, emphasizing organization and planning in a compact apartment setting.",
+      "source": "pexels",
+      "credit": "Photo by RDNE Stock project on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\024-pexels.jpg"
+    },
+    {
+      "query": "Photograph of a stylish outfit laid out for a rainy day, featuring weather-appropriate clothing and accessories, with natural light highlighting the textures.",
+      "source": "pexels",
+      "credit": "Photo by Erik Mclean on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\025-pexels.jpg"
+    },
+    {
+      "query": "A well-organized closet with clear zones, uniform hangers, and good lighting, showcasing a variety of clothing and accessories in a compact Indian apartment.",
+      "source": "pexels",
+      "credit": "Photo by Huy Quang Nguyễn on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\026-pexels.jpg"
+    },
+    {
+      "query": "A close-up of a neatly organized gap list on a stylish desk, with a laptop, a cup of coffee, and a notepad, natural light illuminating the workspace.",
+      "source": "pexels",
+      "credit": "Photo by Sora Shimazaki on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\027-pexels.jpg"
+    },
+    {
+      "query": "A stylish budget planner open on a table, with a calculator, a pen, and a cup of tea, soft natural light illuminating the scene.",
+      "source": "pexels",
+      "credit": "Photo by Leeloo The First on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\028-pexels.jpg"
+    },
+    {
+      "query": "A visually appealing wish list on a notepad, surrounded by fabric swatches and a laptop, natural light enhancing the colors.",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\029-pexels.jpg"
+    },
+    {
+      "query": "A beautifully organized tracking sheet on a laptop, with a stylish pen and a plant nearby, soft natural light illuminating the workspace.",
+      "source": "pexels",
+      "credit": "Photo by Jakub Zerdzicki on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\030-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a fabric care station with tools like a steamer and lint roller, natural light, soft textures",
+      "source": "pexels",
+      "credit": "Photo by Vie Studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\031-pexels.jpg"
+    },
+    {
+      "query": "A close-up of a well-organized closet section with color-coded clothing and labeled containers, emphasizing visibility and accessibility.",
+      "source": "pexels",
+      "credit": "Photo by Andreas Näslund on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\032-pexels.jpg"
+    },
+    {
+      "query": "A clear container filled with neatly organized accessories on a shelf, emphasizing visibility and accessibility.",
+      "source": "pexels",
+      "credit": "Photo by Valeria Boltneva on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\033-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a well-organized closet with seasonal clothing, natural light, wooden hangers, soft textures",
+      "source": "pexels",
+      "credit": "Photo by Ron Lach on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\034-pexels.jpg"
+    },
+    {
+      "query": "A well-organized closet showcasing a curated capsule wardrobe, bright lighting, neutral background, no people.",
+      "source": "pexels",
+      "credit": "Photo by RDNE Stock project on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\035-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a digital wear log on a tablet or laptop, natural light, clean workspace",
+      "source": "pexels",
+      "credit": "Photo by Hanna Pad on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\036-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a cozy workspace with seasonal clothing laid out for review, natural light, soft textures",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\037-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a smartphone displaying a lookbook app with outfit photos, natural light, clean background",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\038-pexels.jpg"
+    }
+  ],
+  "figures": [
+    {
+      "spec_id": "D001",
+      "kind": "table",
+      "title": "30-day closet schedule",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D001.svg"
+    },
+    {
+      "spec_id": "D020",
+      "kind": "table",
+      "title": "Footwear fields in the same audit",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D020.svg"
+    },
+    {
+      "spec_id": "D003",
+      "kind": "table",
+      "title": "How to score 1 versus 5",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D003.svg"
+    },
+    {
+      "spec_id": "D004",
+      "kind": "table",
+      "title": "Exit decision tree",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D004.svg"
+    },
+    {
+      "spec_id": "D005",
+      "kind": "table",
+      "title": "Color without a mandatory undertone",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D005.svg"
+    },
+    {
+      "spec_id": "D009",
+      "kind": "table",
+      "title": "Function-and-comfort fit checks",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D009.svg"
+    },
+    {
+      "spec_id": "D011",
+      "kind": "table",
+      "title": "Master wardrobe dashboard template",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D011.svg"
+    },
+    {
+      "spec_id": "D016",
+      "kind": "table",
+      "title": "Dashboard next action and example",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D016.svg"
+    },
+    {
+      "spec_id": "D010",
+      "kind": "table",
+      "title": "Do not buy yet — checks",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D010.svg"
+    },
+    {
+      "spec_id": "D012",
+      "kind": "table",
+      "title": "Waiting periods",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D012.svg"
+    },
+    {
+      "spec_id": "D008",
+      "kind": "table",
+      "title": "Capacity rules, not one law",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D008.svg"
+    },
+    {
+      "spec_id": "D002",
+      "kind": "table",
+      "title": "Care-label-first decisions",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D002.svg"
+    },
+    {
+      "spec_id": "D006",
+      "kind": "table",
+      "title": "Laundry flow",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D006.svg"
+    },
+    {
+      "spec_id": "D007",
+      "kind": "table",
+      "title": "Climate jobs — pick yours",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D007.svg"
+    },
+    {
+      "spec_id": "D013",
+      "kind": "table",
+      "title": "Seasonal storage checklist",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D013.svg"
+    },
+    {
+      "spec_id": "D014",
+      "kind": "table",
+      "title": "Footwear-care checklist",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D014.svg"
+    },
+    {
+      "spec_id": "D018",
+      "kind": "table",
+      "title": "Footwear and accessories schedule",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D018.svg"
+    },
+    {
+      "spec_id": "D015",
+      "kind": "table",
+      "title": "Implementation review",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D015.svg"
+    },
+    {
+      "spec_id": "D021",
+      "kind": "table",
+      "title": "Before and after this 30-day pass",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D021.svg"
+    }
+  ]
+}

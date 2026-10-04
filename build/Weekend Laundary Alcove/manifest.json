@@ -1,0 +1,585 @@
+{
+  "title": "Weekend Laundry Alcove",
+  "units": "imperial",
+  "outputs": {
+    "pdf": "build\\Weekend Laundary Alcove\\weekend-laundary-alcove.pdf",
+    "cover": "build\\Weekend Laundary Alcove\\cover.pdf",
+    "epub": "build\\Weekend Laundary Alcove\\weekend-laundary-alcove.epub",
+    "epub_preview": "build\\Weekend Laundary Alcove\\epub-preview.html"
+  },
+  "ai_generated_images": 1,
+  "kdp_ai_disclosure_required": true,
+  "images": [
+    {
+      "query": "laundry alcove folding counter labeled shelves, no people, no text",
+      "source": "openai",
+      "credit": "Cover illustration generated for this edition.",
+      "ai": true,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\cover.jpg"
+    },
+    {
+      "query": "Laundry alcove with clean countertop, organized shelves, and modern appliances, soft natural light, minimalist design, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\001-pexels.jpg"
+    },
+    {
+      "query": "Compact laundry alcove with organized shelves and countertop, soft natural light, minimalist design, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\002-pexels.jpg"
+    },
+    {
+      "query": "Shopping aisle in a home improvement store with plywood and brackets, soft natural light, minimalist design, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Engin Akyurt on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\003-pexels.jpg"
+    },
+    {
+      "query": "Laundry alcove with adjustable shelving made from MDF, organized storage bins, and a clean countertop, natural light from one window, photorealistic.",
+      "source": "pexels",
+      "credit": "Photo by American  Cleaning Institute on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\007-pexels.jpg"
+    },
+    {
+      "query": "Laundry alcove layout plan with templates and materials, natural light from one window, photorealistic.",
+      "source": "pexels",
+      "credit": "Photo by Leonid Altman on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\008-pexels.jpg"
+    },
+    {
+      "query": "Compact Indian apartment laundry room with a sturdy plywood countertop, natural light from a single window, clean lines, and organized storage.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\009-pexels.jpg"
+    },
+    {
+      "query": "Plywood cut list for a laundry countertop, natural light, organized workspace.",
+      "source": "pexels",
+      "credit": "Photo by Los Muertos Crew on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\010-pexels.jpg"
+    },
+    {
+      "query": "Shopping map for a hardware store in Seattle, organized aisles, natural light.",
+      "source": "pexels",
+      "credit": "Photo by Nothing Ahead on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\011-pexels.jpg"
+    },
+    {
+      "query": "Moisture-safe finishing products for a laundry countertop, natural light, clean workspace.",
+      "source": "pexels",
+      "credit": "Photo by Deane Bayas on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\012-pexels.jpg"
+    },
+    {
+      "query": "Countertop support structure for a 65-inch span, natural light, clean lines.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\013-pexels.jpg"
+    },
+    {
+      "query": "Laundry alcove with stacked machines, one window light, teak textures, magazine styling, photorealistic.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\014-pexels.jpg"
+    },
+    {
+      "query": "Laundry alcove with measuring templates, one window light, linen textures, magazine styling, photorealistic.",
+      "source": "pexels",
+      "credit": "Photo by Ivett M on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\015-pexels.jpg"
+    },
+    {
+      "query": "Close-up of cleats and fasteners, one window light, plaster textures, magazine styling, photorealistic.",
+      "source": "pexels",
+      "credit": "Photo by Los Muertos Crew on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\016-pexels.jpg"
+    },
+    {
+      "query": "Compact laundry alcove with stacked machines and plywood shelves, one window light, clean lines, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\019-pexels.jpg"
+    },
+    {
+      "query": "Spacious laundry alcove with side-by-side machines and a plywood countertop, one window light, clean lines, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by hi room on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\020-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a modern Indian apartment renovation in progress, natural light from one window, showcasing tools and materials on a wooden floor, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Francesco Ungaro on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\021-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a kitchen cabinet with sealed edges, natural light from a window, showcasing the finish, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Rodrigo Simoes on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\022-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a stud finder in action on a wall, natural light from a window, showcasing the tool and wall texture, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Thirdman on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\023-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a freshly painted wall with a smooth finish, natural light from a window, showcasing the texture, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Sandra Filipe on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\024-pexels.jpg"
+    },
+    {
+      "query": "stock photo of an air conditioning unit with clear access to filters, natural light from a window, showcasing the installation, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Stephan Yorchenko on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\025-pexels.jpg"
+    },
+    {
+      "query": "stock photo of sliders under a washing machine, natural light from a window, showcasing the appliance and flooring, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Engin Akyurt on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\026-pexels.jpg"
+    },
+    {
+      "query": "A well-organized alcove with neatly arranged tools and materials, natural light streaming in from a nearby window, showcasing a clean workspace.",
+      "source": "pexels",
+      "credit": "Photo by Chengxin Zhao on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\027-pexels.jpg"
+    },
+    {
+      "query": "A close-up of a measuring tape against the wall of an alcove, with a notepad and pencil nearby, capturing the essence of careful planning.",
+      "source": "pexels",
+      "credit": "Photo by Ono  Kosuki on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\028-pexels.jpg"
+    },
+    {
+      "query": "A selection of plywood and MDF sheets stacked in a well-lit home improvement store aisle, showcasing the differences in texture and finish.",
+      "source": "pexels",
+      "credit": "Photo by Karina Badura on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\029-pexels.jpg"
+    },
+    {
+      "query": "A neatly organized toolkit laid out on a workbench, with tools like a drill, level, and screws visible, ready for use.",
+      "source": "pexels",
+      "credit": "Photo by Anete Lusina on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\030-pexels.jpg"
+    },
+    {
+      "query": "small indian apartment interior minimalist daylight editorial",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\031-pexels.jpg"
+    },
+    {
+      "query": "A beautifully styled shot of various plywood and MDF sheets stacked neatly, with natural light highlighting their textures.",
+      "source": "pexels",
+      "credit": "Photo by Mark Stebnicki on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\035-pexels.jpg"
+    },
+    {
+      "query": "A detailed shot of a cut map on paper, with dimensions and calculations clearly marked, set against a backdrop of plywood sheets.",
+      "source": "pexels",
+      "credit": "Photo by RDNE Stock project on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\036-pexels.jpg"
+    },
+    {
+      "query": "A neatly organized bill of materials displayed on a workbench, surrounded by tools and materials, with soft natural light highlighting the details.",
+      "source": "pexels",
+      "credit": "Photo by Tahir Xəlfəquliyev on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\037-pexels.jpg"
+    },
+    {
+      "query": "Aisle map of a large home center with clear signage and organized sections, natural light filtering through windows, showcasing various building materials and tools.",
+      "source": "pexels",
+      "credit": "Photo by Tiger Lily on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\038-pexels.jpg"
+    },
+    {
+      "query": "A well-organized home center aisle with neatly stacked plywood and MDF sheets, natural light illuminating the space, showcasing the layout of materials.",
+      "source": "pexels",
+      "credit": "Photo by Freek Wolsink on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\039-pexels.jpg"
+    },
+    {
+      "query": "A compact tool kit laid out on a workbench, showcasing essential tools and safety gear, natural light illuminating the workspace.",
+      "source": "pexels",
+      "credit": "Photo by Tima Miroshnichenko on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\041-pexels.jpg"
+    },
+    {
+      "query": "small indian apartment interior minimalist daylight editorial",
+      "source": "pexels",
+      "credit": "Photo by Anisha Deb on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\043-pexels.jpg"
+    },
+    {
+      "query": "Laundry alcove in an Indian apartment, natural light from one window, clean and organized storage solutions, minimalist design, no people, no text.",
+      "source": "pexels",
+      "credit": "Photo by Ty Nguyễn on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\044-pexels.jpg"
+    },
+    {
+      "query": "View of press fit uprights in a laundry alcove, showcasing their tension fit against the ceiling, no people, no text.",
+      "source": "pexels",
+      "credit": "Photo by Alec Adriano on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\046-pexels.jpg"
+    },
+    {
+      "query": "Close-up of a French cleat mounted on a wall in a laundry alcove, showcasing its strength and minimal impact, no people, no text.",
+      "source": "pexels",
+      "credit": "Photo by Mathias Reding on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\047-pexels.jpg"
+    },
+    {
+      "query": "Organized storage bins in a laundry alcove, labeled clearly for easy access, natural light highlighting the setup, no people, no text.",
+      "source": "pexels",
+      "credit": "Photo by Jan van der Wolf on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\048-pexels.jpg"
+    },
+    {
+      "query": "Neatly routed cables and hoses in a laundry alcove, showcasing effective management, no people, no text.",
+      "source": "pexels",
+      "credit": "Photo by panumas nikhomkhai on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\049-pexels.jpg"
+    },
+    {
+      "query": "Organized move-out kit in a laundry alcove, showcasing preparation for future moves, no people, no text.",
+      "source": "pexels",
+      "credit": "Photo by SHVETS production on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\050-pexels.jpg"
+    },
+    {
+      "query": "Laundry alcove with built-in cabinetry, natural light, moisture-resistant finishes, and clean lines.",
+      "source": "pexels",
+      "credit": "Photo by Cup of  Couple on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\051-pexels.jpg"
+    },
+    {
+      "query": "Close-up of cleats secured into wall studs with lag screws and construction adhesive, showcasing a clean installation.",
+      "source": "pexels",
+      "credit": "Photo by Tima Miroshnichenko on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\052-pexels.jpg"
+    },
+    {
+      "query": "Close-up of face frames and trim installed in a laundry alcove, highlighting the clean lines and hidden edges.",
+      "source": "pexels",
+      "credit": "Photo by Vlad Deep on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\053-pexels.jpg"
+    },
+    {
+      "query": "A well-protected laundry alcove with a drip pan, splash guard, and smooth aluminum duct, emphasizing functionality and cleanliness.",
+      "source": "pexels",
+      "credit": "Photo by Đỗ Huy Hoàng on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\055-pexels.jpg"
+    },
+    {
+      "query": "a well-organized small laundry alcove with shelves and a countertop, natural light from one window, clean lines, minimalist design, no people",
+      "source": "pexels",
+      "credit": "Photo by Alec Adriano on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\056-pexels.jpg"
+    },
+    {
+      "query": "a detailed sketch of a laundry alcove with labeled dimensions, clear lines, and organized layout, no people",
+      "source": "pexels",
+      "credit": "Photo by Ivan S on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\057-pexels.jpg"
+    },
+    {
+      "query": "a partially built laundry alcove with visible cleats and shelves, natural light from one window, clean lines, no people",
+      "source": "pexels",
+      "credit": "Photo by Jan van der Wolf on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\059-pexels.jpg"
+    },
+    {
+      "query": "A cozy laundry alcove in a vintage Austin bungalow, showcasing the charm of old architecture with a focus on tight clearances and clever storage solutions.",
+      "source": "pexels",
+      "credit": "Photo by Hoài  Nam on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\061-pexels.jpg"
+    },
+    {
+      "query": "A close-up of a scribed shelf edge fitting snugly against a wavy wall in a Austin apartment, emphasizing the precision of the fit.",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\062-pexels.jpg"
+    },
+    {
+      "query": "A shot of a bifold door in a Seattle apartment, showing the clearance between the door and the shelf, with a focus on low-profile pulls and bumpers.",
+      "source": "pexels",
+      "credit": "Photo by Aditya Oberai on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\063-pexels.jpg"
+    },
+    {
+      "query": "A view of a washing machine in a Brooklyn flat, showcasing the adjustable feet and rubber pads used for leveling and vibration control.",
+      "source": "pexels",
+      "credit": "Photo by RDNE Stock project on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\064-pexels.jpg"
+    },
+    {
+      "query": "Aisle maps for home improvement stores, organized shopping zones, clear signage, bright lighting, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Nothing Ahead on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\068-pexels.jpg"
+    },
+    {
+      "query": "Home Depot lumber and sheet goods aisle plywood stacks, bright lighting, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Mark Stebnicki on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\069-pexels.jpg"
+    },
+    {
+      "query": "hardware aisle fasteners screws anchors in bins, bright lighting, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Mark Stebnicki on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\070-pexels.jpg"
+    },
+    {
+      "query": "a well-organized laundry alcove with shelves and a countertop, natural light, clean lines, minimalist styling",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\072-pexels.jpg"
+    },
+    {
+      "query": "a close-up of a neatly organized laundry alcove with shelves and countertop, natural light, clean lines, minimalist styling",
+      "source": "pexels",
+      "credit": "Photo by Keegan Checks on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\073-pexels.jpg"
+    },
+    {
+      "query": "a printed checklist taped to a wall next to a laundry alcove, natural light, clean lines",
+      "source": "pexels",
+      "credit": "Photo by RDNE Stock project on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\074-pexels.jpg"
+    },
+    {
+      "query": "a cleared alcove ready for measuring, natural light, clean lines",
+      "source": "pexels",
+      "credit": "Photo by Adrien Olichon on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\075-pexels.jpg"
+    },
+    {
+      "query": "a shopping cart filled with lumber and supplies in a hardware store, natural light",
+      "source": "pexels",
+      "credit": "Photo by Jan van der Wolf on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\photos\\076-pexels.jpg"
+    }
+  ],
+  "figures": [
+    {
+      "spec_id": "D001",
+      "kind": "table",
+      "title": "Example Span Is Not A Design Code",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\figures\\D001.svg"
+    },
+    {
+      "spec_id": "D001",
+      "kind": "table",
+      "title": "Example Span Is Not A Design Code",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\figures\\D001.svg"
+    },
+    {
+      "spec_id": "D002",
+      "kind": "table",
+      "title": "Stud Spacing Is A Clue, Not A Map",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\figures\\D002.svg"
+    },
+    {
+      "spec_id": "D004",
+      "kind": "table",
+      "title": "Example Narrow Stack Opening",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\figures\\D004.svg"
+    },
+    {
+      "spec_id": "D003",
+      "kind": "table",
+      "title": "Example Wide Side-By-Side Opening",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\figures\\D003.svg"
+    },
+    {
+      "spec_id": "D003",
+      "kind": "table",
+      "title": "Example Wide Side-By-Side Opening",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\figures\\D003.svg"
+    },
+    {
+      "spec_id": "D005",
+      "kind": "table",
+      "title": "Side Gap Is A Manual Number",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\figures\\D005.svg"
+    },
+    {
+      "spec_id": "D006",
+      "kind": "elevation",
+      "title": "Stacked Height Is Model-Specific",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\figures\\D006.svg"
+    },
+    {
+      "spec_id": "D007",
+      "kind": "table",
+      "title": "Cabinet Width Is Not A Pair",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\figures\\D007.svg"
+    },
+    {
+      "spec_id": "D008",
+      "kind": "table",
+      "title": "Rear Clearance Is A Manual Number",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\figures\\D008.svg"
+    },
+    {
+      "spec_id": "D009",
+      "kind": "table",
+      "title": "Side And Rear Are Separate Checks",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\figures\\D009.svg"
+    },
+    {
+      "spec_id": "D010",
+      "kind": "table",
+      "title": "Copy The Maker Table, Then Build",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\figures\\D010.svg"
+    },
+    {
+      "spec_id": "D011",
+      "kind": "table",
+      "title": "Worked Widths: Trim Lip",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\figures\\D011.svg"
+    },
+    {
+      "spec_id": "D012",
+      "kind": "elevation",
+      "title": "Detergent Shelf Depth Is A Start",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\figures\\D012.svg"
+    },
+    {
+      "spec_id": "D019",
+      "kind": "elevation",
+      "title": "Counter Height Follows The Manual",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\figures\\D019.svg"
+    },
+    {
+      "spec_id": "D020",
+      "kind": "table",
+      "title": "Pattern: Side-By-Side Openings",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\figures\\D020.svg"
+    },
+    {
+      "spec_id": "D021",
+      "kind": "table",
+      "title": "Pattern: Stacked-Narrow Openings",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\figures\\D021.svg"
+    },
+    {
+      "spec_id": "D022",
+      "kind": "table",
+      "title": "Pattern: Compact Side-By-Side",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\figures\\D022.svg"
+    },
+    {
+      "spec_id": "D023",
+      "kind": "table",
+      "title": "Machine Depth Is Not Counter Depth",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\figures\\D023.svg"
+    },
+    {
+      "spec_id": "D024",
+      "kind": "table",
+      "title": "Tall-Bottle Shelf Gap",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\figures\\D024.svg"
+    },
+    {
+      "spec_id": "D025",
+      "kind": "table",
+      "title": "Basket Shelf Gap",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\figures\\D025.svg"
+    },
+    {
+      "spec_id": "D026",
+      "kind": "elevation",
+      "title": "Two Shelf Heights, Then Adjust",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\figures\\D026.svg"
+    },
+    {
+      "spec_id": "D043",
+      "kind": "elevation",
+      "title": "Fallback Shelf Depth",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\figures\\D043.svg"
+    },
+    {
+      "spec_id": "D043",
+      "kind": "elevation",
+      "title": "Fallback Shelf Depth",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\figures\\D043.svg"
+    },
+    {
+      "spec_id": "D044",
+      "kind": "table",
+      "title": "Example Cleat Heights",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\figures\\D044.svg"
+    },
+    {
+      "spec_id": "D045",
+      "kind": "plan",
+      "title": "Example Depths With Trim",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Weekend Laundary Alcove\\figures\\D045.svg"
+    }
+  ]
+}

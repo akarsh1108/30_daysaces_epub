@@ -1,0 +1,1767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Pet Safe Garden Design</title>
+<style>@font-face{font-family:&#34;Source Serif 4&#34;;font-weight:400;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/SourceSerif4-400.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;Source Serif 4&#34;;font-weight:700;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/SourceSerif4-700.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;Fraunces&#34;;font-weight:600;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/Fraunces-600.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;Fraunces&#34;;font-weight:700;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/Fraunces-700.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;DM Sans&#34;;font-weight:400;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/DMSans-400.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;DM Sans&#34;;font-weight:700;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/DMSans-700.woff&#34;) format(&#34;woff&#34;);}
+/* 6x9 KDP magazine interior — WeasyPrint-safe (no absolute overlays / bleed pages).
+   Cover + chapter openers + heroes are STACKED blocks so text never overlaps images.
+   Shared across every book in the series: change this file once, all titles update. */
+
+@page {
+  size: 6in 9in;
+  margin: 0.7in 0.6in 0.7in 0.65in;
+  @top-left {
+    content: string(series-name);
+    font: 7.5pt &#34;DM Sans&#34;, sans-serif;
+    color: #9AA0A2;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  @bottom-center {
+    content: counter(page);
+    font: 8.5pt &#34;DM Sans&#34;, sans-serif;
+    color: #9AA0A2;
+  }
+}
+@page cover {
+  margin: 0;
+  @top-left { content: none; }
+  @bottom-center { content: none; }
+}
+@page front {
+  @top-left { content: none; }
+  @bottom-center { content: none; }
+}
+@page closing {
+  @top-left { content: none; }
+  @bottom-center { content: none; }
+}
+
+:root {
+  --ink: #141816;
+  --paper: #FFFFFF;
+  --accent: #1E5F6B;
+  --accent-deep: #0F3D45;
+  --mist: #F3F6F6;
+  --muted: #7A8285;
+  --red: #C8442B;
+  --serif: &#34;Source Serif 4&#34;, &#34;DejaVu Serif&#34;, Georgia, serif;
+  --display: &#34;Fraunces&#34;, &#34;Source Serif 4&#34;, Georgia, serif;
+  --sans: &#34;DM Sans&#34;, &#34;DejaVu Sans&#34;, sans-serif;
+}
+
+html {
+  font-family: var(--serif);
+  font-size: 10.5pt;
+  line-height: 1.48;
+  color: var(--ink);
+  background: var(--paper);
+}
+body { margin: 0; }
+p { margin: 0 0 0.65em; orphans: 3; widows: 3; }
+img { max-width: 100%; display: block; }
+a { color: inherit; text-decoration: none; }
+
+.series-mark { string-set: series-name content(); display: none; }
+
+/* ========== COVER (shared series template) ========== */
+.cover {
+  page: cover;
+  page-break-after: always;
+  page-break-inside: avoid;
+  width: 6in;
+  height: 9in;
+  overflow: hidden;
+  background: var(--accent-deep);
+}
+.cover-photo {
+  width: 6in;
+  height: 5.35in;
+  object-fit: cover;
+  display: block;
+}
+.cover.cover-designed {
+  background: #111;
+}
+.cover.cover-designed .cover-photo {
+  width: 6in;
+  height: 9in;
+  object-fit: cover;
+}
+.cover-panel {
+  width: 6in;
+  height: 3.65in;
+  box-sizing: border-box;
+  background: var(--accent-deep);
+  color: #fff;
+  padding: 0.38in 0.5in 0.35in;
+}
+.cover-panel .series {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #B7D4D8;
+  margin: 0 0 0.16in;
+}
+.cover-panel .rule {
+  width: 0.9in;
+  height: 2.5pt;
+  background: #fff;
+  margin: 0 0 0.18in;
+}
+.cover-panel h1 {
+  font-family: var(--display);
+  font-size: 26pt;
+  line-height: 1.05;
+  font-weight: 700;
+  margin: 0 0 0.14in;
+  color: #fff;
+}
+.cover-panel .tagline {
+  font-size: 10.5pt;
+  line-height: 1.35;
+  color: #D7E6E8;
+  margin: 0 0 0.4in;
+  max-width: 4.6in;
+}
+.cover-panel .author {
+  font-family: var(--sans);
+  font-size: 10pt;
+  color: #fff;
+  margin: 0;
+  border-top: 0.5pt solid rgba(255,255,255,0.28);
+  padding-top: 0.16in;
+}
+
+/* ========== FRONT MATTER ========== */
+.title-page {
+  page: front;
+  page-break-after: always;
+  padding-top: 1.6in;
+}
+.title-page .mast {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.35in;
+}
+.title-page .rule {
+  width: 1in;
+  height: 2.5pt;
+  background: var(--accent);
+  margin: 0 0 0.3in;
+}
+.title-page h1 {
+  font-family: var(--display);
+  font-size: 28pt;
+  line-height: 1.08;
+  margin: 0 0 0.25in;
+  font-weight: 700;
+}
+.title-page .subtitle {
+  font-size: 12pt;
+  color: #3A4244;
+  margin: 0 0 1.2in;
+  max-width: 4.4in;
+}
+.title-page .author {
+  font-family: var(--sans);
+  font-size: 10pt;
+  color: var(--muted);
+}
+
+.copyright {
+  page: front;
+  page-break-after: always;
+  font-family: var(--sans);
+  font-size: 8pt;
+  line-height: 1.45;
+  color: #555;
+  padding-top: 4.8in;
+}
+.copyright .credits { color: var(--muted); margin-top: 0.4em; }
+
+.toc {
+  page: front;
+  page-break-after: always;
+}
+.toc .kicker {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.12in;
+}
+.toc h2 {
+  font-family: var(--display);
+  font-size: 24pt;
+  margin: 0 0 0.35in;
+  font-weight: 700;
+}
+.toc ol { list-style: none; padding: 0; margin: 0; }
+.toc &gt; ol &gt; li {
+  margin: 0 0 0.45em;
+  font-size: 10.5pt;
+  padding-bottom: 0.28em;
+  border-bottom: 0.4pt solid #E4E8E9;
+}
+.toc &gt; ol &gt; li &gt; a { font-family: var(--display); font-weight: 600; }
+.toc a::after {
+  content: leader(&#34; . &#34;) target-counter(attr(href url), page);
+  font-family: var(--sans);
+  font-size: 8pt;
+  color: var(--muted);
+  font-weight: 400;
+}
+.toc ol ol {
+  margin: 0.15em 0 0;
+  font-size: 9pt;
+  color: #4A5254;
+}
+.toc ol ol li { margin: 0 0 0.12em; border: none; padding: 0; }
+.toc ol ol a { font-family: var(--serif); font-weight: 400; }
+
+/* ========== CHAPTER ========== */
+.chapter { page-break-before: always; }
+
+.chapter-opener {
+  page-break-before: always;
+  page-break-after: always;
+  page-break-inside: avoid;
+  margin: 0;
+  background: var(--accent-deep);
+}
+.chapter-opener img {
+  width: 100%;
+  height: 4.6in;
+  object-fit: cover;
+  display: block;
+}
+.chapter-opener .opener-text {
+  background: var(--accent-deep);
+  color: #fff;
+  padding: 0.32in 0.05in 0.35in;
+}
+.chapter-opener .chap-kicker {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #B7D4D8;
+  margin: 0 0 0.12in;
+}
+.chapter-opener h2 {
+  font-family: var(--display);
+  font-size: 20pt;
+  line-height: 1.12;
+  margin: 0 0 0.12in;
+  font-weight: 700;
+  color: #ffffff;
+}
+.chapter-opener p {
+  font-size: 9.5pt;
+  line-height: 1.4;
+  color: #D7E6E8;
+  margin: 0;
+}
+
+.chapter-title {
+  font-family: var(--display);
+  font-size: 24pt;
+  line-height: 1.1;
+  margin: 0.6in 0 0.22in;
+  font-weight: 700;
+}
+.intro {
+  font-size: 11pt;
+  color: #333;
+  margin-bottom: 0.4in;
+  border-left: 3pt solid var(--accent);
+  padding-left: 0.16in;
+}
+
+/* ========== UNIT ========== */
+.unit { page-break-before: always; }
+.chapter &gt; .unit:first-of-type { page-break-before: auto; }
+
+.unit-head { margin: 0 0 0.25in; }
+.day {
+  display: block;
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 5pt;
+}
+.unit h3, .hero h3 {
+  font-family: var(--display);
+  font-size: 17pt;
+  line-height: 1.15;
+  margin: 0;
+  font-weight: 700;
+}
+
+/* Hero: image then caption strip UNDER it — never overlays */
+.hero {
+  margin: 0 0 0.28in;
+  page-break-inside: avoid;
+  background: var(--mist);
+}
+.hero img {
+  width: 100%;
+  height: 3.15in;
+  object-fit: cover;
+  display: block;
+}
+.hero .hero-label {
+  padding: 0.16in 0.18in 0.18in;
+}
+.hero .day { color: var(--accent); }
+.hero h3 { color: var(--ink); font-size: 16pt; }
+
+.scenario {
+  background: var(--mist);
+  border-top: 2.5pt solid var(--accent);
+  padding: 0.16in 0.18in 0.18in;
+  margin: 0 0 0.25in;
+}
+.scenario .label {
+  font-family: var(--sans);
+  font-size: 7.5pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.08in;
+}
+.scenario p {
+  font-size: 10pt;
+  font-style: italic;
+  color: #2A3234;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.principle {
+  font-family: var(--display);
+  font-size: 13.5pt;
+  line-height: 1.28;
+  font-weight: 600;
+  margin: 0.05in 0 0.28in;
+  color: var(--accent-deep);
+  padding: 0.08in 0 0.08in 0.18in;
+  border-left: 3pt solid var(--accent);
+}
+
+.body-copy p { font-size: 10.5pt; }
+
+figure.diagram {
+  margin: 0.18in 0 0.28in;
+  page-break-inside: avoid;
+  background: var(--mist);
+  padding: 0.1in;
+}
+figure.diagram img {
+  width: 100%;
+  display: block;
+  background: #fff;
+}
+figure.diagram figcaption {
+  font-family: var(--sans);
+  font-size: 8pt;
+  color: var(--muted);
+  line-height: 1.35;
+  margin-top: 5pt;
+}
+
+.steps, .checklist, .mistake {
+  page-break-inside: avoid;
+  margin: 0.25in 0;
+}
+.steps h4, .checklist h4, .mistake h4 {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0 0 7pt;
+  font-weight: 700;
+}
+.steps {
+  background: var(--mist);
+  padding: 0.16in 0.18in;
+}
+.steps ol {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  counter-reset: step;
+}
+.steps li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 1.4em;
+  margin: 0 0 6pt;
+  font-size: 10pt;
+}
+.steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: var(--sans);
+  font-size: 8.5pt;
+  font-weight: 700;
+  color: var(--accent);
+}
+.steps em {
+  color: var(--muted);
+  font-style: normal;
+  font-family: var(--sans);
+  font-size: 8pt;
+}
+
+.mistake {
+  background: #F8EEEB;
+  padding: 0.16in 0.18in;
+  border-left: 3pt solid var(--red);
+}
+.mistake h4 { color: var(--red); }
+.mistake p { margin: 0; font-size: 9.8pt; }
+
+.checklist ul { list-style: none; padding: 0; margin: 0; }
+.checklist li {
+  padding-left: 1.4em;
+  position: relative;
+  margin: 0 0 5pt;
+  font-size: 10pt;
+}
+.checklist li::before {
+  content: &#34;&#34;;
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  width: 0.7em;
+  height: 0.7em;
+  border: 1.2pt solid var(--accent);
+}
+
+/* ========== LAST PAGE (shared series closer) ========== */
+.closing {
+  page: closing;
+  page-break-before: always;
+  padding-top: 0;
+}
+.closing-photo {
+  width: 100%;
+  height: 3.2in;
+  object-fit: cover;
+  display: block;
+  margin: 0 0 0.45in;
+}
+.closing .kicker {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.16in;
+}
+.closing .rule {
+  width: 1in;
+  height: 2.5pt;
+  background: var(--accent);
+  margin: 0 0 0.25in;
+}
+.closing h2 {
+  font-family: var(--display);
+  font-size: 24pt;
+  line-height: 1.1;
+  margin: 0 0 0.2in;
+}
+.closing .blurb {
+  font-size: 11.5pt;
+  line-height: 1.4;
+  color: #333;
+  max-width: 4.5in;
+  margin: 0 0 0.7in;
+}
+.closing .author {
+  margin-top: 0.9in;
+  font-family: var(--sans);
+  font-size: 9.5pt;
+  color: var(--muted);
+}
+</style>
+</head>
+<body>
+<span class="series-mark">30 Day Spaces</span>
+
+<section class="cover cover-designed">
+  <img class="cover-photo" src="cover.jpg" alt="A small balcony garden with planters and shade, no people, pets, or text.">
+</section>
+
+<section class="title-page">
+  <p class="mast">30 Day Spaces</p>
+  <div class="rule"></div>
+  <h1>Pet Safe Garden Design</h1>
+<p class="subtitle">A renter-aware guide to outdoor pet spaces — verify the plant, the product, and the balcony</p><p class="author">Akarsh Priyadarshan</p></section>
+
+<section class="copyright">
+  <p>© 2026 Akarsh Priyadarshan. All rights reserved.</p>
+  <p>Interior designed for Amazon KDP print (6 × 9 in) and Kindle.</p>
+  <p>1 interior image in this book
+     was generated with AI tools and reviewed by the author.
+     All diagrams were drawn from the measurements in the text.</p>
+<p class="credits">Photographs: Photo by adrian vieriu on Pexels; Photo by Beyzaa Yurtkuran on Pexels; Photo by Maximilian Müller on Pexels; Photo by Siegfried Poepperl on Pexels; Photo by Quang Nguyen Vinh on Pexels; Photo by NipananLifestyle.com on Pexels; Photo by 🇻🇳🇻🇳 Việt Anh Nguyễn 🇻🇳🇻🇳 on Pexels; Photo by Matthew Jesús on Pexels; Photo by Emiliano Herrera on Pexels; Photo by Adrien Olichon on Pexels; Photo by Alexey Demidov on Pexels; Photo by Sergej  ***** on Pexels; Photo by @coldbeer on Pexels; Photo by Tobi &amp;Chris on Pexels; Photo by Lin. on Pexels; Photo by Birkant  Cakar on Pexels; Photo by Ulrick Trappschuh on Pexels; Photo by The Hung on Pexels; Photo by Mike Bird on Pexels; Photo by Jan van der Wolf on Pexels; Photo by đình ưu nguyễn on Pexels; Photo by Chris F on Pexels; Photo by Abhishek  Navlakha on Pexels; Photo by Yaroslav Shuraev on Pexels; Photo by Nikolett Emmert on Pexels; Photo by Aniket Suryawanshi on Pexels; Photo by https://kaboompics.com/ on Pexels; Photo by Eduardo Avila Carbajal on Pexels; Photo by lin lin on Pexels; Photo by 虎 曼 on Pexels; Photo by Doğan Alpaslan  Demir on Pexels; Photo by Khoa Võ on Pexels; Photo by Enric Cruz López on Pexels; Photo by Akshay Sawardekar on Pexels; Photo by Helena Jankovičová Kováčová on Pexels; Photo by Lisa Fotios on Pexels.</p></section>
+
+<section class="toc">
+  <p class="kicker">Inside this book</p>
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#pet-safe-is-a-process">Pet-safe is a process</a>
+      <ol><li><a href="#not-risk-free">Pet-safe does not mean risk-free</a></li><li><a href="#species-changes-the-garden">The same garden is not one design for every pet</a></li><li><a href="#before-you-install">Before you install anything</a></li></ol>
+    </li>
+    <li><a href="#hazards-load-and-the-balcony">Hazards, load, and the balcony</a>
+      <ol><li><a href="#name-hazards-without-labels">Name hazards without trusting the label</a></li><li><a href="#balcony-structural-check">Balcony, load, and structural safety</a></li><li><a href="#vision-that-can-leave">A vision that can actually be removed</a></li></ol>
+    </li>
+    <li><a href="#finishes-and-coatings">Finishes, curing, and what low VOC does not prove</a>
+      <ol><li><a href="#low-voc-is-not-ingest-safe">Low VOC is not ingest-safe</a></li><li><a href="#cure-from-the-label">Curing and re-entry from the product, not from hope</a></li><li><a href="#food-contact-is-not-pet-proof">Food-contact is not a pet-proof rating</a></li></ol>
+    </li>
+    <li><a href="#plants-by-species">Plants by species, not by look</a>
+      <ol><li><a href="#verify-plants-by-species">How to verify a plant before it comes home</a></li><li><a href="#substitution-is-not-a-certificate">A look-alike is not a safety certificate</a></li><li><a href="#purchase-record-not-quarantine-myth">A purchase record, not a 24-hour pesticide guarantee</a></li></ol>
+    </li>
+    <li><a href="#layout-paths-and-barriers">Layout, paths, and barriers</a>
+      <ol><li><a href="#zones-by-pet-and-space">Choosing zones by pet and space</a></li><li><a href="#widths-depend-on-the-job">Path width depends on the job, not a single number</a></li><li><a href="#gaps-by-the-smallest-animal">Barrier gaps follow the smallest animal</a></li></ol>
+    </li>
+    <li><a href="#soil-drainage-irrigation">Soil, drainage, and irrigation</a>
+      <ol><li><a href="#soil-and-fertilizer-records">Fertilizer, compost, and ingestion risk</a></li><li><a href="#balcony-versus-ground-drainage">Balcony drainage versus ground-level drainage</a></li><li><a href="#irrigation-is-not-drinking-water">Irrigation is not a water bowl</a></li></ol>
+    </li>
+    <li><a href="#behavior-without-guarantees">Behavior without guaranteed outcomes</a>
+      <ol><li><a href="#digging-box-without-promises">A digging box to try, not a guarantee</a></li><li><a href="#scent-posts-and-the-vet">Scent posts are optional. Sudden marking is not a décor problem</a></li><li><a href="#catio-escape-and-fall">Catio, climb, fall, and attachment safety</a></li></ol>
+    </li>
+    <li><a href="#climate-heat-and-seasons">Climate, heat, and seasons</a>
+      <ol><li><a href="#heat-without-the-hand-test">Heat, shade, water — not a seven-second hand test</a></li><li><a href="#climate-conditions-not-one-winter">Use the climate you actually have</a></li></ol>
+    </li>
+    <li><a href="#build-phases-and-hold-points">Build phases and hold points</a>
+      <ol><li><a href="#phase-risks-and-renter-holds">Phase risks, renter holds, and when to stop</a></li><li><a href="#hardscape-and-turnover">Hardscape checks and a turnover sign-off</a></li></ol>
+    </li>
+    <li><a href="#checklists-and-risk-scoring">Checklists that force a decision</a>
+    </li>
+    <li><a href="#buy-documentation-then-stop">Buy documentation, then stop</a>
+    </li>
+  </ol>
+</section>
+
+<section class="chapter" id="pet-safe-is-a-process">
+  <div class="chapter-opener">
+    <img src="photos/001-pexels.jpg" alt="A small balcony with one planter, a water bowl, and a closed door to the interior.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Pet-safe is a process</h2>
+<p>Safety note: No garden material or plant should be treated as universally safe for every pet. Verify the exact species, ingredients, product instructions, and exposure risks before installation. Keep pets away from wet finishes, construction areas, fertilizers, and plants whose identity you have not checked. Consult a veterinarian or qualified professional when poisoning, structural safety, or unusual exposure is a concern. This book is a design process, not a veterinary, engineering, or pesticide manual. Some scenarios use apartments in Indian cities as compact-space illustrations. They do not define the market. Prices, when mentioned, are in US dollars. Measurements are in inches. Example sizes are illustrations, not load ratings. 1 inch equals 25 mm if you need a conversion; converted numbers are not a different specification. Manufacturer instructions, the lease, building rules, and a veterinarian take precedence over this book. Distinguish four claims and do not mix them: suitable for normal contact after the product&#39;s stated cure or re-entry; suitable for incidental contact; not evaluated for ingestion; suitable only for a named pet species. A low-VOC finish is not automatically safe to lick. An organic fertilizer is not automatically safe to eat. A non-toxic plant listing for dogs is not a rabbit grazing permit.</p>    </div>
+  </div>
+
+  <article class="unit" id="not-risk-free">
+
+    <figure class="hero">
+      <img src="photos/002-pexels.jpg" alt="A product can and a plant tag on a table, neither treated as a guarantee.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Pet-safe does not mean risk-free</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Situation: A renter in a Pune 1BHK balcony — used here as a compact-rental illustration — buys a &#39;pet-safe&#39; stain and a &#39;non-toxic&#39; herb kit for a dog and a rabbit.</p>
+    </div>
+
+    <p class="principle">Labels name a marketing category. They do not replace species, ingredients, and exposure checks.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a written safety note for this project, plus which of the four exposure claims you will actually try to meet.</p>
+      <figure class="diagram">
+        <img src="figures/D001.svg" alt="Four claims that are not interchangeable">
+<figcaption>A product can pass one row and fail the others.</figcaption>      </figure>
+      <p>Keep pets off wet finishes, open bags of soil amendment, and plants you have not identified. If a pet chews, vomits, seizes, or shows sudden distress, that is a veterinary problem, not a design tweak.</p>
+      <p>Do not use pet-safe, non-toxic, certified, organic, or low-VOC as synonyms. Write the product name, the pet species, and the exposure you expect (paw, fur, chew, graze).</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Write the four exposure claims</li><li>Name species on the project</li><li>File the safety note</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Calling the balcony finished because the can said pet-safe.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Write the four exposure claims</li><li>Name species on the project</li><li>File the safety note</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="species-changes-the-garden">
+
+    <figure class="hero">
+      <img src="photos/003-pexels.jpg" alt="A dog bowl, a cat perch, and a rabbit hay rack kept as separate problems.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>The same garden is not one design for every pet</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In this suburban side yard, a household has a jumping dog, an indoor-outdoor cat, and a rabbit. One fence detail cannot serve all three.</p>
+    </div>
+
+    <p class="principle">Design for the smallest escape artist and the actual behaviors, not an average pet.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: the four-feature sheet filled for each pet you keep — boundary, plant selection, surfaces, enrichment — with blanks if you do not have that species.</p>
+      <figure class="diagram">
+        <img src="figures/D002.svg" alt="Boundary and plants by species">
+<figcaption>Fill only the animals you keep. A dog row is not a rabbit row.</figcaption>      </figure>
+      <p>Boundary: dogs need escape resistance, jumping, and digging checks; cats need climbing and mesh-escape checks; rabbits need chewing and gap protection. Plant selection: dogs — ingestion and chewing; cats — toxicity plus plants they can jump to; rabbits — grazing suitability, which is not the same as a dog or cat listing. Surfaces: dogs — traction, heat, abrasion; cats — grip, jump, and fall; rabbits — traction and chewing exposure. Enrichment: dogs — digging, scent, running; cats — climbing, hiding, perching; rabbits — foraging and verified grazing.</p>
+      <figure class="diagram">
+        <img src="figures/D017.svg" alt="Surfaces and enrichment by species">
+<figcaption>Use with the boundary table. Do not mix rows into one universal design.</figcaption>      </figure>
+      <p>This is not one garden formula. Copy the rows that match your household. Later chapters on zones, barriers, soil, digging boxes, and catios send you back here instead of inventing a new average pet.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>List each pet</li><li>Fill the four design rows</li><li>Mark unknown plants as Hold</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Using a cat catio mesh as if it also contains a rabbit, or a dog run as if a cat cannot climb it.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>List each pet</li><li>Fill the four design rows</li><li>Mark unknown plants as Hold</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="before-you-install">
+
+    <figure class="hero">
+      <img src="photos/004-pexels.jpg" alt="A lease page and a tape measure on a balcony, no holes in the railing yet.">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Before you install anything</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In this rental courtyard, the tenant wants pavers, a catio, and anchored scent posts. The lease is silent until someone asks.</p>
+    </div>
+
+    <p class="principle">Reversible is not the same as permitted, and freestanding is not automatically stable.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: the Before you install anything sheet, with every line yes, no, or ask.</p>
+      <figure class="diagram">
+        <img src="figures/D003.svg" alt="Before you install anything">
+<figcaption>A blank is a Hold. Freestanding still needs a stability check.</figcaption>      </figure>
+      <p>Is the space rented or owned? Is drilling permitted? Can the floor support the proposed load? Are waterproofing or drainage changes allowed? Is the balcony enclosed? Can the structure be removed without damage? Does the landlord or housing association require approval? Save written permission. Photograph the space before work.</p>
+      <p>If the answer is rental or unknown, prefer freestanding lightweight planters, removable barriers, portable enrichment, non-permanent furniture, and surface protection that does not block drains. Freestanding is not automatically safe — still check tip-over, wind, and escape resistance. Concrete-set scent posts, anchored furniture, pavers on a slab, and catios stay on Hold until permission and load are known.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Complete the permission sheet</li><li>Choose reversible options where needed</li><li>Photograph the starting space</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Ordering concrete-set posts for a balcony you do not own.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Complete the permission sheet</li><li>Choose reversible options where needed</li><li>Photograph the starting space</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="hazards-load-and-the-balcony">
+  <div class="chapter-opener">
+    <img src="photos/005-pexels.jpg" alt="A balcony with two lightweight planters spread apart, drain visible, railing unmodified.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Hazards, load, and the balcony</h2>
+<p>A balcony garden is not automatically suitable for heavy landscaping materials. Verify structural capacity, waterproofing, drainage, and landlord or building restrictions before adding significant weight or fixing structures to the building. Combined weight includes dry soil, saturated soil, water, planters, pavers, furniture, pets, and people. Do not pile heavy planters in one corner without verification. Keep drainage outlets clear.</p>    </div>
+  </div>
+
+  <article class="unit" id="name-hazards-without-labels">
+
+    <figure class="hero">
+      <img src="photos/006-pexels.jpg" alt="A gap under a railing, a cocoa-mulch bag, and a water bowl placed away from both.">
+      <div class="hero-label">
+<span class="day">Day 4</span>        <h3>Name hazards without trusting the label</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In this apartment garden, the hazard is not only a plant list. There is a railing gap, standing water, and a bag of soil amendment on the floor.</p>
+    </div>
+
+    <p class="principle">Walk the space as the pet would: chew, squeeze, jump, drink, lie down.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a hazard list grouped as plant, chemical, heat, escape, structure, water, and electrical — each with a next action that is not &#39;it looks fine.&#39;</p>
+      <p>Cocoa hulls, bone meal, blood meal, and fish meal are often attractive and may be harmful if ingested; do not use them as a default mulch or fertilizer where pets can eat them. That is not a complete banned-substance list. Read the product.</p>
+      <p>Cross-check plants with a current veterinary poison resource for that scientific name and your species. This book does not certify any plant as safe.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Walk the pet path</li><li>List hazards by type</li><li>Mark structure vs. plant vs. chemical</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Removing one toxic shrub and leaving a climbable railing gap.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Walk the pet path</li><li>List hazards by type</li><li>Mark structure vs. plant vs. chemical</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="balcony-structural-check">
+
+    <figure class="hero">
+      <img src="photos/007-pexels.jpg" alt="Empty balcony with drain outlet visible, no stacked stone, no drilled railing.">
+      <div class="hero-label">
+<span class="day">Day 5</span>        <h3>Balcony, load, and structural safety</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In this balcony garden, the plan called for stone pads, saturated planters, and a catio frame on one side of a mid-rise slab.</p>
+    </div>
+
+    <p class="principle">Weight, water, and anchors are building problems. They are not décor.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a balcony structural safety check filled, or a Hold if load, waterproofing, or permission is unknown.</p>
+      <figure class="diagram">
+        <img src="figures/D004.svg" alt="Balcony structural safety check">
+<figcaption>Unknown load is a Hold.</figcaption>      </figure>
+      <p>Confirm permitted load and restrictions with the building owner or a qualified professional. Account for saturated soil, not just dry bags. Avoid concentrating heavy planters or hardscape. Do not drill railings or slabs without approval. Keep drains clear. A catio must not create an escape or fall path.</p>
+      <p>A balcony garden is not automatically suitable for heavy landscaping materials. Verify structural capacity, waterproofing, drainage, and landlord or building restrictions before adding significant weight or fixing structures to the building.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Ask about load and waterproofing</li><li>List every heavy item</li><li>Hold if unverified</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Setting pavers and wet soil on a slab because a ground-level yard book showed the same look.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Ask about load and waterproofing</li><li>List every heavy item</li><li>Hold if unverified</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="vision-that-can-leave">
+
+    <figure class="hero">
+      <img src="photos/008-pexels.jpg" alt="Lightweight planters on feet, shade sail on approved hardware or not used.">
+      <div class="hero-label">
+<span class="day">Day 6</span>        <h3>A vision that can actually be removed</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In this home renovation context, the indoor-outdoor threshold is being tiled. The pet still needs a temporary outdoor zone that can come out when the lease ends.</p>
+    </div>
+
+    <p class="principle">Style is last. Load, permission, and species checks are first.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a one-page vision that names species, sun, wind, access, and what will stay freestanding.</p>
+      <p>Do not pick rosemary and thyme as a Mediterranean look for a rabbit until a rabbit-appropriate source confirms grazing use, quantity, and growing conditions. Do not assume a cat-safe herb is rabbit forage.</p>
+      <p>If the balcony cannot take the look you sketched, reduce weight and skip the built-in catio.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Sketch zones on paper</li><li>Mark what is removable</li><li>Drop anything over unknown load</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Choosing a style palette before the load and species sheet exists.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Sketch zones on paper</li><li>Mark what is removable</li><li>Drop anything over unknown load</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="finishes-and-coatings">
+  <div class="chapter-opener">
+    <img src="photos/009-pexels.jpg" alt="Cans with SDS sheets, pets kept indoors, wet furniture isolated.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Finishes, curing, and what low VOC does not prove</h2>
+<p>Select products from full ingredient information, intended application, curing requirements, and exposure risks. Low VOC levels alone do not establish that a product is safe to ingest or suitable for every pet. Keep pets away until the product&#39;s instructions specify re-entry. A sealed garage is not automatically a safe curing room. Food-contact ratings apply to intended food contact, not to every garden surface a pet might lick.</p>    </div>
+  </div>
+
+  <article class="unit" id="low-voc-is-not-ingest-safe">
+
+    <figure class="hero">
+      <img src="photos/010-pexels.jpg" alt="A finish can next to an SDS, not next to a water bowl.">
+      <div class="hero-label">
+<span class="day">Day 7</span>        <h3>Low VOC is not ingest-safe</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In this apartment garden, the listing said Greenguard Gold. The dog still chews chair legs.</p>
+    </div>
+
+    <p class="principle">Certifications cover stated criteria and product categories. They are not a blanket pet-ingestion guarantee.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a product row with name, maker, intended use, SDS or TDS on file, and which exposure claim you are not making.</p>
+      <p>GREENGUARD Gold, EU Ecolabel, and similar marks are limited to their program rules. Record the certificate name and scope. Do not write &#39;certified pet-safe.&#39;</p>
+      <p>A test patch checks color and adhesion. No odor is not a safety proof. Keep the patch; drop it as a toxicity test.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>File SDS or TDS</li><li>Write the exposure you will not claim</li><li>Test patch for look only</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Using a lack of smell as permission for the rabbit to sit on the wet bench.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>File SDS or TDS</li><li>Write the exposure you will not claim</li><li>Test patch for look only</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="cure-from-the-label">
+
+    <figure class="hero">
+      <img src="photos/011-pexels.jpg" alt="Furniture curing behind a closed door, pet bed inside the home.">
+      <div class="hero-label">
+<span class="day">Day 8</span>        <h3>Curing and re-entry from the product, not from hope</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In this rental courtyard, overnight cure in a closed garage was the plan because the can said waterborne.</p>
+    </div>
+
+    <p class="principle">Pets stay away until the instructions&#39; re-entry conditions are met, including ventilation time.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a cure log — product, start time, ventilation, stated re-entry, and who keeps the pet out.</p>
+      <p>Some products need longer than a night. Follow that product. Do not use a sealed garage as a default safe room.</p>
+      <p>If you cannot isolate pets for the required period, delay the finish or choose a furniture piece that is already finished and documented.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Copy re-entry from the label</li><li>Plan pet exclusion</li><li>Do not shorten the wait</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Letting pets out when the surface feels dry to a human hand.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Copy re-entry from the label</li><li>Plan pet exclusion</li><li>Do not shorten the wait</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="food-contact-is-not-pet-proof">
+
+    <figure class="hero">
+      <img src="photos/012-pexels.jpg" alt="A bowl stand separate from oiled wood furniture.">
+      <div class="hero-label">
+<span class="day">Day 9</span>        <h3>Food-contact is not a pet-proof rating</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In this suburban yard, plant-based oil was chosen because it was food-contact safe after cure.</p>
+    </div>
+
+    <p class="principle">Food-contact suitability matters when the object is meant for food or water. It is not a universal pet-safety guarantee.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a note on each wood or metal finish that says food-contact, outdoor furniture, or not claimed — never &#39;therefore lick-safe.&#39;</p>
+      <p>Use food-contact products where you actually store food or drinking water. For fences and planters, use the outdoor product&#39;s own instructions and keep chewing pets off until you have a reason to trust that use.</p>
+      <p>Powder-coated metal still has edges, chips, and fasteners to inspect. Coating type does not remove pinch or rust risks.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Separate food gear from furniture</li><li>Name the finish&#39;s intended use</li><li>Inspect edges</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Oiling every surface with salad oil and calling it food-safe.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Separate food gear from furniture</li><li>Name the finish&#39;s intended use</li><li>Inspect edges</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="plants-by-species">
+  <div class="chapter-opener">
+    <img src="photos/013-pexels.jpg" alt="A notebook with scientific names, not a mood board of unnamed greenery.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Plants by species, not by look</h2>
+<p>Plant safety databases may differ by species, cultivar, and source. A veterinarian or a poison-control resource should be consulted for uncertain plants. This book will not call hornbeam, beech, rosemary, thyme, lavender, or any other plant universally safe. Record common name, scientific name, pet species, toxicity status from a named source, toxic parts, ingestion concerns, and a substitution only after that check. Rabbits need rabbit sources. Do not graze a rabbit on a &#39;dog-safe&#39; herb bed.</p>    </div>
+  </div>
+
+  <article class="unit" id="verify-plants-by-species">
+
+    <figure class="hero">
+      <img src="photos/014-pexels.jpg" alt="A nursery tag photographed next to a written scientific name.">
+      <div class="hero-label">
+<span class="day">Day 10</span>        <h3>How to verify a plant before it comes home</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In this balcony garden, the shop label said &#39;safe mix&#39; with no scientific names.</p>
+    </div>
+
+    <p class="principle">If you cannot name the plant, you cannot check it.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a verification table started with every plant you already own or intend to buy.</p>
+      <figure class="diagram">
+        <img src="figures/D005.svg" alt="Plant verification fields">
+<figcaption>A blank scientific name is a Hold.</figcaption>      </figure>
+      <p>Common toxic lists often include yew, azalea, and true lilies for some species — still verify the exact plant and your pet. Do not treat a list in this book as complete or current.</p>
+      <p>Cultivars differ. Do not write that some lavenders are safe and others are not unless you have a current, species-specific source for that scientific name. If the source disagrees or is unclear, Hold the plant.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Write scientific names</li><li>Check a current vet source</li><li>Hold unnamed plants</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Substituting hornbeam for yew and writing &#39;safe hedge&#39; without a source or a species.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Write scientific names</li><li>Check a current vet source</li><li>Hold unnamed plants</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="substitution-is-not-a-certificate">
+
+    <figure class="hero">
+      <img src="photos/015-pexels.jpg" alt="Two unlabeled shrubs, one crossed out until identified.">
+      <div class="hero-label">
+<span class="day">Day 11</span>        <h3>A look-alike is not a safety certificate</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In this rental courtyard, yew was rejected and a &#39;similar hedge&#39; was ordered by photo.</p>
+    </div>
+
+    <p class="principle">Match the scientific name, then the source, then the pet. Looks are last.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: either a verified substitute with source and species, or a decision to use a barrier and skip the plant.</p>
+      <p>Serviceberry, crabapple, ornamental fruit, and berries can still drop material pets eat. Identity and parts matter more than the layer in a planting diagram.</p>
+      <p>For rabbits, verify grazing plants for rabbits, feeding quantity, and how the plant is grown. Rosemary and thyme stay on Hold until that check is done.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Refuse unnamed substitutes</li><li>Record the source</li><li>Skip the plant if Hold</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Planting a beech hedge because a chapter once called it safe.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Refuse unnamed substitutes</li><li>Record the source</li><li>Skip the plant if Hold</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="purchase-record-not-quarantine-myth">
+
+    <figure class="hero">
+      <img src="photos/016-pexels.jpg" alt="A plant in isolation away from pets, with a written supplier note.">
+      <div class="hero-label">
+<span class="day">Day 12</span>        <h3>A purchase record, not a 24-hour pesticide guarantee</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In this apartment garden, the old note said quarantine 24 to 48 hours to clear pesticide residue.</p>
+    </div>
+
+    <p class="principle">Time on a balcony does not prove residue is gone. Visual checks find pests, not chemistry.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a purchase record — supplier, date, scientific name, treatment history if available, any waiting or re-entry instructions, pest inspection notes.</p>
+      <figure class="diagram">
+        <img src="figures/D006.svg" alt="What plant isolation can and cannot do">
+<figcaption>Isolation is observation, not a residue test.</figcaption>      </figure>
+      <p>Keep newly purchased plants separated from pets while you verify identity, pesticide and fertilizer treatment history, and any required waiting instructions. Inspect for pests and disease. Do not allow pets to chew or graze unless suitability for that species is verified.</p>
+      <p>Do not wash or treat plants with improvised mixes to &#39;remove&#39; pesticide. Follow the supplier or product instructions, or do not use the plant.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Fill the purchase record</li><li>Separate from pets</li><li>Do not improvise residue removal</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Letting the rabbit graze after two quiet days on the balcony.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Fill the purchase record</li><li>Separate from pets</li><li>Do not improvise residue removal</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="layout-paths-and-barriers">
+  <div class="chapter-opener">
+    <img src="photos/017-pexels.jpg" alt="Painter tape marking a path beside planters, a gate leaning closed.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Layout, paths, and barriers</h2>
+<p>Widths depend on the job: a person walking with a pet, a dog running, or a shared path with furniture. Gates and planters steal usable width. Do not treat 36 inches, 2–3 feet, or 3–5 feet as a universal clearance. Barrier gaps are measured against the smallest head, body, and escape behavior. A three-inch slat gap is not a universal safety threshold. Climbing over and digging under still count.</p>    </div>
+  </div>
+
+  <article class="unit" id="zones-by-pet-and-space">
+
+    <figure class="hero">
+      <img src="photos/018-pexels.jpg" alt="Tape on a balcony dividing rest, water, and a closed plant corner.">
+      <div class="hero-label">
+<span class="day">Day 13</span>        <h3>Choosing zones by pet and space</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In this balcony garden, one zone tried to be a dog run, a cat climb, and a herb bed.</p>
+    </div>
+
+    <p class="principle">Give each pet a job in the space you actually have. Do not stack incompatible jobs.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a zone map — rest and water, human sitting, planting that pets cannot graze, enrichment, and a no-go if needed.</p>
+      <p>Open the Day 2 species sheet before you draw zones. A dog run, a cat climb, and a rabbit graze are different jobs. On a small balcony, a chase corridor may be impossible. Choose rest, water, and shade over a fake run. On a ground yard, separate digging from planting if you use a digging box.</p>
+      <p>Raised planters are not automatically rabbit-proof or cat-proof. Check height against jump and chew.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Map zones on paper</li><li>Drop zones the space cannot hold</li><li>Mark no-go planting</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Drawing four activity zones on a six-foot balcony and calling it complete.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Map zones on paper</li><li>Drop zones the space cannot hold</li><li>Mark no-go planting</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="widths-depend-on-the-job">
+
+    <figure class="hero">
+      <img src="photos/019-pexels.jpg" alt="A tape measure on a path with a planter stealing six inches.">
+      <div class="hero-label">
+<span class="day">Day 14</span>        <h3>Path width depends on the job, not a single number</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In this suburban yard, three different chapters had offered three different widths for &#39;the path.&#39;</p>
+    </div>
+
+    <p class="principle">Name the movement: walk, run, or shared. Then measure what is left after furniture and gates.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: for each route, write the job (walk, run, or shared), who uses it, pet size, leftover width after furniture and gates, and whether the route is even possible.</p>
+      <figure class="diagram">
+        <img src="figures/D007.svg" alt="Circulation is a job, not a universal width">
+<figcaption>Measure the leftover width after gates and furniture.</figcaption>      </figure>
+      <p>Older notes of 2–3 feet, 3–4 feet, 36 inches, and 3–5 feet were not three competing rules. They were illustrations for different jobs and different dog sizes. A walk path is leftover width for a person plus the pet without a squeeze past a gate. A run or chase path is wider than a walk path and still needs a way to stop. A shared path subtracts benches, planters, and gate swing. None of those numbers is a specification for every animal or every balcony.</p>
+      <figure class="diagram">
+        <img src="figures/D021.svg" alt="Why the old width numbers differed">
+<figcaption>Illustrations for different jobs. Measure leftover width. Not a spec.</figcaption>      </figure>
+      <p>If you want a planning illustration: leftover walk width is often sketched near 36 inches, and a chase is sketched wider than a walk. Measure your leftover width. If it cannot handle this pet&#39;s size and speed, change the activity. On a small balcony a chase may be impossible — go back to the Day 2 sheet and choose rest, water, and shade.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Name each route&#39;s job</li><li>Measure usable width</li><li>Cancel routes that do not fit</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Installing a &#39;3 to 5 foot chase&#39; on a balcony that is 4 feet deep.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Name each route&#39;s job</li><li>Measure usable width</li><li>Cancel routes that do not fit</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="gaps-by-the-smallest-animal">
+
+    <figure class="hero">
+      <img src="photos/020-pexels.jpg" alt="A railing with a temporary mesh panel, gap checked against a closed fist only as a reminder to measure the pet.">
+      <div class="hero-label">
+<span class="day">Day 15</span>        <h3>Barrier gaps follow the smallest animal</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In this rental courtyard, the fence used slats &#39;under 3 inches&#39; while a rabbit lived there.</p>
+    </div>
+
+    <p class="principle">Measure head, body, paws, and jaws. Climb and dig are part of the barrier.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a barrier note for the smallest pet — measured against head, body, and escape behavior; climb; dig; trap risk for paws, jaws, or limbs; latch; and whether the barrier is for a dog, cat, or rabbit. Use the Day 2 boundary row.</p>
+      <figure class="diagram">
+        <img src="figures/D008.svg" alt="Barriers by the smallest escape artist">
+<figcaption>A number from a catalog is not your pet.</figcaption>      </figure>
+      <p>Dogs: jump and dig under. Cats: climb and squeeze mesh. Rabbits: chew and use very small gaps. Do not treat slat spacing less than 3 inches as a universal safety threshold. That number is not a certificate for every small pet.</p>
+      <p>A gap that traps a paw or jaw fails even if it stops an escape. Climb-over and dig-under still count. Change the barrier rather than keeping the look.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Measure the smallest pet</li><li>Check climb and dig</li><li>Fix trap gaps</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Using one slat spacing for a dog and a rabbit.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Measure the smallest pet</li><li>Check climb and dig</li><li>Fix trap gaps</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="soil-drainage-irrigation">
+  <div class="chapter-opener">
+    <img src="photos/021-pexels.jpg" alt="A drain outlet kept clear, a hose off the floor, a water bowl on a stand.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Soil, drainage, and irrigation</h2>
+<p>Organic or plant-based does not mean safe to ingest. Biochar is not inherently safe or unattractive. &#39;Certified free of contaminants&#39; is meaningless without the actual test or standard name. Ground-level grading is not a balcony skill. Irrigation water is not drinking water. Drip tubing is not automatically safe if a pet can chew it.</p>    </div>
+  </div>
+
+  <article class="unit" id="soil-and-fertilizer-records">
+
+    <figure class="hero">
+      <img src="photos/022-pexels.jpg" alt="Closed bags of amendment stored off the floor, away from a pet bed.">
+      <div class="hero-label">
+<span class="day">Day 16</span>        <h3>Fertilizer, compost, and ingestion risk</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In this balcony garden, &#39;plant-based compost&#39; and charged biochar were treated as automatically gentle.</p>
+    </div>
+
+    <p class="principle">Read ingredients, dose, storage, and the pet-exclusion period on that product.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: one verification sheet per soil or fertilizer product. Soil that holds plants is not the same problem as a fertilizer a pet might eat.</p>
+      <figure class="diagram">
+        <img src="figures/D009.svg" alt="Soil and fertilizer product sheet">
+<figcaption>Fertilizer ingestion is a separate check from soil structure.</figcaption>      </figure>
+      <p>Record ingredients and concentration, intended application, manufacturer instructions, storage, ingestion risks, pet exclusion period if specified, batch or product identification, and the actual testing or certification document if you claim one. Do not write certified free of contaminants without naming the standard.</p>
+      <p>Avoid bone meal, blood meal, fish meal, and cocoa hulls where pets can eat them. Organic or plant-based compost is not automatically safe to ingest. Biochar is not inherently safe or unattractive; use only that product&#39;s rate and keep bags closed. Use the Day 2 plant and surface rows if a pet will lie on or chew the mulch.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>File every soil product</li><li>Store sealed and off the floor</li><li>Hold undocumented bags</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Spreading unnamed compost because it was labeled organic.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>File every soil product</li><li>Store sealed and off the floor</li><li>Hold undocumented bags</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="balcony-versus-ground-drainage">
+
+    <figure class="hero">
+      <img src="photos/023-pexels.jpg" alt="A balcony drain grate clear of mats, saucers that do not block flow.">
+      <div class="hero-label">
+<span class="day">Day 17</span>        <h3>Balcony drainage versus ground-level drainage</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In this Chennai balcony — a humid-climate illustration — the plan imported a French drain from a yard book.</p>
+    </div>
+
+    <p class="principle">Do not regrade a slab or bury a drain on a balcony you do not own.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: circle balcony or ground-level, then only the checks that match. Balcony examples in Pune, Mumbai, Bengaluru, or Chennai are compact-space illustrations. They do not make a French drain legal on a slab.</p>
+      <figure class="diagram">
+        <img src="figures/D010.svg" alt="Two drainage worlds">
+<figcaption>A level checks slope. It does not prove the outlet works.</figcaption>      </figure>
+      <p>Ground-level garden: grading and discharge must not send water toward buildings or neighboring properties. French drains need an appropriate outlet and maintenance. Assess local soil and drainage. A bubble level is not a drainage design. Permeable pavers still need a legal place for water to go.</p>
+      <p>Balcony garden: do not assume you can regrade or fit a French drain. Do not block drainage outlets. Confirm waterproofing and permitted arrangements. Avoid runoff that damages walls, lower balconies, or shared spaces. Use containers and drainage systems appropriate to the space. Permeable-paver looks from a yard book are not automatic on a rental slab.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Choose balcony or ground</li><li>Keep outlets clear</li><li>Stop if waterproofing is involved</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Cutting a channel drain into a rental balcony slab.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Choose balcony or ground</li><li>Keep outlets clear</li><li>Stop if waterproofing is involved</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="irrigation-is-not-drinking-water">
+
+    <figure class="hero">
+      <img src="photos/024-pexels.jpg" alt="Drip line clipped out of chew range, a separate filled water bowl.">
+      <div class="hero-label">
+<span class="day">Day 18</span>        <h3>Irrigation is not a water bowl</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In this suburban yard, drip irrigation was called safe because it hid the tubing under mulch the dog later dug.</p>
+    </div>
+
+    <p class="principle">Chew, leak, standing water, and electrical controls are separate checks.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: an irrigation safety pass covering chew and entanglement, leaks, hose and tubing condition, standing water and mosquitoes, backflow where relevant, electrical separation, and a drinking bowl that is not irrigation water.</p>
+      <figure class="diagram">
+        <img src="figures/D022.svg" alt="Irrigation safety pass">
+<figcaption>Drip is not automatically safe. Drinking water is a separate bowl.</figcaption>      </figure>
+      <p>Drip irrigation is not automatically safe if the pet can reach or chew the tubing. Do not hide a chewable line under mulch and call it solved. Inspect hose and tubing on a schedule. Place components where pets cannot chew or tangle.</p>
+      <p>Follow local rules for backflow on hose bibs where they apply. Keep irrigation timers and lighting electrically separated from standing water. You plan placement; a qualified person does new electrical work. Provide drinking water in a bowl you can clean, separate from irrigation water.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Separate drinking water</li><li>Inspect tubing</li><li>Check puddles and chew points</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Calling emitters pet-safe because they are small.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Separate drinking water</li><li>Inspect tubing</li><li>Check puddles and chew points</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="behavior-without-guarantees">
+  <div class="chapter-opener">
+    <img src="photos/025-pexels.jpg" alt="A digging box to one side, a closed gate, no claim that the rest of the yard is solved.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Behavior without guaranteed outcomes</h2>
+<p>A garden can support training. It does not replace a veterinarian or a qualified behavior professional. Sudden behavior change, excessive marking, repetitive destruction, fear, aggression, escape, pain, or ongoing stress is a reason to get help. Enrichment features are options to test and adjust.</p>    </div>
+  </div>
+
+  <article class="unit" id="digging-box-without-promises">
+
+    <figure class="hero">
+      <img src="photos/026-pexels.jpg" alt="A shallow box with clean fill, no buried plastic toys, waste scooped.">
+      <div class="hero-label">
+<span class="day">Day 19</span>        <h3>A digging box to try, not a guarantee</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In this suburban yard, a digging box was placed and the dog was expected to switch in a few days.</p>
+    </div>
+
+    <p class="principle">A designated digging area may help when it is placed well and paired with reinforcement. Watch whether your pet uses it. Change it if digging continues elsewhere.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a digging-box spec — location, fill you can document as appropriate for this pet, no swallowable buried items, treat rules, waste and sharp-object checks, drainage so it does not become a pest pit.</p>
+      <p>Use clean, non-contaminated fill. Do not leave food in the soil. The box is a dog-enrichment option from the Day 2 sheet, not a universal fix for anxiety, escape, or hunting, and not a cat or rabbit requirement.</p>
+      <p>If digging is new, frantic, or paired with other distress, ask a veterinarian before you build a bigger box.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Choose documented fill</li><li>Set a clean-out routine</li><li>Watch where digging actually happens</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Burying treats and toys and leaving them for days.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Choose documented fill</li><li>Set a clean-out routine</li><li>Watch where digging actually happens</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="scent-posts-and-the-vet">
+
+    <figure class="hero">
+      <img src="photos/027-pexels.jpg" alt="A stable post with no sharp concrete burrs, cleaner labeled for that use.">
+      <div class="hero-label">
+<span class="day">Day 20</span>        <h3>Scent posts are optional. Sudden marking is not a décor problem</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In this apartment garden, concrete-set posts and bedding scent were specified on a balcony slab.</p>
+    </div>
+
+    <p class="principle">Marking design is enrichment or management. It is not guaranteed control, and it is not a diagnosis.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: either a Hold on concrete-set posts (permission, load, edges) or a removable post with a cleaner you can document for pet areas, mixed as the label says.</p>
+      <p>Seek veterinary evaluation for sudden or abnormal marking. Adding scent can increase marking for some animals. Rounded gravel can be swallowed or get into paws; check the size against the pet.</p>
+      <p>Do not promise that a post will stop indoor marking.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Skip concrete-set if rental or unknown load</li><li>File the cleaner</li><li>Call the vet for sudden marking</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Sprinkling used bedding to &#39;set the smell&#39; next to a toxic shrub.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Skip concrete-set if rental or unknown load</li><li>File the cleaner</li><li>Call the vet for sudden marking</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="catio-escape-and-fall">
+
+    <figure class="hero">
+      <img src="photos/028-pexels.jpg" alt="A ground-level enclosure sketch with mesh, latch, and no balcony drop.">
+      <div class="hero-label">
+<span class="day">Day 21</span>        <h3>Catio, climb, fall, and attachment safety</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In this balcony garden, shelves eight inches deep and outdoor carpet were treated as a finished catio.</p>
+    </div>
+
+    <p class="principle">Shelf depth is not a fall rating. Carpet is not automatically safe when wet.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a catio hold-point sheet. If any line fails, cats stay off the structure.</p>
+      <figure class="diagram">
+        <img src="figures/D013.svg" alt="Catio do-not-proceed">
+<figcaption>Unverified climb structures stay unused.</figcaption>      </figure>
+      <p>Need escape-resistant doors and latches, mesh openings for the smallest pet in the enclosure, weather-resistant attachments, no sharp wire ends or exposed fasteners, grip that still works wet, and an inspection schedule for mesh, corrosion, and movement. Distinguish a balcony catio (fall and load) from a ground enclosure.</p>
+      <p>Go back to the Day 2 cat rows: climb, mesh, grip, jump, and fall. Cats should not climb structures that have not been checked for load and fall. Outdoor carpet can hold moisture, grow mold, snag claws, and wear out — inspect and replace. Do not imply a shelf is safe because it is eight inches deep.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Choose balcony or ground enclosure</li><li>Check mesh, latch, attachments</li><li>Hold if load or fall is unclear</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Mounting carpeted shelves to an unknown railing.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Choose balcony or ground enclosure</li><li>Check mesh, latch, attachments</li><li>Hold if load or fall is unclear</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="climate-heat-and-seasons">
+  <div class="chapter-opener">
+    <img src="photos/029-pexels.jpg" alt="Shade, a water bowl, and a closed door at midday.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Climate, heat, and seasons</h2>
+<p>Indian city names in examples are climate illustrations, not the product market. Snow advice does not apply to every reader. Heat, humidity, monsoon drainage, and freeze–thaw are different jobs. Surface heat is monitored with a suitable thermometer, not the back of a hand and a seven-second count.</p>    </div>
+  </div>
+
+  <article class="unit" id="heat-without-the-hand-test">
+
+    <figure class="hero">
+      <img src="photos/030-pexels.jpg" alt="An infrared thermometer aimed at dark pavers in sun, a shaded mat nearby.">
+      <div class="hero-label">
+<span class="day">Day 22</span>        <h3>Heat, shade, water — not a seven-second hand test</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In this Bengaluru terrace — a hot-climate illustration — dark stone was checked with the back of a hand.</p>
+    </div>
+
+    <p class="principle">Human skin is not a paw instrument. If contact is not safe, restrict access and wait.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a heat log — time of day the pet would be out, hottest surfaces measured with a suitable infrared thermometer, shade, cooler alternate surface, drinking water, and a stop rule.</p>
+      <figure class="diagram">
+        <img src="figures/D015.svg" alt="Surface heat monitoring">
+<figcaption>No fixed temperature in this book is a universal paw limit.</figcaption>      </figure>
+      <p>Measure the hottest areas, not only the pretty shade. Account for time on the surface, species, and the individual pet. Metal and artificial turf can be worse than they look. Humid shade can still be a poor rest spot.</p>
+      <p>Learn heat-stress signs for your species from a veterinary source. Avoid peak-heat outings. If you suspect burns or heat illness, seek veterinary care. This book does not give treatment steps.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Measure the hot surfaces</li><li>Provide shade and water</li><li>Restrict access if too hot</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Using a seven-second hand test as the summer protocol.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Measure the hot surfaces</li><li>Provide shade and water</li><li>Restrict access if too hot</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="climate-conditions-not-one-winter">
+
+    <figure class="hero">
+      <img src="photos/031-pexels.jpg" alt="A drain checked before rain, not a snow shovel on a tropical balcony.">
+      <div class="hero-label">
+<span class="day">Day 23</span>        <h3>Use the climate you actually have</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In this Pune balcony illustration, the printed winter chapter showed snow and de-icers.</p>
+    </div>
+
+    <p class="principle">Keep winter methods only if you have ice. Everyone still has a weather job.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: circle the conditions that apply — warm humid; dry hot; cold freeze; high rainfall — and copy only those checks.</p>
+      <figure class="diagram">
+        <img src="figures/D014.svg" alt="Seasonal jobs by climate">
+<figcaption>Skip the rows that are not your weather.</figcaption>      </figure>
+      <p>Warm humid: mold, algae, pests, monsoon drainage. Dry hot: surface temperature, water, irrigation. Cold: freeze–thaw, ice, snow, de-icing products used only per their pet and surface instructions; keep pets off treated paths. High rainfall: standing water, slip, plant disease.</p>
+      <p>Mechanical snow removal first if you have snow. Do not pick a de-icer because a book called it generally gentler.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Circle your climate jobs</li><li>Skip snow if you have none</li><li>Recheck drains before heavy rain</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Buying de-icer for a balcony that never freezes.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Circle your climate jobs</li><li>Skip snow if you have none</li><li>Recheck drains before heavy rain</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="build-phases-and-hold-points">
+  <div class="chapter-opener">
+    <img src="photos/032-pexels.jpg" alt="Temporary barrier across a balcony door, tools on a mat, pets indoors.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Build phases and hold points</h2>
+<p>Work in phases only after permission and load are known. Pets stay out of the work area. Electrical and waterproofing are professional boundaries. A plate compactor is not a balcony tool. Joint sand needs documented product information, not a vague nontoxic certificate.</p>    </div>
+  </div>
+
+  <article class="unit" id="phase-risks-and-renter-holds">
+
+    <figure class="hero">
+      <img src="photos/033-pexels.jpg" alt="A printed phase list on a fridge, a closed balcony door.">
+      <div class="hero-label">
+<span class="day">Day 24</span>        <h3>Phase risks, renter holds, and when to stop</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In this rental courtyard, infrastructure week assumed French drains and new outdoor outlets.</p>
+    </div>
+
+    <p class="principle">Each phase has a main risk and a verification. Fail the check and do not proceed.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a construction matrix with pass/hold and a corrective note. Prep: toxic plants, debris, pet exclusion. Infrastructure: leaks, pooling, electrical. Hardscape: loose units, edges, load. Planting: identity and product records. Finishes: wet coatings and re-entry. Turnover: unnoticed hazards.</p>
+      <figure class="diagram">
+        <img src="figures/D011.svg" alt="Construction verification before the next phase">
+<figcaption>Record pass or hold. This is not an engineering stamp.</figcaption>      </figure>
+      <p>Excavation and permanent drainage may be forbidden in a rental. Waterproofing and structural fixes need a qualified person. You may plan; you do not improvise building systems.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Fill the phase matrix</li><li>Keep pets out</li><li>Stop on any Hold</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Starting finishes while the drainage outlet is still blocked.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Fill the phase matrix</li><li>Keep pets out</li><li>Stop on any Hold</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="hardscape-and-turnover">
+
+    <figure class="hero">
+      <img src="photos/034-pexels.jpg" alt="A paver that rocks marked with tape, a hose test toward a legal drain.">
+      <div class="hero-label">
+<span class="day">Day 25</span>        <h3>Hardscape checks and a turnover sign-off</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In this suburban yard, a plate compactor and a step test were the whole quality plan.</p>
+    </div>
+
+    <p class="principle">Follow the surface system&#39;s instructions. Rocking, trip edges, and pooling fail the phase.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a hardscape and turnover sheet — installation system named, rocking units, uneven transitions, drainage, balcony load if relevant, professional review if structure or waterproofing is involved.</p>
+      <p>A step test does not define acceptable deflection. If it rocks or trips, it fails. Do not write &#39;nontoxic joint sand&#39; unless you have the product&#39;s documents.</p>
+      <p>Turnover: drainage, traction, boundaries, access, heat at use time, plant records, finish re-entry, and pets only after the sign-off.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Check rocking and edges</li><li>Hose-test drainage legally</li><li>Sign turnover or Hold</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Declaring turnover because the furniture matched the cushions.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Check rocking and edges</li><li>Hose-test drainage legally</li><li>Sign turnover or Hold</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="checklists-and-risk-scoring">
+  <div class="chapter-opener">
+    <img src="photos/035-pexels.jpg" alt="A one-page checklist with species, tenure, and a Hold column.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Checklists that force a decision</h2>
+<p>A checklist is for decisions. Rate likelihood and consequence to prioritize. The matrix is not a veterinary or engineering certification. A loose balcony railing, an unidentified plant, or an unstable planter is high consequence even if it has not failed yet.</p>    </div>
+  </div>
+
+  <article class="unit" id="profiles-and-risk-matrix">
+
+    <figure class="hero">
+      <img src="photos/036-pexels.jpg" alt="A form with species, rented-or-owned, and product names filled.">
+      <div class="hero-label">
+<span class="day">Day 26</span>        <h3>Pet, site, material profiles and a real risk matrix</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In this apartment garden, the old checklist asked for observations and mentioned a scoring framework that was never shown.</p>
+    </div>
+
+    <p class="principle">If a high-consequence item is likely or even possible, restrict access and fix it before style work.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: pet profile (species, age, size, mobility, chew/dig/jump/escape, heat/cold sensitivity, known medical limits if relevant); site profile (owned or rented, balcony/courtyard/terrace/ground, drains, load limits, sun, wind, access, existing hazards); material profile (name, maker, composition, intended use, cure/re-entry, maintenance, safety document source).</p>
+      <figure class="diagram">
+        <img src="figures/D012.svg" alt="Prioritization aid, not a safety certificate">
+<figcaption>High consequence still gets action even when it has not happened.</figcaption>      </figure>
+      <p>Risk matrix: low likelihood and low consequence — monitor. Low likelihood and high consequence — mitigate before pet access. High likelihood and low consequence — correct where practical. High likelihood and high consequence — restrict access and address immediately.</p>
+      <p>Example: a loose balcony railing is high consequence. An unidentified plant in a rabbit run is high consequence. An unstable tall planter is high consequence.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Fill three profiles</li><li>Score each open hazard</li><li>Restrict high-consequence items</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Scoring a toxic plant as low because the pet has not eaten it yet.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Fill three profiles</li><li>Score each open hazard</li><li>Restrict high-consequence items</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="buy-documentation-then-stop">
+  <div class="chapter-opener">
+    <img src="photos/037-pexels.jpg" alt="SDS pages and samples on a table, empty price cells in USD.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Buy documentation, then stop</h2>
+<p>Shop with a comparison sheet. A certificate is scoped. Quantity, waste, storage, batch, shelf life, substitution rules, returns, and pet exclusion belong on the sheet. After install, live in the space and inspect. Do not buy a matching second set because the first looks styled.</p>    </div>
+  </div>
+
+  <article class="unit" id="certifications-and-final-check">
+
+    <figure class="hero">
+      <img src="photos/038-pexels.jpg" alt="A signed turnover page: water bowl in shade, drain clear, pets still inside until checks pass.">
+      <div class="hero-label">
+<span class="day">Day 27</span>        <h3>Certifications, a buying sheet, and the final outdoor check</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In this home renovation, leftover paint and an extra shrub were purchased for visual completion.</p>
+    </div>
+
+    <p class="principle">If incoming hazards remain, more décor is the wrong next buy.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a buying sheet — product, maker, quantity, unit, USD price, waste, source, date, estimate yes/no, batch, shelf life if any, substitution rule, return notes, curing/exclusion. Then the final check below.</p>
+      <figure class="diagram">
+        <img src="figures/D016.svg" alt="What a certification does not mean">
+<figcaption>Copy the program name. Do not upgrade it into pet-proof.</figcaption>      </figure>
+      <p>GREENGUARD Gold and EU Ecolabel (and any other mark) cover specific criteria. Write the mark and the product category. Do not write that the animal is therefore safe.</p>
+      <p>Final check: species sheet current; plants identified or removed; balcony load still honest; finishes past re-entry; heat plan for the next hot day; mesh and latches inspected; drains clear; drinking water separate from irrigation; high-consequence items restricted. Next step is living with the setup and watching the pet, not ordering a matching pair.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Complete the buying sheet</li><li>Run the final check</li><li>Watch the pet for a real session</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Closing the book because the photos look like a garden magazine.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Complete the buying sheet</li><li>Run the final check</li><li>Watch the pet for a real session</li></ul>
+    </div>
+
+  </article>
+</section>
+
+<section class="closing">
+  <img class="closing-photo" src="photos/001-pexels.jpg" alt="A small balcony with one planter, a water bowl, and a closed door to the interior.">
+  <p class="kicker">30 Day Spaces</p>
+  <div class="rule"></div>
+  <h2>Your next room starts here</h2>
+  <p class="blurb">More room kits and measured layouts — same series language, same clear numbers. This book helps readers design a garden or balcony their pets can use more carefully. It does not certify plants, finishes, or structures as safe, replace a veterinarian, or authorize building work.</p>
+<p class="author">Akarsh Priyadarshan</p></section>
+
+</body>
+</html>

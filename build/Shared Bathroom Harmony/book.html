@@ -1,0 +1,3683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Shared Bathroom Harmony</title>
+<style>@font-face{font-family:&#34;Source Serif 4&#34;;font-weight:400;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/SourceSerif4-400.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;Source Serif 4&#34;;font-weight:700;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/SourceSerif4-700.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;Fraunces&#34;;font-weight:600;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/Fraunces-600.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;Fraunces&#34;;font-weight:700;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/Fraunces-700.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;DM Sans&#34;;font-weight:400;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/DMSans-400.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;DM Sans&#34;;font-weight:700;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/DMSans-700.woff&#34;) format(&#34;woff&#34;);}
+/* 6x9 KDP magazine interior — WeasyPrint-safe (no absolute overlays / bleed pages).
+   Cover + chapter openers + heroes are STACKED blocks so text never overlaps images.
+   Shared across every book in the series: change this file once, all titles update. */
+
+@page {
+  size: 6in 9in;
+  margin: 0.7in 0.6in 0.7in 0.65in;
+  @top-left {
+    content: string(series-name);
+    font: 7.5pt &#34;DM Sans&#34;, sans-serif;
+    color: #9AA0A2;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  @bottom-center {
+    content: counter(page);
+    font: 8.5pt &#34;DM Sans&#34;, sans-serif;
+    color: #9AA0A2;
+  }
+}
+@page cover {
+  margin: 0;
+  @top-left { content: none; }
+  @bottom-center { content: none; }
+}
+@page front {
+  @top-left { content: none; }
+  @bottom-center { content: none; }
+}
+@page closing {
+  @top-left { content: none; }
+  @bottom-center { content: none; }
+}
+
+:root {
+  --ink: #141816;
+  --paper: #FFFFFF;
+  --accent: #1E5F6B;
+  --accent-deep: #0F3D45;
+  --mist: #F3F6F6;
+  --muted: #7A8285;
+  --red: #C8442B;
+  --serif: &#34;Source Serif 4&#34;, &#34;DejaVu Serif&#34;, Georgia, serif;
+  --display: &#34;Fraunces&#34;, &#34;Source Serif 4&#34;, Georgia, serif;
+  --sans: &#34;DM Sans&#34;, &#34;DejaVu Sans&#34;, sans-serif;
+}
+
+html {
+  font-family: var(--serif);
+  font-size: 10.5pt;
+  line-height: 1.48;
+  color: var(--ink);
+  background: var(--paper);
+}
+body { margin: 0; }
+p { margin: 0 0 0.65em; orphans: 3; widows: 3; }
+img { max-width: 100%; display: block; }
+a { color: inherit; text-decoration: none; }
+
+.series-mark { string-set: series-name content(); display: none; }
+
+/* ========== COVER (shared series template) ========== */
+.cover {
+  page: cover;
+  page-break-after: always;
+  page-break-inside: avoid;
+  width: 6in;
+  height: 9in;
+  overflow: hidden;
+  background: var(--accent-deep);
+}
+.cover-photo {
+  width: 6in;
+  height: 5.35in;
+  object-fit: cover;
+  display: block;
+}
+.cover.cover-designed {
+  background: #111;
+}
+.cover.cover-designed .cover-photo {
+  width: 6in;
+  height: 9in;
+  object-fit: cover;
+}
+.cover-panel {
+  width: 6in;
+  height: 3.65in;
+  box-sizing: border-box;
+  background: var(--accent-deep);
+  color: #fff;
+  padding: 0.38in 0.5in 0.35in;
+}
+.cover-panel .series {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #B7D4D8;
+  margin: 0 0 0.16in;
+}
+.cover-panel .rule {
+  width: 0.9in;
+  height: 2.5pt;
+  background: #fff;
+  margin: 0 0 0.18in;
+}
+.cover-panel h1 {
+  font-family: var(--display);
+  font-size: 26pt;
+  line-height: 1.05;
+  font-weight: 700;
+  margin: 0 0 0.14in;
+  color: #fff;
+}
+.cover-panel .tagline {
+  font-size: 10.5pt;
+  line-height: 1.35;
+  color: #D7E6E8;
+  margin: 0 0 0.4in;
+  max-width: 4.6in;
+}
+.cover-panel .author {
+  font-family: var(--sans);
+  font-size: 10pt;
+  color: #fff;
+  margin: 0;
+  border-top: 0.5pt solid rgba(255,255,255,0.28);
+  padding-top: 0.16in;
+}
+
+/* ========== FRONT MATTER ========== */
+.title-page {
+  page: front;
+  page-break-after: always;
+  padding-top: 1.6in;
+}
+.title-page .mast {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.35in;
+}
+.title-page .rule {
+  width: 1in;
+  height: 2.5pt;
+  background: var(--accent);
+  margin: 0 0 0.3in;
+}
+.title-page h1 {
+  font-family: var(--display);
+  font-size: 28pt;
+  line-height: 1.08;
+  margin: 0 0 0.25in;
+  font-weight: 700;
+}
+.title-page .subtitle {
+  font-size: 12pt;
+  color: #3A4244;
+  margin: 0 0 1.2in;
+  max-width: 4.4in;
+}
+.title-page .author {
+  font-family: var(--sans);
+  font-size: 10pt;
+  color: var(--muted);
+}
+
+.copyright {
+  page: front;
+  page-break-after: always;
+  font-family: var(--sans);
+  font-size: 8pt;
+  line-height: 1.45;
+  color: #555;
+  padding-top: 4.8in;
+}
+.copyright .credits { color: var(--muted); margin-top: 0.4em; }
+
+.toc {
+  page: front;
+  page-break-after: always;
+}
+.toc .kicker {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.12in;
+}
+.toc h2 {
+  font-family: var(--display);
+  font-size: 24pt;
+  margin: 0 0 0.35in;
+  font-weight: 700;
+}
+.toc ol { list-style: none; padding: 0; margin: 0; }
+.toc &gt; ol &gt; li {
+  margin: 0 0 0.45em;
+  font-size: 10.5pt;
+  padding-bottom: 0.28em;
+  border-bottom: 0.4pt solid #E4E8E9;
+}
+.toc &gt; ol &gt; li &gt; a { font-family: var(--display); font-weight: 600; }
+.toc a::after {
+  content: leader(&#34; . &#34;) target-counter(attr(href url), page);
+  font-family: var(--sans);
+  font-size: 8pt;
+  color: var(--muted);
+  font-weight: 400;
+}
+.toc ol ol {
+  margin: 0.15em 0 0;
+  font-size: 9pt;
+  color: #4A5254;
+}
+.toc ol ol li { margin: 0 0 0.12em; border: none; padding: 0; }
+.toc ol ol a { font-family: var(--serif); font-weight: 400; }
+
+/* ========== CHAPTER ========== */
+.chapter { page-break-before: always; }
+
+.chapter-opener {
+  page-break-before: always;
+  page-break-after: always;
+  page-break-inside: avoid;
+  margin: 0;
+  background: var(--accent-deep);
+}
+.chapter-opener img {
+  width: 100%;
+  height: 4.6in;
+  object-fit: cover;
+  display: block;
+}
+.chapter-opener .opener-text {
+  background: var(--accent-deep);
+  color: #fff;
+  padding: 0.32in 0.05in 0.35in;
+}
+.chapter-opener .chap-kicker {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #B7D4D8;
+  margin: 0 0 0.12in;
+}
+.chapter-opener h2 {
+  font-family: var(--display);
+  font-size: 20pt;
+  line-height: 1.12;
+  margin: 0 0 0.12in;
+  font-weight: 700;
+  color: #ffffff;
+}
+.chapter-opener p {
+  font-size: 9.5pt;
+  line-height: 1.4;
+  color: #D7E6E8;
+  margin: 0;
+}
+
+.chapter-title {
+  font-family: var(--display);
+  font-size: 24pt;
+  line-height: 1.1;
+  margin: 0.6in 0 0.22in;
+  font-weight: 700;
+}
+.intro {
+  font-size: 11pt;
+  color: #333;
+  margin-bottom: 0.4in;
+  border-left: 3pt solid var(--accent);
+  padding-left: 0.16in;
+}
+
+/* ========== UNIT ========== */
+.unit { page-break-before: always; }
+.chapter &gt; .unit:first-of-type { page-break-before: auto; }
+
+.unit-head { margin: 0 0 0.25in; }
+.day {
+  display: block;
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 5pt;
+}
+.unit h3, .hero h3 {
+  font-family: var(--display);
+  font-size: 17pt;
+  line-height: 1.15;
+  margin: 0;
+  font-weight: 700;
+}
+
+/* Hero: image then caption strip UNDER it — never overlays */
+.hero {
+  margin: 0 0 0.28in;
+  page-break-inside: avoid;
+  background: var(--mist);
+}
+.hero img {
+  width: 100%;
+  height: 3.15in;
+  object-fit: cover;
+  display: block;
+}
+.hero .hero-label {
+  padding: 0.16in 0.18in 0.18in;
+}
+.hero .day { color: var(--accent); }
+.hero h3 { color: var(--ink); font-size: 16pt; }
+
+.scenario {
+  background: var(--mist);
+  border-top: 2.5pt solid var(--accent);
+  padding: 0.16in 0.18in 0.18in;
+  margin: 0 0 0.25in;
+}
+.scenario .label {
+  font-family: var(--sans);
+  font-size: 7.5pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.08in;
+}
+.scenario p {
+  font-size: 10pt;
+  font-style: italic;
+  color: #2A3234;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.principle {
+  font-family: var(--display);
+  font-size: 13.5pt;
+  line-height: 1.28;
+  font-weight: 600;
+  margin: 0.05in 0 0.28in;
+  color: var(--accent-deep);
+  padding: 0.08in 0 0.08in 0.18in;
+  border-left: 3pt solid var(--accent);
+}
+
+.body-copy p { font-size: 10.5pt; }
+
+figure.diagram {
+  margin: 0.18in 0 0.28in;
+  page-break-inside: avoid;
+  background: var(--mist);
+  padding: 0.1in;
+}
+figure.diagram img {
+  width: 100%;
+  display: block;
+  background: #fff;
+}
+figure.diagram figcaption {
+  font-family: var(--sans);
+  font-size: 8pt;
+  color: var(--muted);
+  line-height: 1.35;
+  margin-top: 5pt;
+}
+
+.steps, .checklist, .mistake {
+  page-break-inside: avoid;
+  margin: 0.25in 0;
+}
+.steps h4, .checklist h4, .mistake h4 {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0 0 7pt;
+  font-weight: 700;
+}
+.steps {
+  background: var(--mist);
+  padding: 0.16in 0.18in;
+}
+.steps ol {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  counter-reset: step;
+}
+.steps li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 1.4em;
+  margin: 0 0 6pt;
+  font-size: 10pt;
+}
+.steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: var(--sans);
+  font-size: 8.5pt;
+  font-weight: 700;
+  color: var(--accent);
+}
+.steps em {
+  color: var(--muted);
+  font-style: normal;
+  font-family: var(--sans);
+  font-size: 8pt;
+}
+
+.mistake {
+  background: #F8EEEB;
+  padding: 0.16in 0.18in;
+  border-left: 3pt solid var(--red);
+}
+.mistake h4 { color: var(--red); }
+.mistake p { margin: 0; font-size: 9.8pt; }
+
+.checklist ul { list-style: none; padding: 0; margin: 0; }
+.checklist li {
+  padding-left: 1.4em;
+  position: relative;
+  margin: 0 0 5pt;
+  font-size: 10pt;
+}
+.checklist li::before {
+  content: &#34;&#34;;
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  width: 0.7em;
+  height: 0.7em;
+  border: 1.2pt solid var(--accent);
+}
+
+/* ========== LAST PAGE (shared series closer) ========== */
+.closing {
+  page: closing;
+  page-break-before: always;
+  padding-top: 0;
+}
+.closing-photo {
+  width: 100%;
+  height: 3.2in;
+  object-fit: cover;
+  display: block;
+  margin: 0 0 0.45in;
+}
+.closing .kicker {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.16in;
+}
+.closing .rule {
+  width: 1in;
+  height: 2.5pt;
+  background: var(--accent);
+  margin: 0 0 0.25in;
+}
+.closing h2 {
+  font-family: var(--display);
+  font-size: 24pt;
+  line-height: 1.1;
+  margin: 0 0 0.2in;
+}
+.closing .blurb {
+  font-size: 11.5pt;
+  line-height: 1.4;
+  color: #333;
+  max-width: 4.5in;
+  margin: 0 0 0.7in;
+}
+.closing .author {
+  margin-top: 0.9in;
+  font-family: var(--sans);
+  font-size: 9.5pt;
+  color: var(--muted);
+}
+</style>
+</head>
+<body>
+<span class="series-mark">30 Day Spaces</span>
+
+<section class="cover cover-designed">
+  <img class="cover-photo" src="cover.jpg" alt="A calm shared bathroom with two organized storage zones, a clear walking path, and no people or text.">
+</section>
+
+<section class="title-page">
+  <p class="mast">30 Day Spaces</p>
+  <div class="rule"></div>
+  <h1>Shared Bathroom Harmony</h1>
+<p class="subtitle">A practical guide to sharing a bathroom fairly, keeping wet zones safer, and organizing a rental you do not own</p><p class="author">Akarsh Priyadarshan</p></section>
+
+<section class="copyright">
+  <p>© 2026 Akarsh Priyadarshan. All rights reserved.</p>
+  <p>Interior designed for Amazon KDP print (6 × 9 in) and Kindle.</p>
+  <p>1 interior image in this book
+     was generated with AI tools and reviewed by the author.
+     All diagrams were drawn from the measurements in the text.</p>
+<p class="credits">Photographs: Photo by Max Vakhtbovych on Pexels; Photo by Đỗ Huy Hoàng on Pexels; Photo by https://kaboompics.com/ on Pexels; Photo by cottonbro studio on Pexels; Photo by Curtis Adams on Pexels; Photo by Andy Coffie on Pexels; Photo by Blue Bird on Pexels; Photo by Peter  Vang on Pexels; Photo by Mathias Reding on Pexels; Photo by RDNE Stock project on Pexels; Photo by KoolShooters on Pexels; Photo by Engin Akyurt on Pexels; Photo by asude on Pexels; Photo by Collab Media on Pexels; Photo by Castorly Stock on Pexels; Photo by Vinson Chu on Pexels; Photo by EqualStock IN on Pexels; Photo by Ty Nguyễn on Pexels; Photo by SHVETS production on Pexels; Photo by Marc Pell on Pexels; Photo by Cup of  Couple on Pexels; Photo by Eugene Laszczewski on Pexels; Photo by Andrea Piacquadio on Pexels; Photo by Alex Tyson on Pexels; Photo by Bilguun Gantumur on Pexels; Photo by isabel  ph on Pexels; Photo by Valeriia Miller on Pexels; Photo by Ryan Lansdown on Pexels; Photo by Beyzanur K. on Pexels; Photo by AJ  Ahamad on Pexels; Photo by Karl Solano on Pexels; Photo by Vie Studio on Pexels; Photo by Jaycee300s on Pexels; Photo by Real  Estate 4k on Pexels.</p></section>
+
+<section class="toc">
+  <p class="kicker">Inside this book</p>
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#shared-bathroom-mindset-and-fairness-fundamentals">Before you begin</a>
+      <ol><li><a href="#when-an-equal-split-fails">When an equal split is the wrong answer</a></li><li><a href="#fairness-triangle-applied-once">Volume, visibility, and access in one room</a></li><li><a href="#shared-harmony-charter">Write the working agreement</a></li></ol>
+    </li>
+    <li><a href="#two-person-inventory-and-declutter-method">Two-person inventory</a>
+      <ol><li><a href="#shared-personal-temporary-discard">Four labels before any organizer</a></li><li><a href="#duplicates-and-almost-empty">Duplicates, almost-empty bottles, and gifts</a></li><li><a href="#expiry-humidity-medicines">Expiry, humidity, and medicines</a></li><li><a href="#inventory-record">Photograph the keepers</a></li></ol>
+    </li>
+    <li><a href="#space-mapping-and-zoning-blueprint-space-mapping-and-zoning-">Measure the bathroom first</a>
+      <ol><li><a href="#measure-vanity-and-plumbing">Vanity, drawers, and the pipes</a></li><li><a href="#measure-shower-doors-outlets">Shower, door swing, and outlets</a></li><li><a href="#measure-first-buy-second">Measure first, buy second</a></li></ol>
+    </li>
+    <li><a href="#the-space-mapping-blueprint">Renter-safe mounting</a>
+      <ol><li><a href="#removable-or-permission">Removable, permission, or skip</a></li><li><a href="#adhesive-damage">Adhesive residue and failed hooks</a></li><li><a href="#no-wall-space-move-out">No wall space, and move-out</a></li></ol>
+    </li>
+    <li><a href="#rooms-within-a-room-mapping-every-zone">Vanity and drawer scenarios</a>
+      <ol><li><a href="#single-sink-one-drawer">One sink, one small drawer</a></li><li><a href="#wide-counter-no-drawers">Wide counter, almost no drawers</a></li><li><a href="#plumbing-eats-undersink">Plumbing occupies the cabinet</a></li><li><a href="#narrow-medicine-cabinet">Two people, one narrow medicine cabinet</a></li><li><a href="#deep-drawers-open-shelves">Deep drawers and open shelves</a></li></ol>
+    </li>
+    <li><a href="#putting-the-blueprint-into-action">Hair tools and electrical safety</a>
+      <ol><li><a href="#cool-first-then-store">Cool first, then store</a></li><li><a href="#cords-outlets-gfci">Cords, outlets, and GFCI limits</a></li><li><a href="#two-people-one-dryer">Two people, one dryer</a></li></ol>
+    </li>
+    <li><a href="#layouts-in-the-wild-case-studies">Wet zones, towels, and walking paths</a>
+      <ol><li><a href="#wet-zone-dry-zone">Wet zone and dry zone</a></li><li><a href="#towel-drying-routine">Towels: clean, damp, used</a></li><li><a href="#waste-bin-and-odor">Waste bin, liners, and odor</a></li><li><a href="#test-morning-routine">Run one morning on the new map</a></li><li><a href="#photograph-the-zones">Photograph the zones</a></li></ol>
+    </li>
+    <li><a href="#mistakes-to-avoid">Compact wet rooms, illustrated</a>
+      <ol><li><a href="#hall-bath-small-basin">Hall bath with a small basin</a></li><li><a href="#splash-and-mixed-fixtures">Splash, moisture, and mixed fixtures</a></li></ol>
+    </li>
+    <li><a href="#key-takeaways">Shower and tub storage</a>
+      <ol><li><a href="#nothing-on-shower-floor">Nothing on the shower floor</a></li><li><a href="#shared-versus-personal-shower">Shared bottles versus personal bottles</a></li><li><a href="#drainage-and-cleanable-storage">Drainage, film, and cleanable storage</a></li><li><a href="#razors-in-wet-zone">Razors and grooming in the wet zone</a></li></ol>
+    </li>
+    <li><a href="#next-steps-you-can-do-today">Cleaning supplies and shared chores</a>
+      <ol><li><a href="#cleaning-caddy-original-bottles">One caddy, original bottles</a></li><li><a href="#sponges-and-cleaning-tools">Sponges, brushes, and drying</a></li><li><a href="#who-cleans-what">Who cleans what</a></li><li><a href="#toilet-paper-and-backups">Toilet paper and backups</a></li></ol>
+    </li>
+    <li><a href="#closing-the-map-opening-the-style">Privacy, access, and guests</a>
+      <ol><li><a href="#sensitive-products">Sensitive products need a real home</a></li><li><a href="#reach-and-mobility">Reach is not the same for both people</a></li><li><a href="#guests-and-extra-people">Guests and extra toothbrushes</a></li></ol>
+    </li>
+    <li><a href="#cohesive-style-blueprint-for-two">Style that works with rental fixtures</a>
+      <ol><li><a href="#five-style-choices">Five choices, not a mood board</a></li><li><a href="#removable-color">Color through things you can take with you</a></li><li><a href="#labels-that-survive-steam">Labels that survive steam</a></li><li><a href="#two-tastes-one-bathroom">Two tastes, one bathroom</a></li></ol>
+    </li>
+    <li><a href="#containers-dividers-and-hardware-selection">Choose organizers without overbuying</a>
+      <ol><li><a href="#sizing-ladder-with-numbers">The sizing ladder with real numbers</a></li><li><a href="#dividers-that-earn">Dividers that earn the drawer</a></li><li><a href="#trays-not-skyline">Trays, not a product skyline</a></li><li><a href="#undersink-bins-wrap-pipes">Under-sink bins that wrap pipes</a></li><li><a href="#shower-hardware-no-default">Shower hardware without a default mount</a></li></ol>
+    </li>
+    <li><a href="#labeling-refill-and-rotation-routines">Labels, refills, and the weekly reset</a>
+      <ol><li><a href="#label-the-map">Label the map you already have</a></li><li><a href="#shared-refill-trigger">Shared refills with a trigger</a></li><li><a href="#rotate-actives">Rotate actives, do not archive half bottles</a></li><li><a href="#ten-minute-weekly-reset">A ten-minute weekly reset</a></li></ol>
+    </li>
+    <li><a href="#conflict-light-decision-scripts-and-negotiation-prompts">Negotiate without a fight</a>
+      <ol><li><a href="#counter-is-not-personality">The counter is not a personality test</a></li><li><a href="#tool-time-without-standoff">Tool time without a standoff</a></li><li><a href="#style-changes-small-trial">Style changes as a small trial</a></li><li><a href="#overflow-after-a-sale">Overflow after a sale</a></li><li><a href="#privacy-conflicts">Privacy conflicts without a speech</a></li></ol>
+    </li>
+    <li><a href="#reconfiguration-and-growth-playbook">When the household changes</a>
+      <ol><li><a href="#spot-the-trigger">Spot the trigger, not the vibe</a></li><li><a href="#trial-then-reverse">Trial, then keep or reverse</a></li><li><a href="#reversible-first">Reversible first</a></li></ol>
+    </li>
+    <li><a href="#space-mapping-templates-for-shared-bathrooms">Measurement sheet and storage map</a>
+      <ol><li><a href="#how-to-fill-the-sheets">How to fill the sheets</a></li><li><a href="#bathroom-measurement-sheet">Bathroom measurement sheet</a></li><li><a href="#personal-shared-storage-map">Personal and shared storage map</a></li><li><a href="#vanity-map-worked-example">Vanity map worked example</a></li><li><a href="#mistakes-the-sheets-catch">Mistakes the sheets catch</a></li><li><a href="#lock-the-map">Lock the map before shopping</a></li></ol>
+    </li>
+    <li><a href="#container-sizing-and-labeling-checklist">Container checklist</a>
+      <ol><li><a href="#what-the-checklist-prevents">What the checklist prevents</a></li><li><a href="#fill-one-row">Fill one row with a real example</a></li><li><a href="#install-then-test">Install, then test the weekday</a></li></ol>
+    </li>
+    <li><a href="#conflict-light-negotiation-script-worksheet">Agreement worksheet and move-out</a>
+      <ol><li><a href="#worksheet-must-contain">What the worksheet must contain</a></li><li><a href="#fill-worksheet-example">Fill it with the hall-bath example</a></li><li><a href="#trial-dates">Trial dates and the 14-day rule</a></li><li><a href="#move-out-last-reset">Move-out and the last reset</a></li></ol>
+    </li>
+  </ol>
+</section>
+
+<section class="chapter" id="shared-bathroom-mindset-and-fairness-fundamentals">
+  <div class="chapter-opener">
+    <img src="photos/001-pexels.jpg" alt="A shared bathroom with two distinct storage zones and a clear path between sink and shower.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Before you begin</h2>
+<p>This book is a practical organization guide for two people sharing a bathroom in a home they may not own. It is not a building-code manual, an electrical guide, a medical text, or a mold-remediation protocol. Example dimensions are illustrations for compact US rentals, not product specifications or required clearances. Measure your room. Follow manufacturer instructions for every appliance, organizer, adhesive, and cleaner. Some scenarios use apartments in Indian cities as compact-rental illustrations. They do not define the market. Prices, when mentioned, are in US dollars. Measurements are in inches. Bathroom receptacles in many US homes are required to have GFCI protection, but you cannot assume an outlet is protected just because it is in a bathroom. Do not operate electrical appliances with wet hands. Do not use a damaged cord, cracked plug, or appliance that sparks, overheats, or trips a breaker repeatedly. Do not run an extension cord across a wet floor or into the shower zone. A heat-resistant mat does not make a hot tool safe. Cool the tool according to its instructions before storing it. Stop and escalate. Do not open outlets, modify wiring, or attempt electrical repairs. GFCI testing and electrical protection depend on the actual installation and applicable local requirements; this book cannot confirm that an outlet is protected. If an outlet, cord, appliance, or protection condition is uncertain — including suspected faults, missing protection, damaged receptacles, repeated tripping, or unclear installation — stop using the setup and consult a qualified electrician. Appliance manufacturer instructions and local electrical rules take precedence over this book&#39;s storage suggestions. Organizing a bathroom does not replace cleaning or maintenance. Moisture, poor ventilation, and damp textiles can encourage mold and mildew. Inspect grout, caulk lines, corners, the underside of bath mats, and the backs of stored items. Keep wet sponges, loofahs, and cleaning tools from sitting in standing water. Ventilation and drying reduce moisture exposure; they do not guarantee mold prevention. Do not cover persistent mold with bins, mats, or paint, and do not treat reorganization as a fix. Routine wiping of soap film on a washable surface is not mold remediation. Report leaks, persistent dampness, a failed fan, stained building materials, or recurring growth to the landlord or property manager. For extensive or recurring mold, follow guidance from a qualified professional and pause the organization project until the moisture source is addressed. The product label, pharmacist, or prescribing clinician determines where a medicine belongs. A bathroom is not automatically suitable. If a product requires a temperature, light, or humidity limit, follow that instruction rather than a generic shelf or container from this book. Keep original packaging unless a pharmacist or the label directs otherwise. For unused or expired medicines, use a local pharmacy or authorized take-back program; do not flush or trash them unless that product&#39;s guidance says to. Identify which solutions are removable and which need landlord permission. Product compatibility depends on the surface, the load, and the manufacturer&#39;s instructions. Adhesive that holds on one tile can stain, pull glaze, or leave residue on another. When drilling or adhesive mounting is prohibited, use freestanding, tension, or over-the-door storage that does not alter the building. Fairness is not a promise that every shelf can be identical. First protect essential daily access, then assign personal storage, then agree where overflow lives. If the total volume still exceeds the available space, the solution is a reduction, a relocation, or a change in the storage plan. Work in this order: inventory first (Days 4–7), then measure (Days 8–10), then apply those records. Later days use the piles and numbers you already made. They do not restart the pull-out or the tape measure unless a field is blank or the room has changed.</p>    </div>
+  </div>
+
+  <article class="unit" id="when-an-equal-split-fails">
+
+    <figure class="hero">
+      <img src="photos/002-pexels.jpg" alt="Two small personal kits on a shared vanity with a clear center for shared soap and a waste bin.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>When an equal split is the wrong answer</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a compact hall bath in a Pune 1BHK, used here as a small-rental illustration, Riya keeps six daily products. Aarav keeps a full grooming kit, backups, and two hair tools. Splitting every shelf fifty-fifty still leaves Aarav overflowing the counter and Riya feeling crowded.</p>
+    </div>
+
+    <p class="principle">Protect daily access first, then assign personal storage, then park overflow. Identical shelves are not always fair.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a one-page note that lists each person&#39;s essential daily items, each person&#39;s extra volume, and whether the bathroom can hold both without a reduction.</p>
+      <figure class="diagram">
+        <img src="figures/F001.svg" alt="When storage is not enough">
+<figcaption>Decision order when two collections exceed the bathroom.</figcaption>      </figure>
+      <p>A fifty-fifty split sounds rational and still fails. Volume is not the same as need. One person may have a medical cream, a longer hair routine, or mobility equipment that requires more reachable space. The other person may only need a small daily kit. Equal square inches can hide unequal access.</p>
+      <p>Name three buckets before you move anything: shared essentials (soap, toilet paper, a hand towel set, a waste liner), personal daily products, and overflow. Shared essentials keep a protected home even when personal collections grow. Personal daily products get the next-best reach. Overflow does not get the prime tray just because it exists.</p>
+      <p>If the bathroom cannot hold both collections, fairness is a decision, not a rearrangement. Reduce duplicates, move backups to a bedroom closet or hall linen shelf, or agree that one person stores the larger kit elsewhere. Do not keep arguing about equal shelf counts while bottles sit on the floor.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>List each person&#39;s five daily-must items.</li><li>List overflow that does not need to live in the bathroom.</li><li>Write one sentence: keep, relocate, or reduce.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Treating identical shelf counts as fairness while one person still cannot reach daily items and the other still leaves bottles on the floor.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Daily-must list for each person</li><li>Overflow list</li><li>Keep / relocate / reduce decision</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="fairness-triangle-applied-once">
+
+    <figure class="hero">
+      <img src="photos/003-pexels.jpg" alt="A small vanity with one shared tray and two small personal zones, not a fifty-fifty wall of bottles.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>Volume, visibility, and access in one room</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Priya wants a nearly empty counter. Karan wants two products visible so he does not forget them. Their Bengaluru rental, used as a compact-layout illustration, has one 22-inch vanity and one shallow drawer.</p>
+    </div>
+
+    <p class="principle">Use volume, visibility, and access once as a decision tool, then apply them to a real conflict instead of restating the idea.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: three written rules — how much each person may leave out, which items must be reachable in one motion, and which items must stay concealed.</p>
+      <p>Volume is the cubic space a collection actually occupies, including backups. Measure the drawer interior and the usable counter rectangle. If Karan&#39;s kit is 1.5 times Priya&#39;s, give him more cubic space in a deeper or less visible zone, not more counter frontage.</p>
+      <p>Visibility is a style and a memory aid. Agree on a cap: one shared tray, plus at most one personal item each on the counter. Concealed storage can still be fair if both people can open it without moving the other person&#39;s things.</p>
+      <p>Access is the morning test. The person who gets ready first should not have to lift a stack. The person with reduced reach should not be assigned the lowest, deepest bin as their &#39;equal&#39; share. If both people want the same prime corner, time-share it or split it by task, not by whoever unpacked first.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Cap visible counter items at one shared tray plus one personal item each.</li><li>Assign the easiest reach to daily-must items, not to the largest collection.</li><li>If both want the same prime spot, write a two-week trial instead of declaring a winner.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Giving the largest collection the best reach because it &#39;needs more room,&#39; while daily-must items for the other person disappear behind it.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Counter cap written</li><li>Reach rule written</li><li>Prime-spot trial named</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="shared-harmony-charter">
+
+    <figure class="hero">
+      <img src="photos/004-pexels.jpg" alt="A short handwritten bathroom agreement clipped inside a cabinet door.">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Write the working agreement</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Neha and Vikram share a Mumbai hall bath, used here as a tight wet-room illustration, with guests every other weekend. They need a short agreement that covers weekdays, guests, and what happens when one person refuses to reduce a collection.</p>
+    </div>
+
+    <p class="principle">A usable agreement names essential access, personal zones, overflow, a trial period, and a review date.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a half-page agreement with five lines — purpose, shared essentials, personal zones, overflow rule, and a two-week review date.</p>
+      <p>Purpose is operational: both people can complete a weekday routine without moving the other person&#39;s items, the walking path stays clear, and wet tools dry instead of sitting in a puddle. Style comes later.</p>
+      <p>If one person refuses to reduce belongings, do not freeze the project. Protect shared essentials and the walking path anyway. Give the larger collection the overflow location outside the bathroom, or a clearly marked personal bin that may not sit on the counter. Temporary guest kits get a labeled bag that leaves after the visit.</p>
+      <p>Keep the agreement boring and specific. &#39;Be considerate&#39; is not a rule. &#39;No bottles on the shower floor&#39; and &#39;hair tools cool on the mat, then go in the caddy&#39; are rules you can check in thirty seconds.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Write the five-line agreement.</li><li>Add one guest rule and one refusal-to-reduce rule.</li><li>Photograph the counter and shower as the starting baseline.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Writing a style manifesto before agreeing where overflow goes when the bathroom is already full.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Five-line agreement</li><li>Guest rule</li><li>Review date</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="two-person-inventory-and-declutter-method">
+  <div class="chapter-opener">
+    <img src="photos/005-pexels.jpg" alt="Bathroom products laid out on towels in shared, personal, temporary, and discard groups.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Two-person inventory</h2>
+<p>Pull everything out once. Classify it. Decide what may stay in a humid room. Do not buy organizers during this chapter.</p>    </div>
+  </div>
+
+  <article class="unit" id="shared-personal-temporary-discard">
+
+    <figure class="hero">
+      <img src="photos/006-pexels.jpg" alt="Four labeled piles of bathroom products on towels, not yet in bins.">
+      <div class="hero-label">
+<span class="day">Day 4</span>        <h3>Four labels before any organizer</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Anjali and Rohan open a packed cabinet in a small US rental and cannot tell which bottles are shared, whose nearly empty shampoo is whose, or why a third person&#39;s leftover hotel soaps are still there.</p>
+    </div>
+
+    <p class="principle">Every item is shared, personal, temporary, or leaving. &#39;Neither of ours&#39; is a real category.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: four piles — shared, personal A, personal B, temporary/discard — with a side pile for items that belong to neither resident.</p>
+      <figure class="diagram">
+        <img src="figures/F002.svg" alt="Inventory classes">
+<figcaption>Use these four labels before buying a single container.</figcaption>      </figure>
+      <p>Shared means both people use it on purpose: hand soap, toilet paper, a basic cleaner, maybe one body wash if you actually share it. Personal means only one person uses it. Temporary means a guest kit, a sample, or a product in use for a short treatment. Discard means expired, rancid, leaking, or unused on purpose.</p>
+      <p>Items that belong to neither person — leftover from a previous roommate, unlabeled hotel bottles, mystery cords — leave the bathroom this week. Do not store them &#39;just in case&#39; in the prime drawer.</p>
+      <p>Work on towels on the floor or on a table outside the bathroom if the room is too small. Keep medicines and chemicals in their original packaging while you sort. Do not pour unknowns together.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Clear one surface and pull one zone at a time.</li><li>Tag each item shared, personal, temporary, or discard.</li><li>Bag &#39;neither of ours&#39; for return, trash, or building disposal rules.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Sorting by product type first and never deciding ownership, so duplicates return to the same shelf.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Four piles complete</li><li>Neither-of-ours bag</li><li>No new organizers purchased</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="duplicates-and-almost-empty">
+
+    <figure class="hero">
+      <img src="photos/007-pexels.jpg" alt="One active bottle in a shower niche and a labeled backup bin under a sink.">
+      <div class="hero-label">
+<span class="day">Day 5</span>        <h3>Duplicates, almost-empty bottles, and gifts</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Priya finds three conditioners. Sameer finds two almost-empty face washes and a gift set neither of them likes. They want a rule that does not require a debate for every bottle.</p>
+    </div>
+
+    <p class="principle">One active product per personal category in the bathroom. Backups live elsewhere. Almost-empty bottles finish or leave.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a duplicate log with one active item per category per person, one backup location, and a decision for each gift set.</p>
+      <p>Duplicates: keep one open product in the bathroom. Park at most one backup in a labeled overflow bin if it fits. Extra backups go to a closet outside the wet room. If two people share a formula, keep one open bottle in the shared zone, not two half-used twins.</p>
+      <p>Almost-empty: if less than about a week&#39;s use remains, finish it this week or discard it according to the label. Do not keep a crusted last inch &#39;to be thrifty&#39; in the prime niche.</p>
+      <p>Unused gifts and unopened backups: if nobody will use them in the next month, move them out or give them away. Rarely used products that someone refuses to discard get a dated overflow bin. If they are still untouched at the review date, they leave the bathroom even if they stay in the apartment.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Keep one active item per personal category in the bathroom.</li><li>Move extra backups out of the wet room.</li><li>Date the &#39;refuses to discard&#39; bin and set a review.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Keeping every backup in the shower because it was on sale, then blaming the niche for being too small.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Duplicate log</li><li>Almost-empty plan</li><li>Dated overflow for refused discards</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="expiry-humidity-medicines">
+
+    <figure class="hero">
+      <img src="photos/008-pexels.jpg" alt="Medicines in original boxes set aside from humid bathroom shelves.">
+      <div class="hero-label">
+<span class="day">Day 6</span>        <h3>Expiry, humidity, and medicines</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Neha finds expired sunscreen, a cloudy toner, and a prescription cream stored next to the shower. Vikram wants those items &#39;handy&#39; even though the labels say to keep them dry.</p>
+    </div>
+
+    <p class="principle">Label, pharmacist, or prescriber decides storage. The bathroom is not the default.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a medicine list that follows each product&#39;s own storage instruction, plus a take-back plan for anything unused or expired.</p>
+      <p>The product label, pharmacist, or prescribing clinician determines where a medicine belongs. A bathroom is not automatically suitable. If a product requires a temperature, light, or humidity limit, follow that instruction rather than a generic shelf or container from this book. Keep original packaging unless a pharmacist or the label directs otherwise. For unused or expired medicines, use a local pharmacy or authorized take-back program; do not flush or trash them unless that product&#39;s guidance says to.</p>
+      <p>Process: read each label. If it lists refrigerate, protect from light, keep dry, or a temperature range, store it that way. Do not move every medicine to one &#39;better&#39; room or one bathroom shelf because this chapter mentioned humidity. Some products may stay in a bathroom if the label allows it; many should not.</p>
+      <p>Expired cosmetics and toiletries are separate from medicines. Check dates and condition, and follow local disposal rules for those items. Do not dump chemicals down the sink as a decluttering method.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Read each medicine label for temperature, light, and humidity limits.</li><li>Keep original packaging unless a pharmacist or the label directs otherwise.</li><li>Take unused or expired medicines to a pharmacy or authorized take-back program.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Decanting medicines into matching jars, or moving every bottle to one generic &#39;dry shelf&#39; this book invented.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Each medicine matched to its label</li><li>No universal bathroom shelf</li><li>Take-back plan for unused doses</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="inventory-record">
+
+    <figure class="hero">
+      <img src="photos/009-pexels.jpg" alt="Labeled temporary boxes of sorted bathroom items, still not in purchased organizers.">
+      <div class="hero-label">
+<span class="day">Day 7</span>        <h3>Photograph the keepers</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Aditi and Karan have sorted the room. They need a record so the next Target run does not restock products they already own.</p>
+    </div>
+
+    <p class="principle">A short inventory prevents repurchase. It is a photo plus counts, not a spreadsheet hobby.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: photos of each keep pile plus a count of active items, backups, and shared consumables.</p>
+      <p>Photograph each category on a towel: dental, face, hair, body, shaving, menstrual products, first aid, cleaning. Write counts in a shared note: active, backup, shared. Add refill thresholds later in the labeling chapter; today only capture what exists.</p>
+      <p>Pack keepers into temporary boxes labeled by person and shared. Do not buy matching acrylic yet. You still have to measure the cabinet around the plumbing.</p>
+      <p>If a product is in dispute, it stays in a &#39;trial&#39; box for the two-week review, not on the counter.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Photograph keep piles by category.</li><li>Record active vs backup counts.</li><li>Park disputed items in a dated trial box.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Shopping for organizers the same afternoon, before the vanity and shower have been measured.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Photos saved</li><li>Counts recorded</li><li>Temporary boxes only</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="space-mapping-and-zoning-blueprint-space-mapping-and-zoning-">
+  <div class="chapter-opener">
+    <img src="photos/010-pexels.jpg" alt="A tape measure on a narrow vanity drawer with the interior width marked.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Measure the bathroom first</h2>
+<p>Measure first, buy second. Record interior width, depth, and usable height — not only the cabinet&#39;s outside size. Check door swing, fixture access, and the space needed to remove a container together. Example dimensions in this chapter are illustrations, not universal minimum clearances. Accessibility needs differ between people and rooms; a height that works for one person may be unusable for another. Zoning comes after the tape measure, not before the shopping cart.</p>    </div>
+  </div>
+
+  <article class="unit" id="measure-vanity-and-plumbing">
+
+    <figure class="hero">
+      <img src="photos/011-pexels.jpg" alt="Tape measure across a vanity drawer interior, not the cabinet face.">
+      <div class="hero-label">
+<span class="day">Day 8</span>        <h3>Vanity, drawers, and the pipes</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Priya&#39;s US rental vanity looks &#39;about two feet wide&#39; until she measures: 24 inches outside, 21.5 inches of usable drawer width after the slides, and a 4-inch pipe cluster that kills the center of the under-sink cabinet.</p>
+    </div>
+
+    <p class="principle">Record interiors, obstacles, and removal space. Exterior width is not the storage you can use, and sample inches are not a code minimum.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: interior measurements for the vanity, each drawer, and both under-sink pockets, plus a note that door or drawer still closes with a test object inside.</p>
+      <figure class="diagram">
+        <img src="figures/F003.svg" alt="Illustrative compact vanity">
+<figcaption>Illustrative example only. Not a minimum clearance. Measure your cabinet.</figcaption>      </figure>
+      <p>Example, illustrative only — not a minimum and not your cabinet: a narrow hall vanity might be 24 inches wide and 18 inches deep outside, with a drawer interior about 21 inches by 14 inches by 4 inches. A wider-looking counter might be 36 inches with no drawers. Measure the opening you can actually use, including slides, pipes, and hinges.</p>
+      <p>Measure around plumbing as a U-shape: left pocket, right pocket, and the blocked center. Photograph the pipes. Storage must leave shutoff valves reachable. If a trap or supply line is dripping, stop organizing and tell the landlord or a plumber.</p>
+      <p>Check together: interior fit, door or drawer swing in the room, and the extra space to pull the loaded container out. A bin can match the empty box and still fail once it has a lid, a handle, or a person who cannot kneel.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Measure vanity exterior, then each drawer interior (W × D × H).</li><li>Sketch pipes and measure left and right usable pockets.</li><li>Test door or drawer close and removal space with a stand-in object.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Treating the illustrative 24-inch vanity as a required size, or buying from the outside width alone.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Interior numbers</li><li>Pipe sketch with two pockets</li><li>Close-and-remove test</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="measure-shower-doors-outlets">
+
+    <figure class="hero">
+      <img src="photos/012-pexels.jpg" alt="Bathroom floor plan sketch with door swing, shower stall, and outlet marks.">
+      <div class="hero-label">
+<span class="day">Day 9</span>        <h3>Shower, door swing, and outlets</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Rohan maps a stall. An illustrative case, not a standard: a 32-by-32-inch stall, a textured floor, a glass door that swings into the towel path, and one outlet on the sink wall. Your stall will differ.</p>
+    </div>
+
+    <p class="principle">Storage that blocks a door, a standing space, or a safe appliance path is not storage.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: shower interior, any niche or corner, door-swing overlay, walking-path pinch point, and outlet locations noted as wet-side or dry-side — without treating any of those numbers as a universal minimum.</p>
+      <p>Measure shower width, depth, and any built-in niche. Record the floor type. Leave standing space clear. Bottles on the floor are a slip problem, not extra storage.</p>
+      <p>Trace the door swing with the door open and closed. Check that overlay together with fixture access and the space needed to remove a caddy. A hanging organizer can fit the door and still hit the toilet.</p>
+      <p>Mark outlets on the sketch. Treat splash range as a constraint. Do not plan a cord across the walking path. If you cannot tell whether protection is adequate, use Stop and escalate — do not open the outlet to investigate.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Measure shower interior and any niche or corner.</li><li>Mark door swing and the walking path from door to sink to shower.</li><li>Note outlet locations relative to water and walking paths.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Copying the 32-inch stall example as a required size, or planning floor bottles in the standing space.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Shower numbers</li><li>Door-swing note</li><li>Outlet sketch</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="measure-first-buy-second">
+
+    <figure class="hero">
+      <img src="photos/013-pexels.jpg" alt="Product box dimensions written next to a cabinet opening measurement.">
+      <div class="hero-label">
+<span class="day">Day 10</span>        <h3>Measure first, buy second</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Neha is about to add a $12 over-toilet shelf and a $25 drawer set. The tape measure says the toilet tank is 8.5 inches from the wall and the drawer set is 10 inches deep.</p>
+    </div>
+
+    <p class="principle">Fit includes handles, lids, removal clearance, and the manufacturer&#39;s listed dimensions.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a buy/wait list. Nothing is purchased until the number on the product page is smaller than the usable opening, including removal clearance.</p>
+      <p>For each candidate container, write: intended location, measured opening, product W × D × H, extra space to grab and lift, lid or handle overhang, removable or fixed, and a yes/no. If any field is blank, the answer is no.</p>
+      <p>Check three things together before a yes: the container fits the interior, the door or drawer can still swing past fixtures, and you can remove the loaded container. A bin can fit the cabinet and still block the toilet or trap a person who needs more clearance.</p>
+      <p>If wall space is almost zero, the shopping list should start with freestanding and in-cabinet pieces, not with adhesive hooks. Renter rules come next chapter.</p>
+      <p>Accessibility differs. If either person cannot reach, bend, or see into that location, the measurement can be perfect and the purchase still wrong.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>For each want-to-buy item, compare listed size to usable opening.</li><li>Add handle, lid, and removal clearance.</li><li>Mark buy, wait, or skip.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Ordering a matching set because the finish is right, then returning half of it because the lids need two extra inches.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Buy/wait list</li><li>Clearance included</li><li>No impulse set</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="the-space-mapping-blueprint">
+  <div class="chapter-opener">
+    <img src="photos/014-pexels.jpg" alt="Freestanding bathroom storage beside a tiled wall with no drilled holes.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Renter-safe mounting</h2>
+<p>Identify which solutions are removable and which need landlord permission. Product compatibility depends on the surface, the load, and the manufacturer&#39;s instructions. Adhesive that holds on one tile can stain, pull glaze, or leave residue on another. When drilling or adhesive mounting is prohibited, use freestanding, tension, or over-the-door storage that does not alter the building. This chapter is a decision tree, not a catalog of hooks.</p>    </div>
+  </div>
+
+  <article class="unit" id="removable-or-permission">
+
+    <figure class="hero">
+      <img src="photos/005-pexels.jpg" alt="Freestanding bathroom shelf used instead of drilled tile anchors.">
+      <div class="hero-label">
+<span class="day">Day 11</span>        <h3>Removable, permission, or skip</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Asha wants a shower caddy and a medicine-cabinet expansion in a US rental that forbids holes in tile. Her roommate wants &#39;whatever holds the most.&#39;</p>
+    </div>
+
+    <p class="principle">Sort every mounting idea into removable, needs permission, or skip. Load and surface matter more than the product photo.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a three-column list of storage ideas — removable, landlord permission, skip.</p>
+      <figure class="diagram">
+        <img src="figures/F004.svg" alt="Renter mounting tree">
+<figcaption>Start at the top. Stop when the answer is no.</figcaption>      </figure>
+      <p>Removable usually includes freestanding shelves, over-the-toilet units that do not screw down, tension rods used only as the manufacturer allows, over-the-door hooks that do not crush the door, and in-drawer organizers. Even these can scuff floors or trap moisture; use pads and check the finish.</p>
+      <p>Permission typically includes drilling tile, stud-mounted bars, replacing a mirror, and any electrical work. Adhesive is not automatically renter-safe. It can fail in steam, drop glass, or pull paint. Read the product&#39;s surface list. Painted drywall, textured plaster, and cheap tile are common failure surfaces.</p>
+      <p>Skip anything that blocks the shutoff valves, the access panel, the GFCI reset, or the walking path. Skip homemade mounting that the manufacturer did not specify.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>List every mounting idea you are tempted to use.</li><li>Mark removable, permission, or skip.</li><li>Photograph existing damage so you are not blamed for it later.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Treating &#39;no-drill&#39; on a product title as a guarantee that your tile, paint, and steam level will release cleanly.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Three-column list</li><li>Existing-damage photos</li><li>Access panels left clear</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="adhesive-damage">
+
+    <figure class="hero">
+      <img src="photos/005-pexels.jpg" alt="Adhesive hook package instructions beside a tiled wall, unused until the surface is confirmed.">
+      <div class="hero-label">
+<span class="day">Day 12</span>        <h3>Adhesive residue and failed hooks</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Priya&#39;s previous adhesive hooks left gray halos on rental tile. She wants a method that does not add a new halo.</p>
+    </div>
+
+    <p class="principle">Follow the product&#39;s install and removal instructions. Heat, solvents, and scraping can damage glazes. When unsure, do not apply.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a written install/removal plan for any adhesive you still intend to use, or a decision to use zero adhesive.</p>
+      <p>Clean and dry the surface as the manufacturer specifies. Steam rooms and freshly used showers are bad install conditions. Weight ratings assume correct surface, cure time, and load direction. A caddy full of wet bottles is heavier than the empty product photo.</p>
+      <p>Removal: use only the method on the package. If residue remains, stop before sanding or mystery solvents. Ask the landlord before using anything that can dull grout or paint. Photograph after removal.</p>
+      <p>If the lease bans adhesive and drilling, the answer is freestanding storage, a tension shelf only where the manufacturer allows that use, or storing more items outside the bathroom.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Read install, surface, load, and removal text on the package.</li><li>Weigh the loaded use case, not the empty caddy.</li><li>Choose zero adhesive if the lease or the surface is unclear.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Pulling a &#39;damage-free&#39; strip off painted drywall in one yank because the listing used that phrase.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Package instructions saved</li><li>Loaded-weight check</li><li>Zero-adhesive fallback</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="no-wall-space-move-out">
+
+    <figure class="hero">
+      <img src="photos/017-pexels.jpg" alt="A slim cart and under-sink bins used because the walls cannot take hardware.">
+      <div class="hero-label">
+<span class="day">Day 13</span>        <h3>No wall space, and move-out</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Neha&#39;s bathroom has one short wall of tile, a window, and a door. There is almost no legal place to hang a cabinet. She also needs a move-out list for twelve months from now.</p>
+    </div>
+
+    <p class="principle">When walls are unusable, storage becomes furniture, drawers, and rooms next door. Plan the reverse of every attachment on day one.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a no-wall storage plan plus a move-out checklist with every attachment you still intend to use.</p>
+      <p>No-wall options: a slim rolling cart that parks beside the vanity if the walking path stays clear; stacked drawers that fit the measured under-sink pockets; a mirrored medicine cabinet already in the room, reorganized rather than replaced; a labeled caddy that lives on a bedroom dresser and travels in for hair styling.</p>
+      <p>Move-out: remove organizers, adhesive, and over-the-door hooks; check for moisture under bins and mats; replace damaged liners; photograph empty surfaces; note any remaining residue for the landlord conversation. Keep original hardware in a bag if you swapped a shower head or toilet seat with permission.</p>
+      <p>Do not wait until the last day to discover rust rings from a metal caddy or a black rectangle under a bath mat.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Pick no-wall storage that keeps the walking path clear.</li><li>Write a reverse-install step for every attachment.</li><li>Add a monthly moisture check under mats and bins.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Building a wall of hooks in the only dry patch of paint, then treating move-out as a future problem.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>No-wall plan</li><li>Move-out reverse list</li><li>Moisture-check reminder</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="rooms-within-a-room-mapping-every-zone">
+  <div class="chapter-opener">
+    <img src="photos/014-pexels.jpg" alt="A narrow single-sink vanity with one drawer slightly open.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Vanity and drawer scenarios</h2>
+<p>The vanity is usually the most contested surface. Use the scenario that matches your cabinet. Do not buy organizers until the dimensions from Chapter 3 are on paper.</p>    </div>
+  </div>
+
+  <article class="unit" id="single-sink-one-drawer">
+
+    <figure class="hero">
+      <img src="photos/014-pexels.jpg" alt="One shallow vanity drawer split into two daily lanes and a small shared front tray.">
+      <div class="hero-label">
+<span class="day">Day 14</span>        <h3>One sink, one small drawer</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Priya and a roommate share a 24-inch-wide vanity with one shallow drawer and a crowded counter. Both want the drawer for daily items.</p>
+    </div>
+
+    <p class="principle">The small drawer holds daily-must items in two lanes. Backups do not get a vote.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a drawer map — left lane, right lane, shared front tray — with a list of what is banned from the drawer.</p>
+      <figure class="diagram">
+        <img src="figures/F005.svg" alt="Small-drawer split">
+<figcaption>What belongs in a single shallow shared drawer.</figcaption>      </figure>
+      <p>Store there: each person&#39;s top daily items that fit upright or in a shallow tray — dental kit, daily face products, contact case if the label allows a bathroom, one small grooming tool. Split the drawer by adjustable dividers only after you measure interior width.</p>
+      <p>Do not store there: backups, hair tools, cleaning chemicals, medicines that must stay dry, or anything that forces the drawer to jam. If capacity is insufficient, daily-must items stay; extras move to a bedroom or under-sink pocket.</p>
+      <p>Access: both people should open the drawer without unloading it. Shared tiny tools sit in a front tray. If one person needs more volume, they get under-sink volume, not a larger share of this drawer.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Measure the drawer interior and choose two lanes only if both fit.</li><li>Place daily-must items only.</li><li>Write the ban list on a note inside the cabinet.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Filling the only drawer with backups because they were on sale, then leaving daily items on the counter.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Drawer map</li><li>Ban list</li><li>Backups relocated</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="wide-counter-no-drawers">
+
+    <figure class="hero">
+      <img src="photos/020-pexels.jpg" alt="A wide vanity with two small trays and a large empty stretch of counter around the sink.">
+      <div class="hero-label">
+<span class="day">Day 15</span>        <h3>Wide counter, almost no drawers</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Riya has 36 inches of counter, no drawers, and a medicine cabinet that is already full. Products spread to look &#39;organized&#39; and still eat the sink edge.</p>
+    </div>
+
+    <p class="principle">A wide counter is not permission to display a collection. Use two small trays and hide the rest.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a counter cap — two trays or one divided tray — and an overflow home for everything else.</p>
+      <p>Store on the counter: shared soap, a toothbrush cup if you use one, and one tray each for items used every morning. Leave a dry landing zone beside the sink so wet hands are not fishing in a product pile.</p>
+      <p>Do not store on the counter: backups, cardboard, hair tools, and anything that cannot tolerate splashes. If you have no personal cabinet, use a labeled lidded box on a nearby dresser or a measured under-sink bin.</p>
+      <p>Split access by tray, not by claiming half the stone. If capacity is still short, reduce visible items before buying a second tier that blocks the mirror.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Place two small trays or one divided tray.</li><li>Move everything else off the counter.</li><li>Keep a clear splash zone around the basin.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Lining the full 36 inches with products because the counter &#39;finally has room.&#39;</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Counter cap</li><li>Splash zone clear</li><li>Off-counter overflow named</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="plumbing-eats-undersink">
+
+    <figure class="hero">
+      <img src="photos/021-pexels.jpg" alt="Two small bins flanking sink plumbing, with the shutoff valves still visible.">
+      <div class="hero-label">
+<span class="day">Day 16</span>        <h3>Plumbing occupies the cabinet</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Sameer&#39;s under-sink cabinet is a U around a bulky trap. A single plastic tub does not close the door.</p>
+    </div>
+
+    <p class="principle">Apply the Day 8 pocket numbers. Do not start a new measuring session.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a bin choice for each Day 8 under-sink pocket, smaller than that pocket including grab space. Remeasure only if those numbers were never written down.</p>
+      <p>Store there: weekly extras, sealed backups in water-resistant bins, and a small shared cleaning caddy if chemicals stay upright in original bottles and cannot contaminate personal care items. Use a removable liner.</p>
+      <p>Do not store there: open cardboard, loose batteries, hair tools, or a bin that blocks shutoff valves. Medicines belong only if that product&#39;s label allows a damp cabinet — most will not. If the cabinet is wet, report the leak; do not organize around it.</p>
+      <p>If both pockets still cannot hold the collections, overflow leaves the bathroom.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Open the Day 8 pocket numbers.</li><li>Choose two bins smaller than those pockets, including grab space.</li><li>Confirm valves and the door still work.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Remeasuring the same pipes, or forcing a full-width unit onto a center drain.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Bins matched to Day 8 pockets</li><li>Valve access</li><li>Door closes</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="narrow-medicine-cabinet">
+
+    <figure class="hero">
+      <img src="photos/022-pexels.jpg" alt="A narrow medicine cabinet with daily items only and the door able to close.">
+      <div class="hero-label">
+<span class="day">Day 17</span>        <h3>Two people, one narrow medicine cabinet</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>A couple shares one 14-inch-wide medicine cabinet with three shelves. Both want eye-level.</p>
+    </div>
+
+    <p class="principle">Eye-level is for daily-must items, split by shelf or by left/right. The cabinet is not a pharmacy archive.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a shelf assignment — who gets which shelf or which side — and a list of items that must leave the cabinet.</p>
+      <p>Store there: daily face and dental items that fit the shelf depth. Measure depth and door clearance with the tallest bottle you intend to keep. If the door hits the bottle, the bottle does not belong there.</p>
+      <p>Do not store there: first-aid bulk, backups, or any medicine whose label, pharmacist, or prescriber keeps it elsewhere. A cabinet named &#39;medicine&#39; is still a humid box. Sensitive non-medicine products can use an opaque bin if both people agree not to rummage.</p>
+      <p>If the cabinet cannot hold both daily kits, one kit moves to the drawer or a personal caddy. Equal frustration is not a plan.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Measure shelf depth and door clearance with the tallest bottle.</li><li>Assign shelves or left/right sides.</li><li>Remove anything that needs humidity-controlled storage.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Decanting everything into matching bottles that are taller than the shelf so the door never shuts.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Shelf map</li><li>Door-clearance test</li><li>Humidity-sensitive items removed</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="deep-drawers-open-shelves">
+
+    <figure class="hero">
+      <img src="photos/023-pexels.jpg" alt="A lift-out tray at the front of a deep vanity drawer.">
+      <div class="hero-label">
+<span class="day">Day 18</span>        <h3>Deep drawers and open shelves</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>A deep bottom drawer swallows items. An open-shelf vanity shows every mismatched bottle to anyone who walks in.</p>
+    </div>
+
+    <p class="principle">Deep storage needs a pull-forward tray. Open shelves need a privacy and splash plan, not more display.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a front/back map for the deep drawer, and a conceal-or-reduce plan for open shelves.</p>
+      <p>Deep drawer: daily items in a front tray you can lift out. Occasional items behind it in a second tray. Nothing loose at the back. If bending is hard for either person, this drawer is the wrong home for daily-must items — move those up.</p>
+      <p>Open shelves: use closed bins for personal and sensitive products. Shared soap can stay visible. Do not line open shelves with small bottles that splash will knock down.</p>
+      <p>No dedicated personal storage in the room: give each person a lidded caddy that lives on a bedroom shelf and parks on the counter only during use. That is a valid shared-bathroom design.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Put a lift-out tray at the front of any deep drawer.</li><li>Move daily-must items up if bending is difficult.</li><li>Hide personal products on open shelves inside opaque bins.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Using a deep drawer as a dump zone because it &#39;holds a lot,&#39; then kneeling to find toothpaste every morning.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Front tray in deep drawer</li><li>Reach check</li><li>Opaque bins on open shelves</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="putting-the-blueprint-into-action">
+  <div class="chapter-opener">
+    <img src="photos/024-pexels.jpg" alt="A hair dryer on a heat-resistant mat away from the sink, cord not dangling into the walkway.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Hair tools and electrical safety</h2>
+<p>Follow the electrical and heat-tool limits in Before you begin. A shared bathroom makes those tools a storage problem and a safety problem at the same time. A heat-resistant mat does not make a hot tool automatically safe. Manufacturer instructions and local electrical rules take precedence over the storage ideas in this chapter. If protection or wiring is uncertain, use the Stop and escalate rule rather than improvising.</p>    </div>
+  </div>
+
+  <article class="unit" id="cool-first-then-store">
+
+    <figure class="hero">
+      <img src="photos/025-pexels.jpg" alt="Hair tools cooling on a rated mat, away from the sink and from towels.">
+      <div class="hero-label">
+<span class="day">Day 19</span>        <h3>Cool first, then store</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Neha finishes straightening her hair and drops the iron onto a silicone mat beside a damp towel. The mat is &#39;heat-safe.&#39; The towel is not a plan.</p>
+    </div>
+
+    <p class="principle">A heat-resistant mat is not an automatic safe station. Follow the appliance instructions, cooling time, surface, and distance from water.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a written cool-down rule and a storage home that is used only after the tool is cool enough per the manufacturer.</p>
+      <p>Use the tool on a stable, dry surface that the manufacturer allows. Keep water, hanging towels, paper, and aerosol cans away from the barrel. Do not rest a hot tool on a plastic organizer, a painted stool, or the toilet tank because those surfaces were empty.</p>
+      <p>When you are done, set the tool on the rated mat or rest to cool. Only then move it to a caddy, hook, or drawer. Tight wrapping of a warm cable can damage the cord. Loop loosely after cooling, or use the manufacturer&#39;s cord wrap.</p>
+      <p>If two people share tools, label ownership. A shared dryer needs a booking rule in the next section, not a pile of cords in one cup.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Read the appliance&#39;s cooling and storage instructions.</li><li>Pick a dry landing surface away from the sink and tub.</li><li>Store only after the tool has cooled as directed.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Calling the setup safe because a heat-resistant mat is present, while the iron still sits next to water and a towel.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Cool-down rule posted</li><li>Landing surface chosen</li><li>No tight wrap on a warm cord</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="cords-outlets-gfci">
+
+    <figure class="hero">
+      <img src="photos/026-pexels.jpg" alt="A short appliance cord routed along the back of a vanity, not across the floor.">
+      <div class="hero-label">
+<span class="day">Day 20</span>        <h3>Cords, outlets, and GFCI limits</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Priya&#39;s dryer cord crosses the doorway. The only outlet is beside the sink. She cannot see a GFCI test button.</p>
+    </div>
+
+    <p class="principle">If protection, wiring, or an appliance condition is uncertain, stop and escalate. Do not repair it.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a cord path that stays out of the walking path and the wet zone, plus a written Stop and escalate decision for any uncertain outlet, cord, or appliance.</p>
+      <figure class="diagram">
+        <img src="figures/F006.svg" alt="Stop and escalate">
+<figcaption>Do not improvise electrical repairs. Manufacturer instructions and local rules win.</figcaption>      </figure>
+      <p>Stop and escalate. Do not open outlets, modify wiring, or attempt electrical repairs. GFCI testing and electrical protection depend on the actual installation and applicable local requirements; this book cannot confirm that an outlet is protected. If an outlet, cord, appliance, or protection condition is uncertain — including suspected faults, missing protection, damaged receptacles, repeated tripping, or unclear installation — stop using the setup and consult a qualified electrician. Appliance manufacturer instructions and local electrical rules take precedence over this book&#39;s storage suggestions.</p>
+      <p>Treat unknown GFCI protection as uncertainty, not as a DIY test project. Do not open the receptacle to look for a GFCI device. Do not use an extension cord or power strip as a substitute for protection. Cord clips are only for surfaces and loads the clip manufacturer allows.</p>
+      <p>If the tool, plug, or outlet is cracked, hot, buzzing, wet, or trips repeatedly, stop using it. Storage ideas in this book never override the appliance instructions or local electrical requirements.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Route the cord so nobody steps on it and it cannot drape into the sink.</li><li>Inspect cords and plugs; retire damaged tools without opening the outlet.</li><li>If anything about the receptacle or protection is uncertain, stop and call a qualified electrician.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Opening an outlet, adding an extension cord, or testing a mystery GFCI setup because the hair-tool station would look tidier.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Cord path drawn</li><li>Damaged tools retired</li><li>Stop-and-escalate decision written</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="two-people-one-dryer">
+
+    <figure class="hero">
+      <img src="photos/027-pexels.jpg" alt="A single dryer in a labeled caddy with a small time note on the cabinet door.">
+      <div class="hero-label">
+<span class="day">Day 21</span>        <h3>Two people, one dryer</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>A weekday morning: both people need the same dryer between 7:20 and 7:40. The bathroom is too small for two bodies and a hot barrel.</p>
+    </div>
+
+    <p class="principle">Time-share the tool, or move one routine. Do not operate a dryer over a wet floor while someone else is showering.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a weekday time window for each person, a cooling gap between uses, and a backup plan if the window fails twice in a week.</p>
+      <p>Write start and end times that include cooling and exit. The second person does not grab a tool that is still hot. If the first person runs late, the agreement should say whether they finish or yield — decide that now, not at 7:31.</p>
+      <p>If both must style hair, consider a second inexpensive dryer only if there is a safe outlet plan and storage for two tools. A second tool that sits on the toilet lid is not an upgrade.</p>
+      <p>Guests do not get ad-hoc access to a hot tool without the same cooling and cord rules.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Assign two non-overlapping weekday windows including cooldown.</li><li>Write the late-running rule.</li><li>Decide whether a second tool is needed after a two-week trial.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Buying a second dryer before testing staggered times, then storing both on the wet counter.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Time windows</li><li>Late rule</li><li>Two-week trial date</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="layouts-in-the-wild-case-studies">
+  <div class="chapter-opener">
+    <img src="photos/028-pexels.jpg" alt="A bathroom with a clear floor path, a hanging towel, and no bottles on the shower floor.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Wet zones, towels, and walking paths</h2>
+<p>Use the moisture and mold limits in Before you begin. Keep a dry walking path. Keep textiles in one of three states: clean, drying, or used. Organizing does not replace cleaning or maintenance. Ventilation and drying help; they do not guarantee mold prevention. Do not cover persistent growth, and report leaks or recurring dampness to the landlord.</p>    </div>
+  </div>
+
+  <article class="unit" id="wet-zone-dry-zone">
+
+    <figure class="hero">
+      <img src="photos/029-pexels.jpg" alt="Clear bathroom floor path with no bottles at the shower threshold.">
+      <div class="hero-label">
+<span class="day">Day 22</span>        <h3>Wet zone and dry zone</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>A small hall bath has a shower that wets the entire floor, a vanity that splashes, and a bath mat that never dries. Bottles live at the stall entrance.</p>
+    </div>
+
+    <p class="principle">Name a wet zone, a splash zone, and a dry zone. Storage and walking happen in different places.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a floor sketch with wet, splash, and dry zones, plus a list of items banned from the walking path.</p>
+      <figure class="diagram">
+        <img src="figures/F007.svg" alt="Textile states">
+<figcaption>A shared bathroom needs three textile states, not one heap.</figcaption>      </figure>
+      <p>Wet zone: shower or tub interior and the immediate drip edge. Nothing is stored on that floor. If you need a stool or caddy there, it must drain, stay stable on that floor type, and still leave a place to stand.</p>
+      <p>Splash zone: sink perimeter. Trays should have raised edges. Cardboard stays out. Medicines stay out unless the label, pharmacist, or prescriber says that specific product may live there. Wipe standing water rather than organizing around it.</p>
+      <p>Dry zone: the walking path from door to sink to shower. Keep it clear of cords, bins, and laundry. If you find persistent mold, a leak, or building materials that stay damp, do not cover them with a mat or a bin — report them. Ventilation helps dry the room; it does not guarantee mold prevention.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Sketch wet, splash, and dry zones.</li><li>Remove bottles and cords from the walking path.</li><li>Hang or remove a mat that stays soaked.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Covering a chronic wet floor or visible mold with a thicker mat and calling the room organized.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Zone sketch</li><li>Path cleared</li><li>Soaked mat addressed</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="towel-drying-routine">
+
+    <figure class="hero">
+      <img src="photos/030-pexels.jpg" alt="Two towels hanging separately with space between them, plus a dry folded stack.">
+      <div class="hero-label">
+<span class="day">Day 23</span>        <h3>Towels: clean, damp, used</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Two people share two hooks. Damp towels stack on the same hook and stay wet until they smell.</p>
+    </div>
+
+    <p class="principle">Each person needs a drying spot with airflow. Used towels do not return to the clean stack.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a towel map — clean storage, drying hardware, used-laundry destination — with a wash cadence.</p>
+      <p>Clean towels live folded on a shelf or in a labeled stack, away from shower spray. If you do not have a linen closet, use a lidded bin in a dry zone or a bedroom shelf.</p>
+      <p>Damp towels hang fully spread on a bar, hook, or over-the-door rack that the door can still close. Two people need two drying spots. A single hook for two wet bath sheets is how odor starts. If a towel cannot dry before the next shower, wash it or add drying capacity — do not invent a third damp pile on the toilet tank.</p>
+      <p>Used towels go to a hamper that can air, not a sealed plastic bag of wet cotton. Shared laundry rules belong in writing: who washes bath textiles, and how often.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Assign one drying spot per person.</li><li>Separate clean stacks from the hamper.</li><li>Write a wash cadence for bath textiles.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Folding a damp towel &#39;to look tidy&#39; and putting it back on the clean shelf.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Two drying spots</li><li>Clean vs used split</li><li>Wash cadence</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="waste-bin-and-odor">
+
+    <figure class="hero">
+      <img src="photos/029-pexels.jpg" alt="A small lidded waste bin with a liner, placed off the walking path.">
+      <div class="hero-label">
+<span class="day">Day 24</span>        <h3>Waste bin, liners, and odor</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>The bin sits under the towels, has no liner, and is emptied when it overflows. The room smells even after a &#39;reset.&#39;</p>
+    </div>
+
+    <p class="principle">The bin needs a dry, reachable location, a liner habit, and a ventilation routine. Organization does not cancel odor.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: bin location, liner type, empty schedule, and a ventilation step after showers.</p>
+      <p>Place the bin where a foot path will not kick it over, away from toothbrushes. A small lidded bin can help odor if the lid is actually used and the liner is changed. Do not hide a dripping liner behind under-sink products.</p>
+      <p>Menstrual products and other personal waste need a liner and a closed bin or a disposal method both people can live with. Do not leave this as an awkward unstated problem.</p>
+      <p>Ventilation: run the fan during the shower and after, or open a door or window if that is the only option and privacy allows. A working fan reduces moisture; it does not guarantee the room will stay mold-free. If the fan does not work, report it. That is a maintenance issue, not a candle problem.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Place the bin off the walking path with a liner.</li><li>Set an empty-and-replace-liner schedule.</li><li>Use the fan or airflow after every shower.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Masking a wet-towel odor with spray while the fan is broken and the bin has no liner.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Bin location</li><li>Liner habit</li><li>Fan or airflow step</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="test-morning-routine">
+
+    <figure class="hero">
+      <img src="photos/029-pexels.jpg" alt="A bathroom set up for an actual morning routine, not a catalog photo.">
+      <div class="hero-label">
+<span class="day">Day 25</span>        <h3>Run one morning on the new map</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Meera organized yesterday. This morning she still reaches twice for toothpaste and steps on a cord.</p>
+    </div>
+
+    <p class="principle">A layout that fails the first weekday morning is not finished. Move the item, do not add a motivational label.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a punch list from one real morning and one real evening, with each miss turned into a move.</p>
+      <p>Each person runs their routine without coaching. If an item is always wet, it is in the splash zone. If someone waits in the hallway, the time-share rule is wrong. If a drawer cannot open because a bin is behind the door, the bin is wrong.</p>
+      <p>Limited hot water: the person who showers second should not have to negotiate heat while hunting for shampoo. Keep shower daily-must items in the stall so the shower can be short.</p>
+      <p>Write the misses. Fix one conflict today, not ten aesthetic tweaks.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Run one weekday morning each without rearranging mid-routine.</li><li>List every extra reach, wait, or wet item.</li><li>Make one layout change per miss.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Calling the system done because the photo looks neat while the weekday routine still collides.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Morning test notes</li><li>Evening test notes</li><li>One fix per miss</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="photograph-the-zones">
+
+    <figure class="hero">
+      <img src="photos/028-pexels.jpg" alt="Phone photos of bathroom zones used as a reset reference.">
+      <div class="hero-label">
+<span class="day">Day 26</span>        <h3>Photograph the zones</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Akash and Riya will forget what &#39;reset&#39; looks like in three weeks. They need a visual, not another fairness lecture.</p>
+    </div>
+
+    <p class="principle">A reset photo is a maintenance tool. Take it after the morning test, not before.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: photos of vanity, under-sink, shower, towel drying, and the walking path, stored in a shared note.</p>
+      <p>Shoot straight-on. Include the empty floor path. These photos are the weekly reset target, not social media.</p>
+      <p>If a zone already drifted during the test day, photograph the corrected version.</p>
+      <p>Do not print a poster of the Fairness Triangle. The photo of the actual tray is the standard.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Photograph each zone after the test day.</li><li>Save to a shared album.</li><li>Caption person A, person B, shared, overflow.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Photographing a staged empty counter that nobody can actually live with on a weekday.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Five zone photos</li><li>Shared album</li><li>Captions</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="mistakes-to-avoid">
+  <div class="chapter-opener">
+    <img src="photos/034-pexels.jpg" alt="A compact bathroom with a wet floor zone, a small washbasin, and limited counter.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Compact wet rooms, illustrated</h2>
+<p>Indian apartment bathrooms are used here as compact wet-room illustrations for US readers in small rentals. The advice is not India-specific product law. Fixtures, drainage, and splash patterns still change what you can store.</p>    </div>
+  </div>
+
+  <article class="unit" id="hall-bath-small-basin">
+
+    <figure class="hero">
+      <img src="photos/035-pexels.jpg" alt="A small wall basin with no bottles on the rim and a caddy parked on a dry ledge.">
+      <div class="hero-label">
+<span class="day">Day 27</span>        <h3>Hall bath with a small basin</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>A Pune 1BHK hall bath, used as a compact-rental illustration, has a small wall-hung basin, almost no counter, a shower that wets the toilet area, and a bucket-and-mug rinse habit alongside a handheld shower.</p>
+    </div>
+
+    <p class="principle">When the basin has no deck, daily items cannot live around the bowl. Use a caddy and accept that the floor gets wet.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a layout note for a no-deck basin — where daily items sit, where they cannot sit, and how splash is handled.</p>
+      <p>Common compact pattern: wet floor, close fixture spacing, a basin that throws water onto any product left on a narrow ledge. Put daily-must items on a wall-adjacent tray only if it stays out of the spray and the walking path. Otherwise use a personal caddy stored dry and brought to the basin.</p>
+      <p>Indian-style fixtures often mean more splash and a floor drain. Choose storage that can be wiped and that does not rust on a wet floor. Do not treat a floor-level bottle row as acceptable because &#39;everyone does it.&#39; It is still a slip hazard.</p>
+      <p>US readers with a stall shower and a tiny pedestal sink face the same constraint: no deck, high splash, little wall. The city name is not the method.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>If the basin has no usable deck, pick a caddy instead of a product ring around the bowl.</li><li>Keep the floor drain path clear.</li><li>Choose wipeable containers in the splash radius.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Balancing bottles on a 3-inch basin rim and calling it a vanity zone.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>No-deck plan</li><li>Floor path clear</li><li>Wipeable containers</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="splash-and-mixed-fixtures">
+
+    <figure class="hero">
+      <img src="photos/036-pexels.jpg" alt="A compact wet bathroom with wipeable storage kept off the soaked floor.">
+      <div class="hero-label">
+<span class="day">Day 28</span>        <h3>Splash, moisture, and mixed fixtures</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>A Bengaluru primary bath, used as a larger-but-still-wet illustration, has a shower cubicle plus a wet wash area. Metal finishes do not match. The rental tiles are glossy and slippery when soapy.</p>
+    </div>
+
+    <p class="principle">Map splash to choose wipeable storage. Persistent moisture is a report, not a product.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a moisture map of where water actually lands, plus a yes/no on whether any dampness needs a landlord report rather than a new organizer.</p>
+      <p>If the shower door does not contain spray, treat more of the room as wet zone. Mats need drying. Wooden organizers fail here. Ventilated bins beat sealed pretty boxes for items that get splashed.</p>
+      <p>A leak, a fan that does not run, peeling caulk with ongoing dampness, or growth that returns after ordinary cleaning is a building issue. Report it. Do not park a caddy in front of it.</p>
+      <p>Do not assume a corner caddy fits every stall. Use the Day 9 shower numbers. This is an application day, not a second measuring day.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Mark where water actually lands after one shower.</li><li>Move paper out of that radius.</li><li>Write report / clean / ignore for any persistent damp patch — ignore is only for dry, intact surfaces.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Buying a fabric organizer to hide a damp wall.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Moisture map</li><li>Paper removed from splash</li><li>Report-or-clean decision</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="key-takeaways">
+  <div class="chapter-opener">
+    <img src="photos/037-pexels.jpg" alt="A shower niche with a few bottles, open standing space, and no floor clutter.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Shower and tub storage</h2>
+<p>Shower storage is a safety and hygiene problem first. Appearance is a distant third. Do not prescribe one mount as universally safe.</p>    </div>
+  </div>
+
+  <article class="unit" id="nothing-on-shower-floor">
+
+    <figure class="hero">
+      <img src="photos/038-pexels.jpg" alt="An empty shower floor with bottles on a wall niche, not around the drain.">
+      <div class="hero-label">
+<span class="day">Day 29</span>        <h3>Nothing on the shower floor</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>A stall has no niche. Bottles ring the drain. Someone already slipped once.</p>
+    </div>
+
+    <p class="principle">Standing space and the drain stay clear. If storage cannot be stable and permitted, products leave the stall.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a shower storage decision from the condition table — freestanding, removable, built-in, or products outside the stall.</p>
+      <figure class="diagram">
+        <img src="figures/F008.svg" alt="Shower storage conditions">
+<figcaption>Choose by condition. No single mount is universally safe.</figcaption>      </figure>
+      <p>Small stall, no shelves: consider a hanging caddy only if the manufacturer allows that rod or door, a corner unit only if the floor and walls make it stable, or a daily caddy that enters and leaves with the person. Evaluate footprint and tip risk on your actual floor.</p>
+      <p>Sloped or textured floors: many stools and tripods walk or tip. If it wobbles in a dry test, it does not belong in a soapy stall.</p>
+      <p>If the lease forbids mounting and nothing freestanding is stable, shower products live on a dry-zone tray and come in for the shower. That is a valid solution.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Clear the shower floor completely.</li><li>Dry-test any freestanding unit on that floor.</li><li>If it fails, use a bring-in caddy.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Leaving a ring of bottles &#39;for convenience&#39; after someone has already slipped.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Floor cleared</li><li>Stability test</li><li>Fallback caddy</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="shared-versus-personal-shower">
+
+    <figure class="hero">
+      <img src="photos/038-pexels.jpg" alt="Shower bottles with clear personal labels and one shared pump in the center.">
+      <div class="hero-label">
+<span class="day">Day 30</span>        <h3>Shared bottles versus personal bottles</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>One person uses a prescription scalp treatment. The other grabs it as &#39;the extra shampoo.&#39;</p>
+    </div>
+
+    <p class="principle">Shared products live in a center position and look shared. Personal products are labeled and harder to grab by mistake.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a shower ownership map — shared, person A, person B — and a rule for the person with more products.</p>
+      <p>Shared bottles: one of each function if you truly share. Place them where both can return them. If they never get returned, they were not shared; they were abandoned.</p>
+      <p>Personal bottles: label the shoulder or use different bottle shapes. The person with a much larger hair routine does not get the entire niche by default. They get a hanging caddy of their own or they reduce. Prime niches are for daily-must, not for a ten-step hair line.</p>
+      <p>Prevent mix-ups for medicated or sensitive products with opaque or distinct packaging and a verbal agreement: do not &#39;just try&#39; the other person&#39;s bottles.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Mark shared versus personal.</li><li>Label personal bottles.</li><li>Move extra hair products out of the stall.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Assuming an unlabeled brown bottle is shared body wash.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Ownership map</li><li>Labels on personal bottles</li><li>Extra products removed</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="drainage-and-cleanable-storage">
+
+    <figure class="hero">
+      <img src="photos/038-pexels.jpg" alt="A slotted soap rest and an open caddy with no standing water.">
+      <div class="hero-label">
+<span class="day">Day 31</span>        <h3>Drainage, film, and cleanable storage</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>A sealed pretty bin in the shower holds bar soap in a puddle. The caddy cannot come off the wall to be washed.</p>
+    </div>
+
+    <p class="principle">Water must drain. Storage must be removable enough to clean. Organizing is not a substitute for washing the organizer.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: every shower container either drains or leaves the stall; a cleaning date for the caddy itself.</p>
+      <p>Choose slotted soap rests and open baskets over closed cups. Dump standing water after each shower if a container still holds it. Bottles with pumps should stand upright so they do not leak into a pool.</p>
+      <p>If adhesive or clamp hardware cannot be cleaned without damaging the wall, you chose the wrong hardware for a rental. Prefer units you can lift off and wash in the sink.</p>
+      <p>Prevent bottles falling: do not overload a high ledge; keep heavy bottles low and centered; avoid slick ledges without a lip.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Replace closed wet cups with draining rests.</li><li>Schedule a wash of the caddy.</li><li>Move heavy bottles low.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Using a decorative box in the shower because it matched the towels.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Draining rests</li><li>Caddy can be washed</li><li>Heavy bottles low</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="razors-in-wet-zone">
+
+    <figure class="hero">
+      <img src="photos/041-pexels.jpg" alt="Razors in a small personal cup, not balanced on the bathtub rim.">
+      <div class="hero-label">
+<span class="day">Day 32</span>        <h3>Razors and grooming in the wet zone</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Loose razors sit on the tub edge. A child guest is visiting this weekend. The book is for adult housemates, but guests change the risk.</p>
+    </div>
+
+    <p class="principle">Razors get a dedicated dry-enough cup or case, not a tub ledge. This is not a childproofing guarantee.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a razor and grooming-tool home that is not the tub edge, plus a guest rule.</p>
+      <p>Store razors in a small cup or case in a personal zone, blades protected as the product design allows. Do not leave them in standing water. Replace damaged handles. This book does not claim childproof storage. If children use the bathroom, lockable or out-of-reach storage and adult supervision are separate decisions.</p>
+      <p>Grooming scissors and trimmers follow the electrical and wet-hand rules if they plug in. Battery trimmers still should not sit in the splash zone.</p>
+      <p>When guests or children visit, extra rules apply: clear the tub ledge, move tools, add a guest towel hook. Temporary does not mean &#39;leave the razor where it is.&#39;</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Move razors off the tub ledge.</li><li>Give each adult a tool cup.</li><li>Write a guest-clear rule.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Leaving a razor on the tub as the &#39;obvious&#39; place because that is where it is used.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Razor cup</li><li>Guest-clear rule</li><li>No tub-ledge tools</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="next-steps-you-can-do-today">
+  <div class="chapter-opener">
+    <img src="photos/042-pexels.jpg" alt="A small caddy of original-bottle cleaners stored away from toothbrushes.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Cleaning supplies and shared chores</h2>
+<p>A bathroom organization project that never names a cleaner, a chore split, or chemical separation is incomplete. Do not mix products. Do not pour chemicals into unlabeled bottles.</p>    </div>
+  </div>
+
+  <article class="unit" id="cleaning-caddy-original-bottles">
+
+    <figure class="hero">
+      <img src="photos/043-pexels.jpg" alt="Original-bottle cleaners in one separate bin, away from toiletries.">
+      <div class="hero-label">
+<span class="day">Day 33</span>        <h3>One caddy, original bottles</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Under the sink, a bleach bottle leans on a hair-dye kit. Someone poured bathroom cleaner into an unmarked spray bottle.</p>
+    </div>
+
+    <p class="principle">Keep cleaners in original labeled bottles, separated from personal care, and never mixed.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a dedicated cleaner location with original bottles only, away from toothbrushes and medicines.</p>
+      <figure class="diagram">
+        <img src="figures/F009.svg" alt="Chemical handling">
+<figcaption>Organization does not change chemistry.</figcaption>      </figure>
+      <p>Store a small set: a daily surface cleaner you actually use, a toilet product, and a dry cloth. Follow each label for surfaces, ventilation, and contact time. Never mix bleach with acids or ammonia. If you do not know what is in a bottle, do not mix it with anything.</p>
+      <p>Do not decant cleaners into pretty unlabeled bottles. Do not store them in the shower stall. Keep them where a leak will not contaminate lotion and dental items — a separate bin with a liner is enough.</p>
+      <p>If the cabinet is too small, the cleaner caddy can live in a hall closet and enter the bathroom for the job.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Gather cleaners into one bin.</li><li>Discard unlabeled mixes.</li><li>Separate them from personal care.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Pouring leftover cleaners together to &#39;save space.&#39;</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Original labels only</li><li>Separate bin</li><li>No shower storage for chemicals</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="sponges-and-cleaning-tools">
+
+    <figure class="hero">
+      <img src="photos/044-pexels.jpg" alt="Cloths hanging to dry with no sponge sitting in standing water.">
+      <div class="hero-label">
+<span class="day">Day 34</span>        <h3>Sponges, brushes, and drying</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>A sponge lives in a wet saucer under the sink. A toilet brush stands in a full cup of dirty water.</p>
+    </div>
+
+    <p class="principle">Dry the tools you use. Do not treat persistent mold as a storage problem.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a drying spot for cloths and brushes that is not a puddle, plus a report line if you see persistent mold or a leak.</p>
+      <p>Rinse cloths and hang them. Do not store soaking sponges and loofahs in closed cups. Toilet brushes should drip in their holder, and the holder should be emptied and rinsed on a schedule. Follow product guidance for replacement.</p>
+      <p>Routine surface cleaning means wiping soap film and washing tools with a product labeled for that surface. That is not mold remediation. Do not mix cleaners. Do not cover growth with a bin.</p>
+      <p>If mold is extensive, keeps returning, or involves damaged building materials, stop reorganizing that area and follow qualified professional guidance. Tell the landlord about leaks and persistent dampness.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Hang cloths to dry.</li><li>Empty brush holders.</li><li>If growth is more than a washable surface film, report it instead of covering it.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Sealing damp sponges in a lidded box, or organizing over a moldy wall.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Drying spot</li><li>Brush holder emptied</li><li>Remediation vs cleaning distinguished</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="who-cleans-what">
+
+    <figure class="hero">
+      <img src="photos/045-pexels.jpg" alt="A simple chore list on a cabinet door with two names and short times.">
+      <div class="hero-label">
+<span class="day">Day 35</span>        <h3>Who cleans what</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Both people think the other owns toilet cleaning. The room is organized and still sticky.</p>
+    </div>
+
+    <p class="principle">Write a chore split with a time estimate. Organization is not the chore.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a weekly cleaning split — surfaces, toilet, floor, liners, caddy wash — with names and rough minutes.</p>
+      <p>A realistic split: one person wipes sink and mirror twice a week (about ten minutes), the other handles toilet and floor (about fifteen), and you alternate waste liners. Adjust for disability, work hours, and who uses more products. Fairness can be equal time, not identical tasks.</p>
+      <p>Include the organizers: trays and bins get a wash, not only a tidy. Soap film on an &#39;organized&#39; caddy is still dirt.</p>
+      <p>If one person refuses chores, the storage system will still fail. Name that as a household issue, not a missing acrylic box.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>List tasks and minutes.</li><li>Assign names.</li><li>Add organizer washing to the list.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Buying more bins because the room feels messy when the actual problem is an unowned toilet brush.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Task list with minutes</li><li>Names assigned</li><li>Organizer wash included</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="toilet-paper-and-backups">
+
+    <figure class="hero">
+      <img src="photos/046-pexels.jpg" alt="One backup toilet roll in a dry bin, not a wet stack on the tank.">
+      <div class="hero-label">
+<span class="day">Day 36</span>        <h3>Toilet paper and backups</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>The last roll is always a surprise. Backups are hidden behind cleaning chemicals and get wet.</p>
+    </div>
+
+    <p class="principle">Shared consumables get a dry, obvious backup home and a refill trigger, not a treasure hunt.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a marked spot for the extra toilet paper and a trigger — when the current roll is the last, someone restocks.</p>
+      <p>Keep at least one backup roll in a dry bin or on a high shelf that is still reachable for both people. If reach is uneven, do not put the backup on a tall cabinet only one person can use.</p>
+      <p>Paper goods hate humidity. Do not store a bulk pack on the tank lid in a wet room. A hall closet is a better bulk home; the bathroom holds one backup.</p>
+      <p>The shopping list is shared. The person who notices the trigger adds it. Do not moralize about who uses more paper.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Place one dry backup roll in an obvious spot.</li><li>Move bulk packs out of the wet room.</li><li>Add a shared list trigger.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Storing a warehouse pack of paper on a wet tank lid because it &#39;saves trips.&#39;</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Visible backup</li><li>Bulk out of wet room</li><li>Shared list trigger</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="closing-the-map-opening-the-style">
+  <div class="chapter-opener">
+    <img src="photos/047-pexels.jpg" alt="An opaque personal bin on a vanity shelf beside a clear walking path.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Privacy, access, and guests</h2>
+<p>A shared bathroom still needs private storage, reachable storage, and a plan for extra people. This chapter is about the bathroom, not the kitchen.</p>    </div>
+  </div>
+
+  <article class="unit" id="sensitive-products">
+
+    <figure class="hero">
+      <img src="photos/008-pexels.jpg" alt="An opaque personal bathroom bin with a generic name label.">
+      <div class="hero-label">
+<span class="day">Day 37</span>        <h3>Sensitive products need a real home</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Anjali stores prescription cream and menstrual products in a clear cup because the roommate &#39;doesn&#39;t care.&#39; The roommate still rummages.</p>
+    </div>
+
+    <p class="principle">Privacy is a container and a boundary, not a personality trait.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: an opaque personal bin or pouch for each person, plus a written &#39;do not open&#39; rule.</p>
+      <p>Sensitive items include prescription products, menstrual products someone does not want displayed, personal lubricants, and anything a person has asked to keep private. An opaque bin in a drawer, a pouch on a high personal shelf, or a caddy that lives in a bedroom are all valid.</p>
+      <p>Labels can be generic: &#39;A — personal&#39; is enough. You do not have to advertise contents. Accessing someone else&#39;s privacy bin is a household boundary, not a cute organizer fail.</p>
+      <p>If the only storage is open shelves, privacy requires lids. Clear acrylic is the wrong finish for this job.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Give each person an opaque bin or pouch.</li><li>Agree that privacy bins are not shared.</li><li>Move displays of sensitive products off open shelves.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Using clear containers for everything because they &#39;look cohesive,&#39; including items someone asked to keep private.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Opaque personal container</li><li>Do-not-open rule</li><li>Open-shelf displays reduced</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="reach-and-mobility">
+
+    <figure class="hero">
+      <img src="photos/049-pexels.jpg" alt="Daily items placed at a reachable height, with the deep cabinet used for backups.">
+      <div class="hero-label">
+<span class="day">Day 38</span>        <h3>Reach is not the same for both people</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Rohan cannot comfortably kneel to a deep under-sink bin. The &#39;fair&#39; assignment put his daily kit there because Priya wanted the drawer.</p>
+    </div>
+
+    <p class="principle">Daily-must items go where the person who uses them can actually reach. Fairness includes bodies, not only shelf counts.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a reach check — high, low, deep — for each person, with daily items moved out of any zone they cannot use safely.</p>
+      <p>Do not assume both people can use the lowest cabinet, the highest shelf, or a back corner behind pipes. Reduced reach, balance issues, or pain change the map. Put that person&#39;s daily-must items where they can use them, and give the other person volume elsewhere. There is no universal counter-to-chest rule; test with the person who lives here.</p>
+      <p>Leave space to turn, to use a mobility device if one is present, and to sit on a stable stool if someone needs to sit to dress a wound or shave. This book is not an accessibility assessment. If needs are complex, consult an occupational therapist or another qualified professional.</p>
+      <p>Handles on bins help. Heavy bulk on the floor does not.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Watch each person reach daily items once.</li><li>Move anything that requires an unsafe bend or climb.</li><li>Keep the turning path clear.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Calling a low, deep bin equal storage when only one person can use it.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Reach check done</li><li>Daily items at usable height</li><li>Path clear</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="guests-and-extra-people">
+
+    <figure class="hero">
+      <img src="photos/050-pexels.jpg" alt="A labeled guest toiletry bag parked off the main vanity tray.">
+      <div class="hero-label">
+<span class="day">Day 39</span>        <h3>Guests and extra toothbrushes</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Weekend guests add two towels, a toiletry bag, and a hair dryer to a bathroom that already had no spare hook.</p>
+    </div>
+
+    <p class="principle">Guests get a temporary kit location that can leave. They do not inherit the prime tray.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a guest kit spot, a guest towel hook or bar, and a restore-the-room step after they leave.</p>
+      <p>Park guest toiletries in a bag on a bedroom chair or a labeled bin that sits on the toilet tank only if it is stable and dry — better: a hook on the door if the door still closes. Extra hair tools follow the same cooling and outlet rules.</p>
+      <p>If children visit, this book does not provide childproofing. Move razors, medicines, and cleaners to a higher or closed location as a household decision, following product instructions. Do not rely on pretty bins as safety devices.</p>
+      <p>After guests leave, run a 10-minute restore: liners, towels, floor path, extra bottles out.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Name a guest-kit parking spot.</li><li>Add a temporary towel location.</li><li>Write a 10-minute restore list.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Letting guest products colonize the shared tray &#39;just for the weekend&#39; and then leaving them for a month.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Guest parking spot</li><li>Temporary towel plan</li><li>Restore list</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="cohesive-style-blueprint-for-two">
+  <div class="chapter-opener">
+    <img src="photos/051-pexels.jpg" alt="A rental bathroom with mismatched metal finishes pulled together by two identical trays and matching towels.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Style that works with rental fixtures</h2>
+<p>Style is a budget hierarchy and a two-person compromise, not a palette essay. You will not replace the tile.</p>    </div>
+  </div>
+
+  <article class="unit" id="five-style-choices">
+
+    <figure class="hero">
+      <img src="photos/052-pexels.jpg" alt="Matching towels and two identical trays in a bathroom with unchanged builder tile.">
+      <div class="hero-label">
+<span class="day">Day 40</span>        <h3>Five choices, not a mood board</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Riya wants pastels. Arjun wants black. The tile is beige builder-grade. They have been arguing about &#39;the palette&#39; for a week.</p>
+    </div>
+
+    <p class="principle">Choose one dominant neutral, one accent, one repeated texture, one small-hardware finish, and one thing you will not add.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: those five choices written down, plus one sample combination that both people can live with.</p>
+      <figure class="diagram">
+        <img src="figures/F010.svg" alt="Budget hierarchy">
+<figcaption>Change the cheapest reversible layers first.</figcaption>      </figure>
+      <p>Example A, compact rental: white towels, one oak-look bath mat, matte white bins, black small accessories to echo a black faucet, no extra candles. Example B: sand towels, clear bins, one sage cup, brushed-nickel accessories to echo existing bars, no printed labels in three fonts. Example C: all-white textiles, one striped shower curtain if the lease allows, gray bins, no metallic mix beyond what is already screwed to the wall.</p>
+      <p>Mismatched metals are normal in rentals. Repeat one accessory finish and ignore the rest. Do not buy a new faucet to &#39;complete the look&#39; in a unit you do not own.</p>
+      <p>If you disagree, let textiles carry the accent and keep containers boring. Containers are easier to share than a loud curtain.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Write the five choices.</li><li>Pick one complete example and steal its structure, not its exact colors.</li><li>Leave major fixtures alone.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Writing a 12-color palette while the walking path is still blocked.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Five choices</li><li>One complete example</li><li>Fixtures left alone</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="removable-color">
+
+    <figure class="hero">
+      <img src="photos/053-pexels.jpg" alt="Color introduced with towels and trays, walls left as the landlord painted them.">
+      <div class="hero-label">
+<span class="day">Day 41</span>        <h3>Color through things you can take with you</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Priya wants a green bathroom. The landlord painted everything beige. The lease forbids painting tile.</p>
+    </div>
+
+    <p class="principle">Introduce color with towels, a curtain if allowed, cups, and labels. Do not start with paint.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a removable color list with prices in USD you are willing to spend, starting under $40 if the budget is tight.</p>
+      <p>A pair of towels and two $8 trays will do more than a $30 set of decals that may damage paint. Confirm curtain-rod hardware before buying a curtain. Some rods are tension; some are screwed.</p>
+      <p>Skip peel-and-stick tile unless the manufacturer lists your surface and you accept residue risk. Most renters should skip it.</p>
+      <p>If two people hate each other&#39;s accent, each gets a small personal cue on their tray and the shared field stays neutral.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>List removable color items only.</li><li>Cap the first spend.</li><li>Skip wall films unless the lease and the surface clearly allow them.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Applying decorative tile stickers to rental walls because a video called them renter-friendly.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Removable list</li><li>USD cap</li><li>No unapproved wall film</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="labels-that-survive-steam">
+
+    <figure class="hero">
+      <img src="photos/054-pexels.jpg" alt="Short waterproof labels on shower bottles, still legible.">
+      <div class="hero-label">
+<span class="day">Day 42</span>        <h3>Labels that survive steam</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Paper labels curled in a week. Guest labels in script cannot be read from the door.</p>
+    </div>
+
+    <p class="principle">One font family, short words, waterproof enough for the zone they live in.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a micro guide — font, size, color, waterproof method — used on every new label.</p>
+      <p>Dry zones can use simple printed tape. Wet zones need waterproof labels or embossed plastic. Title Case category words beat jokes. Initials beat full essays.</p>
+      <p>Place labels where you can read them while standing in your normal spot. Test one label in the shower for a week before labeling twelve bottles.</p>
+      <p>If you already wrote a style guide in your head, this is the only part that must exist on paper.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Choose one label method for dry and one for wet.</li><li>Print a sample and steam-test it.</li><li>Keep wording to one or two words.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Hand-lettered paper tags on shower bottles.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Dry method</li><li>Wet method</li><li>Steam test</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="two-tastes-one-bathroom">
+
+    <figure class="hero">
+      <img src="photos/055-pexels.jpg" alt="Two slightly different personal cups on otherwise matching trays.">
+      <div class="hero-label">
+<span class="day">Day 43</span>        <h3>Two tastes, one bathroom</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>One person wants spa calm. The other wants visible products as a checklist. Both live here.</p>
+    </div>
+
+    <p class="principle">Shared field stays calm. Personal trays may differ slightly. Cap the difference.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a written compromise — shared field rules plus the one personal exception each person gets.</p>
+      <p>The shared field is towels, curtain, trash bin, and the center tray. Those match. Personal trays can differ in one small way: a color dot, a different cup, a small frame-free object that still wipes clean.</p>
+      <p>If the exception creates clutter, it loses. Run a two-week look test. Photograph before and after.</p>
+      <p>Do not resolve a storage-capacity fight with a new accent color.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Lock shared-field items.</li><li>Allow one personal exception each.</li><li>Review in two weeks with photos.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Letting each person decorate independently until the room has two competing themes and no walking path.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Shared-field list</li><li>One exception each</li><li>Review date</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="containers-dividers-and-hardware-selection">
+  <div class="chapter-opener">
+    <img src="photos/056-pexels.jpg" alt="A few bathroom organizers still in packaging beside a tape measure and a cabinet opening.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Choose organizers without overbuying</h2>
+<p>Measure first, buy second. Record width, depth, and usable height. Subtract plumbing, hinges, handles, lids, and the extra space needed to pull a container out. A container that matches the empty opening can still fail once it is loaded. Every organizer category needs a problem, a not-for list, a measurement, a material note, a removable note, and a maintenance note.</p>    </div>
+  </div>
+
+  <article class="unit" id="sizing-ladder-with-numbers">
+
+    <figure class="hero">
+      <img src="photos/057-pexels.jpg" alt="One test organizer held up to a measured drawer opening.">
+      <div class="hero-label">
+<span class="day">Day 44</span>        <h3>The sizing ladder with real numbers</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Priya measured a 21.5-by-14-by-4-inch drawer. She is looking at a 12-inch-wide cutlery tray meant for a kitchen, used here only as a size warning.</p>
+    </div>
+
+    <p class="principle">Convert existing measurements into a buy list. Do not remeasure the room.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a small / medium / large ladder built from the Day 8–10 interiors, not from catalog names and not from a new measuring round.</p>
+      <figure class="diagram">
+        <img src="figures/F011.svg" alt="Before any under-sink buy">
+<figcaption>Skip the purchase if any line is blank.</figcaption>      </figure>
+      <p>Illustrative ladder only, replace with your numbers: a small tray might stay under about 10 inches wide; a medium bin fits a measured under-sink pocket; large belongs outside the bathroom if no pocket fits. None of those inches is a required minimum.</p>
+      <p>Test lid, handle, and removal clearance against the numbers you already have. Buy one test piece, then a twin.</p>
+      <p>USD reality: an $8 adjustable divider plus a $12 bin often beats a $40 matching suite that ignores the pipes.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Copy Day 8–10 max interiors into small, medium, and large rows.</li><li>Buy one test piece that fits those numbers.</li><li>Only then match a second.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Ordering a six-piece set, or treating the 10-inch small-tray example as a rule.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Ladder from existing numbers</li><li>One test buy</li><li>Lid and removal clearance</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="dividers-that-earn">
+
+    <figure class="hero">
+      <img src="photos/058-pexels.jpg" alt="A stable drawer divider creating two daily lanes.">
+      <div class="hero-label">
+<span class="day">Day 45</span>        <h3>Dividers that earn the drawer</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>A flimsy spring divider collapses when the drawer slams. Daily items mix again.</p>
+    </div>
+
+    <p class="principle">Dividers are for daily lanes you already defined. They are not a personality system.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a divider choice that locks to the measured interior, or a no-divider decision if the drawer is too shallow or warped.</p>
+      <p>Use adjustable dividers or a cut-to-fit tray only after the interior width is known. Add a non-slip liner if trays walk, following the liner&#39;s wet-use limits — many liners are not shower-rated.</p>
+      <p>Deep drawers get a lift-out tray, not more tiny cells that cannot be reached. Daily items stay on the top layer.</p>
+      <p>When not to use dividers: a warped drawer, a single shared handful of items, or a drawer that must stay empty for a hair-tool landing after cooling.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Measure interior again with the divider in mind.</li><li>Install only if it stays put through ten open-close cycles.</li><li>Keep daily items on the accessible layer.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Filling every inch with cells so nothing oversized, like a toothpaste box, still fits.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Interior remeasured</li><li>Slam test</li><li>Daily layer visible</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="trays-not-skyline">
+
+    <figure class="hero">
+      <img src="photos/059-pexels.jpg" alt="Two small vanity trays with empty space around the faucet.">
+      <div class="hero-label">
+<span class="day">Day 46</span>        <h3>Trays, not a product skyline</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Alex and Jordan put two huge trays on a 10-inch-deep counter. Nothing can be set down with wet hands.</p>
+    </div>
+
+    <p class="principle">Trays should be smaller than the usable footprint and shorter than the habit of putting &#39;just one more thing&#39; on them.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: tray dimensions that leave a landing zone beside the sink.</p>
+      <p>Low profile, raised edge, wipeable. Two identical small trays or one divided tray. Cap contents. Open trays for daily use; lids slow mornings and collect moisture.</p>
+      <p>When not to use a tray: if it forces products into the splash line or blocks the faucet handles.</p>
+      <p>Material: plastic or coated metal that will not rust in this room. Untreated wood on a wet vanity is a maintenance project.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Measure remaining counter after the sink and faucet.</li><li>Choose trays smaller than that rectangle.</li><li>Leave a bare landing zone.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Buying the largest tray that still sits on the counter.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Tray smaller than footprint</li><li>Landing zone</li><li>Wipeable material</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="undersink-bins-wrap-pipes">
+
+    <figure class="hero">
+      <img src="photos/057-pexels.jpg" alt="Moisture-resistant bins fitted around plumbing with a removable liner.">
+      <div class="hero-label">
+<span class="day">Day 47</span>        <h3>Under-sink bins that wrap pipes</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Humidity under Priya&#39;s sink rusted a cheap metal file box. Cardboard backups went limp.</p>
+    </div>
+
+    <p class="principle">Moisture-resistant, sized to each pocket, lined, and pullable. Sealed lids only for things that must stay dry.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: two moisture-safe bins chosen from the Day 8 pocket numbers and the Day 16 placement plan — not a third measuring of the same pipes.</p>
+      <p>Ventilated sides help items that already got damp. Lids help paper goods if you insist on storing them here — better to move paper out. A removable liner catches drips so you notice a leak.</p>
+      <p>Maintenance: empty and wipe monthly. If the liner is wet, find the source. A leak is a landlord or plumber issue.</p>
+      <p>Skip roll-outs that need screws unless you have permission and the floor of the cabinet is sound.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Use the smaller Day 8 pocket as the first bin limit.</li><li>Add a liner.</li><li>Leave valves clear.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>One giant tub that straddles the drain and hides a leak.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Pocket-fit bins</li><li>Liner in</li><li>Valves clear</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="shower-hardware-no-default">
+
+    <figure class="hero">
+      <img src="photos/061-pexels.jpg" alt="A removable shower caddy with bottle heights matched to openings.">
+      <div class="hero-label">
+<span class="day">Day 48</span>        <h3>Shower hardware without a default mount</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>A rusting tension caddy stains grout. The listing said rust-resistant.</p>
+    </div>
+
+    <p class="principle">Match material to wet use, match mount to permission, match height to bottles. None of that is universal.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a shower storage choice with a written mount type, material, and a cleanability yes.</p>
+      <p>Rust-resistant is a claim to verify against reviews and the finish, not a promise. Plastic can still get biofilm. Metal can still rust at welds. Choose something you can remove and wash.</p>
+      <p>Adhesive, clamp, tension, and suction each fail in different ways. Follow the package for surface, cure time, and weight. Do not hang glass bottles from a suction cup rated for a loofah.</p>
+      <p>If no option is permitted and stable, the bring-in caddy remains the answer.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Pick mount type from the renter tree.</li><li>Match openings to bottle heights.</li><li>Confirm you can wash the unit.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Installing a permanent-looking caddy on rental tile because the bottles looked tidy in a video.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Mount type chosen</li><li>Weight vs rating</li><li>Washable</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="labeling-refill-and-rotation-routines">
+  <div class="chapter-opener">
+    <img src="photos/062-pexels.jpg" alt="A bathroom tray being wiped during a short weekly reset.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Labels, refills, and the weekly reset</h2>
+<p>This chapter installs the maintenance system. It does not re-explain fairness, volume, or visibility.</p>    </div>
+  </div>
+
+  <article class="unit" id="label-the-map">
+
+    <figure class="hero">
+      <img src="photos/063-pexels.jpg" alt="Short labels on personal and shared bathroom bins.">
+      <div class="hero-label">
+<span class="day">Day 49</span>        <h3>Label the map you already have</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Riya and Arjun already assigned lanes. They still argue because nothing is marked.</p>
+    </div>
+
+    <p class="principle">Labels demonstrate the system. They are not a substitute for the system.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: labels on person A, person B, shared, backups, and privacy bins, using the wet/dry methods you already chose.</p>
+      <p>Put initials on personal trays and category words on shared bins: Soap, Paper, Cleaners. Do not label every cotton swab.</p>
+      <p>Icons are optional. If you use them, use three at most. Test readability from the doorway.</p>
+      <p>If a label needs a paragraph, the zone is wrong.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Label the five zone types.</li><li>Skip decorative wording.</li><li>Photograph the labeled map.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Writing another explanation of why labels create fairness instead of labeling the actual bins.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Five zone types labeled</li><li>Short words only</li><li>Photo saved</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="shared-refill-trigger">
+
+    <figure class="hero">
+      <img src="photos/056-pexels.jpg" alt="A small shared shopping list for soap, paper, and liners.">
+      <div class="hero-label">
+<span class="day">Day 50</span>        <h3>Shared refills with a trigger</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Hand soap hits empty during a work-from-home day. Nobody owns the Target run.</p>
+    </div>
+
+    <p class="principle">Each shared consumable has a visible trigger and a name who restocks, rotating if you want.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a list — soap, paper, toothpaste if shared, liners — with a trigger and a shopping-list home.</p>
+      <p>A simple trigger: when you can see the last backup, add it to the list the same day. Do not wait for zero. Store bathroom backups in the labeled overflow, not a mystery hall bag.</p>
+      <p>Money: decide whether shared items come from a joint fund or alternate purchases. Write the dollar split. This book will not invent your household economy beyond &#39;name it.&#39;</p>
+      <p>Personal products are restocked by their owner unless you agree otherwise.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>List shared consumables.</li><li>Set a last-backup trigger.</li><li>Put the list where both people see it.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>A complex inventory app for four bathroom items.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Consumable list</li><li>Trigger</li><li>List location</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="rotate-actives">
+
+    <figure class="hero">
+      <img src="photos/065-pexels.jpg" alt="One active sunscreen in use and one dated backup in overflow.">
+      <div class="hero-label">
+<span class="day">Day 51</span>        <h3>Rotate actives, do not archive half bottles</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Four half-used sunscreens live in the cabinet &#39;because summer is coming.&#39;</p>
+    </div>
+
+    <p class="principle">One active per personal category in the bathroom. Next-up lives in overflow. Stagnant product leaves.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: one active and at most one next-up per crowded category, using the Day 5 duplicate log. Do not pull the whole bathroom out again.</p>
+      <p>Open the Day 5–7 photos. Keep the one active you already chose. Park next-up in overflow. If a product is still untouched from that inventory, it leaves the bathroom now.</p>
+      <p>When active finishes, next-up moves forward. If next-up is expired, it does not move forward. Quarterly, dump stagnant product according to the label and local rules.</p>
+      <p>Makeup and skincare in humidity: if the formula pills, smells, or the package says keep dry, it should not live in the shower or on the tank lid.</p>
+      <p>This is not a skincare medical guide. When in doubt, follow the package or ask a pharmacist.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Pick one active per crowded category.</li><li>Mark open dates on sunscreens and similar.</li><li>Remove stagnant extras.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Keeping every almost-finished bottle as a backup.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>One active each</li><li>Open dates</li><li>Stagnant extras out</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="ten-minute-weekly-reset">
+
+    <figure class="hero">
+      <img src="photos/066-pexels.jpg" alt="A short weekly bathroom reset card with six lines.">
+      <div class="hero-label">
+<span class="day">Day 52</span>        <h3>A ten-minute weekly reset</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Sita and Vikram&#39;s system slides every Thursday. They need minutes, not a monthly project.</p>
+    </div>
+
+    <p class="principle">The reset is a checklist with a clock. Alternate who leads.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a weekly reset card you can finish in about ten minutes.</p>
+      <figure class="diagram">
+        <img src="figures/F012.svg" alt="Weekly reset">
+<figcaption>Finish in about ten minutes.</figcaption>      </figure>
+      <p>Return items to zones. Wipe trays. Check wet tools and hanging towels. Empty the liner if needed. Refill shared soap if the trigger hit. Look for damaged cords and expired products. Note one storage conflict for the review date instead of fighting mid-reset.</p>
+      <p>Monthly, add fifteen minutes to wash the shower caddy and under-sink liner. If you find mold or a leak, stop resetting and handle maintenance.</p>
+      <p>Keep a cloth and the daily cleaner in the cleaner bin so the reset does not start with a scavenger hunt.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Write the ten-minute card.</li><li>Put it where you will see it.</li><li>Alternate who runs it.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>A reset so ambitious it gets skipped until the bathroom is a project again.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Ten-minute card</li><li>Who leads this week</li><li>Cloth in the cleaner bin</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="conflict-light-decision-scripts-and-negotiation-prompts">
+  <div class="chapter-opener">
+    <img src="photos/057-pexels.jpg" alt="Two people reviewing a one-page bathroom agreement on a phone.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Negotiate without a fight</h2>
+<p>Use a short script: problem, both needs, two or three options, a trial, a review date, a final line. Do not re-teach the Fairness Triangle.</p>    </div>
+  </div>
+
+  <article class="unit" id="counter-is-not-personality">
+
+    <figure class="hero">
+      <img src="photos/068-pexels.jpg" alt="A nearly empty sink deck with one shared soap and a small divided tray.">
+      <div class="hero-label">
+<span class="day">Day 53</span>        <h3>The counter is not a personality test</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Both people want the same 8-inch stretch beside the faucet for a &#39;daily&#39; bottle.</p>
+    </div>
+
+    <p class="principle">Prime inches go to shared essentials and true daily-must items. Everything else gets a drawer or a trial.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a filled mini-script for the counter conflict with two options and a two-week trial.</p>
+      <p>Option A: one shared soap plus empty stone. Option B: one divided tray with one item each. Option C: rotating weekly display if you truly cannot agree — then review whether anyone actually used the display.</p>
+      <p>If someone refuses to reduce, the default is Option A plus overflow elsewhere. The person who wants more display does not automatically win the stone.</p>
+      <p>Record the review date on the calendar, not in a group chat you will mute.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Write the problem in one sentence.</li><li>List both needs.</li><li>Pick a trial option and a review date.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Re-explaining volume, visibility, and access instead of choosing a trial.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Problem sentence</li><li>Two options</li><li>Review date</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="tool-time-without-standoff">
+
+    <figure class="hero">
+      <img src="photos/069-pexels.jpg" alt="A posted morning sequence for shower, sink, and heat tools.">
+      <div class="hero-label">
+<span class="day">Day 54</span>        <h3>Tool time without a standoff</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>The dryer window from Day 21 slipped. Both people are late again.</p>
+    </div>
+
+    <p class="principle">Renegotiate times with evidence from the last two weeks, or add a second tool with a safe station.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: either a revised schedule or a second-tool plan that still obeys cooling and outlet rules.</p>
+      <p>Count actual misses. If one person missed twice, they adjust, or you buy a second dryer if — and only if — there is a second safe use location and storage after cooling.</p>
+      <p>Do not use the bathroom as a salon while the other person needs the toilet. Sequence the room: toilet and shower first, heat tools after, or the reverse, but name it.</p>
+      <p>Local electrical rules still win. If the circuit cannot support two high-draw tools, do not test that theory.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Count misses for two weeks.</li><li>Revise windows or plan a second tool safely.</li><li>Sequence bathroom uses.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Operating two high-draw tools on one questionable outlet to &#39;save the relationship.&#39;</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Miss count</li><li>Schedule or second tool</li><li>Room sequence</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="style-changes-small-trial">
+
+    <figure class="hero">
+      <img src="photos/070-pexels.jpg" alt="One new towel set folded beside unchanged rental fixtures.">
+      <div class="hero-label">
+<span class="day">Day 55</span>        <h3>Style changes as a small trial</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Neha wants green towels. Sam wants the current white set. This is not a storage emergency.</p>
+    </div>
+
+    <p class="principle">Trial one textile change. Do not reopen the whole palette.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: one textile trial with a one-month photo review.</p>
+      <p>Buy one set, not a rainbow. Keep containers as they are. If the trial fails, resale or guest-bath use is easier than a full restyle.</p>
+      <p>If the fight is actually about clutter, go back to the counter script. Color will not shrink a collection.</p>
+      <p>USD cap the trial so it cannot become a renovation.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Choose one textile change.</li><li>Cap the spend.</li><li>Set a one-month photo review.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Repainting or replacing fixtures to resolve a towel-color disagreement in a rental.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>One textile</li><li>USD cap</li><li>Photo review</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="overflow-after-a-sale">
+
+    <figure class="hero">
+      <img src="photos/056-pexels.jpg" alt="A small overflow bin at capacity, with extra bottles kept out of the shower.">
+      <div class="hero-label">
+<span class="day">Day 56</span>        <h3>Overflow after a sale</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>A two-for-one shampoo sale filled the stall. The niche cannot hold it.</p>
+    </div>
+
+    <p class="principle">If it does not fit the overflow bin, it does not come home, or something equal leaves.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a one-in, one-out rule for backups, with a max count per category.</p>
+      <p>Promotions are not storage. The bathroom has a hard volume. Extra bottles live in a hall closet or they are not purchased.</p>
+      <p>Write the max: for example, one active and one backup of shared shampoo. Your number comes from the measured overflow bin, not from the coupon.</p>
+      <p>If one person binge-buys personal products, that volume comes out of their personal allocation, not the shared niche.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Set a max backup count.</li><li>Move sale extras out of the stall.</li><li>Apply one-in, one-out.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Calling bulk shopping &#39;preparedness&#39; while bottles stand on the shower floor.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Max backup count</li><li>Extras relocated</li><li>One-in one-out</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="privacy-conflicts">
+
+    <figure class="hero">
+      <img src="photos/034-pexels.jpg" alt="A privacy bin moved to a less visible shelf with a generic label.">
+      <div class="hero-label">
+<span class="day">Day 57</span>        <h3>Privacy conflicts without a speech</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Meera keeps opening Anjali&#39;s dermatology bin &#39;to borrow a cotton pad.&#39;</p>
+    </div>
+
+    <p class="principle">Restate the boundary once, move the bin if needed, and stop debating the contents.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a relocated privacy bin if the current one is too tempting, plus a one-line boundary both people initial.</p>
+      <p>Offer two options: a less visible location, or a bedroom caddy. The owner chooses. The other person does not need a tour of the contents.</p>
+      <p>Shared cotton pads belong in the shared tray so nobody has an excuse to open a privacy bin.</p>
+      <p>If the boundary is still crossed, that is not an organization problem.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Move the privacy bin if rummaging continues.</li><li>Stock shared cotton separately.</li><li>Initial the one-line rule.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Relabeling a privacy bin in a friendlier font instead of moving it.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Bin relocated if needed</li><li>Shared cotton separate</li><li>One-line rule</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="reconfiguration-and-growth-playbook">
+  <div class="chapter-opener">
+    <img src="photos/061-pexels.jpg" alt="A bathroom with a temporary guest kit beside a stable everyday layout.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>When the household changes</h2>
+<p>Guests, seasons, new tools, and health needs should trigger a controlled loop: spot, trial, reverse if needed. Do not rebuild the whole fairness lecture.</p>    </div>
+  </div>
+
+  <article class="unit" id="spot-the-trigger">
+
+    <figure class="hero">
+      <img src="photos/065-pexels.jpg" alt="A seasonal cream swapped into an existing daily slot, not added as extra clutter.">
+      <div class="hero-label">
+<span class="day">Day 58</span>        <h3>Spot the trigger, not the vibe</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Winter creams appear. A guest arrives. A new electric toothbrush needs an outlet. Three different problems, one loop.</p>
+    </div>
+
+    <p class="principle">Name the trigger: seasonal, guest, device, health, or drift. Change only the zone that trigger affects.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a trigger log with one change per line.</p>
+      <p>Seasonal products swap with the existing daily slot; they do not add a third tray. Guest kits use the parking spot from the privacy chapter. New devices must pass the electrical chapter before they get a &#39;home.&#39;</p>
+      <p>Health changes — a new mobility limit, a post-procedure cream, a medicine that cannot sit in steam — override aesthetics. Move daily items to reachable dry storage first.</p>
+      <p>Drift is when items walk. The weekly reset catches drift. Do not call drift a need for new furniture.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Write the current trigger.</li><li>Change only the affected zone.</li><li>Photograph after the change.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Using a guest weekend as a reason to buy a new cabinet.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Trigger named</li><li>One-zone change</li><li>Photo</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="trial-then-reverse">
+
+    <figure class="hero">
+      <img src="photos/065-pexels.jpg" alt="A toothbrush charger on a dry, agreed corner, cord not crossing the sink.">
+      <div class="hero-label">
+<span class="day">Day 59</span>        <h3>Trial, then keep or reverse</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Rohan&#39;s toothbrush charger appeared on the only dry corner. Anika&#39;s serums lost their spot.</p>
+    </div>
+
+    <p class="principle">Propose two placements, trial one, set a review. Chargers follow the same wet-and-cord rules as dryers.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: two placement options for the new device, a chosen trial, and a review date.</p>
+      <p>Do not create a new &#39;charging aesthetic&#39; on a wet board. If the bathroom outlet is a bad idea, charge in another room.</p>
+      <p>Keep the visual field boring during the trial so you can see whether the function works.</p>
+      <p>Document the decision in the same note as the original agreement.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Write two options.</li><li>Trial one for two weeks.</li><li>Charge elsewhere if the bathroom outlet is wrong.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Leaving a charger on a wet vanity because the USB brick is small.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Two options</li><li>Trial date</li><li>Outlet decision</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="reversible-first">
+
+    <figure class="hero">
+      <img src="photos/076-pexels.jpg" alt="Daily items moved to a reachable existing shelf, medicines still in original packaging.">
+      <div class="hero-label">
+<span class="day">Day 60</span>        <h3>Reversible first</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>After a health change, Meera needs daily items within a safer reach. She is tempted to drill a new cabinet and to park every medicine on the lowest bathroom shelf.</p>
+    </div>
+
+    <p class="principle">Change reach with existing furniture. Do not invent a universal medicine shelf.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a reversible reach adjustment using furniture you already have, without choosing a universal shelf height.</p>
+      <p>Move daily-must items to a place the person who uses them can actually reach. That place is defined by their body and the room, not by a height in this book. Use soft-edge bins if dropping is a concern, without claiming they are spill-proof or childproof.</p>
+      <p>Medicines still follow the label, pharmacist, or prescriber — including during a recovery. Do not relocate a medicine to a low bathroom shelf if the package requires refrigeration, darkness, or a dry limit that the bathroom cannot meet.</p>
+      <p>Do not drill for a new cabinet in a rental because a blog suggested it. Ask the landlord, and get qualified help if the need is clinical or ongoing. Review after the immediate need calms down.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Move daily-must items to a reachable place for the person who uses them.</li><li>Check each medicine against its own storage instruction before moving it.</li><li>Skip drilling unless permitted and necessary.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>A permanent install, or a one-shelf-fits-all medicine move, for a two-week recovery.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Reachable daily home</li><li>Medicines still follow the label</li><li>No unplanned drilling</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="space-mapping-templates-for-shared-bathrooms">
+  <div class="chapter-opener">
+    <img src="photos/001-pexels.jpg" alt="A printed bathroom measurement sheet with inches filled in.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Measurement sheet and storage map</h2>
+<p>Transfer the Day 8–10 numbers onto these sheets. Do not start a second measuring project. If a field is blank or the room has changed, measure only that field. Example dimensions are illustrations. Accessibility notes differ by person; there is no universal reach height.</p>    </div>
+  </div>
+
+  <article class="unit" id="how-to-fill-the-sheets">
+
+    <figure class="hero">
+      <img src="photos/078-pexels.jpg" alt="Blank measurement and zone sheets ready to fill in inches.">
+      <div class="hero-label">
+<span class="day">Day 61</span>        <h3>How to fill the sheets</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Aditi and Rohan print the pages, then stare because the boxes ask for inches they never took.</p>
+    </div>
+
+    <p class="principle">The templates only work if the earlier measurement and inventory chapters were actually done.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: printed sheets with inch labels, already holding the Day 8–10 numbers — not a blank map you will measure from scratch.</p>
+      <p>Copy vanity interiors, pockets, shower, door swing, and outlets from the earlier record. Then add person A, person B, shared, overflow, and do-not-store-here from the inventory photos.</p>
+      <p>Use one color per person if that helps. Write NA where a zone does not exist.</p>
+      <p>Return to the room only for a blank field or a layout that has changed since Day 10.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Print or copy the sheets.</li><li>Copy Day 8–10 numbers and Day 7 photos onto them.</li><li>Write NA where a zone does not exist.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Starting a new inventory and measuring session because the worksheet is blank.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Sheets ready</li><li>Numbers copied, not re-taken</li><li>NA used where needed</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="bathroom-measurement-sheet">
+
+    <figure class="hero">
+      <img src="photos/079-pexels.jpg" alt="A measurement sheet with vanity, drawer, and shower lines filled in inches.">
+      <div class="hero-label">
+<span class="day">Day 62</span>        <h3>Bathroom measurement sheet</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>A hypothetical US hall bath: 60-by-36-inch floor, 24-inch vanity, 32-inch stall, door swinging 28 inches into the room.</p>
+    </div>
+
+    <p class="principle">The sheet holds your numbers. The printed example is not a clearance standard.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: the measurement sheet filled from your Day 8–10 record, with every example number replaced or marked NA.</p>
+      <figure class="diagram">
+        <img src="figures/F013.svg" alt="Measurement sheet lines">
+<figcaption>Illustration only — not your bathroom and not a minimum clearance.</figcaption>      </figure>
+      <p>Copy interiors, not only outside widths. Include door swing, fixture access, and removal space on the same page. Add who cannot use high, low, or deep storage — that note is personal, not a standard height.</p>
+      <p>Illustrative fill only, for a hypothetical hall bath, not a minimum: vanity 24 × 18 × 32; drawer 21.5 × 14 × 4; pockets 7 and 9 inches; stall 32 × 32; door swing hits a towel bar. If your sheet matches these numbers exactly, you copied the example. Go measure.</p>
+      <p>If a line is still blank, measure that line only. Do not restart Days 8–10.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Transfer Day 8–10 interiors onto the sheet.</li><li>Add swing, fixture access, and removal space.</li><li>Write an accessibility note for each person, not a universal height.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Copying the illustration numbers onto your shopping list.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>All dimension lines filled or NA</li><li>Clearance noted</li><li>Reach note</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="personal-shared-storage-map">
+
+    <figure class="hero">
+      <img src="photos/042-pexels.jpg" alt="A storage map with person A, person B, shared, overflow, and banned items.">
+      <div class="hero-label">
+<span class="day">Day 63</span>        <h3>Personal and shared storage map</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>The same hall bath needs person A on the left drawer lane, person B on the right, shared soap on the deck, overflow in a hall closet, medicines in a bedroom.</p>
+    </div>
+
+    <p class="principle">The map has five fields: A, B, shared essentials, overflow, and do-not-store-here.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: those five fields filled with item names, not categories in the abstract.</p>
+      <p>Person A zone: list the actual daily items and their location. Person B: the same. Shared essentials: soap, paper, liners, basic cleaner. Overflow: backups in the hall closet. Do-not-store-here: medicines that must stay dry, bulk paper, extra hair tools.</p>
+      <p>Add a small box for the walking path and the wet-floor ban.</p>
+      <p>If both people still want the same prime niche, write the trial from the negotiation chapter on the map.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Fill A, B, shared, overflow, banned.</li><li>Name real products.</li><li>Mark the path and wet-floor ban.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Drawing equal rectangles and calling it done without listing what lives in them.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Five fields filled</li><li>Real product names</li><li>Path marked</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="vanity-map-worked-example">
+
+    <figure class="hero">
+      <img src="photos/079-pexels.jpg" alt="A vanity map listing actual daily products in each lane.">
+      <div class="hero-label">
+<span class="day">Day 64</span>        <h3>Vanity map worked example</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Worked example: 24-inch vanity, one drawer. A: cleanser, moisturizer, toothbrush. B: shave gel, daily lotion, toothbrush. Shared: pump soap. Overflow: extra shampoo in the hall. Banned: prescription cream.</p>
+    </div>
+
+    <p class="principle">If you cannot copy this density of detail onto your sheet, add detail, do not add theory.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: your vanity map filled at this level of detail.</p>
+      <p>Left lane holds A&#39;s daily three. Right lane holds B&#39;s daily three. Front tray: floss and nail clipper. Counter: soap only. Under-sink left: A&#39;s weekly. Under-sink right: B&#39;s weekly plus the cleaner bin if it fits without blocking valves.</p>
+      <p>Medicine cabinet: empty enough to close, or assigned by shelf with tall bottles tested.</p>
+      <p>If your vanity has no drawer, your map should say &#39;caddy on dresser&#39; instead of inventing a drawer.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Copy the structure onto your vanity.</li><li>Test-close doors and drawers.</li><li>Write the no-drawer fallback if needed.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Leaving the vanity map as &#39;stuff / stuff / shared.&#39;</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Item-level vanity map</li><li>Close test</li><li>Fallback if no drawer</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="mistakes-the-sheets-catch">
+
+    <figure class="hero">
+      <img src="photos/082-pexels.jpg" alt="A marked-up map with blocked-valve and do-not-buy notes.">
+      <div class="hero-label">
+<span class="day">Day 65</span>        <h3>Mistakes the sheets catch</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>A couple filled pretty zones, then blocked the plumbing clearance and mixed daily items with guest samples.</p>
+    </div>
+
+    <p class="principle">The sheet is a trap for specific errors: mixed tiers, blocked valves, unlabeled privacy, and shopping first.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a pass over your sheets hunting those four errors.</p>
+      <p>If daily and occasional items share the prime niche, split them. If a bin covers valves, shrink the bin. If privacy items are on the open map, move them to the opaque bin line. If any purchase is listed without a measurement, mark do not purchase yet.</p>
+      <p>Overloading a glass shelf is a safety issue. Follow the shelf and the organizer ratings, not a vibe.</p>
+      <p>Fix the sheet, then the room.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Hunt mixed tiers.</li><li>Hunt blocked valves.</li><li>Mark do-not-purchase-yet on blank measurements.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Hanging a heavy caddy on a glass shelf because the map had a leftover square.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Tiers split</li><li>Valves clear</li><li>Do-not-purchase flags</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="lock-the-map">
+
+    <figure class="hero">
+      <img src="photos/079-pexels.jpg" alt="A shopping list with dimensions beside each organizer, initialed by both people.">
+      <div class="hero-label">
+<span class="day">Day 66</span>        <h3>Lock the map before shopping</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Meera is about to shop with a half-filled sheet. Rahul has not agreed to the overflow closet.</p>
+    </div>
+
+    <p class="principle">Both people initial the map. Unagreed overflow is not a shopping list.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: initials, a shopping list that only includes measured items, and a do-not-purchase-yet box for the rest.</p>
+      <p>The list should name location, measured opening, and candidate size. If the overflow closet was never agreed, backups cannot be purchased &#39;for later.&#39;</p>
+      <p>Bring the sheet to the store or keep it on your phone. Compare listed product inches to your usable inches in the aisle.</p>
+      <p>This is the last gate before money leaves the account.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Initial the map.</li><li>Build the measured shopping list.</li><li>Park unmeasured wants in do-not-purchase-yet.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>A cart full of organizers &#39;in case they fit.&#39;</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Initials</li><li>Measured list</li><li>Do-not-purchase box</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="container-sizing-and-labeling-checklist">
+  <div class="chapter-opener">
+    <img src="photos/084-pexels.jpg" alt="A checklist comparing a bin&#39;s listed size to a cabinet opening.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Container checklist</h2>
+<p>Complete this checklist for every purchase. If you cannot fill a row, do not buy the object.</p>    </div>
+  </div>
+
+  <article class="unit" id="what-the-checklist-prevents">
+
+    <figure class="hero">
+      <img src="photos/085-pexels.jpg" alt="A container checklist with location, inches, quantity, and removable columns.">
+      <div class="hero-label">
+<span class="day">Day 67</span>        <h3>What the checklist prevents</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Two roommates return $60 of bins that did not fit around a trap and whose labels peeled in steam.</p>
+    </div>
+
+    <p class="principle">The checklist exists to stop unmeasured, non-removable, and high-maintenance purchases.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: one blank checklist copy per candidate item.</p>
+      <p>Columns: location, measured opening, product W × D × H, quantity, removable or fixed, material, wet-rated yes/no, maintenance, do-not-purchase-yet.</p>
+      <p>This is a bathroom tool. Do not use it to reorganize the kitchen on the same afternoon.</p>
+      <p>If a finish is cute but not wet-rated, it fails even if it fits.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Copy the columns.</li><li>Make one row per candidate.</li><li>Refuse any row with a blank measurement.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Treating the checklist as inspiration instead of a gate.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Columns ready</li><li>One row per item</li><li>Kitchen left alone</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="fill-one-row">
+
+    <figure class="hero">
+      <img src="photos/086-pexels.jpg" alt="One completed checklist row for an under-sink bin with inches and a removable yes.">
+      <div class="hero-label">
+<span class="day">Day 68</span>        <h3>Fill one row with a real example</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Worked bathroom example: under-sink right pocket 9 × 12 × 16 inches. Candidate bin 8 × 11 × 10 inches, $13, plastic, removable, wipe monthly.</p>
+    </div>
+
+    <p class="principle">If the worked example is more complete than your row, your row is not ready.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: at least one fully filled row for a real item you might buy, including quantity and removable/fixed.</p>
+      <p>Location: under-sink right. Opening: 9 × 12 × 16 in. Product: 8 × 11 × 10 in. Quantity: 1 test. Removable: yes. Material: plastic. Wet-rated: suitable for damp cabinet, not for standing water. Maintenance: wipe monthly. Do not purchase yet: no, this row is complete — still buy only one.</p>
+      <p>A second example: shower corner caddy. If permission is unknown, the removable column is &#39;unknown&#39; and the row stays do-not-purchase-yet.</p>
+      <p>Handles and lids: write the extra inches. If you did not measure them, the row is incomplete.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Fill one complete row.</li><li>Include handle/lid extra.</li><li>Mark unknown permission as do-not-purchase-yet.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Filling the finish color and skipping the opening size.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>One complete row</li><li>Extra inches included</li><li>Permission known or wait</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="install-then-test">
+
+    <figure class="hero">
+      <img src="photos/087-pexels.jpg" alt="Organizers in place with doors closed, labels not yet applied.">
+      <div class="hero-label">
+<span class="day">Day 69</span>        <h3>Install, then test the weekday</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Bins are in. Labels are not. The first morning, a lid blocks the faucet.</p>
+    </div>
+
+    <p class="principle">Place containers, run one routine, then label. Labels on a bad placement become residue.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a weekday test note and any pull-out of items that failed.</p>
+      <p>Install in order: in-drawer, under-sink, then shower only if the mount is allowed. Confirm doors close. Confirm valves remain reachable. Confirm nothing sits in standing water.</p>
+      <p>Run morning and evening once. If a lid is annoying, remove the lid. If a bin sticks, it is too large — that is a return, not a personality issue.</p>
+      <p>Only then apply wet-rated labels. Press as the label manufacturer specifies on a clean, dry surface.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Install measured pieces only.</li><li>Run one full weekday test.</li><li>Label after placement is stable.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Labeling twelve bottles before the caddy has survived a shower.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Doors close</li><li>Weekday test</li><li>Labels last</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="conflict-light-negotiation-script-worksheet">
+  <div class="chapter-opener">
+    <img src="photos/088-pexels.jpg" alt="A completed one-page bathroom agreement with a trial date and a move-out list.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Agreement worksheet and move-out</h2>
+<p>Complete the worksheet with one hypothetical or real bathroom. If you have to invent missing fields, add those fields — this is that page.</p>    </div>
+  </div>
+
+  <article class="unit" id="worksheet-must-contain">
+
+    <figure class="hero">
+      <img src="photos/042-pexels.jpg" alt="A one-page bathroom worksheet with problem, needs, options, trial, and review.">
+      <div class="hero-label">
+<span class="day">Day 70</span>        <h3>What the worksheet must contain</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Priya and Aman keep debating in the doorway. They need a form that forces a decision.</p>
+    </div>
+
+    <p class="principle">Problem, both needs, two or three options, trial period, review date, final agreement. Anything less is a chat.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a blank worksheet with those six fields plus a line for overflow and a line for chores.</p>
+      <figure class="diagram">
+        <img src="figures/F014.svg" alt="Negotiation worksheet fields">
+<figcaption>If a field is blank, the agreement is not done.</figcaption>      </figure>
+      <p>Keep it one page. Write product names and inches, not moods. The Fairness Triangle does not need to be redrawn here; apply the decision you already made.</p>
+      <p>Add a privacy line and an electrical/heat-tool line so those do not get lost in style talk.</p>
+      <p>Store the completed page in a shared note and inside a cabinet.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Create the six core fields.</li><li>Add overflow, chores, privacy, heat-tool lines.</li><li>Keep it to one page.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>A three-page manifesto with no review date.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Six core fields</li><li>Extra lines added</li><li>One page</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="fill-worksheet-example">
+
+    <figure class="hero">
+      <img src="photos/090-pexels.jpg" alt="A completed example worksheet for a 24-inch shared hall bath.">
+      <div class="hero-label">
+<span class="day">Day 71</span>        <h3>Fill it with the hall-bath example</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Worked example: 24-inch vanity, two adults, one dryer, too many shampoos, one person with more hair product, landlord bans tile holes.</p>
+    </div>
+
+    <p class="principle">A worksheet you cannot complete with this example is missing a field.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: the hall-bath example fully written, then your bathroom written the same way.</p>
+      <p>Problem: both want the niche; floor bottles are a slip risk; dryer cord crosses the path. Needs: A needs daily hair products reachable; B needs a clear shave space and the dryer at 7:20. Options: (1) bring-in hair caddy plus empty stall floor, (2) permitted tension caddy if the rod allows it, (3) hair products in the bedroom. Trial: option 1 for 14 days starting Monday. Review: the following Sunday. Final: stall floor stays empty; A uses a caddy; B gets the drawer right lane; dryer cools on the mat then goes in the caddy; no tile holes.</p>
+      <p>Overflow: extra shampoo in the hall closet, max one backup. Chores: A wipes trays Sunday; B handles toilet Sunday; liners alternate. Privacy: opaque bin in A&#39;s drawer, do not open. Heat tools: cool first; no extension cord.</p>
+      <p>Now fill your real names. If you cannot, you are missing a measurement or a decision, not a motivational paragraph.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Copy the example structure.</li><li>Replace with your names and inches.</li><li>Leave no core field blank.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Writing &#39;be nice&#39; in the final-agreement line.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Example understood</li><li>Your page filled</li><li>No blank core fields</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="trial-dates">
+
+    <figure class="hero">
+      <img src="photos/090-pexels.jpg" alt="A calendar with a 14-day bathroom trial marked.">
+      <div class="hero-label">
+<span class="day">Day 72</span>        <h3>Trial dates and the 14-day rule</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Neha and Karan agreed verbally and never reviewed. The bottles returned to the floor.</p>
+    </div>
+
+    <p class="principle">A trial without a calendar date is not a trial.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: start date, end date, and what evidence you will look at — photos, miss count, or a morning test.</p>
+      <p>Fourteen days is enough to see a weekday pattern. Do not extend forever because nobody wants to be the enforcer. At review, pick keep, modify, or reverse.</p>
+      <p>Photograph on day 1 and day 14. If the floor is wet and blocked on day 14, the option failed regardless of how it looked on day 1.</p>
+      <p>Write the next review only if you modified. Otherwise stop holding meetings about the same tray.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Put start and end on a calendar.</li><li>Decide the evidence.</li><li>Keep, modify, or reverse on the end date.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>An open-ended &#39;let&#39;s see how it goes&#39; with no photo and no date.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Calendar dates</li><li>Evidence chosen</li><li>Keep/modify/reverse</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="move-out-last-reset">
+
+    <figure class="hero">
+      <img src="photos/092-pexels.jpg" alt="An emptied rental bathroom after organizers are removed, photographed for move-out.">
+      <div class="hero-label">
+<span class="day">Day 73</span>        <h3>Move-out and the last reset</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>The lease ends. Nobody remembers which hooks were theirs. A rust ring sits under the caddy.</p>
+    </div>
+
+    <p class="principle">Move-out is the reverse of every attachment, plus moisture checks, plus photos.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a move-out checklist you can reuse even if you are not moving this year — it is also the monthly deep-clean list.</p>
+      <p>Remove bins, liners, adhesive, over-the-door hooks, and tension hardware. Clean according to the product and the surface. Do not sand rental tile. Photograph empty rooms. Bag original hardware if you swapped anything with permission.</p>
+      <p>Check under mats, under the bin, behind the toilet, and the fan cover for moisture or mold. Report problems rather than painting over them.</p>
+      <p>Pack personal products in the same caddies you used daily. That is the point of removable storage.</p>
+      <p>If adhesive residue remains, stop before aggressive solvents. Ask the landlord or a cleaner who is allowed to work on that finish.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Remove every attachment in reverse.</li><li>Moisture-check hidden surfaces.</li><li>Photograph empty, then pack caddies.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Leaving adhesive and rust rings because the room &#39;looked organized&#39; while you lived there.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Attachments reversed</li><li>Moisture check</li><li>Empty-room photos</li></ul>
+    </div>
+
+  </article>
+</section>
+
+<section class="closing">
+  <img class="closing-photo" src="photos/001-pexels.jpg" alt="A shared bathroom with two distinct storage zones and a clear path between sink and shower.">
+  <p class="kicker">30 Day Spaces</p>
+  <div class="rule"></div>
+  <h2>Your next room starts here</h2>
+  <p class="blurb">More room kits and measured layouts — same series language, same clear numbers. This book helps two people share a bathroom with clearer zones, safer wet-area habits, and removable storage. It does not replace electrical, plumbing, mold, or medical advice, and it does not guarantee a damage-free rental.</p>
+<p class="author">Akarsh Priyadarshan</p></section>
+
+</body>
+</html>

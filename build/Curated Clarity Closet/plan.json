@@ -1,0 +1,1970 @@
+{
+  "slug": "curated-clarity-closet",
+  "title": "Curated Clarity Closet",
+  "subtitle": "A 30-day plan to wear, care for, and replace clothes in a compact home — without a magic body type",
+  "tagline": "The care label wins. A capsule is not a number.",
+  "author": "Akarsh Priyadarshan",
+  "series": "30 Day Spaces",
+  "closing_headline": "Your next room starts here",
+  "closing_blurb": "More room kits and measured layouts — same series language, same clear numbers. This book helps readers run a 30-day closet plan they can actually maintain. It does not diagnose undertone, replace a care label, or guarantee a capsule size.",
+  "accent_hex": "#1E5F6B",
+  "units": "imperial",
+  "cover": {
+    "query": "calm compact closet with hanging clothes and a care label, no people, no text",
+    "flux_prompt": "full-bleed designed cover of a tidy compact closet, hanging clothes, no people, no text",
+    "alt": "A compact closet with hanging clothes and clear space on the floor, no people or text.",
+    "source": "openai",
+    "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\cover.jpg",
+    "credit": "Cover illustration generated for this edition.",
+    "ai_generated": true,
+    "provider_id": "openai:curated-clarity-closet-cover"
+  },
+  "designed_cover": true,
+  "chapters": [
+    {
+      "slug": "how-to-use-and-clarify",
+      "title": "Days 1–3: Clarify how you live",
+      "intro": "How to use this book: it is a 30-day guided closet plan, not a set of modules that each restart at Day 1. Follow Days 1–30 in order, or pause a phase if life interrupts — then resume at the next unfinished day. This book is for people building practical wardrobes in compact homes and everyday urban environments. Examples use different cities and lifestyles for illustration; adapt quantities, fabrics, care, and budgets to your climate, culture, work, and storage. Some scenarios use Indian cities as compact-home illustrations. They do not define the market. Prices are USD. Measurements, when given, are inches and are illustrations. Manufacturer care labels, the lease, and a qualified cleaner or cobbler take precedence. A capsule is a working group of clothes you actually wear, not a fixed number and not a ban on uniforms, sportswear, sleepwear, occasionwear, cultural clothing, or sentimental pieces. First-use meanings: Style North Star — a short description of how you want clothes to work for your real week. Outfit equation — a repeatable formula such as bottom plus top plus layer. Micro capsule — a small working subset for one context, not a mandatory item count. Archetype — a pattern you already wear, optional, not a personality test. Acquisition ratio — a planning mix of core versus accent buys, not a law. Cost per wear — purchase price divided by wears so far, a comparison aid. Fit Fabric Function Score — a 1–5 decision aid, not a lab measurement. Wear log — a record of what you actually put on. Silhouette grid — notes on shapes that move with your day, not an ideal body. Do not use load-bearing walls or other apartment structure notes unless they change hanging or storage. Use hanging space, shared wardrobes, laundry access, commute, and time instead.",
+      "opener": {
+        "query": "organized closet with neatly folded clothes and clear bins, soft natural light, minimalist aesthetic, no people, no text, no watermark",
+        "flux_prompt": "close-up of neatly folded clothes in bins, soft natural light highlighting textures and colors",
+        "alt": "A one-page 30-day closet schedule on a table, no unused furniture.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\001-pexels.jpg",
+        "credit": "Photo by Pavel Danilyuk on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:5789584"
+      },
+      "sections": [
+        {
+          "slug": "thirty-day-map",
+          "title": "This is a 30-day plan",
+          "day_label": "Day 1",
+          "hero": {
+            "query": "A cozy, well-lit living space with a neatly organized closet, showcasing a variety of clothing in a harmonious color palette.",
+            "flux_prompt": "A close-up of a closet with neatly hung clothes and organized shelves, emphasizing a cohesive style and color scheme.",
+            "alt": "A calendar with closet phases marked, not a restarting Day 1 stamp.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\002-pexels.jpg",
+            "credit": "Photo by Plastic Lines on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:19874601"
+          },
+          "scenario": "Limited hanging space: a reader opened four chapters that each said Day 1 and did not know what to do on Day 12.",
+          "principle": "One path. Eight phases. Resume where you stopped.",
+          "body": [
+            "Today's output: the 30-day map copied or photographed, with today's date on Day 1.",
+            "Clarify 1–3 lifestyle and guardrails. Audit 4–7 sort and document. Define 8–11 moodboard, optional color tests, fit. Build 12–16 formulas, capsules, dashboard. Shop 17–20 gaps, budget, waits. Organize 21–24 zones and access. Maintain 25–27 care, laundry, climate, shoes. Review 28–30 test, adjust, follow-up.",
+            "Later chapters do not restart the day count. Template-style repeats from older notes are replaced by the dashboard on Day 15."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "30-day closet schedule",
+              "caption": "Pause if needed. Resume at the next unfinished day.",
+              "values": [
+                "Lifestyle, direction, guardrails",
+                "Sort, evaluate, document",
+                "Moodboard, fit, palette tests",
+                "Formulas, capsules, dashboard",
+                "Gaps, budget, sourcing waits",
+                "Zones and access",
+                "Care, laundry, climate, shoes",
+                "Test, adjust, follow-up"
+              ],
+              "labels": [
+                "Clarify, Days 1–3",
+                "Audit, Days 4–7",
+                "Define, Days 8–11",
+                "Build, Days 12–16",
+                "Shop, Days 17–20",
+                "Organize, Days 21–24",
+                "Maintain, Days 25–27",
+                "Review, Days 28–30"
+              ],
+              "minimum": null,
+              "spec_id": "D001",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D001.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Copy the phase table",
+              "minutes": null
+            },
+            {
+              "text": "Mark today as Day 1",
+              "minutes": null
+            },
+            {
+              "text": "Do not skip the care chapter",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Treating each chapter as a new five-day challenge.",
+          "checklist": [
+            "Copy the phase table",
+            "Mark today as Day 1",
+            "Do not skip the care chapter"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "map-the-real-week",
+          "title": "Map the week you actually dress for",
+          "day_label": "Day 2",
+          "hero": {
+            "query": "A well-organized closet featuring soft knits and breathable fabrics, illuminated by natural light, showcasing a cozy and practical aesthetic.",
+            "flux_prompt": "A shot of a closet filled with cozy knits and practical clothing options, emphasizing a streamlined look and harmonious colors.",
+            "alt": "A list: commute, desk, errands, heat, no laundry room.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\003-pexels.jpg",
+            "credit": "Photo by https://kaboompics.com/ on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5706274"
+          },
+          "scenario": "Long commute: work clothes need walkable shoes and a bag, not a load-bearing-wall story.",
+          "principle": "Context that changes clothes: work, home, weather, laundry access, time, footwear.",
+          "body": [
+            "Today's output: a week grid — days, main contexts, time to get dressed, whether you have a dryer, shared closet, or outdoor exposure.",
+            "Skip body-shape homework. Skip apartment structure trivia. Religious, cultural, workplace, and modesty needs belong on this page if they affect what you can wear."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "List weekly contexts",
+              "minutes": null
+            },
+            {
+              "text": "Note laundry and storage limits",
+              "minutes": null
+            },
+            {
+              "text": "Note footwear needs",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Writing '1BHK with a load-bearing wall' on a lifestyle map.",
+          "checklist": [
+            "List weekly contexts",
+            "Note laundry and storage limits",
+            "Note footwear needs"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "north-star-not-a-count",
+          "title": "A North Star is a sentence, not a 30-piece law",
+          "day_label": "Day 3",
+          "hero": {
+            "query": "A neatly organized closet with a clear color palette, showcasing a variety of clothing options, well-lit with natural light.",
+            "flux_prompt": "A shot of a closet with clearly defined color guardrails and quantity limits, emphasizing a cohesive wardrobe.",
+            "alt": "A sticky note: clothes I can sit, walk, and wash.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\004-pexels.jpg",
+            "credit": "Photo by Ali Babajahdi on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:26601192"
+          },
+          "scenario": "Shared wardrobe: two people sharing a rail cannot both run a numbered capsule.",
+          "principle": "A capsule is a working group. It is not a complete wardrobe and not a required item count.",
+          "body": [
+            "Today's output: one Style North Star sentence plus guardrails — budget in USD, time, care you will actually do, and categories that stay outside the working group (uniforms, sports, sleep, occasion, cultural, memory).",
+            "Do not force a quantity cap on every category. Occasionwear and work uniforms have different jobs than everyday tops."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Write the North Star",
+              "minutes": null
+            },
+            {
+              "text": "List categories that stay outside it",
+              "minutes": null
+            },
+            {
+              "text": "Set a USD monthly ceiling if you shop",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Throwing out sleepwear to hit a capsule number.",
+          "checklist": [
+            "Write the North Star",
+            "List categories that stay outside it",
+            "Set a USD monthly ceiling if you shop"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "audit-the-closet",
+      "title": "Days 4–7: Audit without a universal purge",
+      "intro": "Keep, tailor, test, exit, and memory are different piles. A high style score does not override pain, damage, or care you cannot do.",
+      "opener": {
+        "query": "color palette, closet organization, fabric swatches, neutral colors, accent colors, daylight testing, Indian apartment styling",
+        "flux_prompt": "full-bleed shot of a neatly organized closet with color-coded clothing, fabric swatches, and a moodboard",
+        "alt": "Four labeled piles on a bed: keep, repair, test, exit.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\005-pexels.jpg",
+        "credit": "Photo by https://kaboompics.com/ on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:4968690"
+      },
+      "sections": [
+        {
+          "slug": "set-the-stage",
+          "title": "Empty only what you can finish today",
+          "day_label": "Day 4",
+          "hero": {
+            "query": "moodboard with fashion inspirations, neutral colors, textures, casual and formal outfits, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "full-bleed shot of a curated moodboard with various outfit inspirations, textures, and colors",
+            "alt": "One rail emptied onto a bed, the rest still hanging.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\006-pexels.jpg",
+            "credit": "Photo by Yuliya Duzhaya on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:37471992"
+          },
+          "scenario": "Limited time: a full-closet dump at 10 p.m. left clothes on the floor overnight.",
+          "principle": "Work in sections. Do not create a laundry-and-mold problem.",
+          "body": [
+            "Today's output: one zone emptied, photographed, and sorted far enough that nothing damp sits in a pile.",
+            "Have bags for exit, a repair box, and a memory box. Do not wash a whole closet in one night if you cannot dry it."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Pick one zone",
+              "minutes": null
+            },
+            {
+              "text": "Photograph before",
+              "minutes": null
+            },
+            {
+              "text": "Stop before damp piles",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Pulling everything and closing the door on damp heaps.",
+          "checklist": [
+            "Pick one zone",
+            "Photograph before",
+            "Stop before damp piles"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "four-piles",
+          "title": "Keep, tailor, test, exit",
+          "day_label": "Day 5",
+          "hero": {
+            "query": "a stylish outfit display featuring Minimal Modern and Soft Classic elements, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "an elegant arrangement of clothing items representing Minimal Modern and Soft Classic styles, with textures and colors highlighted",
+            "alt": "A shirt in Test with a note: wear twice this week.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\007-pexels.jpg",
+            "credit": "Photo by Connor Scott McManus on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:15119008"
+          },
+          "scenario": "Size fluctuation: a useful trouser is tight this month and still worth a Test pile, not an instant Exit.",
+          "principle": "Test is allowed. Immediate perfection is not required.",
+          "body": [
+            "Today's output: each handled item — garments and footwear — in Keep, Tailor, Test, Exit, or Memory. Memory is not a failure.",
+            "Use the Fit Fabric Function Score on Day 6 for borderline pieces. Do not keep items that hurt, smell of mold, or cannot be cleaned by any method you can access.",
+            "For every pair of shoes, record: primary use; comfort walking or standing; weather suitability; sole and fastener condition; drying and cleaning needs; whether it can be repaired; whether it actually works with outfits you wear. Footwear uses the same piles as clothes."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Footwear fields in the same audit",
+              "caption": "Shoes are not a side category. Same Keep / Tailor / Test / Exit / Memory piles.",
+              "values": [
+                "Work, commute, home, occasion",
+                "Walk and stand in them",
+                "Rain, heat, indoor only",
+                "Soles, grip, straps, zips",
+                "From the maker, not a generic wipe",
+                "Yes / no / unknown",
+                "Name two real outfits or none"
+              ],
+              "labels": [
+                "Primary use",
+                "Walking or standing comfort",
+                "Weather suitability",
+                "Soles and fasteners",
+                "Dry and clean requirements",
+                "Repairable",
+                "Works with actual outfits"
+              ],
+              "minimum": null,
+              "spec_id": "D020",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D020.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Sort one zone fully, including shoes",
+              "minutes": null
+            },
+            {
+              "text": "Date the Test pile",
+              "minutes": null
+            },
+            {
+              "text": "Isolate anything damp or moldy",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Calling every maybe a Keep because it was expensive.",
+          "checklist": [
+            "Sort one zone fully, including shoes",
+            "Date the Test pile",
+            "Isolate anything damp or moldy"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "fff-score-is-an-aid",
+          "title": "Fit Fabric Function is a 1–5 aid, not a verdict",
+          "day_label": "Day 6",
+          "hero": {
+            "query": "a neatly organized rule sheet with style guidelines, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "a close-up of a rule sheet with clear do's and don'ts written out, styled with fashion accessories",
+            "alt": "A score card with five rows, discomfort circled as a veto.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\008-pexels.jpg",
+            "credit": "Photo by DS stories on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8099582"
+          },
+          "scenario": "Sensory sensitivity: a 'perfect' silhouette scored high and still itched all day.",
+          "principle": "Equal weight 1–5. A veto beats a high total.",
+          "body": [
+            "Today's output: score only borderline items. Five criteria, equal weight, each 1 to 5. 1 means unusable for that criterion. 5 means it works for your real week without extra effort. There is no minimum total that forces Keep. Add the five numbers if you want a snapshot. The snapshot is a personal decision aid, not an objective measure of quality or attractiveness.",
+            "If an item scores well overall but causes discomfort, pain, instability, or a care method you cannot do, that is a veto. Put it in Tailor, Test, or Exit. A serious comfort, safety, or care problem remains a veto even when the overall score is high.",
+            "Suggested use, not a law: totals that still have a veto never Keep; mixed scores with no veto go to Test; high totals with no veto may Keep if you will actually wear them."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "How to score 1 versus 5",
+              "caption": "Equal weight. No threshold overrides a veto. Not a lab grade.",
+              "values": [
+                "Unwearable vs all-day comfort",
+                "Impossible care vs label you follow",
+                "Fails the day vs does the job",
+                "You will not wear vs you reach for it",
+                "One forced look vs several equations",
+                "Add them if useful; equal weight",
+                "None that beats a veto",
+                "Tailor, Test, or Exit anyway"
+              ],
+              "labels": [
+                "Fit and comfort",
+                "Fabric and care",
+                "Function for the day",
+                "Style alignment",
+                "Versatility",
+                "Weighting",
+                "Minimum Keep total",
+                "High score plus discomfort"
+              ],
+              "minimum": null,
+              "spec_id": "D003",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D003.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Write the five criteria",
+              "minutes": null
+            },
+            {
+              "text": "Mark vetoes",
+              "minutes": null
+            },
+            {
+              "text": "Place items by total plus veto",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Keeping a shoe that blisters because versatility was a five.",
+          "checklist": [
+            "Write the five criteria",
+            "Mark vetoes",
+            "Place items by total plus veto"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "exit-and-memory",
+          "title": "Exit with a tree. Memory with a date",
+          "day_label": "Day 7",
+          "hero": {
+            "query": "a stylish display of five complete outfits laid out for review, magazine styling, photorealistic, no people, no text, no watermark",
+            "flux_prompt": "a flat lay of five outfits representing different scenarios, with accessories and shoes included",
+            "alt": "A clean donation bag, a sealed isolate bag, a small memory box.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\009-pexels.jpg",
+            "credit": "Photo by Ron Lach on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:10120281"
+          },
+          "scenario": "Emotionally significant: a parent's jacket is not a clutter failure.",
+          "principle": "Recycling is not available everywhere. Check local options.",
+          "body": [
+            "Today's output: each Exit item routed. Good condition and clean: donate, resell, or gift. Needs minor repair: repair before release. Damaged but usable as textile: local recycling or repurpose if those exist. Wet, moldy, contaminated, or pest-affected: isolate; clean or dispose using appropriate local guidance — do not donate. Memory: photograph, limited physical keep, review date.",
+            "Do not dump contaminated textiles on a charity. Do not force a same-day decision on every sentimental piece. If you use a textile collection or recycling drop-off, verify that service actually accepts this material — fiber mix, shoes, and wet or moldy items are often refused. A city without that service is normal; then dispose of unusable items using ordinary household rules, not a pretend recycle."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Exit decision tree",
+              "caption": "Confirm the drop-off accepts this material. Recycling is not everywhere.",
+              "values": [
+                "Donate, resell, or gift",
+                "Repair first",
+                "If a local option exists",
+                "Isolate; do not donate",
+                "Photo, limit, review date"
+              ],
+              "labels": [
+                "Clean and wearable",
+                "Minor repair",
+                "Textile only",
+                "Wet, mold, pests, contamination",
+                "Sentimental"
+              ],
+              "minimum": null,
+              "spec_id": "D004",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D004.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Route the Exit pile",
+              "minutes": null
+            },
+            {
+              "text": "Isolate unsafe items",
+              "minutes": null
+            },
+            {
+              "text": "Date the memory box",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Bagging moldy clothes for a donation drive.",
+          "checklist": [
+            "Route the Exit pile",
+            "Isolate unsafe items",
+            "Date the memory box"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "define-without-a-body-law",
+      "title": "Days 8–11: Define what you like, without a vein test as law",
+      "intro": "Undertone checks are optional experiments. Fit is sit, walk, reach, and your actual day. You may skip body-shape labels.",
+      "opener": {
+        "query": "palette board, fabric swatches, color organization",
+        "flux_prompt": "image of a colorful palette board with fabric swatches and organized sections, natural light",
+        "alt": "Clothes held near a window, not a wrist-vein diagram.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\010-pexels.jpg",
+        "credit": "Photo by cottonbro studio on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:6583373"
+      },
+      "sections": [
+        {
+          "slug": "moodboard-from-worn-clothes",
+          "title": "Build a board from clothes you already wear",
+          "day_label": "Day 8",
+          "hero": {
+            "query": "daylight testing, color swatches, wardrobe organization",
+            "flux_prompt": "photo of daylight testing with fabric swatches and a white sheet, no people",
+            "alt": "Three favorite outfits photographed, not a celebrity collage only.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\011-pexels.jpg",
+            "credit": "Photo by George Milton on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6953998"
+          },
+          "scenario": "Workplace dress code: the board includes modest layers that already work at work.",
+          "principle": "Patterns you use beat archetypes you were assigned.",
+          "body": [
+            "Today's output: a filtered moodboard from real outfits plus a few references. Archetype names are optional. Skip them if they feel like a costume."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Photo three real outfits",
+              "minutes": null
+            },
+            {
+              "text": "Add only useful references",
+              "minutes": null
+            },
+            {
+              "text": "Skip archetype if it does not help",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Building a board that ignores the commute and the dress code.",
+          "checklist": [
+            "Photo three real outfits",
+            "Add only useful references",
+            "Skip archetype if it does not help"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "undertone-is-optional",
+          "title": "Undertone is a test you can skip",
+          "day_label": "Day 9",
+          "hero": {
+            "query": "neutral colors, wardrobe essentials, fabric swatches",
+            "flux_prompt": "image of neatly arranged core neutral clothing items in a wardrobe, natural light",
+            "alt": "The same navy top photographed in window light and lamp light.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\012-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6583362"
+          },
+          "scenario": "Personal preference: a 'cool' test disagreed with the colors already worn weekly.",
+          "principle": "Vein and white-sheet tests are not objective facts.",
+          "body": [
+            "Today's output: either skip undertone, or run it as an experiment — then still test colors near your face in natural and indoor light and write what you like.",
+            "Undertone tests are only starting points. They do not determine what you should wear. Contrast, lighting, fabric, context, and culture matter. Choosing colors that you like and already wear is a valid route: start with frequent colors, compare warmer and cooler versions of the same color, test against the existing closet, prioritize comfort and context.",
+            "Do not use 'clash with your identified undertone' as a rule."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Color without a mandatory undertone",
+              "caption": "Preference and use beat a wrist test.",
+              "values": [
+                "Allowed",
+                "Starting point only",
+                "Near the face, two lights",
+                "Against clothes you own"
+              ],
+              "labels": [
+                "Skip undertone",
+                "Vein or sheet test",
+                "Wear test",
+                "Existing wardrobe"
+              ],
+              "minimum": null,
+              "spec_id": "D005",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D005.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Choose skip or experiment",
+              "minutes": null
+            },
+            {
+              "text": "Test in two lightings",
+              "minutes": null
+            },
+            {
+              "text": "Record liked combinations",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Throwing out a favorite color because a vein looked green.",
+          "checklist": [
+            "Choose skip or experiment",
+            "Test in two lightings",
+            "Record liked combinations"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "palette-from-use",
+          "title": "A palette is what you already combine",
+          "day_label": "Day 10",
+          "hero": {
+            "query": "mid tones, accent colors, wardrobe styling",
+            "flux_prompt": "image of a vibrant outfit featuring mid tones and accents, styled on a hanger",
+            "alt": "A small board of neutrals pulled from the Keep pile.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\013-pexels.jpg",
+            "credit": "Photo by Anna Shvets on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6593777"
+          },
+          "scenario": "Dusty commute: mid navy shows less dust than a pale cream you never keep clean.",
+          "principle": "Core colors come from use and cleaning reality, not a seasonal trend pack.",
+          "body": [
+            "Today's output: three to six colors you already wear, plus one accent you will actually maintain. No universal mix for every climate."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "List colors you already wear",
+              "minutes": null
+            },
+            {
+              "text": "Note which show dirt or fade",
+              "minutes": null
+            },
+            {
+              "text": "Add one accent at most",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Buying a full new palette before wearing the Keep pile.",
+          "checklist": [
+            "List colors you already wear",
+            "Note which show dirt or fade",
+            "Add one accent at most"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "fit-is-function",
+          "title": "Fit is movement and comfort, not a flattering law",
+          "day_label": "Day 11",
+          "hero": {
+            "query": "prints, metal accessories, wardrobe organization",
+            "flux_prompt": "image of a collection of printed fabrics and silver accessories, styled on a flat surface",
+            "alt": "Sitting, reaching, and walking in the same outfit, notes on pressure points.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\014-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:7534288"
+          },
+          "scenario": "Seated workday: a waistband that looks 'sharp' and cuts in after an hour.",
+          "principle": "No silhouette is universally more flattering.",
+          "body": [
+            "Today's output: a fit checklist used on Keep and Test items — sit, walk, reach, bend; works for the actual day; pressure, irritation, restriction; care you can do; works with your shoes and underlayers. Note mobility needs, sensory issues, size changes, adaptive dressing, cultural or modest dress, medical footwear.",
+            "You do not have to name a body shape. Footwear for standing, commuting, or medical comfort is part of fit."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Function-and-comfort fit checks",
+              "caption": "Skip body-shape labels if they do not help.",
+              "values": [
+                "Yes / no",
+                "Yes / no",
+                "Yes / no",
+                "Yes / no",
+                "Yes / no"
+              ],
+              "labels": [
+                "Sit, walk, reach, bend",
+                "Matches the actual day",
+                "No painful pressure",
+                "Care is realistic",
+                "Works with shoes and layers"
+              ],
+              "minimum": null,
+              "spec_id": "D009",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D009.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Run the movement checklist",
+              "minutes": null
+            },
+            {
+              "text": "Note shoe pairing",
+              "minutes": null
+            },
+            {
+              "text": "Move painful items to Exit or Tailor",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Calling a cut universally flattering.",
+          "checklist": [
+            "Run the movement checklist",
+            "Note shoe pairing",
+            "Move painful items to Exit or Tailor"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "build-formulas",
+      "title": "Days 12–16: Formulas you can dress in, not a magic count",
+      "intro": "Outfit equations are shortcuts. They must include shoes and a care path. A dashboard connects inventory, wears, and next actions.",
+      "opener": {
+        "query": "An organized Fit Profile document displayed on a desk, with measurements and notes clearly visible, illuminated by soft, natural light.",
+        "flux_prompt": "A close-up of a Fit Profile with neatly recorded measurements and brand notes, emphasizing the importance of preparation for effective shopping.",
+        "alt": "Index cards: trousers plus knit plus jacket plus walkable shoe.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\015-pexels.jpg",
+        "credit": "Photo by Ron Lach on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:8085955"
+      },
+      "sections": [
+        {
+          "slug": "outfit-equations",
+          "title": "Write equations for the week you mapped",
+          "day_label": "Day 12",
+          "hero": {
+            "query": "A well-curated wardrobe with a focus on proportions and fit, showcasing various outfits in a compact Indian apartment setting, with natural light streaming through a single window, highlighting textures like linen and plaster.",
+            "flux_prompt": "A full-bleed shot of a stylishly arranged wardrobe featuring a mix of tops and bottoms, emphasizing the importance of silhouette and fit in a compact space.",
+            "alt": "Three formula cards pinned inside the closet door.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\016-pexels.jpg",
+            "credit": "Photo by Anisha Deb on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:36195703"
+          },
+          "scenario": "Frequent outdoor exposure: a formula that dies in light rain is incomplete.",
+          "principle": "Each formula needs a shoe and a weather note.",
+          "body": [
+            "Today's output: three outfit equations for your main contexts. Example shape only: bottom + top + layer + shoe. Fill with real Keep items."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Write three equations",
+              "minutes": null
+            },
+            {
+              "text": "Name the shoe",
+              "minutes": null
+            },
+            {
+              "text": "Name the weather limit",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Writing formulas with no shoes and no commute.",
+          "checklist": [
+            "Write three equations",
+            "Name the shoe",
+            "Name the weather limit"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "micro-capsules-not-counts",
+          "title": "A micro capsule is a subset, not a quota",
+          "day_label": "Day 13",
+          "hero": {
+            "query": "A close-up of a neatly organized wardrobe section, highlighting different fabric textures and colors, with natural light enhancing the visual appeal.",
+            "flux_prompt": "A beautifully styled shot of a wardrobe corner featuring a mix of structured and fluid garments, emphasizing the importance of fabric choice in silhouette creation.",
+            "alt": "A small stack for 'office days' beside a larger Keep rail.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\017-pexels.jpg",
+            "credit": "Photo by Shannon Deans on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:11435420"
+          },
+          "scenario": "Shared bedroom: the office subset lives on the reachable rail.",
+          "principle": "Do not apply one number to sportswear, uniforms, and everyday clothes.",
+          "body": [
+            "Today's output: one micro capsule for your busiest context, pulled from Keep. Remaining Keep stays in the complete wardrobe."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Pull one context subset",
+              "minutes": null
+            },
+            {
+              "text": "Leave other categories intact",
+              "minutes": null
+            },
+            {
+              "text": "Check you can make five real outfits",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Culling the complete wardrobe to match a blog count.",
+          "checklist": [
+            "Pull one context subset",
+            "Leave other categories intact",
+            "Check you can make five real outfits"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "rotation-is-a-test",
+          "title": "A 30-day rotation is a test of the equations",
+          "day_label": "Day 14",
+          "hero": {
+            "query": "An organized layout of a Fit Map, showcasing different fit preferences for various clothing categories, with natural light illuminating the space.",
+            "flux_prompt": "A stylishly arranged flat lay of clothing items categorized by fit preferences, emphasizing the importance of mapping for a cohesive wardrobe.",
+            "alt": "A simple calendar with outfit letters, not a rigid uniform.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\018-pexels.jpg",
+            "credit": "Photo by Sheldon Li on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:18150832"
+          },
+          "scenario": "Limited time: repeating two equations is allowed.",
+          "principle": "If a day fails, fix the formula, not your body.",
+          "body": [
+            "Today's output: a 30-day test calendar using the equations. Swap when laundry or weather requires it. This is not a moral streak."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Draft the 30-day test",
+              "minutes": null
+            },
+            {
+              "text": "Leave swap room for laundry",
+              "minutes": null
+            },
+            {
+              "text": "Note failures without self-blame",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Throwing out a formula because one humid day felt bad.",
+          "checklist": [
+            "Draft the 30-day test",
+            "Leave swap room for laundry",
+            "Note failures without self-blame"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "master-dashboard",
+          "title": "Master wardrobe dashboard template",
+          "day_label": "Day 15",
+          "hero": {
+            "query": "A visually appealing Silhouette Grid displayed on a wall or board, with various outfit combinations highlighted, bathed in soft, natural light.",
+            "flux_prompt": "An artistic shot of a Silhouette Grid filled with outfit pairings, showcasing the versatility of different clothing items in a compact apartment setting.",
+            "alt": "A named dashboard template with Item, Decision, Care, and Next action columns.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\019-pexels.jpg",
+            "credit": "Photo by Jan van der Wolf on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:32129262"
+          },
+          "scenario": "Wear logging: a Bengaluru example used to mention a load-bearing wall — the useful fact is no dryer and a shared rail.",
+          "principle": "One template connects the audit, equations, gap list, care, and the Day 28 review.",
+          "body": [
+            "Today's output: a filled Master wardrobe dashboard template. Copy the fields below into a notebook or sheet. One row per garment or pair of shoes. Bring forward Day 5 decisions, Day 12 equations, Day 17 gaps, Day 25–27 care, and take the sheet to Day 28.",
+            "Completed example: Item — navy walking shoe. Category — footwear. Decision — Keep. Main use — commute. Care — wipe and dry per the maker; not a leather cream. Wear frequency — frequently. Repair required — No. Outfit combinations — chino equation and rain-layer equation. Next action — air after the commute, then wear.",
+            "Do not start a second list. If an item has no next action, it is not on the dashboard yet."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Master wardrobe dashboard template",
+              "caption": "One row per garment or pair of shoes. Fill every field.",
+              "values": [
+                "Garment or footwear name",
+                "Top, bottom, layer, footwear",
+                "Keep, Tailor, Test, Exit, Memory",
+                "Work, casual, occasion, travel",
+                "Wash, hand wash, dry clean, specialist",
+                "Frequently, occasionally, rarely",
+                "Yes / No",
+                "Existing combinations"
+              ],
+              "labels": [
+                "Item",
+                "Category",
+                "Decision",
+                "Main use",
+                "Care requirement",
+                "Wear frequency",
+                "Repair required",
+                "Outfit combinations"
+              ],
+              "minimum": null,
+              "spec_id": "D011",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D011.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Dashboard next action and example",
+              "caption": "Next action is required. The example is a shoe so footwear stays in the same system.",
+              "values": [
+                "Wear, repair, wash, review, or release",
+                "Navy walking shoe",
+                "Keep",
+                "Commute",
+                "Wipe and dry per maker",
+                "Frequently",
+                "No",
+                "Air, then wear"
+              ],
+              "labels": [
+                "Next action",
+                "Example item",
+                "Example decision",
+                "Example main use",
+                "Example care",
+                "Example frequency",
+                "Example repair",
+                "Example next action"
+              ],
+              "minimum": null,
+              "spec_id": "D016",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D016.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Copy the dashboard fields",
+              "minutes": null
+            },
+            {
+              "text": "Enter clothes and shoes from the audit",
+              "minutes": null
+            },
+            {
+              "text": "Fill next action on every row",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Starting a new notebook for every chapter.",
+          "checklist": [
+            "Copy the dashboard fields",
+            "Enter clothes and shoes from the audit",
+            "Fill next action on every row"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "memory-category",
+          "title": "Sentimental clothes get a process, not a scolding",
+          "day_label": "Day 16",
+          "hero": {
+            "query": "A well-lit Try On Lab setup featuring a mirror, clothing items, and a phone at hip height for taking photos, showcasing the testing process.",
+            "flux_prompt": "A dynamic shot of a Try On Lab in action, with various outfits laid out and a mirror reflecting the testing process, emphasizing the importance of comfort and proportion.",
+            "alt": "A small labeled box with a review date, not a hidden guilt pile.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\020-pexels.jpg",
+            "credit": "Photo by Ron Lach on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8388298"
+          },
+          "scenario": "Emotionally significant: one jacket photographed and kept, extras released later.",
+          "principle": "A kept memory item is not an organizing failure.",
+          "body": [
+            "Today's output: memory process — separate category, photograph, decide if it must stay physical, set a review date, limit the count if space is tight."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Photograph memory pieces",
+              "minutes": null
+            },
+            {
+              "text": "Set a review date",
+              "minutes": null
+            },
+            {
+              "text": "Limit the physical stack if needed",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Calling every keep of a gift a failure.",
+          "checklist": [
+            "Photograph memory pieces",
+            "Set a review date",
+            "Limit the physical stack if needed"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "shop-with-brakes",
+      "title": "Days 17–20: Shop the gap, not the feed",
+      "intro": "Buy to a list. Wait unless it is a true replacement. One In, One Out is conditional. Returns and care cost are part of the price.",
+      "opener": {
+        "query": "A well-organized closet with neatly arranged clothes, showcasing a variety of outfits, natural light streaming through a window, minimalist decor, and a touch of greenery.",
+        "flux_prompt": "full-bleed shot of a stylish, organized closet with a variety of clothing and accessories, natural light, and a clean aesthetic",
+        "alt": "A gap list with three lines, a wait date in the margin.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\021-pexels.jpg",
+        "credit": "Photo by Ron Lach on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:8386655"
+      },
+      "sections": [
+        {
+          "slug": "gap-list-only",
+          "title": "A gap is a missing function, not a mood",
+          "day_label": "Day 17",
+          "hero": {
+            "query": "Photograph of a stylishly arranged outfit equation board with visual examples of Core, Elevated, and Off Duty outfits, natural light highlighting the textures.",
+            "flux_prompt": "A visually appealing display of outfit equations, showcasing a mix of clothing items organized by tier, with a focus on color and texture.",
+            "alt": "A list: walkable work shoe, not 'new aesthetic.'",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\022-pexels.jpg",
+            "credit": "Photo by Andrea Piacquadio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:3769714"
+          },
+          "scenario": "Genuine replacement: the only rain shoe failed. That is a gap.",
+          "principle": "If two existing outfits cannot use it, it is probably not a gap.",
+          "body": [
+            "Today's output: a gap list tied to equations. Each line names the function, the climate, and the care you can do."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Write function-based gaps",
+              "minutes": null
+            },
+            {
+              "text": "Check against equations",
+              "minutes": null
+            },
+            {
+              "text": "Delete duplicates",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Listing a fourth black sweater as a gap.",
+          "checklist": [
+            "Write function-based gaps",
+            "Check against equations",
+            "Delete duplicates"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "budget-in-usd",
+          "title": "Budget bands and cost per wear in USD",
+          "day_label": "Day 18",
+          "hero": {
+            "query": "Photograph of a neatly organized micro capsule wardrobe, highlighting versatile pieces in a small space with natural light.",
+            "flux_prompt": "A well-arranged micro capsule featuring a selection of tops, bottoms, and shoes, emphasizing versatility and cohesion.",
+            "alt": "A simple band: replacement, useful upgrade, skip.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\023-pexels.jpg",
+            "credit": "Photo by Saad Bin  Hasan on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:37184325"
+          },
+          "scenario": "Limited budget: cost per wear is a comparison, not a duty to wear a painful shoe more often.",
+          "principle": "Prices in this book are USD illustrations. Local prices vary.",
+          "body": [
+            "Today's output: a monthly USD ceiling and a cost-per-wear note on any planned buy. Include alteration, shipping, and care products if you will need them."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Set a USD ceiling",
+              "minutes": null
+            },
+            {
+              "text": "Add hidden costs",
+              "minutes": null
+            },
+            {
+              "text": "Skip CPW on veto items",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Ignoring alteration cost because the tag looked cheap.",
+          "checklist": [
+            "Set a USD ceiling",
+            "Add hidden costs",
+            "Skip CPW on veto items"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "purchase-risk-and-wait",
+          "title": "Purchase risk and a wait, unless it is a necessity",
+          "day_label": "Day 19",
+          "hero": {
+            "query": "Photograph of a stylish calendar with a 30-day outfit rotation plan, emphasizing organization and planning in a compact apartment setting.",
+            "flux_prompt": "A visually engaging calendar layout showcasing a 30-day outfit rotation, with color-coded outfits for each day.",
+            "alt": "A product page with return window highlighted, two sizes not in the cart yet.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\024-pexels.jpg",
+            "credit": "Photo by RDNE Stock project on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8581118"
+          },
+          "scenario": "Final-sale online buy: no returns, wrong size.",
+          "principle": "Ordering two sizes is only reasonable if returns are allowed and you can handle cost and extra shipping.",
+          "body": [
+            "Today's output: a purchase checklist — return and exchange deadlines; final sale; alteration cost and whether altered items can be returned; shipping and duties; fabric vs photos; measurement charts vs size labels; works with two or three existing outfits; you can care for it.",
+            "Wait: about 24 hours for low-cost nonessentials; about 7 days for expensive items; longer if it is trend-led, hard to care for, or a duplicate. Do not apply the wait rigidly to time-sensitive necessities or true replacements."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Do not buy yet — checks",
+              "caption": "Necessities can skip the wait. Final sale cannot skip the tape measure.",
+              "values": [
+                "Write the date",
+                "Stop if no returns needed",
+                "Add to the price",
+                "Charts over a letter size",
+                "At least two outfits",
+                "Label you will follow"
+              ],
+              "labels": [
+                "Return window",
+                "Final sale",
+                "Alterations and shipping",
+                "Measurements",
+                "Works with what you own",
+                "Care you can do"
+              ],
+              "minimum": null,
+              "spec_id": "D010",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D010.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Waiting periods",
+              "caption": "Not for genuine replacements or urgent necessities.",
+              "values": [
+                "Low-cost nonessential",
+                "Expensive purchase",
+                "Trend, hard care, or duplicate",
+                "Skip the wait"
+              ],
+              "labels": [
+                "About 24 hours",
+                "About 7 days",
+                "Longer on purpose",
+                "True replacement or necessity"
+              ],
+              "minimum": null,
+              "spec_id": "D012",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D012.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Run the risk checklist",
+              "minutes": null
+            },
+            {
+              "text": "Set a wait if it is not a necessity",
+              "minutes": null
+            },
+            {
+              "text": "Skip two-size orders if returns are blocked",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Overnight checkout on a no-returns dress.",
+          "checklist": [
+            "Run the risk checklist",
+            "Set a wait if it is not a necessity",
+            "Skip two-size orders if returns are blocked"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "one-in-conditional",
+          "title": "One In, One Out is a capacity tool, not a morality rule",
+          "day_label": "Day 20",
+          "hero": {
+            "query": "Photograph of a stylish outfit laid out for a rainy day, featuring weather-appropriate clothing and accessories, with natural light highlighting the textures.",
+            "flux_prompt": "A well-styled outfit for unexpected weather, showcasing a mix of layers and accessories suitable for rain.",
+            "alt": "A rail with a category limit marked, not a forced swap of unlike items.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\025-pexels.jpg",
+            "credit": "Photo by Erik Mclean on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:16094266"
+          },
+          "scenario": "Building from almost nothing: a new commute coat does not require discarding the only sweater.",
+          "principle": "Replace, release, or retain by function, condition, space, and use.",
+          "body": [
+            "Today's output: pick a rule that fits — One In, One Out only when capacity or a category limit requires it; or one in, one reviewed; or category capacity; or replacement-only; or seasonal rotation limit.",
+            "Do not remove a useful item merely to satisfy a numerical rule. Do not swap a winter coat for a party shoe to 'keep the count.'"
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Capacity rules, not one law",
+              "caption": "Space and function decide. A count does not.",
+              "values": [
+                "Only if the rail is full",
+                "Keep unless the review says exit",
+                "A max per category",
+                "Worn-out items only",
+                "Off-season stored, not purged"
+              ],
+              "labels": [
+                "One in, one out",
+                "One in, one reviewed",
+                "Category limit",
+                "Replacement only",
+                "Seasonal rotation"
+              ],
+              "minimum": null,
+              "spec_id": "D008",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D008.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Choose a capacity rule",
+              "minutes": null
+            },
+            {
+              "text": "Write exceptions for gaps and replacements",
+              "minutes": null
+            },
+            {
+              "text": "Update the dashboard",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Discarding a working raincoat to 'let in' a similar color in a different season.",
+          "checklist": [
+            "Choose a capacity rule",
+            "Write exceptions for gaps and replacements",
+            "Update the dashboard"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "organize-the-closet",
+      "title": "Days 21–24: Put frequent clothes where you can reach them",
+      "intro": "Merchandising is access. Frequent items at easy reach. Shared closets need agreed zones. Apartment structure only matters if it blocks a rail or a door.",
+      "opener": {
+        "query": "A well-organized closet with clear zones, uniform hangers, and good lighting, showcasing a variety of clothing and accessories in a compact Indian apartment.",
+        "flux_prompt": "A full-bleed shot of a neatly organized closet with labeled sections, uniform hangers, and well-lit spaces, emphasizing the visibility-first merchandising method.",
+        "alt": "A reachable rail of weekly clothes, off-season boxed and labeled.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\026-pexels.jpg",
+        "credit": "Photo by Huy Quang Nguyễn on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:6670657"
+      },
+      "sections": [
+        {
+          "slug": "zones-by-frequency",
+          "title": "Zone by how often you dress, not by rainbow theory alone",
+          "day_label": "Day 21",
+          "hero": {
+            "query": "A close-up of a neatly organized gap list on a stylish desk, with a laptop, a cup of coffee, and a notepad, natural light illuminating the workspace.",
+            "flux_prompt": "a clean, stylish workspace with a focus on a gap list, natural light, and minimalistic decor",
+            "alt": "Everyday rail at hand height, rare pieces higher or boxed.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\027-pexels.jpg",
+            "credit": "Photo by Sora Shimazaki on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5668808"
+          },
+          "scenario": "Limited hanging space: color-order looked pretty and hid the work shirts.",
+          "principle": "Reach beats display.",
+          "body": [
+            "Today's output: zones — daily, weekly, rare, memory, exit-to-leave. Daily at the easiest reach. Do not cover vents or block the door."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Map daily vs rare",
+              "minutes": null
+            },
+            {
+              "text": "Move daily to easy reach",
+              "minutes": null
+            },
+            {
+              "text": "Keep the door and vents clear",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Filing by color so the commute outfit takes ten minutes to find.",
+          "checklist": [
+            "Map daily vs rare",
+            "Move daily to easy reach",
+            "Keep the door and vents clear"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "shared-and-access",
+          "title": "Shared rails and dressing aids",
+          "day_label": "Day 22",
+          "hero": {
+            "query": "A stylish budget planner open on a table, with a calculator, a pen, and a cup of tea, soft natural light illuminating the scene.",
+            "flux_prompt": "a well-styled desk with a budget planner, calculator, and warm lighting",
+            "alt": "Two labeled sections on one rail, a stool that is stable if needed.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\028-pexels.jpg",
+            "credit": "Photo by Leeloo The First on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8962448"
+          },
+          "scenario": "Shared wardrobe: one person cannot use every hanger.",
+          "principle": "Accessibility is part of merchandising.",
+          "body": [
+            "Today's output: if two people share storage, mark whose zone is whose. If reaching is hard, lower the daily rail or use a stable step only if it is safe on that floor. Adaptive hooks or dressing aids belong here if you use them."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Label shared zones",
+              "minutes": null
+            },
+            {
+              "text": "Fix reach for daily clothes",
+              "minutes": null
+            },
+            {
+              "text": "Remove trip stacks",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Stacking boxes in the only reach path.",
+          "checklist": [
+            "Label shared zones",
+            "Fix reach for daily clothes",
+            "Remove trip stacks"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "small-items",
+          "title": "Small items where you can see them",
+          "day_label": "Day 23",
+          "hero": {
+            "query": "A visually appealing wish list on a notepad, surrounded by fabric swatches and a laptop, natural light enhancing the colors.",
+            "flux_prompt": "a stylish workspace with a focus on a wish list, fabric swatches, and a laptop",
+            "alt": "A shallow tray of socks and a hook for bags, not a junk bowl.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\029-pexels.jpg",
+            "credit": "Photo by https://kaboompics.com/ on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:4968616"
+          },
+          "scenario": "No dedicated laundry area: clean socks cannot live in the worn-chair pile.",
+          "principle": "If you cannot see it, you will buy it again.",
+          "body": [
+            "Today's output: one visible home for socks, underwear, belts, and bags. Keep them out of laundry-required piles."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Give small items a tray or hook",
+              "minutes": null
+            },
+            {
+              "text": "Separate clean from worn",
+              "minutes": null
+            },
+            {
+              "text": "Drop duplicates into Exit",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "A chair as the only accessory system.",
+          "checklist": [
+            "Give small items a tray or hook",
+            "Separate clean from worn",
+            "Drop duplicates into Exit"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "weekly-reset",
+          "title": "A short weekly reset",
+          "day_label": "Day 24",
+          "hero": {
+            "query": "A beautifully organized tracking sheet on a laptop, with a stylish pen and a plant nearby, soft natural light illuminating the workspace.",
+            "flux_prompt": "a clean, organized workspace with a focus on a tracking sheet, natural light, and minimalistic decor",
+            "alt": "A ten-minute reset: hang, dashboard ticks, laundry bag out.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\030-pexels.jpg",
+            "credit": "Photo by Jakub Zerdzicki on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:34212963"
+          },
+          "scenario": "Limited time: a two-hour Sunday reset never happens.",
+          "principle": "Reset is hang, log, and move laundry — not a new personality.",
+          "body": [
+            "Today's output: a weekly reset list that fits your real minutes. Include returning worn-once items to air, not to a closed damp closet."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Write a short reset list",
+              "minutes": null
+            },
+            {
+              "text": "Put it on a day you keep",
+              "minutes": null
+            },
+            {
+              "text": "Include the airing step",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Skipping resets until the rail collapses.",
+          "checklist": [
+            "Write a short reset list",
+            "Put it on a day you keep",
+            "Include the airing step"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "care-and-climate",
+      "title": "Days 25–27: Care labels, laundry flow, climate, shoes",
+      "intro": "Care-label-first. Heat and steam are not automatically safe. Cedar is not the same as a pesticide moth product. Store only what is fully dry.",
+      "opener": {
+        "query": "stock photo of a fabric care station with tools like a steamer and lint roller, natural light, soft textures",
+        "flux_prompt": "image of a well-organized fabric care station with tools neatly arranged, emphasizing functionality and ease of access",
+        "alt": "A care label photographed next to a mesh bag, steamer unplugged.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\031-pexels.jpg",
+        "credit": "Photo by Vie Studio on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:4857619"
+      },
+      "sections": [
+        {
+          "slug": "care-label-first",
+          "title": "The care label wins",
+          "day_label": "Day 25",
+          "hero": {
+            "query": "A close-up of a well-organized closet section with color-coded clothing and labeled containers, emphasizing visibility and accessibility.",
+            "flux_prompt": "A detailed shot of a neatly arranged section of a closet, showcasing color order and labeled zones.",
+            "alt": "A dry-clean-only jacket left on the hangar, not in a home wash experiment.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\032-pexels.jpg",
+            "credit": "Photo by Andreas Näslund on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:34955359"
+          },
+          "scenario": "Unknown finish: a coated jacket and a steamer.",
+          "principle": "If the label is missing or fights this book, go gentler or ask a cleaner.",
+          "body": [
+            "Today's output: the care-label-first rule written where you do laundry. Follow the label when it is clear. Dry clean only: do not experiment at home. Unknown fabric or finish: test cautiously or get professional advice. Mold, persistent odor, or pests: isolate and choose an appropriate method. Heat-sensitive: do not assume steam or ironing is safe. Heat can harm coatings, prints, elastics, and glued details. Test an unfamiliar detergent on a hidden seam. Cedar blocks are not the same as moth-repellent pesticides — read those product labels and keep chemicals away from children and pets as directed.",
+            "Never store a garment until it is fully dry. Closed closets plus damp clothes are a mold problem."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Care-label-first decisions",
+              "caption": "This book never outranks the sewn-in label.",
+              "values": [
+                "Follow the label",
+                "Do not home-wash to test",
+                "Gentle test or a cleaner",
+                "Isolate; choose a safe method",
+                "Do not assume steam or iron"
+              ],
+              "labels": [
+                "Label is clear",
+                "Dry clean only",
+                "Unknown fabric or finish",
+                "Mold, odor, pests",
+                "Heat-sensitive material"
+              ],
+              "minimum": null,
+              "spec_id": "D002",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D002.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Post the label-first rule",
+              "minutes": null
+            },
+            {
+              "text": "Sort dry-clean vs wash",
+              "minutes": null
+            },
+            {
+              "text": "Unplug heat tools until the label allows them",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Steaming a glued appliqué because a chapter listed a steamer as a tool.",
+          "checklist": [
+            "Post the label-first rule",
+            "Sort dry-clean vs wash",
+            "Unplug heat tools until the label allows them"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "laundry-flow",
+          "title": "Five homes for clothes, not one chair",
+          "day_label": "Day 26",
+          "hero": {
+            "query": "A clear container filled with neatly organized accessories on a shelf, emphasizing visibility and accessibility.",
+            "flux_prompt": "A close-up of a well-organized accessory display, showcasing clear containers and a valet hook.",
+            "alt": "Hooks: airing, laundry bag, repair tin — closet only for dry clean clothes.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\033-pexels.jpg",
+            "credit": "Photo by Valeria Boltneva on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:27305347"
+          },
+          "scenario": "No dryer and humid weather: a closed closet of damp T-shirts.",
+          "principle": "Wash frequency is not a universal number of wears.",
+          "body": [
+            "Today's output: a Laundry Flow — 1 clean and ready; 2 worn once and OK to air and re-wear; 3 laundry required; 4 repair or stain treatment; 5 seasonal storage. Frequency depends on garment, body contact, activity, climate, odor, and the care label.",
+            "Odor, sweat, or a stain: do not return to the ready rail. Limited drying space: wash smaller loads; use ventilation the lease allows; do not trap damp items. Humid or monsoon conditions: extra dry time before hanging in the closet."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Laundry flow",
+              "caption": "No universal wear-count. The label still wins.",
+              "values": [
+                "In the ready zone",
+                "Air, then decide",
+                "Bag or basket",
+                "Treat, then rejoin a flow",
+                "Only if clean and dry"
+              ],
+              "labels": [
+                "Clean and ready",
+                "Worn once, can re-wear",
+                "Laundry required",
+                "Repair or stain",
+                "Seasonal storage"
+              ],
+              "minimum": null,
+              "spec_id": "D006",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D006.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Create the five homes",
+              "minutes": null
+            },
+            {
+              "text": "Move today's clothes into them",
+              "minutes": null
+            },
+            {
+              "text": "Keep damp items out of the closet",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Hanging a damp commute shirt to 'save a wash.'",
+          "checklist": [
+            "Create the five homes",
+            "Move today's clothes into them",
+            "Keep damp items out of the closet"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "climate-shoes-storage",
+          "title": "Climate, a footwear-care checklist, and storage",
+          "day_label": "Day 27",
+          "hero": {
+            "query": "stock photo of a well-organized closet with seasonal clothing, natural light, wooden hangers, soft textures",
+            "flux_prompt": "full-bleed image of a stylishly organized closet showcasing a variety of garments, neatly arranged and labeled, with a focus on light and texture",
+            "alt": "Shoes drying away from the rail, a labeled breathable bin.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\034-pexels.jpg",
+            "credit": "Photo by Ron Lach on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:9850405"
+          },
+          "scenario": "Rainy-season commute: wet sneakers in a closed wardrobe.",
+          "principle": "No single capsule mix fits every climate.",
+          "body": [
+            "Today's output: climate notes plus a completed footwear-care checklist. Do not use one cleaning method for leather, suede, fabric, and synthetics. Follow the manufacturer for that pair.",
+            "Footwear-care checklist: dry wet shoes before storage; rotate frequently worn pairs so they can air; clean leather, suede, fabric, and synthetic materials each according to that product's instructions; check sole wear, grip, and structural damage; separate pairs that need repair from pairs ready to wear; do not use damaged footwear when it creates a safety or comfort issue.",
+            "Accessories and shoes schedule, adapted to use and the maker: after use — air and remove visible dirt where appropriate; weekly or as needed — inspect frequently used footwear and accessories; monthly — check damage, loose hardware, sole wear, and repair needs; seasonally — review what was stored or exposed to rain, humidity, or dust. Seasonal garment storage remains: clean and fully dry, repair first, breathable storage if appropriate, do not overpack, label, inspect before re-entry."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Climate jobs — pick yours",
+              "caption": "Skip rows that are not your weather.",
+              "values": [
+                "Longer dry time; no sealed damp",
+                "Dedicated wet-weather pair",
+                "Wash or air by odor, not a count",
+                "Colors and fibers that you can keep",
+                "Layers you will actually wear",
+                "Clean, dry, labeled, inspect later"
+              ],
+              "labels": [
+                "Humidity",
+                "Rain",
+                "Sweat and odor",
+                "Dust",
+                "Mild winter",
+                "Long storage"
+              ],
+              "minimum": null,
+              "spec_id": "D007",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D007.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Seasonal storage checklist",
+              "caption": "If you have no seasons, store by unused months instead.",
+              "values": [
+                "Required",
+                "Required",
+                "If it suits the garment",
+                "Air must move",
+                "Category and season",
+                "Before it returns to the rail"
+              ],
+              "labels": [
+                "Clean and fully dry",
+                "Repair first",
+                "Breathable storage",
+                "Do not overpack",
+                "Label",
+                "Inspect on return"
+              ],
+              "minimum": null,
+              "spec_id": "D013",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D013.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Footwear-care checklist",
+              "caption": "Material methods are not interchangeable. The maker's instructions win.",
+              "values": [
+                "Before they go away",
+                "Let frequent pairs air",
+                "Each material, that product's method",
+                "Soles, grip, structure",
+                "Repair pile vs ready pile",
+                "Do not wear them"
+              ],
+              "labels": [
+                "Dry wet shoes",
+                "Rotate frequent pairs",
+                "Leather, suede, fabric, synthetic",
+                "Sole wear and damage",
+                "Repair vs ready",
+                "Unsafe or painful damage"
+              ],
+              "minimum": null,
+              "spec_id": "D014",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D014.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Footwear and accessories schedule",
+              "caption": "Change the frequency to match use. The maker still wins.",
+              "values": [
+                "Air; knock off dirt if appropriate",
+                "Inspect what you actually wore",
+                "Damage, hardware, soles, repairs",
+                "Stored or weather-exposed items"
+              ],
+              "labels": [
+                "After use",
+                "Weekly or as needed",
+                "Monthly",
+                "Seasonally"
+              ],
+              "minimum": null,
+              "spec_id": "D018",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D018.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Dry and rotate shoes",
+              "minutes": null
+            },
+            {
+              "text": "Clean only by that material's instructions",
+              "minutes": null
+            },
+            {
+              "text": "Split repair vs ready pairs",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "One wipe method for suede and patent, then boxing damp shoes.",
+          "checklist": [
+            "Dry and rotate shoes",
+            "Clean only by that material's instructions",
+            "Split repair vs ready pairs"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "review-and-follow-up",
+      "title": "Days 28–30: See if the system works",
+      "intro": "The plan is working if you can dress for the week, care is doable, and buying slowed. Friction is data. A 30-day follow-up happens after Day 30, not instead of it.",
+      "opener": {
+        "query": "A well-organized closet showcasing a curated capsule wardrobe, bright lighting, neutral background, no people.",
+        "flux_prompt": "Full-bleed shot of a neatly organized closet with a capsule wardrobe, featuring a variety of clothing categories such as tops, bottoms, and accessories, styled with natural light.",
+        "alt": "A used dashboard after a real week of dressing.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\035-pexels.jpg",
+        "credit": "Photo by RDNE Stock project on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:8580765"
+      },
+      "sections": [
+        {
+          "slug": "friction-review",
+          "title": "Ask where the system rubs",
+          "day_label": "Day 28",
+          "hero": {
+            "query": "stock photo of a digital wear log on a tablet or laptop, natural light, clean workspace",
+            "flux_prompt": "image of a digital dashboard displaying a well-organized wear log, emphasizing clarity and functionality",
+            "alt": "A list of failed mornings and the missing piece named.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\036-pexels.jpg",
+            "credit": "Photo by Hanna Pad on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:8533362"
+          },
+          "scenario": "Getting-dressed time still high: daily clothes were pretty but not at hand.",
+          "principle": "Fix the bottleneck. Do not restart Day 1 for fun.",
+          "body": [
+            "Today's output: the review questions plus a before-and-after line so you can see whether daily life improved, not only whether exercises were ticked.",
+            "Fill dressing time, items regularly worn, items awaiting repair, unnecessary purchases, and unresolved care problems — before this 30-day pass and after. Use the dashboard as the evidence, not memory alone."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Implementation review",
+              "caption": "A no on dress time is a zone or formula problem, not a new shopping list.",
+              "values": [
+                "Yes / not yet",
+                "Named on the dashboard",
+                "Yes / no",
+                "Yes / no",
+                "Compared to last month",
+                "Written and current",
+                "Minutes, honest",
+                "One sentence"
+              ],
+              "labels": [
+                "Outfits for the week",
+                "Repair or replace list",
+                "Frequent items reachable",
+                "Laundry is manageable",
+                "Fewer extra buys",
+                "Gap list current",
+                "Dress time",
+                "Friction"
+              ],
+              "minimum": null,
+              "spec_id": "D015",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D015.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Before and after this 30-day pass",
+              "caption": "Empty cells mean you have not measured yet. Guessing is optional; the dashboard is better.",
+              "values": [
+                "___ / ___",
+                "___ / ___",
+                "___ / ___",
+                "___ / ___",
+                "___ / ___"
+              ],
+              "labels": [
+                "Average dressing time",
+                "Items regularly worn",
+                "Items awaiting repair",
+                "Unnecessary purchases",
+                "Unresolved care problems"
+              ],
+              "minimum": null,
+              "spec_id": "D021",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\figures\\D021.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Answer the review questions",
+              "minutes": null
+            },
+            {
+              "text": "Fill before and after",
+              "minutes": null
+            },
+            {
+              "text": "Name one friction",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Buying more organizers instead of moving daily clothes forward.",
+          "checklist": [
+            "Answer the review questions",
+            "Fill before and after",
+            "Name one friction"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "adjust-dont-restart",
+          "title": "Adjust the formula, keep the care rule",
+          "day_label": "Day 29",
+          "hero": {
+            "query": "stock photo of a cozy workspace with seasonal clothing laid out for review, natural light, soft textures",
+            "flux_prompt": "image of a workspace with clothing items and notes for a quarterly review, emphasizing organization and planning",
+            "alt": "One equation rewritten, care-label note unchanged.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\037-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5771591"
+          },
+          "scenario": "Seasonal change: mild winter arrived; the rain formula still matters.",
+          "principle": "Do not throw out the label-first rule to chase a new aesthetic.",
+          "body": [
+            "Today's output: at most two adjustments — an equation, a zone, a gap, or a capacity rule. Re-run vetoes on anything new."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Pick two adjustments",
+              "minutes": null
+            },
+            {
+              "text": "Update the dashboard",
+              "minutes": null
+            },
+            {
+              "text": "Leave care-label-first in place",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "A full closet dump because one week felt messy.",
+          "checklist": [
+            "Pick two adjustments",
+            "Update the dashboard",
+            "Leave care-label-first in place"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "follow-up-day",
+          "title": "Schedule the next 30-day check",
+          "day_label": "Day 30",
+          "hero": {
+            "query": "stock photo of a smartphone displaying a lookbook app with outfit photos, natural light, clean background",
+            "flux_prompt": "image of a smartphone with a lookbook app open, showcasing various outfit photos and tags, emphasizing ease of use",
+            "alt": "A calendar date a month out, dashboard printed or saved.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Curated Clarity Closet\\photos\\038-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5053843"
+          },
+          "scenario": "After implementation: the follow-up is a short review, not a new book.",
+          "principle": "The program has a Day 30 and a later check. Both matter.",
+          "body": [
+            "Today's output: a follow-up date about 30 days from now. Bring the same review questions and the before-and-after table. Live in the closet until then. Do not start a second 30-day purge unless the follow-up says the system failed."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Put the follow-up on a calendar",
+              "minutes": null
+            },
+            {
+              "text": "File the dashboard",
+              "minutes": null
+            },
+            {
+              "text": "Dress from Keep tomorrow",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Starting a new capsule count on Day 31.",
+          "checklist": [
+            "Put the follow-up on a calendar",
+            "File the dashboard",
+            "Dress from Keep tomorrow"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    }
+  ]
+}

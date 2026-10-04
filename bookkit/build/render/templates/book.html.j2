@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{ plan.title }}</title>
+<style>{{ css }}</style>
+</head>
+<body>
+<span class="series-mark">{{ plan.series or plan.title }}</span>
+
+{# —— COVER: designed art is full-bleed; otherwise photo + stacked series panel —— #}
+<section class="cover{% if plan.designed_cover %} cover-designed{% endif %}">
+  {% if plan.cover and plan.cover.path %}
+  <img class="cover-photo" src="{{ plan.cover.path }}" alt="{{ plan.cover.alt or plan.title }}">
+  {% else %}
+  <div class="cover-photo" style="background:#0F3D45;"></div>
+  {% endif %}
+  {% if not plan.designed_cover %}
+  <div class="cover-panel">
+    <p class="series">{{ plan.series or "Home Decor Series" }}</p>
+    <div class="rule"></div>
+    <h1>{{ plan.title }}</h1>
+    {% if plan.tagline or plan.subtitle %}
+    <p class="tagline">{{ plan.tagline or plan.subtitle }}</p>
+    {% endif %}
+    {% if plan.author %}<p class="author">{{ plan.author }}</p>{% endif %}
+  </div>
+  {% endif %}
+</section>
+
+<section class="title-page">
+  <p class="mast">{{ plan.series or "Home Decor Series" }}</p>
+  <div class="rule"></div>
+  <h1>{{ plan.title }}</h1>
+  {% if plan.subtitle %}<p class="subtitle">{{ plan.subtitle }}</p>{% endif %}
+  {% if plan.author %}<p class="author">{{ plan.author }}</p>{% endif %}
+</section>
+
+<section class="copyright">
+  <p>© {{ year }} {{ plan.author }}. All rights reserved.</p>
+  <p>Interior designed for Amazon KDP print (6 × 9 in) and Kindle.</p>
+  {% if plan.ai_image_count %}
+  <p>{{ plan.ai_image_count }} interior image{{ 's' if plan.ai_image_count != 1 }} in this book
+     {{ 'were' if plan.ai_image_count != 1 else 'was' }} generated with AI tools and reviewed by the author.
+     All diagrams were drawn from the measurements in the text.</p>
+  {% endif %}
+  {% if credits %}<p class="credits">Photographs: {{ credits | join('; ') }}.</p>{% endif %}
+</section>
+
+<section class="toc">
+  <p class="kicker">Inside this book</p>
+  <h2>Contents</h2>
+  <ol>
+  {% for ch in plan.chapters %}
+    <li><a href="#{{ ch.slug }}">{{ ch.title }}</a>
+      {% if ch.sections | length > 1 %}
+      <ol>{% for s in ch.sections %}<li><a href="#{{ s.slug }}">{{ s.title }}</a></li>{% endfor %}</ol>
+      {% endif %}
+    </li>
+  {% endfor %}
+  </ol>
+</section>
+
+{% for ch in plan.chapters %}
+<section class="chapter" id="{{ ch.slug }}">
+  {% if ch.opener and ch.opener.path %}
+  <div class="chapter-opener">
+    <img src="{{ ch.opener.path }}" alt="{{ ch.opener.alt }}">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>{{ ch.title }}</h2>
+      {% if ch.intro %}<p>{{ ch.intro }}</p>{% endif %}
+    </div>
+  </div>
+  {% elif ch.sections | length > 1 or ch.intro %}
+  <h2 class="chapter-title">{{ ch.title }}</h2>
+  {% if ch.intro %}<p class="intro">{{ ch.intro }}</p>{% endif %}
+  {% endif %}
+
+  {% for s in ch.sections %}
+  <article class="unit" id="{{ s.slug }}">
+
+    {% if s.hero and s.hero.path %}
+    <figure class="hero">
+      <img src="{{ s.hero.path }}" alt="{{ s.hero.alt }}">
+      <div class="hero-label">
+        {% if s.day_label %}<span class="day">{{ s.day_label }}</span>{% endif %}
+        <h3>{{ s.title }}</h3>
+      </div>
+    </figure>
+    {% else %}
+    <header class="unit-head">
+      {% if s.day_label %}<span class="day">{{ s.day_label }}</span>{% endif %}
+      <h3>{{ s.title }}</h3>
+    </header>
+    {% endif %}
+
+    {% if s.scenario %}
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>{{ s.scenario }}</p>
+    </div>
+    {% endif %}
+
+    {% if s.principle %}
+    <p class="principle">{{ s.principle }}</p>
+    {% endif %}
+
+    <div class="body-copy">
+    {% set figs = s.figures %}
+    {% for para in s.body %}
+      <p>{{ para }}</p>
+      {% if loop.index <= figs | length and figs[loop.index0].path %}
+      <figure class="diagram">
+        <img src="{{ figs[loop.index0].path }}" alt="{{ figs[loop.index0].title }}">
+        {% if figs[loop.index0].caption %}<figcaption>{{ figs[loop.index0].caption }}</figcaption>{% endif %}
+      </figure>
+      {% endif %}
+    {% endfor %}
+    {% for f in figs[s.body | length:] %}
+      {% if f.path %}
+      <figure class="diagram">
+        <img src="{{ f.path }}" alt="{{ f.title }}">
+        {% if f.caption %}<figcaption>{{ f.caption }}</figcaption>{% endif %}
+      </figure>
+      {% endif %}
+    {% endfor %}
+    {% for ph in s.inline_photos %}
+      {% if ph.path %}
+      <figure class="diagram">
+        <img src="{{ ph.path }}" alt="{{ ph.alt or ph.query }}">
+        {% if ph.alt %}<figcaption>{{ ph.alt }}</figcaption>{% endif %}
+      </figure>
+      {% endif %}
+    {% endfor %}
+    </div>
+
+    {% if s.steps %}
+    <div class="steps">
+      <h4>{{ s.steps_label or "Do this" }}</h4>
+      <ol>{% for st in s.steps %}<li>{{ st.text }}{% if st.minutes %} <em>({{ st.minutes }} min)</em>{% endif %}</li>{% endfor %}</ol>
+    </div>
+    {% endif %}
+
+    {% if s.mistake %}
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>{{ s.mistake }}</p>
+    </aside>
+    {% endif %}
+
+    {% if s.checklist %}
+    <div class="checklist">
+      <h4>{{ s.checklist_label or "Before you move on" }}</h4>
+      <ul>{% for c in s.checklist %}<li>{{ c }}</li>{% endfor %}</ul>
+    </div>
+    {% endif %}
+
+  </article>
+  {% endfor %}
+</section>
+{% endfor %}
+
+{# —— LAST PAGE (shared series closer; listing URL stays out — it changes per book) —— #}
+<section class="closing">
+  {% if plan.designed_cover and plan.chapters and plan.chapters[0].opener and plan.chapters[0].opener.path %}
+  <img class="closing-photo" src="{{ plan.chapters[0].opener.path }}" alt="{{ plan.chapters[0].opener.alt }}">
+  {% elif plan.cover and plan.cover.path %}
+  <img class="closing-photo" src="{{ plan.cover.path }}" alt="{{ plan.cover.alt or plan.title }}">
+  {% endif %}
+  <p class="kicker">{{ plan.series or "This series" }}</p>
+  <div class="rule"></div>
+  <h2>{{ plan.closing_headline or "Your next room starts here" }}</h2>
+  <p class="blurb">{{ plan.closing_blurb or "More room kits, declutter sprints, and measured layouts for Indian apartments — same series language, same clear numbers." }}</p>
+  {% if plan.author %}<p class="author">{{ plan.author }}</p>{% endif %}
+</section>
+
+</body>
+</html>

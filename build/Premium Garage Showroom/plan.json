@@ -1,0 +1,1944 @@
+{
+  "slug": "premium-garage-showroom",
+  "title": "Premium Garage Showroom",
+  "subtitle": "A practical guide to planning a two-car garage that still works as a garage, with reversible upgrades where you do not own the building",
+  "tagline": "Park the actual cars first. Finish the showroom second.",
+  "author": "Akarsh Priyadarshan",
+  "series": "30 Day Spaces",
+  "closing_headline": "Your next room starts here",
+  "closing_blurb": "More room kits and measured layouts — same series language, same clear numbers. This book helps readers plan a premium-looking garage that still parks vehicles, stores bikes, and can be maintained. It does not replace electrical, structural, fire, or building-code work, and it does not guarantee that two cars and four bikes will fit.",
+  "accent_hex": "#1E5F6B",
+  "units": "imperial",
+  "cover": {
+    "query": "premium residential two-car garage with bikes on a wall, no people, no text",
+    "flux_prompt": "full-bleed designed cover of a clean two-car garage showroom, bikes on a wall, no people, no text",
+    "alt": "A two-car residential garage with a clear floor, wall-mounted bikes, and no people or text.",
+    "source": "openai",
+    "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\cover.jpg",
+    "credit": "Cover illustration generated for this edition.",
+    "ai_generated": true,
+    "provider_id": "openai:premium-garage-showroom-cover"
+  },
+  "designed_cover": true,
+  "chapters": [
+    {
+      "slug": "space-planning-foundations-the-balanced-zoning-framework-for",
+      "title": "Measure the garage and the actual cars",
+      "intro": "This book helps a household plan a premium-looking garage that still parks real vehicles, stores bikes, and can be maintained after ordinary use. It is not a building-code manual, an electrical guide, a fire-code manual, a structural engineering text, or a coating specification. The primary reference is a private two-car garage. A 20-by-20-foot bay is an illustration, not a promise that two cars and four bikes will fit. Apartment, stilt, and shared parking are stricter: many buildings forbid drilling, coatings, or EV equipment. Some scenarios use Indian cities as compact-garage illustrations. They do not define the market. Prices are USD. Measurements are inches. Example dimensions are illustrations until you measure the actual garage and vehicles. Manufacturer instructions, the lease or HOA rules, and qualified professionals take precedence over this book. Use the book in this order. Assess: measure the actual garage and both vehicles. Plan: choose a layout that survives a parked-car test. Verify: structure, electrical capacity, moisture, permissions. Select: materials and vendors. Install: only after hold points are cleared, with qualified people for electrical and uncertain structure. Test: parking, doors, walking, bike retrieval, emergency access. Maintain. Chapters 1–7 are action. Chapters 8–12 are worksheets that copy those records — they are not a second project. Exhaust safety: never rely on a carbon monoxide alarm to make indoor vehicle operation safe. Do not run a vehicle in an enclosed garage. If exhaust fumes or an alarm indicate a possible hazard, leave the area and follow appropriate emergency guidance. An alarm is a warning device, not a substitute for preventing exposure. Ventilation requirements depend on the garage and local rules, especially when the garage connects to a home. Gasoline, solvents, paints, aerosols, and other flammables must follow product labels, local rules, and appropriate containers. Decorative bins are not chemical storage. Keep ignition sources away. Do not store unknown or unlabeled chemicals in a showroom garage. A fire extinguisher's type and placement depend on the actual hazards and local requirements; one extinguisher does not make every hazard safe. Keep emergency exits and access routes clear. For suspected fuel leaks, strong fumes, or fire hazards, leave, do not investigate with a flame or spark, and follow emergency guidance and the property's reporting path. Electrical installation, circuit sizing, protection, grounding, and EV charging equipment must be designed and installed by appropriately qualified professionals and inspected as local rules require. The reader may plan and document loads, locations, and questions. Do not install circuits, junction boxes, or charging equipment from this book. A load schedule is a planning list, not proof that a service or circuit is safe. Confirm service capacity and whether a parking space is authorized for charging before promising EV readiness. Do not route cables across vehicle paths. Conduit appearance cannot override electrical code. Equipment manufacturer requirements for mounting, ventilation, and clearances take precedence. Confirm the substrate, mounting method, manufacturer's load rating, and installation requirements for each mount. Do not infer structural suitability from wall appearance or from the weight of the bikes alone. A load-bearing wall is not automatic permission. Locate concealed utilities before drilling. Uncertain construction, overhead systems, or unusual loads need a qualified assessment. Four bike mounts are not automatically safe because the combined bike weight looks small. A layout that fits on paper may still be uncomfortable or unsafe. Do not mount anything until both actual cars have parked, opened, and released a walking path.",
+      "opener": {
+        "query": "luxury cars in residential garage showroom residential garage showroom 1",
+        "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+        "alt": "An empty two-car garage with tape-measure marks on the floor, no people.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\001-pexels.jpg",
+        "credit": "Photo by Dextar Studio ™ on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:18108314"
+      },
+      "sections": [
+        {
+          "slug": "two-car-fit-before-layout",
+          "title": "Two-car fit before any showroom layout",
+          "day_label": "Assess",
+          "hero": {
+            "query": "organized two car garage interior cabinets residential garage showroom 2",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "Two parked cars in a garage with a clear walking path and no wall-mounted bikes yet.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\002-pexels.jpg",
+            "credit": "Photo by Peter  Vang on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:34764058"
+          },
+          "scenario": "A US detached garage is labeled 20 by 20. After measuring to the lowest opener rail and both door tracks, the usable rectangle is smaller. One car is a compact hatchback; the other is a midsize SUV. Four bikes are planned for a side wall that sits in the SUV's door swing.",
+          "principle": "Record the actual garage and both vehicles. A labeled 20-by-20 bay is a reference, not proof that two cars and four bikes will fit.",
+          "body": [
+            "Today's output: a filled Two-Car Fit Verification Sheet with both vehicles' length, width, mirror-to-mirror width, door-opening test, front and rear clearance, wall and bike clearance, walking route, and garage-door mechanism clearance.",
+            "Measure the interior at three points each way and keep the smallest numbers. Record clear height to the lowest obstruction: opener motor, tracks, torsion hardware, beams, water heater, electrical panel, steps, columns, ramps. Capture door opening width and where the open garage door sits. The paper size of the building is not the usable envelope.",
+            "Then measure each car: overall length and width, mirror-to-mirror width, and the space needed to enter and exit on the sides you actually use. Compact hatchbacks, sedans, SUVs, and larger vehicles are not interchangeable. Illustrative catalog ranges in this chapter are starting points only. Park both actual cars, open the doors, open the trunk or hatch, walk to the house or exit, and note every squeeze. If the sequence requires unsafe pinching or repeated repositioning, revise the layout before buying mounts.",
+            "Wall-mounted bikes steal door swing and walking width. Handlebars, pedals, and racks count. Emergency access paths must stay clear of vehicles, storage, and display. Parking aids must not become trip hazards. Apartment or stilt parking may forbid this entire project; confirm permissions before measuring for a showroom."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Two-car fit sheet",
+              "caption": "Fill with the actual vehicles. Not a standard layout.",
+              "values": [
+                "Actual vehicle",
+                "Actual vehicle",
+                "Actual vehicle",
+                "Test in the garage",
+                "Measured",
+                "Measured",
+                "Verified",
+                "Verified"
+              ],
+              "labels": [
+                "Car A length and width",
+                "Car B length and width",
+                "Mirror-to-mirror width",
+                "Door opening space",
+                "Front and rear clearance",
+                "Wall and bike clearance",
+                "Walking route",
+                "Garage door mechanism"
+              ],
+              "minimum": null,
+              "spec_id": "D001",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D001.svg"
+            },
+            {
+              "kind": "table",
+              "title": "The labeled bay is not the usable bay",
+              "caption": "A nominal 20-by-20 garage is an illustration, not an unobstructed floor.",
+              "values": [
+                "Reference label only",
+                "Measure wall to wall",
+                "To lowest obstruction"
+              ],
+              "labels": [
+                "20 x 20 example",
+                "Usable width and depth",
+                "Usable height"
+              ],
+              "minimum": null,
+              "spec_id": "D002",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D002.svg"
+            },
+            {
+              "kind": "plan",
+              "title": "Walking route, verified",
+              "caption": "Circulation is a tested path, not a universal 36-inch rule.",
+              "values": [
+                "illustrative 36 in"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D003",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D003.svg"
+            },
+            {
+              "kind": "elevation",
+              "title": "Illustrative compact sedan sizes",
+              "caption": "Catalog ranges only. Use the cars that will park here.",
+              "values": [
+                "illustrative 178 to 190 in length"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D004",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D004.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Illustrative midsize SUV sizes",
+              "caption": "Not a clearance standard. Measure the actual SUV.",
+              "values": [
+                "illustrative 186 to 200 in",
+                "illustrative 72 to 78 in"
+              ],
+              "labels": [
+                "Length example",
+                "Width example"
+              ],
+              "minimum": null,
+              "spec_id": "D005",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D005.svg"
+            },
+            {
+              "kind": "plan",
+              "title": "Paper fit versus parked-car test",
+              "caption": "If the parked-car test fails, the drawing does not win.",
+              "values": [
+                "test in place"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D007",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D007.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Larger vehicles may not fit two-abreast",
+              "caption": "A pickup or large SUV can exceed a compact two-car plan.",
+              "values": [
+                "illustrative 210 in or more",
+                "May need a one-car plan"
+              ],
+              "labels": [
+                "Length example",
+                "If two-abreast fails"
+              ],
+              "minimum": null,
+              "spec_id": "D009",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D009.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Door opening is a test, not a rule",
+              "caption": "Open the actual doors with bikes mocked up.",
+              "values": [
+                "Test driver side",
+                "Test passenger if used",
+                "Test trunk or hatch"
+              ],
+              "labels": [
+                "Car A",
+                "Car B",
+                "Cargo access"
+              ],
+              "minimum": null,
+              "spec_id": "D010",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D010.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Measure usable interior width, depth, and lowest height.",
+              "minutes": null
+            },
+            {
+              "text": "Record Car A and Car B length, width, mirrors, and a real door-opening test.",
+              "minutes": null
+            },
+            {
+              "text": "Park both cars and walk the exit path before choosing a wall for bikes.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Using a 20-by-20 label, a 36-inch walkway rule, or a 24-inch front clearance as if they were universal, then mounting bikes into a door arc.",
+          "checklist": [
+            "Fit sheet filled",
+            "Both cars parked and tested",
+            "Unresolved constraints listed"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "wall-system-strategy-mounting-four-bikes-with-load-ratings-a",
+      "title": "Bike walls, mounts, and structure",
+      "intro": "Confirm the substrate, mounting method, manufacturer's load rating, and installation requirements for each mount. Do not infer structural suitability from wall appearance or from the weight of the bikes alone. A load-bearing wall is not automatic permission. Locate concealed utilities before drilling. Uncertain construction, overhead systems, or unusual loads need a qualified assessment. Four bike mounts are not automatically safe because the combined bike weight looks small. This chapter chooses mount types and a verification path. It does not certify that your wall can hold four bikes.",
+      "opener": {
+        "query": "sports car in home garage epoxy floor residential garage showroom 3",
+        "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+        "alt": "Bikes on a garage wall with space left for a car door to open.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\003-pexels.jpg",
+        "credit": "Photo by Maheshwar Reddy on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:30531596"
+      },
+      "sections": [
+        {
+          "slug": "substrate-first-then-mount",
+          "title": "Substrate first, then the mount",
+          "day_label": "Plan the wall",
+          "hero": {
+            "query": "clean residential garage interior with car residential garage showroom 4",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "A garage wall with marked studs and a bike outline taped beside a parked car.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\001-pexels.jpg",
+            "credit": "Photo by Dextar Studio ™ on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:18108314"
+          },
+          "scenario": "A villa garage has wood studs. A stilt parking stall in an apartment building has a concrete wall, a waterproofing layer, and a lease that forbids drilling. Both owners want four bikes on display. Only one of those walls may be a legal or structural candidate.",
+          "principle": "The wall you have — not the bike weight — decides whether a mount is allowed.",
+          "body": [
+            "Today's output: a substrate map (stud, masonry, unknown), a permission note, and a mount type per bike that the manufacturer lists for that substrate — or a decision to store bikes on the floor or elsewhere.",
+            "Private villa garages and shared apartment parking are different projects. Shared stalls often prohibit wall systems, overhead storage, and any penetration of waterproofing. If permission is missing, stop this chapter.",
+            "Choose vertical hooks, cradles, or folding arms only from products rated for the bike and the substrate. Follow the manufacturer's hardware, embedment, and spacing. Do not invent a 3-to-4 safety factor or a 66-to-74-inch hook height as a universal rule. Heights must clear the garage-door travel, the opener, and the people who lift the bikes. Handlebar, pedal, and rack projection must stay out of the verified car-door arcs from the fit sheet.",
+            "Locate electrical, plumbing, and reinforcement before drilling. If the wall construction is unknown, the load is unusual, or you want overhead storage, get a qualified assessment. Do not perform improvised overload tests that can damage the building. Use only the manufacturer's installation and inspection method."
+          ],
+          "figures": [
+            {
+              "kind": "plan",
+              "title": "Bikes versus door swing",
+              "caption": "Projection is measured with the actual bike, not a 2-inch rule.",
+              "values": [
+                "verify door arc"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D028",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D028.svg"
+            },
+            {
+              "kind": "elevation",
+              "title": "Height follows the door travel",
+              "caption": "Hook height is not a universal 66-to-74-inch band.",
+              "values": [
+                "clear of door travel"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D029",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D029.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Mount decisions",
+              "caption": "Product instructions beat spacing folklore.",
+              "values": [
+                "Manufacturer rating",
+                "Listed substrate only",
+                "Verified against car doors"
+              ],
+              "labels": [
+                "Load",
+                "Wall",
+                "Clearance"
+              ],
+              "minimum": null,
+              "spec_id": "D030",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D030.svg"
+            },
+            {
+              "kind": "plan",
+              "title": "Handlebars and walking path",
+              "caption": "Pedals and bars are part of the vehicle-movement test.",
+              "values": [
+                "verify in place"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D031",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D031.svg"
+            },
+            {
+              "kind": "elevation",
+              "title": "Stagger only if it still lifts safely",
+              "caption": "Alternating heights must still be reachable for the people who live here.",
+              "values": [
+                "person-specific reach"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D032",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D032.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Identify substrate and permission.",
+              "minutes": null
+            },
+            {
+              "text": "Match each mount to the manufacturer's substrate list and load rating.",
+              "minutes": null
+            },
+            {
+              "text": "Mock the bike outline against the parked-car door swing before drilling.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Mounting four bikes because the combined weight 'looks fine,' or using drywall as structure.",
+          "checklist": [
+            "Substrate named",
+            "Permission recorded",
+            "Each mount has a product rating"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "dimensioned-layout-options-a-b-and-c-plans-for-balanced-two-",
+      "title": "Layout options and the daily-use test",
+      "intro": "Plans A, B, and C are alternatives for different constraints, not a universal best layout. The showroom must survive rain, groceries, bike retrieval, and a blocked car.",
+      "opener": {
+        "query": "garage showroom luxury vehicles indoor residential garage showroom 0",
+        "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+        "alt": "A garage layout sketch next to two parked cars and a wall of bikes.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\001-pexels.jpg",
+        "credit": "Photo by Dextar Studio ™ on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:18108314"
+      },
+      "sections": [
+        {
+          "slug": "layout-after-movement-test",
+          "title": "Pick a layout only after the movement sequence",
+          "day_label": "Plan the floor",
+          "hero": {
+            "query": "home garage wall cabinets parked car residential garage showroom 1",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "Two cars parked, a person-width path to a house door, bikes on a wall that does not block the hatch.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\006-pexels.jpg",
+            "credit": "Photo by Matheus Bertelli on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:10182861"
+          },
+          "scenario": "Both cars are in. It is raining. Groceries need to come out of the hatch. A bike is needed from the wall. The house door is behind Car B.",
+          "principle": "Test the actual sequence: enter, park both, open doors, walk to the exit, retrieve a bike, return it. If any step is unsafe, change the layout before installation.",
+          "body": [
+            "Today's output: a chosen layout option — A side-wall bikes, B back-wall bikes, or C split walls — plus a written daily-use pass/fail for rain parking, groceries, bike retrieval, tool access, and cleaning.",
+            "Option A puts bikes on a side wall when that wall is not in a primary door swing. Option B uses the back wall when the garage door tracks eat the sides. Option C splits bikes when no single wall is clear. None is 'the best layout.' Choose from the fit sheet. If two cars cannot open and a person cannot walk to the house without crossing an active vehicle path, reduce display, store bikes elsewhere, or park one car outside.",
+            "Minimum clear floor is whatever the movement test needs, not an aesthetic margin. Keep a tool and pump cabinet on a path that does not require moving a car. Seasonal gear leaves the floor. Display only items that still look acceptable after a wet week; everything else gets closed storage or leaves the garage.",
+            "Garage-door travel, sensors, emergency release, and vehicle height clearance are part of the layout. Storage must not sit in the door's path. Child and visitor safety is not guaranteed by a pretty layout: chemicals stay in labeled, appropriate storage; tools do not live on the floor."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Layout options, not a universal plan",
+              "caption": "Pick the option that passes the parked-car test.",
+              "values": [
+                "Side wall if door swing allows",
+                "Back wall if tracks eat sides",
+                "Split walls if no single wall is clear",
+                "Fewer bikes if two cars still collide"
+              ],
+              "labels": [
+                "Option A",
+                "Option B",
+                "Option C",
+                "If all fail"
+              ],
+              "minimum": null,
+              "spec_id": "D033",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D033.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Run the full movement sequence with both actual cars.",
+              "minutes": null
+            },
+            {
+              "text": "Choose A, B, or C only if the sequence passes.",
+              "minutes": null
+            },
+            {
+              "text": "Name a tool location that does not require moving a car.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Installing the gallery wall first, then discovering groceries cannot leave the hatch.",
+          "checklist": [
+            "Movement sequence passed",
+            "Layout letter chosen",
+            "Tool access without moving a car"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "materials-and-finishes-floors-walls-metals-and-wood-accents",
+      "title": "Floors, walls, and finish care",
+      "intro": "Coatings and panels are selected for the actual slab, moisture, and chemicals you will use. They are not waterproofing, and they are not maintenance-free.",
+      "opener": {
+        "query": "motorcycle in residential garage interior residential garage showroom 2",
+        "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+        "alt": "A garage floor coating edge next to a wall panel, no people.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\007-pexels.jpg",
+        "credit": "Photo by aboodi vesakaran on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:18434049"
+      },
+      "sections": [
+        {
+          "slug": "floor-coating-not-drainage",
+          "title": "Floor coating is not a drainage fix",
+          "day_label": "Select floors",
+          "hero": {
+            "query": "bicycle storage in home garage slatwall residential garage showroom 3",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "A garage slab with a moisture-test patch and a visible slope toward a drain.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\002-pexels.jpg",
+            "credit": "Photo by Peter  Vang on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:34764058"
+          },
+          "scenario": "Rain sheets in under the garage door and pools at the back wall. The owner wants a metallic epoxy because it photographs well.",
+          "principle": "Choose a coating from the manufacturer's substrate, moisture, and chemical limits. Coatings do not repair slope, leaks, or structural water.",
+          "body": [
+            "Today's output: a moisture and slope note, a coating system name that matches those conditions, or a hold until water is resolved.",
+            "Check existing slope and where water goes. Rain at the entrance, wash water, and condensation are different loads. If water pools, find the source. Report persistent ingress to the owner or a qualified professional. Do not coat over an unresolved water problem.",
+            "Follow the coating manufacturer's tests, prep, temperature, and re-entry times. Ask the vendor which chemicals the finish can tolerate — brake fluid, gasoline, and cleaners differ. A friction number quoted in a brochure is not a universal wet-safety rating for your shoes and slope.",
+            "Protect finished floors during washing and jack use as the manufacturer allows. Vehicle washing may be restricted by local rules and by the coating warranty."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Record slope, pooling, and moisture-test method from the product.",
+              "minutes": null
+            },
+            {
+              "text": "Stop if water ingress is unresolved.",
+              "minutes": null
+            },
+            {
+              "text": "Select a system only after the manufacturer conditions are met.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Using a floor coating as waterproofing, or skipping moisture testing because the slab looks dry.",
+          "checklist": [
+            "Slope and pooling noted",
+            "Product moisture limits checked",
+            "Hold or proceed written"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "wall-panels-and-backup",
+          "title": "Wall panels carry load only if the backup does",
+          "day_label": "Select walls",
+          "hero": {
+            "query": "garage door interior residential car residential garage showroom 4",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "Garage wall with a plywood or masonry backup marked before panels go on.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\006-pexels.jpg",
+            "credit": "Photo by Matheus Bertelli on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:10182861"
+          },
+          "scenario": "A renter wants slatwall on what looks like a solid wall. The substrate is unknown.",
+          "principle": "Panel appearance is not a load rating. Backup, fasteners, and the product listing decide.",
+          "body": [
+            "Today's output: wall finish choice plus a backup method listed by the panel manufacturer, or a no-drill alternative.",
+            "Paint and panels in a garage see moisture, impact, and UV at the door. Use products rated for that exposure. Do not fasten bike loads to drywall alone.",
+            "If you do not own the building, prefer removable systems and get permission in writing. Replacement: keep extra slats or paint. Inspect fasteners on a schedule from the manufacturer, not 'when it looks loose.'",
+            "Cross-reference the substrate map from the wall chapter. This day selects finishes; it does not re-engineer the wall."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Choose a garage-rated finish.",
+              "minutes": null
+            },
+            {
+              "text": "Confirm backup and fasteners from the product.",
+              "minutes": null
+            },
+            {
+              "text": "Record a no-drill fallback.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Screwing slatwall to drywall because the bikes are 'only road bikes.'",
+          "checklist": [
+            "Finish chosen",
+            "Backup specified",
+            "Permission or fallback"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "metal-wood-maintenance",
+          "title": "Metal and wood that can be cleaned and replaced",
+          "day_label": "Select accents",
+          "hero": {
+            "query": "premium home garage LED lighting cars residential garage showroom 0",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "Coordinated black hardware and a wood bench lifted off a garage floor.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\003-pexels.jpg",
+            "credit": "Photo by Maheshwar Reddy on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:30531596"
+          },
+          "scenario": "A coastal garage rusts cheap brackets. A wood bench wicks wash water.",
+          "principle": "Name the exposure each finish must survive. 'Durable' without conditions is not a specification.",
+          "body": [
+            "Today's output: one metal family and one wood or wood-look product, each with a cleaning method and a replacement plan.",
+            "Metal: corrosion, cleaner chemistry, and finish compatibility. Powder coat and stainless still fail if the cut edges rust. Clean with products the finish maker allows.",
+            "Wood: moisture, finish care, lift off the floor, and impact. Engineered products still swell if edges are open. Keep wood out of the wash zone.",
+            "Trim and transitions must not become trip hazards. Replace damaged pieces; do not caulk over a rocking reducer."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Pick one metal finish for visible hardware.",
+              "minutes": null
+            },
+            {
+              "text": "Pick wood that can live above splash.",
+              "minutes": null
+            },
+            {
+              "text": "Write cleaning and replacement notes.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Calling the package maintenance-free, then parking a wood bench in the wash stream.",
+          "checklist": [
+            "Metal family",
+            "Wood care note",
+            "Trip-hazard check on transitions"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "lighting-design-cri-beam-angles-layering-and-controls",
+      "title": "Lighting layers without glare",
+      "intro": "Ambient, task, and accent lighting do different jobs. Footcandle targets in this book are illustrations. Fixtures must suit a garage environment. Controls must fail to a usable light.",
+      "opener": {
+        "query": "villa garage interior two cars cabinets residential garage showroom 1",
+        "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+        "alt": "A car under even garage lighting without windshield glare.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\011-pexels.jpg",
+        "credit": "Photo by Renee Razumov on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:33814683"
+      },
+      "sections": [
+        {
+          "slug": "see-the-car-then-add-drama",
+          "title": "See the car, then add drama",
+          "day_label": "Select lighting",
+          "hero": {
+            "query": "detailing garage home not factory cars residential garage showroom 2",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "The same car photographed conceptually under even ambient light, without a hot spot on the windshield.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\003-pexels.jpg",
+            "credit": "Photo by Maheshwar Reddy on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:30531596"
+          },
+          "scenario": "A polished hood mirrors a downlight into the driver's eyes. The workbench is dim. The smart scene fails and the garage goes dark.",
+          "principle": "Verify uniformity and glare on actual paint and glass. Scenes must fail safe.",
+          "body": [
+            "Today's output: a three-layer plan — ambient for moving around, task for work and loading, accent for bikes — plus a glare test on both parking spaces and a fail-safe (manual switch or always-on path light).",
+            "Ambient covers walking and parking. Task covers the bench, hatch, and lock area. Accent is optional. Compare the same vehicle under ambient only; ambient plus task; then all three. If accent lighting hides a puddle or a bike pedal, it is in the way.",
+            "Illustrative planning bands such as 20–30 footcandles ambient or 50–75 at a bench are starting points, not code. Choose levels for the activity, fixture layout, and any applicable requirements. Keep color temperature consistent unless a product requires otherwise. Use garage-rated, damp-or-wet-listed fixtures where the environment needs them.",
+            "Do not tie life-safety response solely to a lighting scene. If automation dies, a regular switch must still light the path. Electrical work remains professional installation."
+          ],
+          "figures": [
+            {
+              "kind": "plan",
+              "title": "Light the walking and parking grid",
+              "caption": "Layers follow the verified movement path.",
+              "values": [
+                "verify coverage"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D034",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D034.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Task light is for work, not sparkle",
+              "caption": "A bench needs light you can work by. Illustrative only.",
+              "values": [
+                "Workbench activity",
+                "Loading hatch",
+                "Bike retrieval"
+              ],
+              "labels": [
+                "Task",
+                "Task",
+                "Ambient plus path"
+              ],
+              "minimum": null,
+              "spec_id": "D035",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D035.svg"
+            },
+            {
+              "kind": "plan",
+              "title": "Both parking spaces, not one spotlight",
+              "caption": "Check uniformity between Car A and Car B.",
+              "values": [
+                "compare both bays"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D036",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D036.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Layer 1 — ambient only",
+              "caption": "Can you walk and park without accent lights?",
+              "values": [
+                "Walk path visible",
+                "Both bays usable"
+              ],
+              "labels": [
+                "Pass or fail",
+                "Pass or fail"
+              ],
+              "minimum": null,
+              "spec_id": "D037",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D037.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Layer 2 — ambient plus task",
+              "caption": "Can you load groceries and use the bench?",
+              "values": [
+                "Hatch side lit",
+                "Bench usable"
+              ],
+              "labels": [
+                "Pass or fail",
+                "Pass or fail"
+              ],
+              "minimum": null,
+              "spec_id": "D038",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D038.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Layer 3 — add accent last",
+              "caption": "Accent cannot hide pedals, puddles, or the exit.",
+              "values": [
+                "Bike details visible",
+                "No windshield bounce into eyes"
+              ],
+              "labels": [
+                "Optional",
+                "Required check"
+              ],
+              "minimum": null,
+              "spec_id": "D039",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D039.svg"
+            },
+            {
+              "kind": "elevation",
+              "title": "Aim off the windshield",
+              "caption": "Side light on bodywork often glares less than a downlight in glass.",
+              "values": [
+                "aim test"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D040",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D040.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Controls fail safe",
+              "caption": "A dead smart scene must not leave the garage dark.",
+              "values": [
+                "Manual switch or path light",
+                "Garage-rated fixtures"
+              ],
+              "labels": [
+                "Required",
+                "Match the environment"
+              ],
+              "minimum": null,
+              "spec_id": "D041",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D041.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Place ambient so both parking spaces are usable.",
+              "minutes": null
+            },
+            {
+              "text": "Add task light at the bench and loading side.",
+              "minutes": null
+            },
+            {
+              "text": "Aim accents, then look for paint and glass glare. Confirm a manual-on path light.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Programming a showcase scene as the only way to turn the lights on, or treating a footcandle table as a required installation.",
+          "checklist": [
+            "Three layers named",
+            "Glare test done",
+            "Fail-safe switch exists"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "power-data-and-cable-management-clean-lines-safety-and-compl",
+      "title": "Power planning, fire, and exhaust",
+      "intro": "Electrical installation, circuit sizing, protection, grounding, and EV charging equipment must be designed and installed by appropriately qualified professionals and inspected as local rules require. The reader may plan and document loads, locations, and questions. Do not install circuits, junction boxes, or charging equipment from this book. A load schedule is a planning list, not proof that a service or circuit is safe. Confirm service capacity and whether a parking space is authorized for charging before promising EV readiness. Do not route cables across vehicle paths. Conduit appearance cannot override electrical code. Equipment manufacturer requirements for mounting, ventilation, and clearances take precedence. Gasoline, solvents, paints, aerosols, and other flammables must follow product labels, local rules, and appropriate containers. Decorative bins are not chemical storage. Keep ignition sources away. Do not store unknown or unlabeled chemicals in a showroom garage. A fire extinguisher's type and placement depend on the actual hazards and local requirements; one extinguisher does not make every hazard safe. Keep emergency exits and access routes clear. For suspected fuel leaks, strong fumes, or fire hazards, leave, do not investigate with a flame or spark, and follow emergency guidance and the property's reporting path. Exhaust safety: never rely on a carbon monoxide alarm to make indoor vehicle operation safe. Do not run a vehicle in an enclosed garage. If exhaust fumes or an alarm indicate a possible hazard, leave the area and follow appropriate emergency guidance. An alarm is a warning device, not a substitute for preventing exposure. Ventilation requirements depend on the garage and local rules, especially when the garage connects to a home. This chapter is documentation. It is not a license to wire the garage.",
+      "opener": {
+        "query": "organized garage workbench car interior residential garage showroom 3",
+        "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+        "alt": "A labeled electrical panel with clear working space in a garage.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\006-pexels.jpg",
+        "credit": "Photo by Matheus Bertelli on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:10182861"
+      },
+      "sections": [
+        {
+          "slug": "document-loads-do-not-install",
+          "title": "Document loads. Do not install them.",
+          "day_label": "Plan power",
+          "hero": {
+            "query": "luxury garage tiled floor parked cars residential garage showroom 4",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "A written load list taped beside a garage panel with clear floor space.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\014-pexels.jpg",
+            "credit": "Photo by Emre Aslihak on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:16092235"
+          },
+          "scenario": "A household wants future EV charging, a compressor, and showroom lighting on a service that has never been assessed.",
+          "principle": "A load list is a question for a qualified professional, not a DIY circuit plan.",
+          "body": [
+            "Today's output: a load schedule of lighting, opener, tools, and possible EV — with watt or amp estimates from nameplates — marked for professional review. No circuits are installed in this chapter.",
+            "List what exists and what you want. Note the panel location and working clearance as the professional and local rules require; do not treat a 30-by-36-inch anecdote as code. GFCI and other protection depend on the installation and local requirements.",
+            "EV charging: confirm the parking space is authorized and the service can support it before promising readiness. Manufacturer requirements for the charger, ventilation, mounting, and cable length apply. Cables must not cross driving or walking paths.",
+            "Outlet height and placement are convenience notes for the electrician, not DIY layout rules. Keep cords out of door swings."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "List nameplate loads.",
+              "minutes": null
+            },
+            {
+              "text": "Mark EV as pending professional and permission review.",
+              "minutes": null
+            },
+            {
+              "text": "Photograph the panel and its working space without opening it if you are not qualified.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Installing a 'future EV' circuit or moving the panel clearance to fit a bike wall.",
+          "checklist": [
+            "Load list",
+            "EV permission unknown/yes/no",
+            "Panel access not blocked on the plan"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "cable-routes-for-a-professional",
+          "title": "Cable routes that a professional can actually build",
+          "day_label": "Plan routes",
+          "hero": {
+            "query": "cars parked inside home garage interior residential garage showroom 0",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "Painter-tape raceway lines along a garage corner, stopping short of the door track.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\015-pexels.jpg",
+            "credit": "Photo by Matheus Bertelli on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:10182840"
+          },
+          "scenario": "A clean raceway looks good on a mood board and would run through the garage-door sensor beam.",
+          "principle": "Aesthetics cannot override code, sensors, or vehicle paths. The electrician owns the routing.",
+          "body": [
+            "Today's output: a sketch of preferred raceway lines along edges, with no-go zones: door travel, sensors, walking path, and flammable storage.",
+            "You may prefer surface raceway versus concealed work. The installer decides what is permitted. Keep low-voltage documentation separate as the professional requires. Do not share assumptions about mixing cables in one conduit.",
+            "Security cameras and access control must follow local law, privacy, and building rules, and must not obstruct movement. Label planned circuits on paper for the binder; the installer labels the finished work.",
+            "This is still not an installation day."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Sketch preferred edges.",
+              "minutes": null
+            },
+            {
+              "text": "Mark no-go zones.",
+              "minutes": null
+            },
+            {
+              "text": "Hand the sketch to the qualified installer.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Pulling cable yourself to keep the showroom on schedule.",
+          "checklist": [
+            "Route sketch",
+            "No-go zones",
+            "Installer named or still required"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "fire-fumes-alarms",
+          "title": "Fire, fumes, and what an alarm cannot do",
+          "day_label": "Plan safety",
+          "hero": {
+            "query": "luxury cars in residential garage showroom residential garage showroom 1",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "Labeled fuel container in an approved cabinet, extinguisher visible near an exit, no running car.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\016-pexels.jpg",
+            "credit": "Photo by Jae Park on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5050535"
+          },
+          "scenario": "Fuel cans sit in an open crate under a bike. A CO alarm is tied to a lighting scene so the room 'feels safe' while a car idles.",
+          "principle": "Alarms warn. They do not make idling or sloppy chemical storage acceptable.",
+          "body": [
+            "Today's output: a chemical inventory with labeled containers only, an extinguisher decision referred to local requirements and actual hazards, detector locations as required, and a written exhaust rule: engines off in the enclosure.",
+            "Gasoline, solvents, paints, aerosols, and other flammables must follow product labels, local rules, and appropriate containers. Decorative bins are not chemical storage. Keep ignition sources away. Do not store unknown or unlabeled chemicals in a showroom garage. A fire extinguisher's type and placement depend on the actual hazards and local requirements; one extinguisher does not make every hazard safe. Keep emergency exits and access routes clear. For suspected fuel leaks, strong fumes, or fire hazards, leave, do not investigate with a flame or spark, and follow emergency guidance and the property's reporting path.",
+            "Exhaust safety: never rely on a carbon monoxide alarm to make indoor vehicle operation safe. Do not run a vehicle in an enclosed garage. If exhaust fumes or an alarm indicate a possible hazard, leave the area and follow appropriate emergency guidance. An alarm is a warning device, not a substitute for preventing exposure. Ventilation requirements depend on the garage and local rules, especially when the garage connects to a home.",
+            "Do not hide extinguishers behind display. Do not store fuel in decorative glass. If the garage attaches to the house, treat exhaust and door seals as a household hazard, not a styling detail. Lighting scenes must not be the emergency plan."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Remove unlabeled chemicals.",
+              "minutes": null
+            },
+            {
+              "text": "Place detectors and extinguishers per professional and local guidance.",
+              "minutes": null
+            },
+            {
+              "text": "Write the no-idling rule on the fit sheet.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Idling a car for the CO alarm 'test,' or using one ABC extinguisher as a blanket guarantee.",
+          "checklist": [
+            "Chemical inventory",
+            "Alarm is not a substitute for exhaust control",
+            "Exit paths clear"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "procurement-and-budgeting-vendor-shortlists-and-tiered-cost-",
+      "title": "Budget, vendors, and what to postpone",
+      "intro": "A premium finish is optional. Safety, structure, electrical, and preparation are not. If the budget cannot cover the essential work, postpone the aesthetic upgrade.",
+      "opener": {
+        "query": "organized two car garage interior cabinets residential garage showroom 2",
+        "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+        "alt": "A garage budget worksheet with labor and contingency lines, not only finish samples.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\002-pexels.jpg",
+        "credit": "Photo by Peter  Vang on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:34764058"
+      },
+      "sections": [
+        {
+          "slug": "price-the-whole-project",
+          "title": "Price the whole project, then cut the showroom",
+          "day_label": "Select vendors",
+          "hero": {
+            "query": "sports car in home garage epoxy floor residential garage showroom 3",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "A budget sheet listing electrician, prep, and contingency above decorative finishes.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\016-pexels.jpg",
+            "credit": "Photo by Jae Park on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:5050535"
+          },
+          "scenario": "A Good/Better/Best sheet prices epoxy and slatwall. It omits an electrician, moisture mitigation, permits, and disposal.",
+          "principle": "The cheapest quote is not comparable until scope, qualifications, and warranty are the same.",
+          "body": [
+            "Today's output: a budget that includes design, professional assessments, demolition, prep, materials, labor, electrical, permits, delivery, disposal, contingency, and maintenance — with a go/postpone decision.",
+            "USD line items belong in writing. Warranty terms are only real when written. Lead times change. Installation quality is part of the bid. Check licenses separately from a vendor score.",
+            "If money is short, keep parking function, fire and exhaust rules, and required electrical corrections. Drop metallic floors, accent lighting, and extra bikes.",
+            "Renter and HOA fees, deposits, and restoration at move-out belong in the budget if you do not own the building."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Fill every cost category, including labor and contingency.",
+              "minutes": null
+            },
+            {
+              "text": "Score vendors on written warranty and qualifications, not photos.",
+              "minutes": null
+            },
+            {
+              "text": "Postpone aesthetics if essential work does not fit.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Spending the contingency on a Best-tier floor while the panel still needs professional work.",
+          "checklist": [
+            "Complete cost categories",
+            "Written warranties",
+            "Postpone-or-proceed decision"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "installation-sequence-and-quality-control-from-demolition-to",
+      "title": "Install with hold points",
+      "intro": "Do not skip verification to keep a finish schedule. Each stage below has a stop rule. Electrical installation is performed by qualified professionals.",
+      "opener": {
+        "query": "clean residential garage interior with car residential garage showroom 4",
+        "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+        "alt": "A garage with floor protection down and no electrical DIY in progress.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\016-pexels.jpg",
+        "credit": "Photo by Jae Park on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:5050535"
+      },
+      "sections": [
+        {
+          "slug": "hold-permissions-fit-hazards",
+          "title": "Hold point: permissions, fit, and hazards",
+          "day_label": "Stage 1",
+          "hero": {
+            "query": "garage showroom luxury vehicles indoor residential garage showroom 0",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "A clipboard packet on a workbench: fit sheet, permission, electrician note.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\020-pexels.jpg",
+            "credit": "Photo by FBO Media on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:30687976"
+          },
+          "scenario": "Materials have arrived. The two-car test was never finished. The wall type is still 'probably studs.'",
+          "principle": "Do not clear the room for finishing until permissions, vehicle fit, electrical review, structure, and water issues are documented.",
+          "body": [
+            "Today's output: a signed-off pre-install packet — permission, fit sheet, load list for the electrician, substrate note, moisture/slope note — or a stop.",
+            "Protect vehicles and the house from dust only after the packet exists. Emptying the garage is not a substitute for verification.",
+            "Do not proceed to demolition or grinding if water, structure, or electrical capacity is unresolved."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Assemble the packet.",
+              "minutes": null
+            },
+            {
+              "text": "Stop if any essential line is blank.",
+              "minutes": null
+            },
+            {
+              "text": "Only then protect the site.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Scheduling the coating crew because the epoxy already shipped.",
+          "checklist": [
+            "Packet complete or stop",
+            "Site not opened early",
+            "Vehicles protected only after go"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "hold-slab-and-water",
+          "title": "Hold point: slab and water",
+          "day_label": "Stage 2",
+          "hero": {
+            "query": "home garage wall cabinets parked car residential garage showroom 1",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "Moisture-test results next to a coating data sheet.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\015-pexels.jpg",
+            "credit": "Photo by Matheus Bertelli on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:10182840"
+          },
+          "scenario": "The coating crew is ready. The manufacturer's moisture reading is over the product limit.",
+          "principle": "Follow the coating manufacturer's prep, moisture, cure, and re-entry. Do not proceed if the product limits fail.",
+          "body": [
+            "Today's output: recorded moisture and environment readings versus the product, then prep and coating only if they pass.",
+            "Mechanical versus chemical prep is the manufacturer's choice, not a preference. Coatings do not fix pooling.",
+            "Keep people and vehicles off the floor for the stated re-entry time. This book does not set that time."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Compare readings to the product.",
+              "minutes": null
+            },
+            {
+              "text": "Stop if over limit.",
+              "minutes": null
+            },
+            {
+              "text": "Prep and coat only to the instructions.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Coating a wet slab because the showroom reveal is this weekend.",
+          "checklist": [
+            "Readings recorded",
+            "Pass or stop",
+            "Re-entry from the product"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "hold-wall-backup",
+          "title": "Hold point: wall backup before panels",
+          "day_label": "Stage 3",
+          "hero": {
+            "query": "motorcycle in residential garage interior residential garage showroom 2",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "Opened wall showing studs or masonry before panels go up.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\007-pexels.jpg",
+            "credit": "Photo by aboodi vesakaran on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:18434049"
+          },
+          "scenario": "Panels are stacked. Nobody has found the studs or confirmed masonry anchors.",
+          "principle": "Do not install the finish wall until substrate, services, mounting locations, and storage load are verified.",
+          "body": [
+            "Today's output: verified backing and service clearances, then panels only with the specified fasteners.",
+            "Opening walls may require a professional and permission. Do not cut into unknown assemblies.",
+            "Alignment is secondary to a sound backup. A laser-straight rail on drywall is still a failure."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Verify substrate and services.",
+              "minutes": null
+            },
+            {
+              "text": "Install only listed hardware.",
+              "minutes": null
+            },
+            {
+              "text": "Stop if the wall is not what the plan assumed.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Hanging the gallery on the finish layer because it is faster.",
+          "checklist": [
+            "Backup verified",
+            "Services marked",
+            "Listed fasteners only"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "hold-bikes-after-cars-fit",
+          "title": "Hold point: bikes after the cars still fit",
+          "day_label": "Stage 4",
+          "hero": {
+            "query": "bicycle storage in home garage slatwall residential garage showroom 3",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "Four bikes on a wall while two cars sit with doors opened beside them.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\023-pexels.jpg",
+            "credit": "Photo by Kağan Karatay on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:27163371"
+          },
+          "scenario": "Mounts are on the wall. Nobody has re-parked both cars with the actual bikes hung.",
+          "principle": "Hang bikes only on verified mounts. Re-run the door, hatch, and walking test with the real bikes.",
+          "body": [
+            "Today's output: each mount installed to the product instructions, then a parked-car clearance test with all four bikes (or fewer if four fail).",
+            "Do not improvise a 1.25-times hang test. Use the manufacturer's inspection method.",
+            "If a door hits a pedal, remove that bike from the wall. Display is optional; exit is not."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Install per product.",
+              "minutes": null
+            },
+            {
+              "text": "Hang the actual bikes.",
+              "minutes": null
+            },
+            {
+              "text": "Repeat the movement sequence.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Declaring the wall finished from a tape-measure stagger without the cars present.",
+          "checklist": [
+            "Product install followed",
+            "Actual bikes hung",
+            "Movement sequence repeated"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "hold-electrical-qualified",
+          "title": "Hold point: electrical by qualified people",
+          "day_label": "Stage 5",
+          "hero": {
+            "query": "garage door interior residential car residential garage showroom 4",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "An electrician's completed garage lighting, with a wall switch independent of a smart scene.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\024-pexels.jpg",
+            "credit": "Photo by athul santhosh on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:35532902"
+          },
+          "scenario": "The lighting boxes arrived with a printed scene list. Someone offers to 'just rough in the circuits.'",
+          "principle": "Qualified professionals install and verify electrical work. The homeowner does not run circuits from this book.",
+          "body": [
+            "Today's output: completed professional electrical and lighting installation per the reviewed plan, with inspection as required — or a stop that leaves temporary safe lighting.",
+            "Aim fixtures for glare after they are legally installed. Program scenes only as a convenience on top of a manual-on path light.",
+            "GFCI and polarity checks are part of the professional's verification, not a DIY lesson."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Keep the homeowner off live work.",
+              "minutes": null
+            },
+            {
+              "text": "Confirm inspection or equivalent local closeout.",
+              "minutes": null
+            },
+            {
+              "text": "Test manual lighting if automation is off.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Running circuits to protect the showroom schedule.",
+          "checklist": [
+            "Professional install",
+            "Inspection or required closeout",
+            "Manual light works"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "finish-after-function",
+          "title": "Finish only after the garage still functions",
+          "day_label": "Stage 6",
+          "hero": {
+            "query": "premium home garage LED lighting cars residential garage showroom 0",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "Finished garage with a clear path to the house door and a visible door-release handle.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\025-pexels.jpg",
+            "credit": "Photo by Tima Miroshnichenko on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6872595"
+          },
+          "scenario": "Trim is on. A bump stop creates a trip in the walking path. The emergency release for the door is blocked by a bench.",
+          "principle": "QA is vehicle fit, movement, storage access, floor condition, electrical closeout, and emergency access — not only seam alignment.",
+          "body": [
+            "Today's output: a QA list with parked-car fit, door and hatch, walking route, bike retrieval, tool access, floor, lighting fail-safe, extinguisher/detector access, and garage-door emergency release.",
+            "Clean the coating only as the manufacturer allows. Parking aids must not trip people.",
+            "Document deviations. Insurance, warranties, and shutoff locations go in the binder."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Run the QA list with both cars.",
+              "minutes": null
+            },
+            {
+              "text": "Clear the door emergency release.",
+              "minutes": null
+            },
+            {
+              "text": "File warranties and emergency contacts.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Signing off because the photos look premium while the walking path is blocked.",
+          "checklist": [
+            "QA with cars",
+            "Emergency access clear",
+            "Binder complete"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "two-car-and-four-bike-dimension-and-clearance-checklist",
+      "title": "Two-car fit verification sheet",
+      "intro": "Copy the Assess chapter numbers here. Do not invent a second measuring method. Unresolved constraints stay on the page.",
+      "opener": {
+        "query": "villa garage interior two cars cabinets residential garage showroom 1",
+        "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+        "alt": "A printed two-car fit sheet on a garage workbench.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\011-pexels.jpg",
+        "credit": "Photo by Renee Razumov on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:33814683"
+      },
+      "sections": [
+        {
+          "slug": "fill-the-fit-sheet",
+          "title": "Fill the sheet with the parked cars",
+          "day_label": "Worksheet",
+          "hero": {
+            "query": "detailing garage home not factory cars residential garage showroom 2",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "A completed fit sheet clipped to a garage wall, both cars parked.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\027-pexels.jpg",
+            "credit": "Photo by Matheus Bertelli on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:9702382"
+          },
+          "scenario": "The worksheet is still blank except for '20x20' copied from a listing.",
+          "principle": "If a field is the listing size rather than a measured size, the sheet is not done.",
+          "body": [
+            "Today's output: every row on the fit sheet completed or marked NA, plus unresolved constraints.",
+            "Include actual vehicle dimensions, wall projections, door swing, walking route, bike clearance, garage-door mechanism, and pedestrian route to the house. Add columns for Car A and Car B.",
+            "Horizontal display, vertical hooks, and folding arms are choices only after these numbers exist. Illustrative mount heights in older notes are not copied forward as rules.",
+            "If two cars fail, write the reduced plan on this sheet: one car, fewer bikes, or off-site storage."
+          ],
+          "figures": [
+            {
+              "kind": "elevation",
+              "title": "Bike retrieval with both cars in",
+              "caption": "The worksheet fails if a bike cannot come off the wall.",
+              "values": [
+                "test retrieval"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D044",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D044.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Transfer Assess measurements.",
+              "minutes": null
+            },
+            {
+              "text": "Park and test again if anything changed.",
+              "minutes": null
+            },
+            {
+              "text": "List unresolved constraints.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Filling the sheet with catalog sedan sizes.",
+          "checklist": [
+            "All rows filled or NA",
+            "Parked-car test dated",
+            "Constraints listed"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "wall-system-bill-of-materials-and-mounting-spec-template",
+      "title": "Wall-system bill of materials",
+      "intro": "The BOM is a buying list tied to substrate and ratings. It is not a second wall-design chapter.",
+      "opener": {
+        "query": "organized garage workbench car interior residential garage showroom 3",
+        "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+        "alt": "Hardware and mounts laid out with spec sheets, not yet installed.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\028-pexels.jpg",
+        "credit": "Photo by Renee Razumov on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:33814736"
+      },
+      "sections": [
+        {
+          "slug": "list-what-the-wall-can-take",
+          "title": "List only what the wall can take",
+          "day_label": "Worksheet",
+          "hero": {
+            "query": "luxury garage tiled floor parked cars residential garage showroom 4",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "A BOM sheet with substrate and load columns filled before any order.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\014-pexels.jpg",
+            "credit": "Photo by Emre Aslihak on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:16092235"
+          },
+          "scenario": "A cart is full of hooks. The substrate field on the template is empty.",
+          "principle": "No SKU without substrate, load requirement, and permission.",
+          "body": [
+            "Today's output: a BOM with product, quantity, substrate, load requirement, hardware, and a professional-verification checkbox where the wall is uncertain.",
+            "Walk the garage with the fit sheet. Mark no-build zones at panels, gas appliances, and door tracks. Then fill vendor and lead time.",
+            "Do not order from a pretty four-bike photo."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Fill substrate first.",
+              "minutes": null
+            },
+            {
+              "text": "Add SKUs that list that substrate.",
+              "minutes": null
+            },
+            {
+              "text": "Check permission.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Ordering four identical mounts for mixed bikes and an unknown wall.",
+          "checklist": [
+            "Substrate filled",
+            "SKUs match substrate",
+            "Permission box"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "heights-from-people-and-door-travel",
+          "title": "Heights from people and door travel",
+          "day_label": "Worksheet",
+          "hero": {
+            "query": "cars parked inside home garage interior residential garage showroom 0",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "A wall with the garage-door open-position marked above proposed hook heights.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\030-pexels.jpg",
+            "credit": "Photo by Matheus Bertelli on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:10182863"
+          },
+          "scenario": "A template still says 64 inches for adult bikes and 48 inches for kids as if that were code.",
+          "principle": "Record the height that this household can lift, below door travel, from the product instructions.",
+          "body": [
+            "Today's output: a height and stagger plan that cites the product and the door-travel mark — not a copied 64/48-inch rule.",
+            "Kids' bikes, e-bikes, and heavy mountain bikes have different lift and rating needs. E-bike weight can exceed ordinary hook ratings.",
+            "Stagger only if bars and pedals still clear car doors."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Mark door travel on the wall.",
+              "minutes": null
+            },
+            {
+              "text": "Set heights from product and reach.",
+              "minutes": null
+            },
+            {
+              "text": "Reject any height that enters the door arc.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Copying a 64-inch adult height into a low-opener garage.",
+          "checklist": [
+            "Door-travel mark",
+            "Reach-checked heights",
+            "Ratings for the heaviest bike"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "sign-off-cars-and-bikes",
+          "title": "Sign off only with cars and bikes together",
+          "day_label": "Worksheet",
+          "hero": {
+            "query": "luxury cars in residential garage showroom residential garage showroom 1",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "Signed QA sheet next to two parked cars and mounted bikes.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\020-pexels.jpg",
+            "credit": "Photo by FBO Media on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:30687976"
+          },
+          "scenario": "The installer wants a signature before the parked-car test.",
+          "principle": "QA includes stud or anchor verification, product embedment, and a live door-swing test.",
+          "body": [
+            "Today's output: a signed QA with the parked-car test attached.",
+            "Document torque or inspection only as the manufacturer specifies.",
+            "Warranty claims need this paper."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Complete the product inspection.",
+              "minutes": null
+            },
+            {
+              "text": "Park both cars with bikes mounted.",
+              "minutes": null
+            },
+            {
+              "text": "Sign only if the movement sequence still passes.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Signing off from a ladder photo of even spacing.",
+          "checklist": [
+            "Product inspection",
+            "Parked-car test",
+            "Record filed"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "lighting-scene-programming-guide-with-footcandle-targets",
+      "title": "Lighting worksheet and fail-safe scenes",
+      "intro": "Footcandle numbers here are optional planning targets. The required outputs are fixture locations, glare results, and a working manual light.",
+      "opener": {
+        "query": "organized two car garage interior cabinets residential garage showroom 2",
+        "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+        "alt": "A lighting worksheet with zones marked on a garage plan.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\020-pexels.jpg",
+        "credit": "Photo by FBO Media on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:30687976"
+      },
+      "sections": [
+        {
+          "slug": "write-zones-not-lux-map",
+          "title": "Write zones, not a required lux map",
+          "day_label": "Worksheet",
+          "hero": {
+            "query": "sports car in home garage epoxy floor residential garage showroom 3",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "Garage plan with ambient, task, and accent zones labeled.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\033-pexels.jpg",
+            "credit": "Photo by Luke Miller on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:32725694"
+          },
+          "scenario": "A worksheet still demands 20–30 footcandles as if it were an inspection standard.",
+          "principle": "Record what each zone is for. Any numeric target is illustrative until measured and judged on site.",
+          "body": [
+            "Today's output: zone map — ambient, task, accent — with intended activity, glare notes, and fixture type. Optional illustrative bands may be written as 'try' values only.",
+            "CRI and color temperature should be consistent enough that paint is not two colors between bays. Choose products listed for the garage environment.",
+            "Do not buy dimmers incompatible with the fixtures; that check belongs with the electrician."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Illustrative lighting tries, not code",
+              "caption": "Use only as a starting conversation with the lighting plan.",
+              "values": [
+                "illustrative ambient try",
+                "illustrative task try",
+                "accent optional"
+              ],
+              "labels": [
+                "Walking and parking",
+                "Bench and hatch",
+                "Bikes"
+              ],
+              "minimum": null,
+              "spec_id": "D045",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\figures\\D045.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Map zones to activities.",
+              "minutes": null
+            },
+            {
+              "text": "Note glare risks on paint and glass.",
+              "minutes": null
+            },
+            {
+              "text": "Mark garage-rated fixtures.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Treating a 20–30 footcandle table as a pass/fail code.",
+          "checklist": [
+            "Zones mapped",
+            "Glare notes",
+            "Environment listing"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "commission-by-looking-at-cars",
+          "title": "Commission by looking at the cars",
+          "day_label": "Worksheet",
+          "hero": {
+            "query": "clean residential garage interior with car residential garage showroom 4",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "A person viewing a hood and windshield for glare with the garage lights on.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\034-pexels.jpg",
+            "credit": "Photo by Hendra Yuwana on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:10463764"
+          },
+          "scenario": "Dimmers are at 80 percent because a scene card said so. The windshield blooms.",
+          "principle": "Aim and dim until glare and uniformity pass, not until a percentage matches a worksheet.",
+          "body": [
+            "Today's output: recorded aim notes and a pass/fail glare check on both cars, plus bike retrieval light.",
+            "If the 10-foot-bay example in an apartment is your garage, scale the number of fixtures down; do not copy a 20-by-20 scene.",
+            "Task light at the hatch must work with the door open."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Aim off glass.",
+              "minutes": null
+            },
+            {
+              "text": "Compare both parking spaces.",
+              "minutes": null
+            },
+            {
+              "text": "Confirm hatch and bench.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Leaving factory aim because the scene names sound premium.",
+          "checklist": [
+            "Glare pass/fail",
+            "Both bays compared",
+            "Hatch checked"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "document-scenes-and-override",
+          "title": "Document scenes and the override",
+          "day_label": "Worksheet",
+          "hero": {
+            "query": "garage showroom luxury vehicles indoor residential garage showroom 0",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "A wall switch labeled path light beside a lighting scene keypad.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\027-pexels.jpg",
+            "credit": "Photo by Matheus Bertelli on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:9702382"
+          },
+          "scenario": "Nobody wrote down which switch still works when Wi-Fi dies.",
+          "principle": "Scenes are optional. The override is required.",
+          "body": [
+            "Today's output: scene names, dimmer notes, color temperature, and the location of the manual-on path light.",
+            "Maintenance: clean lenses as the fixture maker allows; replace failed lamps with the same type.",
+            "Do not connect alarms to lighting as the only emergency response."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Write scene settings.",
+              "minutes": null
+            },
+            {
+              "text": "Circle the override device.",
+              "minutes": null
+            },
+            {
+              "text": "Schedule lens cleaning.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "A showroom that is dark during a network outage.",
+          "checklist": [
+            "Scenes recorded",
+            "Override circled",
+            "Cleaning note"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "budget-and-vendor-selection-worksheet",
+      "title": "Budget worksheet and long-term care",
+      "intro": "Finish the money sheet, then keep a maintenance and security list. Aesthetics do not outrank parking, fire rules, or professional electrical closeout.",
+      "opener": {
+        "query": "home garage wall cabinets parked car residential garage showroom 1",
+        "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+        "alt": "A garage binder with warranties, shutoffs, and a maintenance calendar.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\036-pexels.jpg",
+        "credit": "Photo by Erik Mclean on Pexels",
+        "ai_generated": false,
+        "provider_id": "pexels:17716183"
+      },
+      "sections": [
+        {
+          "slug": "every-cost-category",
+          "title": "Every cost category, including the unsexy ones",
+          "day_label": "Worksheet",
+          "hero": {
+            "query": "motorcycle in residential garage interior residential garage showroom 2",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "Budget worksheet with electrician and contingency filled in.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\007-pexels.jpg",
+            "credit": "Photo by aboodi vesakaran on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:18434049"
+          },
+          "scenario": "The Good/Better/Best columns still list only floors, walls, mounts, and lights.",
+          "principle": "If labor, assessments, prep, electrical, permits, disposal, contingency, and maintenance are missing, the sheet is incomplete.",
+          "body": [
+            "Today's output: a completed category sheet in USD, including professional review and future recoating or hardware replacement.",
+            "This is not another design essay. Fill the blanks from quotes."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Add missing categories.",
+              "minutes": null
+            },
+            {
+              "text": "Attach quotes.",
+              "minutes": null
+            },
+            {
+              "text": "Set contingency.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "A Best lighting number with a $0 electrician line.",
+          "checklist": [
+            "All categories",
+            "Quotes attached",
+            "Contingency set"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "use-the-sheet-without-restyling",
+          "title": "How to use the sheet without restyling",
+          "day_label": "Worksheet",
+          "hero": {
+            "query": "bicycle storage in home garage slatwall residential garage showroom 3",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "Budget lines highlighted as essential versus optional.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\023-pexels.jpg",
+            "credit": "Photo by Kağan Karatay on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:27163371"
+          },
+          "scenario": "Someone starts the sheet by choosing walnut slats before the electrician quote arrives.",
+          "principle": "Lock essential work first. Assign finishes to leftover money.",
+          "body": [
+            "Today's output: essential versus optional tagged on every line.",
+            "A 10-foot single bay uses a smaller bill of materials. Do not copy a two-car quantity list."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Tag essential vs optional.",
+              "minutes": null
+            },
+            {
+              "text": "Fit the optional list to remaining funds.",
+              "minutes": null
+            },
+            {
+              "text": "Stop if essentials do not fit.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Defining the aesthetic target before the safety and parking lines.",
+          "checklist": [
+            "Essential tags",
+            "Optional list cut to fit",
+            "Stop rule applied"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "vendors-licenses-unequal-quotes",
+          "title": "Vendors, licenses, and unequal quotes",
+          "day_label": "Worksheet",
+          "hero": {
+            "query": "garage door interior residential car residential garage showroom 4",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "Two coating bids with the same prep scope highlighted.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\024-pexels.jpg",
+            "credit": "Photo by athul santhosh on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:35532902"
+          },
+          "scenario": "The low bid omits grinding, moisture tests, and electrical permits.",
+          "principle": "Score only comparable scope. Check qualifications outside the score.",
+          "body": [
+            "Today's output: two vendors per trade, written warranty, lead time, and license or qualification note, plus a primary and backup.",
+            "Sequence purchases after hold points, not because a sale ends Sunday."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Normalize scope.",
+              "minutes": null
+            },
+            {
+              "text": "Record warranty in writing.",
+              "minutes": null
+            },
+            {
+              "text": "Keep a backup vendor.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Picking the lowest number with a different scope.",
+          "checklist": [
+            "Comparable scope",
+            "Written warranty",
+            "Backup vendor"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "safety-ratings-beat-cosmetics",
+          "title": "Safety ratings beat cosmetic upgrades",
+          "day_label": "Worksheet",
+          "hero": {
+            "query": "premium home garage LED lighting cars residential garage showroom 0",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "Lockable tool cabinet out of the vehicle path, manuals in a binder.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\025-pexels.jpg",
+            "credit": "Photo by Tima Miroshnichenko on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:6872595"
+          },
+          "scenario": "A decorative hook is cheaper than the mount rated for an e-bike.",
+          "principle": "Load ratings, chemical storage, and listed electrical gear outrank matching finishes.",
+          "body": [
+            "Today's output: a rejected-SKU list for anything without a usable rating or listing.",
+            "Keep proofs, manuals, and shutoff maps in one binder. Note insurance requirements if any.",
+            "Security: review door hardware, visibility, and lockable storage for tools and bike parts without blocking movement. Follow local law on cameras."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Drop unrated mounts.",
+              "minutes": null
+            },
+            {
+              "text": "File manuals and shutoffs.",
+              "minutes": null
+            },
+            {
+              "text": "Place locks so they do not obstruct paths.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "A camera or lock box in the walking path, or an unrated hook on an e-bike.",
+          "checklist": [
+            "Unrated SKUs removed",
+            "Binder started",
+            "Security without obstruction"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        },
+        {
+          "slug": "maintenance-calendar-emergency",
+          "title": "Maintenance calendar and emergency info",
+          "day_label": "Worksheet",
+          "hero": {
+            "query": "villa garage interior two cars cabinets residential garage showroom 1",
+            "flux_prompt": "Photorealistic premium residential garage showroom, cars or bikes, cabinets, epoxy floor, LED lighting. No people. Not factory, not living room, not kitchen.",
+            "alt": "A one-page emergency and maintenance card inside a garage cabinet door.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Premium Garage Showroom\\photos\\011-pexels.jpg",
+            "credit": "Photo by Renee Razumov on Pexels",
+            "ai_generated": false,
+            "provider_id": "pexels:33814683"
+          },
+          "scenario": "Six months later the coating is stained, a fastener is loose, and nobody knows the door-release or panel location.",
+          "principle": "A showroom that cannot be cleaned or shut down is not finished.",
+          "body": [
+            "Today's output: a calendar for coating care, fastener inspection, detector tests per manufacturer, drain or sweep, and a card with emergency contacts and shutoff locations.",
+            "Include waste and recycling for rags, oil, and empty chemical containers per local rules.",
+            "Accessibility: if someone in the household cannot use a high hook or a narrow path, change the layout rather than insisting on the original showroom drawing."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Write the calendar.",
+              "minutes": null
+            },
+            {
+              "text": "Fill the emergency card.",
+              "minutes": null
+            },
+            {
+              "text": "Revisit reach and path with the people who use the garage.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "No plan except 'it should still look like the photo.'",
+          "checklist": [
+            "Calendar",
+            "Shutoffs and contacts",
+            "Reach reviewed"
+          ],
+          "checklist_label": "Today's output",
+          "inline_photos": []
+        }
+      ]
+    }
+  ]
+}

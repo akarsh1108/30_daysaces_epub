@@ -1,0 +1,2432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Instant Kitchen Pest Detection</title>
+<style>@font-face{font-family:&#34;Source Serif 4&#34;;font-weight:400;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/SourceSerif4-400.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;Source Serif 4&#34;;font-weight:700;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/SourceSerif4-700.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;Fraunces&#34;;font-weight:600;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/Fraunces-600.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;Fraunces&#34;;font-weight:700;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/Fraunces-700.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;DM Sans&#34;;font-weight:400;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/DMSans-400.woff&#34;) format(&#34;woff&#34;);}
+@font-face{font-family:&#34;DM Sans&#34;;font-weight:700;font-style:normal;src:url(&#34;file:///C:/Users/KIIT/Desktop/bookkit/bookkit/build/render/fonts/DMSans-700.woff&#34;) format(&#34;woff&#34;);}
+/* 6x9 KDP magazine interior — WeasyPrint-safe (no absolute overlays / bleed pages).
+   Cover + chapter openers + heroes are STACKED blocks so text never overlaps images.
+   Shared across every book in the series: change this file once, all titles update. */
+
+@page {
+  size: 6in 9in;
+  margin: 0.7in 0.6in 0.7in 0.65in;
+  @top-left {
+    content: string(series-name);
+    font: 7.5pt &#34;DM Sans&#34;, sans-serif;
+    color: #9AA0A2;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  @bottom-center {
+    content: counter(page);
+    font: 8.5pt &#34;DM Sans&#34;, sans-serif;
+    color: #9AA0A2;
+  }
+}
+@page cover {
+  margin: 0;
+  @top-left { content: none; }
+  @bottom-center { content: none; }
+}
+@page front {
+  @top-left { content: none; }
+  @bottom-center { content: none; }
+}
+@page closing {
+  @top-left { content: none; }
+  @bottom-center { content: none; }
+}
+
+:root {
+  --ink: #141816;
+  --paper: #FFFFFF;
+  --accent: #1E5F6B;
+  --accent-deep: #0F3D45;
+  --mist: #F3F6F6;
+  --muted: #7A8285;
+  --red: #C8442B;
+  --serif: &#34;Source Serif 4&#34;, &#34;DejaVu Serif&#34;, Georgia, serif;
+  --display: &#34;Fraunces&#34;, &#34;Source Serif 4&#34;, Georgia, serif;
+  --sans: &#34;DM Sans&#34;, &#34;DejaVu Sans&#34;, sans-serif;
+}
+
+html {
+  font-family: var(--serif);
+  font-size: 10.5pt;
+  line-height: 1.48;
+  color: var(--ink);
+  background: var(--paper);
+}
+body { margin: 0; }
+p { margin: 0 0 0.65em; orphans: 3; widows: 3; }
+img { max-width: 100%; display: block; }
+a { color: inherit; text-decoration: none; }
+
+.series-mark { string-set: series-name content(); display: none; }
+
+/* ========== COVER (shared series template) ========== */
+.cover {
+  page: cover;
+  page-break-after: always;
+  page-break-inside: avoid;
+  width: 6in;
+  height: 9in;
+  overflow: hidden;
+  background: var(--accent-deep);
+}
+.cover-photo {
+  width: 6in;
+  height: 5.35in;
+  object-fit: cover;
+  display: block;
+}
+.cover.cover-designed {
+  background: #111;
+}
+.cover.cover-designed .cover-photo {
+  width: 6in;
+  height: 9in;
+  object-fit: cover;
+}
+.cover-panel {
+  width: 6in;
+  height: 3.65in;
+  box-sizing: border-box;
+  background: var(--accent-deep);
+  color: #fff;
+  padding: 0.38in 0.5in 0.35in;
+}
+.cover-panel .series {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #B7D4D8;
+  margin: 0 0 0.16in;
+}
+.cover-panel .rule {
+  width: 0.9in;
+  height: 2.5pt;
+  background: #fff;
+  margin: 0 0 0.18in;
+}
+.cover-panel h1 {
+  font-family: var(--display);
+  font-size: 26pt;
+  line-height: 1.05;
+  font-weight: 700;
+  margin: 0 0 0.14in;
+  color: #fff;
+}
+.cover-panel .tagline {
+  font-size: 10.5pt;
+  line-height: 1.35;
+  color: #D7E6E8;
+  margin: 0 0 0.4in;
+  max-width: 4.6in;
+}
+.cover-panel .author {
+  font-family: var(--sans);
+  font-size: 10pt;
+  color: #fff;
+  margin: 0;
+  border-top: 0.5pt solid rgba(255,255,255,0.28);
+  padding-top: 0.16in;
+}
+
+/* ========== FRONT MATTER ========== */
+.title-page {
+  page: front;
+  page-break-after: always;
+  padding-top: 1.6in;
+}
+.title-page .mast {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.35in;
+}
+.title-page .rule {
+  width: 1in;
+  height: 2.5pt;
+  background: var(--accent);
+  margin: 0 0 0.3in;
+}
+.title-page h1 {
+  font-family: var(--display);
+  font-size: 28pt;
+  line-height: 1.08;
+  margin: 0 0 0.25in;
+  font-weight: 700;
+}
+.title-page .subtitle {
+  font-size: 12pt;
+  color: #3A4244;
+  margin: 0 0 1.2in;
+  max-width: 4.4in;
+}
+.title-page .author {
+  font-family: var(--sans);
+  font-size: 10pt;
+  color: var(--muted);
+}
+
+.copyright {
+  page: front;
+  page-break-after: always;
+  font-family: var(--sans);
+  font-size: 8pt;
+  line-height: 1.45;
+  color: #555;
+  padding-top: 4.8in;
+}
+.copyright .credits { color: var(--muted); margin-top: 0.4em; }
+
+.toc {
+  page: front;
+  page-break-after: always;
+}
+.toc .kicker {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.12in;
+}
+.toc h2 {
+  font-family: var(--display);
+  font-size: 24pt;
+  margin: 0 0 0.35in;
+  font-weight: 700;
+}
+.toc ol { list-style: none; padding: 0; margin: 0; }
+.toc &gt; ol &gt; li {
+  margin: 0 0 0.45em;
+  font-size: 10.5pt;
+  padding-bottom: 0.28em;
+  border-bottom: 0.4pt solid #E4E8E9;
+}
+.toc &gt; ol &gt; li &gt; a { font-family: var(--display); font-weight: 600; }
+.toc a::after {
+  content: leader(&#34; . &#34;) target-counter(attr(href url), page);
+  font-family: var(--sans);
+  font-size: 8pt;
+  color: var(--muted);
+  font-weight: 400;
+}
+.toc ol ol {
+  margin: 0.15em 0 0;
+  font-size: 9pt;
+  color: #4A5254;
+}
+.toc ol ol li { margin: 0 0 0.12em; border: none; padding: 0; }
+.toc ol ol a { font-family: var(--serif); font-weight: 400; }
+
+/* ========== CHAPTER ========== */
+.chapter { page-break-before: always; }
+
+.chapter-opener {
+  page-break-before: always;
+  page-break-after: always;
+  page-break-inside: avoid;
+  margin: 0;
+  background: var(--accent-deep);
+}
+.chapter-opener img {
+  width: 100%;
+  height: 4.6in;
+  object-fit: cover;
+  display: block;
+}
+.chapter-opener .opener-text {
+  background: var(--accent-deep);
+  color: #fff;
+  padding: 0.32in 0.05in 0.35in;
+}
+.chapter-opener .chap-kicker {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #B7D4D8;
+  margin: 0 0 0.12in;
+}
+.chapter-opener h2 {
+  font-family: var(--display);
+  font-size: 20pt;
+  line-height: 1.12;
+  margin: 0 0 0.12in;
+  font-weight: 700;
+  color: #ffffff;
+}
+.chapter-opener p {
+  font-size: 9.5pt;
+  line-height: 1.4;
+  color: #D7E6E8;
+  margin: 0;
+}
+
+.chapter-title {
+  font-family: var(--display);
+  font-size: 24pt;
+  line-height: 1.1;
+  margin: 0.6in 0 0.22in;
+  font-weight: 700;
+}
+.intro {
+  font-size: 11pt;
+  color: #333;
+  margin-bottom: 0.4in;
+  border-left: 3pt solid var(--accent);
+  padding-left: 0.16in;
+}
+
+/* ========== UNIT ========== */
+.unit { page-break-before: always; }
+.chapter &gt; .unit:first-of-type { page-break-before: auto; }
+
+.unit-head { margin: 0 0 0.25in; }
+.day {
+  display: block;
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 5pt;
+}
+.unit h3, .hero h3 {
+  font-family: var(--display);
+  font-size: 17pt;
+  line-height: 1.15;
+  margin: 0;
+  font-weight: 700;
+}
+
+/* Hero: image then caption strip UNDER it — never overlays */
+.hero {
+  margin: 0 0 0.28in;
+  page-break-inside: avoid;
+  background: var(--mist);
+}
+.hero img {
+  width: 100%;
+  height: 3.15in;
+  object-fit: cover;
+  display: block;
+}
+.hero .hero-label {
+  padding: 0.16in 0.18in 0.18in;
+}
+.hero .day { color: var(--accent); }
+.hero h3 { color: var(--ink); font-size: 16pt; }
+
+.scenario {
+  background: var(--mist);
+  border-top: 2.5pt solid var(--accent);
+  padding: 0.16in 0.18in 0.18in;
+  margin: 0 0 0.25in;
+}
+.scenario .label {
+  font-family: var(--sans);
+  font-size: 7.5pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.08in;
+}
+.scenario p {
+  font-size: 10pt;
+  font-style: italic;
+  color: #2A3234;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.principle {
+  font-family: var(--display);
+  font-size: 13.5pt;
+  line-height: 1.28;
+  font-weight: 600;
+  margin: 0.05in 0 0.28in;
+  color: var(--accent-deep);
+  padding: 0.08in 0 0.08in 0.18in;
+  border-left: 3pt solid var(--accent);
+}
+
+.body-copy p { font-size: 10.5pt; }
+
+figure.diagram {
+  margin: 0.18in 0 0.28in;
+  page-break-inside: avoid;
+  background: var(--mist);
+  padding: 0.1in;
+}
+figure.diagram img {
+  width: 100%;
+  display: block;
+  background: #fff;
+}
+figure.diagram figcaption {
+  font-family: var(--sans);
+  font-size: 8pt;
+  color: var(--muted);
+  line-height: 1.35;
+  margin-top: 5pt;
+}
+
+.steps, .checklist, .mistake {
+  page-break-inside: avoid;
+  margin: 0.25in 0;
+}
+.steps h4, .checklist h4, .mistake h4 {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0 0 7pt;
+  font-weight: 700;
+}
+.steps {
+  background: var(--mist);
+  padding: 0.16in 0.18in;
+}
+.steps ol {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  counter-reset: step;
+}
+.steps li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 1.4em;
+  margin: 0 0 6pt;
+  font-size: 10pt;
+}
+.steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: var(--sans);
+  font-size: 8.5pt;
+  font-weight: 700;
+  color: var(--accent);
+}
+.steps em {
+  color: var(--muted);
+  font-style: normal;
+  font-family: var(--sans);
+  font-size: 8pt;
+}
+
+.mistake {
+  background: #F8EEEB;
+  padding: 0.16in 0.18in;
+  border-left: 3pt solid var(--red);
+}
+.mistake h4 { color: var(--red); }
+.mistake p { margin: 0; font-size: 9.8pt; }
+
+.checklist ul { list-style: none; padding: 0; margin: 0; }
+.checklist li {
+  padding-left: 1.4em;
+  position: relative;
+  margin: 0 0 5pt;
+  font-size: 10pt;
+}
+.checklist li::before {
+  content: &#34;&#34;;
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  width: 0.7em;
+  height: 0.7em;
+  border: 1.2pt solid var(--accent);
+}
+
+/* ========== LAST PAGE (shared series closer) ========== */
+.closing {
+  page: closing;
+  page-break-before: always;
+  padding-top: 0;
+}
+.closing-photo {
+  width: 100%;
+  height: 3.2in;
+  object-fit: cover;
+  display: block;
+  margin: 0 0 0.45in;
+}
+.closing .kicker {
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.16in;
+}
+.closing .rule {
+  width: 1in;
+  height: 2.5pt;
+  background: var(--accent);
+  margin: 0 0 0.25in;
+}
+.closing h2 {
+  font-family: var(--display);
+  font-size: 24pt;
+  line-height: 1.1;
+  margin: 0 0 0.2in;
+}
+.closing .blurb {
+  font-size: 11.5pt;
+  line-height: 1.4;
+  color: #333;
+  max-width: 4.5in;
+  margin: 0 0 0.7in;
+}
+.closing .author {
+  margin-top: 0.9in;
+  font-family: var(--sans);
+  font-size: 9.5pt;
+  color: var(--muted);
+}
+</style>
+</head>
+<body>
+<span class="series-mark">30 Day Spaces</span>
+
+<section class="cover">
+  <img class="cover-photo" src="photos/000-pexels.jpg" alt="Instant Kitchen Pest Detection">
+  <div class="cover-panel">
+    <p class="series">30 Day Spaces</p>
+    <div class="rule"></div>
+    <h1>Instant Kitchen Pest Detection</h1>
+    <p class="tagline">Measured layouts and calm surfaces for Indian apartments.</p>
+<p class="author">Akarsh Priyadarshan</p>  </div>
+</section>
+
+<section class="title-page">
+  <p class="mast">30 Day Spaces</p>
+  <div class="rule"></div>
+  <h1>Instant Kitchen Pest Detection</h1>
+<p class="author">Akarsh Priyadarshan</p></section>
+
+<section class="copyright">
+  <p>© 2026 Akarsh Priyadarshan. All rights reserved.</p>
+  <p>Interior designed for Amazon KDP print (6 × 9 in) and Kindle.</p>
+<p class="credits">Photographs: Photo by HONG SON on Pexels; Photo by Ty Nguyễn on Pexels; Photo by Dua&#39;a Al-Amad on Pexels; Photo by Ron Lach on Pexels; Photo by Lisa Fotios on Pexels; Photo by Meaghan on Pexels; Photo by ThisIsEngineering on Pexels; Photo by cottonbro studio on Pexels; Photo by 🇻🇳🇻🇳 Việt Anh Nguyễn 🇻🇳🇻🇳 on Pexels; Photo by Kaiya Inouye on Pexels; Photo by Zulfugar Karimov on Pexels; Photo by Campio Saez on Pexels; Photo by Thomas  balabaud on Pexels; Photo by Kampus Production on Pexels; Photo by Max Vakhtbovych on Pexels; Photo by Connor Scott McManus on Pexels; Photo by Alexey Demidov on Pexels; Photo by Jordan Benton on Pexels; Photo by Bruno Curly on Pexels; Photo by Jan van der Wolf on Pexels; Photo by RDNE Stock project on Pexels; Photo by Richard REVEL on Pexels; Photo by 开 心 on Pexels; Photo by Cup of  Couple on Pexels; Photo by ommy on Pexels; Photo by Rodrigo Simoes on Pexels; Photo by Rafael Minguet Delgado on Pexels; Photo by Matilda Wormwood on Pexels; Photo by Vladyslav Dukhin on Pexels; Photo by Mikhail Nilov on Pexels; Photo by Haberdoedas Photography on Pexels; Photo by Souranshi Fashion and  Lifestyle Magazine on Pexels; Photo by dada _design on Pexels; Photo by Mike Bird on Pexels; Photo by Oliver Wagenblatt on Pexels; Photo by Lily  Lili on Pexels; Photo by ready made on Pexels; Photo by Alesha on Pexels; Photo by J MAD on Pexels; Photo by Kenneth Surillo on Pexels.</p></section>
+
+<section class="toc">
+  <p class="kicker">Inside this book</p>
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#foundations-of-kitchen-pest-risk-and-behavior">Foundations Of Kitchen Pest Risk And Behavior</a>
+      <ol><li><a href="#understanding-kitchen-pest-behavior">Understanding Kitchen Pest Behavior</a></li><li><a href="#mapping-risk-zones">Mapping Risk Zones</a></li><li><a href="#timing-your-scans">Timing Your Scans</a></li></ol>
+    </li>
+    <li><a href="#the-micro-signs-signal-map-what-to-look-for-every-day">The Micro-Signs Signal Map: What To Look For Every Day</a>
+      <ol><li><a href="#understanding-micro-signs">Understanding Micro Signs</a></li><li><a href="#the-importance-of-verification-tools">The Importance of Verification Tools</a></li><li><a href="#identifying-clusters-of-signs">Identifying Clusters of Signs</a></li><li><a href="#daily-and-weekly-routines-for-pest-detection">Daily and Weekly Routines for Pest Detection</a></li></ol>
+    </li>
+    <li><a href="#the-five-minute-daily-scan-routine">The Five-Minute Daily Scan Routine</a>
+      <ol><li><a href="#understanding-the-problem">Understanding the Problem</a></li><li><a href="#the-five-pass-routine">The Five Pass Routine</a></li><li><a href="#implementing-the-routine">Implementing the Routine</a></li><li><a href="#common-pitfalls-and-solutions">Common Pitfalls and Solutions</a></li><li><a href="#key-takeaways-and-action-items">Child and pet safety before any trap</a></li></ol>
+    </li>
+    <li><a href="#low-cost-monitors-and-diy-traps-that-work">Low-cost monitors and DIY detection tools</a>
+      <ol><li><a href="#understanding-your-kitchen-s-pest-zones">Understanding Your Kitchen&#39;s Pest Zones</a></li><li><a href="#selecting-the-right-monitors">Selecting the Right Monitors</a></li><li><a href="#effective-placement-strategies">Effective Placement Strategies</a></li><li><a href="#monitoring-and-responding-to-data">Monitoring and Responding to Data</a></li></ol>
+    </li>
+    <li><a href="#smart-sensor-and-camera-integration-for-early-alerts">Smart Sensor And Camera Integration For Early Alerts</a>
+      <ol><li><a href="#understanding-your-kitchen-s-pest-pathways">Understanding Your Kitchen&#39;s Pest Pathways</a></li><li><a href="#choosing-the-right-sensors-and-cameras">Choosing the Right Sensors and Cameras</a></li><li><a href="#configuring-alerts-and-filters">Configuring Alerts and Filters</a></li><li><a href="#integrating-alerts-with-daily-logs">Integrating Alerts with Daily Logs</a></li><li><a href="#reviewing-and-scoring-alerts">Reviewing and Scoring Alerts</a></li></ol>
+    </li>
+    <li><a href="#food-storage-and-sanitation-hardening">Food Storage And Sanitation Hardening</a>
+      <ol><li><a href="#why-cluttered-storage-and-wet-corners-mask-signals">Why Cluttered Storage And Wet Corners Mask Signals</a></li><li><a href="#storage-that-starves-pests-of-food-and-shelter">Storage That Starves Pests Of Food And Shelter</a></li><li><a href="#moisture-control-and-drain-care">Moisture Control And Drain Care</a></li><li><a href="#the-sanitation-cycle-that-leaves-no-micro-habitat">The Sanitation Cycle That Leaves No Micro Habitat</a></li></ol>
+    </li>
+    <li><a href="#logging-thresholds-and-decision-trees">Logging, Thresholds, And Decision Trees</a>
+      <ol><li><a href="#structured-logs-for-effective-monitoring">Structured Logs for Effective Monitoring</a></li><li><a href="#defining-effective-thresholds">Example household trigger thresholds</a></li><li><a href="#utilizing-decision-trees-for-action">Utilizing Decision Trees for Action</a></li><li><a href="#implementing-trend-analysis-and-weekly-reviews">Implementing Trend Analysis and Weekly Reviews</a></li></ol>
+    </li>
+    <li><a href="#the-72-hour-rapid-response-playbook">72-hour initial response and verification playbook</a>
+      <ol><li><a href="#phase-one-assess-and-contain-hour-0-to-6">Phase One: Assess and Contain (Hour 0 to 6)</a></li><li><a href="#phase-two-confirm-and-intensify-monitoring-hour-6-to-24">Phase Two: Confirm and Intensify Monitoring (Hour 6 to 24)</a></li><li><a href="#phase-three-targeted-interventions-hour-24-to-48">Phase Three: Targeted Interventions (Hour 24 to 48)</a></li><li><a href="#phase-four-verify-and-de-escalate-hour-48-to-72">Phase four: verify — 72 hours is not eradication</a></li></ol>
+    </li>
+    <li><a href="#long-term-prevention-and-seasonal-strategies">Long-Term Prevention And Seasonal Strategies</a>
+      <ol><li><a href="#environment-hardening">Environment Hardening</a></li><li><a href="#exterior-sanitation">Exterior Sanitation</a></li><li><a href="#seasonal-risk-anticipation">Seasonal Risk Anticipation</a></li><li><a href="#operational-discipline">Operational Discipline</a></li><li><a href="#when-diy-stops">When DIY stops</a></li></ol>
+    </li>
+    <li><a href="#five-minute-daily-scan-checklist">Five-Minute Daily Scan Checklist</a>
+      <ol><li><a href="#purpose-and-benefits">Purpose and Benefits</a></li><li><a href="#how-to-use-the-checklist">How to Use the Checklist</a></li><li><a href="#main-content-the-checklist-template">Main Content: The Checklist Template</a></li><li><a href="#tips-for-success">Tips for Success</a></li><li><a href="#common-mistakes">Common Mistakes</a></li><li><a href="#next-steps">Next Steps</a></li></ol>
+    </li>
+    <li><a href="#symptom-to-signal-matrix-template">Symptom-To-Signal Matrix for Kitchen Pest Management</a>
+      <ol><li><a href="#purpose-and-benefits-of-the-matrix">Purpose and Benefits of the Matrix</a></li><li><a href="#how-to-use-the-symptom-to-signal-matrix">How to Use the Symptom-To-Signal Matrix</a></li><li><a href="#understanding-severity-tiers-and-actions">Understanding Severity Tiers and Actions</a></li><li><a href="#common-mistakes-to-avoid">Common Mistakes to Avoid</a></li></ol>
+    </li>
+    <li><a href="#72-hour-rapid-response-worksheet">72-hour initial response and verification worksheet</a>
+    </li>
+    <li><a href="#roi-and-cost-savings-guide">ROI And Cost Savings Guide</a>
+      <ol><li><a href="#purpose-and-benefits">Purpose and Benefits</a></li><li><a href="#how-to-use">How to Use</a></li><li><a href="#main-content">Main Content</a></li><li><a href="#tips-for-success">Tips for Success</a></li></ol>
+    </li>
+  </ol>
+</section>
+
+<section class="chapter" id="foundations-of-kitchen-pest-risk-and-behavior">
+  <div class="chapter-opener">
+    <img src="photos/001-pexels.jpg" alt="A home kitchen with visible food and moisture edges, no people.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Foundations Of Kitchen Pest Risk And Behavior</h2>
+<p>Your kitchen is a magnet for tiny opportunists. Food residues, moisture, warmth, and shelter create a micro-ecosystem most people miss until it is visible. Pests follow resources in patterns you can learn to read, which means detection can be faster than their ability to establish. This book is written for residential kitchens. Café and food-service premises can have different legal and inspection requirements; they are illustrations only, not the standard here. By the end of this chapter you will map risk zones, observe behavior-based clues, and set a baseline.</p>    </div>
+  </div>
+
+  <article class="unit" id="understanding-kitchen-pest-behavior">
+
+    <figure class="hero">
+      <img src="photos/002-pexels.jpg" alt="kitchen corner with food residues and moisture sources">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Understanding Kitchen Pest Behavior</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a 1BHK apartment in Pune, resident Aditi notices crumbs accumulating near her refrigerator. She often finds small specks that she dismisses as normal kitchen debris. After reading about pest behavior, she decides to observe the area more closely.</p>
+    </div>
+
+    <p class="principle">Pests are not random; they follow predictable patterns that can be observed.</p>
+
+    <div class="body-copy">
+      <p>Most infestations start small, then accelerate out of sight. Early activity is quiet, concentrated near food or moisture, and easily mistaken for normal kitchen debris. If you only react to large signs, like seeing a cockroach in daylight or fruit flies hovering over a bin, you are already late. Delay increases costs in spoiled inventory, sanitization time, and potential food safety risks.</p>
+      <p>Pests enter through specific routes, foraging along walls and edges, nesting in warm voids, and visiting the same resource points. The first indicators are subtle, such as a pepper-like speck near the refrigerator gasket or a faint vinegar scent near the fruit bowl. Without a simple framework, you will either miss true indicators or waste time chasing false positives.</p>
+      <p>Behavior-based observation uses patterns, not guesswork. Instead of asking if a speck is a pest, you ask if multiple small indicators align in place and time. This approach allows you to focus on the traces pests leave while they travel and feed.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Ignoring small signs can lead to larger infestations.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="mapping-risk-zones">
+
+    <figure class="hero">
+      <img src="photos/003-pexels.jpg" alt="sketch of a kitchen layout with marked hot zones">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>Mapping Risk Zones</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In her small kitchen, Aditi sketches a simple layout of her space, marking areas like the sink, refrigerator, and pantry. She identifies potential hot zones where pests might thrive.</p>
+    </div>
+
+    <p class="principle">Mapping your kitchen helps identify risk zones that require tailored monitoring.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a risk map of hot zones — under and behind appliances, sink cabinets, trash, pantry, ceiling-wall junctions, floor-wall edges — drawn without dismantling the kitchen.</p>
+      <p>Common entries include gaps at doors and windows, vents, drains, packages, and utility penetrations. Watch protected edges. The void behind a refrigerator is a hot zone because it is warm and crumb-rich, not because you must drag the fridge out today.</p>
+      <p>Do not dismantle appliances, electrical equipment, sealed building cavities, or plumbing solely to investigate pest activity. Observe, document, monitor, escalate. Renters: if limited under-sink access blocks a look, log it and report the defect instead of forcing the cabinet apart.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Pulling a packed appliance or opening a sealed cavity just to look.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="timing-your-scans">
+
+    <figure class="hero">
+      <img src="photos/004-pexels.jpg" alt="kitchen at night with a flashlight illuminating potential pest areas">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Timing Your Scans</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Aditi sets a schedule for her pest scans, planning to check her kitchen during peak activity times for different pests.</p>
+    </div>
+
+    <p class="principle">Timing your scans increases the likelihood of detecting pest activity.</p>
+
+    <div class="body-copy">
+      <p>Timing matters because many pests are crepuscular or nocturnal, and some are daytime foragers. Cockroaches are most active in darkness, with peaks in the first hours after lights off. Ants vary, but many kitchen problems show the most movement during daylight and early evening.</p>
+      <p>Plan two five-minute scans per day. One in early evening for ants and pantry moth adults, and one at night with lights off for roaches and rodents. Add a brief morning scan for fruit flies and drain flies near sinks and fruit bowls.</p>
+      <p>By scheduling brief scans when each group is most likely to reveal movement or fresh residues, you can catch early signs of infestations before they escalate.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Not scanning at the right times can lead to missed pest activity.</p>
+    </aside>
+
+
+  </article>
+</section>
+<section class="chapter" id="the-micro-signs-signal-map-what-to-look-for-every-day">
+  <div class="chapter-opener">
+    <img src="photos/001-pexels.jpg" alt="A kitchen counter staged for a close look at specks and seams.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>The Micro-Signs Signal Map: What To Look For Every Day</h2>
+<p>Understanding the subtle signs of pests in your kitchen is crucial for early detection and prevention. This chapter provides a detailed framework for identifying micro signs that can indicate pest activity, helping you maintain a clean and safe kitchen environment.</p>    </div>
+  </div>
+
+  <article class="unit" id="understanding-micro-signs">
+
+    <figure class="hero">
+      <img src="photos/006-pexels.jpg" alt="a close-up of a kitchen sink area with dark specks on the surface">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Understanding Micro Signs</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a 1BHK apartment in Pune, resident Priya notices small dark specks near her kitchen sink. She recalls reading about micro signs and decides to investigate further.</p>
+    </div>
+
+    <p class="principle">Micro signs are often subtle and easily overlooked, but they can indicate pest activity.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: one suspected sign checked against a false-signs list before you treat anything.</p>
+      <figure class="diagram">
+        <img src="figures/D015.svg" alt="Things that can look like pest evidence">
+<figcaption>One crumb is not a confirmed infestation. Corroborate before you treat.</figcaption>      </figure>
+      <p>Micro-signs are early and easy to miss. Dark specks near a sink might be cockroach droppings — or coffee grounds, pepper, or grease. Check color, shape, location, and whether a second sign agrees.</p>
+      <p>Use a white card and a bright beam. Require more than one corroborating indicator before you escalate, unless the sign is already high-risk (live rodent, gnawing on wiring, droppings you cannot rule out as rodent).</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Treating pepper specks as proof and opening a bait.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Name the sign</li><li>Rule out the false-sign list</li><li>Look for a second indicator</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="the-importance-of-verification-tools">
+
+    <figure class="hero">
+      <img src="photos/007-pexels.jpg" alt="a close-up of a lint roller and white index card on a kitchen counter, ready for use">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>The Importance of Verification Tools</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a compact Bengaluru rental with limited under-sink access, Ravi is concerned after a faint musty smell.</p>
+    </div>
+
+    <p class="principle">Verification tools are essential for confirming the presence of micro signs quickly and accurately.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a flashlight-and-mirror check of reachable edges, plus a note of what you could not see.</p>
+      <p>A high-lumen beam on the sink line and appliance kick plates can show frass or rub marks. A mirror can show the front of a gap without moving a heavy appliance.</p>
+      <p>If the cavity is sealed, electrical, or a plumber&#39;s joint, stop. Observe, document, monitor, escalate. Limited under-sink access is a renter fact, not a reason to dismantle the trap.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Opening a sealed cavity because a smell was unexplained.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="identifying-clusters-of-signs">
+
+    <figure class="hero">
+      <img src="photos/008-pexels.jpg" alt="a close-up of pantry shelves with flour containers and visible webbing in the corners">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Identifying Clusters of Signs</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a Mumbai flat with a window on only one side, Neha finds herself frequently checking her pantry after noticing a few tiny flight patterns near the light.</p>
+    </div>
+
+    <p class="principle">Clusters of signs provide a stronger indication of pest activity than isolated instances.</p>
+
+    <div class="body-copy">
+      <p>Neha observes tiny flight patterns near her pantry light, which could indicate the presence of fruit flies. She recalls that these patterns often appear in warm, moist areas, especially near food sources. To confirm, she inspects the pantry for other signs.</p>
+      <p>While checking, Neha finds faint webbing in the corners of her pantry shelves, along with a musty odor. These signs, when combined, suggest a higher likelihood of pest activity. The presence of multiple indicators in the same area creates a stronger signal than a single observation.</p>
+      <p>A cluster is stronger than an isolated speck. Still, do not throw food or apply a chemical until contamination is actually plausible. When contamination cannot be reliably ruled out, follow applicable food-safety guidance rather than trying to salvage questionable food.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Overlooking clusters can lead to missed opportunities for early intervention.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="daily-and-weekly-routines-for-pest-detection">
+
+    <figure class="hero">
+      <img src="photos/009-pexels.jpg" alt="a close-up of a checklist pinned on a kitchen wall, highlighting daily and weekly inspection tasks">
+      <div class="hero-label">
+<span class="day">Day 4</span>        <h3>Daily and Weekly Routines for Pest Detection</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a compact Delhi apartment kitchen, Arun sets a weekly deeper look after a few daily-scan notes. This is a household kitchen, not a café.</p>
+    </div>
+
+    <p class="principle">Establishing regular routines helps maintain vigilance against pest activity.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a weekly deeper pass on the same zones as the daily scan. Check the fridge kick plate for warmth and frass, the dishwasher door seam for condensation, and rub marks around the oven.</p>
+      <p>Use a lint roller on corners and seams, then transfer the pickup to a white card. Compare it with yesterday&#39;s card instead of guessing.</p>
+      <p>A café or stall might follow extra food-service rules. Skip those unless you actually run a licensed kitchen; this book stays residential.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Neglecting to follow a routine can lead to increased pest activity and potential infestations.</p>
+    </aside>
+
+
+  </article>
+</section>
+<section class="chapter" id="the-five-minute-daily-scan-routine">
+  <div class="chapter-opener">
+    <img src="photos/010-pexels.jpg" alt="A flashlight and card ready for a short kitchen scan.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>The Five-Minute Daily Scan Routine</h2>
+<p>This chapter introduces a simple, five-minute routine designed to help you catch early signs of pest activity in your kitchen. By establishing a daily habit, you can maintain visibility and prevent infestations before they escalate.</p>    </div>
+  </div>
+
+  <article class="unit" id="understanding-the-problem">
+
+    <figure class="hero">
+      <img src="photos/011-pexels.jpg" alt="close-up of the trash bin area with clear signs of inspection.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Understanding the Problem</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a 1BHK apartment in Pune, Riya often finds herself rushing through her busy mornings, leaving her kitchen unchecked. Without a consistent inspection routine, she misses early signs of pest activity, leading to a growing concern about potential infestations.</p>
+    </div>
+
+    <p class="principle">Consistent inspections prevent blind spots and decision drift.</p>
+
+    <div class="body-copy">
+      <p>Many kitchens aim to monitor for pests, but inspections are frequently sporadic and reactive. Riya&#39;s busy schedule means she often forgets to check her kitchen until she notices something alarming, like droppings or damage. This lack of routine creates blind spots that can lead to bigger problems.</p>
+      <p>Without a simple system, inspections become haphazard. Riya might check the trash one day but skip the pantry the next, missing critical signs of pest activity. Over time, this inconsistency erodes her confidence in her ability to manage her kitchen&#39;s cleanliness and safety.</p>
+      <p>Decision drift is another issue. Riya may see a few droppings one day and none the next, causing her to forget about the earlier signs. This lack of documentation leads to delayed actions, allowing potential infestations to worsen.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Ignoring the need for a structured routine leads to missed signals and delayed action.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="the-five-pass-routine">
+
+    <figure class="hero">
+      <img src="photos/012-pexels.jpg" alt="close-up of the under-sink cabinet with inspection tools laid out.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>The Five Pass Routine</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a shared kitchen in Bengaluru, the team of four has struggled with inconsistent checks. They decide to implement the five-minute scan routine to ensure all areas are covered daily.</p>
+    </div>
+
+    <p class="principle">A structured five-pass routine ensures thorough coverage of high-risk zones.</p>
+
+    <div class="body-copy">
+      <p>The Five Minute Daily Scan Routine consists of five one-minute passes that cover the kitchen&#39;s highest risk zones: entry and trash, sink and drains, pantry and dry storage, appliances and floor edges, and ceiling wall junctions and corners. Each pass targets specific signals that may indicate pest activity, allowing the team to focus their attention effectively.</p>
+      <p>The core cadence of this routine is PACE: Prepare, Assess, Capture, Evaluate. The team prepares their tools and sets a timer, then assesses each area for signs of pests. They capture their findings with photos and notes, and finally evaluate the severity of any signs they find. This structure helps them produce consistent data and reduces the chance of missing critical signals.</p>
+      <p>Timing is crucial. The team decides to conduct their scans in the early morning before the kitchen gets busy. This timing allows them to catch any overnight activity, such as droppings or frass, before the day begins.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Failing to follow the PACE structure can lead to inconsistent data collection and missed signals.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="implementing-the-routine">
+
+    <figure class="hero">
+      <img src="photos/013-pexels.jpg" alt="close-up of packaging damage and residues found during inspection.">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Implementing the Routine</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a Mumbai apartment kitchen, Meera posts a five-zone route near the sink and runs the scan at the last wipe-down of the day.</p>
+    </div>
+
+    <p class="principle">Implementation of a fixed route enhances consistency and data reliability.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a staged caddy and a drawn five-zone route. Flashlight, inspection mirror, wipes, white index card, lint roller, and a five-minute timer.</p>
+      <p>Use the same order every day. Prepare, assess, capture, evaluate. Log date, time, and findings so the next day is not a memory test.</p>
+      <p>Do not pull out appliances or open sealed cavities solely to hunt for pests. Observe, document, monitor, then escalate.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Not logging findings can lead to confusion and missed opportunities for action.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="common-pitfalls-and-solutions">
+
+    <figure class="hero">
+      <img src="photos/010-pexels.jpg" alt="close-up of fine residues collected during inspection.">
+      <div class="hero-label">
+<span class="day">Day 4</span>        <h3>Common Pitfalls and Solutions</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a food truck operating in Chennai, the owner faces challenges due to limited space and varying workloads. They implement the five-minute routine but encounter common pitfalls.</p>
+    </div>
+
+    <p class="principle">Awareness of common pitfalls can enhance the effectiveness of the routine.</p>
+
+    <div class="body-copy">
+      <p>Rushing past hotspots is a frequent issue. The owner realizes that skimming without aiming the flashlight along edges leads to missed residues. They remind themselves to aim slightly off-axis and move the beam slowly to catch everything.</p>
+      <p>Poor lighting can hide fine particles. The owner invests in a high lumen flashlight and ensures local lights are turned on during inspections to avoid shadows. This adjustment significantly improves their ability to see potential signs of pest activity.</p>
+      <p>Skipping floor edges is another common mistake. The owner learns to treat floor edges as priority surfaces during Pass One and Pass Four, ensuring that they do not overlook critical areas where micro signs often gather.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Ignoring common pitfalls can lead to ineffective inspections and missed signals.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="key-takeaways-and-action-items">
+
+    <figure class="hero">
+      <img src="photos/015-pexels.jpg" alt="close-up of the organized caddy with inspection tools.">
+      <div class="hero-label">
+<span class="day">Day 5</span>        <h3>Child and pet safety before any trap</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a shared kitchen in Delhi, multiple tenants are responsible for maintaining cleanliness. They adopt the five-minute routine to improve compliance and visibility.</p>
+    </div>
+
+    <p class="principle">Place nothing a child or pet can reach, eat, or trip on.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a child-and-pet safety pass on the kitchen floor plan, completed before you put out a monitor, glue board, bait, snap trap, or sensor.</p>
+      <figure class="diagram">
+        <img src="figures/D006.svg" alt="Child and pet safety">
+<figcaption>Complete this pass before the monitors chapter. Product labels still win.</figcaption>      </figure>
+      <p>Keep traps and bait inaccessible to children and pets. Do not place bait beside food or water bowls. Secure loose cords and sensor hardware. Avoid exposed traps in walking areas. Follow the product&#39;s own instructions for pet and child exposure. If accidental exposure occurs, follow the product label and emergency guidance and seek appropriate medical or veterinary help.</p>
+      <p>The five-minute scan still matters: fixed route, log, habit loop. Safety sits in front of detection hardware, not after a 72-hour plan.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Putting a glue board where a cat walks or a bait next to a bowl.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Walk the floor as a child or pet would</li><li>Move bowls away from any bait plan</li><li>Secure cords before hardware goes down</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="low-cost-monitors-and-diy-traps-that-work">
+  <div class="chapter-opener">
+    <img src="photos/016-pexels.jpg" alt="Monitors along a kitchen edge, kept off the prep surface and out of a walking line.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Low-cost monitors and DIY detection tools</h2>
+<p>This chapter is about detection and monitoring, not guaranteed eradication. Low-cost tools help you see activity early. A catch does not mean the infestation is over. Child and pet safety from the previous section still applies: inaccessible bait and traps, no bait by bowls, no exposed glue in walking lines. Label every device as detection, monitoring, or control before you place it.</p>    </div>
+  </div>
+
+  <article class="unit" id="understanding-your-kitchen-s-pest-zones">
+
+    <figure class="hero">
+      <img src="photos/003-pexels.jpg" alt="detailed view of a kitchen layout with pest zones highlighted">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Understanding Your Kitchen&#39;s Pest Zones</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Ravi lives in a 1BHK apartment in Pune with a compact kitchen. He often notices small insects near his trash bin and sink. To tackle this, he decides to map out his kitchen zones and identify potential trap placements.</p>
+    </div>
+
+    <p class="principle">Mapping your kitchen zones helps in strategic placement of traps.</p>
+
+    <div class="body-copy">
+      <p>Start by sketching your kitchen layout, identifying five key zones: entry and trash, sink and drains, pantry and dry storage, appliances and floor edges, and ceiling wall junctions and corners. For Ravi, this means marking the area around his trash bin and sink as high-priority zones for pest activity.</p>
+      <p>Next, number the corners and edges where traps can be discreetly placed. For example, Ravi can place traps along the edges of his trash bin and behind the sink where moisture often attracts pests.</p>
+      <p>This initial mapping sets the foundation for effective monitoring, ensuring traps are placed where pests are likely to travel.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Neglecting to map out the kitchen can lead to ineffective trap placement.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Sketch your kitchen zones</li><li>Identify potential trap positions along edges and corners</li><li>Number corners and edges for easy reference</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="selecting-the-right-monitors">
+
+    <figure class="hero">
+      <img src="photos/018-pexels.jpg" alt="close-up of different types of pest monitors arranged on a countertop">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>Selecting the Right Monitors</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Priya, living in a small Bengaluru rental, is concerned about pantry moths. She decides to select appropriate monitors for her kitchen based on the zones she identified.</p>
+    </div>
+
+    <p class="principle">Choosing the right monitors ensures effective pest detection without attracting them to food areas.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: one device per zone, each labeled detection/monitoring or control, placed away from food-contact surfaces and out of child and pet reach.</p>
+      <figure class="diagram">
+        <img src="figures/D013.svg" alt="Tool and primary role">
+<figcaption>Detection is not control. Control is not a guarantee.</figcaption>      </figure>
+      <p>Entry and trash: a fruit-fly bottle or vinegar dish is detection and, in a limited fruit-fly situation, light control — not a roach or rodent solution. Sink: a vinegar station and a sticky monitor behind a pipe you can reach. Pantry: a pheromone trap high on a shelf (detection/monitoring) and a sticky monitor on the floor if children and pets cannot reach it.</p>
+      <p>Do not use one method as if it worked for every pest. Snap traps and bait stations are control devices. Follow the label. Never apply a pesticide to food, utensils, or a food-contact surface contrary to the label.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Calling every DIY trap a solution that works.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Select one monitor type for each zone</li><li>Gather materials for DIY builds</li><li>Ensure monitors are placed away from food prep areas</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="effective-placement-strategies">
+
+    <figure class="hero">
+      <img src="photos/019-pexels.jpg" alt="detailed view of traps placed in a kitchen setting">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Effective Placement Strategies</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Anjali, who lives in a Mumbai flat with limited space, needs to place her traps effectively to avoid clutter while ensuring they are functional.</p>
+    </div>
+
+    <p class="principle">Strategic placement of traps maximizes their effectiveness while minimizing disruption in the kitchen.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: monitors on edges and corners, off prep surfaces, inaccessible to children and pets, spaced so they do not cluster into one unreadable pile.</p>
+      <p>Glue boards along floor edges and behind appliances you can see without dismantling them. A roach station, if the product is labeled for that use, stays in a tight warm gap — not on a cutting board.</p>
+      <p>Keep devices off food-preparation surfaces. Do not place bait beside bowls. If a walking line would hit a glue board, it is in the wrong place.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Placing traps too close to food can lead to contamination and ineffective monitoring.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Place along edges first</li><li>Keep off food-contact surfaces</li><li>Recheck child and pet reach</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="monitoring-and-responding-to-data">
+
+    <figure class="hero">
+      <img src="photos/020-pexels.jpg" alt="close-up of a pest log with calculations and notes">
+      <div class="hero-label">
+<span class="day">Day 4</span>        <h3>Monitoring and Responding to Data</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In her shared kitchen, Meera notices an increase in pest activity after a week of monitoring. She needs to analyze the data from her traps to decide on the next steps.</p>
+    </div>
+
+    <p class="principle">Regular monitoring and data analysis help in timely responses to pest activity.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a catch log and an example household trigger, not a universal infestation number.</p>
+      <p>Log trap type, location, date, catches, and a catch-per-trap-night snapshot if you want one. A roach snapshot above an example household trigger — such as 0.2 in one compact kitchen using that trap type — is a prompt to clean, confirm, and follow the 72-hour initial response. It is not a scientific infestation threshold.</p>
+      <p>Calibrate any number to pest species, kitchen size, baseline activity, trap type, placement, season, severity, and residential versus food-service standards. Absence of a catch is not proof of eradication.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Treating 0.2 as a law that fits every kitchen.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Log catches and calculate CRI weekly</li><li>Set thresholds for action</li><li>Adjust monitoring strategy based on data</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="smart-sensor-and-camera-integration-for-early-alerts">
+  <div class="chapter-opener">
+    <img src="photos/021-pexels.jpg" alt="A compact kitchen with a low-angle camera aimed at the floor edge.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Smart Sensor And Camera Integration For Early Alerts</h2>
+<p>This chapter focuses on enhancing your kitchen&#39;s pest detection capabilities through the integration of smart sensors and compact cameras. By strategically placing these devices, you can catch signs of pest activity early, ensuring a proactive approach to pest management.</p>    </div>
+  </div>
+
+  <article class="unit" id="understanding-your-kitchen-s-pest-pathways">
+
+    <figure class="hero">
+      <img src="photos/022-pexels.jpg" alt="Detailed view of a kitchen floor edge with sensors positioned.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Understanding Your Kitchen&#39;s Pest Pathways</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Ravi lives in a 1BHK apartment in Pune with a compact kitchen. He has noticed occasional pest activity but wants to prevent infestations before they start. By understanding pest pathways, he can effectively place his sensors and cameras.</p>
+    </div>
+
+    <p class="principle">Identify and monitor key pest pathways to enhance detection.</p>
+
+    <div class="body-copy">
+      <p>Pests like rodents and cockroaches often travel along predictable paths, such as floor edges and behind appliances. In Ravi&#39;s kitchen, placing sensors along these pathways can provide early alerts to any movement. For instance, a motion sensor can be positioned near the baseboards where pests are likely to travel after dark.</p>
+      <p>Additionally, moisture and temperature sensors can be placed under the sink and near appliances that generate heat. This setup will help Ravi detect leaks or warm areas that attract pests, allowing him to act before an infestation occurs.</p>
+      <p>By mapping out these pathways and placing sensors accordingly, Ravi can create a layered listening system that captures pest activity effectively.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Ignoring the importance of strategic placement can lead to missed alerts and pest infestations.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="choosing-the-right-sensors-and-cameras">
+
+    <figure class="hero">
+      <img src="photos/023-pexels.jpg" alt="Close-up of a compact camera and sensors ready for installation.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>Choosing the Right Sensors and Cameras</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Anjali, in a compact Bengaluru rental with limited under-sink access, wants devices that fit the kitchen she can actually reach.</p>
+    </div>
+
+    <p class="principle">Select sensors and cameras based on specific pest behaviors and kitchen layout.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a short device list plus a privacy rule. Use the narrowest field of view necessary to monitor the kitchen and disable audio when it is unnecessary.</p>
+      <figure class="diagram">
+        <img src="figures/D017.svg" alt="Camera privacy rule">
+<figcaption>Narrow view. Kitchen only. Audio off unless it is necessary.</figcaption>      </figure>
+      <p>Low-angle cameras on floor edges and trash can help. Do not aim them at bedrooms, bathrooms, or other private areas. Tell household members. Warn guests. Do not record audio unless you have a specific reason and everyone who can be recorded is informed. For cloud cameras, know who can view the feed and when you will delete recordings.</p>
+      <p>A humidity sensor under the sink is useful if you can place it without opening sealed plumbing. Vibration on a trash lid can catch disturbance — and also a roommate. Expect false alerts.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>A wide camera with audio on in a shared home.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="configuring-alerts-and-filters">
+
+    <figure class="hero">
+      <img src="photos/024-pexels.jpg" alt="Detailed view of alert settings on a smart device.">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Configuring Alerts and Filters</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Deepak, who lives in a Mumbai flat with a window on only one side, faces challenges with noise and false alerts. He needs to configure his sensors to minimize distractions while maximizing effectiveness.</p>
+    </div>
+
+    <p class="principle">Set up alerts and filters to reduce false positives and focus on meaningful signals.</p>
+
+    <div class="body-copy">
+      <p>Deepak can start by establishing quiet hours for his sensors, setting them to only alert during times when pests are most active, typically between 11 p.m. and 5 a.m. This will significantly reduce the number of unnecessary notifications he receives during the day when he is busy.</p>
+      <p>He should also adjust the sensitivity settings on his motion sensors to avoid alerts triggered by minor movements or reflections from shiny surfaces. By creating motion zones that exclude these areas, Deepak can ensure that only significant movements are captured.</p>
+      <p>Batching alerts is another effective strategy. Instead of receiving multiple notifications for every small event, Deepak can configure his system to send a summary every ten minutes, allowing him to focus on patterns rather than individual alerts.</p>
+      <p>Sensors fail and lie. Low battery, Wi-Fi loss, a blocked lens, dust, humidity-sensor drift, pets, HVAC airflow, shadows, and missed notifications are common. Physically verify before you treat an alert as confirmed pest activity.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Failing to set filters can lead to alert fatigue, causing important notifications to be overlooked.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="integrating-alerts-with-daily-logs">
+
+    <figure class="hero">
+      <img src="photos/025-pexels.jpg" alt="Close-up of a logbook with sensor event entries.">
+      <div class="hero-label">
+<span class="day">Day 4</span>        <h3>Integrating Alerts with Daily Logs</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Sita lives in a Delhi apartment and wants sensor alerts next to her kitchen log, not a café operations file.</p>
+    </div>
+
+    <p class="principle">Combine sensor alerts with daily logs for comprehensive pest monitoring.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: each alert tagged with time, device, and zone in the same household log you already keep.</p>
+      <p>If a motion alert fires near the trash, check whether the bin was just moved, a pet walked by, or a previous alert cluster exists. A sensor is a prompt to look, not proof of a pest.</p>
+      <p>This book is for residential kitchens. A café log may have extra legal fields; do not copy those unless they apply to you.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Neglecting to log sensor events can result in missed patterns and ineffective pest management strategies.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="reviewing-and-scoring-alerts">
+
+    <figure class="hero">
+      <img src="photos/024-pexels.jpg" alt="Close-up of a scoring sheet with pest alert evaluations.">
+      <div class="hero-label">
+<span class="day">Day 5</span>        <h3>Reviewing and Scoring Alerts</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Karan, living in a small apartment in Hyderabad, wants to develop a scoring system for his alerts to prioritize actions based on evidence.</p>
+    </div>
+
+    <p class="principle">Create a scoring system to prioritize pest alerts and actions.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a confidence score that still requires a physical look. A high score is a reason to inspect, not a reason to spray.</p>
+      <figure class="diagram">
+        <img src="figures/D014.svg" alt="Sensor failure and false alerts">
+<figcaption>Verify in the room before you treat a notification as a pest.</figcaption>      </figure>
+      <p>Example weights — a floor-edge motion clip might score higher than a humidity blip — are household aids. Recalibrate. Pets, HVAC, and light shifts can copy pest motion.</p>
+      <p>If the score is high, verify in the room: look, use the flashlight, check the monitor. If you cannot confirm, log it as unverified. Do not open a pesticide because a phone buzzed.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Spraying because a humidity ping arrived at 2 a.m.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Score the alert</li><li>Walk to the zone</li><li>Treat only what you can confirm</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="food-storage-and-sanitation-hardening">
+  <div class="chapter-opener">
+    <img src="photos/027-pexels.jpg" alt="Airtight dry-goods containers on a clean pantry shelf.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Food Storage And Sanitation Hardening</h2>
+<p>This chapter focuses on hardening your kitchen&#39;s storage and sanitation to enhance early detection of pests. By removing attractants and habitats, you can ensure that weak signals stand out, allowing for timely intervention before infestations occur.</p>    </div>
+  </div>
+
+  <article class="unit" id="why-cluttered-storage-and-wet-corners-mask-signals">
+
+    <figure class="hero">
+      <img src="photos/027-pexels.jpg" alt="close-up of airtight containers with labels">
+      <div class="hero-label">
+<span class="day">Day One</span>        <h3>Why Cluttered Storage And Wet Corners Mask Signals</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Ravi lives in a 1BHK apartment in Pune with a small kitchen. His pantry is cluttered with open bags of flour and rice, leading to frequent pest sightings. After learning about hardening, he decides to reorganize his pantry to improve pest detection.</p>
+    </div>
+
+    <p class="principle">A clean and organized storage space enhances early detection of pest activity.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: clutter and standing moisture named as signal-maskers, without a single humidity number as a guarantee.</p>
+      <figure class="diagram">
+        <img src="figures/D001.svg" alt="Moisture, not a magic humidity number">
+<figcaption>Persistent damp is the pest resource. An exact percent is not.</figcaption>      </figure>
+      <p>Open bags and damp corners hide the difference between a crumb and a dropping. Cockroaches last longer without food than without water, so leaks matter more than a perfect percentage on a cheap meter.</p>
+      <p>Keep indoor humidity in a reasonable range for your climate, building, and equipment, and address persistent moisture or condensation. The pest-control principle is eliminating persistent moisture, not making every kitchen hit an exact number.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Ignoring the clutter in the pantry and not addressing moisture issues can lead to pest infestations.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="storage-that-starves-pests-of-food-and-shelter">
+
+    <figure class="hero">
+      <img src="photos/027-pexels.jpg" alt="wide shot of a pantry with organized containers">
+      <div class="hero-label">
+<span class="day">Day Two</span>        <h3>Storage That Starves Pests Of Food And Shelter</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Anjali, in a compact Bengaluru rental with shared kitchen storage, struggles with pantry pests and wants incoming food quarantined from the established stock.</p>
+    </div>
+
+    <p class="principle">Airtight storage prevents pests from accessing food and reduces the risk of infestations.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: dry goods in rigid, gasketed containers you will actually close, plus a new-package inspection before anything joins the pantry.</p>
+      <figure class="diagram">
+        <img src="figures/D018.svg" alt="New food entering the kitchen">
+<figcaption>Do not park a suspect bag against clean stock.</figcaption>      </figure>
+      <p>Inspect packaging, seams, and folds. Look for holes, gnaw marks, or webbing. Store susceptible dry goods in containers the pest cannot enter. Do not mix a questionable new package with established stock. If an infestation shows up, record the suspected source — store, trip, gift bag — so the next shop is not a repeat.</p>
+      <p>Decant if that is how you keep a seal. Label and rotate. This is especially useful after travel and for pantry moths and other stored-product pests.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Tipping a travel snack bag straight into the flour bin.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Inspect new dry goods</li><li>Quarantine damaged packs</li><li>Decant only into a seal you trust</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="moisture-control-and-drain-care">
+
+    <figure class="hero">
+      <img src="photos/030-pexels.jpg" alt="close-up of moisture sensor under sink">
+      <div class="hero-label">
+<span class="day">Day Three</span>        <h3>Moisture Control And Drain Care</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Sita, who lives in a Mumbai flat with a window on only one side, faces moisture issues under her sink. She decides to install moisture sensors and waterproof mats to manage leaks effectively.</p>
+    </div>
+
+    <p class="principle">Controlling moisture is crucial for preventing pest habitats.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a reachable leak check and a drain clean you can do without modifying plumbing you do not own.</p>
+      <p>A moisture sensor under the sink is useful if it sits on a tray, not inside a sealed joint. A lipped waterproof mat catches drips. Renters report slow leaks; they do not take the trap apart unless the lease and a qualified person say so.</p>
+      <p>Clean drains with a brush. Use an enzyme or gel only if the product is labeled for that drain. Do not mix drain chemicals. Persistent moisture, not a 40–50 percent slogan, is the pest resource.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Pouring a second drain product on top of the first.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="the-sanitation-cycle-that-leaves-no-micro-habitat">
+
+    <figure class="hero">
+      <img src="photos/031-pexels.jpg" alt="close-up of sanitation supplies on a clean countertop">
+      <div class="hero-label">
+<span class="day">Day Four</span>        <h3>The Sanitation Cycle That Leaves No Micro Habitat</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Vikram, who shares a small kitchen with his roommates in a Pune apartment, implements a sanitation cycle to keep their kitchen clean and pest-free.</p>
+    </div>
+
+    <p class="principle">A consistent sanitation cycle eliminates micro habitats that support pests.</p>
+
+    <div class="body-copy">
+      <p>Vikram established a five-step sanitation cycle in his kitchen: scrape, wash, rinse, sanitize, and dry. He trained his roommates on this process, ensuring everyone knew the importance of cleaning before sanitizing. This cycle helps maintain a clean environment, reducing the risk of pest infestations.</p>
+      <p>After each meal, Vikram scrapes food debris into compost or trash before adding water. This dry scraping minimizes water use and splash, making the cleaning process more efficient. He then uses hot, soapy water and friction to wash surfaces, replacing the water when it becomes cloudy.</p>
+      <p>Finally, Vikram applies the correct dilution of sanitizer, allowing surfaces to remain wet for the specified contact time before air drying. By following this sanitation cycle, he ensures that no micro habitats are left behind, making it harder for pests to establish themselves.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Sanitizing dirty surfaces without cleaning first will not effectively reduce pest populations.</p>
+    </aside>
+
+
+  </article>
+</section>
+<section class="chapter" id="logging-thresholds-and-decision-trees">
+  <div class="chapter-opener">
+    <img src="photos/032-pexels.jpg" alt="A clipboard log in a home kitchen.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Logging, Thresholds, And Decision Trees</h2>
+<p>This chapter bridges observation and decision-making in kitchen management. It provides a structured approach to logging data, defining thresholds for action, and utilizing decision trees to ensure timely responses to pest activity.</p>    </div>
+  </div>
+
+  <article class="unit" id="structured-logs-for-effective-monitoring">
+
+    <figure class="hero">
+      <img src="photos/033-pexels.jpg" alt="close-up of logs with handwritten entries and a pen nearby">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Structured Logs for Effective Monitoring</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a 1BHK apartment in Pune, Riya, a home chef, has noticed occasional pest activity in her small kitchen. To manage this, she sets up structured logs to capture essential details about sightings and traps.</p>
+    </div>
+
+    <p class="principle">Structured logs align with detection routines and kitchen layouts.</p>
+
+    <div class="body-copy">
+      <p>Riya creates four distinct logs: Sightings Log, Trap Catch Log, Sensor Alert Log, and Sanitation Task Log. Each log captures vital information such as date, time, zone, pest type, and notes, ensuring quick entries that can be easily referenced.</p>
+      <p>The Sightings Log includes fields for date and time, zone (like prep or dry storage), pest type (ant, roach, etc.), count, and a note for additional context. This log helps Riya track pest activity effectively.</p>
+      <p>Riya places these logs on a clipboard near her kitchen door, ensuring they are accessible for quick updates. This setup encourages consistent logging, which is crucial for identifying patterns in pest activity.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Failing to log sightings consistently can lead to missed patterns and delayed action.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Create a Sightings Log</li><li>Establish a Trap Catch Log</li><li>Set up a Sensor Alert Log</li><li>Implement a Sanitation Task Log</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="defining-effective-thresholds">
+
+    <figure class="hero">
+      <img src="photos/034-pexels.jpg" alt="Household threshold notes on a kitchen wall, not a café pass.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>Example household trigger thresholds</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a compact Bengaluru rental with limited under-sink access, Anil keeps getting fruit flies in a home kitchen. He writes example household triggers, then calibrates them.</p>
+    </div>
+
+    <p class="principle">Numbers are household examples. Calibrate them. They are not laboratory infestation limits.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: written example household trigger thresholds, labeled as examples, plus the list of what you will calibrate.</p>
+      <figure class="diagram">
+        <img src="figures/D010.svg" alt="Calibrate every threshold">
+<figcaption>Example household triggers only. Not a universal infestation number.</figcaption>      </figure>
+      <p>An example: three adult fruit-fly sightings in one day may trigger extra drain cleaning and 72-hour verification monitoring. An example: one confirmed cockroach sighting may trigger sticky monitors and a vacuum of a reachable appliance base. A roach catch-rate snapshot used in one compact kitchen is not a universal scientific threshold.</p>
+      <p>Calibrate to pest species, kitchen size, baseline activity, trap type, trap placement, season, severity, and whether food-service or residential standards apply. This book uses residential standards. A Delhi café example in an older draft is not your action level.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Copying 0.2 or &#39;three flies&#39; into a different kitchen as science.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Label numbers as examples</li><li>Write your calibration list</li><li>Keep rodent rules outside the number game</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="utilizing-decision-trees-for-action">
+
+    <figure class="hero">
+      <img src="photos/035-pexels.jpg" alt="close-up of decision tree with clear steps and criteria">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Utilizing Decision Trees for Action</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a Mumbai flat with a window on only one side, Meera uses a decision tree so a single ant and a live rodent do not get the same response.</p>
+    </div>
+
+    <p class="principle">Decision trees standardize actions based on detected signals.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a posted flow — Detect, Confirm, Classify, Act, Verify — plus a rodent branch that skips DIY control.</p>
+      <p>Confirm with a photo or a second look. Classify the pest and the zone. Ants, pantry moths, and fruit flies can stay in a household playbook. A live rodent, gnawing on wiring, a nest, or activity in multiple rooms is professional assessment.</p>
+      <p>Do not dismantle appliances, electrical equipment, sealed building cavities, or plumbing solely to investigate. Observe, document, monitor, escalate.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Treating a rodent like an ant trail.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Post Detect / Confirm / Classify / Act / Verify</li><li>Add a rodent escalation branch</li><li>Write the do-not-dismantle rule next to the tree</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="implementing-trend-analysis-and-weekly-reviews">
+
+    <figure class="hero">
+      <img src="photos/036-pexels.jpg" alt="close-up of trend analysis charts on a wall in a kitchen, showcasing pest activity over time">
+      <div class="hero-label">
+<span class="day">Day 4</span>        <h3>Implementing Trend Analysis and Weekly Reviews</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a Chennai apartment kitchen, Ravi uses a weekly review so one fruit fly does not trigger a chemical response.</p>
+    </div>
+
+    <p class="principle">Trend analysis helps avoid overreactions to isolated events.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a three-day moving average and a household Composite Risk Index used as a snapshot, not a laboratory grade.</p>
+      <p>Score sightings, trap catches, sensor alerts, and sanitation misses. Calibrate the score to pest species, kitchen size, baseline, trap type and placement, season, and whether you are in a home — not a food-service standard.</p>
+      <p>A café or restaurant can have different action levels. Do not import those numbers into a household kitchen.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Ignoring trends can lead to missed opportunities for proactive management.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Calculate a three-day moving average</li><li>Write that CRI numbers are household examples</li><li>Review the week against last week</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="the-72-hour-rapid-response-playbook">
+  <div class="chapter-opener">
+    <img src="photos/037-pexels.jpg" alt="Sealed containers and monitors in a home kitchen during an initial 72-hour check.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>72-hour initial response and verification playbook</h2>
+<p>When a monitor lights up, a trap catches more than usual, or a scan finds a real sign, start a short containment clock. That window is 72 hours of initial response and verification, not a guaranteed infestation-resolution period. A few ants may quiet quickly. Pantry pests may need much longer monitoring. Cockroach activity may continue after the first intervention. Rodent problems can require professional intervention from the first confirmed sign. Structural moisture cannot necessarily be fixed in 72 hours.</p>    </div>
+  </div>
+
+  <article class="unit" id="phase-one-assess-and-contain-hour-0-to-6">
+
+    <figure class="hero">
+      <img src="photos/037-pexels.jpg" alt="close-up of sealed food containers and traps in a kitchen setting.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Phase One: Assess and Contain (Hour 0 to 6)</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a 1BHK apartment in Pune, Riya notices a few ants near her kitchen sink. She recalls her threshold of seeing one ant as a trigger to act. At 8 a.m., she starts the clock.</p>
+    </div>
+
+    <p class="principle">Containment protects food safety in the first 24 hours.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: food isolated, trash sealed, extra monitors in the signal zone, and a rodent check that can stop DIY immediately.</p>
+      <figure class="diagram">
+        <img src="figures/D008.svg" alt="Rodent escalation rule">
+<figcaption>Rodents are not ants. Do not handle droppings or a carcass casually.</figcaption>      </figure>
+      <p>Move open food into sealed containers or the refrigerator. Do not try to salvage what you cannot reliably rule out as contaminated — follow applicable food-safety guidance instead. Seal trash. Add monitors near the signal. Aim cameras at floor edges you already agreed were privacy-safe.</p>
+      <figure class="diagram">
+        <img src="figures/D011.svg" alt="When food leaves the kitchen">
+<figcaption>If contamination cannot be ruled out, do not improvise a salvage.</figcaption>      </figure>
+      <p>Rodent escalation rule: get professional assessment if a live rodent is seen inside the kitchen, fresh droppings keep appearing, gnawing occurs around electrical wiring, activity is in multiple rooms, a nest or nesting material is found, or activity persists after initial containment. Do not handle rodent droppings, urine contamination, or a dead rodent casually. Use appropriate protective measures. If contamination is significant, use professional cleanup.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Log the trigger event noting the sighting of ants.</li><li>Isolate food by sealing open items and refrigerating them.</li><li>Seal trash and compost, moving bins away from prep zones.</li><li>Increase trap density by adding traps near the sink.</li><li>Adjust cameras for better visibility of floor edges.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Bagging rodent droppings with a bare hand, or keeping gnawed rice.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Isolate or discard food by the tree</li><li>Run the rodent rule</li><li>Add monitors without blocking a walking line</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="phase-two-confirm-and-intensify-monitoring-hour-6-to-24">
+
+    <figure class="hero">
+      <img src="photos/037-pexels.jpg" alt="close-up of a trap with an ant caught, alongside monitoring logs.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Phase Two: Confirm and Intensify Monitoring (Hour 6 to 24)</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>By 2 p.m., Riya checks her traps and finds one ant caught. She decides to intensify her monitoring efforts.</p>
+    </div>
+
+    <p class="principle">Confirmation beats guesswork.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: traps read, hot zone mapped, pest class confirmed if you can do so without dismantling the room.</p>
+      <p>Keep food isolated. Identification is a flashlight and a reachable check, not a teardown of the dishwasher. Covering a drain to see what emerges is a monitor, not a chemical.</p>
+      <p>If you now have rodent signs, stop the ant-style playbook and follow the rodent escalation rule. 72 hours is still only verification time.</p>
+      <p>Do not dismantle appliances, electrical equipment, sealed cavities, or plumbing solely to investigate. Observe, document, monitor, escalate.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Check traps and sensors at 6 hours, noting any catches.</li><li>Map catches to identify hot zones.</li><li>Use identification tests to confirm pest types.</li><li>Document findings in your log with photos.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Moving traps too soon can lead to missed trends; keep them in place for at least 48 hours.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Check traps and monitors at 6, 12, and 24 hours.</li><li>Map catches to refine hot zones.</li><li>Use identification tests to confirm sources.</li><li>Document findings with timestamps and photos.</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="phase-three-targeted-interventions-hour-24-to-48">
+
+    <figure class="hero">
+      <img src="photos/040-pexels.jpg" alt="close-up of nonrepellent bait stations set up in a kitchen.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>Phase Three: Targeted Interventions (Hour 24 to 48)</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>At 10 a.m., Riya notices a decrease in ant activity but decides to take targeted action to eliminate the source.</p>
+    </div>
+
+    <p class="principle">The label is the law of the product. DIY stops when the pest or the chemical is beyond you.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a chemical-safety pass, then a labeled, pest-specific step — or a call to a professional.</p>
+      <figure class="diagram">
+        <img src="figures/D005.svg" alt="Chemical safety rule">
+<figcaption>The label wins. Mixing is not a kitchen hack.</figcaption>      </figure>
+      <p>Chemical safety rule: use only products legally registered or approved for the intended pest and location, and follow the product label exactly. Never apply pesticides to food, food-contact surfaces, utensils, or areas contrary to the label. Do not mix pest-control chemicals or improvise concentrations.</p>
+      <p>Stop DIY treatment and call a professional when you cannot identify the pest, a rodent rule has triggered, activity is rising or spreading, a chemical step would require expertise or equipment you do not have, a nest sits in an inaccessible cavity, wiring may be involved, or the label&#39;s required use is not possible in your kitchen (children, pets, food surfaces, rental limits).</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Choose pest-specific plays based on confirmed signals.</li><li>Apply minimal effective treatments to remove the source.</li><li>Maintain increased monitoring and document every intervention.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Pouring leftover cleaner into a bait or spraying a counter &#39;lightly.&#39;</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Read the full label</li><li>Confirm the pest and the site match the product</li><li>Stop if a rodent or safety rule has triggered</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="phase-four-verify-and-de-escalate-hour-48-to-72">
+
+    <figure class="hero">
+      <img src="photos/041-pexels.jpg" alt="close-up of monitoring logs and traps showing successful results.">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Phase four: verify — 72 hours is not eradication</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>By 8 a.m., Riya reviews her traps and sensor logs, looking for signs of success before returning to normal operations.</p>
+    </div>
+
+    <p class="principle">Quiet for 72 hours is not proof the infestation is gone.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a yes/no on each success line, then either a careful de-escalation or a longer watch / professional call.</p>
+      <figure class="diagram">
+        <img src="figures/D009.svg" alt="Success criteria before de-escalation">
+<figcaption>All of these, plus no rodent-rule trigger. 72 hours is not a cure clock.</figcaption>      </figure>
+      <p>De-escalate only when success criteria are actually met: no new confirmed sightings; no new confirmed droppings, frass, or gnawing; trap captures trending to zero; no new activity in the previously affected zone; food and moisture attractants corrected; entry points addressed where practical; no unresolved leak or sanitation issue.</p>
+      <p>Absence of evidence during 72 hours does not automatically prove eradication. Pantry pests, cockroaches, rodents, and moisture problems often outlast this window. Keep at least one extra monitor into the following week.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Review trap catches and sensor logs for downward trends.</li><li>Perform a focused audit of root causes and close gaps.</li><li>De-escalate monitoring density once success criteria are met.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Declaring victory because the glue board was empty for two nights.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Tick each success line honestly</li><li>Keep one extra monitor</li><li>Escalate if any rodent line is true</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="long-term-prevention-and-seasonal-strategies">
+  <div class="chapter-opener">
+    <img src="photos/008-pexels.jpg" alt="A tidy kitchen staged for prevention, not a spray fog.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Long-Term Prevention And Seasonal Strategies</h2>
+<p>This chapter shifts your focus from emergency response to long-term prevention. You will learn how to stay ahead of seasonal pressures, keep your kitchen envelope tight, and keep your detection window wide open before pests establish.</p>    </div>
+  </div>
+
+  <article class="unit" id="environment-hardening">
+
+    <figure class="hero">
+      <img src="photos/043-pexels.jpg" alt="close-up of a window screen being inspected for tears">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Environment Hardening</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Ravi lives in a 1BHK apartment in Pune with a small kitchen. He notices ants entering through a gap under the front door. After reading about environment hardening, he decides to inspect his door sweeps and thresholds.</p>
+    </div>
+
+    <p class="principle">Renters clean, document, and ask. They do not rebuild the envelope by default.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a renter-boundary list and a moisture check that does not depend on hitting a printed humidity percent.</p>
+      <figure class="diagram">
+        <img src="figures/D012.svg" alt="Renter boundary">
+<figcaption>Ask before you alter the building. Removable monitors are usually fine.</figcaption>      </figure>
+      <p>You can usually clean and dry surfaces, organize food, use removable monitors, document activity, use temporary non-damaging measures where appropriate, and report leaks and building defects. Ask the landlord or property management before permanent caulking, door or threshold modifications, plumbing changes, wall penetrations, structural sealing, exterior modifications, or appliance and service-panel work.</p>
+      <figure class="diagram">
+        <img src="figures/D002.svg" alt="Humidity without a fake target">
+<figcaption>Kill persistent damp. Do not chase one printed percent.</figcaption>      </figure>
+      <p>If you own the unit or you have written permission, inspect door sweeps and screens, and seal only with products meant for that gap. Keep indoor humidity in a reasonable range for your climate, building, and equipment, and chase persistent moisture or condensation. The number on a hobby meter is not a pest-control guarantee.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Foaming a utility gap in a rental and calling it a 40–50 percent humidity fix.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Circle what you may do without asking</li><li>Write the landlord request for the rest</li><li>Note any standing damp</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="exterior-sanitation">
+
+    <figure class="hero">
+      <img src="photos/044-pexels.jpg" alt="close-up of a well-maintained trash bin area with no debris">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>Exterior Sanitation</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Anita lives in a Bengaluru apartment building. She can keep her own bin area clean; she cannot rebuild the compound.</p>
+    </div>
+
+    <p class="principle">Managing the surroundings reduces pest introductions.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: what you can actually control outside a home kitchen — lidded bins, dry pad, no food left beside the door — plus a note of what is the building&#39;s job.</p>
+      <p>Ask before you change shared drains, landscaping, or exterior walls. Renters report leaks and bin defects; they do not assume a right to rebuild the envelope.</p>
+      <p>Indoors, keep drains mechanically clean. Use a product only if it is labeled for that drain and that use. Do not mix chemicals.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Neglecting to clean the area around trash bins can attract pests.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Use lidded trash bins</li><li>Trim vegetation around the building</li><li>Keep exterior drains clear</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="seasonal-risk-anticipation">
+
+    <figure class="hero">
+      <img src="photos/045-pexels.jpg" alt="close-up of a moisture sensor placed in a cabinet">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Seasonal Risk Anticipation</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Meera lives in a Mumbai flat with a window on only one side. She plans for the upcoming monsoon season by adjusting her pest prevention strategies.</p>
+    </div>
+
+    <p class="principle">Adjusting ahead of seasonal changes helps manage pest pressure.</p>
+
+    <div class="body-copy">
+      <p>Seasonality changes detection windows. When average night temperatures rise above 70 degrees Fahrenheit, expect faster cycles for pantry moths and cockroaches. Increase sticky monitor density near dry goods by one or two units and reduce the replacement interval from four weeks to two weeks. During cold snaps, move snap traps closer to door thresholds and utility chases where rodents seek warmth.</p>
+      <p>After long humid spells, widen your daily scan around under sink areas and along baseboards near appliances. Look for condensation rings or smell for mustiness. Place a temporary moisture sensor in any cabinet that has stayed damp for more than a day to catch moisture issues early.</p>
+      <p>After travel, inspect new dry goods before they join the pantry: packaging, seams, damage, webbing. Quarantine questionable packs. Do not mix them with established stock. Record the suspected source if an infestation appears. Snap traps, if you use them at all, are control devices — child- and pet-inaccessible, labeled for that pest, never a casual hallway placement.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Failing to adjust pest control measures seasonally can lead to infestations.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Increase monitor density in warm months</li><li>Widen daily scans after humid spells</li><li>Plan for holiday-related pest risks</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="operational-discipline">
+
+    <figure class="hero">
+      <img src="photos/046-pexels.jpg" alt="A household checklist beside a kitchen sink, not a restaurant pass.">
+      <div class="hero-label">
+<span class="day">Day 4</span>        <h3>Operational Discipline</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Suresh lives in a Chennai apartment and schedules envelope checks he is allowed to do, plus one professional review if activity repeats.</p>
+    </div>
+
+    <p class="principle">Scheduled tasks create a disciplined prevention rhythm.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a calendar for scans, monitor replacement, and a stop-DIY date if the same problem returns.</p>
+      <p>Walk only the envelope you are allowed to touch. Test what you own — bin lids, gaskets, removable monitors. Ask before caulk, door sweeps, or exterior work.</p>
+      <p>A licensed pest professional is an audit and, when needed, a treatment the label and the law allow. It is not a commitment to spray on a schedule.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Skipping scheduled audits can lead to unnoticed pest risks.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Before you move on</h4>
+      <ul><li>Schedule quarterly audits</li><li>Plan for an annual pro inspection</li><li>Create a budget for prevention measures</li></ul>
+    </div>
+
+  </article>
+  <article class="unit" id="when-diy-stops">
+
+    <figure class="hero">
+      <img src="photos/043-pexels.jpg" alt="A kitchen door gap photographed for a landlord, monitors still on the floor edge.">
+      <div class="hero-label">
+<span class="day">Day 5</span>        <h3>When DIY stops</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>After a second week of the same kitchen activity, Priya in a Pune 1BHK stops adding bait and calls a professional with her log.</p>
+    </div>
+
+    <p class="principle">Detection can stay DIY. Some control cannot.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a go/no-go list kept with the dashboard of this kitchen. Stop DIY and escalate when any line is true.</p>
+      <figure class="diagram">
+        <img src="figures/D016.svg" alt="Stop DIY and escalate when">
+<figcaption>This page sits before seasonal maintenance habits, not instead of them.</figcaption>      </figure>
+      <p>Stop DIY and escalate when: rodents are confirmed; activity is increasing despite intervention; activity occurs in multiple rooms; there is suspected contamination; a nest is suspected in an inaccessible cavity; electrical wiring may be affected; structural moisture is involved; the pest cannot be confidently identified; the problem repeatedly returns; or a chemical intervention would require expertise the reader does not have.</p>
+      <p>Bring logs, photos, and product names. Do not improvise a stronger mix while you wait.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Tick every stop-DIY line</li><li>Call with logs and photos</li><li>Leave remaining bait on-label or remove it</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Adding a second unlabeled chemical because the first weekend failed.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Tick every stop-DIY line</li><li>Call with logs and photos</li><li>Leave remaining bait on-label or remove it</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="five-minute-daily-scan-checklist">
+  <div class="chapter-opener">
+    <img src="photos/032-pexels.jpg" alt="Scan tools arranged on a kitchen counter.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Five-Minute Daily Scan Checklist</h2>
+<p>This chapter provides a comprehensive guide to conducting a quick daily scan of your kitchen to prevent pest infestations. By following this checklist, you can establish a routine that helps you identify potential issues early and maintain a clean environment.</p>    </div>
+  </div>
+
+  <article class="unit" id="purpose-and-benefits">
+
+    <figure class="hero">
+      <img src="photos/049-pexels.jpg" alt="alternative angle of the caddy with tools, focusing on the flashlight and mirror.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Purpose and Benefits</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a 1BHK apartment in Pune, resident Priya conducts her daily scan in the kitchen, which is prone to pest activity due to its proximity to the entry points.</p>
+    </div>
+
+    <p class="principle">Early detection prevents infestations from taking hold.</p>
+
+    <div class="body-copy">
+      <p>Conducting a daily scan helps you spot pest activity within minutes. This checklist standardizes what to check, ensuring you don’t miss any indicators. By building this habit, you keep risks low and responses fast, which is crucial in a small kitchen space.</p>
+      <p>The checklist is designed to highlight exact micro signs of pest activity, prompting you to use specific tools for effective scanning. This proactive approach is essential for maintaining a clean and pest-free environment, especially in an apartment where space is limited.</p>
+      <p>By dedicating just five minutes each day to this routine, you can significantly reduce the chances of infestations, making it easier to manage your kitchen and maintain hygiene.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="how-to-use-the-checklist">
+
+    <figure class="hero">
+      <img src="photos/034-pexels.jpg" alt="close-up of a zone being scanned with tools in use.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>How to Use the Checklist</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a compact Bengaluru rental with limited under-sink access, Ramesh scans before dinner prep and logs what he cannot see.</p>
+    </div>
+
+    <p class="principle">Consistency in scanning leads to effective pest management.</p>
+
+    <div class="body-copy">
+      <p>To effectively use the checklist, set a specific daily scan time, ideally at the start of your day or before dinner preparation. This consistency helps you remember to check each zone regularly, which is crucial in a small kitchen where pests can easily hide.</p>
+      <p>Gather your tools before starting: a flashlight, a small mirror, a white card or paper, and your phone camera. These tools will assist you in identifying micro signs of pest activity and documenting your findings.</p>
+      <p>Follow the zones outlined in the checklist, spending approximately 60 seconds on each. Use the SCAN loop: See, Confirm, Act, Note. Tick &#39;Yes&#39; or &#39;No&#39; for activity, capture one photo per zone, and add a brief note to keep track of any findings.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="main-content-the-checklist-template">
+
+    <figure class="hero">
+      <img src="photos/010-pexels.jpg" alt="close-up of a checklist in use, with a focus on notes and photos.">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Main Content: The Checklist Template</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a Mumbai flat with a window on only one side, Meera performs her daily scan, focusing on entry points and hidden areas where pests might enter.</p>
+    </div>
+
+    <p class="principle">Thorough scanning of all zones is essential for effective pest control.</p>
+
+    <div class="body-copy">
+      <p>The checklist is divided into five key zones, each requiring a focused 60-second scan. Start with Zone 1: Entry Points, where you check doors, windows, and vents. Use a flashlight at a low angle to spot droppings, fine dust piles, webbing, and light leaks. Document any findings with a quick note and photo reference.</p>
+      <p>Next, move to Zone 2: Dry Storage and Pantry. Use a mirror for back corners and a white card behind jars to reveal movement. Look for signs like frass, shed skins, and tiny beetles. Again, note any activity and take a photo for your records.</p>
+      <p>Continue to Zone 3: Prep Surfaces and Appliances, using the flashlight under edges and a mirror under appliances. Check for grease tracks, crumb clusters, and egg cases. Document your findings as you go, ensuring you have a clear record of any pest activity.</p>
+      <p>Do not dismantle appliances or plumbing to complete a zone. If you cannot see it without taking the kitchen apart, tick &#39;not accessible,&#39; photograph the blocker, and escalate instead of forcing it.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="tips-for-success">
+
+    <figure class="hero">
+      <img src="photos/052-pexels.jpg" alt="close-up of the caddy with tools, emphasizing their role in the scanning process.">
+      <div class="hero-label">
+<span class="day">Day 4</span>        <h3>Tips for Success</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a small apartment kitchen, one person runs the daily scan with a caddy that stays off the food-prep surface.</p>
+    </div>
+
+    <p class="principle">Proper training and tool usage enhance the effectiveness of the scanning routine.</p>
+
+    <div class="body-copy">
+      <p>Using the flashlight at a low angle can reveal textures and signs of pest activity that might otherwise go unnoticed. This technique is particularly useful in areas with shadows or poor lighting, such as behind appliances or in corners.</p>
+      <p>Placing the white card behind items helps to reveal movement and contrast, making it easier to spot any signs of pests. This simple trick can significantly improve your chances of catching issues early.</p>
+      <p>Keep all your scanning tools organized in one caddy near the checklist. This not only saves time but also ensures that everyone involved in the scanning process knows where to find the necessary tools.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="common-mistakes">
+
+    <figure class="hero">
+      <img src="photos/053-pexels.jpg" alt="close-up of pest signs in a kitchen, highlighting the need for careful scanning.">
+      <div class="hero-label">
+<span class="day">Day 5</span>        <h3>Common Mistakes</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a shared apartment in Chennai, roommates often skip zones during their scans, leading to missed pest signs.</p>
+    </div>
+
+    <p class="principle">Avoiding common mistakes is crucial for effective pest control.</p>
+
+    <div class="body-copy">
+      <p>One common mistake is skipping one zone during the scan. Each zone is important and can harbor different signs of pest activity. Ensure that every zone is checked thoroughly to avoid missing critical indicators of infestations.</p>
+      <p>Another mistake is scanning too quickly. Take your time to thoroughly inspect each area, as rushing can lead to overlooked signs. Remember, the goal is to identify any potential issues before they escalate.</p>
+      <p>Cleaning before documenting findings can also lead to problems. Always take notes and photos of any activity before cleaning, as this documentation is essential for tracking pest issues over time.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="next-steps">
+
+    <figure class="hero">
+      <img src="photos/054-pexels.jpg" alt="close-up of a tracking log with highlighted findings.">
+      <div class="hero-label">
+<span class="day">Day 6</span>        <h3>Next Steps</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>After a week of daily scans, Anjali in her Pune apartment logs her results and sets thresholds for escalation based on her findings.</p>
+    </div>
+
+    <p class="principle">Tracking results helps in managing pest control effectively.</p>
+
+    <div class="body-copy">
+      <p>After completing your daily scans, log your results in the main ebook tracking pages. This will help you identify patterns and determine if there are any recurring issues that need to be addressed.</p>
+      <p>Set thresholds for escalation based on your findings. If you record two &#39;Yes&#39; events in the same zone within seven days, follow the ebook&#39;s immediate action plan and monitoring schedule. This proactive approach ensures that you address potential infestations before they become serious problems.</p>
+      <p>Scheduling weekly deep scans is also essential. These comprehensive checks will help you maintain a pest-free environment and ensure that any issues are caught early.</p>
+    </div>
+
+
+
+
+  </article>
+</section>
+<section class="chapter" id="symptom-to-signal-matrix-template">
+  <div class="chapter-opener">
+    <img src="photos/055-pexels.jpg" alt="A kitchen with a matrix template and monitors in view.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>Symptom-To-Signal Matrix for Kitchen Pest Management</h2>
+<p>This chapter provides a comprehensive guide to using the Symptom-To-Signal Matrix Template for effective pest management in your kitchen. By identifying early signals of pest activity, you can take proactive measures to prevent infestations.</p>    </div>
+  </div>
+
+  <article class="unit" id="purpose-and-benefits-of-the-matrix">
+
+    <figure class="hero">
+      <img src="photos/056-pexels.jpg" alt="A filled Symptom-To-Signal Matrix Template with a clean kitchen backdrop.">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Purpose and Benefits of the Matrix</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a 1BHK apartment in Pune, Neha often finds crumbs on her kitchen counter but isn&#39;t sure if they indicate a pest problem. Using the Symptom-To-Signal Matrix helps her identify early signs of pests before they become a larger issue.</p>
+    </div>
+
+    <p class="principle">The matrix helps pinpoint early pest signals before an infestation occurs.</p>
+
+    <div class="body-copy">
+      <p>The Symptom-To-Signal Matrix is designed to standardize daily and weekly reviews of your kitchen for consistency. By utilizing this template, you can effectively reduce guesswork through symptom to pest mapping, allowing for quicker identification of potential issues.</p>
+      <p>This systematic approach not only speeds up decision-making with clear thresholds and actions but also helps in maintaining a pest-free kitchen environment. Regular use of the matrix can lead to early detection of pests, which is crucial in preventing larger infestations.</p>
+      <p>By mapping observed symptoms to likely pests, locations, and severity tiers, you can ensure that you are always prepared to take the necessary actions when signs of pests are detected.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="how-to-use-the-symptom-to-signal-matrix">
+
+    <figure class="hero">
+      <img src="photos/033-pexels.jpg" alt="A filled Symptom-To-Signal Matrix Template with a clean kitchen backdrop.">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>How to Use the Symptom-To-Signal Matrix</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Ravi, living in a compact Bengaluru rental with limited under-sink access, decides to conduct a thorough kitchen scan after noticing some odd smells. He prints the matrix and prepares to fill it out during his inspection.</p>
+    </div>
+
+    <p class="principle">Follow a structured approach to effectively use the matrix during kitchen scans.</p>
+
+    <div class="body-copy">
+      <p>To begin, print or load the Symptom-To-Signal Matrix Template. Place copies in accessible locations such as on the fridge or within your cleaning caddy for easy reference during your scans.</p>
+      <p>During each scan, fill out one row per symptom cluster you observe. Use the provided legend to rate the severity of each symptom, which will help you prioritize your actions based on the level of pest activity detected.</p>
+      <p>After documenting the symptoms, run the listed verification steps to confirm your findings. Set monitors as recommended and note any triggers that may indicate an escalation in pest activity.</p>
+      <p>Cross-check the false-signs list before you escalate a single speck. Clusters still need a second indicator unless a rodent or contamination rule has already triggered.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="understanding-severity-tiers-and-actions">
+
+    <figure class="hero">
+      <img src="photos/058-pexels.jpg" alt="A pantry shelf with a filled Symptom-To-Signal Matrix Template and pest management tools.">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Understanding Severity Tiers and Actions</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a Mumbai flat with a window on only one side, Priya discovers droppings in her pantry. She uses the matrix to classify the severity of the signs and determine her next steps.</p>
+    </div>
+
+    <p class="principle">Classifying symptoms into severity tiers helps prioritize actions based on pest activity.</p>
+
+    <div class="body-copy">
+      <p>The matrix includes a compact legend that categorizes symptoms into three severity tiers: Tier 1 indicates early traces with a single minor sign and no movement, Tier 2 signifies active signs with repeated evidence or visible activity, and Tier 3 denotes urgent situations with multiple zones affected or high counts.</p>
+      <p>When Priya identifies droppings in her pantry, she rates this as Tier 2 based on the frequency and location of the signs. This classification prompts her to take immediate action to prevent further pest activity.</p>
+      <p>Each tier has specific verification steps and recommended monitors. For example, if the severity is rated Tier 2, Priya would set sticky traps and a camera clip to monitor the situation closely.</p>
+    </div>
+
+
+
+
+  </article>
+  <article class="unit" id="common-mistakes-to-avoid">
+
+    <figure class="hero">
+      <img src="photos/059-pexels.jpg" alt="A kitchen corner with a filled Symptom-To-Signal Matrix Template and pest management tools.">
+      <div class="hero-label">
+<span class="day">Day 4</span>        <h3>Common Mistakes to Avoid</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Anjali, who lives in a compact 1BHK in Pune, often overlooks early signs of pests. After a recent infestation, she learns about common mistakes to avoid while using the matrix.</p>
+    </div>
+
+    <p class="principle">Avoiding common mistakes ensures effective pest management and timely interventions.</p>
+
+    <div class="body-copy">
+      <p>One of the most common mistakes is ignoring single early traces of pest activity. Anjali realizes that even minor signs can escalate quickly if not addressed promptly. By using the matrix consistently, she can track these early indicators and take action before they become a larger problem.</p>
+      <p>Another frequent error is mixing old residue with fresh signals. Anjali learns to log photos and differentiate between old and new signs, which is crucial for accurate assessments and timely responses.</p>
+      <p>Additionally, placing monitors too far from areas of activity can hinder effective pest management. Anjali now ensures that her traps and sensors are strategically positioned based on the findings documented in her matrix.</p>
+    </div>
+
+
+
+
+  </article>
+</section>
+<section class="chapter" id="72-hour-rapid-response-worksheet">
+  <div class="chapter-opener">
+    <img src="photos/060-pexels.jpg" alt="A kitchen worksheet beside sealed containers and a monitor, not a spray kit.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>72-hour initial response and verification worksheet</h2>
+<p>Use this worksheet for the first 72 hours of containment and verification. It is not a promise that every pest problem ends in 72 hours. Close the incident only when success criteria are met; escalate on the rodent and stop-DIY lines even on hour one.</p>    </div>
+  </div>
+
+  <article class="unit" id="0-to-6-hours-contain-and-confirm">
+
+    <figure class="hero">
+      <img src="photos/061-pexels.jpg" alt="image of a tidy kitchen countertop with pest control supplies arranged neatly">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>0 to 6 Hours: Contain and Confirm</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In a 1BHK apartment in Pune, resident Anjali detected small ants near her kitchen sink. She immediately began the containment process by removing exposed food and wiping down surfaces.</p>
+    </div>
+
+    <p class="principle">Act swiftly to contain the problem and confirm the presence of pests.</p>
+
+    <div class="body-copy">
+      <p>Today&#39;s output: a filled 0–6, 6–24, 24–48, and 48–72 log that treats 72 hours as verification, not a cure.</p>
+      <figure class="diagram">
+        <img src="figures/D003.svg" alt="72 hours is verification">
+<figcaption>Initial containment clock. Not a guaranteed resolution period.</figcaption>      </figure>
+      <p>Hour 0–6: isolate or discard food by the disposal tree; seal trash; place child- and pet-safe monitors; photograph. Run the rodent rule before any bait. Do not handle rodent droppings or a carcass casually.</p>
+      <figure class="diagram">
+        <img src="figures/D004.svg" alt="Worksheet go / no-go">
+<figcaption>Any rodent line or stop-DIY line beats a tidy 72-hour form.</figcaption>      </figure>
+      <p>Hour 6–24: count captures, map the hot zone, identify if you can without dismantling appliances. Hour 24–48: only labeled products for that pest and place; never on food-contact surfaces; never mixed. Hour 48–72: de-escalate only on the success list. Quiet monitors are not eradication. Go professional on live rodents, daytime cockroaches in a home that cannot contain them, rising counts, multiple rooms, or wiring/moisture you cannot legally fix.</p>
+    </div>
+
+    <div class="steps">
+      <h4>Do this</h4>
+      <ol><li>Remove exposed food and store sealed.</li><li>Wipe crumbs, grease, and sticky residues.</li><li>Place intercept monitors near detection point.</li></ol>
+    </div>
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Closing the worksheet because 72 hours passed.</p>
+    </aside>
+
+    <div class="checklist">
+      <h4>Today&#39;s output</h4>
+      <ul><li>Remove exposed food</li><li>Wipe surfaces</li><li>Place monitors</li><li>Adjust sensors</li></ul>
+    </div>
+
+  </article>
+</section>
+<section class="chapter" id="roi-and-cost-savings-guide">
+  <div class="chapter-opener">
+    <img src="photos/032-pexels.jpg" alt="A household notebook of monitor costs, not a café ledger.">
+    <div class="opener-text">
+      <p class="chap-kicker">Chapter</p>
+      <h2>ROI And Cost Savings Guide</h2>
+<p>This guide helps you quantify the financial benefits of early pest detection in your kitchen. By using simple formulas and a structured approach, you can demonstrate tangible savings and justify your monitoring investments.</p>    </div>
+  </div>
+
+  <article class="unit" id="purpose-and-benefits">
+
+    <figure class="hero">
+      <img src="photos/035-pexels.jpg" alt="a close-up of pest monitoring tools in a clean kitchen setting">
+      <div class="hero-label">
+<span class="day">Day 1</span>        <h3>Purpose and Benefits</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Ravi lives in a 1BHK apartment in Pune. He recently invested in a pest monitoring system after noticing ants in his kitchen. By using this guide, he can track his savings and justify the cost of the monitoring system.</p>
+    </div>
+
+    <p class="principle">Early detection translates into financial savings.</p>
+
+    <div class="body-copy">
+      <p>This guide helps you translate early warnings into clear financial outcomes. By documenting detection events, you can show tangible savings that justify your monitoring investment. The goal is to prioritize actions that deliver the most value and build a record that proves the system pays for itself over time.</p>
+      <p>Understanding the benefits of early detection is crucial. It not only helps in avoiding infestations but also in quantifying the financial impact of pest activity. By capturing data on each detection, you can create a compelling case for the effectiveness of your monitoring system.</p>
+      <p>Ultimately, this guide empowers you to take control of your kitchen environment, ensuring that you can enjoy your space without the worry of pest-related issues.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Failing to recognize the long-term financial benefits of early pest detection can lead to unnecessary costs.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="how-to-use">
+
+    <figure class="hero">
+      <img src="photos/064-pexels.jpg" alt="a close-up of a pest detection log on a kitchen counter">
+      <div class="hero-label">
+<span class="day">Day 2</span>        <h3>How to Use</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Priya, a resident of a small rental in Bengaluru, has been using a pest monitoring system for a few months. She diligently logs each detection event, noting the date, location, and pest type, which helps her estimate potential savings.</p>
+    </div>
+
+    <p class="principle">Consistent data collection leads to accurate savings estimates.</p>
+
+    <div class="body-copy">
+      <p>To effectively use this guide, start by capturing each detection event. Note the date, location, and pest type observed. This information is crucial for understanding the impact of early detection on your kitchen&#39;s health and finances.</p>
+      <p>Next, estimate what would have happened without early detection. Use average past outcomes or conservative assumptions to fill out the worksheet provided. This will help you calculate potential savings and ROI accurately.</p>
+      <p>Log your results monthly and validate them with receipts and photos. Reviewing trends quarterly allows you to adjust your monitoring strategies based on the data collected.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Neglecting to log detection events can lead to inaccurate savings calculations.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="main-content">
+
+    <figure class="hero">
+      <img src="photos/035-pexels.jpg" alt="a close-up of calculation sheets and pest monitoring tools on a kitchen table">
+      <div class="hero-label">
+<span class="day">Day 3</span>        <h3>Main Content</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>In her Mumbai flat, Anjali faced a fruit fly issue in her small kitchen. By applying the formulas outlined in this guide, she calculated her savings after preventing a larger infestation.</p>
+    </div>
+
+    <p class="principle">Accurate calculations reveal the true cost savings from pest monitoring.</p>
+
+    <div class="body-copy">
+      <p>Utilizing simple formulas is key to understanding your savings. For example, Avoided Food Loss equals the quantity at risk times the price per unit. This means if you have 6 cereal boxes at risk priced at 4 each, your avoided food loss is 24.</p>
+      <p>Next, calculate Avoided Replacement Cost, which includes containers, packaging, and cleaning supplies that would have been needed. For Anjali, this amounted to 18 for sealed containers and cleaning supplies.</p>
+      <p>Finally, consider Avoided Downtime Cost, which includes extra meal costs and time spent cleaning. If Anjali had to eat out for two meals at 18 each plus two hours of cleaning at 15 per hour, her total downtime cost would be 66. Adding this to her Avoided Service Fees gives a comprehensive view of her total savings.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Overlooking the cumulative effect of various cost savings can lead to underestimating the benefits of monitoring.</p>
+    </aside>
+
+
+  </article>
+  <article class="unit" id="tips-for-success">
+
+    <figure class="hero">
+      <img src="photos/066-pexels.jpg" alt="Household monitoring tools on a clean kitchen counter.">
+      <div class="hero-label">
+<span class="day">Day 4</span>        <h3>Tips for Success</h3>
+      </div>
+    </figure>
+
+    <div class="scenario">
+      <p class="label">In this apartment</p>
+      <p>Suresh uses the same household log to keep estimates honest. This is a home kitchen, not a Delhi café operation.</p>
+    </div>
+
+    <p class="principle">Implementing best practices enhances monitoring effectiveness.</p>
+
+    <div class="body-copy">
+      <p>To maximize the benefits of your pest monitoring system, use conservative estimates when calculating potential savings. This maintains credibility and ensures that your calculations are realistic.</p>
+      <p>Validate your findings with dated photos and receipts. Documenting both what happened and what you avoided is essential for building a strong case for your monitoring investment.</p>
+      <p>Additionally, separate one-time costs from recurring costs to get a clearer picture of your financial situation. Regularly updating local fee ranges and reviewing losses from past seasons will help refine your assumptions and improve your monitoring strategy.</p>
+    </div>
+
+
+    <aside class="mistake">
+      <h4>Where this goes wrong</h4>
+      <p>Failing to validate assumptions with real data can lead to inaccurate savings projections.</p>
+    </aside>
+
+
+  </article>
+</section>
+
+<section class="closing">
+  <img class="closing-photo" src="photos/000-pexels.jpg" alt="Instant Kitchen Pest Detection">
+  <p class="kicker">30 Day Spaces</p>
+  <div class="rule"></div>
+  <h2>Your next room starts here</h2>
+  <p class="blurb">More room kits, declutter sprints, and measured layouts for Indian apartments — same series language, same clear numbers.</p>
+<p class="author">Akarsh Priyadarshan</p></section>
+
+</body>
+</html>

@@ -1,0 +1,2532 @@
+{
+  "slug": "30-day-1-bhk-aesthetic-transformation",
+  "title": "30-Day 1 BHK Aesthetic Transformation",
+  "subtitle": "",
+  "tagline": "One 30-day sequence. Frameworks are planning targets or heuristics, not laws.",
+  "author": "Akarsh Priyadarshan",
+  "series": "30 Day Spaces",
+  "closing_headline": "Your next room starts here",
+  "closing_blurb": "The 30-day transformation comes first. Weekly reset and long-term maintenance start after Day 30. Same series language — treat numbers as starting points until you test them in the actual rooms.",
+  "accent_hex": "#1E5F6B",
+  "units": "metric",
+  "cover": {
+    "query": "30 day 1 bhk aesthetic transformation designed cover",
+    "flux_prompt": "A full-bleed shot of a well-organized living room in a 1 BHK apartment, showcasing clear surfaces and a unified color palette.",
+    "alt": "Designed cover for 30-Day 1 BHK Aesthetic Transformation",
+    "source": "openai",
+    "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\cover.jpg",
+    "credit": "",
+    "ai_generated": true,
+    "provider_id": ""
+  },
+  "designed_cover": true,
+  "chapters": [
+    {
+      "slug": "start-here-the-30-day-transformation-and-the-80-surface-rule",
+      "title": "The 30-Day Transformation And The 80% Surface Rule",
+      "intro": "Transform your 1 BHK in thirty days with a focus on clarity and cohesion. This chapter guides you through measuring surfaces, setting targets, and establishing a workflow that supports a clutter-free environment.",
+      "opener": {
+        "query": "1 BHK apartment living room with clear surfaces, natural light from one window, minimalist decor, and a cohesive color palette.",
+        "flux_prompt": "A full-bleed shot of a well-organized living room in a 1 BHK apartment, showcasing clear surfaces and a unified color palette.",
+        "alt": "1 BHK apartment living room with clear surfaces, natural light from one window, minimalist decor, and a cohesive color palette.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\001-pexels.jpg",
+        "credit": "Photo by Edmond Elshani on Pexels",
+        "ai_generated": false,
+        "provider_id": ""
+      },
+      "sections": [
+        {
+          "slug": "understanding-surface-clarity",
+          "title": "Understanding Surface Clarity",
+          "day_label": "30-Day Plan — Day 1",
+          "hero": {
+            "query": "1 BHK apartment bedroom with clear bedside tables, natural light from one window, and minimalist decor.",
+            "flux_prompt": "A well-organized bedroom shot, emphasizing clear bedside tables and a calm atmosphere.",
+            "alt": "A close-up of a clear bedside table with a lamp, a book, and a water glass.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\002-pexels.jpg",
+            "credit": "Photo by Mateusz Dach on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "In her 1 BHK in Pune, Neha struggles with clutter on her coffee table, which is piled with magazines, remotes, and a half-empty coffee cup. She decides to implement the 80% Surface Rule to create a more serene space.",
+          "principle": "80 percent surface clarity is unobstructed usable area — a planning target, not a visual-calm score.",
+          "body": [
+            "This book is one 30-day transformation, then a weekly reset, then long-term maintenance. When a heading says 30-Day Plan — Day 4, that is the same Day 4 as the Action Calendar. Room kits, the swatch workbook, and the weekly reset are supporting modules — they are not a second Day 1. Classify every framework before you treat it as a rule. Hard constraint: manufacturer instructions, electrical work for qualified professionals, and anything that blocks a required exit. Planning target: useful starting points such as 80 percent unobstructed surface area or a preferred prep patch. Heuristic: optional design techniques such as 60/30/10, 5-7-9, 3-2-1, One-In-One-Out, and Anchor/Accent/Balance. Personal preference: palette accent, TV distance, and how odd or even a grouping looks to you. A surface is any horizontal plane that the eye reads as part of the room composition. In a 1 BHK, this includes coffee tables, end tables, TV consoles, bedside tables, dressers, kitchen counters, open shelves, and the tops of wardrobes and refrigerators. By focusing on these surfaces, you can create a more organized and visually appealing environment.",
+            "For this book, 80 percent surface clarity means approximately 80 percent of the usable horizontal surface remains physically unobstructed. That is a planning target for empty area, not a measurement of visual calm. Three large objects can cover half a table and still look louder than ten tiny objects covering a fifth of it. Measure unobstructed area separately from visual noise.",
+            "To maintain the target, check that about 80 percent of each usable horizontal surface stays physically unobstructed. Then, separately, run the visual-noise audit. Clarity of area and calm of appearance are two different checks."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: a table meets 80 percent empty area and still looks loud. Cause: area and visual noise were treated as the same measurement. Fix: measure unobstructed area, then score visual noise separately.",
+          "checklist": [
+            "List every usable horizontal surface.",
+            "Estimate unobstructed area (planning target: about 80 percent clear).",
+            "Score visual noise separately; do not mix the two."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "implementing-the-keep-edit-exit-system",
+          "title": "Implementing the Keep, Edit, Exit System",
+          "day_label": "30-Day Plan — Day 2",
+          "hero": {
+            "query": "1 BHK apartment kitchen with organized counters, natural light from one window, and minimal decor.",
+            "flux_prompt": "A clean kitchen counter showcasing organized appliances and a clear workspace.",
+            "alt": "A close-up of a neatly arranged kitchen counter with essential items only.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\003-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "In her Bengaluru rental, Aditi faces a cluttered kitchen counter filled with appliances and utensils. She decides to sort through her items using the Keep, Edit, Exit system to create a more functional cooking space.",
+          "principle": "Keep, Edit, Exit is a sorting heuristic. The Out Box is immediate; disposal follows a practical schedule.",
+          "body": [
+            "When sorting through items, use the Keep, Edit, Exit approach. For every item you touch, decide if it should be kept because it is frequently used or adds value, edited by reducing or consolidating, or exited from your home through donation or recycling.",
+            "Make these decisions quickly to avoid second-guessing. If unsure, place the item in the Edit group and revisit it during your visual noise audit. Move Exit items into a designated Out Box immediately. Schedule donation, recycling, resale, or disposal as soon as practical. Seventy-two hours is a momentum target, not a disposal deadline. Donation-center hours, recycling schedules, large-item pickup, selling, and e-waste rules can take longer. Do not throw away a useful or regulated item only because 72 hours passed.",
+            "This system not only helps you declutter but also ensures that every item in your home serves a purpose, contributing to a more organized and peaceful environment."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: a useful item is thrown away to beat a 72-hour clock. Cause: a momentum target was read as a disposal deadline. Fix: Out Box now; donate, recycle, resell, or dispose as soon as practical.",
+          "checklist": [
+            "Sort items using Keep, Edit, Exit categories.",
+            "Quickly decide on each item to maintain momentum.",
+            "Move Exit items to the Out Box immediately; schedule donation, recycling, resale, or disposal as soon as practical."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "conducting-the-5-point-visual-noise-audit",
+          "title": "Conducting the 5 Point Visual Noise Audit",
+          "day_label": "30-Day Plan — Day 3",
+          "hero": {
+            "query": "1 BHK apartment living room with minimal visual noise, natural light from one window, and a cohesive color palette.",
+            "flux_prompt": "A serene living room shot, highlighting the absence of visual clutter and a calming atmosphere.",
+            "alt": "A close-up of a clear coffee table with minimal decor.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\004-pexels.jpg",
+            "credit": "Photo by Edmond Elshani on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "Ravi, living in a compact Mumbai flat, realizes his living room feels chaotic due to visual clutter. He decides to conduct a 5 Point Visual Noise Audit to identify areas for improvement.",
+          "principle": "Visual-noise scores are subjective 0–5 ratings. Under 7 is an internal target, not a proof of calm.",
+          "body": [
+            "The 5-point visual-noise audit is a subjective design check, not an objective measurement. Score each of five factors from 0 to 5: density, contrast, height variance, reflective glare, and cord chaos. Anchors: 0 negligible, 1 very low, 2 low, 3 moderate, 4 high, 5 severe. The maximum total is 25.",
+            "A total under 7 is an internal planning target, not a proof of calm. Two rooms can both score 6 in different ways — one with moderate density and cords, another with a single severe factor. Use the total as a prompt to work the highest scores first. Trust your eye more than the number.",
+            "By identifying areas of high visual noise, you can prioritize decluttering efforts and make informed decisions about what to keep, edit, or exit from your space."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Visual-noise scale is subjective",
+              "caption": "Score each factor 0 to 5. Maximum total is 25. Under 7 is a planning target, not a measurement.",
+              "values": [
+                "Zero",
+                "One or two",
+                "Three",
+                "Four",
+                "Five"
+              ],
+              "labels": [
+                "Negligible",
+                "Low",
+                "Moderate",
+                "High",
+                "Severe"
+              ],
+              "minimum": null,
+              "spec_id": "D061",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D061.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: a room scores 6 and still feels chaotic because cords and density are both high. Cause: one total hid two severe factors. Fix: work any factor scored 4 or 5 first; treat the total as a prompt.",
+          "checklist": [
+            "Score density, contrast, height variance, glare, and cords from 0 to 5.",
+            "Write the anchors: 0 negligible through 5 severe.",
+            "Treat a total under 7 as a subjective planning target."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "establishing-a-zonal-layout-grid",
+          "title": "Establishing a Zonal Layout Grid",
+          "day_label": "30-Day Plan — Day 4",
+          "hero": {
+            "query": "1 BHK apartment workspace with organized zones, natural light from one window, and minimal decor.",
+            "flux_prompt": "A well-defined workspace shot, showcasing clear zones and organized surfaces.",
+            "alt": "A close-up of a designated workspace area with essential items only.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\005-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "In her 1 BHK in Chennai, Meera struggles with item drift in her living room. She decides to create a Zonal Layout Grid to assign specific areas for different tasks and reduce clutter.",
+          "principle": "A zonal layout prevents item drift and supports daily micro resets.",
+          "body": [
+            "Imagine each room as a grid divided into zones for specific tasks. For example, in the living room, you might have zones for seating, media, coffee, and entry. Assign each surface to a zone based on its primary use, ensuring that items only live in their designated areas.",
+            "This approach not only helps maintain order but also makes it easier to reset your space quickly. When every item has a home, it becomes simpler to return surfaces to their 80 percent clarity after use.",
+            "Regularly review your zonal layout to ensure it still meets your needs and adjust as necessary to maintain a functional and organized environment."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Failing to assign zones can lead to clutter and confusion in your living space.",
+          "checklist": [
+            "Create a Zonal Layout Grid for each room.",
+            "Assign surfaces to specific zones based on their use.",
+            "Review and adjust zones regularly to maintain functionality."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "planning-your-30-day-calendar",
+          "title": "Planning Your 30-Day Calendar",
+          "day_label": "30-Day Plan — Day 5",
+          "hero": {
+            "query": "1 BHK apartment with a clear calendar and organized spaces, natural light from one window, and minimal decor.",
+            "flux_prompt": "A shot of a well-organized workspace with a visible calendar and clear surfaces.",
+            "alt": "A close-up of a calendar with organized tasks and a clutter-free environment.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\006-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "In her 1 BHK in Delhi, Simran plans her 30-day transformation by blocking time for decluttering sessions and donation runs, ensuring she stays on track with her goals.",
+          "principle": "The dedicated Action Calendar lists Days 1–30. Supporting modules do not restart at Day 1.",
+          "body": [
+            "The 30-day promise lives in one place: the 30-Day Action Calendar later in this book. Each calendar day has one concrete task. Method chapters along the way are labeled 30-Day Plan — Day N so they match that calendar. Room kits, the swatch workbook, and the weekly reset are supporting modules.",
+            "Week 1 assesses, measures, and locks a palette after fixed finishes. Weeks 2 and 3 work living room, bedroom, and kitchen. Days 24–30 finish leftover installs, re-check unobstructed area and visual noise separately, and schedule the Out Box. The weekly reset starts after Day 30. It is maintenance, not a fourth transformation.",
+            "Block three to five hours a week plus a short daily micro-reset. If you miss a day, keep the Day number — do not start a new Day 1 in the next chapter."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Neglecting to plan can lead to disorganization and stalled progress in your transformation.",
+          "checklist": [
+            "Open the Action Calendar and find Day 1 through Day 30.",
+            "Treat method-chapter Day N as the same calendar day.",
+            "Save weekly reset for after Day 30."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "design-dna-build-your-unified-color-palette",
+      "title": "Design DNA: Build Your Unified Color Palette",
+      "intro": "Creating a unified color palette is essential for a cohesive and calming home environment, especially in compact spaces like a 1 BHK. This chapter guides you through the process of selecting colors that harmonize with your existing finishes and how to apply them effectively throughout your home.",
+      "opener": {
+        "query": "A well-designed 1 BHK apartment with a unified color palette, showcasing soft greige walls, sage accents, and natural light filtering through a window.",
+        "flux_prompt": "A full-bleed shot of a compact living room in a 1 BHK, featuring a harmonious color palette with soft greige walls, sage cushions, and warm wooden accents.",
+        "alt": "A well-designed 1 BHK apartment with a unified color palette, showcasing soft greige walls, sage accents, and natural light filtering through a window.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\007-pexels.jpg",
+        "credit": "Photo by Liva  Kitchens And Interiors on Pexels",
+        "ai_generated": false,
+        "provider_id": ""
+      },
+      "sections": [
+        {
+          "slug": "understanding-your-fixed-finishes",
+          "title": "Understanding Your Fixed Finishes",
+          "day_label": "30-Day Plan — Day 6",
+          "hero": {
+            "query": "A close-up of beige floor tiles next to white printer paper, highlighting the warm undertone.",
+            "flux_prompt": "A detailed shot of the undertone audit process in a 1 BHK, with flooring and cabinetry in focus, natural light illuminating the scene.",
+            "alt": "An image showcasing the contrast between warm beige tiles and cool white cabinets.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\008-pexels.jpg",
+            "credit": "Photo by Edward Jenner on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "Riya, a resident of a 1 BHK in Pune, stands in her living room with beige floor tiles and light wooden doors. She notices the warm undertones in her flooring and the cool undertones in her white kitchen cabinets.",
+          "principle": "Identifying undertones in fixed finishes is crucial for selecting a harmonious base neutral.",
+          "body": [
+            "Begin by auditing the undertones of your fixed finishes. In Riya's case, she examines her flooring, doors, window frames, and kitchen cabinets. She observes that her beige tiles have a warm undertone, while her cabinets appear cool under the light.",
+            "Use plain white printer paper to help identify these undertones. By placing the paper next to the finishes, Riya can see that the warm tiles make the white look bluer, confirming their warm undertone. This step is essential to ensure her color choices will harmonize throughout her home.",
+            "Repeat this process in the bedroom and kitchen to gain a comprehensive understanding of the undertones present in her living space. Knowing whether her environment skews warm, cool, or neutral will guide her in selecting a base neutral that complements these fixed elements."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Ignoring the undertones can lead to mismatched colors that disrupt the visual harmony of the space.",
+          "checklist": [
+            "Conduct a fixed finishes undertone audit in each room.",
+            "Use white paper to compare undertones effectively.",
+            "Document your findings for future reference."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "choosing-your-base-neutral",
+          "title": "Choosing Your Base Neutral",
+          "day_label": "30-Day Plan — Day 7",
+          "hero": {
+            "query": "A swatch of soft greige paint next to beige tiles and wooden accents, illustrating the harmonious color selection.",
+            "flux_prompt": "A styled shot of Riya's living room with soft greige walls, showcasing the calming effect of her chosen base neutral.",
+            "alt": "An image of the soft greige swatch against the warm beige flooring.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\009-pexels.jpg",
+            "credit": "Photo by Ron Lach on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "In her Pune apartment, Riya selects a base neutral that complements her warm beige flooring and wooden doors, opting for a soft greige that enhances the calmness of her space.",
+          "principle": "The base neutral supports the dominant existing color. It does not have to become 60 percent of the room.",
+          "body": [
+            "After completing her undertone audit, Riya identifies that her environment skews warm due to the beige tiles. She decides against a trendy gray that would clash with her warm finishes. Instead, she opts for a soft greige that aligns with her flooring and wooden accents.",
+            "Selecting a base neutral that harmonizes with existing undertones is crucial. A soft greige will not only complement her warm floors but also provide a calming backdrop for her living space.",
+            "In small areas like a 1 BHK, softer neutrals can help reduce visual noise and create a more spacious feel. Riya's soft greige supports the dominant field she already has. She does not try to force a new primary color over 60 percent of a rental she cannot repaint."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Choosing a trendy color that clashes with existing finishes can create discord in the overall aesthetic.",
+          "checklist": [
+            "Select a base neutral that harmonizes with your undertone audit.",
+            "Avoid trendy colors that do not complement your fixed finishes.",
+            "Document your base neutral choice for consistency."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "allocating-colors-with-the-60-30-10-ratio",
+          "title": "Allocating Colors with the 60-30-10 Ratio",
+          "day_label": "30-Day Plan — Day 8",
+          "hero": {
+            "query": "A visual representation of the 60-30-10 color ratio applied in a living room setting, with soft greige, sage, and terracotta accents.",
+            "flux_prompt": "A beautifully styled living room showcasing the 60-30-10 color ratio, with soft greige walls, sage cushions, and terracotta decor.",
+            "alt": "An image highlighting the balance of colors in Riya's living room.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\010-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "Riya plans her color allocation for her Pune apartment, applying the 60-30-10 ratio to ensure balance and harmony throughout her living space.",
+          "principle": "60/30/10 is a visual heuristic. Fixed finishes already occupy part of the field.",
+          "body": [
+            "Treat 60/30/10 as a visual proportion guideline rather than an exact measurement of square footage. Fixed finishes and existing furniture may make exact percentages impractical. Apply it only after accounting for what cannot be changed: fixed finishes first, then the dominant existing color, then a supporting color, then an accent. Riya's rental already has beige flooring and wood furniture, so those count toward the dominant field before she adds greige textiles.",
+            "For the thirty percent secondary color, Riya chooses a desaturated sage that complements her base neutral and adds depth to her space. This color will appear in smaller furnishings and supporting textiles, such as cushions and throws.",
+            "Finally, Riya selects a muted terracotta as her ten percent accent color, which will be used sparingly in decorative items like vases or art pieces. This intentional use of color will bring energy and focus to her home without overwhelming it."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: a rental's beige floor already dominates, but the reader tries to force a new primary to 60 percent. Cause: 60/30/10 was applied before fixed finishes. Fix: list what cannot change, then supporting color, then accent.",
+          "checklist": [
+            "Sketch a 60/30/10 guideline after listing fixed finishes; do not calculate exact area.",
+            "Document where each color will be applied in your home.",
+            "Ensure that the secondary and accent colors harmonize with the base neutral."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "mapping-light-and-testing-colors",
+          "title": "Mapping Light and Testing Colors",
+          "day_label": "30-Day Plan — Day 9",
+          "hero": {
+            "query": "A grid layout showing the Light Ladder for a 1 BHK apartment, with notes on light sources and color observations.",
+            "flux_prompt": "A shot of Riya's living room during different times of day, showcasing the light changes and their effects on color.",
+            "alt": "An image capturing the transition of colors in Riya's living room under varying light conditions.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\011-pexels.jpg",
+            "credit": "Photo by Tim Mossholder on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "Riya creates a Light Ladder for her Pune apartment, observing how natural and artificial light affects her chosen colors throughout the day.",
+          "principle": "Mapping light helps understand how colors shift and appear in different lighting conditions.",
+          "body": [
+            "Riya draws a simple grid for her Light Ladder, noting the times of day she will observe her living room, bedroom, and kitchen. She records where natural light enters and the type of artificial light used in each room.",
+            "Standing in each room at the designated times, Riya notes how the colors appear under different lighting conditions. She finds that warm light amplifies the warm undertones of her soft greige, while cooler light can make it appear more muted.",
+            "This mapping process is essential for ensuring that her color choices hold up throughout the day. Riya realizes that her kitchen, which reads cool in the evening due to daylight bulbs, requires careful selection of textiles to avoid a muddy appearance."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Failing to test colors in different lighting can lead to unexpected results once the palette is applied.",
+          "checklist": [
+            "Create a Light Ladder grid for each room.",
+            "Observe and document how colors appear at different times of day.",
+            "Adjust color selections based on light observations."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "living-room-room-kit-layouts-zones-and-visual-anchors",
+      "title": "Living Room Room Kit: Layouts, Zones, And Visual Anchors",
+      "intro": "Living Room Room Kit: Layouts, Zones, And Visual Anchors Chapter Introduction Step into your living room and imagine a space that instantly lowers your shoulders. The floor is clear, the seating feels inviting, the media wall looks seamless, and every surface is calm. You can trace an easy pathway from the entry to the balcony or bedroom without sidestepping stray stools or an overflowing console.",
+      "opener": {
+        "query": "small indian living room minimalist daylight editorial",
+        "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK living room, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+        "alt": "A calm living room",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\012-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": ""
+      },
+      "sections": [
+        {
+          "slug": "living-room-room-kit-layouts-zones-and-visual-anchors",
+          "title": "Living Room Room Kit: Layouts, Zones, And Visual Anchors",
+          "day_label": "Room kit",
+          "hero": {
+            "query": "small indian living room minimalist daylight editorial",
+            "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK living room, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+            "alt": "A calm living room",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\012-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "",
+          "principle": "The floor is clear, the seating feels inviting, the media wall looks seamless, and every surface is calm.",
+          "body": [
+            "Living Room Room Kit: Layouts, Zones, And Visual Anchors Chapter Introduction Step into your living room and imagine a space that instantly lowers your shoulders. The floor is clear, the seating feels inviting, the media wall looks seamless, and every surface is calm. You can trace an easy pathway from the entry to the balcony or bedroom without sidestepping stray stools or an overflowing console. This chapter shows you how to get there with a measured plan that fits a typical 1 BHK, and it does so without sacrificing livability.",
+            "Building on the palette you locked in earlier, you will map the room into zones, choose right size anchor pieces, and design cable and lighting plans that protect your 80 percent surface goal. By the end, you will have a layout you can tape on the floor, a shortlist of correctly proportioned furniture, and renter friendly upgrades that add polish fast.",
+            "Most 1 BHK living rooms are asked to do everything. They host conversations, movie nights, quick meals, remote work, and drop zones for bags and mail. In a compact footprint, that multi use demand creates two kinds of pain. Flow gets blocked by furniture that is too large or wrongly placed. Visual noise builds around the media wall and shelves, where devices, cords, remotes, and decor compete for attention. When the room does not breathe, you feel restless, and when surfaces are busy, your eyes tire.",
+            "Common constraints make this worse. Narrow rooms push sofas against walls and squeeze walkways. Off center windows pull the eye to one side and make furniture look skewed. Structural columns can chop the room into awkward pockets. Most renters inherit ceiling fixtures that are harsh, curtains hung too low, and a media console with tangled cables spilling over. Without a plan, you end up guessing, then accumulating pieces that do not fit. The result is a room that feels smaller than it is and does not align with your unified palette.",
+            "The Room Kit pairs a simple zoning method with measurement rules and visual anchors. You will use the Zonal Layout Grid to define conversation, media, and circulation zones, so furniture and walkways have clear boundaries. You will size anchor pieces first, then harmonize everything else around them. Anchors carry visual weight and reduce the need for many small items, which protects your 80 percent surface target.",
+            "You will apply formulas that prevent misfit purchases. The Right Size Rug Formula keeps the seating group on the rug and the edges calm. The media console width rule and sofa to TV viewing distances match device comfort with room scale. Coffee table dimensions and spacing ensure safe movement and reachable surfaces. Curtain placement and lighting layers add height, warmth, and focus without any renovation. Art placement uses your palette to connect the eye line across the room.",
+            "Because cables can sabotage calm, you will set up a Cable Line Disguise System before styling. You will choose storage using a Media Console Fit Matrix based on how many devices and cords you have, and how much you want visible. Finally, you will style surfaces with the Anchor Accent Balance triangle, so your palette comes through with minimum objects.",
+            "Defining Zones With The Zonal Layout Grid Think of your living room floor as a simple grid that organizes activity. Divide the room into three zones. The conversation zone holds your sofa and chairs. The media zone anchors the TV and console. The circulation zone creates clear walkways from entry to seating to balcony or bedroom doors. Use painter's tape to draw paths that are 30 to 36 inches wide from the entry to the seating and from seating to doors. This width supports comfortable passage and quick turns with trays or laundry baskets. If your footprint is tight, 28 inches can be a tight-space planning lower bound for ordinary household circulation. Wider clearances are preferable where mobility devices, children, pets, or frequent carrying are involved. This is not an accessibility or safety threshold. Place the conversation zone so it does not pinch these paths. The media zone should sit opposite seating without blocking circulation. If you have a combined living and dining area, the dining table belongs outside the circulation path, not in the center of it.",
+            "Sizing Anchor Pieces Sofa Placement And Scale Choose the sofa first. In a narrow room, a two or two and a half seat sofa with slim arms often beats a bulky three seat sofa. Position the sofa so that the centerline aligns with the center of the media zone or balances the window. If the window is off center, use the rug and art to create a new visual center on the wall you choose for the media zone.",
+            "Right Size Rug Formula A rug should sit under the front feet of the sofa and chairs in the conversation zone. This connects the seating into one visual island. Measure the seating group after you place pieces, then apply this formula. Leave 12 to 18 inches of floor between rug edges and walls on the long sides. Ensure at least 6 inches of rug under the front legs of all seating. For small rooms, common sizes are 5 by 8 feet and 6 by 9 feet.",
+            "Use 6 by 9 when you have a two seat sofa and one accent chair, use 5 by 8 for a compact sofa with no chair. If your room can hold a larger rug without breaking the 12 to 18 inch border rule, choose it. A proportionally larger rug can make a small room feel more unified and visually spacious. A rug that is too large for the room, or that pinches walkways, can do the opposite. Coffee Table Size And Distance Choose a coffee table that is roughly two thirds the length of your sofa. If your sofa is 72 inches, a coffee table around two thirds of that length is a starting size, not a required fit. Keep 16 to 18 inches of space between the sofa edge and the coffee table all around. This spacing allows comfortable knee room and safe passage.",
+            "Table height should be near the sofa seat height. A difference of one to two inches is comfortable. Media Console Fit And Viewing Distances Use this width rule. If you center your TV above a console, choose a console as wide as your sofa, or at least the TV width plus 6 to 12 inches on each side. This creates balance under the screen and helps disguise cords behind the console edges.",
+            "Treat viewing distance as a starting range, not an optimal distance. Comfort depends on resolution, content, eyesight, TV size, personal preference, and viewing angle. A common starting range for 4K is about 1 to 1.5 times the screen diagonal — for a 55-inch 4K set, that is roughly 5 to 7 feet. For 1080p, a common starting range is about 1.5 to 2.5 times the diagonal. Sit, watch something you actually watch, and adjust. In tight rooms, favor a slightly smaller screen and a console with closed storage to control visual noise.",
+            "Curtain Placement For Height And Calm Hang curtains high and wide to stretch the perceived height of the room. Mount rods close to the ceiling or at least 8 to 12 inches above the window frame. Extend rods 8 to 12 inches beyond each side of the window so curtains can stack off the glass. Use floor length panels that just kiss the floor. Match fabric to your palette card so the vertical lines reinforce your chosen neutral and accent, not fight it.",
+            "Layered Lighting For Purpose And Mood Plan three layers. Ambient lighting fills the room. This is usually a ceiling fixture or a pair of floor lamps that bounce light off the ceiling. Task lighting focuses on reading or work, such as a table lamp near the sofa arm or a floor lamp by a chair. Accent lighting adds glow to the media wall or art, using picture lights, small lamps on the console, or LED strips inside shelves. As a comfort reference, aim for wall to space ambient light that feels soft, then add task lamps where activities happen. If you like numbers, living rooms often feel good around 10 to 20 lumens per square foot for ambient with stronger pools of 30 to 50 lumens for reading.",
+            "Art Placement For Cohesion Use art to bridge furniture and your palette. Above a sofa, hang art so the bottom edge is about 8 to 10 inches above the sofa back. Ensure the width of the art or grouping is 60 to 75 percent of the sofa width. For eye level pieces, center the midpoint around 57 to 60 inches from the floor. Keep frames and matting aligned with your palette card, favoring textures over many colors to limit visual noise.",
+            "Cable Line Disguise System Cables are a frequent source of clutter around media areas. Design the cable plan before styling. Start by drawing the path of every cord from device to power. Choose cable routes that run along edges rather than across surfaces. Use adhesive backed raceways that match your wall color to conceal cords vertically and horizontally. Use fabric cord covers for cords that need to drop from a wall mounted TV to the console.",
+            "Bundle cables with reusable ties and label both ends. Place a power strip inside the console if possible, then pass cords through a small grommet or a neat hole at the back. Keep remotes in a single box or tray inside a drawer or on the console if you have no drawers. The goal is to protect surfaces around the console so they remain 80 percent clear.",
+            "Media Console Fit Matrix Choose open or closed storage based on what you own and your tolerance for visual exposure.",
+            "doors and one open shelf for a set top box or sound bar.",
+            "closed doors and a central open section with an integrated cable hole.",
+            "drawers for small items, and one ventilated open shelf for game systems.",
+            "hidden pull out shelf for the projector. Use ceiling cable routing if allowed. Styling With The Anchor Accent Balance Triangle Styling follows your palette card and reinforces your anchors. Each styled surface should include an anchor piece, an accent, and a balance element. An anchor is a substantial object that grounds the surface, such as a lamp or a single art book. An accent brings texture or color, such as a small bowl or a plant. Balance is negative space. It is the deliberate decision to leave most of the surface empty. Repeat this triangle across shelves and consoles so no single surface attracts all the attention.",
+            "Furniture Placement Decision Tree Use this quick decision guide for common constraints.",
+            "opposite the entry to hold an adequate walkway behind or in front. Choose a slim arm sofa and a round coffee table to ease flow.",
+            "not the window. Use curtains hung high and wide to expand and visually recenter the window.",
+            "or a plant group next to it on the entry side. Keep seating arranged around the rug so the column is outside the conversation zone. Implementation Strategy Follow this sequence to move from plan to tape to furniture.",
+            "inches wide. Decide on conversation and media zones that do not pinch these paths.",
+            "media zone. Leave enough space behind or in front for your taped walkway.",
+            "size. Apply the Right Size Rug Formula. Adjust until all front legs sit on the rug and the border to walls sits between 12 and 18 inches.",
+            "that length. Confirm 16 to 18 inches of clearance.",
+            "sofa or TV width plus 6 to 12 inches each side. Check viewing distance based on your screen size and resolution. Adjust device placement inside the console.",
+            "them so panels stack off glass. Choose fabric that matches your palette card.",
+            "Use existing outlets. Plan lamp heights and bulb warmth that suits your palette and finishes.",
+            "sofa width and hang at the recommended height.",
+            "label before any decor comes out. Test everything.",
+            "surfaces 80 percent clear. Real-World Application Case Study One, Narrow Ten By Fifteen Foot Room With Balcony Door Entry on the short wall, balcony door opposite. Tape a 32 inch path from entry to door along one side. Place a two and a half seat sofa on the long wall facing the media zone. Use a 6 by 9 rug centered on the sofa, leaving 14 inches to the walls. Select a 44 inch round coffee table to ease flow around corners. Choose a media console at 60 inches wide for a 50 inch TV, with closed doors and one open shelf. Viewing distance sits at about 6.5 feet. Hang curtains to the ceiling, extending rods 10 inches beyond the door frame. Lighting includes a ceiling fixture plus a floor lamp near the sofa arm. Art above the sofa at 60 percent of sofa width. Cables concealed with adhesive raceway down the wall and through the console.",
+            "Results, clear path to the balcony, seating feels centered, and surfaces stay sparse. Case Study Two, Off Center Window With Structural Niche Room has a window two feet off center on the media wall and a shallow niche near the entry. Tape a 30 inch path that curves around the niche. Place sofa opposite the planned media wall center, not the window. Use curtains mounted high and extended 12 inches past the window to visually widen it. Choose a 5 by 8 rug for a compact two seat sofa and an armless accent chair. Pick a 55 inch TV on a 72 inch console to balance the wide curtain span. Place a small console in the niche as an entry perch with a single tray for keys. Lighting includes a table lamp in the niche and a task lamp near the chair. Cables routed inside adhesive raceways, with labels so devices can be swapped without stress. The window looks centered thanks to the curtain strategy and the console width, and the niche functions without stealing space.",
+            "Case Study Three, Combined Living Dining With Kids' Toy Overflow Room has a dining table near the entry and toys that migrate onto the coffee table. Tape two paths at 30 inches. One path from entry to seating along the wall, one path from seating to bedroom door. Float a 6 by 9 rug away from the wall to hold seating and maintain paths. Choose a bench style coffee table with two drawers to stash toys. Select a console with drawers for remotes and games. Viewing distance set for a 43 inch 4K TV at 5.5 feet. Curtains hung high, with panels that match the base neutral of the palette card. Lighting includes warm bulbs to soften evenings. The Cable Line Disguise System keeps cords off the floor where toys roll.",
+            "Results, toys have a home, paths are clean, and the living area feels distinct from dining. Common Pitfalls"
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Tight-space walkway is a planning bound",
+              "caption": "For ordinary household circulation, 28 inches can be a tight-space planning lower bound. Wider is better with mobility devices, children, pets, or carrying. This is not an accessibility threshold.",
+              "values": [
+                "Tight-space planning bound",
+                "Devices, kids, carrying",
+                "Not an accessibility rule"
+              ],
+              "labels": [
+                "Ordinary squeeze",
+                "Prefer wider",
+                "Not a safety code"
+              ],
+              "minimum": null,
+              "spec_id": "D001",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D001.svg"
+            },
+            {
+              "kind": "comparison",
+              "title": "If Your Room Can Hold A Larger",
+              "caption": "If your room can hold a larger rug without breaking the 12 to 18 inch border rule, choose it. Ensure at least 6 inches of rug under the front legs of all seating.",
+              "values": [
+                "12 to 18 inch"
+              ],
+              "labels": [],
+              "minimum": "6 inches",
+              "spec_id": "D002",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D002.svg"
+            },
+            {
+              "kind": "table",
+              "title": "For Small Rooms, Common Sizes Are 5",
+              "caption": "For small rooms, common sizes are 5 by 8 feet and 6 by 9 feet.",
+              "values": [
+                "5 by 8 feet",
+                "6 by 9 feet"
+              ],
+              "labels": [
+                "5 by 8 feet",
+                "6 by 9 feet"
+              ],
+              "minimum": null,
+              "spec_id": "D004",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D004.svg"
+            },
+            {
+              "kind": "table",
+              "title": "6 By 9 When You Have A",
+              "caption": "Use 6 by 9 when you have a two seat sofa and one accent chair, use 5 by 8 for a compact sofa with no chair.",
+              "values": [
+                "6 by 9",
+                "5 by 8"
+              ],
+              "labels": [
+                "6 by 9",
+                "5 by 8"
+              ],
+              "minimum": null,
+              "spec_id": "D005",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D005.svg"
+            },
+            {
+              "kind": "elevation",
+              "title": "If You Center Your Tv Above A",
+              "caption": "If you center your TV above a console, choose a console as wide as your sofa, or at least the TV width plus 6 to 12 inches on each side. Mount rods close to the ceiling or at least 8 to 12 inches above the window frame.",
+              "values": [
+                "6 to 12 inch"
+              ],
+              "labels": [],
+              "minimum": "8 to",
+              "spec_id": "D006",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D006.svg"
+            },
+            {
+              "kind": "table",
+              "title": "TV distance is a starting range",
+              "caption": "Viewing comfort depends on resolution, content, eyesight, size, and preference. Use 5 to 7 feet only as a starting range for a 55-inch 4K set.",
+              "values": [
+                "About one to one-and-a-half diagonals",
+                "About one-and-a-half to two-and-a-half",
+                "Sit and adjust"
+              ],
+              "labels": [
+                "4K starting range",
+                "1080p starting range",
+                "Then"
+              ],
+              "minimum": null,
+              "spec_id": "D008",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D008.svg"
+            },
+            {
+              "kind": "table",
+              "title": "If Your Sofa Is 72 Inches, Aim",
+              "caption": "If your sofa is 72 inches, a coffee table around two thirds of that length is a starting size, not a required fit.",
+              "values": [
+                "72 inch",
+                "48 inch"
+              ],
+              "labels": [
+                "72 inch",
+                "48 inch"
+              ],
+              "minimum": null,
+              "spec_id": "D009",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D009.svg"
+            },
+            {
+              "kind": "table",
+              "title": "16 To 18 Inches Of Space Between",
+              "caption": "Keep 16 to 18 inches of space between the sofa edge and the coffee table all around.",
+              "values": [
+                "16 to 18 inch"
+              ],
+              "labels": [
+                "16 to 18 inch"
+              ],
+              "minimum": null,
+              "spec_id": "D010",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D010.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Tape your Zonal Layout Grid and mark 30 to 36 inch circulation paths.",
+              "minutes": null
+            },
+            {
+              "text": "Place the sofa and test a temporary rug footprint with paper or fabric.",
+              "minutes": null
+            },
+            {
+              "text": "Measure for the Right Size Rug and shortlist two sizes that fit within",
+              "minutes": null
+            },
+            {
+              "text": "Calculate coffee table dimensions as two thirds of sofa length and",
+              "minutes": null
+            },
+            {
+              "text": "Measure TV diagonal and room distance to choose a console width",
+              "minutes": null
+            },
+            {
+              "text": "Install curtain rods high and wide and order floor length panels in your",
+              "minutes": null
+            },
+            {
+              "text": "Create a three layer lighting plan and gather bulbs with consistent",
+              "minutes": null
+            },
+            {
+              "text": "Select and hang art scaled to your sofa width and eye line.",
+              "minutes": null
+            },
+            {
+              "text": "Build your Cable Line Disguise System with raceways, covers, ties,",
+              "minutes": null
+            },
+            {
+              "text": "Photograph the room and compare to your palette card to confirm",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [
+            "Map zones first, then place furniture to protect 30 to 36 inch walkways.",
+            "Size anchor pieces with formulas so the room looks balanced and",
+            "Rug edges and front legs matter. A properly sized rug makes the room",
+            "Media console width should balance the TV and hide cords. Use",
+            "Match viewing distance to screen size and resolution for comfort.",
+            "Hang curtains high and wide to create instant vertical presence.",
+            "Layer ambient, task, and accent lighting to avoid harsh glare.",
+            "Place art at eye level and scale it to the seating for cohesion with your",
+            "Conceal and route cables before styling to protect the 80 percent",
+            "Style with the Anchor Accent Balance triangle so every surface feels"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "living-room-declutter-and-styling-apply-the-80-rule",
+      "title": "Living Room Declutter And Styling: Apply The 80% Rule",
+      "intro": "Creating a calm living room is achievable within days by focusing on decluttering and intentional styling. This chapter provides a structured approach to transform your space into a functional and aesthetically pleasing environment.",
+      "opener": {
+        "query": "Compact Indian apartment living room with clear surfaces, neutral colors, and minimal decor, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+        "flux_prompt": "Full-bleed shot of a well-styled living room with clear surfaces and intentional decor, showcasing a calm atmosphere.",
+        "alt": "Compact Indian apartment living room with clear surfaces, neutral colors, and minimal decor, one window light, teak textures, magazine styling, photorealistic, ",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\014-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": ""
+      },
+      "sections": [
+        {
+          "slug": "5-point-visual-noise-audit",
+          "title": "5 Point Visual Noise Audit",
+          "day_label": "30-Day Plan — Day 10",
+          "hero": {
+            "query": "Living room entry view with cluttered surfaces, one window light, neutral colors, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "View from the main entry showing cluttered surfaces in the living room.",
+            "alt": "A cluttered living room corner with visible cables and items.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\015-pexels.jpg",
+            "credit": "Photo by Sami  Abdullah on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "Ravi lives in a 1BHK in Pune with a 9-foot living room. He notices that his TV console is cluttered with remotes, a stack of magazines, and various cables. To tackle this, he decides to run a 5 Point Visual Noise Audit to identify the loudest surfaces in his living room.",
+          "principle": "Use the same 0–5 factor scale as Day 3. Surface-by-surface notes are extra, not a second scoring system.",
+          "body": [
+            "Stand at the main entry, then at your primary seat. Score the same five factors used on Day 3: density, contrast, height variance, reflective glare, and cord chaos. Each factor is 0 negligible through 5 severe. Maximum total is 25. A total under 7 is a subjective planning target.",
+            "Then note which surface is loudest — console, coffee table, side table, open shelf, or entry perch. The highest factor and the loudest surface are your first targets. Do not mix this score with the 80 percent unobstructed-area check.",
+            "Two rooms can share a total of 6 and still need different work. A 3 on density plus a 3 on cords is not 'fine' just because the total is under 7."
+          ],
+          "figures": [
+            {
+              "kind": "ratio_bar",
+              "title": "Plants And Textiles Finish The Room With",
+              "caption": "Plants and textiles finish the room with the 60 30 10 color ratio so your palette leads and small decor stays minimal.",
+              "values": [
+                "60-30-10 ratio"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D031",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D031.svg"
+            },
+            {
+              "kind": "elevation",
+              "title": "Above The Sofa, Choose Art That Is",
+              "caption": "Above the sofa, choose art that is 50 to 75 percent of the sofa width, and hang so the center is at about 57 to 60 inches from the floor.",
+              "values": [
+                "50 to 75 percent",
+                "57 to 60 inch"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D032",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D032.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Neglecting to assess all surfaces can lead to overlooking key areas that need attention.",
+          "checklist": [
+            "Score the TV console, coffee table, side tables, open shelves, and entry surface from your main entry and main seat.",
+            "Identify the surface with the highest score to target first."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "surface-parking-zone",
+          "title": "Surface Parking Zone",
+          "day_label": "30-Day Plan — Day 11",
+          "hero": {
+            "query": "Surface Parking Zone setup with light cloth and labeled boxes, one window light, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A neatly organized Surface Parking Zone with items sorted into labeled boxes.",
+            "alt": "Close-up of items on a light cloth, ready for evaluation.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\016-pexels.jpg",
+            "credit": "Photo by Blue Bird on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "Priya, living in a compact Bengaluru rental, struggles with a cluttered coffee table that collects everything from books to chargers. She sets up a Surface Parking Zone to reset her surfaces effectively.",
+          "principle": "Create a designated area to evaluate items in neutral light, allowing for better decision-making.",
+          "body": [
+            "Create a temporary zone where all items will land while you reset each surface. Use the floor near a window or a dining table. Lay a light-colored cloth or sheet that allows you to see items in neutral light.",
+            "Place three boxes or baskets labeled KEEP, EDIT, EXIT. Keep means it belongs in the living room and will return to a surface. Edit means it belongs in the living room but may move to closed storage or get a different home. Exit means it leaves the room or leaves your home through donation, recycling, or trash.",
+            "This method allows you to assess each item without the emotional pull of its usual spot, making it easier to decide what stays and what goes."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Failing to create a neutral space can lead to emotional decisions about items that clutter your surfaces.",
+          "checklist": [
+            "Set up a light cloth or sheet in a neutral area.",
+            "Label three boxes as KEEP, EDIT, EXIT.",
+            "Gather all items from the target surface into the Parking Zone."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "3-2-1-declutter-sprint",
+          "title": "3 2 1 Declutter Sprint",
+          "day_label": "30-Day Plan — Day 12",
+          "hero": {
+            "query": "Living room side table clutter before decluttering, one window light, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "Before shot of a cluttered side table in a Mumbai flat.",
+            "alt": "Close-up of cluttered items on a side table.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\017-pexels.jpg",
+            "credit": "Photo by Tomás Asurmendi on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "Anita, residing in a Mumbai flat with a window on only one side, faces a cluttered side table. She decides to implement the 3 2 1 Declutter Sprint to quickly clear and organize her space.",
+          "principle": "Use a timed approach to declutter efficiently and avoid overthinking.",
+          "body": [
+            "For each target surface, set a timer for six minutes and move in this sequence: three minutes to clear everything off the surface, even things you think will stay; two minutes to group like items in the Parking Zone; and one minute to decide quickly on KEEP, EDIT, EXIT choices based on function and your palette card.",
+            "This pace stops overthinking and allows you to gain momentum. You can repeat the sprint for each surface, giving yourself up to two sprints per surface if needed.",
+            "By maintaining a quick pace, you can effectively clear clutter and make decisions without getting bogged down by indecision."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Taking too long to decide can lead to clutter reaccumulating; stick to the timer for best results.",
+          "checklist": [
+            "Set a timer for six minutes for each surface.",
+            "Clear the surface completely in three minutes.",
+            "Group like items in the Parking Zone for two minutes.",
+            "Make quick decisions in one minute."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "one-in-one-out-rule",
+          "title": "One In, One Out Rule",
+          "day_label": "30-Day Plan — Day 13",
+          "hero": {
+            "query": "Living room with a balanced display of decor items, one window light, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A well-balanced living room display with minimal decor items.",
+            "alt": "Close-up of a shelf with a balanced arrangement of books and decor.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\018-pexels.jpg",
+            "credit": "Photo by Martín Rivera on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "Vikram, living in a small 1BHK in Pune, has a growing collection of books and decor items. He implements the One In, One Out rule to maintain balance in his living room.",
+          "principle": "One-In-One-Out is a heuristic for discretionary decor and clothing, not for the entire home.",
+          "body": [
+            "Apply One-In-One-Out only to non-essential decor, clothing, and discretionary household items. Do not use it to remove essential cookware, safety equipment, replacement appliances, necessary clothing, accessibility equipment, consumables, or tools. For discretionary decor: if a new vase enters, an old vase exits.",
+            "Used that way, it is a heuristic for keeping discretionary stuff from creeping back onto surfaces. It is not a household law.",
+            "By adhering to this rule, you ensure that your living space remains manageable and visually calm."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: a toaster is 'exited' to make room for a candle. Cause: One-In-One-Out was applied to the whole home. Fix: limit it to non-essential decor, clothing, and discretionary items.",
+          "checklist": [
+            "For discretionary decor and clothing, remove one comparable item when a new one enters.",
+            "Evaluate your current items regularly to maintain balance.",
+            "Keep track of your collections to avoid overaccumulation."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "5-7-9-styling-composition-rule",
+          "title": "5 7 9 Styling Composition Rule",
+          "day_label": "30-Day Plan — Day 14",
+          "hero": {
+            "query": "Styled coffee table with odd-numbered decor arrangements, one window light, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A coffee table styled with a balanced arrangement of decor items.",
+            "alt": "Close-up of a coffee table with three styled items.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\019-pexels.jpg",
+            "credit": "Photo by Wolf  Art on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "Sita, in her Bengaluru apartment, wants to style her coffee table while adhering to the 5 7 9 rule for composition. She aims for a visually appealing yet functional arrangement.",
+          "principle": "5-7-9 is an optional composition heuristic. Even numbers are allowed.",
+          "body": [
+            "When you are ready to restyle, you may try odd-number groupings as an optional composition heuristic. They can create visual movement, but they do not universally produce better composition. Groups of three on a coffee table, or five to nine on a bookcase, are starting ideas — even numbers are fine if the arrangement reads calm.",
+            "Within a grouping, vary height and texture, then leave negative space. The eye needs rest as much as the room does. Think of your group as a small landscape, with a taller element, a mid-height element, and a low grounding element.",
+            "This approach ensures that your decor feels intentional and not overwhelming, allowing each piece to shine."
+          ],
+          "figures": [
+            {
+              "kind": "ratio_bar",
+              "title": "Plants And Textiles Finish The Room With",
+              "caption": "Plants and textiles finish the room with the 60 30 10 color ratio.",
+              "values": [
+                "60-30-10 ratio"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D003",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D003.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Symptom: a table looks busy after you add 'one more' object to hit an odd number. Cause: the 5-7-9 idea was treated as a law. Fix: stop at the arrangement that reads calm, even if the count is even.",
+          "checklist": [
+            "Try odd-number groupings if they help; skip them if they do not.",
+            "Vary height and texture within each grouping.",
+            "Leave negative space to avoid clutter."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "anchor-accent-balance-triangle",
+          "title": "Anchor, Accent, Balance Triangle",
+          "day_label": "30-Day Plan — Day 15",
+          "hero": {
+            "query": "Open shelves styled with Anchor, Accent, Balance triangle, one window light, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A well-styled open shelf featuring the Anchor, Accent, Balance triangle.",
+            "alt": "Close-up of a shelf with an anchor piece and accent decor.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\020-pexels.jpg",
+            "credit": "Photo by Keegan Checks on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "Rohit, living in a compact Mumbai flat, wants to style his open shelves using the Anchor, Accent, Balance triangle for a cohesive look.",
+          "principle": "Create a visually appealing arrangement by using a geometric approach to styling.",
+          "body": [
+            "This is your styling geometry. Place an anchor first, usually the largest or most grounding object. This could be a stack of two closed storage boxes on a lower shelf, a large bowl on the coffee table, or a substantial lamp on a side table.",
+            "Next, add an accent with some visual interest, such as a textured vase, a small plant, or a sculptural object. Finally, add a balance piece that picks up a tone from your palette card and weighs the third point in your mental triangle.",
+            "Always allow space between points to create a sense of calm and organization in your decor."
+          ],
+          "figures": [
+            {
+              "kind": "elevation",
+              "title": "Above The Sofa, Choose Art That Is",
+              "caption": "Above the sofa, choose art that is 50 to 75 percent of the sofa width.",
+              "values": [
+                "50 to 75 percent",
+                "57 to 60 inch"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D007",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D007.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Forgetting to leave space between elements can create a cluttered look; always ensure there is breathing room.",
+          "checklist": [
+            "Identify an anchor piece for your arrangement.",
+            "Add an accent and a balance item to complete the triangle.",
+            "Ensure there is negative space between items."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "bedroom-room-kit-storage-sleep-and-serenity",
+      "title": "Bedroom Room Kit: Storage, Sleep, And Serenity",
+      "intro": "Bedroom Room Kit: Storage, Sleep, And Serenity Chapter Introduction You have already lightened your living room surfaces and tuned your palette, which means your bedroom is ready to do something special. This chapter is the quiet engine of your 30 day transformation. It turns your unified color palette into calm, and it captures every centimeter of a compact 1 BHK bedroom so storage works without ",
+      "opener": {
+        "query": "small indian bedroom minimalist daylight editorial",
+        "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK bedroom, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+        "alt": "A calm bedroom",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\021-pexels.jpg",
+        "credit": "Photo by Anisha Deb on Pexels",
+        "ai_generated": false,
+        "provider_id": ""
+      },
+      "sections": [
+        {
+          "slug": "bedroom-room-kit-storage-sleep-and-serenity",
+          "title": "Bedroom Room Kit: Storage, Sleep, And Serenity",
+          "day_label": "Room kit",
+          "hero": {
+            "query": "small indian bedroom minimalist daylight editorial",
+            "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK bedroom, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+            "alt": "A calm bedroom",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\021-pexels.jpg",
+            "credit": "Photo by Anisha Deb on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "",
+          "principle": "Sixty centimeters is a compact planning target. Verify doors, drawers, and the actual walking line.",
+          "body": [
+            "Bedroom Room Kit: Storage, Sleep, And Serenity Chapter Introduction You have already lightened your living room surfaces and tuned your palette, which means your bedroom is ready to do something special. This chapter is the quiet engine of your 30 day transformation. It turns your unified color palette into calm, and it captures every centimeter of a compact 1 BHK bedroom so storage works without disturbing sleep. You will leave with a clear plan for where the bed goes, how you walk around it, what you see when you wake, and how to control light, sound, and temperature. You will also design a wardrobe interior that serves daily habits, then choose textiles and storage that respect your palette and your 80 percent surface rule.",
+            "Think of this as your Room Kit. It is a set of simple rules and measurements you can trust. There is no guesswork, only choices that align with how you live. By the end, your bedroom will be serene in color and proportion, and it will be efficient in the ways that matter when you are tired and short on time.",
+            "restful sleep and you need storage that handles clothes, linens, and personal items with minimal visual noise. In many 1 BHK homes, the bed crowds the wardrobe, nightstands get oversized, and windows leak light or street noise. You end up with hard to reach shelves, under bed chaos, and surfaces that attract clutter again. The result is a room that looks busy and feels unsettled.",
+            "This chapter solves that tension. You will create a plan where ease of movement and light control come first. Storage will be zoned to match your daily rhythm. Textiles will be chosen inside a Quiet Color Envelope so you do not add noise with good intentions. Measurements will be precise, because proportion is the secret that makes a small room feel composed.",
+            "First, place the bed for balanced sight lines and safe walkways. Second, map sleep conditions with the Sleep Sanctuary Map. Third, manage daylight and noise with the Two Layer Curtain Strategy. Fourth, design wardrobe interiors with Wardrobe Zoning so daily items are easy, weekly items are reachable, and rare items are tucked away. Fifth, scale nightstands and lighting to your bed so function and elegance meet.",
+            "Sixth, expand storage under the bed in a way that stays invisible and labeled. Every choice sits inside your unified palette from Design DNA. Your goal is cohesive calm. You will apply your 80 percent surface rule to nightstands and dressers so the room resets easily. You will also add renter friendly upgrades, a simple measurement cheat sheet, and optional zones for a small desk or vanity if needed.",
+            "floor and a tape measure. Your bed is the anchor, so orient it to support a calm view. If possible, place the headboard against the longest uninterrupted wall. Use 60 centimeters as a compact planning target on each side where space is constrained, and 60 to 75 centimeters at the foot. Increase the gap where possible, and verify wardrobe doors, drawers, and actual circulation — including carrying laundry. This is not a universal comfort or accessibility requirement. In tight rooms, a single side clearance of 75 centimeters with the other side near a wall can work if you can fully open the wardrobe doors without pinching the walkway.",
+            "Check door swing angles. If your wardrobe doors swing into the bed, shift the bed to adjust clearances or consider changing door hardware to open from the opposite side. Balance what you see when you wake. A window view is ideal. If you face a wardrobe, add a soft textile or art above the headboard to anchor attention. Keep mirrors away from direct sight lines from the pillow if reflections feel busy. In narrow rooms, consider centering the bed with pendant lamps in place of large nightstands to free floor space.",
+            "Sleep Sanctuary Map, Light, Sound, And Temperature Adults typically need seven to nine hours of sleep. You will protect that with your Sleep Sanctuary Map. Divide the room into three zones. Zone A is the window wall, which controls light and noise. Zone B is around the bed, which manages sound and temperature at the body level. Zone C is the wardrobe and door area, which handles movement and early morning light leaks.",
+            "In Zone A, seal light with well fitted curtains, then soften noise by adding fabric mass and minimizing gaps. In Zone B, add soft surfaces near the bed. A small rug on each side absorbs sound at foot traffic points. Keep electronics dim and away from eye level. In Zone C, use a door sweep or a fabric draft stopper to reduce corridor light and airflow during sleep. If a fan or air conditioner is in the room, check its angle so air flows along the ceiling then down, rather than directly across your face.",
+            "Two Layer Curtain Strategy Use two curtain layers for control without renovation. Hang a sheer layer closest to the window to soften daylight and provide privacy during the day. Add a blackout layer in your palette for night. If you have a street light or early sun, extend the blackout layer wider than the window frame and mount it higher to limit light bleed.",
+            "Choose curtain fabric with a matte finish to avoid visual glare. For noise, a heavier blackout fabric adds sound absorption. If you have a sliding door to a balcony, use floor length panels that kiss the floor rather than puddle, which collects dust. Wardrobe Zoning, Prime, Secondary, Deep Storage Design wardrobe interiors for your daily rhythm. Divide storage into three zones by height.",
+            "The Prime Zone is from about 80 to 150 centimeters off the floor, which is chest to eye level. This is where daily wear and absolute essentials go. Use a single hanging rail or two half rails if your wardrobe height allows. Place a shallow drawer for underwear and socks here if possible. The Secondary Zone is below 80 centimeters and above 150 centimeters.",
+            "Store weekly wear and shoes here. Use pull out baskets or drawers for folded items so you do not stack too high. The Deep Storage Zone is above 180 centimeters or hidden under the bed. Place rare use items, occasion wear, and spare linens here. Use labeled bins with uniform sizes. The label is the key. It saves time and keeps your surfaces clear because you will not pull out five boxes to find one item.",
+            "Nightstand And Lamp Proportion Proportion is elegance. Right size your nightstands so they support what you actually use. Measure your mattress height from floor to top. Aim for the nightstand top to sit level with the mattress top or within 2 to 5 centimeters. Choose a width that allows a lamp base and a small tray, not an open shelf that invites clutter.",
+            "In tight rooms, a wall mounted shelf can replace a full nightstand. For lamps, use a shade that hides the bulb at eye level when you are seated. If you use pendants, drop them so the bottom of the shade sits about 45 to 55 centimeters above the nightstand surface. Dimmer controls near the bed are more valuable than fancy shades. Renter friendly stick on dimmers make this easy.",
+            "Under Bed Storage That Stays Invisible Under bed space is precious. Use low profile bins or rolling drawers that match your palette, or zip bags for seasonal linens. Measure the clearance under your bed. Choose containers that are shorter than your clearance by at least 2 centimeters to prevent scraping. Assign categories, then label on the side. Place the most used category toward the foot for easier reach. Avoid mixed contents, which invite rummaging and clutter.",
+            "Quiet Color Envelope For Textiles Your Quiet Color Envelope is a simple rule. Choose bedding, throws, and pillows inside your palette's softer tones. Use solids or small texture rather than busy patterns. If your palette has a calm base color, make it the dominant bedding color. Add one accent pillow in a deeper tone or a subtle stripe. Consistency beats variety in a sleep space. Keep sheen low. Satin and shiny surfaces can read as visual noise in small rooms.",
+            "Measurement Cheat Sheet Exact numbers bring confidence. Use these quick measurements as you plan.",
+            "centimeters from floor, adjust to eye line.",
+            "headboard, center width on bed. Renter Friendly Upgrades With Big Impact Make smart changes that do not require construction. Add stick on dimmers for bedside lamps to reduce blue light and create wind down lighting. Install peel and stick wall panels or fabric headboard panels to anchor the bed visually. Use peel and stick decals in palette tones to create a soft focal wall. Swap wardrobe handles for a simple, matte finish handle that aligns with your palette. These small changes lift the room without risk.",
+            "Optional Zones, Desk, Vanity, And Child Pathways If your bedroom must include a compact desk or vanity, keep it visually light. Use a narrow top and one concealed organizer. Mount a cable channel under the top to hide cords. Place the desk opposite the bed, not beside it, so work items do not creep onto nightstands. If a child sleeps in the room, keep a clear, unobstructed route to the child's sleeping area appropriate to the layout and required access. Sixty centimeters is only a compact planning example, not a child-safety standard. Age, furniture, supervision, emergency egress, and crib or bed configuration all matter. Use a soft rug and a small night light with low lumens placed low and away from adult sight lines. Keep toys in one rolling bin that lives under a chair or in the wardrobe Secondary Zone.",
+            "Implementation Strategy Follow this sequence to apply the Bedroom Room Kit. Step 1, Measure And Sketch. Draw your bedroom on paper with key dimensions. Mark the window, door swings, wardrobe doors, and any obstructions. Add your bed dimensions including mattress height. Note current clearances. Step 2, Place The Bed. Test the bed against the longest uninterrupted wall. Adjust until walkways work in this room: 60 centimeters is a compact planning target where space is tight; increase it where you can. Confirm that wardrobe doors and drawers open without conflict.",
+            "Step 3, Map The Sleep Sanctuary. Identify Zones A, B, and C. Choose curtain layers, rug positions, and door light control based on your needs. Decide where dimmer controls will go. Step 4, Plan Wardrobe Zoning. Empty the wardrobe. Divide interior height into Prime, Secondary, and Deep Storage. Assign rails and shelves accordingly. Add labeled bins for Deep Storage and a shallow drawer or basket for Prime essentials.",
+            "Step 5, Scale Nightstands And Lighting. Measure your mattress height. Choose nightstands that match the height. Select lamps or pendants based on your clearance. Install dimmers and set a soft lighting plan. Step 6, Set Under Bed Storage. Measure under bed clearance. Choose low profile containers and assign categories. Label and place for access. Keep colors aligned with your palette to maintain visual calm.",
+            "Step 7, Wrap Textiles In Your Quiet Color Envelope. Choose bedding in your calm base color. Add one accent pillow. Avoid pattern clutter. Confirm that your textiles feel soft to the eye and touch. Step 8, Add Renter Friendly Upgrades. Install fabric headboard panels, decals, and hardware swaps. Review against your palette card from Design DNA. Step 9, Photograph And Review. Take simple photos from the door and the bed. Compare to your palette and your 80 percent surface rule. Adjust items until surfaces read calm and clear.",
+            "Real World Application Case Study One, A Narrow Room With A Large Wardrobe. This 1 BHK has a bed that originally blocked the wardrobe. The owner shifted the bed 10 centimeters, placed it on the longest wall, and moved one nightstand to a wall mounted shelf to free floor space. They used the Two Layer Curtain Strategy to cut early light and street noise. Wardrobe Zoning placed daily wear at chest height and shoes in a pull out drawer in the Secondary Zone. Under bed storage held spare linens in two labeled zip bags. The room now clears easily, and mornings are faster because daily items are in the Prime Zone.",
+            "Case Study Two, A Room With A Desk And A Child's Floor Bed. The adult bed moved to center the window view and to keep a clear, unobstructed route to the child's sleeping area — 60 centimeters here is a compact planning example, not a child-safety standard. A compact desk with a cable channel sits opposite the bed. The owner used a floor rug to absorb sound near the child's bed and added a low night light. Curtains followed the Two Layer Curtain Strategy, with a blackout layer in a deep palette tone that matched the headboard fabric panel. Wardrobe Zoning placed weekly wear above eye level and rare items in a top bin. The child's toys live in one rolling bin under the desk. The room feels calm, and both sleep and work happen without visual clutter.",
+            "Common Pitfalls Avoid oversizing nightstands and lamps. Large tops invite clutter and push the bed into walkways. Do not ignore door swing conflicts with the wardrobe. You will resent the bump every morning. Skip busy patterns on bedding, even if they are pretty. They break your Quiet Color Envelope and create visual noise. Do not stack folded clothes too high in the wardrobe. High stacks topple and create mess. Avoid under bed storage without labels. You will pull out everything to find one item, which re clutters surfaces. Finally, do not forget dimmers. Fixed bright light damages sleep rhythm and mood."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Side clearance is a compact planning target",
+              "caption": "Use 60 centimeters beside the bed where space is constrained; increase it where possible.",
+              "values": [
+                "Compact target",
+                "Compact target",
+                "Doors and drawers"
+              ],
+              "labels": [
+                "Each side",
+                "Foot of bed",
+                "Verify"
+              ],
+              "minimum": null,
+              "spec_id": "D033",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D033.svg"
+            },
+            {
+              "kind": "plan",
+              "title": "In Tight Rooms, A Single Side Clearance",
+              "caption": "In tight rooms, a single side clearance of 75 centimeters with the other side near a wall can work if you can fully open the wardrobe doors without pinching the walkway.",
+              "values": [
+                "75 centimeters"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D034",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D034.svg"
+            },
+            {
+              "kind": "plan",
+              "title": "The Prime Zone",
+              "caption": "The Prime Zone is from about 80 to 150 centimeters off the floor, which is chest to eye level.",
+              "values": [
+                "80 to 150 centimeters"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D035",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D035.svg"
+            },
+            {
+              "kind": "plan",
+              "title": "The Deep Storage Zone",
+              "caption": "The Deep Storage Zone is above 180 centimeters or hidden under the bed. Choose containers that are shorter than your clearance by at least 2 centimeters to prevent scraping.",
+              "values": [
+                "180 centimeters"
+              ],
+              "labels": [],
+              "minimum": "2 centimeters",
+              "spec_id": "D036",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D036.svg"
+            },
+            {
+              "kind": "table",
+              "title": "The Nightstand Top To Sit Level With",
+              "caption": "Aim for the nightstand top to sit level with the mattress top or within 2 to 5 centimeters.",
+              "values": [
+                "2 to 5 centimeters"
+              ],
+              "labels": [
+                "2 to 5 centimeters"
+              ],
+              "minimum": null,
+              "spec_id": "D038",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D038.svg"
+            },
+            {
+              "kind": "elevation",
+              "title": "If You Use Pendants, Drop Them So",
+              "caption": "If you use pendants, drop them so the bottom of the shade sits about 45 to 55 centimeters above the nightstand surface.",
+              "values": [
+                "45 to 55 centimeters"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D039",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D039.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Bedside clearance is a compact target",
+              "caption": "Use 60 centimeters as a compact planning target where space is tight. Increase it where possible and verify doors, drawers, and circulation.",
+              "values": [
+                "Sixty centimeters",
+                "Seventy-five when you can",
+                "Doors, drawers, carrying"
+              ],
+              "labels": [
+                "Compact target",
+                "Prefer more",
+                "Then check"
+              ],
+              "minimum": null,
+              "spec_id": "D040",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D040.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Foot-of-bed clearance is a planning target",
+              "caption": "Sixty centimeters at the foot is a compact planning target for a trunk or bench, not a universal minimum. Confirm the piece can open.",
+              "values": [
+                "About sixty centimeters",
+                "Must still open",
+                "Verify in the room"
+              ],
+              "labels": [
+                "Compact target",
+                "If you add storage",
+                "Not a code"
+              ],
+              "minimum": null,
+              "spec_id": "D041",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D041.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Measure your bedroom, then sketch clearances and door swings.",
+              "minutes": null
+            },
+            {
+              "text": "Install sheer plus blackout curtains, mounted high and wide to limit",
+              "minutes": null
+            },
+            {
+              "text": "Rebuild your wardrobe interior into Prime, Secondary, and Deep",
+              "minutes": null
+            },
+            {
+              "text": "Swap nightstands or add wall shelves to match mattress height and",
+              "minutes": null
+            },
+            {
+              "text": "Set up labeled under bed containers for spare linens and rare use",
+              "minutes": null
+            },
+            {
+              "text": "Choose bedding and one accent pillow inside your palette's calm",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [
+            "Place the bed for balanced sight lines and safe walkways, then",
+            "Use two curtain layers to control light and soften noise without",
+            "Zone the wardrobe by height so daily wear lives at chest to eye level.",
+            "Scale nightstands and lamps to the bed for function and elegance.",
+            "Choose low profile under bed storage that is labeled and aligned with",
+            "Wrap textiles inside a Quiet Color Envelope for a serene mood."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "bedroom-declutter-and-styling-calm-surfaces-smart-wardrobes",
+      "title": "Bedroom Declutter And Styling: Calm Surfaces, Smart Wardrobes",
+      "intro": "Your bedroom should feel like a quiet exhale at the end of the day. In this chapter, you will learn how to declutter and style your bedroom so it resets to calm every day, with surfaces that stay open and a wardrobe that actually supports how you live.",
+      "opener": {
+        "query": "compact Indian apartment bedroom, soft lighting, neutral color palette, organized wardrobe, serene atmosphere",
+        "flux_prompt": "full-bleed shot of a serene bedroom with a neatly made bed, a clear nightstand, and a well-organized wardrobe",
+        "alt": "compact Indian apartment bedroom, soft lighting, neutral color palette, organized wardrobe, serene atmosphere",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\023-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": ""
+      },
+      "sections": [
+        {
+          "slug": "capsule-wardrobe-grid",
+          "title": "Capsule Wardrobe Grid",
+          "day_label": "30-Day Plan — Day 16",
+          "hero": {
+            "query": "compact Indian apartment wardrobe, soft lighting, organized clothing, neutral color palette",
+            "flux_prompt": "photo of a neatly organized wardrobe with matching hangers, soft lighting, and a calm atmosphere",
+            "alt": "an organized wardrobe with a Capsule Wardrobe Grid displayed on the wall",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\024-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "Riya and Arjun live in a compact 1 BHK in Pune. Their wardrobe was overflowing with clothes they rarely wore, making it difficult to find what they needed. They decided to create a Capsule Wardrobe Grid to streamline their clothing choices.",
+          "principle": "A Capsule Wardrobe Grid aligned to your palette reduces decisions and supports daily ease.",
+          "body": [
+            "Start by mapping out your typical seasonal wardrobe on a single page. Create rows for categories such as work tops, casual bottoms, outer layers, sleepwear, and lounge. For Riya and Arjun, their lean grid included five work tops, four casual tees, three bottoms, one jacket, one dress, two lounge sets, and two sleep sets.",
+            "Each category should have columns for quantity, palette color, and fit notes. Use your unified palette from previous chapters to ensure color cohesion. Riya and Arjun chose neutrals with one accent color, which made their wardrobe visually appealing and functional.",
+            "The goal is not to have a universal number of items but to ensure alignment with your lifestyle. If you live in a monsoon region, prioritize quick-drying fabrics. This grid will help you make informed decisions about what to keep and what to exit."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Skipping the capsule grid can lead to random edits and clutter.",
+          "checklist": [
+            "Draft your Capsule Wardrobe Grid with categories, counts, and palette colors.",
+            "Keep only items that fit comfortably and align with your grid.",
+            "Exit items that do not match your palette or are rarely used."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "keep-edit-exit",
+          "title": "Keep, Edit, Exit",
+          "day_label": "30-Day Plan — Day 17",
+          "hero": {
+            "query": "compact Indian apartment bedroom, soft lighting, organized wardrobe, neutral color palette",
+            "flux_prompt": "photo of a neatly organized wardrobe with matching hangers, soft lighting, and a calm atmosphere",
+            "alt": "an organized wardrobe with a Capsule Wardrobe Grid displayed on the wall",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\025-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "In their Pune apartment, Riya and Arjun tackled their wardrobe using the Keep, Edit, Exit method. They pulled out their hanging items and assessed each piece against three questions.",
+          "principle": "Keep, Edit, Exit is a fast and humane way to shape a functional wardrobe.",
+          "body": [
+            "To begin, pull one category at a time from your wardrobe. For Riya and Arjun, they started with hanging items. Each piece should be evaluated based on three questions: Does it fit comfortably today? Does it match the capsule grid? Is the color and finish inside your palette? If the answer is yes, keep it.",
+            "If an item could work with minor tailoring or repair, set it aside in a separate bag for editing. Items that do not align should be exited immediately. This process is not punitive; it is a commitment to ease and functionality in your wardrobe.",
+            "Riya and Arjun placed their exit items in a donation box right away to prevent them from returning to the rail. This quick decision-making process helped them streamline their wardrobe significantly."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Without a defined wardrobe plan, edits become random and relapse is likely.",
+          "checklist": [
+            "Run Keep, Edit, Exit for hanging items, folded items, footwear, accessories, and linens.",
+            "Keep only items that fit comfortably and align with your grid.",
+            "Exit items that do not match your palette or are rarely used."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "hanger-parity-rule",
+          "title": "Hanger Parity Rule",
+          "day_label": "30-Day Plan — Day 18",
+          "hero": {
+            "query": "compact Indian apartment wardrobe, soft lighting, organized clothing, neutral color palette",
+            "flux_prompt": "photo of a neatly organized wardrobe with matching hangers, soft lighting, and a calm atmosphere",
+            "alt": "an organized wardrobe with a Capsule Wardrobe Grid displayed on the wall",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\024-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "Riya and Arjun noticed that their mixed hangers contributed to visual noise in their wardrobe. They decided to implement the Hanger Parity Rule to create a calmer space.",
+          "principle": "The Hanger Parity Rule quiets the rail and improves visibility instantly.",
+          "body": [
+            "Visual calm starts with consistency. Riya and Arjun chose one style and color of hanger to replace all their mixed hangers. This single change quieted the rail and improved visibility, making it easier to see all their clothing options.",
+            "They opted for slim velvet hangers, which not only looked sleek but also saved space. All hangers were placed in the same direction, ensuring that each sleeve had breathing room. This organization transformed their wardrobe into an ordered line of their capsule, rather than a crowded mess.",
+            "By maintaining hanger parity, they found that their wardrobe felt lighter and more inviting, making it easier to choose outfits each day."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Keeping mixed hangers creates visual noise and clutter in the wardrobe.",
+          "checklist": [
+            "Replace all hangers with a matching set, and set them in the same direction.",
+            "Ensure all hangers are of the same style and color for visual calm.",
+            "Space items so each sleeve has breathing room."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "laundry-loop",
+          "title": "Laundry Loop",
+          "day_label": "30-Day Plan — Day 19",
+          "hero": {
+            "query": "compact Indian apartment laundry area, soft lighting, organized space, neutral color palette",
+            "flux_prompt": "photo of a tidy laundry area with a neatly placed hamper and folding station",
+            "alt": "a well-organized laundry area with a clear folding station and a hamper",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\027-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "Mina, a stylist living in a small Bengaluru apartment, struggled with laundry piling up on her dresser. She decided to implement a Laundry Loop to maintain order.",
+          "principle": "A defined Laundry Loop prevents freshly washed items from landing on surfaces.",
+          "body": [
+            "Mina mapped out her laundry loop in three parts. First, she placed her hamper near her wardrobe, making it easy to drop clothes as soon as she undressed. This simple change reduced the temptation to leave clothes on chairs or the floor.",
+            "Next, she set a fixed wash day for Sundays, with a backup micro load rule when her hamper reached three-quarters full. This structure ensured that laundry was managed regularly and did not become overwhelming.",
+            "Finally, Mina created a folding station on her bed, where she could sort and fold items by color and category before returning them to her wardrobe. This loop kept her space clear and organized, allowing her to maintain a serene environment."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Ignoring laundry placement encourages piles on chairs and surfaces.",
+          "checklist": [
+            "Place your hamper beside the wardrobe for easy access.",
+            "Set two wash days in your calendar to maintain a routine.",
+            "Create a folding station near the wardrobe for efficient organization."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "kitchen-room-kit-counters-cabinets-and-daily-flow",
+      "title": "Kitchen Room Kit: Counters, Cabinets, And Daily Flow",
+      "intro": "Kitchen Room Kit: Counters, Cabinets, And Daily Flow Chapter Introduction Your kitchen is the engine of your home. In a compact 1 BHK, it sets the pace for your day, and it can either energize or drain you. You have already built a unified palette and practiced the 80 percent surface rule in the living room and bedroom. Now you will translate that same clarity into the kitchen where safety, speed,",
+      "opener": {
+        "query": "small indian kitchen minimalist daylight editorial",
+        "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK kitchen, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+        "alt": "A calm kitchen",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\028-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": ""
+      },
+      "sections": [
+        {
+          "slug": "kitchen-room-kit-counters-cabinets-and-daily-flow",
+          "title": "Kitchen Room Kit: Counters, Cabinets, And Daily Flow",
+          "day_label": "Room kit",
+          "hero": {
+            "query": "small indian kitchen minimalist daylight editorial",
+            "flux_prompt": "Magazine editorial photograph of a compact Indian 1BHK kitchen, real Mumbai or Bangalore apartment scale, soft morning daylight from one window, calm warm-neutral walls, teak and linen textures, one deep teal accent object, clear surfaces styled like Architectural Digest India, 35mm lens, shallow depth, no people, no text, no watermark, photorealistic",
+            "alt": "A calm kitchen",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\028-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "",
+          "principle": "Prep span and appliance count are planning heuristics. Workflow and footprint decide what actually fits.",
+          "body": [
+            "Kitchen Room Kit: Counters, Cabinets, And Daily Flow Chapter Introduction Your kitchen is the engine of your home. In a compact 1 BHK, it sets the pace for your day, and it can either energize or drain you. You have already built a unified palette and practiced the 80 percent surface rule in the living room and bedroom. Now you will translate that same clarity into the kitchen where safety, speed, and cleanliness matter most.",
+            "This chapter gives you a Kitchen Room Kit you can measure, install, and maintain. You will define a Kitchen Zone Map that fits your layout, set a Countertop Capacity Cap to protect prep space, and build a Golden Prep Zone that keeps knives, boards, towels, and frequently used tools within one step. You will multiply storage vertically with a ladder of hooks, rails, and magnetic strips, label everything so it runs on autopilot, and align textiles and accents to your palette in a crisp 60, 30, 10 ratio. By the end, your kitchen will be mapped, calibrated, and ready for the declutter sprint in the next chapter.",
+            "linked problems. Counters are crowded with small appliances, prep tools are scattered, and shelves hide a jumble of pantry and cookware. The result is slow meal prep, higher risk of cuts or burns, and constant visual noise that stretches into your living room sightlines. When counters lose clear working space, you cut vegetables over the sink or the stove, and you stack items on top of items. Small appliances creep into every spare inch. Drawers hold duplicates you never use.",
+            "Without a zone plan, you walk back and forth to fetch items during cooking. Without labels and a clear capacity rule, the kitchen reverts to clutter after every meal. In a compact footprint, every centimeter matters. You need a structure that makes daily flow simple, safe, and fast, and that protects the 80 percent surface rule you have already embraced.",
+            "on your layout, single wall, galley, or L shaped. This sets the foundation for where things live and how you move.",
+            "of items allowed on the counter. This protects a continuous prep zone and stops appliance creep.",
+            "knives, chopping boards, towels, salt, and your top three tools within one step. This speeds your work and reduces risk.",
+            "risers, and slim caddies to multiply capacity without crowding the counter or floor.",
+            "to the right place. Labels remove decision fatigue and lock in maintenance.",
+            "Single wall. Anchor Prep near the sink. Place Cook at the hob or cooktop. Clean is the sink with drying rack and cleaning caddy. Serve is the section nearest the exit to the dining area. If your counter is one continuous run, a 60-centimeter clear prep span between sink and cooktop is a preferred starting target where space permits. Sink-to-cooktop layout is not universal. In a very compact kitchen, protect the largest continuous prep patch you can — even 45 centimeters — and keep appliances off that patch. Galley. Choose the brighter side for Prep and Serve, and keep Cook opposite, but ensure at least 90 centimeters walkway. Clean stays at the sink side. Prefer a continuous prep patch on one side, not divided by the sink, as a starting target where space permits.",
+            "L shaped. Prep sits on the longer leg, Cook near the corner but not crowding it, Clean at the sink, Serve at the leg nearest the dining area. Avoid placing the cooktop in the corner to prevent heat traps. Maintain a 30 centimeter buffer on either side of the cooktop for safety. Counter Clearances And Safe Placement",
+            "for daily prep. If your total counter length is short, protect 45 centimeters and treat it as sacred.",
+            "the cooktop for hot pans and 20 centimeters on the other side in very tight kitchens. Avoid storing flammable items near this area. Keep oil bottles at least one arm length from the flame or heat source.",
+            "sink. Keep electrical appliances at least 20 centimeters away to avoid splash exposure.",
+            "clearance behind for cords and ventilation. Avoid placing them under hanging fabric or paper. If steam is involved, such as electric kettles, keep them away from under cabinet bottoms to prevent moisture damage. Optimal Shelf Heights And Access",
+            "150 centimeters from the floor. This range suits reach for most adults without stretching.",
+            "centimeters, lower shelves or base cabinets, to reduce lift strain.",
+            "170 centimeters. Use a stable step stool for safe access.",
+            "shelves for typical plates and jars. Use risers in cabinets to stack without creating visual clutter. Set The Countertop Capacity Cap You will calculate a cap that limits what lives on the counter every day. Use this simple formula.",
+            "Do not treat one appliance per 60 centimeters as a maximum-capacity rule. The real constraint is available prep space plus each appliance's footprint plus workflow. Use 60 centimeters as a starting planning heuristic: if the leftover counter after the prep patch is smaller than the appliance you actually use, that appliance lives in a cabinet or garage, not on the prep patch.",
+            "sink and 60 centimeters cooktop. Add 20 centimeters for buffers. Usable length is 40 centimeters. You must protect 60 centimeters for prep. Since your remainder is negative, you place zero small appliances on the counter. Everything goes into cabinets or an appliance garage. Build The Golden Prep Zone Choose the exact spot for daily chopping and mixing. Install the following within one step.",
+            "slim container or rail. If a container lives on the counter, it counts toward the capacity cap. Multiply Storage With The Vertical Storage Ladder Start at eye level and work down.",
+            "This clears counter space and keeps edges visible.",
+            "and cook interface. Use S hooks for flexible placement.",
+            "aligned with your palette, neutral or your accent color.",
+            "the tray out to use, then slide back in. This is your appliance garage. Label Logic That Makes Maintenance Automatic Use simple, clear labels at the front edge of shelves and on bin faces.",
+            "items with dates. Labels remove thinking in the moment and make it easy for anyone else to put items back where they belong. Plan Your Pantry And Spice Strategy Measure each shelf. Choose modular bins that fit the width in pairs or trios so gaps do not invite scatter. Use straight sided bins to maximize capacity.",
+            "one rice type, one breakfast cereal, two cooking oils. This limits overflow.",
+            "visual noise. If the package is stable and clean, keep it. Decant messy or floppy packaging into clear containers with airtight lids.",
+            "original jars in a single tray. Align labels consistently on the front. Use your accent color on the tray or label band to tie to your palette. Renter Safe Upgrades For Big Impact",
+            "protects surfaces and signals a landing zone.",
+            "cooktop or sink to break grease and align with your secondary color.",
+            "that matches your palette. Keep originals to reinstall later.",
+            "prep zones and improve safety. Integrate Your Palette With Textiles And Accents Maintain 60, 30, 10. Let your kitchen finishes be the 60 percent base. Use textiles for 30 percent presence, towels, mitts, and a runner. Allow 10 percent for small accents, a soap dispenser, an oil tray, or a single plant. Keep repetition tight. For example, two towels, one runner, one mitt, and one small accent.",
+            "Appliance Garage Options That Keep Counters Quiet Use a tray on a lower shelf for blender and mixer. Add inside cabinet caddies for kettle and toaster if space allows. If the kettle must stay out, place it on a small tray and count it toward the cap. Store rarely used gadgets in labeled bins above 170 centimeters. Implementation Strategy Follow this step by step sequence.",
+            "tray placement, or labels based on experience. Real World Application Consider three common compact scenarios. Single wall kitchen with limited counter depth. Protect a preferred prep patch — 60 centimeters where space permits, or the largest continuous span you can in a compact kitchen. The remainder is insufficient for daily appliances, so the kettle and toaster live on a tray inside a base cabinet. A magnetic strip above the prep span holds knives. A slim rail with hooks holds tongs and a towel. Two modular bins on the upper shelf, one for Dry Grains and one for Breakfast, keep items visible. Under cabinet lights brighten the prep area. The result is a clear counter with only a salt and oil tray present. Meal prep speeds up because everything is within one step.",
+            "Narrow galley kitchen with 90 centimeters walkway. Assign Prep and Serve on the brighter side, Clean near the sink, and Cook opposite. Install a rail above Prep for cups and tools. Use under shelf risers to increase plate storage. Store blender on a tray in the base cabinet. Label Logic ensures anyone can find and return items. Traffic is smooth because zones are obvious and the walkway stays clear.",
+            "L shaped kitchen with open sightline to the living room. Place Cook away from the corner to avoid heat traps. Protect a prep span on the longer leg. Use a slim wall caddy for spices near Prep. Textiles match the palette, runner in the secondary color, towels in the accent. The 60, 30, 10 ratio keeps the look cohesive without crowding. Counters remain largely clear.",
+            "From the living room, the kitchen reads calm and consistent. Common Pitfalls",
+            "prep zone shrinks and clutter grows. Respect the cap."
+          ],
+          "figures": [
+            {
+              "kind": "elevation",
+              "title": "If Your Counter Is One Continuous Run",
+              "caption": "If your counter is one continuous run, a 60-centimeter clear prep span between sink and cooktop is a preferred starting target where space permits. Sink-to-cooktop layout is not universal. In a very compact kitchen, protect the largest continuous prep patch you can — even 45 centimeters — and keep appliances off that patch. Choose the brighter side for Prep and Serve, and keep Cook opposite, but ensure at least 90 centimeters walkway.",
+              "values": [
+                "60 centimeter"
+              ],
+              "labels": [],
+              "minimum": "90 centimeters",
+              "spec_id": "D047",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D047.svg"
+            },
+            {
+              "kind": "table",
+              "title": "A 60 Centimeter Clear Prep Span On",
+              "caption": "Prefer a continuous prep patch on one side, not divided by the sink, as a starting target where space permits.",
+              "values": [
+                "60 centimeter"
+              ],
+              "labels": [
+                "60 centimeter"
+              ],
+              "minimum": null,
+              "spec_id": "D049",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D049.svg"
+            },
+            {
+              "kind": "table",
+              "title": "At Least 30 Centimeters Of Landing Space",
+              "caption": "Keep at least 30 centimeters of landing space on one side of the cooktop for hot pans and 20 centimeters on the other side in very tight kitchens.",
+              "values": [
+                "30 centimeters",
+                "20 centimeters"
+              ],
+              "labels": [
+                "30 centimeters",
+                "20 centimeters"
+              ],
+              "minimum": "30 centimeters",
+              "spec_id": "D050",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D050.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Electrical Appliances At Least 20 Centimeters Away",
+              "caption": "Keep electrical appliances at least 20 centimeters away to avoid splash exposure.",
+              "values": [
+                "20 centimeters"
+              ],
+              "labels": [
+                "20 centimeters"
+              ],
+              "minimum": "20 centimeters",
+              "spec_id": "D051",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D051.svg"
+            },
+            {
+              "kind": "elevation",
+              "title": "If Your Total Counter Length Is Short",
+              "caption": "If your total counter length is short, protect 45 centimeters and treat it as sacred.",
+              "values": [
+                "45 centimeters"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D052",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D052.svg"
+            },
+            {
+              "kind": "table",
+              "title": "• Subtract The Minimum Prep Span You",
+              "caption": "•  Subtract the minimum prep span you will protect, 60 centimeters if possible, 45 centimeters if very tight.",
+              "values": [
+                "60 centimeters",
+                "45 centimeters"
+              ],
+              "labels": [
+                "60 centimeters",
+                "45 centimeters"
+              ],
+              "minimum": null,
+              "spec_id": "D053",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D053.svg"
+            },
+            {
+              "kind": "elevation",
+              "title": "Your Counter Length Is 180 Centimeters, With",
+              "caption": "Your counter length is 180 centimeters, with a 60 centimeters sink and 60 centimeters cooktop.",
+              "values": [
+                "180 centimeters",
+                "60 centimeters",
+                "60 centimeters"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D054",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D054.svg"
+            },
+            {
+              "kind": "elevation",
+              "title": "Maintain 25 To 30 Centimeters Of Gap",
+              "caption": "Maintain 25 to 30 centimeters of gap between shelves for typical plates and jars.",
+              "values": [
+                "25 to 30 centimeters"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D055",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D055.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Measure counter lengths, sink and cooktop widths, and cabinet shelf",
+              "minutes": null
+            },
+            {
+              "text": "Draw your Kitchen Zone Map and tape it on the wall for a week. Adjust",
+              "minutes": null
+            },
+            {
+              "text": "Set your Countertop Capacity Cap, write it on a card, and tape it",
+              "minutes": null
+            },
+            {
+              "text": "Install a magnetic strip or a slim knife tray. Add a board rack and towel",
+              "minutes": null
+            },
+            {
+              "text": "Place salt, pepper, and oil on a small tray and position it inside the",
+              "minutes": null
+            },
+            {
+              "text": "Fit two modular bins in the pantry and label them. Set par levels for",
+              "minutes": null
+            },
+            {
+              "text": "Add one renter safe upgrade, under cabinet light or hardware swap, to",
+              "minutes": null
+            },
+            {
+              "text": "Create an appliance garage with a tray on a lower shelf. Label the",
+              "minutes": null
+            },
+            {
+              "text": "Put a step stool near the pantry if shelves above 170 centimeters are",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [
+            "Zones come first. Map Prep, Cook, Clean, and Serve to your layout",
+            "Protect prep space. A continuous 60-centimeter prep span is a preferred starting target where space permits, and",
+            "Capacity caps control clutter. Calculate and enforce a maximum",
+            "Keep tools within one step. The Golden Prep Zone reduces movement",
+            "Go vertical smartly. Rails, hooks, magnets, and risers add capacity",
+            "Label everything. Labels make maintenance automatic for everyone in",
+            "Align textiles to your palette. Use the 60, 30, 10 ratio for calm",
+            "Use appliance garages. Store small appliances on trays inside"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "kitchen-declutter-and-styling-minimal-counters-you-can-maint",
+      "title": "Kitchen Declutter And Styling: Minimal Counters You Can Maintain",
+      "intro": "Your kitchen shapes how your entire home feels. A calm kitchen invites you into a day that begins smoothly and ends with an easy reset. Building on what you set up in Counters, Cabinets, And Daily Flow, you now have zones and capacity rules. The next step is execution. You will declutter with speed, set clear quantity limits, and style for function and beauty, all while hitting your eighty percent clear counter target.",
+      "opener": {
+        "query": "Compact Indian kitchen with minimal clutter, natural light from one window, soft white and charcoal color palette, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+        "flux_prompt": "Full-bleed shot of a decluttered kitchen with clear counters and organized shelves.",
+        "alt": "Compact Indian kitchen with minimal clutter, natural light from one window, soft white and charcoal color palette, teak textures, magazine styling, photorealist",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\030-pexels.jpg",
+        "credit": "Photo by Max Vakhtbovych on Pexels",
+        "ai_generated": false,
+        "provider_id": ""
+      },
+      "sections": [
+        {
+          "slug": "3-2-1-declutter-sprint",
+          "title": "3 2 1 Declutter Sprint",
+          "day_label": "30-Day Plan — Day 20",
+          "hero": {
+            "query": "Compact Indian kitchen with organized utensils and clear counters, natural light from one window, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "Shot of a neatly organized utensil drawer with limited utensils.",
+            "alt": "Close-up of a lid file with neatly organized lids.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\031-pexels.jpg",
+            "credit": "Photo by Dương Nhân on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "Riya, living in a compact 1BHK in Pune, often found her kitchen counters cluttered with multiple utensils and gadgets. She decided to tackle the mess by running a 3 2 1 Declutter Sprint. Setting a timer for three minutes, she pulled everything out of her utensil drawer and grouped items by type.",
+          "principle": "Speed matters because slow sorting invites attachment.",
+          "body": [
+            "Start with utensils. Set a three-minute timer. Pull everything out. Group by type. Keep your best two spatulas, one ladle, one solid spoon, one slotted spoon, one tongs, one whisk. Release duplicates, damaged items, or single function gadgets you do not use. Do two rounds. The first pass is obvious decisions. The second pass tightens to par levels. The one final pass is for sentimental or rare use items. If an item does not serve at least monthly and does not fill a safety or essential gap, it does not belong in a compact kitchen.",
+            "Run the same sprint for gadgets, cookware, serveware, pantry, and plastic containers. For cookware, keep one frying pan, one deep pan, one pot, and one pressure cooker if you use it. For serveware, keep a core set of plates and bowls that matches your household plus two guests. For plastic containers, keep four containers in two sizes and create a lid file to prevent lid chaos. A lid file is a vertical organizer where lids stand on edge in a narrow bin or tray.",
+            "Riya successfully reduced her utensils to two spatulas and one ladle, making her kitchen feel more spacious and organized."
+          ],
+          "figures": [
+            {
+              "kind": "ratio_bar",
+              "title": "• Open Shelves Styling, You Use The",
+              "caption": "•  Open Shelves Styling, you use the 60 30 10 ratio and the Anchor Accent Balance triangle.",
+              "values": [
+                "60 30 10 ratio"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D056",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D056.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Avoid keeping items that do not serve a purpose at least once a month.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "par-level-planning",
+          "title": "Par Level Planning",
+          "day_label": "30-Day Plan — Day 21",
+          "hero": {
+            "query": "Compact Indian kitchen with par levels clearly labeled inside cabinets, natural light from one window, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "Shot of a cabinet door with par levels written on a card.",
+            "alt": "Close-up of a neatly organized drawer with limited utensils.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\032-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "In her small kitchen, Riya realized that setting par levels was crucial for maintaining her newly decluttered space. She assessed her cooking habits and the number of people she typically served.",
+          "principle": "Par levels turn endless kitchen choices into clear limits you can live by.",
+          "body": [
+            "Par levels remove the decision paralysis of infinite choices. To set par, answer three questions. What is your weekly cooking rhythm? How many people do you serve on a typical day? How much space do you have? If you cook daily and wash dishes nightly, you can operate with fewer utensils and plates. If you cook for two and host occasionally, plan for everyday par plus two. If drawers are tight, reduce small tools first.",
+            "Examples of par levels to start: Utensils, two spatulas, one ladle, one slotted spoon, one solid spoon, one tongs, one whisk, one peeler, one grater. Knives, one chef knife, one paring knife, one serrated knife. Mixing, three bowls nested, one measuring jug, one set of measuring spoons. Bakeware, one tray, one rack. Drinkware, four mugs, four glasses. Adjust up or down to fit your life. Apply the Countertop Capacity Cap from your previous planning. If an appliance does not fit within your capacity cap, it needs to live in an appliance garage or on a tray inside a cabinet.",
+            "By setting these limits, Riya found it easier to maintain her kitchen organization and avoid unnecessary purchases."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Ignoring par levels can lead to clutter and disorganization.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "open-shelves-styling",
+          "title": "Open Shelves Styling",
+          "day_label": "30-Day Plan — Day 22",
+          "hero": {
+            "query": "Compact Indian kitchen with styled open shelves, natural light from one window, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "Shot of beautifully styled open shelves with clear negative space.",
+            "alt": "Close-up of a shelf with a balanced arrangement of items.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\033-pexels.jpg",
+            "credit": "Photo by Fabian Reck on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "Riya decided to style her open shelves to enhance the aesthetics of her kitchen while keeping it functional. She focused on using her color palette effectively.",
+          "principle": "Open shelves can be beautiful and minimal when styled with 60 30 10 and strict negative space.",
+          "body": [
+            "Open shelves can be beautiful and minimal when they are mostly functional. Use your palette in a 60 30 10 ratio. Sixty percent base color, thirty percent secondary, ten percent accent. Arrange with the Anchor Accent Balance triangle. Anchor heavy objects low and to one side, such as a stack of plates. Accent with one plant or a lidded jar in your accent color. Balance with a lighter item, such as a row of bowls. Keep strict negative space. A third of each shelf should remain clear. This protects the eighty percent counter target by reducing visual noise and giving eyes a place to rest.",
+            "Use trays to group small items so the shelf reads as deliberate. Riya placed her plates on the bottom shelf, a few decorative jars on the middle shelf, and a small plant on the top shelf, creating a balanced look that was both functional and visually appealing.",
+            "By styling her shelves this way, Riya not only improved the look of her kitchen but also made it easier to access frequently used items."
+          ],
+          "figures": [
+            {
+              "kind": "ratio_bar",
+              "title": "• Open Shelves Styling, You Use The",
+              "caption": "Open Shelves Styling, You Use The 60 30 10 ratio.",
+              "values": [
+                "60 30 10 ratio"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D011",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D011.svg"
+            }
+          ],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Neglecting negative space can lead to a cluttered appearance.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "nightly-shutdown-checklist",
+          "title": "Nightly Shutdown Checklist",
+          "day_label": "30-Day Plan — Day 23",
+          "hero": {
+            "query": "Compact Indian kitchen with a clean and organized countertop, natural light from one window, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "Shot of a clean kitchen counter ready for the next day.",
+            "alt": "Close-up of a neatly arranged kitchen sink area.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\034-pexels.jpg",
+            "credit": "Photo by Cup of  Couple on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "After successfully decluttering and styling her kitchen, Riya established a nightly shutdown routine to maintain her progress.",
+          "principle": "The Nightly Shutdown Checklist locks in your eighty percent clear counters.",
+          "body": [
+            "Five steps close the kitchen: clear sink, wipe counters, reset towels, empty bin if full, five minute floor sweep. This simple routine helps Riya end her day with a clean slate, making it easier to start fresh the next morning.",
+            "Riya found that by taking just a few minutes each night to follow this checklist, her kitchen remained organized and inviting. She enjoyed the calming effect of a clean kitchen, which made her cooking experience much more pleasant.",
+            "The Nightly Shutdown Checklist became a cherished ritual for Riya, reinforcing her commitment to maintaining her newly organized kitchen."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Skipping the nightly routine can lead to gradual clutter accumulation.",
+          "checklist": [
+            "Clear sink",
+            "Wipe counters",
+            "Reset towels",
+            "Empty bin if full",
+            "Five minute floor sweep"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "execution-the-30-day-calendar-sourcing-and-weekly-reset",
+      "title": "Execution: Sequence, Sourcing, And What Happens After Day 30",
+      "intro": "The day-by-day tracker is the Action Calendar. This chapter tells you how weeks fit together, how to sequence rooms during the 30 days, and how weekly reset starts after Day 30 — not as a second transformation.",
+      "opener": {
+        "query": "Indian apartment kitchen with clear counters, organized pantry, and labeled zones, warm lighting, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+        "flux_prompt": "A full-bleed shot of a well-organized kitchen with clear counters and labeled pantry zones, showcasing a cohesive color palette and functional layout.",
+        "alt": "Indian apartment kitchen with clear counters, organized pantry, and labeled zones, warm lighting, teak textures, magazine styling, photorealistic, no people, no",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\035-pexels.jpg",
+        "credit": "Photo by cottonbro studio on Pexels",
+        "ai_generated": false,
+        "provider_id": ""
+      },
+      "sections": [
+        {
+          "slug": "four-week-calendar-overview",
+          "title": "How the 30 days fit together",
+          "day_label": "How the 30 days fit",
+          "hero": {
+            "query": "Compact Indian living room with clear surfaces, organized decor, and a cohesive color palette, warm lighting, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A well-styled living room showcasing clear surfaces and a cohesive color palette, with a focus on functional decor.",
+            "alt": "An angle showing the living room with a sofa, rug, and decor items aligned with the color palette.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\036-pexels.jpg",
+            "credit": "Photo by Liva  Kitchens And Interiors on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "Aarav and Meera live in a 1 BHK in Pune. They set aside thirty-minute evening blocks during the week and a ninety-minute block on weekends to execute their plan. On Day 1, they walk through each room for ten minutes, listing visual noise and functional friction while photographing each zone.",
+          "principle": "Use the Action Calendar as the only Day 1–30 list. This overview is the map, not a second calendar.",
+          "body": [
+            "The 30-day transformation has one numbering system. Open the Action Calendar when you need the daily checkbox. This chapter is the map: Week 1 assess and palette, Weeks 2–3 rooms, Days 24–30 finish and re-check, then weekly reset after Day 30.",
+            "Aarav and Meera photograph each zone on Day 1. They measure living-room, bedroom, and kitchen dimensions as a separate task from the 80 percent unobstructed-area check. They do not write 'measure 80 percent' — those are two boxes.",
+            "By Day 3 they score visual noise with the 0–5 anchors. They treat a total under 7 as a planning target, and they work any factor scored 4 or 5 first."
+          ],
+          "figures": [
+            {
+              "kind": "chart",
+              "title": "As A Starting Point, Storage 30 To",
+              "caption": "As a starting point, storage 30 to 40 percent, lighting 20 to 25 percent, textiles 15 to 20 percent, art 10 to 15 percent, contingency 10 percent.",
+              "values": [
+                "30 to 40 percent",
+                "20 to 25 percent",
+                "15 to 20 percent",
+                "10 to 15 percent",
+                "10 percent"
+              ],
+              "labels": [],
+              "minimum": null,
+              "spec_id": "D057",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D057.svg"
+            },
+            {
+              "kind": "table",
+              "title": "Their Scorecard Showed Living Room Surfaces At",
+              "caption": "Their scorecard showed living room surfaces at 90 percent clear, bedroom 85 percent, kitchen 80 percent after dinner.",
+              "values": [
+                "90 percent",
+                "85 percent",
+                "80 percent"
+              ],
+              "labels": [
+                "90 percent",
+                "85 percent",
+                "80 percent"
+              ],
+              "minimum": null,
+              "spec_id": "D058",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D058.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Walk through each room for ten minutes, listing visual noise and functional friction.",
+              "minutes": null
+            },
+            {
+              "text": "Finalize your palette card with selected colors and finishes.",
+              "minutes": null
+            },
+            {
+              "text": "Measure key zones in each room to ensure accurate dimensions.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Failing to measure accurately can lead to misfit items and wasted time.",
+          "checklist": [
+            "Walk through each room and list visual noise.",
+            "Finalize your palette card with colors and finishes.",
+            "Measure key zones in the living room, bedroom, and kitchen."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "room-by-room-sequencing",
+          "title": "Room sequence during the 30 days",
+          "day_label": "During the 30 days",
+          "hero": {
+            "query": "Stylish bedroom with organized wardrobe, clear surfaces, and cohesive textiles, warm lighting, linen textures, magazine styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A beautifully organized bedroom showcasing a clear bedscape and neatly arranged wardrobe, emphasizing a cohesive color palette.",
+            "alt": "An angle showing the bedroom with a focus on the bed and bedside decor.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\037-pexels.jpg",
+            "credit": "Photo by Ron Lach on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "In their Bengaluru rental, Aarav and Meera tackle the living room declutter. They clear surfaces to reach 80 percent, removing extra decor and duplicates, and box temporary removals. They install layout anchors from their Living Room Room Kit, placing the rug and aligning the sofa.",
+          "principle": "Do rooms in calendar order. Do not start a new Day 1 when you open a room-kit chapter.",
+          "body": [
+            "Daily tasks are structured to ensure you focus on one room at a time, minimizing decision fatigue. Start with the living room, clearing surfaces to achieve 80 percent clarity. Remove extra decor and duplicates, boxing temporary removals to maintain a clean space.",
+            "Install layout anchors from your Living Room Room Kit, ensuring the rug is placed correctly, the sofa is aligned, and a media or art focal point is established. This creates a visual anchor that enhances the room's functionality and aesthetic.",
+            "As you progress, order or install essentials like curtains that fit your palette, a floor lamp, and a storage solution for remotes and papers. Style with restraint, using one anchor and two accents while balancing with negative space."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Their Scorecard Showed Living Room Surfaces At",
+              "caption": "Their scorecard showed living room surfaces at 90 percent clear, bedroom 85 percent, kitchen 80 percent after dinner.",
+              "values": [
+                "90 percent",
+                "85 percent",
+                "80 percent"
+              ],
+              "labels": [
+                "90 percent",
+                "85 percent",
+                "80 percent"
+              ],
+              "minimum": null,
+              "spec_id": "D012",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D012.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Clear surfaces to reach 80 percent clarity in the living room.",
+              "minutes": null
+            },
+            {
+              "text": "Install layout anchors and align furniture according to your plan.",
+              "minutes": null
+            },
+            {
+              "text": "Order or install essential items that match your palette.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Overcrowding surfaces with decor can disrupt the cohesive look you aim for.",
+          "checklist": [
+            "Clear surfaces in the living room to reach 80 percent.",
+            "Install layout anchors and align furniture.",
+            "Order or install essential items like curtains and lamps."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "weekly-reset-routine",
+          "title": "Weekly reset starts after Day 30",
+          "day_label": "After Day 30",
+          "hero": {
+            "query": "Compact kitchen with organized counters, clear surfaces, and labeled pantry zones, warm lighting, plaster textures, magazine styling, photorealistic, no people, no text, no watermark.",
+            "flux_prompt": "A well-organized kitchen showcasing clear counters and labeled pantry zones, emphasizing functionality and aesthetic appeal.",
+            "alt": "An angle showing the kitchen with a focus on storage solutions and counter organization.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\038-pexels.jpg",
+            "credit": "Photo by cottonbro studio on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "Aarav and Meera establish their weekly reset routine in their Mumbai flat. They set aside 20 to 40 minutes every Sunday morning to clear surfaces, reset their spaces, and ensure everything is in order after a busy week.",
+          "principle": "Weekly reset is maintenance after the transformation, not a second 30-day program.",
+          "body": [
+            "After Day 30, shift from transformation to maintenance. The weekly reset keeps unobstructed area and visual noise from drifting. It is not Days 1–7 of a new project. Establishing a weekly reset routine is crucial for maintaining the clarity and cohesion of your home. Dedicate 20 to 40 minutes each week to reset your spaces. This includes clearing surfaces in the living room, returning remotes, folding throws, and aligning cushions.",
+            "In the bedroom, clear bedside tables, rehang clothes, reset the bedscape, and empty the laundry bin to a fixed spot. This not only keeps your space organized but also prepares you for the week ahead.",
+            "In the kitchen, run your nightly shutdown checklist, wipe counters, empty the drying rack, reset towels, and do a quick floor sweep. Document your reset with three photos to track progress and surface percentages."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Dedicate 20 to 40 minutes for a whole home reset every week.",
+              "minutes": null
+            },
+            {
+              "text": "Clear surfaces in the living room and bedroom, and reset the kitchen.",
+              "minutes": null
+            },
+            {
+              "text": "Document your reset with photos to track progress.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Neglecting the weekly reset can lead to clutter accumulation and a return to visual noise.",
+          "checklist": [
+            "Set aside time for a weekly reset every Sunday.",
+            "Clear surfaces and reset each room according to your routine.",
+            "Document your reset with photos."
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "the-30-day-action-calendar-and-habit-tracker",
+      "title": "30-Day Action Calendar And Habit Tracker",
+      "intro": "This is the only Day 1–30 list. Each day has one concrete task. Method chapters use the same Day numbers. Weekly reset starts after Day 30.",
+      "opener": {
+        "query": "A cozy 1 BHK in Pune, showcasing a unified color palette with 80 percent clutter-free surfaces in the living room, bedroom, and kitchen.",
+        "flux_prompt": "Full-bleed shot of a well-decorated 1 BHK apartment, highlighting a cohesive color palette and organized surfaces, with natural light streaming in from a window.",
+        "alt": "A cozy 1 BHK in Pune, showcasing a unified color palette with 80 percent clutter-free surfaces in the living room, bedroom, and kitchen.",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\039-pexels.jpg",
+        "credit": "Photo by Anisha Deb on Pexels",
+        "ai_generated": false,
+        "provider_id": ""
+      },
+      "sections": [
+        {
+          "slug": "week-1-assess-palette-tools",
+          "title": "Days 1–7: Assess, measure, palette",
+          "day_label": "30-Day Plan — Days 1–7",
+          "hero": {
+            "query": "A well-lit living room in a Pune apartment, showcasing clear surfaces and a unified color palette, with natural textures.",
+            "flux_prompt": "A close-up of a clutter-free coffee table with a plant and coasters, emphasizing the 80 percent rule.",
+            "alt": "A serene bedroom corner with a neatly arranged dresser and decorative elements.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\040-pexels.jpg",
+            "credit": "Photo by Engin Akyurt on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "Riya lives in a 1BHK in Pune with a 9-foot living room. She begins her transformation by walking through each room, measuring and documenting the space.",
+          "principle": "Measurement and 80 percent unobstructed area are separate checkboxes. Visual-noise scores are subjective.",
+          "body": [
+            "This week is Days 1–7 of the same 30-day plan used in the method chapters. Do one task a day. If you miss a day, keep the number — do not restart at Day 1 in the next chapter.",
+            "Day 1 — Photograph every room and list usable horizontal surfaces. Do not score 80 percent yet.",
+            "Day 2 — Run Keep / Edit / Exit on living-room surfaces. Out Box now; schedule donation, recycling, resale, or disposal as soon as practical.",
+            "Day 3 — Score visual noise 0–5 on density, contrast, height, glare, and cords. Maximum 25. Under 7 is a planning target. Work any 4 or 5 first.",
+            "Day 4 — Sketch a zonal layout grid for living room, bedroom, and kitchen.",
+            "Day 5 — Block the remaining calendar days on a real week. Confirm that weekly reset is after Day 30.",
+            "Day 6 — Audit fixed finishes and undertones. These already occupy part of the palette field.",
+            "Day 7 — Choose a base neutral that supports the dominant existing color. Do not force a new primary over finishes you cannot change."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "Separate measure from unobstructed area",
+              "caption": "Measurement and 80 percent clarity are two tasks. Clarity means unobstructed usable area, not visual calm.",
+              "values": [
+                "Dimensions recorded",
+                "Dimensions recorded",
+                "Dimensions recorded",
+                "About eighty percent clear",
+                "About eighty percent clear",
+                "About eighty percent clear"
+              ],
+              "labels": [
+                "Living-room measurements",
+                "Bedroom measurements",
+                "Kitchen measurements",
+                "Living-room unobstructed area",
+                "Bedroom unobstructed area",
+                "Kitchen unobstructed area"
+              ],
+              "minimum": null,
+              "spec_id": "D062",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D062.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Photograph rooms and list surfaces (Day 1).",
+              "minutes": null
+            },
+            {
+              "text": "Keep / Edit / Exit living-room surfaces; fill the Out Box (Day 2).",
+              "minutes": null
+            },
+            {
+              "text": "Score five visual-noise factors 0–5 (Day 3).",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: the checklist says 'Measure living surfaces 80 percent.' Cause: measurement and unobstructed area were mixed. Fix: complete measurements, then separately check unobstructed area.",
+          "checklist": [
+            "Day 1 — Photographs and surface list completed",
+            "Day 2 — Living-room Keep / Edit / Exit; Out Box filled",
+            "Day 3 — Visual-noise scores 0–5 recorded",
+            "Day 4 — Zonal grid sketched",
+            "Day 5 — Remaining days blocked on a real calendar",
+            "Day 6 — Fixed-finishes audit completed",
+            "Day 7 — Base neutral chosen after fixed finishes"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "week-1-palette-selection",
+          "title": "Days 8–14: Palette lock and living room",
+          "day_label": "30-Day Plan — Days 8–14",
+          "hero": {
+            "query": "A vibrant display of color swatches on a table in a Pune apartment, with natural light enhancing the hues.",
+            "flux_prompt": "An artistic arrangement of selected color swatches, showcasing the 60-30-10 ratio concept.",
+            "alt": "A close-up of a beautifully styled cushion in the selected accent color.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\041-pexels.jpg",
+            "credit": "Photo by Леся Терехова on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "Riya explores color swatches in her Pune apartment, aiming to select a cohesive palette for her living room, bedroom, and kitchen.",
+          "principle": "Apply 60/30/10 after fixed finishes. Living-room days match the method chapters.",
+          "body": [
+            "Day 8 — Sketch 60/30/10 as a visual guideline after listing what cannot change. Do not calculate exact square footage.",
+            "Day 9 — Test swatches on the Light Ladder morning, afternoon, and evening.",
+            "Day 10 — Repeat the living-room visual-noise audit with the 0–5 anchors. Note the loudest surface.",
+            "Day 11 — Build a surface parking zone so daily objects have a home off the styled field.",
+            "Day 12 — Living-room 3-2-1 sprint: three out, two donated or relocated, one edited. Discretionary items only.",
+            "Day 13 — Set One-In-One-Out for non-essential decor, clothing, and discretionary household items only.",
+            "Day 14 — Optional 5-7-9 styling. Stop when the arrangement reads calm, even if the count is even."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "60/30/10 after what you cannot change",
+              "caption": "Treat 60/30/10 as a visual heuristic. Fixed finishes already count.",
+              "values": [
+                "Floor, cabinets, tiles",
+                "Already in the room",
+                "Textiles you add",
+                "Small objects"
+              ],
+              "labels": [
+                "What cannot change",
+                "Dominant existing color",
+                "Supporting color",
+                "Accent"
+              ],
+              "minimum": null,
+              "spec_id": "D063",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D063.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Lock palette after fixed finishes (Days 8–9).",
+              "minutes": null
+            },
+            {
+              "text": "Living-room noise audit and parking zone (Days 10–11).",
+              "minutes": null
+            },
+            {
+              "text": "3-2-1 sprint and discretionary One-In-One-Out (Days 12–13).",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: a new candle 'exits' the kettle. Cause: One-In-One-Out was applied to essentials. Fix: limit it to discretionary items.",
+          "checklist": [
+            "Day 8 — 60/30/10 sketched after fixed finishes",
+            "Day 9 — Swatches tested in real light",
+            "Day 10 — Living-room visual-noise scores recorded",
+            "Day 11 — Surface parking zone set",
+            "Day 12 — Living-room 3-2-1 sprint done",
+            "Day 13 — Discretionary One-In-One-Out agreed",
+            "Day 14 — Living-room styled only as far as it stays calm"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "week-2-living-room-plan-and-declutter",
+          "title": "Days 15–21: Living-room lock, bedroom, kitchen start",
+          "day_label": "30-Day Plan — Days 15–21",
+          "hero": {
+            "query": "A neatly organized media console in a Pune living room, demonstrating the results of a successful declutter sprint.",
+            "flux_prompt": "A clear coffee table with only essential items remaining, showcasing the 80 percent rule.",
+            "alt": "A cozy corner with a well-placed plant and minimal decor.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\042-pexels.jpg",
+            "credit": "Photo by Eskoala A on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "Riya embarks on a 3-2-1 declutter sprint in her Pune living room, focusing on her media console and coffee table.",
+          "principle": "Keep using the same Day numbers. Bedroom and kitchen kits are references, not a new Day 1.",
+          "body": [
+            "Day 15 — Set one Anchor / Accent / Balance triangle in the living room. This is a heuristic, not a law.",
+            "Day 16 — Capsule wardrobe grid: map what you actually wear in this climate.",
+            "Day 17 — Bedroom Keep / Edit / Exit. Out Box immediately; disposal as soon as practical.",
+            "Day 18 — Hanger parity so the rail cannot silently refill.",
+            "Day 19 — Laundry loop so dirty clothes do not land on the bed or chair.",
+            "Day 20 — Kitchen 3-2-1 sprint on discretionary counter objects, not on essential cookware.",
+            "Day 21 — Par-level planning for staples you actually cook with."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Finish living-room triangle (Day 15).",
+              "minutes": null
+            },
+            {
+              "text": "Bedroom wardrobe days (Days 16–19).",
+              "minutes": null
+            },
+            {
+              "text": "Kitchen sprint and par levels (Days 20–21).",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: 'I am on Day 4' and nobody knows which chapter. Cause: room-kit headings still said Day 1. Fix: only the 30-Day Plan uses Day numbers.",
+          "checklist": [
+            "Day 15 — Living-room triangle set",
+            "Day 16 — Capsule grid filled",
+            "Day 17 — Bedroom Keep / Edit / Exit; Out Box filled",
+            "Day 18 — Hanger parity done",
+            "Day 19 — Laundry loop in place",
+            "Day 20 — Kitchen 3-2-1 on discretionary items",
+            "Day 21 — Par levels written"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "week-4-finish-recheck-and-handoff",
+          "title": "Days 22–30: Kitchen finish, re-check, handoff",
+          "day_label": "30-Day Plan — Days 22–30",
+          "hero": {
+            "query": "A neatly organized media console in a Pune living room, demonstrating the results of a successful declutter sprint.",
+            "flux_prompt": "A clear coffee table with only essential items remaining, showcasing the 80 percent rule.",
+            "alt": "A calm 1 BHK kitchen and living room after a 30-day surface reset.",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\042-pexels.jpg",
+            "credit": "Photo by Eskoala A on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "On Day 30, Riya photographs the same three rooms she shot on Day 1. She schedules the first weekly reset for the following weekend — after the transformation.",
+          "principle": "Days 24–30 close the transformation. Weekly reset is the next product, not Day 1 again.",
+          "body": [
+            "Day 22 — Style open shelves only as far as the 80 percent unobstructed-area target still holds.",
+            "Day 23 — Install the nightly kitchen shutdown checklist.",
+            "Day 24 — Finish leftover sourcing and installs from the room kits. Manufacturer instructions win over any number in this book.",
+            "Day 25 — Photograph living room, bedroom, and kitchen from the same spots as Day 1.",
+            "Day 26 — Re-score visual noise 0–5. Compare with Day 3. Work any remaining 4 or 5.",
+            "Day 27 — Check unobstructed usable area on living, bedroom, and kitchen surfaces. This is not the visual-noise score.",
+            "Day 28 — Schedule Out Box donation, recycling, resale, or e-waste. Do not dump items to beat a clock.",
+            "Day 29 — Walk the three rooms once as a guest would. Note pinch points. 28-inch living-room paths are a tight-space bound, not an accessibility rule.",
+            "Day 30 — Write the weekly-reset date. Maintenance starts after Day 30."
+          ],
+          "figures": [
+            {
+              "kind": "table",
+              "title": "What happens after Day 30",
+              "caption": "Transformation, then weekly reset, then long-term maintenance. Do not restart Day 1.",
+              "values": [
+                "Transformation",
+                "Weekly reset",
+                "Long-term maintenance"
+              ],
+              "labels": [
+                "Days 1–30",
+                "After Day 30",
+                "Later"
+              ],
+              "minimum": null,
+              "spec_id": "D064",
+              "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\figures\\D064.svg"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Finish kitchen styling and shutdown (Days 22–23).",
+              "minutes": null
+            },
+            {
+              "text": "Photograph and re-score (Days 25–27).",
+              "minutes": null
+            },
+            {
+              "text": "Schedule Out Box and first weekly reset after Day 30 (Days 28–30).",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: Week 4 of the calendar feels like a second Day 1. Cause: weekly reset was mixed into the transformation. Fix: transformation ends on Day 30; reset is maintenance.",
+          "checklist": [
+            "Day 22 — Open shelves styled without burying the prep patch",
+            "Day 23 — Nightly shutdown posted",
+            "Day 24 — Leftover installs finished",
+            "Day 25 — Day-1 photo pairs shot",
+            "Day 26 — Visual-noise re-score done",
+            "Day 27 — Unobstructed-area check done (separate from noise)",
+            "Day 28 — Out Box disposal scheduled",
+            "Day 29 — Guest walk complete",
+            "Day 30 — First weekly reset dated after Day 30"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "unified-color-palette-swatch-workbook",
+      "title": "Unified Color Palette Swatch Workbook",
+      "intro": "worksheet to finalize a cohesive color palette for a 1 BHK. Audit fixed finishes, test undertones, observe light, and lock a 60, 30, 10 plan across living room, bedroom, and kitchen. Carry room mini cards when shopping to protect decisions.",
+      "opener": {
+        "query": "indian apartment painted living room wall with colour samples daylight editorial interior",
+        "flux_prompt": "Magazine editorial photograph of a compact Indian apartment painted living room wall with colour samples, soft daylight, calm plaster walls, visible paint finish, Architectural Digest India styling, 35mm, no people, no text, photorealistic",
+        "alt": "A calm painted living room wall with colour samples",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\044-pexels.jpg",
+        "credit": "Photo by Sami  Abdullah on Pexels",
+        "ai_generated": false,
+        "provider_id": ""
+      },
+      "sections": [
+        {
+          "slug": "unified-color-palette-swatch-workbook",
+          "title": "Unified Color Palette Swatch Workbook",
+          "day_label": "Workbook",
+          "hero": {
+            "query": "indian apartment painted living room wall with colour samples daylight editorial interior",
+            "flux_prompt": "Magazine editorial photograph of a compact Indian apartment painted living room wall with colour samples, soft daylight, calm plaster walls, visible paint finish, Architectural Digest India styling, 35mm, no people, no text, photorealistic",
+            "alt": "A calm painted living room wall with colour samples",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\044-pexels.jpg",
+            "credit": "Photo by Sami  Abdullah on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "",
+          "principle": "",
+          "body": [
+            "worksheet to finalize a cohesive color palette for a 1 BHK. Audit fixed finishes, test undertones, observe light, and lock a 60, 30, 10 plan across living room, bedroom, and kitchen. Carry room mini cards when shopping to protect decisions.",
+            "shade ranges, finish sheen, and textures.",
+            "week one, then shop and implement in weeks two and three. In week four, declutter to reach 80 percent clear surfaces and review palette consistency across living room, bedroom, and kitchen."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "room-kit-measurement-and-sourcing-checklist",
+      "title": "Room Kit Measurement And Sourcing",
+      "intro": "This chapter provides a comprehensive guide to measuring, sourcing, and staging essentials for a successful home transformation. It includes checklists and templates tailored for a 30-day timeline, ensuring that your living room, bedroom, and kitchen are both functional and aesthetically pleasing.",
+      "opener": {
+        "query": "interior of a modern 1BHK apartment in Pune, natural light from one window, minimalist decor, clean lines, uncluttered surfaces",
+        "flux_prompt": "full-bleed shot of a stylish Pune apartment living room with a well-organized layout and cohesive color palette",
+        "alt": "interior of a modern 1BHK apartment in Pune, natural light from one window, minimalist decor, clean lines, uncluttered surfaces",
+        "source": "pexels",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\046-pexels.jpg",
+        "credit": "Photo by Anisha Deb on Pexels",
+        "ai_generated": false,
+        "provider_id": ""
+      },
+      "sections": [
+        {
+          "slug": "living-room-kit-essentials",
+          "title": "Living Room Kit Essentials",
+          "day_label": "Sourcing kit",
+          "hero": {
+            "query": "interior of a modern living room with a well-placed rug and furniture arrangement, natural light from a window, minimalist decor",
+            "flux_prompt": "a clean and organized living room with a focus on furniture arrangement and decor",
+            "alt": "a cozy corner of the living room with a well-styled coffee table and decor accents",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\047-pexels.jpg",
+            "credit": "Photo by Max Vakhtbovych on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "Ravi, living in a 1BHK in Pune, has a living room measuring 9 feet by 12 feet. He wants to ensure that his furniture fits perfectly and maintains a clutter-free environment.",
+          "principle": "Size rugs by placement, not by a 60-percent-area spec. Console ratios are visual starting points.",
+          "body": [
+            "Start by measuring your living room dimensions accurately, noting the width and length along with the ceiling height. Attach a photo of the space for reference. Choose a rug large enough for the front legs of the main seating pieces to sit on it, while leaving an intentional border of exposed floor around the composition. For Ravi's 9-by-12-foot living room, a 200-by-290-centimeter rug is one example that can hold the sofa's front legs with a visible floor border — not a 60-percent-area calculation.",
+            "When choosing curtains, install them at the ceiling or just below, allowing them to drop to the floor. Use 1.5 to 2 times the window width as a fullness starting point. Actual width also depends on panel count, fabric thickness, pleat style, rod extension past the frame, and stacking space. If Ravi's window is about 3 feet wide, 4.5 to 6 feet of fabric width is a fullness starting point, then adjust for panels, pleats, rod extension, and stacking space.",
+            "Use 75 to 90 percent of TV width as a visual starting point for the console, then verify the actual TV stand footprint, equipment, wall width, cable routing, speakers, doors or drawers, and visual balance. For Ravi, a 4-to-5-foot console is one example to test against those constraints, not a specification."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Measure the living room dimensions and ceiling height, and take a photo.",
+              "minutes": null
+            },
+            {
+              "text": "Choose a rug that holds the front legs of the main seating, with an intentional floor border.",
+              "minutes": null
+            },
+            {
+              "text": "Install curtains at the correct height and width.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: a 60-percent rug spec cannot be reproduced from the seating. Cause: area percentage was treated as a sizing method. Fix: size by front-leg placement and an intentional floor border.",
+          "checklist": [
+            "Room dimensions, width and length, ceiling height, photo attached",
+            "Rug placement: front legs of primary seating on rug / full seating group on rug / other intentional layout; then size, source, price, delivery, return window",
+            "Curtains, install height at ceiling or just below, drop to floor, width 1.5 to 2 times window as a fullness starting point, fabric, link, price",
+            "Media console, 75 to 90 percent of TV width as a visual starting point, then check equipment, wall, and clearance; depth, cable routing, link, price",
+            "Coffee table, length at two thirds sofa length, clearance 45 to 50 centimeters, link, price",
+            "Shelf heights, lower shelf reserved for baskets, upper for decor, clear surfaces reminder"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "bedroom-kit-essentials",
+          "title": "Bedroom Kit Essentials",
+          "day_label": "Sourcing kit",
+          "hero": {
+            "query": "a serene bedroom setup with a neatly made bed, aligned nightstands, and organized wardrobe, natural light filtering through curtains",
+            "flux_prompt": "a cozy bedroom showcasing a well-styled bed and nightstands",
+            "alt": "a close-up of the wardrobe interior with organized clothing and accessories",
+            "source": "pexels",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\048-pexels.jpg",
+            "credit": "Photo by Алан Албегов on Pexels",
+            "ai_generated": false,
+            "provider_id": ""
+          },
+          "scenario": "Anita lives in a 1BHK in Bengaluru. Her bedroom features a bed that needs to be positioned correctly with nightstands and a wardrobe that fits the space.",
+          "principle": "Match nightstand height to the mattress. Size nightstand width to remaining clearance, not to each-table percentages of bed width.",
+          "body": [
+            "Measure the mattress height from floor to top so you can choose a comfortable bedside-table height. A 55-to-65-centimeter mattress top is a common sitting-height planning band for many adults, not a lighting rule. For Anita, about 60 centimeters is her preferred sitting height in this example. Then position the lamp so its useful light falls where she needs it without glare — lamp height, shade, and placement do that work, not bed height.",
+            "Size each nightstand from the actual clearance beside the bed, not from a percentage of bed width per table. If you use a proportion at all, treat 50 to 75 percent of the bed width as a starting range for the combined width of both nightstands. For Anita's 5-foot bed, that combined starting range is about 2.5 to 3.75 feet, split across the two sides only if both sides have room. Match the nightstand top to the mattress height, then check that doors, drawers, and the walking line still open.",
+            "For the wardrobe, ensure that hanging clearances are 150 centimeters for long items and 100 centimeters for short items. The shelf spacing should be 30 centimeters, and drawer heights should be between 15 to 20 centimeters. This setup will maximize storage while keeping the room organized."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Measure mattress height, match the nightstand top, then place the lamp for glare-free light.",
+              "minutes": null
+            },
+            {
+              "text": "Size nightstands to side clearance; if using a proportion, apply 50 to 75 percent of bed width to both nightstands combined.",
+              "minutes": null
+            },
+            {
+              "text": "Ensure wardrobe dimensions accommodate all clothing types.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: two 3-foot nightstands swallow a 5-foot bed. Cause: 50 to 75 percent was applied to each table. Fix: use combined width, or ignore the percentage and size each table to the remaining walkway.",
+          "checklist": [
+            "Mattress height recorded; nightstand top matched to mattress; lamp placed for useful light without glare",
+            "Nightstands, combined width as a starting range if used, each table sized to actual side clearance, top aligned with mattress",
+            "Wardrobe interior, hanging clearances, long 150 centimeters, short 100 centimeters, shelf spacing 30 centimeters, drawer height 15 to 20 centimeters",
+            "Curtains or blinds, blackout or layered sheer plus blackout, measurements, link, price",
+            "Rug placement, two runners or one large, under two thirds of bed, clear walkway"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "kitchen-kit-essentials",
+          "title": "Kitchen Kit Essentials",
+          "day_label": "Sourcing kit",
+          "hero": {
+            "query": "a well-organized kitchen with clear countertops, neatly arranged shelves, and effective task lighting, natural light from a window",
+            "flux_prompt": "a functional kitchen space showcasing organized shelves and clutter-free counters",
+            "alt": "a close-up of kitchen task lighting under cabinets, highlighting a clean workspace",
+            "source": "mock",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\049-mock.jpg",
+            "credit": "",
+            "ai_generated": false,
+            "provider_id": "mock:c6ba6108f88b5dc7:0"
+          },
+          "scenario": "Suresh has a compact kitchen in his Mumbai flat, where he struggles with counter clutter. He needs to optimize his space for functionality.",
+          "principle": "Up to three daily-use items is a starting count. 80 percent unobstructed area is a separate check.",
+          "body": [
+            "Choose up to three daily-use items as a starting point, while still checking that approximately 80 percent of usable counter area remains unobstructed. Three objects are not the same as 20 percent occupied area — a kettle, knife block, and fruit bowl might cover much less or much more depending on the counter. Store non-essential or infrequently used items away; keep genuinely daily-use items accessible while protecting the prep zone, especially if they are heavy, hard to retrieve, or used by someone with limited mobility.",
+            "Set shelf heights so that everyday plates are at eye level, making them easy to access. Heavy items should be placed lower to avoid strain. Suresh should consider placing his plates on a shelf that is approximately 5 to 6 feet high, allowing for easy reach.",
+            "Install task lighting under cabinet strips to enhance visibility during meal preparation. Measure the space accurately to ensure the lighting fits well without obstructing other elements. Suresh should look for strips that are around 2 to 3 feet long, providing ample light without being overpowering."
+          ],
+          "figures": [],
+          "steps": [
+            {
+              "text": "Choose up to three daily-use items, then check unobstructed counter area.",
+              "minutes": null
+            },
+            {
+              "text": "Adjust shelf heights for easy access to everyday plates.",
+              "minutes": null
+            },
+            {
+              "text": "Install under-cabinet lighting for improved visibility.",
+              "minutes": null
+            }
+          ],
+          "steps_label": "Do this",
+          "mistake": "Symptom: a daily kettle is hidden to hit three items and 80 percent. Cause: item count was treated as the area rule. Fix: keep genuinely daily-use pieces accessible and check unobstructed area separately.",
+          "checklist": [
+            "Counter: up to three daily-use items as a start, then confirm about 80 percent of usable area stays unobstructed",
+            "Shelf heights, everyday plates at eye level, heavy items lower, labels set",
+            "Task lighting, measurements for under cabinet strips, link, price",
+            "Bins and dividers, widths and depths per drawer, link, price"
+          ],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    },
+    {
+      "slug": "weekly-reset-routine-and-cleaning-guide",
+      "title": "Weekly Reset Routine and Cleaning Guide",
+      "intro": "Use this after Day 30. It maintains the 30-day result. It is not a second transformation and it does not restart at Day 1.",
+      "opener": {
+        "query": "1 BHK apartment in Pune, bright natural light, organized living space, minimalist decor, no people, no text, no watermark.",
+        "flux_prompt": "full-bleed shot of a tidy living room with a clear color palette, showcasing a blend of textures and light.",
+        "alt": "1 BHK apartment in Pune, bright natural light, organized living space, minimalist decor, no people, no text, no watermark.",
+        "source": "mock",
+        "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\050-mock.jpg",
+        "credit": "",
+        "ai_generated": false,
+        "provider_id": "mock:e761435a5bc427d9:0"
+      },
+      "sections": [
+        {
+          "slug": "purpose-and-benefits",
+          "title": "Purpose and Benefits",
+          "day_label": "After Day 30",
+          "hero": {
+            "query": "1 BHK apartment in Pune, organized kitchen with clear surfaces, natural light, no people, no text, no watermark.",
+            "flux_prompt": "photorealistic shot of a tidy kitchen with matching towels and countertop items, showcasing a cohesive color palette.",
+            "alt": "kitchen with organized shelves and clear counters.",
+            "source": "mock",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\051-mock.jpg",
+            "credit": "",
+            "ai_generated": false,
+            "provider_id": "mock:8ad20e6e9ce40296:0"
+          },
+          "scenario": "Ravi lives in a 1 BHK in Pune with a busy work schedule. He often feels overwhelmed by clutter and visual noise in his living space. By implementing the weekly reset routine, he aims to maintain a unified aesthetic without daily overwhelm.",
+          "principle": "Weekly reset is maintenance after the 30-day transformation.",
+          "body": [
+            "The weekly reset routine is designed to maintain a unified aesthetic without the stress of daily cleaning. By keeping surfaces at 80 percent clear, you can achieve visual calm in your home, making it feel more spacious and inviting.",
+            "This routine helps reinforce your chosen color palette by removing off-palette items and spotlighting key accents. It prevents the backlog of clutter from toys, mail, and cooking mess, ensuring that your space remains organized and serene.",
+            "By creating shared responsibilities through simple roles and repeatable steps, everyone in the household can contribute to maintaining a tidy environment."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Ignoring the palette can lead to visual clutter, making the space feel chaotic.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "how-to-use-the-weekly-reset-routine",
+          "title": "How to Use the Weekly Reset Routine",
+          "day_label": "After Day 30",
+          "hero": {
+            "query": "1 BHK apartment in Bengaluru, cozy bedroom with organized nightstand, natural light, no people, no text, no watermark.",
+            "flux_prompt": "photorealistic shot of a neatly made bed with aligned pillows and a tidy nightstand, showcasing a cohesive color palette.",
+            "alt": "bedroom with soft textures and clear surfaces.",
+            "source": "mock",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\052-mock.jpg",
+            "credit": "",
+            "ai_generated": false,
+            "provider_id": "mock:ba6b91a07f14bffc:0"
+          },
+          "scenario": "Sita, a solo renter in Bengaluru, struggles to keep her apartment tidy. She decides to dedicate Sunday evenings to her weekly reset, setting a timer to help her stay focused.",
+          "principle": "Establishing a routine makes it easier to maintain a clutter-free home.",
+          "body": [
+            "Choose a fixed weekly slot for your reset routine, such as Sunday evening. This consistency helps you form a habit, making it easier to maintain order in your living space.",
+            "Set a timer for 20 to 40 minutes and play your favorite playlist as a cue to start. This not only makes the task enjoyable but also helps you stay on track with your timing.",
+            "Assign room leads or shared tasks using the Roles Template. This encourages everyone in the household to take responsibility for their space, making the process more efficient."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Skipping the timer can lead to perfectionism and prolong the reset process.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "step-by-step-room-passes",
+          "title": "Step by Step Room Passes",
+          "day_label": "After Day 30",
+          "hero": {
+            "query": "1 BHK apartment in Mumbai, organized living room with clear surfaces, natural light, no people, no text, no watermark.",
+            "flux_prompt": "photorealistic shot of a tidy living room with a clear color palette and organized decor, showcasing a blend of textures and light.",
+            "alt": "living room with a minimalist aesthetic.",
+            "source": "mock",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\053-mock.jpg",
+            "credit": "",
+            "ai_generated": false,
+            "provider_id": "mock:cf548484c699082f:0"
+          },
+          "scenario": "Anjali, living in a Mumbai flat with limited space, follows the room pass checklist to ensure her living area remains organized and visually appealing.",
+          "principle": "Structured room passes streamline the cleaning process and enhance efficiency.",
+          "body": [
+            "For the Living Room, aim to clear surfaces to 80 percent. Move extras to a basket for rehoming later. Fluff and fold textiles, check cables, and display two accent items in your chosen colors while removing off-palette décor.",
+            "In the Bedroom, make the bed by smoothing the duvet or sheet and aligning pillows. Reset the nightstand to include only one book or item, keeping the rest clear. Advance the laundry loop by sorting items to the basket and staging the first load, ensuring that bedding and accents align with your color palette.",
+            "In the Kitchen, perform a nightly shutdown by clearing dishes and wiping counters. Wipe one fridge shelf, removing expired items, and tidy the bin by replacing liners and staging recycling. Keep only matching towels and countertop items visible to maintain a cohesive look."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Focusing on deep cleaning instead of a quick reset can lead to burnout and frustration.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        },
+        {
+          "slug": "tips-for-success",
+          "title": "Tips for Success",
+          "day_label": "After Day 30",
+          "hero": {
+            "query": "1 BHK apartment in Pune, organized entryway with cleaning supplies, natural light, no people, no text, no watermark.",
+            "flux_prompt": "photorealistic shot of a tidy entryway with a cleaning supplies tote and clear surfaces, showcasing a minimalist aesthetic.",
+            "alt": "entryway with organized supplies.",
+            "source": "mock",
+            "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\30-day-1-bhk-aesthetic-transformation\\photos\\054-mock.jpg",
+            "credit": "",
+            "ai_generated": false,
+            "provider_id": "mock:cb9ed3d4f2e2b287:0"
+          },
+          "scenario": "Karan, a young professional in Pune, finds it challenging to keep his apartment organized. He implements some tips for success to enhance his weekly reset routine.",
+          "principle": "Simple strategies can significantly improve the effectiveness of your cleaning routine.",
+          "body": [
+            "Keep all your cleaning supplies in one tote at the entry of your home. This makes it easy to grab everything you need for your reset, saving time and effort during the process.",
+            "Use a visible timer to keep yourself accountable and prevent perfectionism. This encourages you to focus on completing the tasks within the set time frame, making the reset feel less daunting.",
+            "Pair the reset with music or a show intro to create a consistent routine. This not only makes the process enjoyable but also helps you associate cleaning with positive experiences."
+          ],
+          "figures": [],
+          "steps": [],
+          "steps_label": "Do this",
+          "mistake": "Letting baskets sit for too long can lead to clutter reaccumulating in your space.",
+          "checklist": [],
+          "checklist_label": "Before you move on",
+          "inline_photos": []
+        }
+      ]
+    }
+  ]
+}

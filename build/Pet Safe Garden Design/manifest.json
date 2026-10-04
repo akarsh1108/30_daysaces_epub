@@ -1,0 +1,403 @@
+{
+  "title": "Pet Safe Garden Design",
+  "units": "imperial",
+  "outputs": {
+    "pdf": "build\\Pet Safe Garden Design\\pet-safe-garden-design.pdf",
+    "cover": "build\\Pet Safe Garden Design\\cover.pdf",
+    "epub": "build\\Pet Safe Garden Design\\pet-safe-garden-design.epub",
+    "epub_preview": "build\\Pet Safe Garden Design\\epub-preview.html"
+  },
+  "ai_generated_images": 1,
+  "kdp_ai_disclosure_required": true,
+  "images": [
+    {
+      "query": "calm rental balcony garden with planter and shade, no people, no text, no pets",
+      "source": "openai",
+      "credit": "Cover illustration generated for this edition.",
+      "ai": true,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\cover.jpg"
+    },
+    {
+      "query": "A compact pet-friendly garden with defined paths, safe materials, and a clean water feature, designed for dogs.",
+      "source": "pexels",
+      "credit": "Photo by adrian vieriu on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\001-pexels.jpg"
+    },
+    {
+      "query": "A vibrant balcony garden with safe plants, a shaded resting area, and a clean water feature, all designed for pet safety.",
+      "source": "pexels",
+      "credit": "Photo by Beyzaa Yurtkuran on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\002-pexels.jpg"
+    },
+    {
+      "query": "A garden with safe plant alternatives, smooth edges, and a protective barrier, ensuring a safe space for cats.",
+      "source": "pexels",
+      "credit": "Photo by Maximilian Müller on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\003-pexels.jpg"
+    },
+    {
+      "query": "A beautifully designed garden with safe grazing areas, defined paths, and a harmonious plant palette, all tailored for a rabbit.",
+      "source": "pexels",
+      "credit": "Photo by Siegfried Poepperl on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\004-pexels.jpg"
+    },
+    {
+      "query": "outdoor furniture application, pet-safe finishes, sunlight, preparation",
+      "source": "pexels",
+      "credit": "Photo by Quang Nguyen Vinh on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\005-pexels.jpg"
+    },
+    {
+      "query": "outdoor decor finishes, non-toxic materials, pet-safe garden, sunlight, textures",
+      "source": "pexels",
+      "credit": "Photo by NipananLifestyle.com on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\006-pexels.jpg"
+    },
+    {
+      "query": "balcony finishes, pet-safe materials, sunlight, outdoor decor",
+      "source": "pexels",
+      "credit": "Photo by 🇻🇳🇻🇳 Việt Anh Nguyễn 🇻🇳🇻🇳 on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\007-pexels.jpg"
+    },
+    {
+      "query": "garden materials, pet-safe options, sunlight, outdoor styling",
+      "source": "pexels",
+      "credit": "Photo by Matthew Jesús on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\008-pexels.jpg"
+    },
+    {
+      "query": "layered garden structure with various plant heights, sunlight illuminating the scene, no people",
+      "source": "pexels",
+      "credit": "Photo by Emiliano Herrera on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\009-pexels.jpg"
+    },
+    {
+      "query": "lush garden with safe plants, bright sunlight, vibrant colors, no people",
+      "source": "pexels",
+      "credit": "Photo by Adrien Olichon on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\010-pexels.jpg"
+    },
+    {
+      "query": "vibrant garden with pet-safe plants, sunlight filtering through leaves, no people",
+      "source": "pexels",
+      "credit": "Photo by Alexey Demidov on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\011-pexels.jpg"
+    },
+    {
+      "query": "modern garden design with layered plants, sunlight casting shadows, no people",
+      "source": "pexels",
+      "credit": "Photo by Sergej  ***** on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\012-pexels.jpg"
+    },
+    {
+      "query": "pet-friendly circulation paths, outdoor pathways, dog-friendly design, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by @coldbeer on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\013-pexels.jpg"
+    },
+    {
+      "query": "garden maintenance with fallen fruit cleanup, sunlight filtering through leaves, no people",
+      "source": "pexels",
+      "credit": "Photo by Tobi &Chris on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\014-pexels.jpg"
+    },
+    {
+      "query": "garden layout, pet-friendly design, outdoor space, stylish garden, pet safety features, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Lin. on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\015-pexels.jpg"
+    },
+    {
+      "query": "pet-friendly balcony garden, cat-safe plants, outdoor seating, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Birkant  Cakar on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\016-pexels.jpg"
+    },
+    {
+      "query": "drainage solutions in a small garden, natural light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Ulrick Trappschuh on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\017-pexels.jpg"
+    },
+    {
+      "query": "stylish pet boundaries, decorative trellis, indoor plants, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by The Hung on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\018-pexels.jpg"
+    },
+    {
+      "query": "pet-friendly garden, soil and surface textures, drainage solutions, natural light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Mike Bird on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\019-pexels.jpg"
+    },
+    {
+      "query": "play area with various surfaces, textures, natural light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Jan van der Wolf on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\020-pexels.jpg"
+    },
+    {
+      "query": "scent posts in a garden, natural materials, soft lighting, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by đình ưu nguyễn on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\021-pexels.jpg"
+    },
+    {
+      "query": "irrigation system in a garden, natural light, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by 🇻🇳🇻🇳 Việt Anh Nguyễn 🇻🇳🇻🇳 on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\022-pexels.jpg"
+    },
+    {
+      "query": "pet digging box, natural materials, soft lighting, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Chris F on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\023-pexels.jpg"
+    },
+    {
+      "query": "chase corridor in a garden, curved path, natural materials, soft lighting, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Abhishek  Navlakha on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\024-pexels.jpg"
+    },
+    {
+      "query": "A cozy fall garden in Mumbai, showcasing pruned plants and a well-maintained boundary, with warm autumn light filtering through a window.",
+      "source": "pexels",
+      "credit": "Photo by Yaroslav Shuraev on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\025-pexels.jpg"
+    },
+    {
+      "query": "cat climbing spaces in a garden, natural materials, soft lighting, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Nikolett Emmert on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\026-pexels.jpg"
+    },
+    {
+      "query": "A well-maintained pet-safe garden in an Indian apartment setting, showcasing seasonal changes, vibrant plants, and safe surfaces, with natural light filtering through a single window.",
+      "source": "pexels",
+      "credit": "Photo by Aniket Suryawanshi on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\027-pexels.jpg"
+    },
+    {
+      "query": "A close-up of a balcony garden in Pune, showcasing soil testing tools, pet-safe plants, and a vibrant spring atmosphere.",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\028-pexels.jpg"
+    },
+    {
+      "query": "A clean, organized balcony with temporary fencing and a clear site map, sunlight streaming in, showcasing a safe environment for pets.",
+      "source": "pexels",
+      "credit": "Photo by Eduardo Avila Carbajal on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\029-pexels.jpg"
+    },
+    {
+      "query": "A winter garden in Pune, featuring snow-covered paths, pet-safe traction materials, and cozy decorations, with soft winter light.",
+      "source": "pexels",
+      "credit": "Photo by lin lin on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\030-pexels.jpg"
+    },
+    {
+      "query": "A well-organized construction site for a pet-friendly garden, showcasing clear exclusion zones and staging areas, natural light filtering through a single window, with textures of wood and stone in a compact Indian apartment setting.",
+      "source": "pexels",
+      "credit": "Photo by 虎 曼 on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\031-pexels.jpg"
+    },
+    {
+      "query": "A vibrant balcony garden with newly planted herbs and grasses, sunlight illuminating the safe and colorful environment for pets.",
+      "source": "pexels",
+      "credit": "Photo by Doğan Alpaslan  Demir on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\032-pexels.jpg"
+    },
+    {
+      "query": "A balcony with newly installed drainage and irrigation systems, sunlight highlighting the careful layout, showcasing a safe environment for pets.",
+      "source": "pexels",
+      "credit": "Photo by Khoa Võ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\033-pexels.jpg"
+    },
+    {
+      "query": "A newly laid hardscape on the balcony, showcasing smooth porcelain pavers and safe edges, with sunlight enhancing the textures.",
+      "source": "pexels",
+      "credit": "Photo by Jan van der Wolf on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\034-pexels.jpg"
+    },
+    {
+      "query": "pet-friendly garden design, Indian apartment balcony, natural light, lush greenery, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Enric Cruz López on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\035-pexels.jpg"
+    },
+    {
+      "query": "Anjali testing her new balcony garden, ensuring safety and comfort for her cats, with sunlight highlighting the vibrant plants and finishes.",
+      "source": "pexels",
+      "credit": "Photo by Akshay Sawardekar on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\036-pexels.jpg"
+    },
+    {
+      "query": "cozy balcony design for pets, cat-friendly space, outdoor lounge area, raised planters, pet-safe plants",
+      "source": "pexels",
+      "credit": "Photo by Helena Jankovičová Kováčová on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\037-pexels.jpg"
+    },
+    {
+      "query": "pet-friendly garden layout, modular templates, outdoor space design, non-toxic finishes, pet-safe plants, sunlight and shade considerations",
+      "source": "pexels",
+      "credit": "Photo by Lisa Fotios on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\photos\\038-pexels.jpg"
+    }
+  ],
+  "figures": [
+    {
+      "spec_id": "D001",
+      "kind": "table",
+      "title": "Four claims that are not interchangeable",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D001.svg"
+    },
+    {
+      "spec_id": "D002",
+      "kind": "table",
+      "title": "Boundary and plants by species",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D002.svg"
+    },
+    {
+      "spec_id": "D017",
+      "kind": "table",
+      "title": "Surfaces and enrichment by species",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D017.svg"
+    },
+    {
+      "spec_id": "D003",
+      "kind": "table",
+      "title": "Before you install anything",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D003.svg"
+    },
+    {
+      "spec_id": "D004",
+      "kind": "table",
+      "title": "Balcony structural safety check",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D004.svg"
+    },
+    {
+      "spec_id": "D005",
+      "kind": "table",
+      "title": "Plant verification fields",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D005.svg"
+    },
+    {
+      "spec_id": "D006",
+      "kind": "table",
+      "title": "What plant isolation can and cannot do",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D006.svg"
+    },
+    {
+      "spec_id": "D007",
+      "kind": "table",
+      "title": "Circulation is a job, not a universal width",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D007.svg"
+    },
+    {
+      "spec_id": "D021",
+      "kind": "table",
+      "title": "Why the old width numbers differed",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D021.svg"
+    },
+    {
+      "spec_id": "D008",
+      "kind": "table",
+      "title": "Barriers by the smallest escape artist",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D008.svg"
+    },
+    {
+      "spec_id": "D009",
+      "kind": "table",
+      "title": "Soil and fertilizer product sheet",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D009.svg"
+    },
+    {
+      "spec_id": "D010",
+      "kind": "table",
+      "title": "Two drainage worlds",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D010.svg"
+    },
+    {
+      "spec_id": "D022",
+      "kind": "table",
+      "title": "Irrigation safety pass",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D022.svg"
+    },
+    {
+      "spec_id": "D013",
+      "kind": "table",
+      "title": "Catio do-not-proceed",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D013.svg"
+    },
+    {
+      "spec_id": "D015",
+      "kind": "table",
+      "title": "Surface heat monitoring",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D015.svg"
+    },
+    {
+      "spec_id": "D014",
+      "kind": "table",
+      "title": "Seasonal jobs by climate",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D014.svg"
+    },
+    {
+      "spec_id": "D011",
+      "kind": "table",
+      "title": "Construction verification before the next phase",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D011.svg"
+    },
+    {
+      "spec_id": "D012",
+      "kind": "table",
+      "title": "Prioritization aid, not a safety certificate",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D012.svg"
+    },
+    {
+      "spec_id": "D016",
+      "kind": "table",
+      "title": "What a certification does not mean",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Pet Safe Garden Design\\figures\\D016.svg"
+    }
+  ]
+}

@@ -1,0 +1,593 @@
+{
+  "title": "Spill Proof Dining Setup",
+  "units": "imperial",
+  "outputs": {
+    "pdf": "build\\Spill Proof Dining Setup\\spill-proof-dining-setup.pdf",
+    "cover": "build\\Spill Proof Dining Setup\\cover.pdf",
+    "epub": "build\\Spill Proof Dining Setup\\spill-proof-dining-setup.epub",
+    "epub_preview": "build\\Spill Proof Dining Setup\\epub-preview.html"
+  },
+  "ai_generated_images": 1,
+  "kdp_ai_disclosure_required": true,
+  "images": [
+    {
+      "query": "dining table with placemat handled cup warm light no people",
+      "source": "openai",
+      "credit": "Cover illustration generated for this edition.",
+      "ai": true,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\cover.jpg"
+    },
+    {
+      "query": "dining table with spill-proof settings, warm lighting, inviting atmosphere, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Leyla M on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\001-pexels.jpg"
+    },
+    {
+      "query": "dining area with textured tableware, warm lighting, inviting atmosphere, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Quang Nguyen Vinh on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\002-pexels.jpg"
+    },
+    {
+      "query": "dining area with load-bearing wall, cozy lighting, inviting atmosphere, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Japanese girl  in europe on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\003-pexels.jpg"
+    },
+    {
+      "query": "dining area with warm lighting, cozy textures, inviting atmosphere, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Hasini Parsa on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\004-pexels.jpg"
+    },
+    {
+      "query": "Dining table set with adaptive gear, soft lighting, elegant tableware, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Rene Terp on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\005-pexels.jpg"
+    },
+    {
+      "query": "Dining area with stylish table protection, soft lighting, elegant decor, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Engin Akyurt on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\006-pexels.jpg"
+    },
+    {
+      "query": "A well-set dining table with contrasting placemats and textured charger plates, soft lighting, no people, photorealistic, magazine styling.",
+      "source": "pexels",
+      "credit": "Photo by Jonathan Cooper on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\009-pexels.jpg"
+    },
+    {
+      "query": "A close-up of a dining setup showing elbow support and a well-arranged table, soft lighting, no people, photorealistic, magazine styling.",
+      "source": "pexels",
+      "credit": "Photo by Denys Gromov on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\010-pexels.jpg"
+    },
+    {
+      "query": "A dining table with textured charger plates and a high-friction mat, soft lighting, no people, photorealistic, magazine styling.",
+      "source": "pexels",
+      "credit": "Photo by Paul López on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\011-pexels.jpg"
+    },
+    {
+      "query": "A close-up of a dining setup featuring heavier utensils and mugs, soft lighting, no people, photorealistic, magazine styling.",
+      "source": "pexels",
+      "credit": "Photo by Mathias Reding on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\012-pexels.jpg"
+    },
+    {
+      "query": "A dining table with high-contrast placemats and well-placed lighting, soft lighting, no people, photorealistic, magazine styling.",
+      "source": "pexels",
+      "credit": "Photo by Zak Chapman on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\013-pexels.jpg"
+    },
+    {
+      "query": "A dining area with clear pathways and organized staging zones, soft lighting, no people, photorealistic, magazine styling.",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\014-pexels.jpg"
+    },
+    {
+      "query": "dining table with high friction mat, weighted mugs, warm lighting, no people",
+      "source": "pexels",
+      "credit": "Photo by Waqar Hassan on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\015-pexels.jpg"
+    },
+    {
+      "query": "dining table with elbow support and weighted mugs, warm light, no people",
+      "source": "pexels",
+      "credit": "Photo by Golnar Sabzpoush  Rashidi on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\016-pexels.jpg"
+    },
+    {
+      "query": "dining area with tight spaces and load-bearing wall, warm light, no people",
+      "source": "pexels",
+      "credit": "Photo by Kathrine Birch on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\017-pexels.jpg"
+    },
+    {
+      "query": "dining table with plates and cups, warm light, no people",
+      "source": "pexels",
+      "credit": "Photo by Davis Arenas on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\018-pexels.jpg"
+    },
+    {
+      "query": "dining area during cleanup, warm light, no people",
+      "source": "pexels",
+      "credit": "Photo by Kader Azra Namuslu on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\019-pexels.jpg"
+    },
+    {
+      "query": "photorealistic dining table setup, one window light, textured linen tablecloth, ceramic dishware, warm lighting",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\020-pexels.jpg"
+    },
+    {
+      "query": "photorealistic family dining scene, one window light, warm wooden table, textured placemats, ceramic dishware",
+      "source": "pexels",
+      "credit": "Photo by Gu Ko on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\021-pexels.jpg"
+    },
+    {
+      "query": "photorealistic close-up of dining items, one window light, textured placemats, ceramic mugs, warm lighting",
+      "source": "pexels",
+      "credit": "Photo by Linn Htut on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\022-pexels.jpg"
+    },
+    {
+      "query": "a close-up of a dining table setup with a matte charger and thick-handled spoon, warm lighting",
+      "source": "pexels",
+      "credit": "Photo by Rene Terp on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\024-pexels.jpg"
+    },
+    {
+      "query": "a dining table set with a plain runner and off-white plates, warm ambient lighting",
+      "source": "pexels",
+      "credit": "Photo by Matheus Bertelli on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\025-pexels.jpg"
+    },
+    {
+      "query": "Dining area with a modern table setting, soft natural light from one window, textured linen tablecloth, and stylish protective gear.",
+      "source": "pexels",
+      "credit": "Photo by Samuel Peter on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\026-pexels.jpg"
+    },
+    {
+      "query": "Stylish dining area with a focus on safety gear, natural light, and elegant table settings.",
+      "source": "pexels",
+      "credit": "Photo by Valeria Boltneva on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\027-pexels.jpg"
+    },
+    {
+      "query": "Close-up of a stylish placemat and weighted mug, emphasizing safety and design.",
+      "source": "pexels",
+      "credit": "Photo by ERIC MUFASA on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\028-pexels.jpg"
+    },
+    {
+      "query": "A clean dining table with a logbook for tracking spills and cleanup times, illuminated by soft light.",
+      "source": "pexels",
+      "credit": "Photo by Serena Koi on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\029-pexels.jpg"
+    },
+    {
+      "query": "A well-set dining table with a focus on safety and aesthetics, natural light from one side, warm wood textures, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by YI REN on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\030-pexels.jpg"
+    },
+    {
+      "query": "A dining area with a checklist and notes for weekly reviews, natural light from one side, warm wood textures, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Vinny Anugraha on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\032-pexels.jpg"
+    },
+    {
+      "query": "small indian apartment interior minimalist daylight editorial",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\033-pexels.jpg"
+    },
+    {
+      "query": "Dining table with layered protective materials, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Engin Akyurt on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\035-pexels.jpg"
+    },
+    {
+      "query": "Close-up of a layered dining table setup with protective materials, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Ivan S on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\036-pexels.jpg"
+    },
+    {
+      "query": "Dining table with protective layering in place, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Emre Gencer on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\038-pexels.jpg"
+    },
+    {
+      "query": "Modular dining kits displayed on a table, one window light, linen textures, magazine styling, photorealistic, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Tokuo Nobuhiro on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\039-pexels.jpg"
+    },
+    {
+      "query": "Adaptive dishware and utensils on a dining table, warm lighting, textured tablecloth, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by AS Photography on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\040-pexels.jpg"
+    },
+    {
+      "query": "A close-up of adaptive dishware featuring raised lip plates and non-slip bases, warm lighting, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by ready made on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\041-pexels.jpg"
+    },
+    {
+      "query": "A variety of adaptive plates and bowls with raised lips and divided sections, warm lighting, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by ready made on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\042-pexels.jpg"
+    },
+    {
+      "query": "An assortment of adaptive cups and utensils with two handles and weighted features, warm lighting, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Jean-Paul  Wright on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\043-pexels.jpg"
+    },
+    {
+      "query": "A dining setup showcasing proper placement of plates, cups, and utensils, warm lighting, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Jonathan Borba on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\044-pexels.jpg"
+    },
+    {
+      "query": "A close-up of budget-friendly hacks for adaptive dishware, warm lighting, no people, no text, no watermark.",
+      "source": "pexels",
+      "credit": "Photo by Tara Winstead on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\045-pexels.jpg"
+    },
+    {
+      "query": "stability stack setup on a dining table, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Joshua Miranda on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\048-pexels.jpg"
+    },
+    {
+      "query": "implementation of a stability system on a dining table, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Curtis Adams on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\050-pexels.jpg"
+    },
+    {
+      "query": "maintenance routine for a dining table setup, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by 🇻🇳🇻🇳 Việt Anh Nguyễn 🇻🇳🇻🇳 on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\051-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a dining chair with a medium firm cushion, set against a simple wooden table, no people, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Ayşegül  Aytören on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\053-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a dining chair with a firm cushion and lumbar support, no people, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by aboodi vesakaran on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\054-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a dining table set at an appropriate distance from a chair, no people, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\055-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a dining table with a drawn comfort arc on a placemat, no people, photorealistic",
+      "source": "pexels",
+      "credit": "Photo by Thirdman on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\056-pexels.jpg"
+    },
+    {
+      "query": "staging zone for serving food, kitchen to dining area, non-slip mat, rimmed tray, warm lighting",
+      "source": "pexels",
+      "credit": "Photo by Curtis Adams on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\058-pexels.jpg"
+    },
+    {
+      "query": "two hands carrying a bowl and cup, warm lighting, kitchen setting",
+      "source": "pexels",
+      "credit": "Photo by Cup of  Couple on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\060-pexels.jpg"
+    },
+    {
+      "query": "curved bowls and portioned plates, warm lighting, dining setup",
+      "source": "pexels",
+      "credit": "Photo by Mikhail Nilov on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\061-pexels.jpg"
+    },
+    {
+      "query": "caregiver assisting with meal service, warm lighting, dining area",
+      "source": "pexels",
+      "credit": "Photo by ANTONI SHKRABA production on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\062-pexels.jpg"
+    },
+    {
+      "query": "high sided bowls, divided plates, lidded mugs, textured food, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by ready made on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\063-pexels.jpg"
+    },
+    {
+      "query": "high sided bowls, divided plates, textured food, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\064-pexels.jpg"
+    },
+    {
+      "query": "thick soups, cohesive grains, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by cottonbro studio on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\065-pexels.jpg"
+    },
+    {
+      "query": "portion sizes, cut sizes, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Beyzaa Yurtkuran on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\067-pexels.jpg"
+    },
+    {
+      "query": "compact Indian apartment dining area, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Max Vakhtbovych on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\068-pexels.jpg"
+    },
+    {
+      "query": "compact Indian apartment dining area, one window light, teak textures, magazine styling, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Pixabay on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\071-pexels.jpg"
+    },
+    {
+      "query": "small indian apartment interior minimalist daylight editorial",
+      "source": "pexels",
+      "credit": "Photo by Anisha Deb on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\073-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a well-organized kitchen with meal prep containers and utensils, natural light from one window, warm wood textures, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Castorly Stock on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\074-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a dining table set with various meal prep containers and utensils, natural light, warm wood textures, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by sukrit lamthong on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\075-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a printed weekly menu worksheet on a kitchen counter, natural light, warm textures, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by Spencer Stone on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\076-pexels.jpg"
+    },
+    {
+      "query": "stock photo of a filled weekly menu grid on a kitchen table, natural light, warm textures, photorealistic, no people, no text, no watermark",
+      "source": "pexels",
+      "credit": "Photo by https://kaboompics.com/ on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\077-pexels.jpg"
+    },
+    {
+      "query": "Dining area with a spill-proof setup, showcasing various adaptive dining gear, natural light from one window, textures of wood and linen, magazine styling, photorealistic, no people.",
+      "source": "pexels",
+      "credit": "Photo by Pixabay on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\078-pexels.jpg"
+    },
+    {
+      "query": "Elegant dining setup with adaptive gear, showcasing textures of wood and linen, natural light, photorealistic, no people.",
+      "source": "pexels",
+      "credit": "Photo by Ivan S on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\079-pexels.jpg"
+    },
+    {
+      "query": "Dining area in a Bengaluru apartment with a load-bearing wall, showcasing a functional layout, natural light, photorealistic, no people.",
+      "source": "pexels",
+      "credit": "Photo by Ivan S on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\080-pexels.jpg"
+    },
+    {
+      "query": "Practical dining setup in a Pune apartment, showcasing adaptive gear and practical tips, natural light, photorealistic, no people.",
+      "source": "pexels",
+      "credit": "Photo by Bilguun Gantumur on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\082-pexels.jpg"
+    },
+    {
+      "query": "Dining area in a Bengaluru apartment, highlighting common mistakes in setup, natural light, photorealistic, no people.",
+      "source": "pexels",
+      "credit": "Photo by Huy Phan on Pexels",
+      "ai": false,
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\photos\\083-pexels.jpg"
+    }
+  ],
+  "figures": [
+    {
+      "spec_id": "D041",
+      "kind": "table",
+      "title": "What this book can cover",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D041.svg"
+    },
+    {
+      "spec_id": "D042",
+      "kind": "table",
+      "title": "Swallowing and food-texture boundary",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D042.svg"
+    },
+    {
+      "spec_id": "D001",
+      "kind": "table",
+      "title": "Path width is a planning range",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D001.svg"
+    },
+    {
+      "spec_id": "D002",
+      "kind": "table",
+      "title": "Chair-behind clearance is not one number",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D002.svg"
+    },
+    {
+      "spec_id": "D003",
+      "kind": "table",
+      "title": "Wheelchair clear-width trial",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D003.svg"
+    },
+    {
+      "spec_id": "D004",
+      "kind": "table",
+      "title": "Straight last approach — example",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D004.svg"
+    },
+    {
+      "spec_id": "D005",
+      "kind": "table",
+      "title": "Turning space is equipment-specific",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D005.svg"
+    },
+    {
+      "spec_id": "D006",
+      "kind": "table",
+      "title": "Table height is a starting range",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D006.svg"
+    },
+    {
+      "spec_id": "D007",
+      "kind": "table",
+      "title": "Wheelchair example — not a specification",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D007.svg"
+    },
+    {
+      "spec_id": "D008",
+      "kind": "table",
+      "title": "Reach and lighting are tests",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D008.svg"
+    },
+    {
+      "spec_id": "D033",
+      "kind": "table",
+      "title": "Runner coverage is a trial",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D033.svg"
+    },
+    {
+      "spec_id": "D034",
+      "kind": "table",
+      "title": "Armrest and forearm angles are individual",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D034.svg"
+    },
+    {
+      "spec_id": "D035",
+      "kind": "table",
+      "title": "Table-to-seat difference is a starting idea",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D035.svg"
+    },
+    {
+      "spec_id": "D036",
+      "kind": "table",
+      "title": "Table-to-torso is not a 3–5 inch rule",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D036.svg"
+    },
+    {
+      "spec_id": "D037",
+      "kind": "table",
+      "title": "Walker side clearance is equipment-specific",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D037.svg"
+    },
+    {
+      "spec_id": "D038",
+      "kind": "table",
+      "title": "Lighting angle is a seated test",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D038.svg"
+    },
+    {
+      "spec_id": "D039",
+      "kind": "table",
+      "title": "Seat-height examples",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D039.svg"
+    },
+    {
+      "spec_id": "D040",
+      "kind": "table",
+      "title": "Case-study inches are not targets",
+      "path": "C:\\Users\\KIIT\\Desktop\\bookkit\\build\\Spill Proof Dining Setup\\figures\\D040.svg"
+    }
+  ]
+}
